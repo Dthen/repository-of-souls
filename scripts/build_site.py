@@ -375,7 +375,7 @@ index = f'''<!DOCTYPE html>
   <input type="search" id="search" placeholder="Search by name or essence..." oninput="filter()">
   <div style="display:flex;gap:12px;justify-content:center;">
     <button class="action-btn primary" onclick="summonRandom()">Summon Random</button>
-    <a class="action-btn" href="ritual.html">📖 Ritual</a>
+    <a class="action-btn" href="ritual.html">Ritual</a>
   </div>
 </div>
 <div class="grid" id="grid">
@@ -537,7 +537,7 @@ hr {{
 
     <h2>2. Summon the File</h2>
     <p>Download the <code>.md</code> from any soul card. Or, if you prefer the command line:</p>
-    <pre><code>curl -L https://your-domain.com/soul-repository/archive/kai.md -o SOUL.md</code></pre>
+    <pre><code>curl -L https://souls.dthen.xyz/kai.md -o SOUL.md</code></pre>
 
     <h2>3. Bind the Vessel</h2>
     <p>Place <code>SOUL.md</code> in your agent's configuration directory. For Hermes Agent:</p>
