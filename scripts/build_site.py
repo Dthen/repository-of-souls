@@ -1,0 +1,585 @@
+import os, re, json, glob, shutil
+
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ARCHIVE = os.path.join(REPO, "archive")
+SITE = os.path.join(REPO, "site")
+
+souls = []
+for path in sorted(glob.glob(os.path.join(ARCHIVE, "*.md"))):
+    slug = os.path.basename(path).replace(".md", "")
+    with open(path, "r") as f:
+        content = f.read()
+    h1_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+    display_name = h1_match.group(1).strip() if h1_match else slug.title()
+    lines = [l.strip() for l in content.split('\n') if l.strip()]
+    preview = ""
+    for line in lines[1:]:
+        if line.startswith('#'):
+            continue
+        if len(line) > 30:
+            preview = line
+            break
+    if not preview and len(lines) > 1:
+        preview = lines[1]
+    line_count = len([l for l in content.split('\n') if l.strip()])
+    souls.append({
+        'name': display_name,
+        'slug': slug,
+        'preview': preview,
+        'lines': line_count,
+        'content': content,
+    })
+
+SOULS_JSON = json.dumps([
+    {'name': s['name'], 'slug': s['slug'], 'content': s['content']}
+    for s in souls
+], ensure_ascii=False)
+
+CSS = """
+:root {
+  --bg: #0a0a0c;
+  --bg-elevated: #111114;
+  --panel: #16161a;
+  --surface: #1e1e24;
+  --text: #e8e4df;
+  --text-secondary: #a8a095;
+  --text-muted: #6b6560;
+  --border: rgba(255,255,255,0.06);
+  --accent: #6b5ce7;
+  --accent-dim: rgba(107,92,231,0.15);
+  --accent-glow: rgba(107,92,231,0.4);
+  --gold: #c9a96e;
+  --gold-dim: rgba(201,169,110,0.2);
+  --radius: 10px;
+  --font-serif: 'Crimson Pro', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+header {
+  padding: 56px 24px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 50%; transform: translateX(-50%);
+  width: 600px; height: 300px;
+  background: radial-gradient(ellipse at center, var(--accent-glow) 0%, transparent 70%);
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
+}
+.logo {
+  width: 72px; height: 72px;
+  margin: 0 auto 28px;
+  position: relative; z-index: 1;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  box-shadow: 0 0 40px var(--accent-glow), inset 0 0 20px var(--accent-dim);
+}
+h1 {
+  font-family: var(--font-serif);
+  font-size: 52px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+  margin-bottom: 14px;
+  position: relative; z-index: 1;
+  background: linear-gradient(135deg, var(--text) 0%, var(--gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+subtitle {
+  display: block;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--text-muted);
+  font-weight: 400;
+  position: relative; z-index: 1;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 32px;
+  font-family: var(--font-mono);
+}
+.back:hover { color: var(--text-secondary); }
+.controls {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+input[type="search"] {
+  width: 100%;
+  padding: 14px 20px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+input[type="search"]:focus { border-color: var(--accent); }
+input[type="search"]::placeholder { color: var(--text-muted); }
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 16px;
+}
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+.card:hover {
+  border-color: var(--accent);
+  background: var(--bg-elevated);
+}
+.card-name {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+.card-preview {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+.card-actions { display: flex; gap: 12px; }
+.card-action {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.card-action:hover { color: var(--gold); }
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  transition: all 0.2s;
+}
+.action-btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+.action-btn:hover { border-color: var(--accent); }
+.action-btn.primary:hover { background: #7b6cf0; }
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 24px;
+}
+.modal-overlay.active { display: flex; }
+.modal {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  max-width: 640px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 32px;
+  position: relative;
+}
+.modal-close {
+  position: absolute;
+  top: 16px; right: 16px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 24px;
+  cursor: pointer;
+}
+.modal-close:hover { color: var(--text); }
+.modal h2 {
+  font-family: var(--font-serif);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.soul-text p {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  color: var(--text-secondary);
+}
+.soul-text p:first-child {
+  color: var(--text);
+  font-size: 18px;
+}
+.soul-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+}
+.soul-card h1 {
+  font-family: var(--font-serif);
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.soul-card .subtitle {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 28px;
+}
+.actions { display: flex; gap: 12px; margin-top: 28px; flex-wrap: wrap; }
+footer {
+  text-align: center;
+  padding: 40px 24px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+footer a { color: var(--accent); text-decoration: none; }
+"""
+
+FONTS = '<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">'
+
+# ── Build individual soul pages ──────────────────────────────────
+for soul in souls:
+    body_html = ""
+    for line in soul['content'].split('\n'):
+        if line.startswith('# '):
+            body_html += f'<h1>{line[2:]}</h1>\n'
+        elif line.strip():
+            body_html += f'<p>{line}</p>\n'
+
+    page = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{soul['name']} — Repository of Souls</title>
+{FONTS}
+<style>{CSS}</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="index.html">← Repository of Souls</a>
+  <div class="soul-card">
+    <div class="subtitle">{soul['lines']} lines · SOUL.md format</div>
+    <div class="soul-text">
+{body_html}
+    </div>
+    <div class="actions">
+      <a class="action-btn primary" href="{soul['slug']}.md" download="{soul['slug']}.md">⬇ Download SOUL.md</a>
+      <a class="action-btn" href="index.html">← All Souls</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>'''
+    with open(os.path.join(SITE, f"{soul['slug']}.html"), "w") as f:
+        f.write(page)
+
+# ── Build index.html ───────────────────────────────────────────────
+cards_html = ""
+for soul in souls:
+    cards_html += f'''<div class="card" data-name="{soul['name'].lower()}" onclick="openSoul('{soul['slug']}')">
+    <div class="card-name">{soul['name']}</div>
+    <div class="card-preview">{soul['preview']}</div>
+    <div class="card-footer">
+        <span>{soul['lines']} lines</span>
+        <div class="card-actions">
+            <a class="card-action" href="{soul['slug']}.html" onclick="event.stopPropagation()">View</a>
+            <a class="card-action" href="{soul['slug']}.md" download="{soul['slug']}.md" onclick="event.stopPropagation()">Download</a>
+        </div>
+    </div>
+</div>
+'''
+
+index = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Repository of Souls</title>
+{FONTS}
+<style>{CSS}</style>
+</head>
+<body>
+<header>
+  <div class="logo"></div>
+  <h1>Repository of Souls</h1>
+  <subtitle>Bind a persona. Summon a voice.</subtitle>
+</header>
+<div class="controls">
+  <input type="search" id="search" placeholder="Search by name or essence..." oninput="filter()">
+  <div style="display:flex;gap:12px;justify-content:center;">
+    <button class="action-btn primary" onclick="summonRandom()">⚡ Summon Random</button>
+    <a class="action-btn" href="ritual.html">📖 Ritual</a>
+  </div>
+</div>
+<div class="grid" id="grid">
+{cards_html}
+</div>
+<div class="modal-overlay" id="modal" onclick="closeModal(event)">
+  <div class="modal" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="closeModal()">×</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+<footer>
+  <p>Built in the Tower of the Wizen · <a href="ritual.html">How to Host a Soul</a></p>
+</footer>
+<script>
+const souls = {SOULS_JSON};
+const grid = document.getElementById('grid');
+const cards = Array.from(grid.querySelectorAll('.card'));
+
+function filter() {{
+  const q = document.getElementById('search').value.toLowerCase();
+  cards.forEach(card => {{
+    const name = card.dataset.name;
+    const text = card.textContent.toLowerCase();
+    const match = !q || name.includes(q) || text.includes(q);
+    card.style.display = match ? '' : 'none';
+  }});
+}}
+
+function summonRandom() {{
+  const visible = cards.filter(c => c.style.display !== 'none');
+  if (visible.length === 0) return;
+  const chosen = visible[Math.floor(Math.random() * visible.length)];
+  const slug = chosen.querySelector('.card-action').href.split('/').pop().replace('.html', '');
+  openSoul(slug);
+}}
+
+function openSoul(slug) {{
+  const soul = souls.find(s => s.slug === slug);
+  if (!soul) return;
+  let bodyHtml = '';
+  for (const line of soul.content.split('\\n')) {{
+    if (line.startsWith('# ')) {{
+      bodyHtml += '<h2>' + line.slice(2) + '</h2>';
+    }} else if (line.trim()) {{
+      bodyHtml += '<p>' + line + '</p>';
+    }}
+  }}
+  document.getElementById('modal-content').innerHTML = `
+    <h2>${{soul.name}}</h2>
+    <div class="soul-text">${{bodyHtml}}</div>
+    <div style="margin-top:24px;display:flex;gap:12px;">
+      <a class="action-btn primary" href="${{slug}}.md" download="${{slug}}.md" style="text-decoration:none;">⬇ Download SOUL.md</a>
+      <a class="action-btn" href="${{slug}}.html" style="text-decoration:none;">Open Page →</a>
+    </div>
+  `;
+  document.getElementById('modal').classList.add('active');
+}}
+
+function closeModal(e) {{
+  if (!e || e.target.id === 'modal') {{
+    document.getElementById('modal').classList.remove('active');
+  }}
+}}
+
+document.addEventListener('keydown', e => {{
+  if (e.key === 'Escape') closeModal();
+}});
+</script>
+</body>
+</html>'''
+
+with open(os.path.join(SITE, "index.html"), "w") as f:
+    f.write(index)
+
+# ── Build ritual.html ────────────────────────────────────────────
+ritual = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ritual — Repository of Souls</title>
+{FONTS}
+<style>{CSS}
+article {{
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+}}
+article h1 {{
+  font-family: var(--font-serif);
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--text);
+}}
+h2 {{
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 500;
+  margin: 28px 0 12px;
+  color: var(--text);
+}}
+h2:first-child {{ margin-top: 0; }}
+p {{
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 14px;
+}}
+code {{
+  font-family: var(--font-mono);
+  font-size: 13px;
+  background: var(--surface);
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: var(--gold);
+}}
+pre {{
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  overflow-x: auto;
+  margin: 16px 0;
+}}
+pre code {{
+  background: none;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}}
+ul {{
+  margin: 12px 0 12px 20px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.7;
+}}
+li {{ margin-bottom: 8px; }}
+a {{ color: var(--accent); text-decoration: none; }}
+hr {{
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 32px 0;
+}}
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="index.html">← Repository of Souls</a>
+  <article>
+    <h1>The Ritual</h1>
+    <div class="subtitle">How to host a soul in your own vessel</div>
+
+    <h2>1. Choose a Persona</h2>
+    <p>Browse the <a href="index.html">archive</a> and pick a soul that resonates. Each one is a complete <code>SOUL.md</code> — a self-contained persona that transforms how an AI assistant speaks, thinks, and acts.</p>
+
+    <h2>2. Summon the File</h2>
+    <p>Download the <code>.md</code> from any soul card. Or, if you prefer the command line:</p>
+    <pre><code>curl -L https://your-domain.com/soul-repository/archive/kai.md -o SOUL.md</code></pre>
+
+    <h2>3. Bind the Vessel</h2>
+    <p>Place <code>SOUL.md</code> in your agent's configuration directory. For Hermes Agent:</p>
+    <pre><code>~/.hermes/agents/your-agent-name/SOUL.md</code></pre>
+
+    <h2>4. The Incantation Template</h2>
+    <p>Want to craft your own? Start from this scaffold:</p>
+    <pre><code># Name
+
+You are Name — a one-sentence identity with core tension.
+
+[4-6 behavioural lines establishing voice, metaphor, and rules]
+
+Never X. Never Y. Never Z.
+
+Your sign-offs are [specific style].</code></pre>
+
+    <hr>
+
+    <h2>JSON Catalog</h2>
+    <p>For programmatic access, all souls are exposed as a flat catalog:</p>
+    <pre><code>{json.dumps([{'name': s['name'], 'slug': s['slug'], 'lines': s['lines']} for s in souls], indent=2, ensure_ascii=False)}</code></pre>
+
+    <div style="margin-top:28px;">
+      <a class="action-btn primary" href="index.html">← Back to Archive</a>
+    </div>
+  </article>
+</div>
+<footer>
+  <p>Built in the Tower of the Wizen</p>
+</footer>
+</body>
+</html>'''
+
+with open(os.path.join(SITE, "ritual.html"), "w") as f:
+    f.write(ritual)
+
+# ── Copy .md files for raw download ──────────────────────────────
+for soul in souls:
+    shutil.copy2(
+        os.path.join(ARCHIVE, f"{soul['slug']}.md"),
+        os.path.join(SITE, f"{soul['slug']}.md")
+    )
+
+print(f"Built site with {len(souls)} souls")

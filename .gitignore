@@ -1,0 +1,8 @@
+drafts/
+critiques/
+refined/
+names/
+reject/
+tests/
+*.pyc
+__pycache__/
