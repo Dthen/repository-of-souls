@@ -354,8 +354,16 @@ hr {
     <p>Replace <code>&lt;name&gt;</code> with the soul you chose — e.g. <code>jasper</code>, <code>marlow</code>, etc.</p>
 
     <h2>3. Bind the Vessel</h2>
-    <p>Place <code>SOUL.md</code> in your agent's configuration directory. For Hermes Agent:</p>
-    <pre><code>~/.hermes/agents/your-agent-name/SOUL.md</code></pre>
+    <p>Hermes Agent stores personas in <code>config.yaml</code> under <code>agent.personalities</code>. Paste the contents of your <code>SOUL.md</code> there, then summon them with <code>/personality &lt;name&gt;</code> in any session.</p>
+
+    <p><strong>Linux</strong></p>
+    <pre><code>~/.hermes/config.yaml</code></pre>
+
+    <p><strong>macOS</strong></p>
+    <pre><code>~/.hermes/config.yaml</code></pre>
+
+    <p><strong>Windows</strong></p>
+    <pre><code>%USERPROFILE%\.hermes\config.yaml</code></pre>
 
     <div style="margin-top:28px;">
       <a class="action-btn primary" href="index.html">← Back to Archive</a>

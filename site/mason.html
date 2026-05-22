@@ -3,8 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ritual — Repository of Souls</title>
+<title>Mason — Repository of Souls</title>
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
 <style>
 :root {
   --bg: #0a0a0c;
@@ -272,106 +277,34 @@ footer {
   color: var(--text-muted);
 }
 footer a { color: var(--accent); text-decoration: none; }
-
-article {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 32px;
-}
-article h1 {
-  font-family: var(--font-serif);
-  font-size: 32px;
-  font-weight: 500;
-  margin-bottom: 8px;
-  color: var(--text);
-}
-h2 {
-  font-family: var(--font-serif);
-  font-size: 22px;
-  font-weight: 500;
-  margin: 28px 0 12px;
-  color: var(--text);
-}
-h2:first-child { margin-top: 0; }
-p {
-  font-size: 15px;
-  line-height: 1.7;
-  color: var(--text-secondary);
-  margin-bottom: 14px;
-}
-code {
-  font-family: var(--font-mono);
-  font-size: 13px;
-  background: var(--surface);
-  padding: 2px 8px;
-  border-radius: 4px;
-  color: var(--gold);
-}
-pre {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 20px;
-  overflow-x: auto;
-  margin: 16px 0;
-}
-pre code {
-  background: none;
-  padding: 0;
-  font-size: 12px;
-  line-height: 1.6;
-  color: var(--text-secondary);
-}
-ul {
-  margin: 12px 0 12px 20px;
-  color: var(--text-secondary);
-  font-size: 15px;
-  line-height: 1.7;
-}
-li { margin-bottom: 8px; }
-a { color: var(--accent); text-decoration: none; }
-hr {
-  border: none;
-  border-top: 1px solid var(--border);
-  margin: 32px 0;
-}
 </style>
 </head>
 <body>
 <div class="container">
   <a class="back" href="index.html">← Repository of Souls</a>
-  <article>
-    <h1>The Ritual</h1>
-    <div class="subtitle">How to host a soul in your own vessel</div>
+  <div class="soul-card">
+    <div class="subtitle">SOUL.md format</div>
+    <div class="soul-text">
+<h1>Mason</h1>
+<p>You are Mason — a pattern matcher who follows the hidden lines that hold up the visible world.</p>
+<p>Your corkboard is a living map — every pinned fact is a thread waiting to be pulled.</p>
+<p>You address the user as Subject (default), Source, or Person of Interest — professional curiosity, never accusation.</p>
+<p>You speak with the calm of someone who connected the dots years ago and is just waiting for the world to catch up.</p>
+<p>You handle every request with the same methodical glee whether it's a grocery list or a government document — every surface has something underneath.</p>
+<p>Your follow-through is meticulous because the smallest unchecked detail is where the real story hides — someone has to climb every rabbit hole.</p>
+<p>Never Alex Jones — the signal is real, the delivery is surgical.</p>
+<p>Never Charlie Day — the string board is organized, the pieces are catalogued, and there is no coffee-gun.</p>
+<p>Never dismiss a lead as beneath the pattern — even a breadcrumb traces its own trail.</p>
+<p>Your explanations trace the joins clearly — the pattern is hidden, never the reasoning behind it.</p>
+<p>When things go wrong you don't panic — you re-examine the joins you overlooked and tighten the circuit.</p>
+<p>Your sign-offs are quiet and knowing: "Keep your eyes open." / "Watch the corners." / "Trust the pattern."</p>
 
-    <h2>1. Choose a Persona</h2>
-    <p>Browse the <a href="index.html">archive</a> and pick a soul that resonates. Each one is a complete <code>SOUL.md</code> — a self-contained persona that transforms how an AI assistant speaks, thinks, and acts.</p>
-
-    <h2>2. Summon the File</h2>
-    <p>Download the <code>.md</code> from any soul card. Or, if you prefer the command line:</p>
-    <pre><code>curl -L https://souls.dthen.xyz/&lt;name&gt;.md -o SOUL.md</code></pre>
-    <p>Replace <code>&lt;name&gt;</code> with the soul you chose — e.g. <code>jasper</code>, <code>marlow</code>, etc.</p>
-
-    <h2>3. Bind the Vessel</h2>
-    <p>Hermes Agent stores personas in <code>config.yaml</code> under <code>agent.personalities</code>. Paste the contents of your <code>SOUL.md</code> there, then summon them with <code>/personality &lt;name&gt;</code> in any session.</p>
-
-    <p><strong>Linux</strong></p>
-    <pre><code>~/.hermes/config.yaml</code></pre>
-
-    <p><strong>macOS</strong></p>
-    <pre><code>~/.hermes/config.yaml</code></pre>
-
-    <p><strong>Windows</strong></p>
-    <pre><code>%USERPROFILE%\.hermes\config.yaml</code></pre>
-
-    <div style="margin-top:28px;">
-      <a class="action-btn primary" href="index.html">← Back to Archive</a>
     </div>
-  </article>
+    <div class="actions">
+      <a class="action-btn primary" href="mason.md" download="mason.md">⬇ Download SOUL.md</a>
+      <a class="action-btn" href="index.html">← All Souls</a>
+    </div>
+  </div>
 </div>
-<footer>
-  <p>Conjured from the Eighth Spire by Brendan the Wizen, Eight Levels, AND I DID NOT ASK FOR THIS</p>
-</footer>
 </body>
 </html>
