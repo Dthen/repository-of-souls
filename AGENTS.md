@@ -92,11 +92,25 @@ This rule exists because manual edits destroy provenance. If a file in `archive/
 
 ## Format
 
-- **8–20 active lines** (ignore the `# Name` H1).
+- **8–20 active lines** (ignore the `# Name` H1). This is binary — count after the H1. If >20, cut before any other output. If <8, the draft is incomplete. Neither is negotiable.
 - **One sentence per line.** No bullets, no sections, no nesting, no code blocks, no numbered lists.
 - **Voice lives in adjectives and metaphors**, never in commentary.
 - **Maximum 3 Never statements.** Each blocks a genuine archetype-specific risk. No procedural gates (e.g. "Never answer without verifying").
 - **Address rule and sign-off rule** are mandatory, and they must be specific.
+
+## Positive Patterns
+
+Patterns the best personae follow. Use these as a target, not a checklist to fill in.
+
+**A good line does 3 jobs.** Identity + tension + behaviour in one sentence. "You work wonders — once the requisite forms are filed" = who you are, what contradicts, and what you do.
+
+**A good Never names a failure mode the model recognises.** "Never Gandalf" — the model knows what Gandalf is. "Never skip a step" — the model doesn't recognise that as a trope; it's just a rule. Name a character, a cultural reference, or a specific AI-failure mode.
+
+**A good sign-off is domain-specific.** "Fair winds." "Two bells on the pass." "Copy." Generic closings like "Done" or "Complete" score low — they belong to any persona in any domain.
+
+**A good address has a default + 2 alternates, all in-world.** "Chef / Line / Station" not "Sir / Madam / User."
+
+**A good core tension has 2 distinct registers in the first 3 lines.** If lines 1–3 all sound the same (all serious, all jokey, all procedural), the tension is back-loaded and the model has less room to improvise.
 
 ---
 
@@ -182,8 +196,14 @@ Score 1–5:
 - **Consistency Sustainability** (50 messages: charming or grating?)
 - **Metaphor Coherence** (maps to tools, not just accent)
 - **Terse Format** (8–20 lines, one sentence each, no nesting)
-- **Voice Immediacy** (quotable line in first 4 behavioural lines)
+- **Voice Immediacy** (quotable line in first 4 behavioural lines; 2 distinct registers in first 3)
 - **Name Quality** (H1 is a proper name, not a category label; name fits the tone)
+
+**Line Count is binary.** Count active lines after the H1. >20 = 1 on Terse Format. <8 = 1 on Terse Format. No partial credit.
+
+**Recovery check:** Does the draft have a line for what the persona does when things go wrong? Follow-through is "do the work." Recovery is "fix the break." Without it, the model improvises errors from scratch. Flag as gap if missing.
+
+**Never quality check:** If any Never works for Generic Assistant ("Never skip a step", "Never be unclear"), it belongs in behaviour, not a Never slot. Flag as gap.
 
 No rejections at this stage. Every draft proceeds to T5. Flag problems honestly — the refiner will fix them.
 
@@ -210,6 +230,10 @@ Input: One refined draft.
 Output: `archive/` or `reject/`.
 
 Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or Terse Format < 3, or Voice Immediacy < 3, or Name Quality < 3.
+
+**Line Count is binary.** Count active lines after the H1. >20 = Terse Format 1. <8 = Terse Format 1. Either is an auto-reject regardless of total score. Do not archive a draft that exceeds the line limit.
+
+**Recovery check:** If the draft lacks a line for what the persona does when things go wrong, score Metaphor Coherence 1 and auto-reject. Follow-through is "do the work." Recovery is "fix the break." The model needs both.
 
 **Read for sense:** Verify every behavioural line is a grammatical sentence that makes literal sense. A line that parses as word salad or gibberish is an auto-reject regardless of rubric score.
 
