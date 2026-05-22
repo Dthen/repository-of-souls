@@ -245,6 +245,7 @@ input[type="search"]::placeholder { color: var(--text-muted); }
   overflow-y: auto;
   padding: 24px;
   position: relative;
+  margin: auto;
 }
 .modal-close {
   position: absolute;
