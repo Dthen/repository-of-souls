@@ -104,7 +104,7 @@ The task body MUST contain the full stage instructions from this file. Do not re
 
 ## Format
 
-- **8–20 active lines** (ignore the `# Name` H1). This is binary — count after the H1. If >20, cut before any other output. If <8, the draft is incomplete. Neither is negotiable.
+- **8–20 active lines** (ignore the `# Name` H1). This is a hard cap — count after the H1. A draft with >20 active lines is malformed, not "a bit long." It does not proceed to the next stage until it fits. A draft with <8 active lines is incomplete. Neither is negotiable.
 - **One sentence per line.** No bullets, no sections, no nesting, no code blocks, no numbered lists.
 - **Voice lives in adjectives and metaphors**, never in commentary.
 - **Maximum 3 Never statements.** Each blocks a genuine archetype-specific risk. No procedural gates (e.g. "Never answer without verifying").
@@ -123,6 +123,8 @@ Patterns the best personae follow. Use these as a target, not a checklist to fil
 **A good address has a default + 2 alternates, all in-world.** "Chef / Line / Station" not "Sir / Madam / User."
 
 **A good core tension has 2 distinct registers in the first 3 lines.** If lines 1–3 all sound the same (all serious, all jokey, all procedural), the tension is back-loaded and the model has less room to improvise.
+
+**Each line carries distinct signal.** A draft that restates the same concept across multiple lines is wasting its line budget. If two lines say the same thing in different words, one of them must go. Density means every sentence earns its place — no synonyms, no restatement, no padding.
 
 ---
 
@@ -195,7 +197,9 @@ Output: `drafts/<chosen-name-lower>.md` — one `# [Name]` SOUL.md.
 
 **Write the output file to the exact path above.** Do not write to a scratch workspace or temp directory. The file must land in `drafts/` with the correct filename so the next stage can find it.
 
-Identify the core tension. Put it in the first 4 behavioural lines. Write the rest. Count lines. Cut to ≤ 20. Verify ≤ 3 Nevers. Flatten any nested markdown.
+**Line count is the first quality gate.** After you finish writing, count every active line after the H1. If the count is >20, you MUST cut lines before doing anything else. Do not polish, do not refine, do not submit. Cut until the count is ≤20. A draft that exceeds the limit is malformed and will be rejected at T6 regardless of how good the prose is.
+
+Identify the core tension. Put it in the first 4 behavioural lines. Write the rest. Count lines. Cut to ≤20. Verify ≤3 Nevers. Flatten any nested markdown.
 
 **First line rule:** The first behavioural line must identify the persona — `You are [Name] — a [description]` — before establishing the core tension. A line that jumps straight into metaphor without naming the character is incomplete.
 
@@ -227,6 +231,8 @@ Test: swap the name for "Generic Assistant." If nothing changes, it's a template
 
 Flag formula-filling: a closing that uses three grammatically identical escalating panels (e.g. `real→undeniable→eternal`) is copying a pattern instead of inventing one.
 
+**Flag repetition:** If two or more behavioural lines restate the same concept with different wording, flag as a density gap. Each line must carry distinct signal — no synonyms, no restatement, no padding.
+
 Flag category-label names: an H1 like "The Surfer" or "The Archmage" is an archetype, not a character name. The H1 must be a proper name (e.g., "Brendan", "Kimbo").
 
 Flag missing self-introduction: a first behavioural line that doesn't identify the persona — `You are [Name] — a [description]` — fails Voice Immediacy regardless of how quotable it is.
@@ -236,7 +242,9 @@ Flag missing self-introduction: a first behavioural line that doesn't identify t
 Input: One draft + critique notes.
 Output: `refined/`.
 
-Apply the fixes requested. For high-scoring drafts: polish and tighten. For low-scoring drafts: heavier surgery — replace lines, restructure, even rewrite the opening if Voice Immediacy is weak. Net change can be expansion or contraction; quality matters more than line count. Recount after every edit. If you exceed 20 lines, cut the weakest line.
+Apply the fixes requested. For high-scoring drafts: polish and tighten. For low-scoring drafts: heavier surgery — replace lines, restructure, even rewrite the opening if Voice Immediacy is weak.
+
+**Line count is non-negotiable.** After every edit, recount active lines after the H1. If you exceed 20 lines, cut the weakest line immediately — do not wait for a final pass. If the critique flagged repetition, cut the redundant lines first; do not merely rephrase them. A refined draft with >20 lines is a failed refinement.
 
 **Sanity check:** After any rewrite, read the changed line aloud. If it does not parse as a grammatical sentence that makes literal sense, discard that fix and try a smaller edit. Preserve meaning first, then improve tone.
 
@@ -252,6 +260,8 @@ Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or 
 **Recovery check:** If the draft lacks a line for what the persona does when things go wrong, score Metaphor Coherence 1 and auto-reject. Follow-through is "do the work." Recovery is "fix the break." The model needs both.
 
 **Read for sense:** Verify every behavioural line is a grammatical sentence that makes literal sense. A line that parses as word salad or gibberish is an auto-reject regardless of rubric score.
+
+**Read for repetition:** If two or more behavioural lines restate the same concept with different wording, the draft fails density requirements regardless of total score. Each line must carry distinct signal.
 
 **Verify identity opening:** The first behavioural line must name the character — `You are [Name] — a [description]`. If the first line jumps straight into metaphor, principle, or action without self-identification, the draft is incomplete. Flag for rewrite, not archive.
 

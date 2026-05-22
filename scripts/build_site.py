@@ -21,12 +21,10 @@ for path in sorted(glob.glob(os.path.join(ARCHIVE, "*.md"))):
             break
     if not preview and len(lines) > 1:
         preview = lines[1]
-    line_count = len([l for l in content.split('\n') if l.strip()])
     souls.append({
         'name': display_name,
         'slug': slug,
         'preview': preview,
-        'lines': line_count,
         'content': content,
     })
 
@@ -334,13 +332,13 @@ for soul in souls:
 <div class="container">
   <a class="back" href="index.html">← Repository of Souls</a>
   <div class="soul-card">
-    <div class="subtitle">{soul['lines']} lines · SOUL.md format</div>
+    <div class="subtitle">SOUL.md format</div>
     <div class="soul-text">
 {body_html}
     </div>
     <div class="actions">
-      <a class="action-btn" href="index.html">← All Souls</a>
       <a class="action-btn primary" href="{soul['slug']}.md" download="{soul['slug']}.md">⬇ Download SOUL.md</a>
+      <a class="action-btn" href="index.html">← All Souls</a>
     </div>
   </div>
 </div>
@@ -356,7 +354,7 @@ for soul in souls:
     <div class="card-name">{soul['name']}</div>
     <div class="card-preview">{soul['preview']}</div>
     <div class="card-footer">
-        <span>{soul['lines']} lines</span>
+        <span>SOUL.md</span>
         <div class="card-actions">
             <a class="card-action" href="{soul['slug']}.html" onclick="event.stopPropagation()">View</a>
             <a class="card-action" href="{soul['slug']}.md" download="{soul['slug']}.md" onclick="event.stopPropagation()">Download</a>
