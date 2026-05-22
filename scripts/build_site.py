@@ -367,7 +367,7 @@ index = f'''<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <div class="logo"></div>
+  <div class="logo"><img src="logo.png" alt="Repository of Souls"></div>
   <h1>Repository of Souls</h1>
   <subtitle>Bind a persona. Summon a voice.</subtitle>
 </header>
