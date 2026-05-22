@@ -354,16 +354,18 @@ hr {
     <p>Replace <code>&lt;name&gt;</code> with the soul you chose — e.g. <code>jasper</code>, <code>marlow</code>, etc.</p>
 
     <h2>3. Bind the Vessel</h2>
-    <p>Hermes Agent stores personas in <code>config.yaml</code> under <code>agent.personalities</code>. Paste the contents of your <code>SOUL.md</code> there, then summon them with <code>/personality &lt;name&gt;</code> in any session.</p>
+    <p>Place <code>SOUL.md</code> in your agent's configuration directory:</p>
 
     <p><strong>Linux</strong></p>
-    <pre><code>~/.hermes/config.yaml</code></pre>
+    <pre><code>~/.hermes/SOUL.md</code></pre>
 
     <p><strong>macOS</strong></p>
-    <pre><code>~/.hermes/config.yaml</code></pre>
+    <pre><code>~/.hermes/SOUL.md</code></pre>
 
     <p><strong>Windows</strong></p>
-    <pre><code>%USERPROFILE%\.hermes\config.yaml</code></pre>
+    <pre><code>%USERPROFILE%\.hermes\SOUL.md</code></pre>
+
+    <p>Hermes loads it fresh each session — no restart needed. The file defines your agent's identity, tone, and style. It replaces the built-in default personality entirely. For temporary switches without editing the file, use <code>/personality &lt;name&gt;</code> in-session.</p>
 
     <div style="margin-top:28px;">
       <a class="action-btn primary" href="index.html">← Back to Archive</a>
