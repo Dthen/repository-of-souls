@@ -158,6 +158,8 @@ A seed must contain:
 
 Seed must be distinct from archived personae in at least two of: archetype, domain, or metaphor. A near-clone with a fresh coat of paint is not a new seed.
 
+To verify distinctness: list the three existing personae closest to your proposed seed by archetype, domain, and metaphor. For each, confirm your seed differs in at least two dimensions. If any existing persona matches in two or more dimensions, the seed is too close — find a genuinely new combination.
+
 ### Stage T1b — Namer
 
 Input: One seed from `seeds/<seed-label>.md`.
