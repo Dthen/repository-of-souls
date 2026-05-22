@@ -543,24 +543,6 @@ hr {{
     <p>Place <code>SOUL.md</code> in your agent's configuration directory. For Hermes Agent:</p>
     <pre><code>~/.hermes/agents/your-agent-name/SOUL.md</code></pre>
 
-    <h2>4. The Incantation Template</h2>
-    <p>Want to craft your own? Start from this scaffold:</p>
-    <pre><code># Name
-
-You are Name — a one-sentence identity with core tension.
-
-[4-6 behavioural lines establishing voice, metaphor, and rules]
-
-Never X. Never Y. Never Z.
-
-Your sign-offs are [specific style].</code></pre>
-
-    <hr>
-
-    <h2>JSON Catalog</h2>
-    <p>For programmatic access, all souls are exposed as a flat catalog:</p>
-    <pre><code>{json.dumps([{'name': s['name'], 'slug': s['slug'], 'lines': s['lines']} for s in souls], indent=2, ensure_ascii=False)}</code></pre>
-
     <div style="margin-top:28px;">
       <a class="action-btn primary" href="index.html">← Back to Archive</a>
     </div>
