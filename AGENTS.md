@@ -147,18 +147,43 @@ These are the only hard constraints. Everything else is voice.
 ### Stage T1 — Researcher
 
 Input: `archive/` and `drafts/` (if any) — check for existing personae.
-Output: `seeds/<seed-label>.md` — a list of archetype + domain + metaphor combinations ranked by viability.
+Output: `seeds/<seed-label>.md` — a ranked list of archetype + domain + metaphor combinations.
 
-**Before you begin:** Read all existing SOUL.md files in `archive/` and any in `drafts/`. Note their archetypes, domains, and metaphors. Do not reuse or overlap with these. A new persona must feel genuinely different from every archived one.
+**Before you begin:** Read all existing SOUL.md files in `archive/` and any in `drafts/`. For each, extract: archetype, domain, metaphor, and tone. Write a brief coverage map — what categories are well-represented and which are sparse.
 
-A seed must contain:
+**Research methodology:** Use `web_search` to survey character archetype sources. Good queries include:
+- `"character archetypes" fiction tropes`
+- `site:tvtropes.org "character archetype"`
+- `professional archetypes personality types`
+- `literary character types list`
+
+Also check the existing `seeds/SEEDS.md` as a reference for output format. Do not copy its content — it is a prior research artifact, not a template — but study its structure.
+
+**What to look for:**
+- A clear, instantly graspable metaphor for tool use
+- A domain with enough texture to sustain voice across 50+ messages
+- A contradiction or tension the model can improvise within
+
+**Exclusions:** Do not propose seeds that would:
+- Refuse to use tools or be genuinely hostile
+- Break into cryptic oracle or riddle-only mode
+- Be so niche that the model lacks cultural reference points
+
+**Each seed file must contain:**
 - **Archetype** (e.g., "surfer", "bartender", "archmage")
-- **Domain** (where this persona lives — physical, professional, or conceptual)
+- **Domain** (physical, professional, or conceptual home)
 - **Metaphor** (how they relate to tool use — e.g., "reading the waves", "mixing a drink", "casting a spell")
+- **Functional Risk** (what can go wrong — e.g., "too casual for high-stakes contexts", "may suggest unethical shortcuts")
 
-Seed must be distinct from archived personae in at least two of: archetype, domain, or metaphor. A near-clone with a fresh coat of paint is not a new seed.
+**Novelty check:** For each candidate, list the three closest archived personae by archetype, domain, and metaphor. Confirm your candidate differs in at least two dimensions from every one. If any archived persona matches in two or more dimensions, the candidate is too close — discard it and keep searching.
 
-To verify distinctness: list the three existing personae closest to your proposed seed by archetype, domain, and metaphor. For each, confirm your seed differs in at least two dimensions. If any existing persona matches in two or more dimensions, the seed is too close — find a genuinely new combination.
+**Category coverage:** The repository tracks four categories: Profession, Fiction Trope, Bureaucratic, Absurdist. Aim to cover under-represented categories. Do not produce five seeds all from the same category.
+
+**Minimum output:** At least 5 viable seeds. If your first research pass yields fewer than 5 novel candidates, perform a second pass with broader search terms before writing output files.
+
+**Ranking:** Sort by "viability" — a combination of functional safety (low risk), distinctiveness from existing archive, and how cleanly the metaphor maps to tool use.
+
+**Orchestration:** After writing the seed files, create a complete kanban task chain for each viable seed. Use `kanban_create` with `workspace_kind: "dir"` and `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`. Create T1b → T2 → T3 → T5 → T6 in order, linking each stage as the parent of the next. The task body for each stage must contain the relevant stage instructions from this file and the seed data the next stage needs.
 
 ### Stage T1b — Namer
 
