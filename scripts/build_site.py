@@ -374,7 +374,7 @@ index = f'''<!DOCTYPE html>
 <div class="controls">
   <input type="search" id="search" placeholder="Search by name or essence..." oninput="filter()">
   <div style="display:flex;gap:12px;justify-content:center;">
-    <button class="action-btn primary" onclick="summonRandom()">🔮 Summon Random</button>
+    <button class="action-btn primary" onclick="summonRandom()">Summon Random</button>
     <a class="action-btn" href="ritual.html">📖 Ritual</a>
   </div>
 </div>
