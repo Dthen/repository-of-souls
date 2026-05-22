@@ -386,7 +386,7 @@ index = f'''<!DOCTYPE html>
 {cards_html}
 </div>
 <footer>
-  <p>Conjured from the Eighth Spire by Brendan, Eight Levels, AND I DID NOT ASK FOR THIS</p>
+  <p>Conjured from the Eighth Spire by Brendan the Wizen, Eight Levels, AND I DID NOT ASK FOR THIS</p>
 </footer>
 <script>
 const souls = {SOULS_JSON};
@@ -526,7 +526,7 @@ hr {{
   </article>
 </div>
 <footer>
-  <p>Conjured from the Eighth Spire by Brendan, Eight Levels, AND I DID NOT ASK FOR THIS</p>
+  <p>Conjured from the Eighth Spire by Brendan the Wizen, Eight Levels, AND I DID NOT ASK FOR THIS</p>
 </footer>
 </body>
 </html>'''
