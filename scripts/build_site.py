@@ -305,6 +305,11 @@ footer a { color: var(--accent); text-decoration: none; }
 """
 
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">'
+FAVICONS = '''<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">'''
 
 # ── Build individual soul pages ──────────────────────────────────
 for soul in souls:
@@ -322,6 +327,7 @@ for soul in souls:
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{soul['name']} — Repository of Souls</title>
 {FONTS}
+{FAVICONS}
 <style>{CSS}</style>
 </head>
 <body>
@@ -365,7 +371,7 @@ index = f'''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Repository of Souls</title>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
+{FAVICONS}
 {FONTS}
 <style>{CSS}</style>
 </head>
