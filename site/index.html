@@ -199,10 +199,11 @@ input[type="search"]::placeholder { color: var(--text-muted); }
   inset: 0;
   background: rgba(0,0,0,0.7);
   display: none;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   z-index: 100;
   padding: 16px;
+  padding-top: 40px;
 }
 .modal-overlay.active { display: flex; }
 .modal {
@@ -377,7 +378,6 @@ function openSoul(slug) {
     }
   }
   document.getElementById('modal-content').innerHTML = `
-    <h2>${soul.name}</h2>
     <div class="soul-text">${bodyHtml}</div>
     <div style="margin-top:24px;display:flex;gap:12px;">
       <a class="action-btn primary" href="${slug}.md" download="${slug}.md" style="text-decoration:none;">⬇ Download SOUL.md</a>
