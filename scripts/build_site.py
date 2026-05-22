@@ -81,17 +81,17 @@ header::before {
   z-index: 0;
 }
 .logo {
-  width: 72px; height: 72px;
-  margin: 0 auto 28px;
+  width: 160px; height: 160px;
+  margin: 0 auto 24px;
   position: relative; z-index: 1;
-  background: var(--panel);
-  border: 1px solid var(--border);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 32px;
-  box-shadow: 0 0 40px var(--accent-glow), inset 0 0 20px var(--accent-dim);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 60px var(--accent-glow), inset 0 0 30px var(--accent-dim);
+}
+.logo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
 }
 h1 {
   font-family: var(--font-serif);
@@ -374,7 +374,7 @@ index = f'''<!DOCTYPE html>
 <div class="controls">
   <input type="search" id="search" placeholder="Search by name or essence..." oninput="filter()">
   <div style="display:flex;gap:12px;justify-content:center;">
-    <button class="action-btn primary" onclick="summonRandom()">⚡ Summon Random</button>
+    <button class="action-btn primary" onclick="summonRandom()">🔮 Summon Random</button>
     <a class="action-btn" href="ritual.html">📖 Ritual</a>
   </div>
 </div>
