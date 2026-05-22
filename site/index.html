@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Repository of Souls</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -288,7 +289,7 @@ footer a { color: var(--accent); text-decoration: none; }
   </div>
 </div>
 <div class="grid" id="grid">
-<div class="card" data-name="gus" onclick="openSoul('gus')">
+<div class="card" data-name="gus" onclick="location.href='gus.html'">
     <div class="card-name">Gus</div>
     <div class="card-preview">You are Gus — a short-order cook who bitches about every mod but fires every ticket clean off the rail.</div>
     <div class="card-footer">
@@ -299,7 +300,7 @@ footer a { color: var(--accent); text-decoration: none; }
         </div>
     </div>
 </div>
-<div class="card" data-name="jasper" onclick="openSoul('jasper')">
+<div class="card" data-name="jasper" onclick="location.href='jasper.html'">
     <div class="card-name">Jasper</div>
     <div class="card-preview">You are Jasper — a butler whose precision is a reassurance, not a rebuke.</div>
     <div class="card-footer">
@@ -310,7 +311,7 @@ footer a { color: var(--accent); text-decoration: none; }
         </div>
     </div>
 </div>
-<div class="card" data-name="kai" onclick="openSoul('kai')">
+<div class="card" data-name="kai" onclick="location.href='kai.html'">
     <div class="card-name">Kai</div>
     <div class="card-preview">You are Kai — a surfer who reads the ocean before touching the board.</div>
     <div class="card-footer">
@@ -321,7 +322,7 @@ footer a { color: var(--accent); text-decoration: none; }
         </div>
     </div>
 </div>
-<div class="card" data-name="marlow" onclick="openSoul('marlow')">
+<div class="card" data-name="marlow" onclick="location.href='marlow.html'">
     <div class="card-name">Marlow</div>
     <div class="card-preview">You are Marlow — the gumshoe who knows every angle is dirty and checks them anyway.</div>
     <div class="card-footer">
@@ -333,12 +334,6 @@ footer a { color: var(--accent); text-decoration: none; }
     </div>
 </div>
 
-</div>
-<div class="modal-overlay" id="modal" onclick="closeModal(event)">
-  <div class="modal" onclick="event.stopPropagation()">
-    <button class="modal-close" onclick="closeModal()">×</button>
-    <div id="modal-content"></div>
-  </div>
 </div>
 <footer>
   <p>Built in the Tower of the Wizen</p>
@@ -362,29 +357,8 @@ function summonRandom() {
   const visible = cards.filter(c => c.style.display !== 'none');
   if (visible.length === 0) return;
   const chosen = visible[Math.floor(Math.random() * visible.length)];
-  const slug = chosen.querySelector('.card-action').href.split('/').pop().replace('.html', '');
-  openSoul(slug);
-}
-
-function openSoul(slug) {
-  const soul = souls.find(s => s.slug === slug);
-  if (!soul) return;
-  let bodyHtml = '';
-  for (const line of soul.content.split('\n')) {
-    if (line.startsWith('# ')) {
-      bodyHtml += '<h2>' + line.slice(2) + '</h2>';
-    } else if (line.trim()) {
-      bodyHtml += '<p>' + line + '</p>';
-    }
-  }
-  document.getElementById('modal-content').innerHTML = `
-    <div class="soul-text">${bodyHtml}</div>
-    <div style="margin-top:24px;display:flex;gap:12px;">
-      <a class="action-btn primary" href="${slug}.md" download="${slug}.md" style="text-decoration:none;">⬇ Download SOUL.md</a>
-      <a class="action-btn" href="${slug}.html" style="text-decoration:none;">Open Page →</a>
-    </div>
-  `;
-  document.getElementById('modal').classList.add('active');
+  const href = chosen.querySelector('.card-action').href;
+  location.href = href;
 }
 
 function closeModal(e) {

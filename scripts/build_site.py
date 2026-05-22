@@ -346,7 +346,7 @@ for soul in souls:
 # ── Build index.html ───────────────────────────────────────────────
 cards_html = ""
 for soul in souls:
-    cards_html += f'''<div class="card" data-name="{soul['name'].lower()}" onclick="openSoul('{soul['slug']}')">
+    cards_html += f'''<div class="card" data-name="{soul['name'].lower()}" onclick="location.href='{soul['slug']}.html'">
     <div class="card-name">{soul['name']}</div>
     <div class="card-preview">{soul['preview']}</div>
     <div class="card-footer">
@@ -365,6 +365,7 @@ index = f'''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Repository of Souls</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 {FONTS}
 <style>{CSS}</style>
 </head>
@@ -383,12 +384,6 @@ index = f'''<!DOCTYPE html>
 </div>
 <div class="grid" id="grid">
 {cards_html}
-</div>
-<div class="modal-overlay" id="modal" onclick="closeModal(event)">
-  <div class="modal" onclick="event.stopPropagation()">
-    <button class="modal-close" onclick="closeModal()">×</button>
-    <div id="modal-content"></div>
-  </div>
 </div>
 <footer>
   <p>Built in the Tower of the Wizen</p>
@@ -412,29 +407,8 @@ function summonRandom() {{
   const visible = cards.filter(c => c.style.display !== 'none');
   if (visible.length === 0) return;
   const chosen = visible[Math.floor(Math.random() * visible.length)];
-  const slug = chosen.querySelector('.card-action').href.split('/').pop().replace('.html', '');
-  openSoul(slug);
-}}
-
-function openSoul(slug) {{
-  const soul = souls.find(s => s.slug === slug);
-  if (!soul) return;
-  let bodyHtml = '';
-  for (const line of soul.content.split('\\n')) {{
-    if (line.startsWith('# ')) {{
-      bodyHtml += '<h2>' + line.slice(2) + '</h2>';
-    }} else if (line.trim()) {{
-      bodyHtml += '<p>' + line + '</p>';
-    }}
-  }}
-  document.getElementById('modal-content').innerHTML = `
-    <div class="soul-text">${{bodyHtml}}</div>
-    <div style="margin-top:24px;display:flex;gap:12px;">
-      <a class="action-btn primary" href="${{slug}}.md" download="${{slug}}.md" style="text-decoration:none;">⬇ Download SOUL.md</a>
-      <a class="action-btn" href="${{slug}}.html" style="text-decoration:none;">Open Page →</a>
-    </div>
-  `;
-  document.getElementById('modal').classList.add('active');
+  const href = chosen.querySelector('.card-action').href;
+  location.href = href;
 }}
 
 function closeModal(e) {{
