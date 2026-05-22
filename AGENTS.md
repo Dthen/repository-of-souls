@@ -251,7 +251,7 @@ Apply the fixes requested. For high-scoring drafts: polish and tighten. For low-
 ### Stage T6 — Final Reviewer
 
 Input: One refined draft.
-Output: `archive/` or `reject/`.
+Output: `archive/` or back to `T5` for further refinement.
 
 Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or Terse Format < 3, or Voice Immediacy < 3, or Name Quality < 3.
 
@@ -265,7 +265,14 @@ Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or 
 
 **Verify identity opening:** The first behavioural line must name the character — `You are [Name] — a [description]`. If the first line jumps straight into metaphor, principle, or action without self-identification, the draft is incomplete. Flag for rewrite, not archive.
 
-This is the only rejection gate. By T6, every draft has been through critique + refinement. If it still fails, the problem is structural — probably a bad seed or fundamental archetype mismatch. Save rejected personae to `reject/` with notes so we know which seeds don't work.
+**Do not send to `reject/`.** If a draft fails T6, it goes back for further refinement. Create a new T5 task with:
+- The same refined file as input
+- The specific failure notes from your T6 review as the critique
+- A clear instruction on what must change to pass
+
+The refiner applies the fixes and returns the draft to T6. Repeat until the draft passes or the character fundamentally cannot be saved.
+
+Only when a draft has failed T6 three times with the same structural flaw should you consider abandoning it — and even then, the final disposition is `reject/` with a note explaining which seed archetype does not work.
 
 APPROVED drafts move to `archive/` as the canonical SOUL.md.
 
