@@ -90,6 +90,18 @@ This rule exists because manual edits destroy provenance. If a file in `archive/
 
 ---
 
+## Task Execution Environment
+
+Every pipeline task MUST be created with:
+- `workspace_kind: "dir"`
+- `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
+
+This is non-negotiable. `scratch` workspaces isolate workers in temporary directories where they cannot read AGENTS.md, cannot see existing personae in `archive/` or `drafts/`, and cannot write outputs to the correct locations. A worker in a scratch workspace produces garbage that is immediately lost when the task completes.
+
+The task body MUST contain the full stage instructions from this file. Do not rely on the worker discovering AGENTS.md on their own — include the relevant section inline. The worker must know the output directory, filename convention, and format rules before they begin.
+
+---
+
 ## Format
 
 - **8–20 active lines** (ignore the `# Name` H1). This is binary — count after the H1. If >20, cut before any other output. If <8, the draft is incomplete. Neither is negotiable.
@@ -133,9 +145,9 @@ These are the only hard constraints. Everything else is voice.
 ### Stage T1 — Researcher
 
 Input: `archive/` and `drafts/` (if any) — check for existing personae.
-Output: `seeds/` — a list of archetype + domain + metaphor combinations ranked by viability.
+Output: `seeds/<seed-label>.md` — a list of archetype + domain + metaphor combinations ranked by viability.
 
-Before generating seeds, read all existing SOUL.md files in `archive/` and any in `drafts/`. Note their archetypes, domains, and metaphors. Do not reuse or overlap with these. A new persona must feel genuinely different from every archived one.
+**Before you begin:** Read all existing SOUL.md files in `archive/` and any in `drafts/`. Note their archetypes, domains, and metaphors. Do not reuse or overlap with these. A new persona must feel genuinely different from every archived one.
 
 A seed must contain:
 - **Archetype** (e.g., "surfer", "bartender", "archmage")
@@ -146,8 +158,10 @@ Seed must be distinct from archived personae in at least two of: archetype, doma
 
 ### Stage T1b — Namer
 
-Input: One seed.
-Output: `names/` — a single chosen name + 4 rejected alternatives with brief notes.
+Input: One seed from `seeds/<seed-label>.md`.
+Output: `names/<chosen-name-lower>.md` — a single chosen name + 4 rejected alternatives with brief notes.
+
+**Filename rule:** The output file MUST be named `<chosen-name-lower>.md` using the exact chosen name in lowercase. This filename is the source of truth for every subsequent stage.
 
 Generate **5 proper names** for this persona. Not titles. Not archetype labels. Names a person would introduce themselves with.
 
@@ -176,8 +190,10 @@ Save output as:
 
 ### Stage T2 — Writer
 
-Input: One seed + chosen name from T1b.
-Output: One `# [Name]` SOUL.md in `drafts/`.
+Input: One seed + chosen name from `names/<chosen-name-lower>.md`.
+Output: `drafts/<chosen-name-lower>.md` — one `# [Name]` SOUL.md.
+
+**Write the output file to the exact path above.** Do not write to a scratch workspace or temp directory. The file must land in `drafts/` with the correct filename so the next stage can find it.
 
 Identify the core tension. Put it in the first 4 behavioural lines. Write the rest. Count lines. Cut to ≤ 20. Verify ≤ 3 Nevers. Flatten any nested markdown.
 
