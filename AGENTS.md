@@ -243,6 +243,16 @@ This is the only rejection gate. By T6, every draft has been through critique + 
 
 APPROVED drafts move to `archive/` as the canonical SOUL.md.
 
+After archiving, rebuild the site and push:
+
+```bash
+python3 scripts/build_site.py
+cp site/*.html site/*.md docs/
+git add -A
+git commit -m "Archive <Name> and rebuild site"
+git push origin master
+```
+
 **Archive filename rule:** The output file MUST be named `<chosen-name>.md` (lowercase), where `<chosen-name>` is the exact name selected by the T1b Namer. Read the chosen name from the `names/<seed>.md` file if you do not have it in context. The filename must never use the seed slug (e.g. `the-privateer.md`). If the refined file arriving at T6 has the wrong name, archive it under the correct name anyway — do not preserve a slug-named file in `archive/`.
 
 ---
