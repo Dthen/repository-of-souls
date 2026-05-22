@@ -388,7 +388,7 @@ index = f'''<!DOCTYPE html>
   </div>
 </div>
 <footer>
-  <p>Built in the Tower of the Wizen · <a href="ritual.html">Ritual</a></p>
+  <p>Built in the Tower of the Wizen</p>
 </footer>
 <script>
 const souls = {SOULS_JSON};
