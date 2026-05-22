@@ -6,7 +6,9 @@ Every persona is produced by a multi-stage pipeline (research → namer → writ
 
 ## Browse
 
-Open `site/index.html` locally, or visit the hosted version.
+**Live site:** https://dthen.github.io/repository-of-souls/
+
+Or open `site/index.html` locally.
 
 ## Use
 
