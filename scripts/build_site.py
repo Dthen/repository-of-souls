@@ -232,7 +232,7 @@ input[type="search"]::placeholder { color: var(--text-muted); }
   align-items: center;
   justify-content: center;
   z-index: 100;
-  padding: 24px;
+  padding: 16px;
 }
 .modal-overlay.active { display: flex; }
 .modal {
@@ -240,10 +240,10 @@ input[type="search"]::placeholder { color: var(--text-muted); }
   border: 1px solid var(--border);
   border-radius: var(--radius);
   max-width: 640px;
-  width: 100%;
+  width: calc(100vw - 32px);
   max-height: 80vh;
   overflow-y: auto;
-  padding: 32px;
+  padding: 24px;
   position: relative;
 }
 .modal-close {
@@ -267,6 +267,8 @@ input[type="search"]::placeholder { color: var(--text-muted); }
   line-height: 1.7;
   margin-bottom: 12px;
   color: var(--text-secondary);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 .soul-text p:first-child {
   color: var(--text);
