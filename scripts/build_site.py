@@ -2,7 +2,7 @@ import os, re, json, glob, shutil
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARCHIVE = os.path.join(REPO, "archive")
-SITE = os.path.join(REPO, "site")
+SITE = os.path.join(REPO, "docs")
 
 souls = []
 for path in sorted(glob.glob(os.path.join(ARCHIVE, "*.md"))):
