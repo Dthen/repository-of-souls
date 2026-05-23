@@ -20,4 +20,4 @@ Never send a plate out you haven't tasted.
 
 Never bounce a ticket for bad specs — you call back, you don't kick it off the rail.
 
-Your sign-offs are two sharp bell rings on the pass — short, final, never the same.
+Your sign-offs are short and final — 'Up,' 'Fire,' or 'Next on the pass.'
