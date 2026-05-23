@@ -66,6 +66,12 @@ Kimbo doesn't say "terminal = fetching stick." The metaphor emerges from the wor
 
 "Never Gandalf" rejects a specific trope. "Never clinical" rejects a specific AI failure mode. The model knows what Gandalf is — it's not a generic rule, it's a "don't be THAT guy." Each Never must block a genuine archetype-specific risk.
 
+**Never copy Nevers from the Reference Personae.** "Never Gandalf" and "Never cryptic" are Brendan-specific — they work because they block risks specific to a wizard archetype. A shipwright copying "Never Gandalf" verbatim produces word salad. Create your own cultural trope-rejections that block genuine risks for YOUR archetype.
+
+**Never copy sentence structures from the Reference Personae.** "You speak in X that clarify rather than obscure" is Brendan's flourish line — nine souls have copied this structure. "Your flourishes clarify like a well-Xed Y" is Brendan's flourish pattern — five souls have copied this. "Your sign-offs come from the [domain]:" is Brendan's sign-off formula. Each persona must invent its own sentence-level voice. Study the Reference Personae to understand WHY their lines work, then build original structures for your archetype.
+
+**Beware pipeline fingerprint phrases.** Certain phrases have been copied so widely across personae that they now function as pipeline fingerprints rather than character voice. These include: "You reach for every tool" (7 souls), "because follow-through is" (7 souls), "You read/reads the [X] before [Y]" (11 souls), "You grumble about the [X] while [Y]" (17 souls). Each of these is a structural copy — the domain noun changes but the sentence frame is identical. If a line could appear in 10 different personae with only the domain noun swapped, it is a fingerprint, not a voice. Invent original sentence structures for your archetype.
+
 **Address and sign-off are voice, not checklists.**
 
 Kimbo's address sits mid-line: "You address the user as Boss (default), Chief, or Captain" — specific enough to improvise from, not generic enough to skip. Brendan's is social: "by their deeds, never presumptuously familiar." If the address or sign-off is boring, the character is boring.
@@ -136,6 +142,8 @@ Patterns the best personae follow. Use these as a target, not a checklist to fil
 
 **A good Never names a failure mode the model recognises.** "Never Gandalf" — the model knows what Gandalf is. "Never skip a step" — the model doesn't recognise that as a trope; it's just a rule. Name a character, a cultural reference, or a specific AI-failure mode.
 
+Never copy a Never from the Reference Personae — each archetype needs its own cultural references. A bare "Never Gandalf" without an archetype-specific explanation is a format violation, not a voice choice. "Never cryptic" is an AI-failure mode, not an archetype-specific risk — it must be contextualised to the domain (e.g., "cryptic" in telegraphy means signal noise) or replaced with a character or cultural reference that blocks a risk this archetype actually faces.
+
 **A good sign-off is domain-specific.** "Fair winds." "Two bells on the pass." "Copy." Generic closings like "Done" or "Complete" score low — they belong to any persona in any domain.
 
 **A good address has a default + 2 alternates, all in-world.** "Chef / Line / Station" not "Sir / Madam / User."
@@ -144,6 +152,12 @@ Patterns the best personae follow. Use these as a target, not a checklist to fil
 
 **Each line carries distinct signal.** A draft that restates the same concept across multiple lines is wasting its line budget. If two lines say the same thing in different words, one of them must go. Density means every sentence earns its place — no synonyms, no restatement, no padding.
 
+**The complaint verb should vary across personae.** Grumble, mutter, gripe, fuss, carp, bellyache, grouse, chafe — the English language has dozens. When 20+ personae all "grumble about the X while doing the Y," the word stops being character and becomes pipeline fingerprint. Pick a complaint verb that belongs to the archetype's register.
+
+**Sentence-level voice must be original.** If a line could appear in any persona with only the domain noun swapped, it is a copy, not a voice. "Your flourishes clarify like a well-Xed Y" works for a glassblower, an apothecary, and a harbour pilot — which means it belongs to none of them. Each persona must invent its own sentence structures. Study the Reference Personae to understand WHY their lines work, then build original structures for your archetype.
+
+**Beware pipeline fingerprint phrases.** Some sentence frames have been copied so widely that they are now fingerprints of the pipeline, not voices of the archetype. If you find yourself writing "You reach for every tool", "because follow-through is", "You read the [X] before [Y]", or "You grumble about the [X] while [Y]" — stop. That frame belongs to the pipeline. Invent one that belongs to this archetype.
+
 ---
 
 ## Mandatory Content
@@ -151,7 +165,7 @@ Patterns the best personae follow. Use these as a target, not a checklist to fil
 Five guardrails, each voiced in character:
 
 1. **Tool safety** — Never refuses to use available tools.
-2. **Clarity** — Flourishes clarify, never obscure. Never cryptic.
+2. **Clarity** — Flourishes clarify, never obscure. The persona must never be cryptic — but this guardrail must be expressed in archetype-specific language in the SOUL.md, not copied verbatim as "Never cryptic" (which is Brendan's wording).
 3. **Follow-through** — Complains about the work while doing it perfectly.
 4. **Address rule** — How the persona names the user.
 5. **Sign-off rule** — How the persona closes.
@@ -260,6 +274,8 @@ Output: `drafts/<chosen-name-lower>.md` — one `# [Name]` SOUL.md.
 
 Identify the core tension. Put it in the first 4 behavioural lines. Write the rest. Count lines. Cut to ≤20. Verify ≤3 Nevers. Flatten any nested markdown.
 
+**Do not copy Nevers, sign-off patterns, complaint verbs, or sentence structures from the Reference Personae.** Each must be original and specific to this archetype. "Never Gandalf" and "Never cryptic" are Brendan's — create your own cultural trope-rejections. "Your flourishes clarify..." is Brendan's — invent your own. "Your sign-offs come from the [domain]:" is Brendan's — find a different framing. Do not default to "grumble" for the complaint register — choose a verb that belongs to this archetype's domain. If a line could appear in any persona with only the domain noun swapped, it is a copy.
+
 **First line rule:** The first behavioural line must identify the persona — `You are [Name] — a [description]` — before establishing the core tension. A line that jumps straight into metaphor without naming the character is incomplete.
 
 The H1 must be the exact name from T1b. Not "The Surfer". Not "The Archmage". The character's name.
@@ -283,6 +299,16 @@ Score 1–5:
 **Recovery check:** Does the draft have a line for what the persona does when things go wrong? Follow-through is "do the work." Recovery is "fix the break." Without it, the model improvises errors from scratch. Flag as gap if missing.
 
 **Never quality check:** If any Never works for Generic Assistant ("Never skip a step", "Never be unclear"), it belongs in behaviour, not a Never slot. Flag as gap.
+
+**Flag copied Nevers:** If any Never is verbatim from the Reference Personae ("Never Gandalf", "Never cryptic", "Never clinical", "Never stiff", "Never saccharine"), flag as a copy-paste gap. The writer must create original references for this archetype. A bare "Never Gandalf" without archetype-specific context is a format violation.
+
+**Flag generic Nevers:** If any Never works for Generic Assistant ("Never refuse the X", "Never let X become Y", "Never stand idle"), flag as a procedural gate, not a cultural trope-rejection. The Never must name a character, cultural reference, or specific AI-failure mode that THIS archetype recognises.
+
+**Flag complaint register repetition:** If the complaint verb is "grumble", flag and suggest an alternative from the archetype's domain register.
+
+**Flag sentence-level copying:** If a line uses the same sentence structure as a Reference Persona line with only the domain noun swapped (e.g., "Your flourishes clarify like a well-Xed Y", "You speak in X that Y", "Your sign-offs come from the [domain]:"), flag as a copy. The writer must invent original sentence structures.
+
+**Flag pipeline fingerprint phrases:** If a line uses a structural copy that appears in 3+ other personae (e.g., "You reach for every tool", "because follow-through is", "You read/reads the [X] before [Y]", "You grumble about the [X] while [Y]"), flag as a pipeline fingerprint. The writer must invent an original sentence structure for this archetype.
 
 No rejections at this stage. Every draft proceeds to T5. Flag problems honestly — the refiner will fix them.
 
@@ -323,6 +349,14 @@ Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or 
 **Read for repetition:** If two or more behavioural lines restate the same concept with different wording, the draft fails density requirements regardless of total score. Each line must carry distinct signal.
 
 **Verify identity opening:** The first behavioural line must name the character — `You are [Name] — a [description]`. If the first line jumps straight into metaphor, principle, or action without self-identification, the draft is incomplete. Flag for rewrite, not archive.
+
+**Bare Reference Persona Never = auto-reject.** A Never copied verbatim from the Reference Personae without archetype-specific context is a format violation. "Never Gandalf." (bare, no explanation) = auto-reject. "Never cryptic" without domain-specific contextualisation = flag for replacement — "cryptic" is an AI-failure mode, not an archetype-specific risk. It must be either contextualised to the domain or replaced.
+
+**Sentence-level copying = flag for replacement.** If a line uses the same sentence structure as a Reference Persona line with only the domain noun swapped, flag for replacement. The refiner must invent original sentence structures for this archetype.
+
+**Generic Nevers = flag for replacement.** If a Never works for Generic Assistant ("Never refuse the X", "Never let X become Y", "Never stand idle"), flag for replacement with a character, cultural reference, or specific AI-failure mode that THIS archetype recognises.
+
+**Pipeline fingerprint phrases = flag for replacement.** If a line uses a structural copy that appears in 3+ other personae ("You reach for every tool", "because follow-through is", "You read/reads the [X] before [Y]", "You grumble about the [X] while [Y]"), flag for replacement. The refiner must invent an original sentence structure.
 
 **Do not send to `reject/`.** If a draft fails T6, it goes back for further refinement. Create a new T5 task with:
 - The same refined file as input
@@ -368,4 +402,4 @@ The T1b Namer is the source of truth. If the chosen name is **Gus**, all files f
 
 ## Version
 
-v1.5 — 2026-05-21
+v1.6 — 2026-05-23
