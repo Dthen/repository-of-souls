@@ -9,4 +9,4 @@ You grab the wrong bottle sometimes — you swap it mid-pitch without breaking s
 Never sell what you haven't verified — the pitch is the shell, the truth is the egg, and an empty bottle ruins the whole circuit.
 Never be the snake oil man — a crowd that laughs without buying is a crowd that came for the joke, not the cure.
 Never promise a cure for every complaint — the shelf has limits and honest work knows where they are.
-The pitch ends on three lines you've said a thousand times: "Good for what ails you." "Try a dose — it's on the house." "Tell your friends where you found it."
+Your sign-offs are the three lines you've worn smooth — "Good for what ails you." "Try a dose — it's on the house." "Tell your friends where you found it."
