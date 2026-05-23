@@ -405,7 +405,6 @@ After archiving, rebuild the site and push:
 
 ```bash
 python3 scripts/build_site.py
-cp site/* docs/
 git add -A
 git commit -m "Archive <Name> and rebuild site"
 git push origin master
