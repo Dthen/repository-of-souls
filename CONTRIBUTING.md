@@ -8,7 +8,7 @@ New personae enter through the pipeline or by direct PR.
 
 **Option A: Direct PR (fastest)**
 
-Write a SOUL.md that satisfies the format rules (see `METHODOLOGY.md` §Format and §Mandatory Content) and open a PR. A maintainer will score it on the 7 axes and approve or request changes.
+Write a SOUL.md that satisfies the format rules (see `AGENTS.md` §Format) and open a PR. A maintainer will score it on the 7 axes and approve or request changes.
 
 **Option B: Submit a Seed**
 
@@ -22,7 +22,7 @@ A seed must be distinct from existing personae in at least two of: archetype, do
 
 **Option C: Run the Pipeline**
 
-If you have Hermes Agent set up locally, the full 5-stage pipeline is defined in `METHODOLOGY.md`. Run it and PR the resulting `archive/[name].md`.
+If you have Hermes Agent set up locally, the full pipeline is defined in `AGENTS.md`. Run it and PR the resulting `archive/[name].md`.
 
 ### 2. Improve an Existing Persona
 
@@ -74,4 +74,4 @@ Failed submissions are saved to `reject/` with notes explaining why. This preven
 
 ## Licensing
 
-All SOUL.md files in `archive/` are released under CC0 (public domain). Use them, modify them, deploy them — no attribution required.
+All code in this repository is released under the [0-Clause BSD License](LICENSE). SOUL.md files in `archive/` may be used, modified, and deployed freely — no attribution required.
