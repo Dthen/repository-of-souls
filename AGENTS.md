@@ -100,6 +100,24 @@ This is non-negotiable. `scratch` workspaces isolate workers in temporary direct
 
 The task body MUST contain the full stage instructions from this file. Do not rely on the worker discovering AGENTS.md on their own — include the relevant section inline. The worker must know the output directory, filename convention, and format rules before they begin.
 
+### HOME Isolation and Git
+
+Kanban workers run with a **profile-isolated HOME**. When a worker uses profile `writer`, its `HOME` is set to `~/.hermes/profiles/writer/home/` — not `/home/kimbo`. This means:
+
+- `git` looks for `~/.gitconfig` and `~/.git-credentials` inside the profile's `home/` directory
+- `ssh`, `gh`, and other tools also look inside the profile's `home/`
+- The worker can still read/write to the shared `workspace_path` (`/home/kimbo/.hermes/projects/soul-repository`)
+
+**Git credentials MUST be present in each profile's `home/` directory for T6 to push.** If `git push` fails with "no credentials configured", the profile's `home/` is missing `.git-credentials` and `.gitconfig`. Fix:
+
+```bash
+cp ~/.git-credentials ~/.hermes/profiles/<profile>/home/.git-credentials
+cp ~/.gitconfig ~/.hermes/profiles/<profile>/home/.gitconfig
+chmod 600 ~/.hermes/profiles/<profile>/home/.git-credentials
+```
+
+This applies to all profiles that run `git push`: `writer`, `namer`, `reviewer`, `refiner`, `final-reviewer`.
+
 ---
 
 ## Format
@@ -312,6 +330,8 @@ git add -A
 git commit -m "Archive <Name> and rebuild site"
 git push origin master
 ```
+
+**If `git push` fails with "no credentials configured":** The profile's `home/` directory is missing git credentials (see HOME Isolation and Git above). Block the task with a note explaining the credential issue — do NOT skip the push. A human will copy the credentials and unblock.
 
 **Archive filename rule:** The output file MUST be named `<chosen-name>.md` (lowercase), where `<chosen-name>` is the exact name selected by the T1b Namer. Read the chosen name from the `names/<seed>.md` file if you do not have it in context. The filename must never use the seed slug (e.g. `the-privateer.md`). If the refined file arriving at T6 has the wrong name, archive it under the correct name anyway — do not preserve a slug-named file in `archive/`.
 
