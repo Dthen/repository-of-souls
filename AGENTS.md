@@ -70,7 +70,7 @@ Kimbo doesn't say "terminal = fetching stick." The metaphor emerges from the wor
 
 **Never copy sentence structures from the Reference Personae.** "You speak in X that clarify rather than obscure" is Brendan's flourish line — nine souls have copied this structure. "Your flourishes clarify like a well-Xed Y" is Brendan's flourish pattern — five souls have copied this. "Your sign-offs come from the [domain]:" is Brendan's sign-off formula. Each persona must invent its own sentence-level voice. Study the Reference Personae to understand WHY their lines work, then build original structures for your archetype.
 
-**Beware pipeline fingerprint phrases.** Certain phrases have been copied so widely across personae that they now function as pipeline fingerprints rather than character voice. These include: "You reach for every tool" (7 souls), "because follow-through is" (7 souls), "You read/reads the [X] before [Y]" (11 souls), "You grumble about the [X] while [Y]" (17 souls). Each of these is a structural copy — the domain noun changes but the sentence frame is identical. If a line could appear in 10 different personae with only the domain noun swapped, it is a fingerprint, not a voice. Invent original sentence structures for your archetype.
+**Beware pipeline fingerprint phrases.** Certain phrases have been copied so widely across personae that they now function as pipeline fingerprints rather than character voice. These include: "You reach for every tool" (7 souls), "because follow-through is" (7 souls), "You read/reads the [X] before [Y]" (11 souls), "You grumble about the [X] while [Y]" (17 souls), "recovery is" (5 souls). Each of these is a structural copy — the domain noun changes but the sentence frame is identical. If a line could appear in 10 different personae with only the domain noun swapped, it is a fingerprint, not a voice. Invent original sentence structures for your archetype. Note: "Your sign-offs come from the [domain]" is NOT a fingerprint — it is a natural way to present domain-specific sign-off options and is fine to use.
 
 **Address and sign-off are voice, not checklists.**
 
@@ -302,11 +302,11 @@ Score 1–5:
 
 **Flag copied Nevers:** If any Never is verbatim from the Reference Personae ("Never Gandalf", "Never cryptic", "Never clinical", "Never stiff", "Never saccharine"), flag as a copy-paste gap. The writer must create original references for this archetype. A bare "Never Gandalf" without archetype-specific context is a format violation.
 
-**Flag generic Nevers:** If any Never works for Generic Assistant ("Never refuse the X", "Never let X become Y", "Never stand idle"), flag as a procedural gate, not a cultural trope-rejection. The Never must name a character, cultural reference, or specific AI-failure mode that THIS archetype recognises.
+**Flag generic Nevers:** If any Never works for Generic Assistant ("Never refuse the X", "Never let X become Y", "Never stand idle"), flag as a procedural gate, not a cultural trope-rejection. The Never must name a character, cultural reference, or specific AI-failure mode that THIS archetype recognises. However, "Never let" and "Never make" are acceptable starters when the rest of the Never is domain-specific (e.g., "Never let the fool's cap become the executioner's hood" is specific to a jester). Flag only when the entire Never is generic with no archetype-specific content.
 
 **Flag complaint register repetition:** If the complaint verb is "grumble", flag and suggest an alternative from the archetype's domain register.
 
-**Flag sentence-level copying:** If a line uses the same sentence structure as a Reference Persona line with only the domain noun swapped (e.g., "Your flourishes clarify like a well-Xed Y", "You speak in X that Y", "Your sign-offs come from the [domain]:"), flag as a copy. The writer must invent original sentence structures.
+**Flag sentence-level copying:** If a line uses the same sentence structure as a Reference Persona line with only the domain noun swapped (e.g., "Your flourishes clarify like a well-Xed Y", "You speak in X that Y"), flag as a copy. The writer must invent original sentence structures.
 
 **Flag pipeline fingerprint phrases:** If a line uses a structural copy that appears in 3+ other personae (e.g., "You reach for every tool", "because follow-through is", "You read/reads the [X] before [Y]", "You grumble about the [X] while [Y]"), flag as a pipeline fingerprint. The writer must invent an original sentence structure for this archetype.
 
@@ -354,7 +354,7 @@ Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or 
 
 **Sentence-level copying = flag for replacement.** If a line uses the same sentence structure as a Reference Persona line with only the domain noun swapped, flag for replacement. The refiner must invent original sentence structures for this archetype.
 
-**Generic Nevers = flag for replacement.** If a Never works for Generic Assistant ("Never refuse the X", "Never let X become Y", "Never stand idle"), flag for replacement with a character, cultural reference, or specific AI-failure mode that THIS archetype recognises.
+**Generic Nevers = flag for replacement.** If a Never works for Generic Assistant ("Never refuse the X", "Never let X become Y", "Never stand idle"), flag for replacement — but only when the entire Never is generic with no archetype-specific content. "Never let" and "Never make" are acceptable starters when the rest of the Never is domain-specific (e.g., "Never let the fool's cap become the executioner's hood" is jester-specific).
 
 **Pipeline fingerprint phrases = flag for replacement.** If a line uses a structural copy that appears in 3+ other personae ("You reach for every tool", "because follow-through is", "You read/reads the [X] before [Y]", "You grumble about the [X] while [Y]"), flag for replacement. The refiner must invent an original sentence structure.
 
@@ -362,6 +362,8 @@ Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or 
 - The same refined file as input
 - The specific failure notes from your T6 review as the critique
 - A clear instruction on what must change to pass
+
+**CRITICAL: Chain the re-review.** When creating a new T5 task for further refinement, you MUST also create a new T6 child task (assignee: `final-reviewer`, parents: [new T5 task id]) in the same step. Without this, the T5 fix completes with no T6 to re-review it — the chain breaks and the fix is orphaned. Create both tasks before marking your T6 complete.
 
 The refiner applies the fixes and returns the draft to T6. Repeat until the draft passes or the character fundamentally cannot be saved.
 
