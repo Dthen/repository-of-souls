@@ -337,8 +337,8 @@ for soul in souls:
 {body_html}
     </div>
     <div class="actions">
-      <a class="action-btn primary" href="{soul['slug']}.md" download="{soul['slug']}.md">⬇ Download SOUL.md</a>
       <a class="action-btn" href="index.html">← All Souls</a>
+      <a class="action-btn primary" href="{soul['slug']}.md" download="{soul['slug']}.md">⬇ Download SOUL.md</a>
     </div>
   </div>
 </div>
