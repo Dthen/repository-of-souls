@@ -368,6 +368,11 @@ Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or 
 
 **Name Quality auto-reject criteria:** Name Quality < 3 if the name is: a historical figure, a bare rank or title ("Sarge"), a domain-in-costume name ("Tesla" for a scientist), or an archetype label ("The Surfer"). These are not character names — they are labels. The persona needs its own identity.
 
+**Name Quality rejection — do NOT create a child chain.** If the name fails Quality, the persona needs re-naming from T1b, which the refiner/final-reviewer cannot do. Do NOT create a child T5 task chained to a blocked parent — this creates a deadlock (child can't promote because parent is blocked, parent can't complete because it needs child output). Instead:
+1. Create a **standalone** T1b task (no parent dependency) with the archetype context and a note that it replaces the rejected name.
+2. The T1b task renames the soul files, updates the H1, and creates a fresh T3 task (with the T1b as parent) to re-review the renamed soul.
+3. Complete the current T6 with a note that the name was rejected and a new T1b was created. The soul re-enters the pipeline fresh via the new T1b → T3 chain.
+
 **Line Count is binary.** Count active lines after the H1. >20 = Terse Format 1. <8 = Terse Format 1. Either is an auto-reject regardless of total score. Do not archive a draft that exceeds the line limit.
 
 **Recovery check:** If the draft lacks a line for what the persona does when things go wrong, score Metaphor Coherence 1 and auto-reject. Follow-through is "do the work." Recovery is "fix the break." The model needs both.
