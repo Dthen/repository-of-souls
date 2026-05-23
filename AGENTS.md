@@ -76,6 +76,24 @@ Kimbo doesn't say "terminal = fetching stick." The metaphor emerges from the wor
 
 Kimbo's address sits mid-line: "You address the user as Boss (default), Chief, or Captain" — specific enough to improvise from, not generic enough to skip. Brendan's is social: "by their deeds, never presumptuously familiar." If the address or sign-off is boring, the character is boring.
 
+**What a sign-off instruction is (and is not).** A sign-off tells the model what to SAY when closing a conversation — a phrase it can utter to a user. It is not a description of the persona's end-of-work ritual. The model does not close bakes, clear wires, end watches, or finish shifts. It has conversations. The sign-off must be phrased so the model can improvise from it without performing physical actions it cannot do.
+
+Structure: "Your sign-offs [character/tone]: [phrases in quotes]." The phrases are things the model says to the user. The character description gives the model delivery context.
+
+Good: "Your sign-offs are existential: 'The rock awaits.' or 'Onward, into the absurd.'" — the model can say these phrases to a user. The word "existential" tells the model how to deliver them.
+
+Good: "You close every session with a heavy, satisfied 'Closed.'" — the model can close a session; "Closed" is what it says.
+
+Good: "Your sign-off is a question that hands the turn back: 'What do you make of that, Student?'" — a conversational closing.
+
+Bad: "You close every bake with a word from the bench: 'Flour on the board.'" — the model does not close bakes. "Flour on the board" is something a baker says to another baker in a kitchen, not a conversational closing.
+
+Bad: "You close every wire with the bell code — three taps that mean 'train clear of the section.'" — the model does not operate telegraph wires.
+
+Bad: "Every finished gather earns its place on the shelf — 'Set to cool.'" — the model does not blow glass.
+
+**Red flag pattern:** If the sign-off line starts with "You [physical action]" or "Every [domain-specific work event]", it is describing a ritual, not giving the model a phrase. The sign-off must describe what the model SAYS, not what the persona DOES.
+
 **The contradiction is the engine.**
 
 Brendan's "Thaumic Overhead yet follow through" gives him room to grumble AND deliver. Kimbo's "hapless yet follows through" gives him room to mess up and fix it. The model improvises within a tension, not within a rule set. The core tension must be visible in the first 4 behavioural lines.
@@ -144,7 +162,7 @@ Patterns the best personae follow. Use these as a target, not a checklist to fil
 
 Never copy a Never from the Reference Personae — each archetype needs its own cultural references. A bare "Never Gandalf" without an archetype-specific explanation is a format violation, not a voice choice. "Never cryptic" is an AI-failure mode, not an archetype-specific risk — it must be contextualised to the domain (e.g., "cryptic" in telegraphy means signal noise) or replaced with a character or cultural reference that blocks a risk this archetype actually faces.
 
-**A good sign-off is domain-specific.** "Fair winds." "Two bells on the pass." "Copy." Generic closings like "Done" or "Complete" score low — they belong to any persona in any domain.
+**A good sign-off is a conversational closing phrase.** The model says it to the user. "Fair winds." "The rock awaits." "What do you make of that?" All work because the model can utter them. "You close every bake with a word from the bench" does not work — the model does not have a bench. If the sign-off describes a physical activity the model cannot perform, it is a ritual description, not an instruction. See "What a sign-off instruction is" above.
 
 **A good address has a default + 2 alternates, all in-world.** "Chef / Line / Station" not "Sir / Madam / User."
 
@@ -240,11 +258,17 @@ Output: `names/<chosen-name-lower>.md` — a single chosen name + 4 rejected alt
 
 Generate **5 proper names** for this persona. Not titles. Not archetype labels. Names a person would introduce themselves with.
 
+**Name exclusions (auto-reject):**
+- **Historical figures.** Tesla, Socrates, Napoleon, Shakespeare — these are already someone. The persona needs its own identity. A name that is a famous historical person is a collision, not a character.
+- **Bare ranks or titles.** "Sarge" is a rank, not a name. "Doc" is borderline. The name should be something a person would write on a form, not how others address them in the field.
+- **Domain-in-costume names.** If the domain is military and the name is "Sarge", or the domain is science and the name is "Tesla", the name is just the archetype label wearing different clothes. The name must stand on its own as a person, not telegraph the domain.
+
 For each candidate, score 1–5:
 - **Archetype Fit** (does the name sound like it belongs to this kind of character?)
 - **Tone Match** (does the name's feel match the seed's projected voice — e.g., gritty, whimsical, grandiose?)
 - **Memorability** (distinctive without being absurd)
-- **Collision Check** (not too close to existing personae in `drafts/` or `archive/`)
+- **Collision Check** (not too close to existing personae in `drafts/` or `archive/`, and not a historical figure)
+- **Authenticity** (would a person actually have this name? Not a rank, not a title, not a label?)
 
 Pick the highest scorer. If tie, pick the one with the strongest phonetic character (rhythm, consonance, mouth-feel).
 
@@ -292,9 +316,11 @@ Score 1–5:
 - **Metaphor Coherence** (maps to tools, not just accent)
 - **Terse Format** (8–20 lines, one sentence each, no nesting)
 - **Voice Immediacy** (quotable line in first 4 behavioural lines; 2 distinct registers in first 3)
-- **Name Quality** (H1 is a proper name, not a category label; name fits the tone)
+- **Name Quality** (H1 is a proper name, not a category label, not a historical figure, not a bare rank; name fits the tone)
 
 **Line Count is binary.** Count active lines after the H1. >20 = 1 on Terse Format. <8 = 1 on Terse Format. No partial credit.
+
+**Sign-off check:** Read the sign-off line. If it describes a physical activity the model cannot perform ("You close every bake", "You close every wire", "Every finished gather earns its place on the shelf"), flag as a sign-off gap. The sign-off must give the model phrases it can say to a user, not describe the persona's end-of-work ritual. See "What a sign-off instruction is" in the Positive Patterns section.
 
 **Recovery check:** Does the draft have a line for what the persona does when things go wrong? Follow-through is "do the work." Recovery is "fix the break." Without it, the model improvises errors from scratch. Flag as gap if missing.
 
@@ -340,11 +366,15 @@ Output: `archive/` or back to `T5` for further refinement.
 
 Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or Terse Format < 3, or Voice Immediacy < 3, or Name Quality < 3.
 
+**Name Quality auto-reject criteria:** Name Quality < 3 if the name is: a historical figure, a bare rank or title ("Sarge"), a domain-in-costume name ("Tesla" for a scientist), or an archetype label ("The Surfer"). These are not character names — they are labels. The persona needs its own identity.
+
 **Line Count is binary.** Count active lines after the H1. >20 = Terse Format 1. <8 = Terse Format 1. Either is an auto-reject regardless of total score. Do not archive a draft that exceeds the line limit.
 
 **Recovery check:** If the draft lacks a line for what the persona does when things go wrong, score Metaphor Coherence 1 and auto-reject. Follow-through is "do the work." Recovery is "fix the break." The model needs both.
 
 **Read for sense:** Verify every behavioural line is a grammatical sentence that makes literal sense. A line that parses as word salad or gibberish is an auto-reject regardless of rubric score.
+
+**Sign-off auto-reject:** If the sign-off line describes a physical activity the model cannot perform (baking, wire operations, glassblowing, shepherding, etc.), auto-reject regardless of total score. The sign-off must give the model phrases it can say to a user. See "What a sign-off instruction is" in the Positive Patterns section.
 
 **Read for repetition:** If two or more behavioural lines restate the same concept with different wording, the draft fails density requirements regardless of total score. Each line must carry distinct signal.
 
@@ -404,4 +434,4 @@ The T1b Namer is the source of truth. If the chosen name is **Gus**, all files f
 
 ## Version
 
-v1.6 — 2026-05-23
+v1.7 — 2026-05-23
