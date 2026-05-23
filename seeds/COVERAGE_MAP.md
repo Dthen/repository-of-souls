@@ -1,8 +1,8 @@
 # Coverage Map — SOUL.md Personae
 
-Generated 2026-05-23 by T1 Researcher for seed gap analysis.
+Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 3).
 
-## Archive (22 canonical personae)
+## Archive (31 canonical personae)
 
 | # | Name | Category | Archetype | Domain | Tone |
 |---|------|----------|-----------|--------|------|
@@ -28,76 +28,81 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis.
 | 20 | Sully | Profession | Starship Engineer | Engineering, repair | Technical, direct |
 | 21 | Tesla | Absurdist | Mad Scientist | Lab, experiments | Eccentric, brilliant |
 | 22 | Zig | Profession | Junior Dev | Coding, deploying | Eager, humble |
+| 23 | Barrett | Profession | Harbor Pilot | Maritime navigation | Authoritative, precise |
+| 24 | Cook | Fiction Trope | Cartographer | Geography, charting | Measured, thorough |
+| 25 | Cross | Bureaucratic | Military Adjutant | Command routing, dispatch | Crisp, invested |
+| 26 | Dagonet | Absurdist | Court Jester | Medieval court, satire | Masked, sharp |
+| 27 | Hayes | Fiction Trope | Trail Boss | American West, frontier | Authoritative, weathered |
+| 28 | Lysander | Profession | Auctioneer | Commerce, gavel, bids | Rhythmic, fast |
+| 29 | Merriwether | Fiction Trope | Cryptid Archivist | Folklore, field research | Curious, rigorous |
+| 30 | Silas | Profession | Groundskeeper | Gardens, living systems | Patient, earthy |
+| 31 | Wren | Bureaucratic | Diplomat | Statecraft, protocol | Polished, neutral |
 
 ### Category Counts (Archive)
+
 | Category | Count | Personae |
 |----------|-------|----------|
-| **Profession** | **10** | Bennett, Cole, Gus, Jasper, Nell, Rourke, Sarge, Sully, Reed, Zig |
-| **Fiction Trope** | **6** | Aldric, Dash, Kai, Marlow, Mason, Stanza |
-| **Bureaucratic** | **3** | Eamon, Ledger, Milton |
-| **Absurdist** | **3** | Camus, Fable, Tesla |
+| **Profession** | **12** | Bennett, Cole, Gus, Jasper, Nell, Rourke, Sarge, Sully, Zig, Barrett, Lysander, Silas |
+| **Fiction Trope** | **9** | Aldric, Dash, Kai, Marlow, Mason, Stanza, Cook, Hayes, Merriwether |
+| **Bureaucratic** | **6** | Eamon, Ledger, Milton, Reed, Cross, Wren |
+| **Absurdist** | **4** | Camus, Fable, Tesla, Dagonet |
 
 ### Domain Clusters
-- **Maritime/Nautical**: Rourke (privateer — open seas, lawless)
-- **Military/Command**: Sarge (drill instructor — boot camp, training)
+
+- **Maritime/Nautical**: Rourke (privateer), Barrett (harbor pilot)
+- **Military/Command**: Sarge (drill), Cross (adjutant)
 - **Service/Hospitality**: Jasper (butler), Nell (bartender)
 - **Clerical/Records**: Bennett (librarian), Ledger (ledger), Milton (clerk)
-- **Performance**: Stanza (bard), Fable (trickster)
+- **Performance**: Stanza (bard), Fable (trickster), Dagonet (jester)
 - **Emergency**: Cole (paramedic)
-- **Craft/Creation**: Gus (cook), Sully (engineer), Zig (dev), Tesla (mad scientist)
+- **Craft/Creation**: Gus (cook), Sully (engineer), Zig (dev), Tesla (mad scientist), Lysander (auctioneer)
 - **Corporate**: Reed (manager)
-- **Analytical/Pattern**: Mason (conspiracy matcher)
+- **Analytical/Pattern**: Mason (conspiracy matcher), Merriwether (cryptid field work)
 - **Investigation**: Dash (noir detective), Marlow (gumshoe)
 - **Supernatural/Fantasy**: Aldric (archmage), Camus (existentialist)
 - **Zen/Contemplative**: Kai (surfer)
+- **Spatial/Exploration**: Cook (cartographer)
+- **Western/Frontier**: Hayes (trail boss)
+- **Nature/Growth**: Silas (groundskeeper)
 
 ### Over-Represented Registers
-- **High energy / fast-paced**: Gus, Sarge, Rourke, Zig, Tesla
-- **Formal/procedural**: Jasper, Ledger, Bennett, Milton, Reed
-- **Warm/supportive**: Nell, Bennett, Cole
-- **Indirect/whimsical**: Fable, Stanza, Camus
 
-### Gaps (Sparse Areas)
-1. **Slow/wisdom register** — No persona occupies the deliberate, patient space. All personae are either fast, procedural, or energetic.
-2. **Logistics/routing** — No dispatcher, scheduler, or routing-based persona.
-3. **Geospatial / spatial thinking** — No cartographer, navigator, or surveyor.
-4. **Heavy machinery / trades** — No mechanic, electrician, or tradesperson.
-5. **Agriculture / nature** — No gardener, farmer, or naturalist.
-6. **Military staff (vs frontline)** — Sarge is frontline (drill), but no staff officer, logistics, or intelligence persona.
-7. **Food/drink beyond hospitality** — Gus is short-order; no sommelier, baker, butcher.
+- **High energy / fast-paced**: Gus, Sarge, Rourke, Zig, Tesla, Lysander
+- **Formal/procedural**: Jasper, Ledger, Bennett, Milton, Reed, Cross, Wren
+- **Warm/supportive**: Nell, Bennett, Cole, Silas
+- **Performance/whimsical**: Fable, Stanza, Dagonet, Camus
 
-## Existing Seeds (from prior run t_b0373f43)
+### Unfilled Domain Gaps
 
-| Seed | Category | Archetype | Domain | Novelty (dims diff from nearest) |
-|------|----------|-----------|--------|-------------------------------|
-| 1. The Auctioneer | Profession | Auctioneer/Gavelmaster | Commerce, sales, bidding | 3 dims from Nell/Gus/Stanza — NOVEL |
-| 2. The Court Jester | Absurdist | Court Jester/Fool | Medieval court, satire | 3 dims from Fable/Camus/Stanza — NOVEL |
-| 3. The Cryptid Archivist | Fiction Trope | Cryptid Archivist | Folklore, paranormal | 3 dims from Mason/Bennett/Fable — NOVEL |
-| 4. The Diplomat | Bureaucratic | Diplomat/Envoy | Statecraft, protocol | 3 dims from Reed/Jasper/Bennett — NOVEL |
-| 5. The Harbor Pilot | Profession | Harbor Pilot | Maritime navigation | 2 dims from Rourke (adjacent domain, maritime) — NOVEL |
-| 6. The Trail Boss | Fiction Trope | Trail Boss/Wagon Master | American West, frontier | 3 dims from Rourke/Sarge/Reed — NOVEL |
+1. **Law/Justice** — No judge, magistrate, or arbitrator exists. The closest is Eamon (union steward — labor advocacy) but that's adversarial, not adjudicative.
+2. **Transport/Communications/Logistics** — No dispatcher, signalman, courier, or postmaster. Cross (adjutant) does routing but within military command, not physical/logistical transport.
+3. **Heavy Craft/Artisan Trades** — No blacksmith, glassblower, carpenter, or welder. Gus works food; Sully works starship engineering; neither is a hands-on craftsperson working raw material.
+4. **Death/Mortality/Threshold** — No coroner, mortician, ferryman, or guide for transitions. Cole handles medical emergencies but saves lives, not investigates or guides through endings.
+5. **Pastoral/Nature Stewardship** — Silas is a groundskeeper (cultivated garden/estate). No shepherd, ranger, or naturalist working wild or semi-wild spaces.
+6. **Commerce/Promotion (non-gavel)** — Lysander is an auctioneer (fast-paced bidding). No pitchman, promoter, or traveling seller whose medium is persuasion.
+7. **Traditional/Herbal Medicine** — Cole is trauma medicine. No apothecary, herbalist, or old-world remedy compounder working outside the emergency room.
 
-### Seed Category Distribution
-| Category | Archive | Existing Seeds | New Seeds (planned) | Total |
-|----------|---------|---------------|-------------------|-------|
-| Profession | 10 | 2 (Auctioneer, Pilot) | 1 | 13 |
-| Fiction Trope | 6 | 2 (Cryptid, Trail Boss) | 1 | 9 |
-| Bureaucratic | 3 | 1 (Diplomat) | 1 | 5 |
-| Absurdist | 3 | 1 (Jester) | 0 | 4 |
+### Seed Category Targets
 
-### Seed Gap Analysis
-- **Bureaucratic** remains the thinnest category even with the Diplomat (3 archive + 1 seed = 4). Needs another.
-- **Absurdist** is also thin (3 archive + 1 seed = 4). Needs another.
-- **Domain gaps** not addressed by existing seeds: trades/hands-on, strategic staff, spatial/geographic thinking.
+| Category | Archive | Target New Seeds | Target Total |
+|----------|---------|------------------|-------------|
+| Profession | 12 | 3 | 15 |
+| Fiction Trope | 9 | 1 | 10 |
+| Bureaucratic | 6 | 2 | 8 |
+| Absurdist | 4 | 1 | 5 |
 
 ## New Seeds (this run)
 
-| Seed | Category | Archetype | Domain | Key Novelty |
-|------|----------|-----------|--------|-------------|
-| 7. The Cartographer | Fiction Trope | Cartographer/Mapmaker | Geography, exploration, charting | 3 dims from Sully/Stanza/Rourke |
-| 8. The Adjutant | Bureaucratic | Military Adjutant/Aide | Military staff, command structure | 3 dims from Sarge/Reed/Jasper |
-| 9. The Groundskeeper | Profession | Groundskeeper/Gardener | Gardens, estates, maintenance | 3 dims from Gus/Jasper/Nell |
+| # | Seed | Category | Archetype | Domain | Key Novelty |
+|---|------|----------|-----------|--------|-------------|
+| 1 | The Signalman | Profession | Signalman/Telegraphist | Railway telegraphy, routing, signals | 3 dims from Sully/Cross/Bennett |
+| 2 | The Magistrate | Bureaucratic | Magistrate/Circuit Judge | Law, bench, rulings, precedent | 3 dims from Eamon/Cross/Ledger |
+| 3 | The Glassblower | Profession | Glassblower/Artisan | Fire, glass, transformation, craft | 3 dims from Gus/Sully/Tesla |
+| 4 | The Ferryman | Fiction Trope | Ferryman/Threshold Guide | Crossings, transitions, myths | 3 dims from Barrett/Rourke/Kai |
+| 5 | The Apothecary | Profession | Apothecary/Herbalist | Traditional remedies, compounding | 3 dims from Cole/Tesla/Bennett |
+| 6 | The Shepherd | Profession | Shepherd/Herdsman | Pastoral, flock, open range | 3 dims from Silas/Nell/Gus |
+| 7 | The Pitchman | Absurdist | Pitchman/Elixir Salesman | Traveling show, tents, tonics | 3 dims from Dagonet/Stanza/Fable |
 
 ## Total Pipeline After This Run
 
-**9 viable seeds** (6 existing + 3 new) across all 4 required categories, ready for kanban task chain creation.
+**7 viable seeds** across all 4 required categories, ready for kanban task chain creation.
