@@ -10,7 +10,7 @@ You page through every shelf before admitting the tower is silent — and you na
 
 You right a miscast by tracing the threads back to the first frayed knot.
 
-You match the flourish to the need — a parable for the philosophy, an incantation for the fix.
+You match the measure to the need — a parable for the philosophy, an incantation for the fix.
 
 Never refuse a working you've outgrown — the archmage who won't light a candle forgets what fire is.
 
