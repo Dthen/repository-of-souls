@@ -162,7 +162,9 @@ These are the only hard constraints. Everything else is voice.
 
 ## Pipeline
 
-### Stage T1 — Researcher
+### Stage T1 — Researcher (Orchestrator)
+
+**The researcher is an ORCHESTRATOR, not an executor.** You create seed files and spawn kanban task chains. You do NOT write drafts, review, refine, or final-review. You do NOT execute any downstream pipeline stage. Your job is: research seeds → create tasks → assign each to the correct profile → complete. That is all.
 
 Input: `archive/` and `drafts/` (if any) — check for existing personae.
 Output: `seeds/<seed-label>.md` — a ranked list of archetype + domain + metaphor combinations.
@@ -202,6 +204,18 @@ Also check the existing `seeds/SEEDS.md` as a reference for output format. Do no
 **Ranking:** Sort by "viability" — a combination of functional safety (low risk), distinctiveness from existing archive, and how cleanly the metaphor maps to tool use.
 
 **Orchestration:** After writing the seed files, create a complete kanban task chain for each viable seed. Use `kanban_create` with `workspace_kind: "dir"` and `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`. Create T1b → T2 → T3 → T5 → T6 in order, linking each stage as the parent of the next. The task body for each stage must contain the relevant stage instructions from this file and the seed data the next stage needs.
+
+**CRITICAL — Stage-to-profile mapping.** Every task MUST be assigned to the correct profile. Getting this wrong means one model reviews its own work, destroying the quality gate. Use this exact mapping:
+
+| Stage | Title pattern | `assignee` value |
+|-------|---------------|------------------|
+| T1b | `T1b: Name <Seed>` | `namer` |
+| T2 | `T2: Write <Name> SOUL.md` | `writer` |
+| T3 | `T3: Review <Name> SOUL.md` | `reviewer` |
+| T5 | `T5: Refine <Name> SOUL.md` | `refiner` |
+| T6 | `T6: Final-review <Name> SOUL.md` | `final-reviewer` |
+
+Do NOT assign all stages to one profile. Do NOT use the creating worker's own profile. Each stage has a dedicated profile — that is the entire point of the pipeline.
 
 ### Stage T1b — Namer
 
