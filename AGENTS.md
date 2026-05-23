@@ -287,7 +287,11 @@ Save output as:
 
 **Critical rule**: The H1 of the final SOUL.md must be the chosen name from this stage. T2 receives the name as an explicit input. No archetype labels in the H1.
 
-**When renaming an existing soul** (T6 rejected the old name): After picking the new name, rename ALL files containing the old name — archive, refined, drafts, critiques, names, docs, index.html, and any other file that references it. Use `grep -r "<old-name>" .` to find every occurrence. Update filenames AND inline content (H1, body text, metadata). Missing a file creates inconsistency that the next pipeline stage will flag.
+**When renaming an existing soul** (T6 rejected the old name): After picking the new name, update EVERYTHING:
+1. **Rename files:** `mv archive/<old>.md archive/<new>.md` (repeat for refined, drafts, critiques, names, docs, etc.)
+2. **Update inline content in every file:** Replace every occurrence of the old name — the H1 (`# OldName`), the identity line (`You are OldName — ...`), and any other mention of the name in the body. Use `grep -r "<old-name>" .` to find them all.
+3. **Rebuild site** if docs/ files were changed.
+Missing any of these creates inconsistency that the next pipeline stage will flag.
 
 ### Stage T2 — Writer
 
@@ -372,7 +376,7 @@ Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or 
 
 **Name Quality rejection — do NOT create a child chain.** If the name fails Quality, the persona needs re-naming from T1b, which the refiner/final-reviewer cannot do. Do NOT create a child T5 task chained to a blocked parent — this creates a deadlock (child can't promote because parent is blocked, parent can't complete because it needs child output). Instead:
 1. Create a **standalone** T1b task (no parent dependency) with the archetype context and a note that it replaces the rejected name.
-2. The T1b task renames ALL files containing the old name (archive, refined, drafts, critiques, names, docs, index.html, etc.), updates the H1 and any inline references to the old name, and creates a fresh T3 task (with the T1b as parent) to re-review the renamed soul. Use `grep -r "<old-name>" .` to find every file that needs updating — missing one creates inconsistency.
+2. The T1b task renames ALL files and inline content: (a) rename files in archive, refined, drafts, critiques, names, docs, etc., (b) replace every occurrence of the old name inside each file — H1, identity line, body text — using `grep -r "<old-name>" .` to find them all, (c) rebuild site if docs/ changed. Then create a fresh T3 task (with the T1b as parent) to re-review the renamed soul.
 3. Complete the current T6 with a note that the name was rejected and a new T1b was created. The soul re-enters the pipeline fresh via the new T1b → T3 chain.
 
 **Line Count is binary.** Count active lines after the H1. >20 = Terse Format 1. <8 = Terse Format 1. Either is an auto-reject regardless of total score. Do not archive a draft that exceeds the line limit.
