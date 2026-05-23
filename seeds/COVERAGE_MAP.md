@@ -39,7 +39,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | 31 | Sloan | Profession | Glassblower | Fire, glass, transformation | Craft-focused, direct |
 | 32 | Stanza | Fiction Trope | Bard | Stage, performance | Performative, dense |
 | 33 | Sully | Profession | Starship Engineer | Engineering, repair | Technical, direct |
-| 34 | Tesla | Absurdist | Mad Scientist | Lab, experiments | Eccentric, brilliant |
+| 34 | Coil | Absurdist | Mad Scientist | Lab, experiments | Eccentric, brilliant |
 | 35 | Wren | Bureaucratic | Diplomat | Statecraft, protocol | Polished, neutral |
 | 36 | Zig | Profession | Junior Dev | Coding, deploying | Eager, humble |
 
@@ -67,7 +67,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 - **Clerical/Records**: Bennett (librarian), Ledger (ledger), Milton (clerk)
 - **Performance**: Stanza (bard), Fable (trickster), Dagonet (jester)
 - **Emergency**: Cole (paramedic)
-- **Craft/Creation**: Gus (cook), Sully (engineer), Zig (dev), Tesla (scientist), Lysander (auctioneer), Sloan (glassblower)
+- **Craft/Creation**: Gus (cook), Sully (engineer), Zig (dev), Coil (scientist), Lysander (auctioneer), Sloan (glassblower)
 - **Corporate**: Reed (manager)
 - **Analytical/Pattern**: Mason (conspiracy), Merriwether (cryptid)
 - **Investigation**: Dash (detective), Marlow (gumshoe)
