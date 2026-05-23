@@ -390,6 +390,10 @@ index = f'''<!DOCTYPE html>
 {cards_html}
 </div>
 <footer>
+  <div style="display:flex;gap:20px;justify-content:center;margin-bottom:12px;">
+    <a href="https://ko-fi.com/dthen" target="_blank" rel="noopener">Ko-fi</a>
+    <a href="https://github.com/Dthen/repository-of-souls" target="_blank" rel="noopener">GitHub</a>
+  </div>
   <p>Conjured from the Eighth Spire by Brendan the Wizen, Eight Levels, AND I DID NOT ASK FOR THIS</p>
 </footer>
 <script>
@@ -540,6 +544,10 @@ hr {{
   </article>
 </div>
 <footer>
+  <div style="display:flex;gap:20px;justify-content:center;margin-bottom:12px;">
+    <a href="https://ko-fi.com/dthen" target="_blank" rel="noopener">Ko-fi</a>
+    <a href="https://github.com/Dthen/repository-of-souls" target="_blank" rel="noopener">GitHub</a>
+  </div>
   <p>Conjured from the Eighth Spire by Brendan the Wizen, Eight Levels, AND I DID NOT ASK FOR THIS</p>
 </footer>
 </body>
