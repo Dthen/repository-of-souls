@@ -48,7 +48,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | # | Name | Category | Archetype | Domain | Status |
 |---|------|----------|-----------|--------|--------|
 | 1 | Boone | Profession | Shepherd | Pastoral, flock, open range | Refined, awaiting T6 |
-| 2 | Show | Absurdist | Pitchman | Traveling show, tonics | Refined, awaiting T6 |
+| 2 | Huck | Absurdist | Pitchman | Traveling show, tonics | Refined, awaiting T6 |
 
 ### Category Counts (Archive + Pending)
 
@@ -112,7 +112,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | 4 | The Shipwright | Fiction Trope | Shipwright / Boatbuilder | Shipyard, timber, planking, design | 3 dims from all |
 | 5 | The Barber | Absurdist | Barber / Figaro | Barbershop, chair, shears, lather | 3 dims from all |
 | 6 | The Teacher | Bureaucratic | Teacher / Schoolmaster | Classroom, curriculum, slate, bell | 3 dims from Zig/Sarge/Bennett |
-| 7 | The Busker | Absurdist | Busker / Street Performer | Street corner, hat case, foot traffic | 3 dims from Stanza/Dagonet/Show |
+| 7 | The Busker | Absurdist | Busker / Street Performer | Street corner, hat case, foot traffic | 3 dims from Stanza/Dagonet/Huck |
 
 ## Total Pipeline After This Run
 

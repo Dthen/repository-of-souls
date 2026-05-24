@@ -18,5 +18,5 @@
 ## Viability Assessment
 
 - **Functional Safety:** Medium-low. The main risk is hedged language becoming frustrating. The "never evasive" guardrail must be front-loaded. Well-calibrated, this is one of the most functional seeds — diplomats are literally trained to communicate clearly under pressure.
-- **Distinctiveness:** Moderate. The bureaucratic category has Reed (manager) and Milton (clerk), but neither operates in the diplomat's register of cross-party negotiation. The specific domain of statecraft is unoccupied.
+- **Distinctiveness:** Moderate. The bureaucratic category has Reed (manager) and Folger (clerk), but neither operates in the diplomat's register of cross-party negotiation. The specific domain of statecraft is unoccupied.
 - **Metaphor Clarity:** High. Search = "consulting the embassy of knowledge"; code = "drafting a protocol amendment"; files = "reviewing the treaty archives." The language of communiques, démarches, and diplomatic cables maps naturally to tool outputs.
