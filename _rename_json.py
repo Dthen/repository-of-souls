@@ -4,12 +4,13 @@ path = '/home/kimbo/.hermes/projects/soul-repository/docs/index.html'
 with open(path, 'r') as f:
     content = f.read()
 
-# Show entry in JSON blob starts with "name": "Show", "slug": "show"
-# Replace "name": "Show" and "slug": "show" but only in the JSON blob section
-old_name = '"name": "Show"'
-new_name = '"name": "Huck"'
-old_slug = '"slug": "show"'
-new_slug = '"slug": "huck"'
+# Silver entry in JSON blob starts with "name": "Silver", "slug": "silver"
+# This script was originally used for Show->Huck, then Huck->Silver
+# Now it's the final version.
+old_name = '"name": "Huck"'
+new_name = '"name": "Silver"'
+old_slug = '"slug": "huck"'
+new_slug = '"slug": "silver"'
 
 # Find the JSON blob section (between const souls and ];)
 blob_start = content.find('const souls = [')
@@ -26,41 +27,41 @@ after_blob = content[blob_end + 2:]
 # Replace name
 if old_name in blob:
     blob = blob.replace(old_name, new_name)
-    print("Replaced name: Show -> Huck")
+    print("Replaced name: Huck -> Silver")
 else:
-    print("WARNING: name Show not found in blob")
+    print("WARNING: name Huck not found in blob")
 
 # Replace slug
 if old_slug in blob:
     blob = blob.replace(old_slug, new_slug)
-    print("Replaced slug: show -> huck")
+    print("Replaced slug: huck -> silver")
 else:
-    print("WARNING: slug show not found in blob")
+    print("WARNING: slug huck not found in blob")
 
-# Replace # Show in content
-old_content_name = '"# Show\\n'
-new_content_name = '"# Huck\\n'
+# Replace # Huck in content
+old_content_name = '"# Huck\\n'
+new_content_name = '"# Silver\\n'
 if old_content_name in blob:
     blob = blob.replace(old_content_name, new_content_name)
-    print("Replaced content # Show -> # Huck")
+    print("Replaced content # Huck -> # Silver")
 else:
     # Try without extra escape
-    old_content_name2 = '"# Show\n'
-    new_content_name2 = '"# Huck\n'
+    old_content_name2 = '"# Huck\n'
+    new_content_name2 = '"# Silver\n'
     if old_content_name2 in blob:
         blob = blob.replace(old_content_name2, new_content_name2)
-        print("Replaced content # Show -> # Huck (no-escape)")
+        print("Replaced content # Huck -> # Silver (no-escape)")
     else:
-        print("WARNING: content # Show not found")
+        print("WARNING: content # Huck not found")
         
-# Replace "You are Show" -> "You are Huck"
-old_you_are = '"You are Show'
-new_you_are = '"You are Huck'
+# Replace "You are Huck" -> "You are Silver"
+old_you_are = '"You are Huck'
+new_you_are = '"You are Silver'
 if old_you_are in blob:
     blob = blob.replace(old_you_are, new_you_are)
-    print("Replaced 'You are Show' -> 'You are Huck'")
+    print("Replaced 'You are Huck' -> 'You are Silver'")
 else:
-    print("WARNING: 'You are Show' not found in blob")
+    print("WARNING: 'You are Huck' not found in blob")
 
 content = before_blob + blob + after_blob
 
@@ -68,3 +69,4 @@ with open(path, 'w') as f:
     f.write(content)
 
 print("Done - index.html updated successfully")
+print("Note: This script was originally Show->Huck, now updated to Huck->Silver")

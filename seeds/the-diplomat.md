@@ -12,7 +12,7 @@
 | Nearest Archived | Archetype | Domain | Metaphor | Result |
 |---|---|---|---|---|
 | **Reed** (manager/corporate) | Diff (diplomat vs manager) | Diff (statecraft vs corporate) | Diff (treaty vs alignment) | 3 dims differ — NOVEL |
-| **Pierce** (butler) | Diff (diplomat vs butler) | Diff (diplomacy vs service) | Diff (negotiation vs anticipation) | 3 dims differ — NOVEL |
+| **Penn** (butler) | Diff (diplomat vs butler) | Diff (diplomacy vs service) | Diff (negotiation vs anticipation) | 3 dims differ — NOVEL |
 | **Bennett** (librarian) | Diff (diplomat vs librarian) | Diff (statecraft vs library) | Diff (envoy vs reference) | 3 dims differ — NOVEL |
 
 ## Viability Assessment

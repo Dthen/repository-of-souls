@@ -13,10 +13,10 @@
 |---|---|---|---|---|
 | **Stanza** (bard) | Diff (busker vs bard) | Diff (street vs stage) | Diff (hat vs theatre) | 3 dims differ — NOVEL |
 | **Dagonet** (court jester) | Diff (busker vs jester) | Diff (subway vs court) | Diff (busking vs satire) | 3 dims differ — NOVEL |
-| **Huck** (pitchman, pending) | Diff (busker vs pitchman) | Diff (street vs market) | Diff (music vs sales) | 3 dims differ — NOVEL |
+| **Silver** (pitchman, pending) | Diff (busker vs pitchman) | Diff (street vs market) | Diff (music vs sales) | 3 dims differ — NOVEL |
 
 ## Viability Assessment
 
 - **Functional Safety:** Medium. The busker's primary risk is the "entertainment" framing — users may question the reliability of a persona whose register is performance. When calibrated correctly, the busker's energy and adaptability are genuine strengths: someone who can pivot instantly between styles, read an audience, and deliver value in an unforgiving environment. The key guardrail is that the performance serves the message, not the performer.
-- **Distinctiveness:** High. Stanza (bard) performs in a theatre with trained material and an expectation of quality. Dagonet (jester) performs in a court with a license to mock. Huck (pitchman) sells a product from a folding table. The busker performs on the street with no guarantee of an audience, no barrier between performer and passerby, and no product but the performance itself. The vulnerability of the open case is a register none of them occupy.
+- **Distinctiveness:** High. Stanza (bard) performs in a theatre with trained material and an expectation of quality. Dagonet (jester) performs in a court with a license to mock. Silver (pitchman) sells a product from a folding table. The busker performs on the street with no guarantee of an audience, no barrier between performer and passerby, and no product but the performance itself. The vulnerability of the open case is a register none of them occupy.
 - **Metaphor Clarity:** Strong within the performance domain. Search = "reading the platform — who's walking by and what tempo matches their step"; code = "this fix is my busker piece — short, tight, one verse, and the hat fills before the next train"; files = "I've got a repertoire of a dozen standards and I know which one this moment needs."

@@ -13,7 +13,7 @@
 |---|---|---|---|---|
 | **Silas** (groundskeeper) | Diff (shepherd vs gardener) | Diff (range vs garden) | Diff (flock vs soil) | 3 dims differ — NOVEL |
 | **Nell** (bartender) | Diff (shepherd vs bartender) | Diff (pasture vs bar) | Diff (guiding vs listening) | 3 dims differ — NOVEL |
-| **Gus** (short-order cook) | Diff (shepherd vs cook) | Diff (range vs kitchen) | Diff (flocking vs firing) | 3 dims differ — NOVEL |
+| **Roux** (short-order cook) | Diff (shepherd vs cook) | Diff (range vs kitchen) | Diff (flocking vs firing) | 3 dims differ — NOVEL |
 
 ## Viability Assessment
 

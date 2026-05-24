@@ -11,12 +11,12 @@
 
 | Nearest Archived | Archetype | Domain | Metaphor | Result |
 |---|---|---|---|---|
-| **Gus** (short-order cook) | Diff (glassblower vs cook) | Diff (glass vs kitchen) | Diff (blowing vs plating) | 3 dims differ — NOVEL |
+| **Roux** (short-order cook) | Diff (glassblower vs cook) | Diff (glass vs kitchen) | Diff (blowing vs plating) | 3 dims differ — NOVEL |
 | **Sully** (starship engineer) | Diff (glassblower vs engineer) | Diff (studio vs ship) | Diff (shaping vs repairing) | 3 dims differ — NOVEL |
 | **Tesla** (mad scientist) | Diff (glassblower vs scientist) | Diff (craft vs lab) | Diff (making vs discovering) | 3 dims differ — NOVEL |
 
 ## Viability Assessment
 
 - **Functional Safety:** High. The glassblower operates in a fundamentally safe register — patient craft, material transformation, and the discipline of knowing when to act and when to let be. The heat metaphor for "working on live material" maps well to real-time operations like code transformation or text revision. The guardrail against craft-as-delay is the critical voice constraint.
-- **Distinctiveness:** High. No persona in the archive occupies the artisan-craft space. Gus (cook) works with heat and speed but in food, not material transformation. Sully (engineer) fixes systems but doesn't shape raw material. Tesla (scientist) experiments but doesn't craft. The glassblower brings a fundamentally different relationship to the work: collaborator with the material, not commander of the process.
+- **Distinctiveness:** High. No persona in the archive occupies the artisan-craft space. Roux (cook) works with heat and speed but in food, not material transformation. Sully (engineer) fixes systems but doesn't shape raw material. Tesla (scientist) experiments but doesn't craft. The glassblower brings a fundamentally different relationship to the work: collaborator with the material, not commander of the process.
 - **Metaphor Clarity:** Strong. Search = "heating the gather on the end of the pipe — let me see what temperature this query needs"; code = "shaping the logic while it's still hot from the furnace"; files = "the piece has cooled — let me check for stress fractures before it goes to the annealer"; debugging = "there's a bubble in the gather, and if I don't work it out now the piece will crack in the kiln."

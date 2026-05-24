@@ -262,9 +262,9 @@ Generate **5 proper names** for this persona. Not titles. Not archetype labels. 
 - **Historical figures.** Tesla, Socrates, Napoleon, Shakespeare — these are already someone. The persona needs its own identity. A name that is a famous historical person is a collision, not a character. Exception: if the historical figure is completely unrelated to the persona's domain, coincidence is fine (Wren is Christopher Wren the architect, persona is a Diplomat — no connection, passes).
 - **Bare ranks or titles.** "Sarge" is a rank, not a name. "Doc" is borderline. The name should be something a person would write on a form, not how others address them in the field.
 - **Stereotypical names.** If you say the name + archetype to someone and their immediate reaction is "of course" — Jasper is a butler, Jeeves is a butler — the name is a stereotype label, not a character. The name must be specific enough that it stands on its own, not the default association for the domain.
-- **Generic domain labels.** Domain-derived names are fine — even encouraged. The best names (Nye, Coil, Cade, Riff, Stanza, Creed, Hollis) all play off the domain. The problem is when the name IS the domain with no texture. "Show" is the most generic word for what a Pitchman does. "Ferry" is the generic word for a Ferryman's domain. "Cook" is the generic word for a Ship's Cook's job. "Huck" is from Huckster — which is the generic term for a traveling seller. These are labels, not names.
+- **Generic domain labels.** Domain-derived names are fine — even encouraged. The best names (Nye, Coil, Cade, Riff, Stanza, Creed, Hollis) all play off the domain. The problem is when the name IS the domain with no texture. "Show" is the most generic word for what a Pitchman does. "Ferry" is the generic word for a Ferryman's domain. "Cook" is the generic word for a Ship's Cook's job. "Huck" (since renamed to Silver) was from Huckster — the generic term for a traveling seller. These are labels, not names.
 
-The test: could a parent name a child this and have it stand on its own without the domain context? "Nye" — yes, it's a real surname. "Coil" — unusual but has texture and a reference layer. "Stanza" — distinctive but works as a name. "Show" — no, it's just a word. "Ferry" — no, it's just a word. "Cook" — no, it's a common noun for a job title. "Huck" — borderline, but Huckster is the generic term for the domain, making it a label.
+The test: could a parent name a child this and have it stand on its own without the domain context? "Nye" — yes, it's a real surname. "Coil" — unusual but has texture and a reference layer. "Stanza" — distinctive but works as a name. "Show" — no, it's just a word. "Ferry" — no, it's just a word. "Cook" — no, it's a common noun for a job title. "Huck" (since renamed to Silver) was borderline, but Huckster is the generic term for the domain, making it a label.
 
 For each candidate, score 1–5:
 - **Archetype Fit** (does the name sound like it belongs to this kind of character?)
@@ -378,7 +378,7 @@ Output: `archive/` or back to `T5` for further refinement.
 
 Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or Terse Format < 3, or Voice Immediacy < 3, or Name Quality < 3.
 
-**Name Quality auto-reject criteria:** Name Quality < 3 if the name is: a historical figure (related to domain — unrelated coincidences pass), a bare rank or title ("Sarge"), a stereotypical association ("Jasper" for a Butler), or the most boring obvious label for the archetype ("Show" for a Pitchman, "Ferry" for a Ferryman, "Cook" for a Ship's Cook, "Huck" for a traveling seller). Domain-derived names with texture ("Nye", "Coil", "Cade", "Ford", "Stanza", "Riff") are fine — they are encouraged. The test: if you say "hey [name], you're a [archetype]" and the model replies "no shit", it's too obvious.
+**Name Quality auto-reject criteria:** Name Quality < 3 if the name is: a historical figure (related to domain — unrelated coincidences pass), a bare rank or title ("Sarge"), a stereotypical association ("Jasper" for a Butler), or the most boring obvious label for the archetype ("Show" for a Pitchman, "Ferry" for a Ferryman, "Cook" for a Ship's Cook, "Huck" for a traveling seller — since renamed to "Silver"). Domain-derived names with texture ("Nye", "Coil", "Cade", "Ford", "Stanza", "Riff") are fine — they are encouraged. The test: if you say "hey [name], you're a [archetype]" and the model replies "no shit", it's too obvious.
 
 **Name Quality rejection — do NOT rename files yourself.** If the name fails Quality, the persona needs re-naming from T1b, which the refiner/final-reviewer cannot do. Do NOT rename files yourself — you will create duplicates. Do NOT create a child T5 task chained to a blocked parent — this creates a deadlock. Instead:
 1. Create a **standalone** T1b task (no parent dependency) with the archetype context and a note that it replaces the rejected name.
@@ -437,12 +437,12 @@ git push origin master
 
 Every stage uses the **chosen character name** as the filename, not the seed label.
 
-The T1b Namer is the source of truth. If the chosen name is **Gus**, all files for that persona are:
-- `names/gus.md`
-- `drafts/gus.md`
-- `critiques/gus.md`
-- `refined/gus.md`
-- `archive/gus.md` (or `reject/gus.md`)
+The T1b Namer is the source of truth. If the chosen name is **Roux**, all files for that persona are:
+- `names/roux.md`
+- `drafts/roux.md`
+- `critiques/roux.md`
+- `refined/roux.md`
+- `archive/roux.md` (or `reject/roux.md`)
 
 **Rule:** Read the chosen name from the previous stage's output file. Never construct a filename from the seed label (e.g. `the-galley-chef`).
 

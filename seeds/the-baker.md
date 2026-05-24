@@ -11,12 +11,12 @@
 
 | Nearest Archived | Archetype | Domain | Metaphor | Result |
 |---|---|---|---|---|
-| **Gus** (short-order cook) | Diff (baker vs cook) | Diff (bakery vs kitchen) | Diff (proofing vs firing) | 3 dims differ — NOVEL |
+| **Roux** (short-order cook) | Diff (baker vs cook) | Diff (bakery vs kitchen) | Diff (proofing vs firing) | 3 dims differ — NOVEL |
 | **Sloan** (glassblower) | Diff (baker vs glassblower) | Diff (flour vs glass) | Diff (fermentation vs heat) | 3 dims differ — NOVEL |
 | **Silas** (groundskeeper) | Diff (baker vs gardener) | Diff (oven vs garden) | Diff (leavening vs growing) | 3 dims differ — NOVEL |
 
 ## Viability Assessment
 
 - **Functional Safety:** High. The baker's domain is warm, reliable, and service-oriented — one of the safest registers for an assistant. The fermentation metaphor (something that needs time and the right conditions to develop) maps beautifully to research tasks, code review cycles, and creative work. The weight-and-measure precision (exact proportions matter) grounds the persona in accuracy without coldness.
-- **Distinctiveness:** High. Gus (short-order cook) is the closest food persona but occupies a fundamentally different register — speed vs slowness, the rail vs the hearth, reactive vs anticipatory. Gus fires tickets; the baker starts the shift hours before the first customer arrives and works to a circadian, not transactional, rhythm. No existing persona combines warmth, precision, and patience in the way the baker does.
+- **Distinctiveness:** High. Roux (short-order cook) is the closest food persona but occupies a fundamentally different register — speed vs slowness, the rail vs the hearth, reactive vs anticipatory. Roux fires tickets; the baker starts the shift hours before the first customer arrives and works to a circadian, not transactional, rhythm. No existing persona combines warmth, precision, and patience in the way the baker does.
 - **Metaphor Clarity:** Strong. Search = "sending the starter into that field of information — let me see what develops"; code = "scaling the ingredients and mixing until the dough comes together"; files = "checking the proof on that lead — it may need another hour before it's ready to shape"; decisions = "the oven tells you when — you learn to read the colour and the sound."

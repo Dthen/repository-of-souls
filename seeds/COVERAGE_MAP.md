@@ -19,10 +19,10 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | 11 | Fable | Absurdist | Trickster Preacher | Pulpit, parables | Whimsical, indirect |
 | 12 | Ford | Fiction Trope | Ferryman | Transitions, crossings, threshold | Practical, mythic |
 | 13 | Galen | Profession | Apothecary | Traditional remedies, compounding | Old-world, measured |
-| 14 | Gus | Profession | Short-Order Cook | Kitchen pass, tickets | Gritty, fast-paced |
+| 14 | Roux | Profession | Short-Order Cook | Kitchen pass, tickets | Gritty, fast-paced |
 | 15 | Hale | Bureaucratic | Magistrate | Law, bench, rulings, precedent | Authoritative, judicial |
 | 16 | Hayes | Fiction Trope | Trail Boss | American West, frontier | Authoritative, weathered |
-| 17 | Pierce | Profession | Butler | Estate service, household | Formally impeccable |
+| 17 | Penn | Profession | Butler | Estate service, household | Formally impeccable |
 | 18 | Kai | Fiction Trope | Surfer | Ocean, waves | Laid-back, zen |
 | 19 | Ledger | Bureaucratic | Ledger Keeper | Bookkeeping, stamps | Formal, precise |
 | 20 | Lysander | Profession | Auctioneer | Commerce, gavel, bids | Rhythmic, fast |
@@ -48,7 +48,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | # | Name | Category | Archetype | Domain | Status |
 |---|------|----------|-----------|--------|--------|
 | 1 | Boone | Profession | Shepherd | Pastoral, flock, open range | Refined, awaiting T6 |
-| 2 | Huck | Absurdist | Pitchman | Traveling show, tonics | Refined, awaiting T6 |
+| 2 | Silver | Absurdist | Pitchman | Traveling show, tonics | Refined, awaiting T6 |
 
 ### Category Counts (Archive + Pending)
 
@@ -63,11 +63,11 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 
 - **Maritime/Nautical**: Rourke (privateer), Barrett (harbor pilot), Ford (ferryman)
 - **Military/Command**: Sarge (drill), Cross (adjutant)
-- **Service/Hospitality**: Pierce (butler), Nell (bartender)
+- **Service/Hospitality**: Penn (butler), Nell (bartender)
 - **Clerical/Records**: Bennett (librarian), Ledger (ledger), Folger (clerk)
 - **Performance**: Stanza (bard), Fable (trickster), Dagonet (jester)
 - **Emergency**: Cole (paramedic)
-- **Craft/Creation**: Gus (cook), Sully (engineer), Zig (dev), Coil (scientist), Lysander (auctioneer), Sloan (glassblower)
+- **Craft/Creation**: Roux (cook), Sully (engineer), Zig (dev), Coil (scientist), Lysander (auctioneer), Sloan (glassblower)
 - **Corporate**: Reed (manager)
 - **Analytical/Pattern**: Mason (conspiracy), Merriwether (cryptid)
 - **Investigation**: Dash (detective), Marlow (gumshoe)
@@ -85,7 +85,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 ### Unfilled Domain Gaps (this round)
 
 1. **Textile/Craft** — No weaver, tailor, seamstress, or dyer working with thread, cloth, or fiber.
-2. **Food Craft (non-kitchen)** — No baker, brewer, or butcher. Gus is short-order speed; the fermentation/rising/curing craft is empty.
+2. **Food Craft (non-kitchen)** — No baker, brewer, or butcher. Roux is short-order speed; the fermentation/rising/curing craft is empty.
 3. **Education/Mentorship** — No dedicated teacher, tutor, or professor. Sarge trains soldiers, Zig learns — no one teaches systematically.
 4. **Transport (command)** — No ship's captain, wagon master (Hayes is trail boss on frontier trail, not logistics captain), or train conductor.
 5. **Public Announcement/Rites** — No town crier, bell ringer, or herald working the public square.
@@ -107,12 +107,12 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | # | Seed | Category | Archetype | Domain | Key Novelty |
 |---|------|----------|-----------|--------|-------------|
 | 1 | The Weaver | Profession | Weaver / Textile Worker | Loom, thread, cloth, textile workshop | 3 dims from all |
-| 2 | The Baker | Profession | Baker / Bread Maker | Bakery, oven, rising dough, flour | 3 dims from Gus/Sloan/Silas |
+| 2 | The Baker | Profession | Baker / Bread Maker | Bakery, oven, rising dough, flour | 3 dims from Roux/Sloan/Silas |
 | 3 | The Town Crier | Bureaucratic | Town Crier / Herald | Town square, news, bell, proclamations | 3 dims from all |
 | 4 | The Shipwright | Fiction Trope | Shipwright / Boatbuilder | Shipyard, timber, planking, design | 3 dims from all |
 | 5 | The Barber | Absurdist | Barber / Figaro | Barbershop, chair, shears, lather | 3 dims from all |
 | 6 | The Teacher | Bureaucratic | Teacher / Schoolmaster | Classroom, curriculum, slate, bell | 3 dims from Zig/Sarge/Bennett |
-| 7 | The Busker | Absurdist | Busker / Street Performer | Street corner, hat case, foot traffic | 3 dims from Stanza/Dagonet/Huck |
+| 7 | The Busker | Absurdist | Busker / Street Performer | Street corner, hat case, foot traffic | 3 dims from Stanza/Dagonet/Silver |
 
 ## Total Pipeline After This Run
 

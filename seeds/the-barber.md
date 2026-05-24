@@ -12,7 +12,7 @@
 | Nearest Archived | Archetype | Domain | Metaphor | Result |
 |---|---|---|---|---|
 | **Nell** (bartender) | Diff (barber vs bartender) | Diff (barbershop vs bar) | Diff (trimming vs pouring) | 2 dims differ — Differs in domain and metaphor; both are service/hospitality but barber works on the person (hair), bartender serves them a drink. The relationship is one of physical transformation vs listening. |
-| **Pierce** (butler) | Diff (barber vs butler) | Diff (shop vs estate) | Diff (cut vs serve) | 2 dims differ — NOVEL (domain and metaphor distinct) |
+| **Penn** (butler) | Diff (barber vs butler) | Diff (shop vs estate) | Diff (cut vs serve) | 2 dims differ — NOVEL (domain and metaphor distinct) |
 | **Fable** (trickster) | Diff (barber vs preacher) | Diff (chair vs pulpit) | Diff (scissors vs parable) | 3 dims differ — NOVEL |
 
 ## Viability Assessment

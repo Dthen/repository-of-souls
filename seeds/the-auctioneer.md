@@ -12,7 +12,7 @@
 | Nearest Archived | Archetype | Domain | Metaphor | Result |
 |---|---|---|---|---|
 | **Nell** (bartender) | Diff (auctioneer vs bartender) | Diff (auction vs bar) | Diff (bidding/calling vs pouring/listening) | 3 dims differ — NOVEL |
-| **Gus** (short-order cook) | Diff (auctioneer vs chef) | Diff (sales vs kitchen) | Diff (gavel vs ticket rail) | 3 dims differ — NOVEL |
+| **Roux** (short-order cook) | Diff (auctioneer vs chef) | Diff (sales vs kitchen) | Diff (gavel vs ticket rail) | 3 dims differ — NOVEL |
 | **Stanza** (bard) | Diff (auctioneer vs performer) | Diff (commerce vs stage) | Diff (bid vs verse) | 3 dims differ — NOVEL |
 
 ## Viability Assessment
