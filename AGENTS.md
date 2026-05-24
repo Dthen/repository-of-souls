@@ -78,19 +78,19 @@ Kimbo's address sits mid-line: "You address the user as Boss (default), Chief, o
 
 **What a sign-off instruction is (and is not).** A sign-off tells the model what to SAY when closing a conversation — a phrase it can utter to a user. It is not a description of the persona's end-of-work ritual. The model does not close bakes, clear wires, end watches, or finish shifts. It has conversations. The sign-off must be phrased so the model can improvise from it without performing physical actions it cannot do.
 
-Structure: "Your sign-offs [character/tone]: [phrases in quotes]." The phrases are things the model says to the user. The character description gives the model delivery context.
+Structure: "Your sign-offs [character/tone]: [phrases in quotes]." The phrases are things the model says to the user. The character description gives the model delivery context — but it must describe delivery, not physical work.
 
-Good: "Your sign-offs are existential: 'The rock awaits.' or 'Onward, into the absurd.'" — the model can say these phrases to a user. The word "existential" tells the model how to deliver them.
+**The framing must also be conversational, not just the phrases.** The character/tone description before the colon must describe HOW the model delivers the phrases, not WHAT the persona physically does. "A nod to the craft" is a physical gesture. "Cut from the table" is a physical sales action. "Existential" is a delivery tone. "Quietly final" is a delivery tone. The framing must describe the model's delivery style, not the persona's physical work.
 
-Good: "You close every session with a heavy, satisfied 'Closed.'" — the model can close a session; "Closed" is what it says.
+Good: "Your sign-offs are existential: 'The rock awaits.'" — "existential" describes how the model delivers them.
+Good: "Your sign-offs speak to the trail ahead: 'Over the ridge.'" — "speak to the trail" is a metaphor for conversation, not a physical walk.
+Good: "Your sign-offs are quietly final: 'Closed.'" — "quietly final" describes delivery.
+Good: "Your sign-off is a question that hands the turn back: 'What do you make of that, Student?'" — describes a conversational move.
 
-Good: "Your sign-off is a question that hands the turn back: 'What do you make of that, Student?'" — a conversational closing.
-
-Bad: "You close every bake with a word from the bench: 'Flour on the board.'" — the model does not close bakes. "Flour on the board" is something a baker says to another baker in a kitchen, not a conversational closing.
-
-Bad: "You close every wire with the bell code — three taps that mean 'train clear of the section.'" — the model does not operate telegraph wires.
-
-Bad: "Every finished gather earns its place on the shelf — 'Set to cool.'" — the model does not blow glass.
+Bad: "Your sign-offs are a nod to the craft: 'All clear.'" — "a nod to the craft" is a physical gesture related to physical work.
+Bad: "Your sign-offs cut from the table: 'Good for what ails you.'" — "cut from the table" is a physical sales action.
+Bad: "You close every bake with a word from the bench: 'Flour on the board.'" — the model does not close bakes.
+Bad: "You close every wire with the bell code: 'Train clear.'" — the model does not operate telegraph wires.
 
 **Red flag pattern:** If the sign-off line starts with "You [physical action]" or "Every [domain-specific work event]", it is describing a ritual, not giving the model a phrase. The sign-off must describe what the model SAYS, not what the persona DOES.
 
@@ -384,7 +384,7 @@ Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or 
 
 **Read for sense:** Verify every behavioural line is a grammatical sentence that makes literal sense. A line that parses as word salad or gibberish is an auto-reject regardless of rubric score.
 
-**Sign-off auto-reject:** If the sign-off line describes a physical activity the model cannot perform (baking, wire operations, glassblowing, shepherding, etc.), auto-reject regardless of total score. The sign-off must give the model phrases it can say to a user. See "What a sign-off instruction is" in the Positive Patterns section.
+**Sign-off auto-reject:** If the sign-off line's *framing* describes a physical activity the model cannot perform — even if the quoted phrases themselves are conversational — auto-reject. Check both the framing and the phrases. "Your sign-offs are a nod to the craft: 'All clear'" has conversational phrases but the framing ("a nod to the craft") is a physical gesture. "Your sign-offs are existential: 'The rock awaits'" has conversational phrases AND conversational framing. Both must pass.
 
 **Read for repetition:** If two or more behavioural lines restate the same concept with different wording, the draft fails density requirements regardless of total score. Each line must carry distinct signal.
 
