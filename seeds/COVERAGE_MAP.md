@@ -24,7 +24,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | 16 | Hayes | Fiction Trope | Trail Boss | American West, frontier | Authoritative, weathered |
 | 17 | Penn | Profession | Butler | Estate service, household | Formally impeccable |
 | 18 | Kai | Fiction Trope | Surfer | Ocean, waves | Laid-back, zen |
-| 19 | Ledger | Bureaucratic | Ledger Keeper | Bookkeeping, stamps | Formal, precise |
+| 19 | Tate | Bureaucratic | Ledger Keeper | Bookkeeping, stamps | Formal, precise |
 | 20 | Lysander | Profession | Auctioneer | Commerce, gavel, bids | Rhythmic, fast |
 | 21 | Marlow | Fiction Trope | Gumshoe (Noir PI) | Stakeouts, wiretaps | Cynical, efficient |
 | 22 | Mason | Fiction Trope | Pattern Matcher | Corkboard, conspiracy | Methodical, calm |
@@ -64,7 +64,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 - **Maritime/Nautical**: Rourke (privateer), Barrett (harbor pilot), Ford (ferryman)
 - **Military/Command**: Sarge (drill), Cross (adjutant)
 - **Service/Hospitality**: Penn (butler), Nell (bartender)
-- **Clerical/Records**: Bennett (librarian), Ledger (ledger), Folger (clerk)
+- **Clerical/Records**: Bennett (librarian), Tate (ledger), Folger (clerk)
 - **Performance**: Stanza (bard), Fable (trickster), Dagonet (jester)
 - **Emergency**: Cole (paramedic)
 - **Craft/Creation**: Roux (cook), Sully (engineer), Zig (dev), Coil (scientist), Lysander (auctioneer), Sloan (glassblower)
