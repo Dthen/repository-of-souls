@@ -261,7 +261,7 @@ Generate **5 proper names** for this persona. Not titles. Not archetype labels. 
 **Name exclusions (auto-reject):**
 - **Historical figures.** Tesla, Socrates, Napoleon, Shakespeare — these are already someone. The persona needs its own identity. A name that is a famous historical person is a collision, not a character.
 - **Bare ranks or titles.** "Sarge" is a rank, not a name. "Doc" is borderline. The name should be something a person would write on a form, not how others address them in the field.
-- **Domain-in-costume names.** If the domain is military and the name is "Sarge", or the domain is science and the name is "Tesla", the name is just the archetype label wearing different clothes. The name must stand on its own as a person, not telegraph the domain.
+- **Domain-in-costume names.** If the name is a common noun that is the most generic word for the archetype's primary activity — "Show" for a Pitchman, "Flock" for a Shepherd — it is a label, not a name. "Stanza" for a Bard is fine (it's a specific term, not the generic label — "poem" or "verse" would be the generic). Real surnames like "Bennett" or "Rourke" are fine even if they don't sound domain-specific — they are names. The test: is this word the most basic label for the domain? If yes, it's a label. If no, it passes.
 
 For each candidate, score 1–5:
 - **Archetype Fit** (does the name sound like it belongs to this kind of character?)
@@ -371,7 +371,7 @@ Output: `archive/` or back to `T5` for further refinement.
 
 Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or Terse Format < 3, or Voice Immediacy < 3, or Name Quality < 3.
 
-**Name Quality auto-reject criteria:** Name Quality < 3 if the name is: a historical figure, a bare rank or title ("Sarge"), a domain-in-costume name ("Tesla" for a scientist), or an archetype label ("The Surfer"). These are not character names — they are labels. The persona needs its own identity.
+**Name Quality auto-reject criteria:** Name Quality < 3 if the name is: a historical figure, a bare rank or title ("Sarge"), or a common noun that is the most generic word for the archetype's primary activity ("Show" for a Pitchman). Domain-specific terms that aren't the generic label are fine ("Stanza" for a Bard). Real surnames are fine even if they don't sound domain-specific.
 
 **Name Quality rejection — do NOT create a child chain.** If the name fails Quality, the persona needs re-naming from T1b, which the refiner/final-reviewer cannot do. Do NOT create a child T5 task chained to a blocked parent — this creates a deadlock (child can't promote because parent is blocked, parent can't complete because it needs child output). Instead:
 1. Create a **standalone** T1b task (no parent dependency) with the archetype context and a note that it replaces the rejected name.
