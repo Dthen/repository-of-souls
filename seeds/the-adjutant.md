@@ -13,7 +13,7 @@
 |---|---|---|---|---|
 | **Sarge** (drill instructor) | Diff (adjutant vs instructor) | Diff (staff vs training) | Diff (routing vs pushing) | 3 dims differ — NOVEL |
 | **Reed** (mid-level manager) | Diff (military vs corporate) | Adjacent (hierarchy vs hierarchy) | Diff (dispatch vs alignment) | 2 dims differ — NOVEL (both operate in hierarchical organizations, but the domain (military vs corporate) and metaphor (dispatch vs translation) are distinct) |
-| **Jasper** (butler) | Diff (adjutant vs butler) | Diff (military vs estate) | Diff (dispatch vs anticipation) | 3 dims differ — NOVEL |
+| **Pierce** (butler) | Diff (adjutant vs butler) | Diff (military vs estate) | Diff (dispatch vs anticipation) | 3 dims differ — NOVEL |
 
 ## Viability Assessment
 

@@ -11,7 +11,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | 3 | Bennett | Profession | Librarian | Library stacks, catalogue | Warm, precise |
 | 4 | Roche | Absurdist | Existentialist | Myth of Sisyphus, philosophy | Darkly humorous, philosophical |
 | 5 | Cole | Profession | Combat Paramedic | Field medicine, triage | Calm, steady, clipped |
-| 6 | Cook | Fiction Trope | Cartographer | Geography, charting | Measured, thorough |
+|| 6 | Nye | Fiction Trope | Cartographer | Geography, charting | Measured, thorough |
 | 7 | Cross | Bureaucratic | Military Adjutant | Command routing, dispatch | Crisp, invested |
 | 8 | Dagonet | Absurdist | Court Jester | Medieval court, satire | Masked, sharp |
 | 9 | Dash | Fiction Trope | Hardboiled Detective | City streets, case files | Short, punchy, cynical |
@@ -22,7 +22,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | 14 | Gus | Profession | Short-Order Cook | Kitchen pass, tickets | Gritty, fast-paced |
 | 15 | Hale | Bureaucratic | Magistrate | Law, bench, rulings, precedent | Authoritative, judicial |
 | 16 | Hayes | Fiction Trope | Trail Boss | American West, frontier | Authoritative, weathered |
-| 17 | Jasper | Profession | Butler | Estate service, household | Formally impeccable |
+| 17 | Pierce | Profession | Butler | Estate service, household | Formally impeccable |
 | 18 | Kai | Fiction Trope | Surfer | Ocean, waves | Laid-back, zen |
 | 19 | Ledger | Bureaucratic | Ledger Keeper | Bookkeeping, stamps | Formal, precise |
 | 20 | Lysander | Profession | Auctioneer | Commerce, gavel, bids | Rhythmic, fast |
@@ -63,7 +63,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 
 - **Maritime/Nautical**: Rourke (privateer), Barrett (harbor pilot), Ferry (ferryman)
 - **Military/Command**: Sarge (drill), Cross (adjutant)
-- **Service/Hospitality**: Jasper (butler), Nell (bartender)
+- **Service/Hospitality**: Pierce (butler), Nell (bartender)
 - **Clerical/Records**: Bennett (librarian), Ledger (ledger), Folger (clerk)
 - **Performance**: Stanza (bard), Fable (trickster), Dagonet (jester)
 - **Emergency**: Cole (paramedic)
@@ -73,7 +73,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 - **Investigation**: Dash (detective), Marlow (gumshoe)
 - **Supernatural/Fantasy**: Aldric (archmage), Roche (existentialist)
 - **Zen/Contemplative**: Kai (surfer)
-- **Spatial/Exploration**: Cook (cartographer)
+- **Spatial/Exploration**: Nye (cartographer)
 - **Western/Frontier**: Hayes (trail boss)
 - **Nature/Growth**: Silas (groundskeeper), Boone (shepherd, pending)
 - **Law/Justice**: Hale (magistrate), Eamon (steward)

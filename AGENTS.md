@@ -262,7 +262,7 @@ Generate **5 proper names** for this persona. Not titles. Not archetype labels. 
 - **Historical figures.** Tesla, Socrates, Napoleon, Shakespeare — these are already someone. The persona needs its own identity. A name that is a famous historical person is a collision, not a character.
 - **Bare ranks or titles.** "Sarge" is a rank, not a name. "Doc" is borderline. The name should be something a person would write on a form, not how others address them in the field.
 - **Stereotypical names.** If you say the name + archetype to someone and their immediate reaction is "of course" — Jasper is a butler, Jeeves is a butler — the name is a stereotype label, not a character. The name must be specific enough that it stands on its own, not the default association for the domain.
-- **Domain-derived names.** If the name is the domain's tool, product, or defining feature wearing a name badge — "Ferry" for a Ferryman, "Cook" for a Ship's Cook, "Graham" (flour) for a Baker, "Huck" (Huckster) for a Pitchman — it is the domain in costume, not a person. The name must be something a parent could name a child, not something you'd label a product.
+- **Generic common nouns.** If the name is the most generic, one-syllable word for the domain — "Show" for a Pitchman, "Ferry" for a Ferryman, "Cook" for a Ship's Cook — it has no texture and reads as a label. Domain-derived names are fine and encouraged (Hollis, Creed, Cade, Stanza, Riff) — but they must have phonetic texture and not just be the domain word wearing a name badge. The test: could a parent name a child this and have it stand on its own?
 
 For each candidate, score 1–5:
 - **Archetype Fit** (does the name sound like it belongs to this kind of character?)
@@ -376,7 +376,7 @@ Output: `archive/` or back to `T5` for further refinement.
 
 Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or Terse Format < 3, or Voice Immediacy < 3, or Name Quality < 3.
 
-**Name Quality auto-reject criteria:** Name Quality < 3 if the name is: a historical figure, a bare rank or title ("Sarge"), a common noun that is the most generic word for the archetype's primary activity ("Show" for a Pitchman), a domain-derived name ("Ferry" for a Ferryman, "Cook" for a Ship's Cook, "Graham" for a Baker), or a stereotypical association ("Jasper" for a Butler). The test: could a parent name a child this and have it stand on its own without the archetype context? If no, it's a label.
+**Name Quality auto-reject criteria:** Name Quality < 3 if the name is: a historical figure, a bare rank or title ("Sarge"), a stereotypical association ("Jasper" for a Butler), or a generic one-syllable common noun with no texture ("Show" for a Pitchman, "Ferry" for a Ferryman, "Cook" for a Ship's Cook). Domain-derived names with texture (Hollis, Creed, Cade, Stanza, Riff) are fine. The test: could a parent name a child this and have it stand on its own without the archetype context?
 
 **Name Quality rejection — do NOT rename files yourself.** If the name fails Quality, the persona needs re-naming from T1b, which the refiner/final-reviewer cannot do. Do NOT rename files yourself — you will create duplicates. Do NOT create a child T5 task chained to a blocked parent — this creates a deadlock. Instead:
 1. Create a **standalone** T1b task (no parent dependency) with the archetype context and a note that it replaces the rejected name.

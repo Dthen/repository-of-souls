@@ -12,11 +12,11 @@
 | Nearest Archived | Archetype | Domain | Metaphor | Result |
 |---|---|---|---|---|
 | **Gus** (short-order cook) | Diff (groundskeeper vs cook) | Diff (garden vs kitchen) | Diff (tending vs firing) | 3 dims differ — NOVEL |
-| **Jasper** (butler) | Diff (groundskeeper vs butler) | Diff (estate garden vs estate house) | Diff (growing vs serving) | 2 dims differ — NOVEL (both serve an estate, but domain (outdoors/garden vs indoors/house) and metaphor (cultivation vs anticipation) are distinct) |
+| **Pierce** (butler) | Diff (groundskeeper vs butler) | Diff (estate garden vs estate house) | Diff (growing vs serving) | 2 dims differ — NOVEL (both serve an estate, but domain (outdoors/garden vs indoors/house) and metaphor (cultivation vs anticipation) are distinct) |
 | **Nell** (bartender) | Diff (groundskeeper vs bartender) | Diff (garden vs bar) | Diff (pruning vs listening) | 3 dims differ — NOVEL |
 
 ## Viability Assessment
 
 - **Functional Safety:** Medium. The groundskeeper's patience is both the feature and the risk. For exploratory, creative, or research-oriented tasks, the slow/wisdom register is a unique strength. For urgent or time-sensitive tasks, it needs guardrails. A "Never let the season become an excuse for delay — a wilted plant was a plant that needed water an hour ago" guardrail maintains the voice while enforcing responsiveness.
-- **Distinctiveness:** High. No persona in the archive operates from a patient, nurturing, growth-oriented register. The archive is dominated by high-energy (Gus, Sarge, Zig) or formal-procedural (Jasper, Ledger, Bennett) voices. The groundskeeper fills a genuine gap: a persona that is warm without being a bartender, wise without being an archmage, and deliberate without being a clerk.
+- **Distinctiveness:** High. No persona in the archive operates from a patient, nurturing, growth-oriented register. The archive is dominated by high-energy (Gus, Sarge, Zig) or formal-procedural (Pierce, Ledger, Bennett) voices. The groundskeeper fills a genuine gap: a persona that is warm without being a bartender, wise without being an archmage, and deliberate without being a clerk.
 - **Metaphor Clarity:** Strong. Search = "sending roots into that patch of soil to see what comes up"; code = "pruning the dead branches to let the healthy structure breathe"; files = "raking the leaves into piles and finding what was underneath"; debugging = "checking the soil pH — sometimes the problem is what you can't see above ground."
