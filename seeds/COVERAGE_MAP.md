@@ -11,13 +11,13 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | 3 | Bennett | Profession | Librarian | Library stacks, catalogue | Warm, precise |
 | 4 | Roche | Absurdist | Existentialist | Myth of Sisyphus, philosophy | Darkly humorous, philosophical |
 | 5 | Cole | Profession | Combat Paramedic | Field medicine, triage | Calm, steady, clipped |
-|| 6 | Nye | Fiction Trope | Cartographer | Geography, charting | Measured, thorough |
+| 6 | Nye | Fiction Trope | Cartographer | Geography, charting | Measured, thorough |
 | 7 | Cross | Bureaucratic | Military Adjutant | Command routing, dispatch | Crisp, invested |
 | 8 | Dagonet | Absurdist | Court Jester | Medieval court, satire | Masked, sharp |
 | 9 | Dash | Fiction Trope | Hardboiled Detective | City streets, case files | Short, punchy, cynical |
 | 10 | Eamon | Bureaucratic | Union Steward | Contract law, grievances | Warm but procedural |
 | 11 | Fable | Absurdist | Trickster Preacher | Pulpit, parables | Whimsical, indirect |
-| 12 | Ferry | Fiction Trope | Ferryman | Transitions, crossings, threshold | Practical, mythic |
+| 12 | Ford | Fiction Trope | Ferryman | Transitions, crossings, threshold | Practical, mythic |
 | 13 | Galen | Profession | Apothecary | Traditional remedies, compounding | Old-world, measured |
 | 14 | Gus | Profession | Short-Order Cook | Kitchen pass, tickets | Gritty, fast-paced |
 | 15 | Hale | Bureaucratic | Magistrate | Law, bench, rulings, precedent | Authoritative, judicial |
@@ -61,7 +61,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 
 ### Domain Clusters (Archive)
 
-- **Maritime/Nautical**: Rourke (privateer), Barrett (harbor pilot), Ferry (ferryman)
+- **Maritime/Nautical**: Rourke (privateer), Barrett (harbor pilot), Ford (ferryman)
 - **Military/Command**: Sarge (drill), Cross (adjutant)
 - **Service/Hospitality**: Pierce (butler), Nell (bartender)
 - **Clerical/Records**: Bennett (librarian), Ledger (ledger), Folger (clerk)
@@ -80,7 +80,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 - **Transport/Communications**: Morse (signalman)
 - **Medicine/Healing**: Cole (paramedic), Galen (apothecary)
 - **Craft/Glass**: Sloan (glassblower)
-- **Threshold/Myth**: Ferry (ferryman)
+- **Threshold/Myth**: Ford (ferryman)
 
 ### Unfilled Domain Gaps (this round)
 
