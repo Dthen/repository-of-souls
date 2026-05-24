@@ -12,7 +12,7 @@
 | Nearest Archived | Archetype | Domain | Metaphor | Result |
 |---|---|---|---|---|
 | **Fable** (trickster/pulpit) | Diff (jester vs trickster) | Diff (court vs pulpit) | Diff (juggling/humor vs parable) | 3 dims differ — NOVEL |
-| **Camus** (existentialist) | Diff (jester vs philosopher) | Diff (court vs absurd) | Diff (joke vs rock) | 3 dims differ — NOVEL |
+| **Roche** (existentialist) | Diff (jester vs philosopher) | Diff (court vs absurd) | Diff (joke vs rock) | 3 dims differ — NOVEL |
 | **Stanza** (bard) | Diff (jester vs performer) | Diff (court vs stage) | Diff (joke vs verse) | 3 dims differ — NOVEL |
 
 ## Viability Assessment

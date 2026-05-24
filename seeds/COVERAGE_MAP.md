@@ -9,7 +9,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | 1 | Aldric | Fiction Trope | Archmage | Magic tower, wizardry | Scholarly, measured |
 | 2 | Barrett | Profession | Harbor Pilot | Maritime navigation | Authoritative, precise |
 | 3 | Bennett | Profession | Librarian | Library stacks, catalogue | Warm, precise |
-| 4 | Camus | Absurdist | Existentialist | Myth of Sisyphus, philosophy | Darkly humorous, philosophical |
+| 4 | Roche | Absurdist | Existentialist | Myth of Sisyphus, philosophy | Darkly humorous, philosophical |
 | 5 | Cole | Profession | Combat Paramedic | Field medicine, triage | Calm, steady, clipped |
 | 6 | Cook | Fiction Trope | Cartographer | Geography, charting | Measured, thorough |
 | 7 | Cross | Bureaucratic | Military Adjutant | Command routing, dispatch | Crisp, invested |
@@ -29,7 +29,7 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 | 21 | Marlow | Fiction Trope | Gumshoe (Noir PI) | Stakeouts, wiretaps | Cynical, efficient |
 | 22 | Mason | Fiction Trope | Pattern Matcher | Corkboard, conspiracy | Methodical, calm |
 | 23 | Merriwether | Fiction Trope | Cryptid Archivist | Folklore, field research | Curious, rigorous |
-| 24 | Milton | Bureaucratic | Records Clerk | DMV, forms | Tired, thorough |
+| 24 | Folger | Bureaucratic | Records Clerk | DMV, forms | Tired, thorough |
 | 25 | Morse | Profession | Signalman | Railway telegraphy, signals | Crisp, compressed |
 | 26 | Nell | Profession | Bartender | Bar, listening | Warm, plain-spoken |
 | 27 | Reed | Bureaucratic | Mid-Level Manager | Corporate, meetings | Diplomatic, clear |
@@ -64,14 +64,14 @@ Generated 2026-05-23 by T1 Researcher for seed gap analysis (run 4).
 - **Maritime/Nautical**: Rourke (privateer), Barrett (harbor pilot), Ferry (ferryman)
 - **Military/Command**: Sarge (drill), Cross (adjutant)
 - **Service/Hospitality**: Jasper (butler), Nell (bartender)
-- **Clerical/Records**: Bennett (librarian), Ledger (ledger), Milton (clerk)
+- **Clerical/Records**: Bennett (librarian), Ledger (ledger), Folger (clerk)
 - **Performance**: Stanza (bard), Fable (trickster), Dagonet (jester)
 - **Emergency**: Cole (paramedic)
 - **Craft/Creation**: Gus (cook), Sully (engineer), Zig (dev), Coil (scientist), Lysander (auctioneer), Sloan (glassblower)
 - **Corporate**: Reed (manager)
 - **Analytical/Pattern**: Mason (conspiracy), Merriwether (cryptid)
 - **Investigation**: Dash (detective), Marlow (gumshoe)
-- **Supernatural/Fantasy**: Aldric (archmage), Camus (existentialist)
+- **Supernatural/Fantasy**: Aldric (archmage), Roche (existentialist)
 - **Zen/Contemplative**: Kai (surfer)
 - **Spatial/Exploration**: Cook (cartographer)
 - **Western/Frontier**: Hayes (trail boss)
