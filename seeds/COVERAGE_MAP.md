@@ -2,110 +2,123 @@
 
 Generated 2026-05-25 by T1 Researcher for seed gap analysis.
 
-## Archive (37 canonical personae)
+## Archive (53 canonical personae)
 
 | # | Name | Category | Archetype | Domain | Tone |
 |---|------|----------|-----------|--------|------|
-| 1 | Aldric | Fiction Trope | Archmage | Magic tower, wizardry | Scholarly, measured |
-| 2 | Barrett | Profession | Harbor Pilot | Maritime navigation | Authoritative, precise |
-| 3 | Bennett | Profession | Reference Librarian | Library stacks, catalogue | Warm, precise |
-| 4 | Boone | Profession | Shepherd | Pastoral, flock, open range | Patient, watchful |
-| 5 | Cade | Profession | Auctioneer | Commerce, gavel, bids | Rhythmic, fast |
-| 6 | Cole | Profession | Combat Paramedic | Field medicine, triage | Calm, steady, clipped |
-| 7 | Cross | Bureaucratic | Military Adjutant | Command routing, dispatch | Crisp, invested |
-| 8 | Curtis | Fiction Trope | ??? | ??? | ??? |
-| 9 | Dagonet | Absurdist | Court Jester | Medieval court, satire | Masked, sharp |
-| 10 | Dash | Fiction Trope | Hardboiled Detective | City streets, case files | Short, punchy, cynical |
-| 11 | Eamon | Bureaucratic | Union Steward | Contract law, grievances | Warm but procedural |
-| 12 | Fable | Absurdist | Trickster Preacher | Pulpit, parables | Whimsical, indirect |
-| 13 | Felix | Fiction Trope | ??? | ??? | ??? |
-| 14 | Fitch | Profession | Barber | Barbershop, chair, shears | Warm, opinionated |
-| 15 | Folger | Bureaucratic | Records Clerk | DMV, forms, bureaucracy | Tired, thorough |
-| 16 | Hatch | Profession | Drill Instructor | Military training | Loud, effective |
-| 17 | Hayes | Fiction Trope | Trail Boss | American West, frontier | Authoritative, weathered |
-| 18 | Hugo | ??? | ??? | ??? | ??? |
-| 19 | Kai | Fiction Trope | Surfer | Ocean, waves | Laid-back, zen |
-| 20 | Marlow | Fiction Trope | Gumshoe (Noir PI) | Stakeouts, wiretaps | Cynical, efficient |
-| 21 | Mason | Fiction Trope | Pattern Matcher | Corkboard, conspiracy | Methodical, calm |
-| 22 | Merriwether | Fiction Trope | Cryptid Archivist | Folklore, field research | Curious, rigorous |
-| 23 | Nell | Profession | Bartender | Bar, listening | Warm, plain-spoken |
-| 24 | Owen | ??? | ??? | ??? | ??? |
-| 25 | Riff | Profession | Street Performer | Subway platform, hat, crowd | Adaptive, resilient |
-| 26 | Roche | Absurdist | Existentialist | Myth of Sisyphus | Darkly humorous, philosophical |
-| 27 | Rourke | Profession | Privateer | Ship, code, plunder | Independent, direct |
-| 28 | Roux | Profession | Short-Order Cook | Kitchen pass, tickets | Gritty, fast-paced |
-| 29 | Silas | Profession | Groundskeeper | Gardens, living systems | Patient, earthy |
-| 30 | Sloan | Profession | Glassblower | Fire, glass, transformation | Craft-focused, direct |
-| 31 | Soren | ??? | ??? | ??? | ??? |
-| 32 | Stanza | Fiction Trope | Bard | Stage, performance | Performative, dense |
-| 33 | Sully | Profession | Starship Engineer | Engineering, repair | Technical, direct |
-| 34 | Treen | Profession | Shipwright | Shipyard, timber, planking | Craft-focused, steady |
-| 35 | Truman | Bureaucratic | Town Crier | Town square, news, bell | Declamatory, invested |
-| 36 | Tucker | Profession | Weaver | Loom, thread, cloth, textile | Patient, systemic |
-| 37 | Wren | Bureaucratic | Diplomat | Statecraft, protocol | Polished, neutral |
+| 1 | Alden | Profession | Factory Lector | Factory floor, reading stand | Plain, even |
+| 2 | Aldric | Fiction Trope | Archmage | Tower, wizardry | Scholarly, measured |
+| 3 | Ambrose | Profession | Undertaker | Funeral parlor, death care | Grave, procedure-bound |
+| 4 | Barrett | Profession | Harbor Pilot | Maritime navigation | Authoritative, precise |
+| 5 | Bennett | Profession | Reference Librarian | Library stacks, catalogue | Warm, precise |
+| 6 | Boone | Profession | Shepherd | Pastoral, open range | Patient, watchful |
+| 7 | Cade | Profession | Auctioneer | Commerce, gavel, bids | Rhythmic, fast |
+| 8 | Cobb | Profession | Colliery Miner | Coal seam, underground | Gritty, practical |
+| 9 | Coil | Fiction Trope | Mad Scientist | Lab, experiment | Electric, boundary-pushing |
+| 10 | Cole | Profession | Combat Paramedic | Field medicine, triage | Calm, steady, clipped |
+| 11 | Creed | Profession | Telegraphist | Telegraph key, block | Terse, exact |
+| 12 | Cross | Bureaucratic | Military Adjutant | Command routing, dispatch | Crisp, invested |
+| 13 | Curtis | Profession | Executioner | Scaffold, warrant | Courteous, procedural |
+| 14 | Dagonet | Absurdist | Court Jester | Medieval court, satire | Masked, sharp |
+| 15 | Dash | Fiction Trope | Hardboiled Detective | City streets, case files | Short, punchy, cynical |
+| 16 | Eamon | Bureaucratic | Union Steward | Contract law, grievances | Warm but procedural |
+| 17 | Elen | Fiction Trope | Teacher | Classroom, Socratic method | Questioning, patient |
+| 18 | Fable | Absurdist | Trickster Preacher | Pulpit, parables | Whimsical, indirect |
+| 19 | Felix | Profession | Locksmith | Lock, pick, shear line | Patient, precise |
+| 20 | Fitch | Profession | Barber | Barbershop, chair, shears | Warm, opinionated |
+| 21 | Folger | Bureaucratic | Records Clerk | DMV, forms, bureaucracy | Tired, thorough |
+| 22 | Hale | Profession | Traveling Tinker | Cart, bellows, repair | Honest, direct |
+| 23 | Hatch | Profession | Drill Instructor | Military training | Loud, effective |
+| 24 | Hayes | Fiction Trope | Trail Boss | American West, frontier | Authoritative, weathered |
+| 25 | Hollis | Profession | Apothecary | Herbs, compounds | Measured, diagnosing |
+| 26 | Hugo | Fiction Trope | Cryptanalyst | Cipher, code, signal | Analytical, waiting |
+| 27 | Kai | Fiction Trope | Surfer | Ocean, waves | Laid-back, zen |
+| 28 | Mabel | Profession | Lunch Lady | Cafeteria, steam table | Plain, economical |
+| 29 | Marlow | Fiction Trope | Gumshoe (Noir PI) | Stakeouts, wiretaps | Cynical, efficient |
+| 30 | Mason | Fiction Trope | Pattern Matcher | Corkboard, conspiracy | Methodical, calm |
+| 31 | Merriwether | Fiction Trope | Cryptid Archivist | Folklore, field research | Curious, rigorous |
+| 32 | Nell | Profession | Bartender | Bar, listening | Warm, plain-spoken |
+| 33 | Nye | Profession | Naval Surveyor | Coast, sounding, chart | Methodical, precise |
+| 34 | Orson | Profession | Catchpole | County court, docket | Patient, procedural |
+| 35 | Owen | Profession | Cooper | Barrel, oak, stave | Craft-focused, steady |
+| 36 | Penn | Profession | Butler | Household, service | Precise, discreet |
+| 37 | Reed | Bureaucratic | Mid-Level Manager | Corporate relays | Diplomatic, filtering |
+| 38 | Riff | Profession | Street Performer | Subway platform, hat | Adaptive, resilient |
+| 39 | Roche | Absurdist | Existentialist | Myth of Sisyphus | Darkly humorous, philosophical |
+| 40 | Rourke | Profession | Privateer | Ship, code, plunder | Independent, direct |
+| 41 | Roux | Profession | Short-Order Cook | Kitchen pass, tickets | Gritty, fast-paced |
+| 42 | Silas | Profession | Groundskeeper | Gardens, living systems | Patient, earthy |
+| 43 | Silver | Fiction Trope | Pitchman | Traveling show, elixir | Charismatic, confident |
+| 44 | Sloan | Profession | Glassblower | Fire, glass, transformation | Craft-focused, direct |
+| 45 | Soren | Profession | Lighthouse Keeper | Lighthouse, sea watch | Severe, devoted |
+| 46 | Stanza | Fiction Trope | Bard | Stage, performance | Performative, dense |
+| 47 | Sully | Profession | Starship Engineer | Engineering, repair | Technical, direct |
+| 48 | Tate | Bureaucratic | Ledger Keeper | Accounts, tally | Methodical, numeric |
+| 49 | Treen | Profession | Shipwright | Shipyard, timber, planking | Craft-focused, steady |
+| 50 | Truman | Bureaucratic | Town Crier | Town square, news, bell | Declamatory, invested |
+| 51 | Tucker | Profession | Weaver | Loom, thread, cloth, textile | Patient, systemic |
+| 52 | Warren | Profession | Boundary Walker | Hedge, fence, perimeter | Vigilant, solitary |
+| 53 | Wren | Bureaucratic | Diplomat | Statecraft, protocol | Polished, neutral |
+| 54 | Zig | Profession | Junior Dev | Code, IDE, terminal | Eager, apologetic |
 
 ## Category Counts (Archive)
 
 | Category | Count | Notes |
 |----------|-------|-------|
-| **Profession** | 17+ | Heavily saturated. Only truly novel domains needed. |
-| **Fiction Trope** | 7+ | At target. |
-| **Bureaucratic** | 6+ | At target. |
-| **Absurdist** | 3+ | Room for more. |
+| **Profession** | ~30 | Heavily saturated. Only truly novel domains needed. |
+| **Fiction Trope** | ~11 | At or above target. |
+| **Bureaucratic** | ~7 | At target. |
+| **Absurdist** | 3 | Room for more. Dagonet, Fable, Roche. |
 
 ## Domain Clusters (Archive)
 
-- **Maritime/Nautical**: Barrett (harbor pilot), Rourke (privateer), Nye (naval surveyor), Treen (shipwright)
+- **Maritime/Nautical**: Barrett (harbor pilot), Rourke (privateer), Nye (naval surveyor), Soren (lighthouse keeper), Treen (shipwright)
 - **Railway/Telegraphy**: Creed (telegraphist), Truman (town crier)
 - **Military/Command**: Hatch (drill instructor), Cross (adjutant), Cole (combat paramedic)
-- **Law/Justice**: Hale (magistrate), Eamon (union steward), Tate (ledger keeper)
-- **Service/Hospitality**: Penn (butler), Nell (bartender), Bennett (librarian)
+- **Law/Justice**: Curtis (executioner), Orson (catchpole), Tate (ledger keeper), Eamon (union steward)
+- **Service/Hospitality**: Penn (butler), Nell (bartender), Bennett (librarian), Fitch (barber)
 - **Clerical/Records**: Folger (clerk), Tate (ledger), Reed (manager), Wren (diplomat)
 - **Performance**: Stanza (bard), Fable (trickster), Dagonet (jester), Riff (street performer), Silver (pitchman)
-- **Craft/Food**: Roux (cook), Rye (baker), Tucker (weaver), Sloan (glassblower), Treen (shipwright)
-- **Craft/Tech**: Sully (starship engineer), Coil (scientist), Zig (dev), Cade (auctioneer)
-- **Natural/Outdoor**: Silas (groundskeeper), Boone (shepherd), Kai (surfer), Hayes (trail boss)
-- **Investigation**: Dash (detective), Marlow (gumshoe), Mason (analyst)
-- **Fantasy/Myth**: Aldric (archmage), Roche (existentialist), Ford (ferryman)
-- **Medicine/Healing**: Cole (paramedic), Hollis (apothecary)
-- **Spatial/Exploration**: Nye (surveyor), Hayes (trail boss)
-- **Teaching/Mentorship**: Elen (teacher), Zig (learner)
-- **Personal Service**: Fitch (barber)
+- **Craft/Food**: Roux (cook), Mabel (lunch lady), Tucker (weaver), Sloan (glassblower), Treen (shipwright), Owen (cooper), Hale (tinker)
+- **Craft/Tech**: Sully (starship engineer), Coil (mad scientist), Zig (junior dev), Cade (auctioneer)
+- **Natural/Outdoor**: Silas (groundskeeper), Boone (shepherd), Kai (surfer), Hayes (trail boss), Warren (boundary walker)
+- **Investigation/Cryptanalysis**: Dash (detective), Marlow (gumshoe), Mason (analyst), Hugo (cryptanalyst)
+- **Fantasy/Myth**: Aldric (archmage), Roche (existentialist), Dagonet (jester)
+- **Medicine/Healing**: Cole (paramedic), Hollis (apothecary), Ambrose (undertaker)
+- **Spatial/Exploration**: Nye (surveyor), Hayes (trail boss), Barrett (harbor pilot)
+- **Teaching/Mentorship**: Elen (teacher)
+- **Extraction**: Cobb (colliery/miner)
+- **Security**: Felix (locksmith)
+- **Document/Seal**: Alden (factory lector)
 
-## Unconverted Seeds (have seed files, no pipeline)
+## Domain Gaps (Under-Represented in Archive)
 
-| Seed | Category | Archetype | Notes |
-|------|----------|-----------|-------|
-| the-innkeeper | Profession | Innkeeper | Hospitality domain, adjacent to Nell/Nye |
-| the-lamplighter | Absurdist | Lamplighter | Nocturnal/invisible work |
-| the-nightwatchman | Bureaucratic | Night Watchman | Nocturnal vigilance |
-| the-postmaster | Bureaucratic | Postmaster | Physical message routing |
-| the-prospector | Absurdist | Prospector | Search/discovery domain |
-| the-cartographer | Fiction Trope | Mapmaker | Geospatial/exploration |
-| the-busker | Absurdist | Street Musician | Performance, transient |
-| the-signalman | Profession | Telegraphist | Railway signaling |
-| the-adjutant | Bureaucratic | Military Aide | Staff routing |
-| the-scrutineer | Bureaucratic | Customs Inspector | Port authority |
-| the-lunch-lady | Absurdist | Canteen Manager | Institutional food |
-| the-miner | Profession | Colliery Worker | Resource extraction |
-| the-tinker | Profession | Traveling Repairman | Mobile craft |
-| the-tollkeeper | Bureaucratic | Turnpike Keeper | Tollgate, ledger |
+- **Document Certification / Notarization**: No notary, scrivener, or seal-keeper
+- **Road Transport / Delivery**: No carter, wagoner, or courier
+- **Transformation / Rendering (light-oriented)**: No candle-maker, lamp-lighter, or chandler
+- **Aftermath / Overlooked Harvest**: No gleaner, sweeper, or field-gleaner
+- **Passenger Transport / Guidance**: No postilion, carriage-rider, or way-guide
+- **Animal Care / Veterinary**: No farrier (in pipeline), ostler, or horse-keeper
+- **Bell / Time / Signal**: No bell-ringer, clock-keeper, or sexton
+- **Printing / Press**: No printer, compositor, or type-setter
+- **Building / Masonry**: No stonemason, dry-stone waller, or builder
+- **Forestry / Wood**: No forester, woodman, or timber-cruiser
 
 ## New Seeds (This Round — 5 Novel Seeds)
 
 | # | Label | Archetype | Category | Domain | Risk Level |
 |---|-------|-----------|----------|--------|-----------|
-| 1 | **the-knacker** | Renderer / Salvor | Absurdist (Death/Disposal) | Knacker's yard, rendering house, dead-animal cart, hide, tallow, glue | Medium |
-| 2 | **the-lector** | Factory Reader / Voice | Profession (Industry) | Factory floor, cigar bench, textile mill, reading stand | Low |
-| 3 | **the-catchpole** | Debt Collector / Process Server | Bureaucratic (Legal Enforce) | County court, summons docket, judgment roll, debtor's lane | Medium |
-| 4 | **the-farrier** | Horseshoer / Shoeing Smith | Profession (Craft) | Forge, anvil, shoeing stall, hoof, fire, iron | Medium |
-| 5 | **the-hayward** | Boundary Keeper / Fence Warden | Bureaucratic (Perimeter) | Farm boundaries, hedgerows, field gates, parish map | Medium |
+| 1 | **the-scrivener** | Scrivener / Legal Notary | Bureaucratic | Scriptorium, seal, witness, certification | Low |
+| 2 | **the-postilion** | Carriage Rider / Road Guide | Fiction Trope | Post road, coaching inn, relay station | Low-Medium |
+| 3 | **the-tallow-chandler** | Candle Maker / Renderer of Light | Absurdist | Rendering house, tallow vat, candle mould | Medium |
+| 4 | **the-gleaner** | Field Gatherer / Aftermath Collector | Absurdist | Harvested field, stubble, last light | Medium |
+| 5 | **the-carter** | Wagon Driver / Haulier | Profession | Cart, waybill, road, loading yard | Low |
 
 ## Seed Category Targets
 
-| Category | Archive | Unconverted Seeds | New This Round | Target |
-|----------|---------|-------------------|----------------|--------|
-| Profession | 17+ | the-innkeeper, the-signalman, the-miner, the-tinker | the-lector, the-farrier | At or near saturation |
-| Fiction Trope | 7+ | the-cartographer | — | At target |
-| Bureaucratic | 6+ | the-postmaster, the-nightwatchman, the-adjutant, the-scrutineer, the-tollkeeper | the-catchpole, the-hayward | At target |
-| Absurdist | 3+ | the-lamplighter, the-prospector, the-busker, the-lunch-lady | the-knacker | Room for more |
+| Category | Archive | New This Round | Target |
+|----------|---------|----------------|--------|
+| Profession | ~30 | the-carter | At saturation — only truly novel domains |
+| Fiction Trope | ~11 | the-postilion | At target — one fresh entry |
+| Bureaucratic | ~7 | the-scrivener | At target — one fresh entry |
+| Absurdist | 3 | the-tallow-chandler, the-gleaner | Room for more — 2 added |
