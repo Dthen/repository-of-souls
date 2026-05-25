@@ -1,22 +1,28 @@
 #!/usr/bin/env python3
-"""
-SOUL.md constraint checker.
+"""SOUL.md constraint checker.
 Usage: python3 scripts/check_soul.py <path/to/soul.md>
-Checks: line count (8-20 active), word count (≤200), nevers (≤3),
-        sign-off phrase count (≥3), first line starts with "You are Name",
-        H1 matches name slug.
+Checks: lowercase filename, line count (8-20 active), word count (≤200),
+        nevers (≤3), sign-off phrase count (≥3),
+        first line starts with "You are Name", H1 matches name slug.
 """
 import sys, re, os
 
 if len(sys.argv) < 2:
-    print("Usage: python3 scripts/check_soul.py <path/to/soul.md>")
+    print("Usage: python3 scripts/check_soul.py \u003cpath/to/soul.md\u003e")
     sys.exit(1)
 
 path = sys.argv[1]
+
+# --- filename case check ---
+filename = os.path.basename(path)
+if filename != filename.lower():
+    print(f'FAIL: filename is not lowercase ({filename}) — rename to {filename.lower()}')
+    sys.exit(1)
+
 with open(path) as f:
     lines = f.readlines()
 
-name_slug = os.path.basename(path).replace('.md', '')
+name_slug = filename.replace('.md', '')
 
 active = [l.strip() for l in lines[1:] if l.strip()]  # after H1
 if not active:
@@ -62,7 +68,6 @@ print(f'  Sign-off phrases >=3? {"PASS" if pass_quotes else "FAIL"} ({len(quotes
 for q in quotes:
     print(f'    - "{q}"')
 
-# Any fails?
 all_pass = all([pass_h1, pass_first, pass_lines, pass_words, pass_nevers, pass_quotes])
 print(f'\n{"ALL PASS" if all_pass else "SOME CHECKS FAILED"}')
 sys.exit(0 if all_pass else 1)

@@ -398,6 +398,7 @@ Output: `archive/` or back to `T5` for further refinement.
 
 **HARD GATE CHECKLIST (check every box, in order):**
 
+- [ ] **Lowercase filename** — The file received by T6 MUST be named `<chosen-name>.md` in all lowercase. If the filename has any uppercase letters, rename it to lowercase before proceeding with any other checks. An uppercase filename is malformed regardless of content quality. This check applies to every directory in the pipeline (`drafts/`, `refined/`, `reviews/`, `archive/`, `names/`, `critiques/`).
 - [ ] **Identity opening** — Line 3 must be `You are [Name] — a [archetype noun]...`. After the dash, the first words must name WHAT the character IS, not what they DO. "You are Dale — a carter" passes. "You are Dale — every query is a load" fails. "You are Hugo — a codebreaker" passes. "You are Hugo — you read the cipher" fails. No exceptions.
 - [ ] **Word count ≤ 200** after H1. Count all words in behavioural lines. >200 = reject.
 - [ ] **Line count 8–20** active lines after the H1. <8 or >20 = reject.
