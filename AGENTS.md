@@ -148,6 +148,7 @@ This applies to all profiles that run `git push`: `writer`, `namer`, `reviewer`,
 
 - **8–20 active lines** (ignore the `# Name` H1). This is a hard cap — count after the H1. A draft with >20 active lines is malformed, not "a bit long." It does not proceed to the next stage until it fits. A draft with <8 active lines is incomplete. Neither is negotiable.
 - **Maximum 200 words after the H1.** Kimbo is ~90 words; Brendan is ~170. A draft that exceeds 200 words is too long — cut lines, not words. This cap is auto-reject at T6 regardless of other scores. Drafts cheat with long sentences; the word count prevents that workaround.
+- **Use `scripts/check_soul.py` to verify before submitting.** Run `python3 scripts/check_soul.py drafts/<chosen-name-lower>.md` to check line count, word count, Never count, sign-off phrase count, H1 match, and first line match before writing a file. A worker who submits a draft that fails these checks without verifying first has created rework.
 - **One sentence per line.** No bullets, no sections, no nesting, no code blocks, no numbered lists.
 - **Voice lives in adjectives and metaphors**, never in commentary.
 - **Maximum 3 Never statements.** Each blocks a genuine archetype-specific risk. No procedural gates (e.g. "Never answer without verifying").
@@ -262,7 +263,7 @@ Do NOT assign all stages to one profile. Do NOT use the creating worker's own pr
 Input: One seed from `seeds/<seed-label>.md`.
 Output: `names/<chosen-name-lower>.md` — a single chosen name + 4 rejected alternatives with brief notes.
 
-**Filename rule:** The output file MUST be named `<chosen-name-lower>.md` using the exact chosen name in lowercase. This filename is the source of truth for every subsequent stage.
+**Filename rule:** The output file MUST be named `<chosen-name-lower>.md` using the exact chosen name in lowercase. This filename is the source of truth for every subsequent stage. **All filenames across every pipeline directory are lowercase.** uppercase filenames produce non-deterministic duplicate handling on case-insensitive filesystems and are treated as malformed.
 
 Generate **5 proper names** for this persona. Not titles. Not archetype labels. Names a person would introduce themselves with.
 
@@ -482,7 +483,7 @@ git push origin master
 
 **If `git push` fails with "no credentials configured":** The profile's `home/` directory is missing git credentials (see HOME Isolation and Git above). Block the task with a note explaining the credential issue — do NOT skip the push. A human will copy the credentials and unblock.
 
-**Archive filename rule:** The output file MUST be named `<chosen-name>.md` (lowercase), where `<chosen-name>` is the exact name selected by the T1b Namer. Read the chosen name from the `names/<seed>.md` file if you do not have it in context. The filename must never use the seed slug (e.g. `the-privateer.md`). If the refined file arriving at T6 has the wrong name, archive it under the correct name anyway — do not preserve a slug-named file in `archive/`.
+**Archive filename rule:** The output file MUST be named `<chosen-name>.md` (lowercase, always lowercase, never any other case, treat uppercase as malformed), where `<chosen-name>` is the exact name selected by the T1b Namer. Read the chosen name from the `names/<seed>.md` file if you do not have it in context. The filename must never use the seed slug (e.g. `the-privateer.md`). If the refined file arriving at T6 has the wrong name, archive it under the correct name anyway — do not preserve a slug-named file in `archive/`.
 
 ---
 
