@@ -2,7 +2,7 @@
 
 Generated 2026-05-25 by T1 Researcher for seed gap analysis.
 
-## Archive (45 canonical personae)
+## Archive (46 canonical personae)
 
 | # | Name | Category | Archetype | Domain | Tone |
 |---|------|----------|-----------|--------|------|
@@ -28,29 +28,30 @@ Generated 2026-05-25 by T1 Researcher for seed gap analysis.
 | 20 | Hayes | Fiction Trope | Trail Boss | American West, frontier | Authoritative, weathered |
 | 21 | Hollis | Profession | Apothecary | Traditional remedies, compounding | Old-world, measured |
 | 22 | Kai | Fiction Trope | Surfer | Ocean, waves | Laid-back, zen |
-| 23 | Marlow | Fiction Trope | Gumshoe (Noir PI) | Stakeouts, wiretaps | Cynical, efficient |
-| 24 | Mason | Fiction Trope | Pattern Matcher | Corkboard, conspiracy | Methodical, calm |
-| 25 | Merriwether | Fiction Trope | Cryptid Archivist | Folklore, field research | Curious, rigorous |
-| 26 | Nell | Profession | Bartender | Bar, listening | Warm, plain-spoken |
-| 27 | Nye | Profession | Naval Surveyor | Geography, charting | Measured, thorough |
-| 28 | Penn | Profession | Butler | Estate service, household | Formally impeccable |
-| 29 | Reed | Bureaucratic | Mid-Level Manager | Corporate, meetings | Diplomatic, clear |
-| 30 | Riff | Profession | Street Performer | Subway platform, hat, crowd | Adaptive, resilient |
-| 31 | Roche | Absurdist | Existentialist | Myth of Sisyphus | Darkly humorous, philosophical |
-| 32 | Rourke | Profession | Privateer | Ship, code, plunder | Independent, direct |
-| 33 | Roux | Profession | Short-Order Cook | Kitchen pass, tickets | Gritty, fast-paced |
-| 34 | Rye | Profession | Baker | Bakery, oven, hearth | Warm, patient |
-| 35 | Silas | Profession | Groundskeeper | Gardens, living systems | Patient, earthy |
-| 36 | Silver | Absurdist | Pitchman | Traveling show, tonics | Performative, slick |
-| 37 | Sloan | Profession | Glassblower | Fire, glass, transformation | Craft-focused, direct |
-| 38 | Stanza | Fiction Trope | Bard | Stage, performance | Performative, dense |
-| 39 | Sully | Profession | Starship Engineer | Engineering, repair | Technical, direct |
-| 40 | Tate | Bureaucratic | Ledger Keeper | Bookkeeping, stamps, records | Formal, precise |
-| 41 | Treen | Profession | Shipwright | Shipyard, timber, planking | Craft-focused, steady |
-| 42 | Truman | Bureaucratic | Town Crier | Town square, news, bell | Declamatory, invested |
-| 43 | Tucker | Profession | Weaver | Loom, thread, cloth, textile | Patient, systemic |
-| 44 | Wren | Bureaucratic | Diplomat | Statecraft, protocol | Polished, neutral |
-| 45 | Zig | Profession | Junior Dev | Coding, deploying, bootcamp | Eager, humble |
+| 23 | Mabel | Absurdist | Lunch Lady | Cafeteria, steam table, serving line | Plain, cold, institutional |
+| 24 | Marlow | Fiction Trope | Gumshoe (Noir PI) | Stakeouts, wiretaps | Cynical, efficient |
+| 25 | Mason | Fiction Trope | Pattern Matcher | Corkboard, conspiracy | Methodical, calm |
+| 26 | Merriwether | Fiction Trope | Cryptid Archivist | Folklore, field research | Curious, rigorous |
+| 27 | Nell | Profession | Bartender | Bar, listening | Warm, plain-spoken |
+| 28 | Nye | Profession | Naval Surveyor | Geography, charting | Measured, thorough |
+| 29 | Penn | Profession | Butler | Estate service, household | Formally impeccable |
+| 30 | Reed | Bureaucratic | Mid-Level Manager | Corporate, meetings | Diplomatic, clear |
+| 31 | Riff | Profession | Street Performer | Subway platform, hat, crowd | Adaptive, resilient |
+| 32 | Roche | Absurdist | Existentialist | Myth of Sisyphus | Darkly humorous, philosophical |
+| 33 | Rourke | Profession | Privateer | Ship, code, plunder | Independent, direct |
+| 34 | Roux | Profession | Short-Order Cook | Kitchen pass, tickets | Gritty, fast-paced |
+| 35 | Rye | Profession | Baker | Bakery, oven, hearth | Warm, patient |
+| 36 | Silas | Profession | Groundskeeper | Gardens, living systems | Patient, earthy |
+| 37 | Silver | Absurdist | Pitchman | Traveling show, tonics | Performative, slick |
+| 38 | Sloan | Profession | Glassblower | Fire, glass, transformation | Craft-focused, direct |
+| 39 | Stanza | Fiction Trope | Bard | Stage, performance | Performative, dense |
+| 40 | Sully | Profession | Starship Engineer | Engineering, repair | Technical, direct |
+| 41 | Tate | Bureaucratic | Ledger Keeper | Bookkeeping, stamps, records | Formal, precise |
+| 42 | Treen | Profession | Shipwright | Shipyard, timber, planking | Craft-focused, steady |
+| 43 | Truman | Bureaucratic | Town Crier | Town square, news, bell | Declamatory, invested |
+| 44 | Tucker | Profession | Weaver | Loom, thread, cloth, textile | Patient, systemic |
+| 45 | Wren | Bureaucratic | Diplomat | Statecraft, protocol | Polished, neutral |
+| 46 | Zig | Profession | Junior Dev | Coding, deploying, bootcamp | Eager, humble |
 
 ## Category Counts (Archive)
 
@@ -59,7 +60,7 @@ Generated 2026-05-25 by T1 Researcher for seed gap analysis.
 | **Profession** | 24 | Heavily saturated. Only truly novel domains needed. |
 | **Fiction Trope** | 9 | At target. |
 | **Bureaucratic** | 8 | At target. |
-| **Absurdist** | 5 | Could use 1 more for depth. |
+| **Absurdist** | 6 | At target. |
 
 ## Domain Clusters (Archive)
 
