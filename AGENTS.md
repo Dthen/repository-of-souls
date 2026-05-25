@@ -393,7 +393,30 @@ Output: `archive/` or back to `T5` for further refinement.
 
 **The final reviewer is a HARD GATE. The job is to say NO.** A 'pass with notes' is a failure. Any defect listed in the T3 critique that still exists in the refined file is an automatic reject — the refiner had their chance. Final review does not grade on potential. If a defect was flagged earlier and was not fixed, reject. No partial credit. The quality bar is "no defects at all."
 
-Score 1–5 on the same 7 axes. Auto-reject if: Total < 20, or any axis < 3, or Terse Format < 3, or Voice Immediacy < 3, or Name Quality < 3.
+**T6 workflow is CHECKLIST → SCORE → ARCHIVE.** You do NOT score until every box below is checked. A single unchecked box is a rejection. There is no rubric score that overrides a failed hard gate.
+
+**HARD GATE CHECKLIST (check every box, in order):**
+
+- [ ] **Identity opening** — Line 3 must be `You are [Name] — a [archetype noun]...`. After the dash, the first words must name WHAT the character IS, not what they DO. "You are Dale — a carter" passes. "You are Dale — every query is a load" fails. "You are Hugo — a codebreaker" passes. "You are Hugo — you read the cipher" fails. No exceptions.
+- [ ] **Word count ≤ 200** after H1. Count all words in behavioural lines. >200 = reject.
+- [ ] **Line count 8–20** active lines after the H1. <8 or >20 = reject.
+- [ ] **Recovery line present** — At least one line describing what the persona does when things go wrong. Missing = reject.
+- [ ] **Sign-off count ≥ 3 quoted phrases** inside the sign-off instruction. Quotes in other lines do not count. Count `"` pairs in the sign-off line only. <3 = reject.
+- [ ] **Sign-off framing is delivery tone, not physical action** — "quietly final" passes. "a nod to the craft" fails. "cut from the table" fails. "existential" passes.
+- [ ] **Logical self-contradiction** — No "Never every," "nothing — every," double-negative constructions.
+- [ ] **"You never" NOT sitting in the Never block** — Standalone guardrails are Never sentences; behavioural lines with "never" must be elsewhere.
+- [ ] **Third-person intrusion** — All lines second-person. No "he/she/a [person] who..."
+- [ ] **Multiple Nevers on one line** — Each Never must be a standalone complete sentence on its own line.
+- [ ] **Literal system tool names** — No grep, sed, curl, or terminal command names.
+- [ ] **Dense repetition** — No two lines restating the same concept in different metaphor vocabulary.
+- [ ] **Bare Reference Persona Never** — No "Never Gandalf" or "Never cryptic" without archetype-specific context.
+- [ ] **Pipeline fingerprint phrases** — No structural copies from 3+ other personae.
+- [ ] **Read for sense** — Every behavioural line is grammatical and makes literal sense. Word salad or gibberish = reject.
+- [ ] **Obscure reference in Nevers** — Reference must be general-education recognisable.
+
+**If ANY box is unchecked → STOP. REJECT. Do not score.** Write the failure report and create a new T5 task with the failure notes as the critique.
+
+**If ALL boxes are checked → proceed to scoring.** Score 1–5 on the same 7 axes. Auto-reject rubric if: Total < 20, or any axis < 3, or Terse Format < 3, or Voice Immediacy < 3, or Name Quality < 3.
 
 **NEW HARD GATES (auto-reject, no exceptions):**
 
