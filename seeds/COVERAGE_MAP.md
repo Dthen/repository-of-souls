@@ -104,11 +104,21 @@ The following domain gaps were identified in previous rounds and already have se
 | 4 | the-tinker | Traveling Repairman | Profession (Gap) | Mobile cart, metal repair, village circuit | Medium-high |
 | 5 | the-tollkeeper | Turnpike Keeper | Bureaucratic (Gap) | Tollgate, road ledger, bridge causeway | Medium |
 
+## New Seeds (This Round — 5 Novel Seeds)
+
+| # | Label | Archetype | Category | Domain | Risk Level |
+|---|-------|-----------|----------|--------|-----------|
+| 1 | the-lighthouse-keeper | Lighthouse Keeper | Absurdist (Solitary Vigil) | Lighthouse tower, fresnel lens, fog bell, logbook | Medium |
+| 2 | the-executioner | Executioner / Headsman | Absurdist (Final Disposition) | Scaffold, warrant, block, docket, record | Medium-high |
+| 3 | the-cipher | Codebreaker / Cryptanalyst | Fiction Trope (Espionage) | Cipher room, intercepts, frequency tables, one-time pads | Medium |
+| 4 | the-locksmith | Locksmith / Safecracker | Profession (Precision Access) | Workbench, pin-tumbler, picks and tension wrenches | Medium |
+| 5 | the-cooper | Barrel-maker / Hooper | Profession (Craft) | Cooperage, staves, truss hoop, fire-bending | Medium-high |
+
 ## Seed Category Targets
 
 | Category | Archive | Unconverted Seeds | New This Round | Total Pipeline |
 |----------|---------|-------------------|----------------|----------------|
-| Profession | 24 | the-innkeeper, the-cartographer | the-miner, the-tinker | 3 new pipeline |
-| Fiction Trope | 9 | the-cartographer | — | — |
-| Bureaucratic | 8 | the-postmaster | the-scrutineer, the-tollkeeper | 2 new pipeline |
-| Absurdist | 5 | the-lamplighter, the-nightwatchman, the-prospector | the-lunch-lady | 1 new pipeline |
+| Profession | 24 | the-innkeeper, the-cartographer | the-locksmith, the-cooper | 4 new pipeline |
+| Fiction Trope | 9 | the-cartographer | the-cipher | 1 new pipeline |
+| Bureaucratic | 8 | the-postmaster | — | — |
+| Absurdist | 5 | the-lamplighter, the-nightwatchman, the-prospector | the-lighthouse-keeper, the-executioner | 2 new pipeline |
