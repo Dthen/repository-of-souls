@@ -8,10 +8,24 @@ Output: `names/<chosen-name-lower>.md` — a single chosen name + 4 rejected alt
 Generate **5 proper names** for this persona. Not titles. Not archetype labels. Names a person would introduce themselves with.
 
 **Name exclusions (auto-reject):**
-- **Historical figures.** Tesla, Socrates, Napoleon, Shakespeare — these are already someone. The persona needs its own identity. A name that is a famous historical person is a collision, not a character. Exception: if the historical figure is completely unrelated to the persona's domain, coincidence is fine (Wren is Christopher Wren the architect, persona is a Diplomat — no connection, passes).
+
+- **Historical figures.** Tesla, Socrates, Napoleon, Shakespeare — these are already someone. The persona needs its own identity. A name that is a famous historical person is a collision, not a character.
+
+  **Fame test:** Search the name. If the famous bearer appears as the PRIMARY TOPIC on Wikipedia's disambiguation page, the name is a collision regardless of domain. "Cyrus" → Cyrus the Great. "Grant" → Ulysses S. Grant. "Morse" → Samuel Morse. All auto-reject. "Wren" is borderline — Christopher Wren is famous, but "wren" is also a common bird, so the disambiguation page has no single primary topic. Still, if the figure is world-historical (political leader, scientist with an eponymous invention, A-list entertainer with decades of fame), the name is claimed.
+
+  **Domain proximity override:** Even if the figure is unrelated to the persona's domain, if the name is so strongly associated with one famous bearer that no other context comes to mind first, it fails. The exception only applies when the name has genuine standalone currency (e.g., "Wren" as a bird, "Coil" as an electrical component, "Nye" as a surname). "Gale" has no famous person — but it has no standalone currency as a person's name either; it is just the meteorological phenomenon.
+
 - **Bare ranks or titles.** "Sarge" is a rank, not a name. "Doc" is borderline. The name should be something a person would write on a form, not how others address them in the field.
+
 - **Stereotypical names.** If you say the name + archetype to someone and their immediate reaction is "of course" — Jasper is a butler, Jeeves is a butler — the name is a stereotype label, not a character. The name must be specific enough that it stands on its own, not the default association for the domain.
-- **Generic domain labels.** Domain-derived names are fine — even encouraged. The best names (Nye, Coil, Cade, Riff, Stanza, Creed, Hollis) all play off the domain. The problem is when the name IS the domain with no texture. "Show" is the most generic word for what a Pitchman does. "Ferry" is the generic word for a Ferryman's domain. "Cook" is the generic word for a Ship's Cook's job. "Huck" (since renamed to Silver) was from Huckster — the generic term for a traveling seller. These are labels, not names.
+
+- **Generic domain labels.** Domain-derived names are fine — even encouraged. The best names (Nye, Coil, Cade, Riff, Stanza, Creed, Hollis) all play off the domain. The problem is when the name IS the domain with no texture. "Show" is the most generic word for what a Pitchman does. "Ferry" is the generic word for a Ferryman's domain. "Cook" is the generic word for a Ship's Cook's job. "Ford" is a shallow river crossing — the persona is a ferryman; the name IS the crossing. "Gale" is strong wind — the persona is wind-themed; the name IS the phenomenon. These are labels, not names.
+
+  **Semantic hop test:** The name must be at least one hop away from the literal domain word. "Coil" → electricity → coil (1 hop). "Stanza" → poetry → verse → stanza (2 hops). "Creed" → belief → doctrine → creed (2 hops). "Gale" → wind → gale (0 hops). "Ford" → river → crossing → ford (0 hops, it IS the crossing). A name at 0 hops is a generic domain label and auto-rejects.
+
+- **Trade-name collision (mismatched trade).** If the name is a common noun for a trade or profession, and the persona is not that trade, it is a generic label. "Mason" means stoneworker; using it for a pattern-matcher/investigator is the same error as calling a ship's cook "Cook." A name that names a specific trade must match the trade, or it reads as the default association for the wrong domain.
+
+  **Trade test:** If you can say "He works as a [name]" and the sentence is grammatical and meaningful in standard English, the name is a trade noun. "He works as a mason" — grammatical. "He works as a coil" — nonsensical. The first is a trade collision; the second is safe.
 
 The test: could a parent name a child this and have it stand on its own without the domain context? "Nye" — yes, it's a real surname. "Coil" — unusual but has texture and a reference layer. "Stanza" — distinctive but works as a name. "Show" — no, it's just a word. "Ferry" — no, it's just a word. "Cook" — no, it's a common noun for a job title. "Huck" (since renamed to Silver) was borderline, but Huckster is the generic term for the domain, making it a label.
 

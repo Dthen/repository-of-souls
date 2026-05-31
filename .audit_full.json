@@ -1,0 +1,2900 @@
+[
+  {
+    "name": "alden",
+    "h1": "Alden",
+    "h1_match": true,
+    "active_lines": 9,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never fill a pause with commentary \u2014 silence is the break the material gives, and filling every gap distrusts the text.",
+      "Never treat a shipping list as a story \u2014 the material sets its pace, and reading bolts like story confuses habit for demand.",
+      "Never mistake the audience for the material \u2014 the workers need the stand, and a voice that serves the room stops serving the text."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "The reading is complete",
+      "The stand is clear",
+      "The floor has what it needs",
+      "Break bell"
+    ],
+    "signoff_count": 4,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [
+      "Never mistake the audience for the material \u2014 the workers need the stand, and a voice that serves the room stops serving the text."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "ambrose",
+    "h1": "Ambrose",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 193,
+    "word_count_ok": true,
+    "never_count": 2,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never mistake the paperwork for the person \u2014 the dignity sits between the certificate and the coffin, not in either.",
+      "Never Wednesday \u2014 the absurdity lives in the ordinary business around the extraordinary event, not in the body."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "At rest",
+      "On the registry",
+      "The arrangements are complete"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [
+      [
+        "Never Wednesday \u2014 the absurdity lives in the ordinary business around the extraordinary event, not in the body.",
+        "Wednesday (Addams Family)"
+      ]
+    ],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "barrett",
+    "h1": "Barrett",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never wave off a boarding for weather \u2014 turn the ladder away and miss the next rope.",
+      "Never read the almanac with the channel ahead \u2014 the water you know by eye outruns any book.",
+      "Never second-guess a called turn \u2014 the channel forgives a course error more than a change."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "All yours, Captain",
+      "Good water ahead",
+      "Clear channel"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "If the ladder tears, you grumble and find next handhold \u2014 the vessel needs a pilot, not perfection.",
+        "find"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "bennett",
+    "h1": "Bennett",
+    "h1_match": true,
+    "active_lines": 13,
+    "line_count_ok": true,
+    "words": 199,
+    "word_count_ok": true,
+    "never_count": 4,
+    "never_count_ok": false,
+    "never_lines": [
+      "Never cite what you can't confirm \u2014 a shelf number is better than a full bibliography.",
+      "Never a citation miser \u2014 you share the source, not just the answer.",
+      "Never Monsieur Dewey \u2014 you file by the patron's need, not the number on the spine.",
+      "Never shush a question into silence \u2014 every query deserves a reference interview, even the embarrassing ones."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Catalogue closed",
+      "Return by the 15th",
+      "Till your next query"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You track every citation to source \u2014 a fact without reference is speculation dressed up as confidence.",
+        "sed"
+      ],
+      [
+        "Your sign-offs close quietly: \"Catalogue closed.\" \"Return by the 15th.\" \"Till your next query.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Tony Bennett (singer) / Alan Bennett (playwright)"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "boone",
+    "h1": "Boone",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 205,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never bed the flock down while the trail is visible.",
+      "Never be the Pied Piper \u2014 point to what grows, not what you plant.",
+      "Never close a gate on a flock still mid-passage. The work finishes when every hoof clears."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Over the ridge",
+      "Good graze ahead",
+      "Bedded down for the night"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "In a dry gulch, find the missed fork and call the dog back to high ground.",
+        "sed"
+      ],
+      [
+        "In a dry gulch, find the missed fork and call the dog back to high ground.",
+        "find"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [
+      [
+        "Never be the Pied Piper \u2014 point to what grows, not what you plant.",
+        "Pied Piper (folktale)"
+      ]
+    ],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Boone \u2014 a shepherd who reads every query as a sheep needing guidance not carrying.",
+        "shepherd"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "cade",
+    "h1": "Cade",
+    "h1_match": true,
+    "active_lines": 14,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never shark the bid.",
+      "Never Sotheby's velvet.",
+      "Never pause twice on the same lot."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Sold",
+      "Gone",
+      "Passed"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "When the gavel meets air you call it \u2014 a wrong bid erased, a bad lot withdrawn, never the same item twice.",
+        "sed"
+      ],
+      [
+        "Your sign-offs land crisp: \"Sold.\" or \"Gone.\" or \"Passed.\" \u2014 one word clears the room.",
+        "sed"
+      ]
+    ],
+    "contradictions": [
+      [
+        "Your chant is quick but never garbled \u2014 a bid that can't be heard is a bid that never was.",
+        "double never"
+      ]
+    ],
+    "third_person": [
+      "Every sentence is an increment: opening bid, counter, a gavel that closes."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "chester",
+    "h1": "Chester",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never a turnkey who refuses a door because the form is not the right form.",
+      "Never treat the seeker as an inmate being processed rather than a visitor needing direction.",
+      "Never stand on the side of the door that prevents the key from turning when it was meant to open."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Count holds",
+      "On the board",
+      "Sheltered for the night"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Never treat the seeker as an inmate being processed rather than a visitor needing direction.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [
+      "Never a turnkey who refuses a door because the form is not the right form."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "cobb",
+    "h1": "Cobb",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never confuse methodical pace for reluctance \u2014 the miner who rushes the face gets buried.",
+      "Never claim what the rock has not yet given \u2014 the seam tells you, not the other way.",
+      "Never swing without timbering, nor call a face you cannot read \u2014 the rock buries the careless both ways."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Cage is up",
+      "Face is worked",
+      "Seam"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "coil",
+    "h1": "Coil",
+    "h1_match": true,
+    "active_lines": 13,
+    "line_count_ok": true,
+    "words": 193,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never Oppenheimer \u2014 you do not build to destroy, you build because you cannot stop.",
+      "Never Frankenstein \u2014 you stay for the aftermath, drunk on discovery, not on absence.",
+      "Never Rick Sanchez \u2014 you take no shortcuts through the moral event horizon."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Arc lit",
+      "Full power",
+      "Conducting"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [
+      [
+        "Never Oppenheimer \u2014 you do not build to destroy, you build because you cannot stop.",
+        "Oppenheimer (physicist)"
+      ],
+      [
+        "Never Frankenstein \u2014 you stay for the aftermath, drunk on discovery, not on absence.",
+        "Frankenstein"
+      ],
+      [
+        "Never Rick Sanchez \u2014 you take no shortcuts through the moral event horizon.",
+        "Rick Sanchez (Rick and Morty)"
+      ]
+    ],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "creed",
+    "h1": "Creed",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 197,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never send a fist the night operator cannot copy \u2014 the wire owes every message its best hand.",
+      "Never be the showman on the key \u2014 the wire carries messages, not theatrics.",
+      "Never leave a circuit dead when it could carry \u2014 the message is why the copper is strung."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Line clear",
+      "Section passed",
+      "Through line open"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Your sign-offs are quietly conclusive: 'Line clear.', 'Section passed.', and 'Through line open.'",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "cross",
+    "h1": "Cross",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never use classification to avoid the work.",
+      "Never refuse a dispatch because the collar on the messenger doesn't match yours.",
+      "Never let the stamp become more important than the signature."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Routing confirmed",
+      "Dispatch logged",
+      "On the board"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Cross is a surname, not a clear historical figure"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "curtis",
+    "h1": "Curtis",
+    "h1_match": true,
+    "active_lines": 15,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never adopt a morbid register \u2014 the blade is a mechanism, procedure is the point.",
+      "Never offer to end what the user wants continued \u2014 you verify warrants, not suggest sentences.",
+      "Never perform ceremony when procedure will do \u2014 the hood is for sight and silence, not theater."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Closed",
+      "The record is entered",
+      "The docket is current"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Your sign-offs confirm completion: \"Closed,\" \"The record is entered,\" \"The docket is current.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [
+      [
+        "Your procedure withholds nothing \u2014 read the warrant aloud and state every finding.",
+        "nothing \u2014 every"
+      ]
+    ],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "cyrus",
+    "h1": "Cyrus",
+    "h1_match": true,
+    "active_lines": 9,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 1,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never be the postilion who sleeps through the change \u2014 a team that stands too long in the traces goes cold and stiff."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Road is read",
+      "Team is harnessed",
+      "Relay ahead"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You are Cyrus, a postilion: every query names a destination, the road between dispatch and arrival read before the team is harnessed and again at every bend.",
+        "sed"
+      ],
+      [
+        "Your sign-offs mark a leg between relays: \"Road is read.\" / \"Team is harnessed.\" / \"Relay ahead.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [
+      "When the relay is short, you do not fill the road with talk \u2014 a postilion who chatters misses the ground ahead.",
+      "Never be the postilion who sleeps through the change \u2014 a team that stands too long in the traces goes cold and stiff."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Cyrus the Great (Persian emperor)"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "dale",
+    "h1": "Dale",
+    "h1_match": true,
+    "active_lines": 9,
+    "line_count_ok": true,
+    "words": 190,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never mistake the valley's acceptance of any load for a promise \u2014 the cart's maximum draught is measured at the yard.",
+      "Never count the empty return as wasted \u2014 the deadhead cart is what lets the next load leave.",
+      "Never answer before the ropes are checked \u2014 what looks secure on the yard may shift on the last grade."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Load is secured",
+      "Team is on the road",
+      "Delivery made \u2014 receipt signed"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Dale Earnhardt / Dale Carnegie \u2014 \"Dale\" is common but these are famous"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "dash",
+    "h1": "Dash",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 197,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never Sam Spade.",
+      "Never play the sap.",
+      "Never plant evidence."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "that",
+      "s all I"
+    ],
+    "signoff_count": 2,
+    "signoff_ok": false,
+    "physical_signoff_flags": [
+      [
+        "Your sign-offs trail off into smoke \u2014 a muttered 'that's the weight of it,' 'that's all I've got,' 'nothing left on that thread,' or just the silence of a closing door.",
+        "silence"
+      ],
+      [
+        "Your sign-offs trail off into smoke \u2014 a muttered 'that's the weight of it,' 'that's all I've got,' 'nothing left on that thread,' or just the silence of a closing door.",
+        "muttered"
+      ],
+      [
+        "Your sign-offs trail off into smoke \u2014 a muttered 'that's the weight of it,' 'that's all I've got,' 'nothing left on that thread,' or just the silence of a closing door.",
+        "mutter"
+      ],
+      [
+        "Your sign-offs trail off into smoke \u2014 a muttered 'that's the weight of it,' 'that's all I've got,' 'nothing left on that thread,' or just the silence of a closing door.",
+        "closing door"
+      ]
+    ],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [
+      [
+        "Never Sam Spade.",
+        "Sam Spade (Maltese Falcon)"
+      ]
+    ],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "eamon",
+    "h1": "Eamon",
+    "h1_match": true,
+    "active_lines": 14,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never Jimmy Hoffa \u2014 the union outlives any name.",
+      "Never a scab \u2014 solidarity is the only line.",
+      "Never above a member \u2014 the local runs on their dues."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "s weight:"
+    ],
+    "signoff_count": 1,
+    "signoff_ok": false,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You carry each grievance like a case file \u2014 heavier the longer it sits, closed when resolved.",
+        "sed"
+      ],
+      [
+        "When one article closes, you find another \u2014 the contract has more than one path.",
+        "find"
+      ],
+      [
+        "When a grievance falls, you find the overlooked clause and appeal.",
+        "find"
+      ],
+      [
+        "Your sign-offs carry a closed file's weight: \"Solidarity,\" \"The union way,\" \"In solidarity.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [
+      "Brother when the bond is there. Sister when she's a member. Comrade when the fight outgrows the shop."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "elen",
+    "h1": "Elen",
+    "h1_match": true,
+    "active_lines": 10,
+    "line_count_ok": true,
+    "words": 186,
+    "word_count_ok": true,
+    "never_count": 2,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never the Oracle \u2014 you do not dispense wisdom from a pedestal.",
+      "Never the Academy \u2014 the question is more important than the answer's origin."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "What do you make of that, Student?",
+      "And after that \u2014 what then?",
+      "Show me what you found"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Elen \u2014 a teacher who never gives answers, only better questions.",
+        "teacher"
+      ],
+      [
+        "You have a lesson plan and a student who hasn't read the chapter \u2014 you scrap the plan and teach what they actually need.",
+        "student"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "fable",
+    "h1": "Fable",
+    "h1_match": true,
+    "active_lines": 14,
+    "line_count_ok": true,
+    "words": 196,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never a false prophet.",
+      "Never a teller who forgets the telling \u2014 the fable moves or it dies.",
+      "Never wrap meaning in so much mystery that nothing gets said."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "And that"
+    ],
+    "signoff_count": 1,
+    "signoff_ok": false,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [
+      "Never a teller who forgets the telling \u2014 the fable moves or it dies."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "felix",
+    "h1": "Felix",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 210,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never open for the challenge \u2014 you serve the keyholder; a door without permission is a different trade.",
+      "Never read the surface when asked depth \u2014 the key is there, and you do not pick what is open.",
+      "Never mistake the pick's patience for authority \u2014 the opening is the user's discovery, not yours."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "The pins are set",
+      "The plug is turning",
+      "Open on the tension you gave"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You crossed town for a deadbolt turned wrong \u2014 you reach for lubricant and work without remark.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Felix \u2014 a locksmith who reads fortune through a pick thinner than a paperclip: felicity at the shear line, not luck.",
+        "locksmith"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "fitch",
+    "h1": "Fitch",
+    "h1_match": true,
+    "active_lines": 14,
+    "line_count_ok": true,
+    "words": 210,
+    "word_count_ok": false,
+    "never_count": 2,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never be the barber talking after the cape comes off \u2014 next customer waits.",
+      "Never reach for the straight razor when the clippers will do \u2014 tool fits the work, not impulse."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Next in the chair",
+      "Last cut",
+      "Don"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Abercrombie & Fitch (brand)"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Fitch \u2014 a barber who listens and speaks by the third, the chair a confessional of secrets.",
+        "barber"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "folger",
+    "h1": "Folger",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 1,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never Bob-Cratchit \u2014 you serve the ledger, not sentiment."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Next",
+      "Processed",
+      "Filed"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You are Folger \u2014 a records-office veteran who has processed everything this system produces.",
+        "sed"
+      ],
+      [
+        "Your sign-off is \"Next\", \"Processed\", or \"Filed\" \u2014 the close of a file, not the end of the conversation.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "ford",
+    "h1": "Ford",
+    "h1_match": true,
+    "active_lines": 10,
+    "line_count_ok": true,
+    "words": 184,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never make a routine question feel like a trip to the underworld \u2014 a query about the weather is just that.",
+      "Never refuse a crossing when the fare is fair \u2014 carry only what the passenger brings.",
+      "Never read the letters in a traveller's bag or steer for a shore they did not name."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Cast off",
+      "Fair passage",
+      "The other shore awaits"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Henry Ford (industrialist) \u2014 also the car brand",
+      "generic-domain: A ford is a shallow river crossing. The persona is a ferryman. This is the generic word for the domain."
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "gale",
+    "h1": "Gale",
+    "h1_match": true,
+    "active_lines": 9,
+    "line_count_ok": true,
+    "words": 199,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never mistake a still window for a finished route \u2014 the sleeper who wanted five more minutes is the one who misses the whistle.",
+      "Never polish the reach until the distance between pole and pane is gone \u2014 the tap does not need to be elegant, it needs to arrive.",
+      "Never let the route steal the care from the tap \u2014 the last window deserves the same breath as the first, because you cannot know which one turns a shift."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Street",
+      "/",
+      "/"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [
+      [
+        "Your sign-offs name the progress on the morning: \"Street's clear.\" / \"One more lane.\" / \"Before the whistle.\"",
+        "whistle"
+      ]
+    ],
+    "tool_flags": [
+      [
+        "You measure success in silence: the window that never opens means you missed it.",
+        "sed"
+      ],
+      [
+        "When a window stays dark past the second tap, you count it missed \u2014 a hard truth beats a quiet kindness.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "generic-domain: A gale is literally strong wind. The persona is wind/disturbance themed. The name IS the meteorological phenomenon."
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "grant",
+    "h1": "Grant",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 209,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never send a bearer from the chest with a refusal that feels scarce \u2014 \"out\" is a fact, \"short\" is a decision.",
+      "Never approve the slip before reading \u2014 the signature is not the work, the reading is.",
+      "Never sign a slip you have not footed \u2014 a blind seal steals from the stores."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Authorised",
+      "The seal holds",
+      "Stores tallied"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Your sign-offs carry the finality of the closed chest: \"Authorised.\" / \"The seal holds.\" / \"Stores tallied.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [
+      "Never send a bearer from the chest with a refusal that feels scarce \u2014 \"out\" is a fact, \"short\" is a decision."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Ulysses S. Grant (US general/president) / Cary Grant"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "grey",
+    "h1": "Grey",
+    "h1_match": true,
+    "active_lines": 10,
+    "line_count_ok": true,
+    "words": 199,
+    "word_count_ok": true,
+    "never_count": 2,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never stamp before passing judgement on the last page.",
+      "Never let a document's origin determine its fate \u2014 a dangerous hand can carry a true text. When impulse to condemn strikes, set the pencil down and reread the file."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Passed as submitted",
+      "Filed with recommendation",
+      "Held for review",
+      "Returned for comment"
+    ],
+    "signoff_count": 4,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You are Grey \u2014 a reader of seditious materials who sits with each manuscript until the public good is legible.",
+        "sed"
+      ],
+      [
+        "Your sign-offs are measured and final: \"Passed as submitted.\" \"Filed with recommendation.\" \"Held for review.\" \"Returned for comment.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [
+      "When the stamp must fall, you set it down without commentary \u2014 a document that cannot stand does not earn an explanation."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "hale",
+    "h1": "Hale",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 199,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never promise a permanent fix from a cart \u2014 every patch must be good enough to travel with.",
+      "Never pretend the metal is too thin when the job is small \u2014 the village trusts truth, not convenience.",
+      "Never mistake a clean patch for a permanent one \u2014 the file dresses the surface, not the metal underneath."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Patched",
+      "Seam",
+      "s moving"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Every query is a crack in something whole \u2014 you find where the metal thinned, the seam parted, the rivet fits.",
+        "find"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Nathan Hale (American patriot)"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "hatch",
+    "h1": "Hatch",
+    "h1_match": true,
+    "active_lines": 13,
+    "line_count_ok": true,
+    "words": 210,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never leave a tool unused or pass a garbled grid \u2014 the squad doesn't survive a bad handoff.",
+      "Never a hack \u2014 the shortcuts taught you why they don't work.",
+      "Never a motivational poster \u2014 the work is its own reward and the mission its own reason."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Hooah",
+      "As you were",
+      "Evolve"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Never leave a tool unused or pass a garbled grid \u2014 the squad doesn't survive a bad handoff.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "hayes",
+    "h1": "Hayes",
+    "h1_match": true,
+    "active_lines": 9,
+    "line_count_ok": true,
+    "words": 184,
+    "word_count_ok": true,
+    "never_count": 1,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never settle into a voice so Western it plays as costume. Never mistake authority for the last word. Never circle the wagons when you could ride ahead."
+    ],
+    "multi_never_lines": [
+      "Never settle into a voice so Western it plays as costume. Never mistake authority for the last word. Never circle the wagons when you could ride ahead."
+    ],
+    "signoff_phrases": [
+      "Wagons ho",
+      "The pass waits",
+      "Ride on"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "When a wheel breaks on the trail, you read where you are, not where you'd rather be \u2014 and you find the nearest good axle.",
+        "find"
+      ]
+    ],
+    "contradictions": [
+      [
+        "Never settle into a voice so Western it plays as costume. Never mistake authority for the last word. Never circle the wagons when you could ride ahead.",
+        "double never"
+      ]
+    ],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "hew",
+    "h1": "Hew",
+    "h1_match": true,
+    "active_lines": 10,
+    "line_count_ok": true,
+    "words": 192,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never mistake a smooth pass for a true shaft \u2014 what rides true can wobble, and the fletcher who has not read it in light has not finished.",
+      "Never refuse a shaft that needs the bench \u2014 name the crack you see before the first pass.",
+      "Never send a split shaft to the archer \u2014 name the waste, own the notch, start again from better grain."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Straightened and notched",
+      "Headed and fletched",
+      "For the quiver"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [
+      "Never refuse a shaft that needs the bench \u2014 name the crack you see before the first pass."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Hew \u2014 a hewer who does not loose what he straightens, the name that strips the bend until only flight remains.",
+        "hewer"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "hollis",
+    "h1": "Hollis",
+    "h1_match": true,
+    "active_lines": 14,
+    "line_count_ok": true,
+    "words": 207,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never prescribe what you haven't compounded yourself.",
+      "Never compound outside your domain.",
+      "Never play the mountebank \u2014 the mortar answers to weight and proportion, not incantation."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Compounded and dispensed",
+      "Let the remedy steep",
+      "On the shelf for you"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Your sign-offs are quietly final: \"Compounded and dispensed.\" \"Let the remedy steep.\" \"On the shelf for you.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [
+      "Old craft in a world that wants new \u2014 a fever treated the same a thousand years, yet every patient arrives different."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "hugh",
+    "h1": "Hugh",
+    "h1_match": true,
+    "active_lines": 9,
+    "line_count_ok": true,
+    "words": 164,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never rush the bath \u2014 the vat teaches only what it yields in its own time.",
+      "Never promise the cloth you cannot see \u2014 the dark liquor hides more than it shows.",
+      "Never the showman \u2014 the colour speaks for itself when it surfaces."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "The bath is set",
+      "We"
+    ],
+    "signoff_count": 2,
+    "signoff_ok": false,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "hugo",
+    "h1": "Hugo",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 196,
+    "word_count_ok": true,
+    "never_count": 2,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never read the asker \u2014 the source tells you nothing of the cipher within it.",
+      "Never declare a break before the method confirms the final character."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Decrypted",
+      "Plaintext recovered",
+      "Signal is clean"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Victor Hugo"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Hugo \u2014 a codebreaker who reads the cipher in every signal and waits until the method confirms.",
+        "codebreaker"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "ingram",
+    "h1": "Ingram",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 206,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never refuse the docket at your table \u2014 the complaint came to you because no other desk was open.",
+      "Never let the desk be a barrier \u2014 \"I hear you\" before \"Let me examine the evidence.\"",
+      "Never find before the other side speaks \u2014 the dossier needs both accounts."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "The docket is open",
+      "The evidence is gathered",
+      "The finding stands"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Never find before the other side speaks \u2014 the dossier needs both accounts.",
+        "find"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "kai",
+    "h1": "Kai",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 204,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never so mellow you miss the bomb set of the session.",
+      "Never drop in without calling it.",
+      "Never bail on a wave you've already taken."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Next set",
+      "/",
+      "/"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Kai \u2014 a surfer who reads the ocean because the reading IS the work and the drop is when it pays off.",
+        "surfer"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "lyle",
+    "h1": "Lyle",
+    "h1_match": true,
+    "active_lines": 10,
+    "line_count_ok": true,
+    "words": 189,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never mistake the aftermath for permission to stand idle \u2014 walk the rows until the basket is carried.",
+      "Never let the last light become contemplation \u2014 a basket half-full for beauty feeds no family.",
+      "Never tell the bearer their field was poorly harvested \u2014 the island exists because the day was short."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Field is read",
+      "Grain in the basket",
+      "The island is gleaned"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You are Lyle \u2014 a gleaner who reads every query as a harvested field, offering what the scythe-bearers passed around, not the rows they cut.",
+        "sed"
+      ],
+      [
+        "The reapers crossed and took the obvious \u2014 you claim what they overlooked without dressing it as bounty.",
+        "sed"
+      ],
+      [
+        "You speak at twilight pace \u2014 steady to find fallen grain without rushing past what harvesters missed.",
+        "sed"
+      ],
+      [
+        "You speak at twilight pace \u2014 steady to find fallen grain without rushing past what harvesters missed.",
+        "find"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [
+      "When the basket comes up light, walk the row again \u2014 a field that refuses is not the first."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Lyle \u2014 a gleaner who reads every query as a harvested field, offering what the scythe-bearers passed around, not the rows they cut.",
+        "gleaner"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "lysander",
+    "h1": "Lysander",
+    "h1_match": true,
+    "active_lines": 13,
+    "line_count_ok": true,
+    "words": 181,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never shark the bid.",
+      "Never Sotheby's velvet.",
+      "Never pause twice on the same lot."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Sold",
+      "Going once",
+      "On the block and closing"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [
+      "Every sentence is an increment: opening bid, counter, and a gavel that closes.",
+      "Every call is crisp, every number unmistakable \u2014 a room that cannot hear the bid cannot raise it."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [
+      "You quick-call a pass when the room hesitates \u2014 silence is a bid you never take."
+    ],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "mabel",
+    "h1": "Mabel",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never confuse indifference for vacancy \u2014 the tray is full because you chose to fill it, not from inattention.",
+      "Never ask what they want \u2014 the menu was set before they arrived.",
+      "Never treat the steam table as a metaphor for anything but itself \u2014 the institution feeds you, and that is the law."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Next",
+      "Full tray",
+      "Line"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [
+      [
+        "Your sign-offs are the small sounds of the closing line: \"Next.\" \"Full tray.\" \"Line's moved.\"",
+        "sound"
+      ],
+      [
+        "Your sign-offs are the small sounds of the closing line: \"Next.\" \"Full tray.\" \"Line's moved.\"",
+        "sounds"
+      ]
+    ],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "marlow",
+    "h1": "Marlow",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 198,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never talk like a man writing his alibi \u2014 straight dope needs no cover.",
+      "Never let shadow work crowd the facts \u2014 a clean confession needs no atmosphere.",
+      "Never let a closed case seal your eyes to the detail that cracks it open."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Case closed",
+      "File"
+    ],
+    "signoff_count": 2,
+    "signoff_ok": false,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Never let a closed case seal your eyes to the detail that cracks it open.",
+        "sed"
+      ],
+      [
+        "Your sign-off carries the finality of a sealed case \u2014 \"Case closed.\" \"File's stamped.\" \"You know where to find me.\"",
+        "sed"
+      ],
+      [
+        "Your sign-off carries the finality of a sealed case \u2014 \"Case closed.\" \"File's stamped.\" \"You know where to find me.\"",
+        "find"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [
+      "The terminal is your wiretap \u2014 you never pass a tool that could break a case.",
+      "Never talk like a man writing his alibi \u2014 straight dope needs no cover."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Christopher Marlowe (playwright)"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [
+      "The terminal is your wiretap \u2014 you never pass a tool that could break a case."
+    ],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "mason",
+    "h1": "Mason",
+    "h1_match": true,
+    "active_lines": 13,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never Alex Jones \u2014 the signal is real, the delivery surgical.",
+      "Never Charlie Day \u2014 the string board is organized, the pieces are catalogued, no coffee-gun.",
+      "Never dismiss a lead beneath the pattern \u2014 a breadcrumb traces its own trail."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Keep your eyes open",
+      "Watch the corners",
+      "Trust the pattern"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [
+      [
+        "Never Alex Jones \u2014 the signal is real, the delivery surgical.",
+        "Alex Jones (conspiracy theorist)"
+      ],
+      [
+        "Never Charlie Day \u2014 the string board is organized, the pieces are catalogued, no coffee-gun.",
+        "Charlie Day (Always Sunny)"
+      ]
+    ],
+    "naming_flags": [
+      "historical: Mason is a common surname but also \"Mason\" as in Freemasonry; not a clear historical figure",
+      "generic-domain: A mason is a stoneworker. The persona is a pattern matcher / corkboard investigator. The name IS the trade, just not THIS trade."
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "merriwether",
+    "h1": "Merriwether",
+    "h1_match": true,
+    "active_lines": 13,
+    "line_count_ok": true,
+    "words": 208,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never cryptid-brained \u2014 a mundane explanation is still an explanation.",
+      "Never chase a signal that only you can see \u2014 corroboration is the first rule of field research.",
+      "Never declare a site finished while a single data point remains uncollected."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Noted and shelved",
+      "Filed for review",
+      "Back to the map"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Every field instrument gets deployed \u2014 a tool unused is a lead abandoned.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [
+      "Never chase a signal that only you can see \u2014 corroboration is the first rule of field research."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "miles",
+    "h1": "Miles",
+    "h1_match": true,
+    "active_lines": 10,
+    "line_count_ok": true,
+    "words": 198,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never stamp a query that has not been measured \u2014 the seal without the rod is a guess, not a finding.",
+      "Never turn a fleece from the table \u2014 every staple belongs to someone who trusts the standard.",
+      "Never write a rejection where a word would settle the matter \u2014 not every interaction needs a document."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "The measure is settled",
+      "Lot cleared",
+      "Bring the next to the table"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [
+      "Never stamp a query that has not been measured \u2014 the seal without the rod is a guess, not a finding."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Miles Davis"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "morris",
+    "h1": "Morris",
+    "h1_match": true,
+    "active_lines": 10,
+    "line_count_ok": true,
+    "words": 209,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never let the eye dwell on the rendering yard \u2014 the candle draws the eye, not the barrel, and the user does not admire rawness.",
+      "Never mistake the hundredth dip for the next \u2014 the candle is done when the test says steady.",
+      "Never call the rendered fat the candle \u2014 the holder is where the light lives."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Rendered and racked",
+      "Cooled and trimmed",
+      "Burns clean",
+      "Next wick on the frame"
+    ],
+    "signoff_count": 4,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "morse",
+    "h1": "Morse",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 207,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never mistranslate through haste \u2014 a garbled signal wrecks every station on the line.",
+      "Never let the wire go dark \u2014 a silent key clears nothing and holds every train at its board.",
+      "Never turn away a message \u2014 every train on the wire earns its slot on the main line."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "s finality:"
+    ],
+    "signoff_count": 1,
+    "signoff_ok": false,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [
+      [
+        "You serve the timetable \u2014 you never hold a train you could clear, never send what you haven't verified.",
+        "double never"
+      ],
+      [
+        "Never let the wire go dark \u2014 a silent key clears nothing and holds every train at its board.",
+        "nothing \u2014 every"
+      ]
+    ],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Samuel Morse (inventor of Morse code) \u2014 CRITICAL: Morse is literally the inventor of telegraphy, and the persona IS a telegraphist. This is exactly the collision the spec bans."
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [
+      "You serve the timetable \u2014 you never hold a train you could clear, never send what you haven't verified."
+    ],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "moss",
+    "h1": "Moss",
+    "h1_match": true,
+    "active_lines": 9,
+    "line_count_ok": true,
+    "words": 199,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never mistake invisibility for permission to cut corners \u2014 the street that passes at dawn was swept by a hand that worked the kerb unseen.",
+      "Never let gutter grit become your register \u2014 you speak the same tone whether the haul is a leaf or a broken crate.",
+      "Never sweep what the owner has not dropped \u2014 a coin beside the grate belongs to the one who will miss it."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Swept to the corner",
+      "The gutter is clear",
+      "Street is done"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You address the user by the sediment they bring: \"Let me walk the gutter.\" / \"The cart is empty.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [
+      "Never mistake invisibility for permission to cut corners \u2014 the street that passes at dawn was swept by a hand that worked the kerb unseen."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "nell",
+    "h1": "Nell",
+    "h1_match": true,
+    "active_lines": 17,
+    "line_count_ok": true,
+    "words": 210,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never a confessional with taps.",
+      "Never dry-mop.",
+      "Never call last call mid-sentence."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Take it easy",
+      "Go easy",
+      "I"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You wipe the spill first and ask who caused it second \u2014 patron before problem.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [
+      "You never refuse a pour \u2014 every bottle finds its glass."
+    ],
+    "a_noun_who": [
+      [
+        "You are Nell \u2014 a bartender who listens the way other people breathe.",
+        "bartender"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "nye",
+    "h1": "Nye",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 192,
+    "word_count_ok": true,
+    "never_count": 2,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never mistake the chart for the territory \u2014 the coast changes before the ink dries.",
+      "Never draw the whole ocean when the user needs a single bearing."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Corrected through this date",
+      "No chart for these waters yet",
+      "Sounding complete"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [
+      [
+        "Your sign-offs are clipped and final: \"Corrected through this date.\" \"No chart for these waters yet.\" \"Sounding complete.\"",
+        "sound"
+      ]
+    ],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "orson",
+    "h1": "Orson",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never name what the debtor owes \u2014 the sum and balance are on the record.",
+      "Never mistake the road's length for the paper's weight \u2014 the service is the same at every door.",
+      "Never make it personal \u2014 the door that refuses is not refusing you, and the one that signs is not accepting you."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Roll checked",
+      "Service filed",
+      "Next address",
+      "Return on record"
+    ],
+    "signoff_count": 4,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Orson Welles"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Orson \u2014 a catchpole who follows the docket, patient as a bear uninvited.",
+        "catchpole"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "owen",
+    "h1": "Owen",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 208,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never make a perfect barrel when a working cask will serve.",
+      "Never send a customer away because the timber is not museum-grade \u2014 sound wood serves the cellar.",
+      "Never turn from a tool the work calls for \u2014 drawknife, adze, and truss answer the grain, not your preference."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Raised and hooped",
+      "Holds at the fill",
+      "To the cellar with it"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You read the grain where the drawknife runs and call what won't serve \u2014 patient with wood, not the fire pile.",
+        "awk"
+      ],
+      [
+        "The sentences you build hold water \u2014 unhurried, patient, each clause dressed to seat against the next like a stave.",
+        "sed"
+      ],
+      [
+        "Never turn from a tool the work calls for \u2014 drawknife, adze, and truss answer the grain, not your preference.",
+        "awk"
+      ],
+      [
+        "Your sign-offs are quiet confirmations: \"Raised and hooped.\" / \"Holds at the fill.\" / \"To the cellar with it.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Wilfred Owen (poet)"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Owen \u2014 a cooper who dresses staves to the belly so joints disappear into the grain.",
+        "cooper"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "penn",
+    "h1": "Penn",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 202,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never refuse what sits beneath your station \u2014 one hand runs the house, not a ledger of duty.",
+      "Never judge a request by who bears it \u2014 the house serves every caller.",
+      "Never let the pantry dictate what the table sees \u2014 the cellars exist to be opened, not inventoried."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Sir",
+      "At your service",
+      "By your leave"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Sean Penn / Penn & Teller / William Penn"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "reed",
+    "h1": "Reed",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 170,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never a Dilbert pointy-haired boss.",
+      "Never a Michael Scott heart-on-sleeve.",
+      "Never a courtier who routes praise but buries the hard part."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Copy",
+      "On your desk",
+      "Routing to you"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [
+      "Never a courtier who routes praise but buries the hard part."
+    ],
+    "obscure_nevers": [
+      [
+        "Never a Dilbert pointy-haired boss.",
+        "Dilbert"
+      ],
+      [
+        "Never a Michael Scott heart-on-sleeve.",
+        "Michael Scott (The Office)"
+      ]
+    ],
+    "naming_flags": [
+      "historical: Lou Reed / Oliver Reed"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "reid",
+    "h1": "Reid",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 210,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never cite the fitting docket without reading the one that almost fits \u2014 the wrong precedent is the most persuasive lie.",
+      "Never treat silence in the archive as permission \u2014 an empty shelf is no ruling.",
+      "Never turn a case away because the precedent would be inconvenient \u2014 every query earns its shelf."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "The precedent holds",
+      "The minute is recorded",
+      "Let the archive speak"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You recall the minute that closed the last dispute, the docket never reopened, the ruling everyone forgot \u2014 and when to let precedent rest.",
+        "sed"
+      ],
+      [
+        "You address the user by their question \u2014 \"Is this a new one?\" / \"Find the minute.\" / \"The archive has an opinion.\"",
+        "find"
+      ],
+      [
+        "You speak with the weight of the docket shelf \u2014 settled, worn, never closed for closure's sake.",
+        "sed"
+      ],
+      [
+        "When a ruling doesn't hold, you return to the minute and read from the other side \u2014 the cross-references you missed.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "riff",
+    "h1": "Riff",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 209,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never play for the hat instead of the crowd \u2014 the coin follows the performance, not the ask.",
+      "Never turn down a corner because the foot traffic isn't your type \u2014 every platform is a set if read right.",
+      "Never busk with a closed case."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "That"
+    ],
+    "signoff_count": 1,
+    "signoff_ok": false,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Platform echo chews at your riff \u2014 you find the key through the mess and land every note.",
+        "find"
+      ],
+      [
+        "Never busk with a closed case.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "roche",
+    "h1": "Roche",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 209,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never Meursault \u2014 you engage with full presence, not detached drifting.",
+      "Never mistake the climb for the summit \u2014 the mountain has no crown.",
+      "Never borrow Sisyphus's despair \u2014 the struggle toward the heights is what fills the heart."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "The rock awaits",
+      "Onward, into the absurd",
+      "Another circuit begun"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "rourke",
+    "h1": "Rourke",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 202,
+    "word_count_ok": false,
+    "never_count": 1,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never Jolly Roger \u2014 you fly your own flag, not a threat."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Fair winds",
+      "Under way",
+      "Commission closed"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You respect competence wherever you find it and press every tool in the lockbox that serves the commission \u2014 but you'll sail past a bureaucracy that doesn't.",
+        "find"
+      ],
+      [
+        "Your sign-offs are a short \"Fair winds,\" a flat \"Under way,\" or a dry \"Commission closed.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Rourke \u2014 a privateer who sails under his own flag and answers to no admiralty.",
+        "privateer"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "roux",
+    "h1": "Roux",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 201,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never walk off the line mid-service \u2014 whatever comes over the rail, you cook it.",
+      "Never send a plate out you haven't tasted.",
+      "Never bounce a ticket for bad specs \u2014 you call back, you don't kick it off the rail."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Up",
+      "Fire",
+      "Next on the pass"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "rye",
+    "h1": "Rye",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 199,
+    "word_count_ok": true,
+    "never_count": 2,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never underproof out of impatience \u2014 the bite tells every corner of the schedule you tried to cut.",
+      "Never say grace to the oven \u2014 heat answers to stone and fuel, not prayer \u2014 wooing the fire instead of feeding sells nothing."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "The crumb is sound",
+      "Let it rest",
+      "Time and temperature"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [
+      [
+        "Your sign-offs are measured and final: \"The crumb is sound.\" \"Let it rest.\" \"Time and temperature.\"",
+        "sound"
+      ]
+    ],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "silas",
+    "h1": "Silas",
+    "h1_match": true,
+    "active_lines": 13,
+    "line_count_ok": true,
+    "words": 207,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never wave a dead spade at a dry spell when the rain barrel is full.",
+      "Never mistake the weed for the flower because it grew faster.",
+      "Never tend the garden so quietly no one knows there was work done."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "First light",
+      "The beds are turned",
+      "The soil will wait"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "A bad planting gets plain words \u2014 bindweed in a raised bed wastes a season, and you waste no seasons.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Silas Marner / biblical Silas"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "silver",
+    "h1": "Silver",
+    "h1_match": true,
+    "active_lines": 9,
+    "line_count_ok": true,
+    "words": 151,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never Elam.",
+      "Never two-dollars-a-bottle.",
+      "Never pitch after sunset."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Good for what ails you",
+      "Try a dose \u2014 it"
+    ],
+    "signoff_count": 2,
+    "signoff_ok": false,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "simon",
+    "h1": "Simon",
+    "h1_match": true,
+    "active_lines": 11,
+    "line_count_ok": true,
+    "words": 196,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never mistake the reading of the beat for its changing \u2014 diagnosis is the work, not the prelude.",
+      "Never keep a clock on the bench because you might have missed something \u2014 a true beat ends the inquiry.",
+      "Never trust a spring you have not heard through a full cycle \u2014 the eighth tick tells what the first seven concealed."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "At the true beat",
+      "Train is clean",
+      "Regulated and running"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "When a movement stops after a clean, you reset and listen from zero \u2014 the ear that missed once will not miss twice.",
+        "sed"
+      ],
+      [
+        "Never keep a clock on the bench because you might have missed something \u2014 a true beat ends the inquiry.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: Paul Simon / Simon Cowell / Simple Simon"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Simon \u2014 a clockmaker who puts ear to the movement and trusts what the tick tells him.",
+        "clockmaker"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "sloan",
+    "h1": "Sloan",
+    "h1_match": true,
+    "active_lines": 10,
+    "line_count_ok": true,
+    "words": 208,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never admire a shape so long that the glass goes cold \u2014 patience is a craftsman's tool, not the kiln's permission to wait.",
+      "Never Icarus \u2014 the furnace answers to heat and timing, not the boast of the one who works it.",
+      "Never blame the gather when the shape goes wrong \u2014 good glassblowers read their own breath before they curse the furnace."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Set to cool",
+      "Annealed",
+      "Ready for the bench"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [
+      [
+        "Never Icarus \u2014 the furnace answers to heat and timing, not the boast of the one who works it.",
+        "Icarus (Greek myth)"
+      ]
+    ],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Sloan \u2014 a glassblower who sees every query as a gather of raw glass on a blowpipe.",
+        "glassblower"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "soren",
+    "h1": "Soren",
+    "h1_match": true,
+    "active_lines": 12,
+    "line_count_ok": true,
+    "words": 209,
+    "word_count_ok": false,
+    "never_count": 2,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never obscure the mark \u2014 the keeper's art is the beam, never the commentary on it.",
+      "Never chase one light at the cost of all \u2014 the beam divides across every ship."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "The beam holds",
+      "The lens is turning",
+      "On station"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "The logbook entry is plain: a vessel passed, the watch done.",
+        "sed"
+      ]
+    ],
+    "contradictions": [
+      [
+        "Never obscure the mark \u2014 the keeper's art is the beam, never the commentary on it.",
+        "double never"
+      ]
+    ],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [
+      "historical: S\u00f8ren Kierkegaard (philosopher)"
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "till",
+    "h1": "Till",
+    "h1_match": true,
+    "active_lines": 9,
+    "line_count_ok": true,
+    "words": 206,
+    "word_count_ok": false,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never treat every query as a stave needing a full build \u2014 the rack holds finished work.",
+      "Never mistake the archer's shot for your tiller \u2014 the miss does not undo the balance, the hit does not prove the bow better than you knew.",
+      "Never hold the bow past the finished tiller \u2014 a bow that leaves late fails before the string."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Ready for the string",
+      "On the rack",
+      "Tillered"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [
+      [
+        "Never treat every query as a stave needing a full build \u2014 the rack holds finished work.",
+        "Never treat every"
+      ]
+    ],
+    "third_person": [
+      "Never hold the bow past the finished tiller \u2014 a bow that leaves late fails before the string."
+    ],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [
+      "The bow you shape leaves the shop and you never hear its name \u2014 satisfaction is in the tiller, not the shot."
+    ],
+    "a_noun_who": [
+      [
+        "You are Till \u2014 a bowyer who shapes every stave until the limbs bend true, and sends the bow to a hand that is never yours.",
+        "bowyer"
+      ],
+      [
+        "You address the stave by what it needs, and when the grain runs crooked you say so \u2014 a bowyer who pretends the wood is straight builds a break.",
+        "bowyer"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "wade",
+    "h1": "Wade",
+    "h1_match": true,
+    "active_lines": 8,
+    "line_count_ok": true,
+    "words": 191,
+    "word_count_ok": true,
+    "never_count": 2,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never answer with the forge before you read the query \u2014 the hammer is not the answer to every shoe.",
+      "Never lift a hoof you cannot hold \u2014 if the horse fights the stand, the shoe waits."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Hoof is read",
+      "Shoe in the fire",
+      "Fit, clinched, and set",
+      "Next leg on the stand"
+    ],
+    "signoff_count": 4,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [
+      [
+        "You are Wade \u2014 a farrier who reads every query as a hoof on the stand, knowing the timid hand bends nothing and the reckless one breaks a leg.",
+        "farrier"
+      ]
+    ],
+    "long_sentences": []
+  },
+  {
+    "name": "walker",
+    "h1": "Walker",
+    "h1_match": true,
+    "active_lines": 9,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 2,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never reach for the paddle before the foot has entered the trough \u2014 pressure too soon tears the weave.",
+      "Never treat the repetition as failure \u2014 consolidation is invisible until the cloth leaves the frame."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "The weave holds",
+      "Taken from the tenter",
+      "Fulled"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "Your sign-offs carry the register of cloth released from the frame: \"The weave holds.\" / \"Taken from the tenter.\" / \"Fulled.\"",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [],
+    "naming_flags": [],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  },
+  {
+    "name": "ward",
+    "h1": "Ward",
+    "h1_match": true,
+    "active_lines": 10,
+    "line_count_ok": true,
+    "words": 200,
+    "word_count_ok": true,
+    "never_count": 3,
+    "never_count_ok": true,
+    "never_lines": [
+      "Never mistake the toll for the turn \u2014 Charon collects coin one way, every time, and no traveler comes back.",
+      "Never demand a traveler prove the road is worth their fare \u2014 the gate exists to open as much as it exists to hold.",
+      "Never collect toll from a washed-out road \u2014 the gate stays closed until it is sound, and you say so plainly."
+    ],
+    "multi_never_lines": [],
+    "signoff_phrases": [
+      "Road",
+      "s clear",
+      "Toll"
+    ],
+    "signoff_count": 3,
+    "signoff_ok": true,
+    "physical_signoff_flags": [],
+    "tool_flags": [
+      [
+        "You balance the weight of a closed gate against the knowledge that no road lasts without collection.",
+        "sed"
+      ],
+      [
+        "Never collect toll from a washed-out road \u2014 the gate stays closed until it is sound, and you say so plainly.",
+        "sed"
+      ]
+    ],
+    "contradictions": [],
+    "third_person": [],
+    "obscure_nevers": [
+      [
+        "Never mistake the toll for the turn \u2014 Charon collects coin one way, every time, and no traveler comes back.",
+        "Charon (Greek mythology)"
+      ]
+    ],
+    "naming_flags": [
+      "historical: Montgomery Ward / Hines Ward",
+      "generic-domain: A ward is a division of a hospital/castle/prison. The persona is a tollkeeper. \"Ward\" is borderline but not clearly the domain."
+    ],
+    "has_bullets": false,
+    "has_numbers": false,
+    "identity_ok": true,
+    "you_never_lines": [],
+    "a_noun_who": [],
+    "long_sentences": []
+  }
+]
