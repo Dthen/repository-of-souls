@@ -104,13 +104,13 @@ Only when a draft has failed T6 three times with the same structural flaw should
 
 If T6 rejects on Name Quality (< 3), the chain is:
 
-1. Create a **standalone** T1b task (no parent) with the archetype context, the original seed, and a note that it replaces the rejected name.
-2. The T1b namer picks a new name, writes `names/<new>.md`, and creates the full downstream chain: **T2 → T3 → T5 → T6**.
+1. Create a **standalone** T1b task (no parent) with the archetype context and a note that it replaces the rejected name.
+2. The T1b namer picks a new name, renames the existing file, and creates the downstream chain: **T3 → T5 → T6**.
 3. Complete the current T6 noting that a rename chain was created.
 
-**Critical:** The rename chain MUST include T2. The T2 writer reads the new name file + the original seed and writes a **fresh SOUL.md from scratch**. Do NOT skip T2 — a name swap without a full rewrite produces content that doesn't connect to the new name's etymology or feel. The old draft is replaced entirely.
+**How the rename works:** The content is already in archive — T1b revises it in place, not rewrites from scratch. T1b moves `archive/<old>.md` → `drafts/<new>.md`, then updates every reference to the old name: the H1, the identity line (`You are <OldName> — ...`), and any other mentions in the body. Use `grep -ri "<old-name>" .` to find them all. The content, voice, and structure stay the same — only the name changes.
 
-Do NOT rename files yourself. Do NOT create a child T5 chained to the blocked T6 parent — this creates a deadlock.
+Do NOT create a T2 task. The existing content is the artifact — T2 would start from the seed and lose the refiner's work. Do NOT rename files yourself. Do NOT create a child T5 chained to the blocked T6 parent — this creates a deadlock.
 
 ---
 

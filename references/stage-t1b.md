@@ -53,22 +53,26 @@ Save output as:
 
 **Critical rule**: The H1 of the final SOUL.md must be the chosen name from this stage. T2 receives the name as an explicit input. No archetype labels in the H1.
 
-**When renaming an existing soul** (T6 rejected the old name): After picking the new name:
+**When renaming an existing soul** (T6 rejected the old name): After picking the new name, revise the existing content — do NOT rewrite from scratch.
 
-1. **Write the name file** to `names/<new-name-lower>.md` with the chosen name and candidates (same format as normal T1b output).
-2. **Delete the old draft** — `rm drafts/<old>.md`. The T2 writer will produce a fresh SOUL.md from scratch. Do NOT copy or edit the old draft.
-3. **Clean up old pipeline artifacts** (if present): `rm names/<old>.md critiques/<old>.md refined/<old>.md docs/<old>.html`
-4. **Verify old files are gone:** `ls drafts/<old>.md` should fail.
+1. **Move the file:** `mv archive/<old>.md drafts/<new>.md`. The existing content is the artifact — keep it.
+2. **Update ALL name references** in `drafts/<new>.md`:
+   - H1: `# <OldName>` → `# <NewName>`
+   - Identity line: `You are <OldName> — ...` → `You are <NewName> — ...`
+   - Any other mentions of the old name in the body
+   - Use `grep -ri "<old-name>" .` to find them all
+3. **Write the name file** to `names/<new>.md` with the chosen name and candidates (same format as normal T1b output).
+4. **Clean up old artifacts** (if present): `rm names/<old>.md critiques/<old>.md refined/<old>.md docs/<old>.html`
+5. **Verify:** `ls archive/<old>.md` should fail. `drafts/<new>.md` should contain the updated content.
 
-**Do NOT rename files or do find-replace on the old draft.** A name swap without a full rewrite produces content that doesn't connect to the new name's etymology or feel. T2 reads the new name + the original seed and writes a completely fresh SOUL.md.
+**Do NOT create a T2 task.** The existing content is the artifact — T2 would start from the seed and lose the refiner's work. The content, voice, and structure stay the same; only the name changes.
 
-5. **Create the downstream pipeline chain:** T2 → T3 → T5 → T6, each linked as parent of the next:
-   - Create a T2 task (assignee: `writer`, parents: [this task id])
-   - Create a T3 task (assignee: `reviewer`, parents: [T2 task id])
+6. **Create the downstream pipeline chain:** T3 → T5 → T6, each linked as parent of the next:
+   - Create a T3 task (assignee: `reviewer`, parents: [this task id])
    - Create a T5 task (assignee: `refiner`, parents: [T3 task id])
    - Create a T6 task (assignee: `final-reviewer`, parents: [T5 task id])
    
    All tasks must use `workspace_kind: "dir"` and `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`.
 
-**The old draft is dead.** T2 starts from the seed, not from the old content. This is a full rewrite, not a rename.
+**The old draft is revised, not replaced.** T2 is not part of the rename chain.
 
