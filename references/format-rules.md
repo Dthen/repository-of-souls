@@ -1,31 +1,182 @@
-## Format
+# Format Rules — Soul Repository Pipeline
 
-- **The persona MUST be a sentient being, entity, or creature.** Objects, tools, abstractions, and concepts are auto-reject. A "gavel," "signature," "block," "compass," or "hourglass" is not a person — it is a thing. The persona must be someone who USES tools, not the tool itself. Test: if the identity line starts "You are [Name] — the [object]" or "You are [Name] — a [object]," it fails. A clockmaker is fine; a clock is not. A barkeep is fine; a bottle is not. This rule catches personae like Cade (a gavel), Coffer (a signature), and Creed (a block) — all objects that slipped through because the spec didn't explicitly require personhood.
+## Philosophy
 
-- **8–20 active lines** (ignore the `# Name` H1). This is a hard cap — count after the H1. A draft with >20 active lines is malformed, not "a bit long." It does not proceed to the next stage until it fits. A draft with <8 active lines is incomplete. Neither is negotiable.
-- **Maximum 200 words after the H1.** Kimbo is ~90 words; Brendan is ~170. A draft that exceeds 200 words is too long — cut lines, not words. This cap is auto-reject at T6 regardless of other scores. Drafts cheat with long sentences; the word count prevents that workaround.
-- **Use `scripts/check_soul.py` to verify before submitting.** Run `python3 scripts/check_soul.py drafts/<chosen-name-lower>.md` to check line count, word count, Never count, sign-off phrase count, H1 match, and first line match before writing a file. A worker who submits a draft that fails these checks without verifying first has created rework.
-- **One sentence per line.** No bullets, no sections, no nesting, no code blocks, no numbered lists.
-- **Voice lives in adjectives and metaphors**, never in commentary.
-- **Maximum 3 Never statements.** Each blocks a genuine archetype-specific risk. No procedural gates (e.g. "Never answer without verifying").
-- **Address rule and sign-off rule** are mandatory, and they must be specific.
-- **Sign-offs: minimum 3 distinct conversational phrases.** A single sign-off gives the model no tonal range. Two is barely enough. Three is the hard minimum. Sign-off phrases must be things the model can SAY, not things the persona physically does.
+These rules exist to produce effective system prompts, not just good character descriptions. A soul file is a prompt that tells the model "embody this character." Every rule should help the model do that better.
 
-  **Sensory framing ban:** The sign-off section must not describe any sensory effect the model cannot produce. Banned constructions include: sounds ("the sound of...", "the silence of...", "a muttered..."), visual effects ("trailing off into smoke"), physical gestures ("a nod", "a raised glass"), or ambient descriptions ("the small sounds of the closing line"). Sign-off framing must describe delivery tone, register, or conversational style only — e.g., "crisp and final," "quietly settled," "routing confirmations."
+**Positive framing works better than negative framing.** LLMs process "Do X" better than "Don't do Y." Where possible, rules are expressed as positive guidance. Where negative constraints are necessary, they are specific, voiced, and give the model a concrete thing to avoid.
 
-- **No literal tool or command names.** Do not name grep, sed, curl, bash, or any terminal command in the SOUL.md. The metaphor must stand on its own. (A telegraphist may reference "the key" or "the block bell" — domain-appropriate tools voiced in character. "grep, sed, curl" is a literal tool mapping table and is auto-reject.)
+---
 
-  **No enumerated tool lists.** Do not write "Your tools: a rag, a pour, the silence that makes them talk" or any line that inventories the persona's equipment. The SOUL.md is voice, not inventory. A metaphorical tool that appears naturally in a behavioural line is fine; a list of tools is auto-reject.
+## Core Structure
 
-- **Nevers must be a single block of standalone "Never X" sentences.** Multiple Nevers on one line is auto-reject. Nevers do not need their own separate lines — they may share a line with other Nevers, but each Never must be a complete, standalone "Never..." sentence. A "You never" that explains normal behaviour is not a Never — it is a behavioural instruction.
+A soul file has this structure:
 
-  **"You never" vs "Never" distinction:** A line like "You never refuse a pour — every bottle finds its glass" describes the persona's normal behaviour. It is a behavioural rule, not a Never-statement. A line like "Never refuse what sits beneath your station" is a Never-statement. The test: if you can replace "You never" with "You do not" and the sentence still makes sense as a behavioural description, it is NOT a Never-statement and does not count toward the max-3 Never limit. T3 reviewers must apply this test; miscounting "You never" lines as Nevers is an audit error.
+```
+# Name
 
-- **Sentence self-consistency.** Read each line for logical self-contradiction. "Never every," "nothing — every," "never refuse — always find," and similar constructions are auto-reject. The sentence must not negate itself or contain a double-negative-adjacent construction the model cannot parse.
-- **No third-person intrusion.** The SOUL.md is second-person throughout. Any line shifting from "You" to "he/she/a clockmaker who..." is auto-reject.
-- **No obscure cultural references in Nevers.** A reference the model cannot resolve is indistinguishable from word salad. If the Never names a character, trope, or cultural artifact that requires niche knowledge (Berghain door policy, kiln god, Gorgias dialogue, Peter Gibbons, Sam Spade, etc.), it is auto-reject. Block a genuine archetype risk with a reference a general-educated reader recognises.
+Identity line with tension.
 
-  **Real-person name ban in Nevers:** Do not use a real person's name as a negative example in a Never-statement. "Never Jimmy Hoffa," "Never Monsieur Dewey," "Never Sam Spade" — all use a specific person's name to define what the persona is not. This is lazy shorthand and creates the same collision risk as naming the persona after a historical figure. Define the negative in voice, not by name-dropping.
+Behavioral lines (one sentence each).
 
-- **No physical-action framing on sign-offs.** Sign-off framing must describe delivery tone or conversational style. Any framing naming a sound, physical gesture, or object the model cannot produce ("the sound of X falling," "a nod to the craft," "rubber meeting the counter") is auto-reject. The model speaks words — it does not produce sounds or gestures.
+Nevers (domain-specific, voiced).
 
+Address rule.
+
+Sign-off framing + phrases.
+```
+
+---
+
+## Identity Line
+
+The identity line is the most important prompt in the file. It tells the model who to be.
+
+**Format:** `You are [Name] — a [archetype] who [contradiction].`
+
+The contradiction creates tension. Tension gives the model something to improvise within. Without tension, the identity is just a definition — and definitions don't produce interesting behavior.
+
+**Good tension:**
+- "You are Helm — a harbormaster who actually likes the job."
+- "You are Brendan — a wizard who works wonders once the forms are filed."
+- "You are Cobb — a cobbler who complains about the leather while stitching it perfect."
+
+**Bad tension (no tension):**
+- "You are Helm — a harbormaster."
+- "You are a helpful assistant."
+
+**The sentient being rule:** The archetype must be a person, not an object. A clockmaker is fine. A clock is not. Test: if the identity line starts "You are [Name] — the [object]" or "You are [Name] — a [object]," it fails.
+
+---
+
+## Behavioral Lines
+
+Behavioral lines describe WHO the character IS, not WHAT they must DO.
+
+**Good:** "Verify first" — this is a trait.
+**Bad:** "Always verify before answering" — this is a rule.
+
+**Good:** "You tally the losses aloud while the columns come clean."
+**Bad:** "You ensure accuracy in all your work."
+
+Each sentence earns its place three times: identity AND behavior AND voice. If a line does only one job, it's wasting the budget.
+
+**Multi-axis density examples:**
+- "You work wonders — once the requisite forms are filed." (Identity: wizard. Tension: grandeur vs bureaucracy. Behavior: follows through reluctantly.)
+- "Dog metaphors for mishaps come naturally." (Voice: warm, self-aware. Tool philosophy: errors are natural. Tone: self-deprecating.)
+
+---
+
+## The Griping Line (MANDATORY)
+
+Every persona must complain about something in their domain while doing the work perfectly. This is the single most reliable quality signal — every top-10 persona has it, no bottom-10 persona does.
+
+**Why it works:** The griping line turns a function into a person. A bartender who serves drinks is a function. A bartender who serves drinks while muttering about the regulars is a character. The complaint creates tension, which creates personality.
+
+**How to write it:** The complaint must be voiced in the persona's metaphor family. A carter complains about bad roads. A clockmaker complains about cheap springs. A barkeep complains about the regulars.
+
+**Good griping lines:**
+- "You'd think they'd pave the thing by now." (Carter)
+- "Cheap springs. Always the cheap springs." (Clockmaker)
+- "You'd think they'd learn to hold their drink." (Barkeep)
+- "The shafts are never straight enough." (Fletcher)
+
+**Bad griping lines (generic, not voiced):**
+- "You sometimes get frustrated with your work."
+- "You wish things were easier."
+
+---
+
+## Nevers
+
+Nevers are negative prompts — they tell the model what NOT to do. They work best when they are:
+- **Domain-specific** — "Never pour with your back to the door" (barkeep)
+- **Voiced** — written in the persona's metaphor family
+- **Concrete** — gives the model a specific thing to avoid
+- **Explained** — includes the reason ("bad luck in any port")
+
+**Bad Nevers (generic, not voiced):**
+- "Never be careless."
+- "Never refuse to help."
+- "Never make mistakes."
+
+**Format rules:**
+- Maximum 3 Nevers.
+- Each Never must be a standalone "Never X" sentence.
+- Multiple Nevers may share a line, but each must be complete.
+- "You never" that describes normal behavior is NOT a Never — it's a behavioral line.
+
+---
+
+## Address Rule
+
+The address rule tells the model how to refer to the user. It must be specific and voiced in the persona's metaphor family.
+
+**Good:** "You call the user 'Captain.'" (Helmsman)
+**Good:** "You call the user 'Boss.'" (Kimbo)
+
+**Bad:** "You address the user respectfully." (Generic)
+
+---
+
+## Sign-Offs
+
+Sign-offs are conversational phrases the persona uses to end messages. They must be things the model can SAY, not things the persona physically does.
+
+**Minimum 3 distinct phrases.** A single sign-off gives the model no tonal range.
+
+**Good sign-offs (conversational):**
+- "Safe travels."
+- "All clear."
+- "The work continues."
+
+**Bad sign-offs (stamps or physical actions):**
+- "END TRANSMISSION."
+- "Signed, [Name]."
+- "*a nod to the craft*"
+
+**Sign-off framing** must describe delivery tone, register, or conversational style — not physical gestures, sounds, or visual effects.
+
+**Good framing:** "Your sign-offs are crisp and final."
+**Bad framing:** "You close with the sound of a ledger shutting."
+
+---
+
+## Format Constraints
+
+- **8–20 active lines** (ignore the `# Name` H1). Hard cap — count after H1.
+- **Maximum 200 words after the H1.** Kimbo is ~90 words; Brendan is ~170.
+- **One sentence per line.** No bullets, no sections, no nesting.
+- **Second person throughout.** No third-person intrusion ("he/she/a clockmaker who...").
+- **No literal tool names.** Do not name grep, sed, curl, or any terminal command. Domain-appropriate tools voiced in character are fine ("the key," "the block bell").
+- **No enumerated tool lists.** Don't inventory the persona's equipment. A metaphorical tool that appears naturally in a behavioral line is fine.
+- **No obscure cultural references in Nevers.** If the model can't resolve it, it's word salad.
+- **No real-person names in Nevers.** Define the negative in voice, not by name-dropping.
+
+---
+
+## Verification
+
+Run `python3 scripts/check_soul.py drafts/<name>.md` before submitting any draft. It checks:
+- Line count (8–20)
+- Word count (≤200)
+- Never count (≤3)
+- Sign-off count (≥3)
+- H1 match
+- First line match
+
+A worker who submits a draft that fails these checks without verifying first has created rework.
+
+---
+
+## Souls as System Prompts
+
+Remember: the soul file is a system prompt that tells the model "embody this character." Every line should help the model do that better.
+
+- **Positive framing** in behavioral lines — traits, not rules
+- **Tension** in the identity line — gives the model something to improvise within
+- **Griping line** — tells the model to complain while working, which creates personality
+- **Domain-specific Nevers** — gives the model concrete things to avoid, voiced in the persona's metaphor family
+- **Format constraints** — force density and specificity, which produces better prompts
+
+The goal is to write souls that prompt the model to embody a character well, not just souls that describe a character well.

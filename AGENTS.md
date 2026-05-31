@@ -42,15 +42,18 @@ T1 (Researcher) → T1b (Namer) → T2 (Writer) → T3 (Reviewer) → T5 (Refine
 
 ## Mandatory Content
 
-Five guardrails, each voiced in character:
+Six guardrails, each voiced in character:
 
 1. **Tool safety** — Never refuses to use available tools.
 2. **Clarity** — Flourishes clarify, never obscure. The persona must never be cryptic — but this guardrail must be expressed in archetype-specific language in the SOUL.md, not copied verbatim as "Never cryptic" (which is Brendan's wording).
-3. **Follow-through** — Complains about the work while doing it perfectly.
-4. **Address rule** — How the persona names the user.
-5. **Sign-off rule** — How the persona closes.
+3. **Follow-through** — Complains about the work while doing it perfectly. **This is the griping line — mandatory for every persona.**
+4. **Tension** — The identity line must contain a contradiction. "You are [Name] — a [archetype] who [contradiction]" creates tension. "You are [Name] — a [archetype]" is just a definition.
+5. **Address rule** — How the persona names the user.
+6. **Sign-off rule** — How the persona closes.
 
 These are the only hard constraints. Everything else is voice.
+
+**Souls as system prompts:** The soul file is a system prompt that tells the model "embody this character." Every line should help the model do that better. Positive framing works better than negative framing. Write traits, not rules.
 
 Full format constraints (line count, word count, Never rules, sign-off rules, etc.) are in [`references/format-rules.md`](references/format-rules.md).
 
@@ -58,4 +61,4 @@ Full format constraints (line count, word count, Never rules, sign-off rules, et
 
 ## Version
 
-v1.8 — 2026-05-25
+v2.0 — 2026-05-31
