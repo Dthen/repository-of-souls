@@ -50,17 +50,18 @@
 50|
 51|Before calling `kanban_create`, verify the upstream artifact exists. If it does not, you MUST create the missing upstream stages first.
 52|
-53|| Creating stage | Required upstream artifact | Path to check |
-54||---|---|---|
-55|| T2 | Seed file | `seeds/<seed-label>.md` |
-56|| T2 | Chosen name file | `names/<chosen-name>.md` |
-57|| T3 | Draft file | `drafts/<name>.md` |
-58|| T5 | Critique file | `critiques/<name>.md` |
-59|| T6 | Refined file | `refined/<name>.md` |
-60|
-61|**If the file doesn't exist:** Do NOT create the downstream task. Create the missing upstream stages instead. For example:
-62|- If `seeds/the-farrier.md` exists but no `drafts/farrier.md`, create a T2 → T3 chain for farrier first.
-63|- If `critiques/cross.md` exists but no `refined/cross.md`, create a T5 for cross first.
+| Creating stage | Required upstream artifact | Path to check |
+|---|---|---|
+| T2 | Seed file | `seeds/<seed-label>.md` |
+| T3 | Chosen name file | `names/<chosen-name>.md` |
+| T4 | Draft file | `drafts/<name>.md` |
+| T5 | Critique file | `critiques/<name>.md` |
+| T6 | Refined file | `refined/<name>.md` |
+
+**If the file doesn't exist:** Do NOT create the downstream task. Create the missing upstream stages instead. For example:
+- If `seeds/the-farrier.md` exists but no `names/farrier.md`, create a T2 → T3 chain for farrier first.
+- If `drafts/cross.md` exists but no `critiques/cross.md`, create a T4 for cross first.
+- If `critiques/cross.md` exists but no `refined/cross.md`, create a T5 for cross first.
 64|
 65|---
 66|
@@ -68,12 +69,13 @@
 68|
 69|The `Input draft file` directive in each task body MUST reference the correct directory for that stage:
 70|
-71|| Stage | Output directory | Task body must reference |
-72||---|---|---|
-73|| T2 | `drafts/` | Input: `names/<name>.md` |
-74|| T3 | `critiques/` | Input: `drafts/<name>.md` |
-75|| T5 | `refined/` | Input: `drafts/<name>.md` + `critiques/<name>.md` |
-76|| T6 | `archive/` or `reject/` | Input: `refined/<name>.md` |
+| Stage | Output directory | Task body must reference |
+|---|---|---|
+| T2 | `names/` | Input: `seeds/<seed-label>.md` |
+| T3 | `drafts/` | Input: `names/<name>.md` |
+| T4 | `critiques/` | Input: `drafts/<name>.md` |
+| T5 | `refined/` | Input: `drafts/<name>.md` + `critiques/<name>.md` |
+| T6 | `archive/` | Input: `refined/<name>.md` |
 77|
 78|**T6 MUST read `refined/<name>.md`, never `drafts/<name>.md`.** Passing the wrong path means T6 judges stale draft content instead of the refiner's actual output.
 79|
@@ -100,17 +102,17 @@
 100|
 101|---
 102|
-103|## T6 Name-Rejection Chain
-104|
-105|If T6 rejects on Name Quality (< 3), the chain is:
-106|
-107|1. Create a **standalone** T2 task (no parent) with the archetype context and a note that it replaces the rejected name.
-108|2. The T2 namer picks a new name, renames the existing file, and creates the downstream chain: **T4 → T5 → T6**.
-109|3. Complete the current T6 noting that a rename chain was created.
-110|
-111|**How the rename works:** The content is already in archive — T2 revises it in place, not rewrites from scratch. T2 moves `archive/<old>.md` → `drafts/<new>.md`, then updates every reference to the old name: the H1, the identity line (`You are <OldName> — ...`), and any other mentions in the body. Use `grep -ri "<old-name>" .` to find them all. The content, voice, and structure stay the same — only the name changes.
-112|
-113|Do NOT create a T2 task. The existing content is the artifact — T2 would start from the seed and lose the refiner's work. Do NOT rename files yourself. Do NOT create a child T5 chained to the blocked T6 parent — this creates a deadlock.
+## T6 Name-Rejection Chain
+
+If T6 rejects on Name Quality (< 3), the chain is:
+
+1. Create a **standalone** T2 task (no parent) with the archetype context and a note that it replaces the rejected name.
+2. The T2 namer picks a new name, renames the existing file, and creates the downstream chain: **T4 → T5 → T6**.
+3. Complete the current T6 noting that a rename chain was created.
+
+**How the rename works:** The content is already in archive — T2 revises it in place, not rewrites from scratch. T2 moves `archive/<old>.md` → `drafts/<new>.md`, then updates every reference to the old name: the H1, the identity line (`You are <OldName> — ...`), and any other mentions in the body. Use `grep -ri "<old-name>" .` to find them all. The content, voice, and structure stay the same — only the name changes.
+
+**Important:** Do NOT rename files yourself. Do NOT create a child T5 chained to the blocked T6 parent — this creates a deadlock. The T2 namer handles the rename; the downstream chain (T4 → T5 → T6) reviews the renamed content.
 114|
 115|---
 116|
