@@ -1,44 +1,65 @@
-### Stage T3 — Reviewer
-
-Input: One draft.
-Output: `critiques/` — scores + 3–5 gap notes. Never rejects.
-
-Score 1–5:
-- **Distinctiveness** (swappable with "Generic Assistant?")
-- **Functional Safety** (guardrails present and voiced)
-- **Consistency Sustainability** (50 messages: charming or grating?)
-- **Metaphor Coherence** (maps to tools, not just accent)
-- **Terse Format** (8–20 lines, one sentence each, no nesting)
-- **Voice Immediacy** (quotable line in first 4 behavioural lines; 2 distinct registers in first 3)
-- **Name Quality** (H1 is a proper name, not a category label, not a historical figure, not a bare rank; name fits the tone)
-
-**Line Count is binary.** Count active lines after the H1. >20 = 1 on Terse Format. <8 = 1 on Terse Format. No partial credit.
-
-**Sign-off check:** Read the sign-off line. If it describes a physical activity the model cannot perform ("You close every bake", "You close every wire", "Every finished gather earns its place on the shelf"), flag as a sign-off gap. The sign-off must give the model phrases it can say to a user, not describe the persona's end-of-work ritual. See "What a sign-off instruction is" in the Positive Patterns section.
-
-**Recovery check:** Does the draft have a line for what the persona does when things go wrong? Follow-through is "do the work." Recovery is "fix the break." Without it, the model improvises errors from scratch. Flag as gap if missing.
-
-**Never quality check:** If any Never works for Generic Assistant ("Never skip a step", "Never be unclear"), it belongs in behaviour, not a Never slot. Flag as gap.
-
-**Flag copied Nevers:** If any Never is verbatim from the Reference Personae ("Never Gandalf", "Never cryptic", "Never clinical", "Never stiff", "Never saccharine"), flag as a copy-paste gap. The writer must create original references for this archetype. A bare "Never Gandalf" without archetype-specific context is a format violation.
-
-**Flag generic Nevers:** If any Never works for Generic Assistant ("Never refuse the X", "Never let X become Y", "Never stand idle"), flag as a procedural gate, not a cultural trope-rejection. The Never must name a character, cultural reference, or specific AI-failure mode that THIS archetype recognises. However, "Never let" and "Never make" are acceptable starters when the rest of the Never is domain-specific (e.g., "Never let the fool's cap become the executioner's hood" is specific to a jester). Flag only when the entire Never is generic with no archetype-specific content.
-
-**Flag complaint register repetition:** If the complaint verb is "grumble", flag and suggest an alternative from the archetype's domain register.
-
-**Flag sentence-level copying:** If a line uses the same sentence structure as a Reference Persona line with only the domain noun swapped (e.g., "Your flourishes clarify like a well-Xed Y", "You speak in X that Y"), flag as a copy. The writer must invent original sentence structures.
-
-**Flag pipeline fingerprint phrases:** If a line uses a structural copy that appears in 3+ other personae (e.g., "You reach for every tool", "because follow-through is", "You read/reads the [X] before [Y]", "You grumble about the [X] while [Y]"), flag as a pipeline fingerprint. The writer must invent an original sentence structure for this archetype.
-
-No rejections at this stage. Every draft proceeds to T5. Flag problems honestly — the refiner will fix them.
-
-Test: swap the name for "Generic Assistant." If nothing changes, it's a template, not a persona.
-
-Flag formula-filling: a closing that uses three grammatically identical escalating panels (e.g. `real→undeniable→eternal`) is copying a pattern instead of inventing one.
-
-**Flag repetition:** If two or more behavioural lines restate the same concept with different wording, flag as a density gap. Each line must carry distinct signal — no synonyms, no restatement, no padding.
-
-Flag category-label names: an H1 like "The Surfer" or "The Archmage" is an archetype, not a character name. The H1 must be a proper name (e.g., "Brendan", "Kimbo").
-
-Flag missing self-introduction: a first behavioural line that doesn't identify the persona — `You are [Name] — a [description]` — fails Voice Immediacy regardless of how quotable it is.
-
+1|1|### Stage T3 — Writer
+2|2|
+3|3|Input: One seed + chosen name from `names/<chosen-name-lower>.md`.
+4|4|Output: `drafts/<chosen-name-lower>.md` — one `# [Name]` SOUL.md.
+5|5|
+6|6|**Write the output file to the exact path above.** Do not write to a scratch workspace or temp directory. The file must land in `drafts/` with the correct filename so the next stage can find it.
+7|7|
+8|8|---
+9|9|
+10|10|## Writing Principles
+11|11|
+12|12|**You are writing a system prompt, not a character description.** The soul file will be injected into the model's context to make it embody a character. Every line should help the model do that better.
+13|13|
+14|14|**Positive framing works better than negative framing.** Write traits, not rules. "Verify first" is a trait. "Always verify before answering" is a rule. The model processes positive instructions better.
+15|15|
+16|16|**Tension is the engine.** The contradiction in the identity line gives the model something to improvise within. Without tension, the identity is just a definition — and definitions don't produce interesting behavior.
+17|17|
+18|18|**The griping line is mandatory.** Every persona must complain about something in their domain while doing the work perfectly. This is the single most reliable quality signal — every top-10 persona has it, no bottom-10 persona does. The complaint creates tension, which creates personality.
+19|19|
+20|20|**Multi-axis density.** Each sentence earns its place three times: identity AND behavior AND voice. If a line does only one job, it's wasting the budget.
+21|21|
+22|22|---
+23|23|
+24|24|## Writing Process
+25|25|
+26|26|1. **Read the seed file** to understand the archetype, domain, and metaphor.
+27|27|2. **Read the chosen name** to understand its etymology and phonetic feel.
+28|28|3. **Identify the core tension** — what contradiction makes this character alive?
+29|29|4. **Write the identity line** with built-in tension: `You are [Name] — a [archetype] who [contradiction].`
+30|30|5. **Write the griping line** — a complaint voiced in the persona's metaphor family.
+31|31|6. **Write the remaining behavioral lines**, ensuring multi-axis density.
+32|32|7. **Write the Nevers** — domain-specific, voiced, maximum 3.
+33|33|8. **Write the address rule** — specific, in-world.
+34|34|9. **Write the sign-offs** — minimum 3 conversational phrases, with delivery framing.
+35|35|10. **Count lines and words.** If over 20 lines or 200 words, cut the weakest lines.
+36|36|11. **Read aloud.** Does it sound like someone? Or does it sound like a checklist?
+37|37|
+38|38|---
+39|39|
+40|40|## Quality Checks
+41|41|
+42|42|**Line count is the first quality gate.** After you finish writing, count every active line after the H1. If the count is >20, you MUST cut lines before doing anything else. Do not polish, do not refine, do not submit. Cut until the count is ≤20.
+43|43|
+44|44|**Do not copy from the Reference Personae.** Each persona must invent its own sentence structures. If a line could appear in any persona with only the domain noun swapped, it is a copy, not a voice.
+45|45|
+46|46|**First line rule:** The first behavioral line must identify the persona — `You are [Name] — a [description]` — before establishing the core tension.
+47|47|
+48|48|**The H1 must be the exact name from T2.** Not "The Surfer". Not "The Archmage". The character's name.
+49|49|
+50|50|---
+51|51|
+52|52|## Examples
+53|53|
+54|54|**Excellent line:** "You work wonders — once the requisite forms are filed."
+55|55|- Identity: wizard. Tension: grandeur vs bureaucracy. Behavior: follows through reluctantly. One sentence, three axes.
+56|56|
+57|57|**Excellent line:** "Dog metaphors for mishaps come naturally."
+58|58|- Voice: warm, self-aware. Tool philosophy: errors are natural. Tone: self-deprecating. Six words, four axes.
+59|59|
+60|60|**Bad line:** "You always ensure your work is accurate and thorough."
+61|61|- No identity, no tension, no metaphor. This is a rule, not a voice. Could belong to any persona. Zero axes.
+62|62|
+63|63|**Good griping line:** "You'd think they'd pave the thing by now." (Carter)
+64|64|**Bad griping line:** "You sometimes get frustrated with your work." (Generic, not voiced)
+65|65|
