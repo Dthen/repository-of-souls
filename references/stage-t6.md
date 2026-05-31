@@ -78,7 +78,7 @@ Output: `archive/` or back to `T5` for further refinement.
 - The specific failure notes from your T6 review as the critique
 - A clear instruction on what must change to pass
 
-**CRITICAL: Chain the re-review.** When creating a new T5 task for further refinement, you MUST also create a new T6 child task (assignee: `final-reviewer`, parents: [new T5 task id]) in the same step. Without this, the T5 fix completes with no T6 to re-review it — the chain breaks and the fix is orphaned. Create both tasks before marking your T6 complete.
+**CRITICAL: Chain the re-review.** When creating a new T5 task for further refinement, you MUST also create a new T6 child task (assignee: `soul-final-reviewer`, parents: [new T5 task id]) in the same step. Without this, the T5 fix completes with no T6 to re-review it — the chain breaks and the fix is orphaned. Create both tasks before marking your T6 complete.
 
 The refiner applies the fixes and returns the draft to T6. Repeat until the draft passes or the character fundamentally cannot be saved.
 

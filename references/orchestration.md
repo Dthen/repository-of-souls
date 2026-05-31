@@ -26,11 +26,11 @@ If you are creating a task for Stage N, Stage N-1 must:
 
 | Stage | Title pattern | `assignee` value |
 |-------|---------------|------------------|
-| T1b | `T1b: Name <Seed>` | `namer` |
-| T2 | `T2: Write <Name> SOUL.md` | `writer` |
-| T3 | `T3: Review <Name> SOUL.md` | `reviewer` |
-| T5 | `T5: Refine <Name> SOUL.md` | `refiner` |
-| T6 | `T6: Final-review <Name> SOUL.md` | `final-reviewer` |
+| T1b | `T1b: Name <Seed>` | `soul-namer` |
+| T2 | `T2: Write <Name> SOUL.md` | `soul-writer` |
+| T3 | `T3: Review <Name> SOUL.md` | `soul-reviewer` |
+| T5 | `T5: Refine <Name> SOUL.md` | `soul-refiner` |
+| T6 | `T6: Final-review <Name> SOUL.md` | `soul-final-reviewer` |
 
 Do NOT assign all stages to one profile. Do NOT use the creating worker's own profile.
 
@@ -88,7 +88,7 @@ When T6 rejects a draft, it does NOT block. It creates a **loopback**:
    - The specific failure notes from T6 as the critique
    - A clear instruction on what must change to pass
 
-2. **In the same orchestration step**, create a T6 child task chained to the new T5 (assignee: `final-reviewer`, parents: [new T5 task id]).
+2. **In the same orchestration step**, create a T6 child task chained to the new T5 (assignee: `soul-final-reviewer`, parents: [new T5 task id]).
 
 3. Complete the current T6 with a note that a retry was created.
 
@@ -131,7 +131,7 @@ The T1b Namer is the source of truth. If the chosen name is **Roux**, all files 
 
 ## Git Credentials and HOME Isolation
 
-Kanban workers run with a **profile-isolated HOME**. When a worker uses profile `writer`, its `HOME` is set to `~/.hermes/profiles/writer/home/`. This means `git` looks for `~/.gitconfig` and `~/.git-credentials` inside the profile's `home/` directory.
+Kanban workers run with a **profile-isolated HOME**. When a worker uses profile `soul-writer`, its `HOME` is set to `~/.hermes/profiles/writer/home/`. This means `git` looks for `~/.gitconfig` and `~/.git-credentials` inside the profile's `home/` directory.
 
 If `git push` fails with "no credentials configured", the profile's `home/` is missing credentials.
 
@@ -141,7 +141,7 @@ cp ~/.gitconfig ~/.hermes/profiles/<profile>/home/.gitconfig
 chmod 600 ~/.hermes/profiles/<profile>/home/.git-credentials
 ```
 
-Apply this to all profiles that run `git push`: `writer`, `namer`, `reviewer`, `refiner`, `final-reviewer`.
+Apply this to all profiles that run `git push`: `soul-writer`, `soul-namer`, `soul-reviewer`, `soul-refiner`, `soul-final-reviewer`.
 
 ---
 

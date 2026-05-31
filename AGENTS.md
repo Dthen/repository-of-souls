@@ -11,11 +11,11 @@ T1 (Researcher) → T1b (Namer) → T2 (Writer) → T3 (Reviewer) → T5 (Refine
 | Stage | Assignee | Input | Output |
 |---|---|---|---|
 | T1 | `researcher` | `archive/`, `drafts/` | `seeds/` |
-| T1b | `namer` | `seeds/<seed>.md` | `names/<name>.md` |
-| T2 | `writer` | `names/<name>.md` + seed | `drafts/<name>.md` |
-| T3 | `reviewer` | `drafts/<name>.md` | `critiques/<name>.md` |
-| T5 | `refiner` | `drafts/<name>.md` + `critiques/<name>.md` | `refined/<name>.md` |
-| T6 | `final-reviewer` | `refined/<name>.md` | `archive/<name>.md` (or T5 retry) |
+| T1b | `soul-namer` | `seeds/<seed>.md` | `names/<name>.md` |
+| T2 | `soul-writer` | `names/<name>.md` + seed | `drafts/<name>.md` |
+| T3 | `soul-reviewer` | `drafts/<name>.md` | `critiques/<name>.md` |
+| T5 | `soul-refiner` | `drafts/<name>.md` + `critiques/<name>.md` | `refined/<name>.md` |
+| T6 | `soul-final-reviewer` | `refined/<name>.md` | `archive/<name>.md` (or T5 retry) |
 
 **For detailed stage instructions, see the corresponding reference file in `references/`.**
 

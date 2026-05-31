@@ -46,11 +46,11 @@ Also check the existing `seeds/SEEDS.md` as a reference for output format. Do no
 
 | Stage | Title pattern | `assignee` value |
 |-------|---------------|------------------|
-| T1b | `T1b: Name <Seed>` | `namer` |
-| T2 | `T2: Write <Name> SOUL.md` | `writer` |
-| T3 | `T3: Review <Name> SOUL.md` | `reviewer` |
-| T5 | `T5: Refine <Name> SOUL.md` | `refiner` |
-| T6 | `T6: Final-review <Name> SOUL.md` | `final-reviewer` |
+| T1b | `T1b: Name <Seed>` | `soul-namer` |
+| T2 | `T2: Write <Name> SOUL.md` | `soul-writer` |
+| T3 | `T3: Review <Name> SOUL.md` | `soul-reviewer` |
+| T5 | `T5: Refine <Name> SOUL.md` | `soul-refiner` |
+| T6 | `T6: Final-review <Name> SOUL.md` | `soul-final-reviewer` |
 
 Do NOT assign all stages to one profile. Do NOT use the creating worker's own profile. Each stage has a dedicated profile — that is the entire point of the pipeline.
 

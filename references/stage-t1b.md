@@ -68,9 +68,9 @@ Save output as:
 **Do NOT create a T2 task.** The existing content is the artifact — T2 would start from the seed and lose the refiner's work. The content, voice, and structure stay the same; only the name changes.
 
 6. **Create the downstream pipeline chain:** T3 → T5 → T6, each linked as parent of the next:
-   - Create a T3 task (assignee: `reviewer`, parents: [this task id])
-   - Create a T5 task (assignee: `refiner`, parents: [T3 task id])
-   - Create a T6 task (assignee: `final-reviewer`, parents: [T5 task id])
+   - Create a T3 task (assignee: `soul-reviewer`, parents: [this task id])
+   - Create a T5 task (assignee: `soul-refiner`, parents: [T3 task id])
+   - Create a T6 task (assignee: `soul-final-reviewer`, parents: [T5 task id])
    
    All tasks must use `workspace_kind: "dir"` and `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`.
 
