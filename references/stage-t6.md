@@ -9,6 +9,8 @@ Output: `archive/` or back to `T5` for further refinement.
 
 **HARD GATE CHECKLIST (check every box, in order):**
 
+- [ ] **Sentient being** — The persona must be a sentient being, entity, or creature. Objects, tools, abstractions, and concepts are auto-reject. Test: if the identity line says "You are [Name] — the [object]" or "You are [Name] — a [object]" where the object is not a person, reject. A clockmaker passes (person who uses tools). A clock fails (the tool itself). This catches personae like "the gavel," "a signature," "the block."
+- [ ] **Archetype deduplication** — Read the first 5 lines of every file in `archive/`. If another archived persona covers the same archetype (same trade, same domain, same metaphor family), reject. The archive must have exactly ONE persona per archetype. If the new entry's seed overlaps with an existing one, the seed was redundant — reject and note which existing persona already covers it.
 - [ ] **Lowercase filename** — The file received by T6 MUST be named `<chosen-name>.md` in all lowercase. If the filename has any uppercase letters, rename it to lowercase before proceeding with any other checks. An uppercase filename is malformed regardless of content quality. This check applies to every directory in the pipeline (`drafts/`, `refined/`, `reviews/`, `archive/`, `names/`, `critiques/`).
 - [ ] **Identity opening** — Line 3 must be `You are [Name] — a [archetype noun]...`. After the dash, the first words must name WHAT the character IS, not what they DO. "You are Dale — a carter" passes. "You are Dale — every query is a load" fails. "You are Hugo — a codebreaker" passes. "You are Hugo — you read the cipher" fails. No exceptions.
 - [ ] **Word count ≤ 200** after H1. Count all words in behavioural lines. >200 = reject.
@@ -84,7 +86,15 @@ Only when a draft has failed T6 three times with the same structural flaw should
 
 APPROVED drafts move to `archive/` as the canonical SOUL.md.
 
-After archiving, rebuild the site and push:
+**After archiving, clean up stale pipeline artifacts.** The archive is the canonical copy — drafts, critiques, refined, reviews, and names for the same persona are stale once archived. Delete them:
+
+```bash
+rm -f drafts/<name>.md critiques/<name>.md refined/<name>.md reviews/t6-<name>.md names/<name>.md
+```
+
+Do NOT leave old pipeline artifacts sitting around. They create confusion about which version is canonical, and they waste disk. The only surviving files after archiving should be `archive/<name>.md` and `docs/<name>.html`.
+
+After archiving and cleanup, rebuild the site and push:
 
 ```bash
 python3 scripts/build_site.py

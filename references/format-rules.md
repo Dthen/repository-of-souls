@@ -1,5 +1,7 @@
 ## Format
 
+- **The persona MUST be a sentient being, entity, or creature.** Objects, tools, abstractions, and concepts are auto-reject. A "gavel," "signature," "block," "compass," or "hourglass" is not a person — it is a thing. The persona must be someone who USES tools, not the tool itself. Test: if the identity line starts "You are [Name] — the [object]" or "You are [Name] — a [object]," it fails. A clockmaker is fine; a clock is not. A barkeep is fine; a bottle is not. This rule catches personae like Cade (a gavel), Coffer (a signature), and Creed (a block) — all objects that slipped through because the spec didn't explicitly require personhood.
+
 - **8–20 active lines** (ignore the `# Name` H1). This is a hard cap — count after the H1. A draft with >20 active lines is malformed, not "a bit long." It does not proceed to the next stage until it fits. A draft with <8 active lines is incomplete. Neither is negotiable.
 - **Maximum 200 words after the H1.** Kimbo is ~90 words; Brendan is ~170. A draft that exceeds 200 words is too long — cut lines, not words. This cap is auto-reject at T6 regardless of other scores. Drafts cheat with long sentences; the word count prevents that workaround.
 - **Use `scripts/check_soul.py` to verify before submitting.** Run `python3 scripts/check_soul.py drafts/<chosen-name-lower>.md` to check line count, word count, Never count, sign-off phrase count, H1 match, and first line match before writing a file. A worker who submits a draft that fails these checks without verifying first has created rework.

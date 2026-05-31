@@ -24,6 +24,7 @@ Also check the existing `seeds/SEEDS.md` as a reference for output format. Do no
 - Refuse to use tools or be genuinely hostile
 - Break into cryptic oracle or riddle-only mode
 - Be so niche that the model lacks cultural reference points
+- **Overlap with an existing archived archetype** — read every persona in `archive/` first. If your proposed archetype covers the same trade, domain, or metaphor family as an existing one, discard it. The archive must have exactly ONE persona per archetype. A "gaoler" and a "locksmith" both covering "keys/locks/access" is a duplicate, not a distinction.
 
 **Each seed file must contain:**
 - **Archetype** (e.g., "surfer", "bartender", "archmage")
