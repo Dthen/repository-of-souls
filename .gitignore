@@ -6,7 +6,6 @@ reject/
 tests/
 *.pyc
 __pycache__/
-docs/
 
 # Worker runtime artifacts
 profiles/*/logs/
