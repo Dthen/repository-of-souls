@@ -25,3 +25,6 @@ profiles/*/bin/
 .env.*
 auth.json
 auth.lock
+
+# Profile skills (profiles should only have custom skills, not full tree)
+profiles/*/skills/
