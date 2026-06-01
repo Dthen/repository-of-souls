@@ -1,30 +1,36 @@
-drafts/
-critiques/
-refined/
-names/
-reject/
-tests/
-*.pyc
-__pycache__/
+1|drafts/
+2|critiques/
+3|refined/
+4|names/
+5|reject/
+6|tests/
+7|*.pyc
+8|__pycache__/
+9|
+10|# Worker runtime artifacts
+11|profiles/*/logs/
+12|profiles/*/state.db*
+13|profiles/*/sessions/
+14|profiles/*/context_length_cache.yaml
+15|profiles/*/auth.json
+16|profiles/*/auth.lock
+17|profiles/*/request_dump*
+18|profiles/*/models_dev_cache.json
+19|profiles/*/.skills_prompt_snapshot.json
+20|profiles/*/.update_check
+21|profiles/*/bin/
+22|
+23|# Credential files (never commit API keys)
+24|*.env
+25|.env.*
+26|auth.json
+27|auth.lock
+28|
+29|# Profile skills (profiles should only have custom skills, not full tree)
+30|profiles/*/skills/
+31|
 
-# Worker runtime artifacts
-profiles/*/logs/
-profiles/*/state.db*
-profiles/*/sessions/
-profiles/*/context_length_cache.yaml
-profiles/*/auth.json
-profiles/*/auth.lock
-profiles/*/request_dump*
-profiles/*/models_dev_cache.json
-profiles/*/.skills_prompt_snapshot.json
-profiles/*/.update_check
-profiles/*/bin/
-
-# Credential files (never commit API keys)
-*.env
-.env.*
-auth.json
-auth.lock
-
-# Profile skills (profiles should only have custom skills, not full tree)
-profiles/*/skills/
+# Allow pipeline profile configs (no secrets)
+!profiles/*/config.yaml
+!profiles/*/profile.yaml
+profiles/

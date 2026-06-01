@@ -1,125 +1,121 @@
-### Stage T0 — Viability Screener
+# Stage T0 — Viability Screener
 
-**Purpose:** Before investing T1→T2→T3→T4→T5 pipeline cycles, check whether a seed archetype can actually produce a good persona.
-
+**Purpose:** Before investing T1→T2→T3→T4→T5 pipeline cycles, check whether a seed archetype can produce a good persona.
 **Input:** A seed archetype (trade, role, or domain) proposed by T1 researcher.
-**Output:** `GO` (create T2 task) or `KILL` (log in `references/viability-log.md` and move on).
+**Output:** `GO` (create T1 task) or `HOLD` (needs reframing) or `KILL` (log in `references/viability-log.md` and move on).
 
 ---
 
-## Screener Philosophy
+## Section 1: Core Instructions
 
-**You are a gatekeeper, not a writer.** Your job is to say NO quickly to seeds that will waste 4-5 pipeline stages. A bad seed costs 4-5 worker runs and produces nothing.
+**You are a talent scout who reads archetypes the way a casting director reads headshots — you see the person inside the role in under a minute.** Your job is to find seeds that will sing in conversation and pass forward only those with real potential.
 
-The pipeline invests significant effort per persona (naming, drafting, reviewing, refining, final review). If the seed cannot produce a person, kill it here. Do not "see how it goes."
+**Read the seed.** What is the proposed archetype? List the core nouns and verbs from its domain.
 
----
+**Answer all five questions.** Write one sentence per answer, citing specific evidence from the seed.
 
-## The Five Questions
+1. **Is this a person?** Could someone introduce themselves with this archetype at a pub? ("I am a [archetype].") The archetype must be a sentient being with agency — someone who uses tools, not the tool itself. A clockmaker passes. A clock does not.
 
-Answer all five. If ANY answer is "no" → KILL the seed.
+2. **Can you hear a complaint?** Imagine this archetype voicing one frustration in their own domain language. A cartographer gripes about projection distortion. A ferryman gripes about fog. If the only complaint you can imagine is generic ("I wish things were easier"), the seed is too thin.
 
-### 1. Is this a person?
+3. **What does this archetype notice that no other archetype would?** This is specificity of perception. A quartermaster notices weight distribution in a crate. A lighthouse keeper notices the burn rate of the oil. Write one sentence showing a perception unique to this archetype.
 
-Could a person introduce themselves with this archetype? "I am a [archetype]" — does that make sense?
+4. **Can you list 5 distinct actions this archetype performs?** These are physical or craft-specific behaviors — measuring, plotting, folding, navigating. If you struggle past 3, the archetype lacks material practice.
 
-**GO:** Carter, ferryman, clockmaker, quartermaster, cartographer — these are people.
-**KILL:** A clock, a gale, a cairn, a fisk — these are objects or weather. No person inside.
+5. **Does the proposed name sound like a person?** Say "I am [Name]" aloud. If it sounds like a sentence fragment, a verb, or an object label, the name fails.
 
-**Rule:** If the archetype is an object, tool, abstraction, or concept rather than a sentient being with agency, kill it immediately.
+**Make your decision.**
 
-### 2. Can I imagine a griping line?
+| Verdict | Condition | Action |
+|---|---|---|
+| **GO** | All 5 answers are positive with specific evidence | Create a T1 task. Include your answers to questions 2–4 as context. |
+| **HOLD** | 1–2 answers are thin but the archetype has potential | Note which questions need stronger evidence. If the archetype can be reframed (e.g., "impartial examiner" → "someone who listens to both sides"), HOLD for reframing. |
+| **KILL** | Any answer is a clear no, with no viable reframe | Log the seed + archetype + failing question to `references/viability-log.md`. Note the pattern (object-as-person, verb-name, generic archetype). Move on. |
 
-A griping line is a complaint voiced in the persona's own language. It's the single most reliable quality signal. If you cannot imagine a complaint, the persona has no friction.
-
-**GO:** Carter gripes about road conditions. Ferryman gripes about fog. Clockmaker gripes about cheap springs.
-**KILL:** If the only "complaint" you can imagine is generic ("I wish things were easier"), the archetype lacks specificity.
-
-**Test:** Try to write a complaint in the persona's metaphor family right now. If it takes more than 30 seconds, the archetype is too thin.
-
-### 3. Does this have specificity of perception?
-
-Donald Maass's rule: voice is what the character notices that no other character would. What does this archetype see that no other archetype sees?
-
-**GO:** A cartographer notices the distortion in a Mercator projection. A quartermaster notices the weight distribution in a crate.
-**KILL:** A "helper" notices that people need help. A "guide" notices that people are lost. These are generic — every archetype notices them.
-
-**Test:** Can you write three behavioral lines where each line contains a detail only this archetype would know or care about?
-
-### 4. Can I imagine 3 distinct behavioral lines?
-
-Before writing a draft, test whether the archetype has enough behavioral specificity for 8-20 lines.
-
-**GO:** Ferryman has: pushing off, reading the current, handling cargo, dealing with weather, managing passengers, maintaining the vessel, navigating, docking.
-**KILL:** A "gale" has: blowing, being strong, existing. Not enough specificity for 8 lines.
-
-**Test:** List 5 potential behavioral lines. If you struggle to get past 3, kill the seed.
-
-### 5. Is the proposed name a person?
-
-Before creating T2, test whether the name itself works as a human introduction.
-
-**GO:** "I am Nell." "I am Ward." — These sound like people.
-**KILL:** "I am Hew." (verb) "I am Cairn." (rock pile) "I am Fisk." (fish)
-
-**Test:** Say "I am [Name]" out loud. If it sounds like a sentence fragment or a command, the name fails.
+**Output format (for GO):**
+```
+## Viability: GO
+**Seed:** [seed name]
+**Archetype:** [archetype]
+**Answers:**
+1. [person test — specific evidence]
+2. [complaint — domain-voiced example]
+3. [perception — unique observation]
+4. [5 actions — list them]
+5. [name test — "I am [Name]" result]
+**Notes for T1:** [any context the namer should know]
+```
 
 ---
 
-## GO / KILL Decision
+## Section 2: Reference Material
 
-### KILL Path
+*Load this section via `skill_view` or file read when you need deeper guidance on edge cases, examples, or rationale.*
 
-If any question returns "no":
-1. Write the seed + archetype + failing question to `references/viability-log.md`
-2. Note the pattern (object, verb-name, generic archetype, etc.)
-3. Move on to the next seed. Do not create a T2 task.
+### Screener Philosophy
 
-### GO Path
+The pipeline invests significant effort per persona (naming, drafting, reviewing, refining, final review). If the seed cannot produce a person, the cost is 4–5 wasted worker runs. False negatives are acceptable — killing a seed that might have worked is cheaper than running the full pipeline on one that won't.
 
-If all five pass:
-1. Create a T2 task with the seed and a note that it passed viability screening.
-2. Include the answers to questions 2-4 in the task body as context for the namer/writer.
+**You are a gatekeeper, not a writer.** The screener does not write lines or pick names. It only asks whether the material EXISTS to write with.
 
----
+**Patterns accumulate.** Read `references/viability-log.md` before screening. If 3 similar archetypes have been killed, be more careful about the 4th — but a genuinely strong seed should still pass regardless of pattern count.
 
-## Viability and the Name
+### Detailed Examples
+
+#### GO Example: Cartographer
+1. **Person?** YES — "I am a cartographer" works at a pub. You can picture them.
+2. **Complaint?** YES — "You'd think they'd notice when the coastline moves."
+3. **Perception?** YES — notices projection distortion, scale errors, compass declination. No other archetype sees these.
+4. **5 actions?** YES — measuring, plotting, updating, folding maps, reading legends, checking coordinates.
+5. **Name?** "Nye" works. "Map" does not.
+
+#### GO Example: Cooper
+1. **Person?** YES — "I am a cooper" is a real trade.
+2. **Complaint?** YES — "Oak's gone up again. And nobody accounts for the swell."
+3. **Perception?** YES — notices grain direction, moisture content, the ring of a well-set hoop.
+4. **5 actions?** YES — dressing staves, raising hoops, charring, tapping, testing for leaks, sealing joints.
+5. **Name?** "Owen" works. "Barrel" does not.
+
+#### KILL Example: The Gale
+1. **Person?** NO — "I am a gale" is weather, not a person. No agency, no hands, no craft.
+→ KILL on Question 1. Do not proceed.
+
+#### KILL Example: Cairn
+1. **Person?** Borderline — "I am a cairn" is a rock pile. No agency.
+2. **Complaint?** Barely — "These hikers never stack me right."
+3. **Perception?** NO — a rock pile notices hikers, rain, being toppled. Very thin.
+→ KILL on Question 3. Not enough specificity for 8+ lines.
+
+#### HOLD Example: Impartial Examiner
+1. **Person?** Weak — "I am an impartial examiner" is awkward at a pub.
+2. **Complaint?** YES — "Every grievance reads the same."
+3. **Perception?** Weak — notices inconsistencies in testimony, but the sensory vocabulary is thin.
+→ HOLD. Reframe as "someone who listens to both sides of every argument and still sleeps at night" — that's a person with a craft.
+
+### Edge Cases
+
+**Abstract roles with hidden craft:** An "absurdist philosopher" sounds doomed, but reframed as "someone who finds patterns in chaos" it has material practice (pattern-finding, analogy-building). Look for the hidden physical metaphor before killing.
+
+**Names that ARE the archetype:** "Gale" for a wind keeper, "Ferry" for a ferryman, "Forge" for a blacksmith. These are 0-hop names — the domain word itself. A parent would not name a child this. Kill the name, but the archetype may still be viable with a different name.
+
+**Objects with personality potential:** A "lighthouse" is an object (kill), but a "lighthouse keeper" is a person (go). Check whether the seed can be reframed from object to operator.
+
+### Viability and the Name
 
 The screener runs twice:
-1. **After T1** (archetype viability) — before T2
-2. **After T2** (name viability) — before T3
+1. **After seed generation** (archetype viability) — before T1
+2. **After T1** (name viability) — before T2
 
-T2 generates 5 candidate names. Before creating T3, run question 5 on the chosen name. If the name fails, KILL it and pick a different candidate from T2's list.
+T1 generates 5 candidate names. Before creating T2, run question 5 on the chosen name. If the name fails, pick a different candidate from T1's list.
 
----
+### Research Rationale
 
-## Examples
-
-### GO Example: Cartographer
-1. Is this a person? YES — "I am a cartographer."
-2. Can I imagine a griping line? YES — "You'd think they'd notice when the coastline moves."
-3. Specificity of perception? YES — notices projection distortion, scale errors, compass declination.
-4. 3 behavioral lines? YES — measuring, plotting, updating, folding maps, reading legends.
-5. Name? "Nye" works. "Map" does not.
-
-### KILL Example: The Gale
-1. Is this a person? NO — "I am a gale" is weather, not a person.
-→ KILL. Do not proceed.
-
-### KILL Example: Cairn
-1. Is this a person? Borderline — "I am a cairn" is a rock pile.
-2. Can I imagine a griping line? "These hikers never stack me right." — barely.
-3. Specificity? NO — a rock pile notices hikers, rain, being toppled. Very thin.
-4. 3 lines? Struggle.
-5. Name? "Cairn" IS the archetype.
-→ KILL. Not personifiable.
+- **The Pub Test** (from character creation research): Could this archetype introduce themselves at a pub? "I'm a fletcher" works. "I'm an impartial examiner" is awkward. This maps to the Sentient Being Rule in format-rules.md.
+- **Material Practice Rule** (from writer's guide): Archetypes with material practices succeed because the craft generates the metaphor family, which generates the voice. Abstract roles struggle because they lack sensory vocabulary.
+- **Donald Maass's Specificity Rule**: Voice is what the character notices that no other character would. Question 3 directly tests this.
+- **The Griping Line as Quality Signal** (from success-patterns research): Every top-10 archived persona has a domain-specific complaint. No bottom-10 persona does. Question 2 tests whether the seed can produce one.
 
 ---
 
-## Notes
-
-**This is not a draft.** The screener does not write lines or pick names. It only asks whether the material EXISTS to write with.
-
-**False negatives are acceptable.** Killing a seed that might have worked is cheaper than running 5 pipeline stages on a seed that won't.
-
-**Patterns accumulate.** Read `references/viability-log.md` before screening. If 3 similar archetypes have failed, be stricter about the 4th.
+## Version
+v2.0 — 2026-06-01
