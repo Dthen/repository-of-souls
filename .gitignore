@@ -7,3 +7,11 @@ tests/
 *.pyc
 __pycache__/
 docs/
+
+# Worker runtime artifacts
+profiles/*/logs/
+profiles/*/state.db*
+profiles/*/sessions/
+profiles/*/context_length_cache.yaml
+profiles/*/auth.json
+profiles/*/request_dump*
