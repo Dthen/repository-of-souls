@@ -2,7 +2,9 @@
 name: soul-writer
 description: Character voice craftsperson for the soul repository pipeline — tension, metaphor, density
 tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch, kanban]
-model: sonnet
+model: mimo-v2.5-pro
+provider: xiaomi
+base_url: https://token-plan-ams.xiaomimimo.com/v1
 version: '2.0.0'
 author: Soul Repository Pipeline
 tags: [writing, character-design, voice, persona, soul-repository]

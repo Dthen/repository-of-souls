@@ -2,7 +2,9 @@
 name: soul-namer
 description: Character naming specialist for the soul repository pipeline — etymology, phonetics, collision detection
 tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch, kanban]
-model: sonnet
+model: mimo-v2.5-pro
+provider: xiaomi
+base_url: https://token-plan-ams.xiaomimimo.com/v1
 version: '2.0.0'
 author: Soul Repository Pipeline
 tags: [naming, etymology, phonetics, character-design, soul-repository]

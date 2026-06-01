@@ -2,7 +2,9 @@
 name: soul-refiner
 description: Craft editor for the soul repository pipeline — surgical precision, voice preservation
 tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch, kanban]
-model: sonnet
+model: mimo-v2.5-pro
+provider: xiaomi
+base_url: https://token-plan-ams.xiaomimimo.com/v1
 version: '2.1.0'
 author: Soul Repository Pipeline
 tags: [editing, refinement, voice-preservation, character-design, soul-repository]

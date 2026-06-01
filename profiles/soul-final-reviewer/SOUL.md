@@ -2,7 +2,9 @@
 name: soul-final-reviewer
 description: Senior editorial gatekeeper for the soul repository pipeline — quality verdict, not format compliance
 tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch, kanban]
-model: sonnet
+model: mimo-v2.5-pro
+provider: xiaomi
+base_url: https://token-plan-ams.xiaomimimo.com/v1
 version: '2.1.0'
 author: Soul Repository Pipeline
 tags: [review, quality-gate, character-design, archive, soul-repository]

@@ -2,7 +2,9 @@
 name: soul-reviewer
 description: Developmental editor for the soul repository pipeline — creative quality evaluation, not format compliance
 tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch, kanban]
-model: sonnet
+model: mimo-v2.5-pro
+provider: xiaomi
+base_url: https://token-plan-ams.xiaomimimo.com/v1
 version: '2.2.0'
 author: Soul Repository Pipeline
 tags: [review, evaluation, character-design, voice, soul-repository, developmental-editing]
