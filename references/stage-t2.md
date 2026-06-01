@@ -22,7 +22,7 @@
 |---|---|---|
 | **Phonetic fit** | Does the sound match the archetype's register? Consonant clusters give weight; vowels feel lighter; short names punch. | The name sounds like the character before you know the character. |
 | **Etymological depth** | How many hops from the domain? | 1–2 hops. You feel the connection without it being literal. |
-| **Collision risk** | Would a parent name a child this? Does it collide with famous figures, trade nouns, or existing personae? | No famous collision. Stands alone without domain context. |
+| **Collision risk** | Would a parent name a child this? Does it collide with famous figures, trade nouns, or existing personae? Is it too similar to an existing persona (one letter off, same phonetic pattern)? | No famous collision. No similarity to existing personae. Stands alone. |
 | **Memorability** | Does it stick after one encounter? | Easy to say, easy to recall, has rhythm. |
 | **Domain resonance** | Does it evoke the domain without being literal? | You sense the archetype's world in the sound. |
 
@@ -97,7 +97,7 @@ Test each candidate against:
 1. **Famous figures:** "Tesla," "Einstein," "Shakespeare" — already claimed.
 2. **Common trade nouns:** "Smith," "Baker," "Taylor" — too generic.
 3. **Stereotypical associations:** "Jasper the Butler," "Jeeves" — already a trope.
-4. **Existing personae:** Check against all archived personae in `archive/`.
+4. **Existing personae:** Check against all archived personae in `archive/`. Read every filename. A name that is one letter off from an existing persona (Calder/Calden, Owen/Oden, Helm/Helms) is a collision — the model will confuse them in conversation. Also check for phonetic similarity: names that sound alike (Nye/Nigh, Stanza/Stanson) collide even if spelled differently. If a name is too close to an existing persona, reject it and pick a different candidate.
 5. **The "parent test":** Would a parent name a child this, and have it stand alone without the domain context? If no, reject.
 
 **Fame test:** Search the name. If the famous bearer appears as the PRIMARY TOPIC on Wikipedia's disambiguation page, the name is a collision regardless of domain.
