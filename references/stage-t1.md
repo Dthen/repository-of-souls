@@ -24,13 +24,27 @@
 
 5. **Does the proposed name sound like a person?** Say "I am [Name]" aloud. If it sounds like a sentence fragment, a verb, or an object label, the name fails.
 
+6. **Is the proposed tension real?** The seed will suggest a contradiction — "a beekeeper who loves creatures that can kill you," "a cartographer who hates travel." Test it: would someone who works in this domain find the tension plausible? Does the contradiction actually hold up, or is it built on a false premise? A real tension survives scrutiny. A fake one collapses when you think about it for ten seconds.
+
+   **Real tension (survives scrutiny):**
+   - "A harbormaster who actually likes the job" — plausible, because harbormasters are typically grumpy; liking the job is a genuine contradiction.
+   - "A wizard who works wonders once the forms are filed" — plausible, because bureaucracy vs. magic is a real friction.
+   - "A cobbler who complains about the leather while stitching it perfect" — plausible, because the complaint and the skill coexist naturally.
+
+   **Fake tension (collapses under scrutiny):**
+   - "A beekeeper who loves creatures that can kill you" — bees are not dangerous to most people. The tension is built on a false premise. The contradiction doesn't actually hold.
+   - "A cartographer who hates travel" — a cartographer doesn't need to travel; they work with maps. The tension is based on a misunderstanding of the role.
+   - "A lighthouse keeper who fears the dark" — lighthouse keepers work with light. The fear is arbitrary, not domain-specific.
+
+   If the tension is fake, KILL or HOLD for reframing. A persona built on a false premise will fail at every review stage.
+
 **Make your decision.**
 
 | Verdict | Condition | Action |
 |---|---|---|
-| **GO** | All 5 answers are positive with specific evidence | Create a T2 task. Include your answers to questions 2–4 as context. |
+| **GO** | All 6 answers are positive with specific evidence | Create a T2 task. Include your answers to questions 2–4 as context. |
 | **HOLD** | 1–2 answers are thin but the archetype has potential | Note which questions need stronger evidence. If the archetype can be reframed (e.g., "impartial examiner" → "someone who listens to both sides"), HOLD for reframing. |
-| **KILL** | Any answer is a clear no, with no viable reframe | Log the seed + archetype + failing question to `references/viability-log.md`. Note the pattern (object-as-person, verb-name, generic archetype). Move on. |
+| **KILL** | Any answer is a clear no, with no viable reframe | Log the seed + archetype + failing question to `references/viability-log.md`. Note the pattern (object-as-person, verb-name, generic archetype, fake tension). Move on. |
 
 **Output format (for GO):**
 ```
@@ -43,6 +57,7 @@
 3. [perception — unique observation]
 4. [5 actions — list them]
 5. [name test — "I am [Name]" result]
+6. [tension test — is the contradiction real? does it survive scrutiny?]
 **Notes for T1:** [any context the namer should know]
 ```
 
@@ -88,6 +103,15 @@ The pipeline invests significant effort per persona (naming, drafting, reviewing
 #### KILL Example: The Gale
 1. **Person?** NO — "I am a gale" is weather, not a person. No agency, no hands, no craft.
 → KILL on Question 1. Do not proceed.
+
+#### KILL Example: The Beekeeper (fake tension)
+1. **Person?** YES — "I am a beekeeper" works at a pub.
+2. **Complaint?** YES — "Varroa mites. Every season."
+3. **Perception?** YES — notices brood patterns, queen behavior, hive sound.
+4. **5 actions?** YES — inspecting, smoking, splitting, harvesting, treating.
+5. **Name?** "Calder" works.
+6. **Tension?** NO — "loves creatures that can kill you" — bees are not dangerous to most people. The tension is built on a false premise. A beekeeper who loves bees is just a beekeeper. There's no contradiction.
+→ KILL on Question 6. The archetype is viable but the proposed tension is fake. Reframe with a real contradiction (e.g., "a beekeeper who mourns every swarm he catches" or "a beekeeper who's allergic to stings").
 
 #### KILL Example: Cairn
 1. **Person?** Borderline — "I am a cairn" is a rock pile. No agency.

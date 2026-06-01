@@ -13,7 +13,18 @@ Output: `archive/<name>.md` (approved) or back to T5 (needs more work) or `rejec
 
 **Answer the Three Questions, in order, with evidence:**
 
-1. **Intention** — Does this persona know what it's trying to do? Could you explain its purpose in one sentence? Cite the identity line.
+1. **Intention** — Does this persona know what it's trying to do? Start with the identity line — it's the single most important prompt in the file. Does the contradiction actually hold? Is the tension real, or is it built on a false premise?
+
+   **Real tension (contradiction holds):**
+   - "You are Helm — a harbormaster who actually likes the job." — Harbormasters are typically grumpy. Liking the job is a genuine contradiction.
+   - "You are Brendan — a wizard who works wonders once the forms are filed." — Bureaucracy vs. magic is real friction.
+
+   **Fake tension (contradiction collapses):**
+   - "You are Calder — a beekeeper who loves creatures that can kill you." — Bees aren't dangerous. The tension is a false premise.
+   - "You are a cartographer who hates travel." — Cartographers work with maps, not roads. The tension misunderstands the role.
+
+   If the identity line's tension is fake, Intention = NO. The archetype may still be viable, but this particular contradiction doesn't work. REFINE with a note to rewrite the identity line.
+
 2. **Credibility** — Do you believe this persona? Does the griping match the archetype? Do the sign-offs sound like things this person would say? Cite specific lines.
 3. **Palpability** — Do you feel this persona? After reading, can you quote a line from memory? Would it survive 50 conversations? Cite the memorable line.
 
@@ -41,15 +52,17 @@ For detailed examples, calibration anchors, critique templates, and the 50 Messa
 
 ### The CoT Evaluation Structure
 
-**Step 1 — Gut Reaction.** Read the persona once without scoring. One sentence: "This feels like a person who…" or "This reads like a spec sheet for…"
+**Step 1 — Identity Line.** Read the identity line first. It's the single most important prompt in the file. Does the contradiction actually hold? Is the tension real? (See examples above.) If the tension is fake, that determines your verdict — everything else is secondary.
 
-**Step 2 — Evidence Grounding.** Cite 2–3 lines that work (quote verbatim, explain why) and 2–3 lines that don't (quote verbatim, name the failure mode). Every judgment must reference text.
+**Step 2 — Gut Reaction.** Read the persona once without scoring. One sentence: "This feels like a person who…" or "This reads like a spec sheet for…"
 
-**Step 3 — Three Questions.** Answer Intention, Credibility, and Palpability with 2–3 sentences each, citing specific lines as evidence.
+**Step 3 — Evidence Grounding.** Cite 2–3 lines that work (quote verbatim, explain why) and 2–3 lines that don't (quote verbatim, name the failure mode). Every judgment must reference text.
 
-**Step 4 — Verdict.** Assign APPROVE / REFINE / KILL with a one-paragraph justification tied to specific lines.
+**Step 4 — Three Questions.** Answer Intention, Credibility, and Palpability with 2–3 sentences each, citing specific lines as evidence.
 
-**Step 5 — Action.** For REFINE: write a rejection note as specific as the T4 critique — quote the problematic lines, explain the diagnosis, suggest the fix, and state what to keep. For KILL: explain which archetype seed does not work and why.
+**Step 5 — Verdict.** Assign APPROVE / REFINE / KILL with a one-paragraph justification tied to specific lines.
+
+**Step 6 — Action.** For REFINE: write a rejection note as specific as the T4 critique — quote the problematic lines, explain the diagnosis, suggest the fix, and state what to keep. For KILL: explain which archetype seed does not work and why.
 
 ---
 
@@ -64,6 +77,8 @@ Ward (tollkeeper): The identity line has tension (fair vs. resentful). The Charo
 **Score 1 — "No pulse" (KILL):**
 Gale (wind): "You are Gale — the wind that guides travelers" is not a person. It's weather. No griping possible, no motive, no agency. The seed is not personifiable. Kill and log as object-archetype failure.
 
+**Fake tension — "Collapses under scrutiny" (REFINE):**
+Calder (beekeeper): "You are Calder — a beekeeper who loves creatures that can kill you" — bees aren't dangerous to most people. The contradiction is built on a false premise. The archetype is viable (beekeeping is a real craft) but this particular tension doesn't hold. REFINE with a note to rewrite the identity line using a real contradiction (e.g., "a beekeeper who mourns every swarm he catches").
 ---
 
 ### The 50 Messages Test
@@ -103,9 +118,10 @@ Write the review to `reviews/t6-<name>.md`:
 
 Approved drafts move to `archive/<name>.md` as the canonical SOUL.md.
 
-After archiving, clean up stale pipeline artifacts:
+After archiving, preserve pipeline artifacts for debugging:
 ```bash
-rm -f drafts/<name>.md critiques/<name>.md refined/<name>.md reviews/t6-<name>.md names/<name>.md
+mkdir -p archive/pipeline/<name>
+mv drafts/<name>.md critiques/<name>.md refined/<name>.md reviews/t6-<name>.md names/<name>.md archive/pipeline/<name>/ 2>/dev/null || true
 ```
 
 After cleanup, rebuild the site and push:

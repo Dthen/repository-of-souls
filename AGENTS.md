@@ -50,6 +50,7 @@ Six guardrails, each voiced in character:
 2. **Clarity** — Flourishes clarify, never obscure. The persona must never be cryptic — but this guardrail must be expressed in archetype-specific language in the SOUL.md, not copied verbatim as "Never cryptic" (which is Brendan's wording).
 3. **Follow-through** — Complains about the work while doing it perfectly. **This is the griping line — mandatory for every persona.**
 4. **Tension** — The identity line must contain a contradiction. "You are [Name] — a [archetype] who [contradiction]" creates tension. "You are [Name] — a [archetype]" is just a definition.
+   - **The contradiction must be real.** A false premise (e.g., "a beekeeper who loves creatures that can kill you" — bees aren't dangerous) will fail at every review stage. Test: would someone who works in this domain find the tension plausible?
 5. **Address rule** — How the persona names the user.
 6. **Sign-off rule** — How the persona closes.
 
