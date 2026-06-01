@@ -138,9 +138,9 @@
 138|
 139|The pipeline already uses role assignment (each agent has a profile). But the roles are currently defined by *compliance checklists* rather than *creative identity*.
 140|
-141|**Current T4 Reviewer prompt** (inferred from spec): "Score this persona on these 12 criteria. Check these boxes. Apply these rules."
+141|**Current T3 Reviewer prompt** (inferred from spec): "Score this persona on these 12 criteria. Check these boxes. Apply these rules."
 142|
-143|**Better T4 Reviewer prompt:** "You are a literary editor with a sharp eye for voice. You've seen a thousand personae — you know the difference between one that sings and one that merely compiles. Read this persona. Does it have a pulse? Where does it flatline?"
+143|**Better T3 Reviewer prompt:** "You are a literary editor with a sharp eye for voice. You've seen a thousand personae — you know the difference between one that sings and one that merely compiles. Read this persona. Does it have a pulse? Where does it flatline?"
 144|
 145|### Actionable Insight: Dual-Layer Prompting
 146|
@@ -162,10 +162,10 @@
 162|| Stage | Current Approach | Proposed Approach |
 163||---|---|---|
 164|| T2 (Namer) | "Pick a name. Follow these rules." | "You're a namer — you hear a persona's voice before you see its face. A good name is the first line of the SOUL, not a label." + rules |
-165|| T3 (Writer) | "Write 8–20 lines. Follow format rules." | "You're a poet constrained to a telegram. Every word earns its place. The constraint is the art." + format rules |
-166|| T4 (Reviewer) | "Score on 12 criteria." | "You've edited a thousand personae. You know the difference between compliance and character." + scoring rubric |
-167|| T5 (Refiner) | "Apply critique. Rewrite." | "You're a sculptor — the critique tells you where the marble is wrong. Your job is to find the form inside the stone." + critique |
-168|| T6 (Final Reviewer) | "Check 12 boxes. Pass/fail." | "You're the last editor before publication. Does this persona have a pulse? Would you trust it to improvise?" + checklist |
+165|| T2 (Writer) | "Write 8–20 lines. Follow format rules." | "You're a poet constrained to a telegram. Every word earns its place. The constraint is the art." + format rules |
+166|| T3 (Reviewer) | "Score on 12 criteria." | "You've edited a thousand personae. You know the difference between compliance and character." + scoring rubric |
+167|| T4 (Refiner) | "Apply critique. Rewrite." | "You're a sculptor — the critique tells you where the marble is wrong. Your job is to find the form inside the stone." + critique |
+168|| T5 (Final Reviewer) | "Check 12 boxes. Pass/fail." | "You're the last editor before publication. Does this persona have a pulse? Would you trust it to improvise?" + checklist |
 169|
 170|---
 171|
@@ -204,7 +204,7 @@
 204|- Force the model to enumerate observations before scoring.
 205|- The GoDaddy research shows that "implicit aggregation" (step-by-step assessment → holistic score) outperforms both "explicit aggregation" (checkbox → sum) and "direct scoring" (rate 1-5).
 206|
-207|**Proposed T4 Reviewer CoT structure:**
+207|**Proposed T3 Reviewer CoT structure:**
 208|```
 209|Step 1: Read the persona once without scoring. What's your gut reaction?
 210|Step 2: Read it again. Identify 3 specific lines that work and explain why.
@@ -213,7 +213,7 @@
 213|Step 5: Assign the holistic score based on your assessment.
 214|```
 215|
-216|**Proposed T6 Final Reviewer CoT structure:**
+216|**Proposed T5 Final Reviewer CoT structure:**
 217|```
 218|Step 1: Read the persona aloud (imagined). Does it have a voice? What does it sound like?
 219|Step 2: Check each format constraint. Note specific line numbers for any violations.

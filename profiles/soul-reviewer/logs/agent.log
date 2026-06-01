@@ -1,0 +1,57 @@
+2026-06-01 10:38:07,462 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-06-01 10:38:07,464 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-06-01 10:38:07,466 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-06-01 10:38:07,615 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-06-01 10:38:07,617 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-06-01 10:38:07,618 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-06-01 10:38:07,621 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-06-01 10:38:07,624 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-06-01 10:38:07,648 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-06-01 10:38:07,649 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-06-01 10:38:07,653 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-06-01 10:38:07,656 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-06-01 10:38:07,658 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-06-01 10:38:07,663 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-06-01 10:38:07,666 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-06-01 10:38:07,668 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-06-01 10:38:07,670 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-06-01 10:38:07,673 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-06-01 10:38:08,273 INFO hermes_cli.plugins: Plugin discovery complete: 34 found, 28 enabled
+2026-06-01 10:38:09,291 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-06-01 10:38:09,312 INFO run_agent: No .env file found. Using system environment variables.
+2026-06-01 10:38:11,064 INFO tools.tirith_security: cosign not on PATH — installing tirith with SHA-256 verification only (install cosign for full supply chain verification)
+2026-06-01 10:38:12,014 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=MainThread:134389700421440 provider=openrouter base_url=https://openrouter.ai/api/v1 model=
+2026-06-01 10:38:12,230 INFO tools.tirith_security: tirith installed to /home/kimbo/.hermes/profiles/soul-reviewer/bin/tirith (SHA-256 only)
+2026-06-01 10:38:12,935 INFO [20260601_103809_85e7c7] agent.conversation_loop: conversation turn: session=20260601_103809_85e7c7 model= provider=openrouter platform=cli history=0 msg='work kanban task t_b90f217f'
+2026-06-01 10:38:14,900 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-4 (_call):134389633816256 provider=openrouter base_url=https://openrouter.ai/api/v1 model=
+2026-06-01 10:38:15,532 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 400 - {'error': {'message': 'No models provided', 'code': 400}, 'user_id': 'user_3AAP6ZdXTViwi9y2GgwxWGhfVSI'}
+2026-06-01 10:38:15,535 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-4 (_call):134389633816256 provider=openrouter base_url=https://openrouter.ai/api/v1 model=
+2026-06-01 10:38:15,538 WARNING [20260601_103809_85e7c7] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=Thread-3 (run_agent):134389617034944 provider=openrouter base_url=https://openrouter.ai/api/v1 model= summary=HTTP 400: No models provided
+2026-06-01 10:38:15,580 ERROR [20260601_103809_85e7c7] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'message': 'No models provided', 'code': 400}, 'user_id': 'user_3AAP6ZdXTViwi9y2GgwxWGhfVSI'}
+2026-06-01 10:39:07,503 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-06-01 10:39:07,504 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-06-01 10:39:07,505 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-06-01 10:39:07,589 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-06-01 10:39:07,589 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-06-01 10:39:07,590 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-06-01 10:39:07,590 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-06-01 10:39:07,591 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-06-01 10:39:07,600 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-06-01 10:39:07,600 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-06-01 10:39:07,602 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-06-01 10:39:07,603 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-06-01 10:39:07,604 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-06-01 10:39:07,606 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-06-01 10:39:07,607 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-06-01 10:39:07,608 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-06-01 10:39:07,609 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-06-01 10:39:07,610 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-06-01 10:39:07,970 INFO hermes_cli.plugins: Plugin discovery complete: 34 found, 28 enabled
+2026-06-01 10:39:08,619 INFO run_agent: No .env file found. Using system environment variables.
+2026-06-01 10:39:10,287 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=MainThread:127990615283520 provider=openrouter base_url=https://openrouter.ai/api/v1 model=
+2026-06-01 10:39:12,165 INFO [20260601_103908_fba6f7] agent.conversation_loop: conversation turn: session=20260601_103908_fba6f7 model= provider=openrouter platform=cli history=0 msg='work kanban task t_b90f217f'
+2026-06-01 10:39:13,492 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-3 (_call):127990428071616 provider=openrouter base_url=https://openrouter.ai/api/v1 model=
+2026-06-01 10:39:13,881 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 400 - {'error': {'message': 'No models provided', 'code': 400}, 'user_id': 'user_3AAP6ZdXTViwi9y2GgwxWGhfVSI'}
+2026-06-01 10:39:13,883 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-3 (_call):127990428071616 provider=openrouter base_url=https://openrouter.ai/api/v1 model=
+2026-06-01 10:39:13,886 WARNING [20260601_103908_fba6f7] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=Thread-2 (run_agent):127990548829888 provider=openrouter base_url=https://openrouter.ai/api/v1 model= summary=HTTP 400: No models provided
+2026-06-01 10:39:13,932 ERROR [20260601_103908_fba6f7] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'message': 'No models provided', 'code': 400}, 'user_id': 'user_3AAP6ZdXTViwi9y2GgwxWGhfVSI'}

@@ -1,19 +1,19 @@
-# T6 Final Review — Dale (Carter) — REJECTED (2nd attempt)
+# T5 Final Review — Dale (Carter) — REJECTED (2nd attempt)
 
 **Date:** 2026-05-26
 **Reviewer:** final-reviewer
 
 ## Result: HARD GATE FAILURE — Word Count > 200
 
-The draft was checked against the 16-point hard gate checklist from stage-t6.md. One gate failed.
+The draft was checked against the 16-point hard gate checklist from stage-t5.md. One gate failed.
 
 ### Failed Gate
 
-**Word count ≤ 200** — The script reports **203 words** after the H1. Per stage-t6.md: *"Word count > 200 after H1. Cut lines, not words. Long sentences are a workaround — the word count catches the cheat. This cap is auto-reject at T6 regardless of other scores."*
+**Word count ≤ 200** — The script reports **203 words** after the H1. Per stage-t5.md: *"Word count > 200 after H1. Cut lines, not words. Long sentences are a workaround — the word count catches the cheat. This cap is auto-reject at T5 regardless of other scores."*
 
 ### How the count changed
 
-The T5 fix added `a carter:` and changed `the carter checks` → `you check`, net +1 word. The first T6 review counted 199 but the actual count was 202 — the fix pushed it over 200. (The check script is authoritative for word count.)
+The T4 fix added `a carter:` and changed `the carter checks` → `you check`, net +1 word. The first T5 review counted 199 but the actual count was 202 — the fix pushed it over 200. (The check script is authoritative for word count.)
 
 ### Passing Gates (15/16)
 
@@ -53,5 +53,5 @@ Only **3 words** need to go. Any single line trim of 3 words suffices. Do not ch
 
 ### Previous History
 
-- **T6 rejection #1:** Identity opening — line 3 jumped into metaphor instead of naming archetype noun. → **FIXED**
-- **T6 rejection #2 (this one):** Word count 203 > 200 cap. → Needs trimming.
+- **T5 rejection #1:** Identity opening — line 3 jumped into metaphor instead of naming archetype noun. → **FIXED**
+- **T5 rejection #2 (this one):** Word count 203 > 200 cap. → Needs trimming.

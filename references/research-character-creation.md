@@ -230,7 +230,7 @@
 230|- Names that **imply worldbuilding** (the name tells a micro-story)
 231|- Names with **distinct rhythm** from existing personae
 232|
-233|### 5.3 For T3 Writer (Drafting)
+233|### 5.3 For T2 Writer (Drafting)
 234|
 235|**Instead of:** Avoiding negative patterns (Don't copy, Don't exceed word count).
 236|**Also build:**
@@ -240,7 +240,7 @@
 240|- A **first-impression hook** — the first 1-2 lines should be the thing users notice
 241|- **Double-edged aspects** — identity lines that both enable and constrain
 242|
-243|### 5.4 For T4 Reviewer (Critique)
+243|### 5.4 For T3 Reviewer (Critique)
 244|
 245|**Instead of:** Checking for format violations and negative patterns.
 246|**Also test:**
@@ -250,7 +250,7 @@
 250|- **The metaphor-family test:** Is there a coherent source domain? Do all comparisons come from the same world?
 251|- **The aspect test:** Could each major line both help AND hurt? Is it double-edged?
 252|
-253|### 5.5 For T5 Refiner and T6 Final Reviewer
+253|### 5.5 For T4 Refiner and T5 Final Reviewer
 254|
 255|**Final quality gates (positive, not just negative):**
 256|1. The persona has a **clear emotional fantasy** — you can describe what interacting with it *feels like* in one phrase

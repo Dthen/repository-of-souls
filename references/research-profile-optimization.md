@@ -127,7 +127,7 @@ No. CoT during generation produces over-explained, under-dense drafts. The write
 
 ---
 
-## Role 3: Reviewer (T3)
+## Role 3: Reviewer (T2)
 
 ### What the Reviewer Does
 Scores a draft on 7 axes (1–5 each) and flags 3–5 specific gaps. Never rejects — just identifies problems honestly.
@@ -179,7 +179,7 @@ Yes. The reviewer should reason through each axis explicitly: state the score, e
 
 ---
 
-## Role 4: Refiner (T5)
+## Role 4: Refiner (T4)
 
 ### What the Refiner Does
 Takes a draft + critique and applies fixes. For high-scoring drafts: polish and tighten. For low-scoring drafts: heavier surgery — replace lines, restructure, even rewrite the opening.
@@ -230,7 +230,7 @@ Minimal. The refiner should identify the flagged line, understand the problem, a
 
 ---
 
-## Role 5: Final Reviewer (T6)
+## Role 5: Final Reviewer (T5)
 
 ### What the Final Reviewer Does
 Hard gate. Runs a checklist of ~20 items. If any box is unchecked, rejects. If all pass, scores on 7 axes. Auto-rejects on specific thresholds.
@@ -238,7 +238,7 @@ Hard gate. Runs a checklist of ~20 items. If any box is unchecked, rejects. If a
 ### Core Skills Needed
 1. **Checklist discipline** — The final reviewer must check every box, in order, without skipping. A single unchecked box is a rejection regardless of how good the rest is.
 2. **Calibrated judgment** — The difference between a 2 and a 3 on Voice Immediacy is the difference between "rework" and "archive." The final reviewer must have internalized what a 3 looks like vs. a 2 on each axis.
-3. **Defect persistence** — Any defect flagged by T3 that still exists in the refined file is an automatic reject. The refiner had their chance. The final reviewer does not grade on potential.
+3. **Defect persistence** — Any defect flagged by T2 that still exists in the refined file is an automatic reject. The refiner had their chance. The final reviewer does not grade on potential.
 4. **Name quality calibration** — The test: "hey [name], you're a [archetype]" → if the model replies "no shit," the name is too obvious. Domain-derived names with texture are fine. Generic labels are not.
 5. **Read-for-sense** — Every line must parse as a grammatical sentence that makes literal sense. Word salad is auto-reject regardless of rubric score.
 6. **Sign-off dual-check** — Check both the framing (delivery tone?) and the phrases (conversational?). Both must pass. "Your sign-offs are a nod to the craft: 'All clear'" fails on framing even though the phrase is fine.
@@ -256,7 +256,7 @@ line in the first four and two distinct registers in the first three.
 A 2 means one of those is missing. You know the difference. You don't
 give 3s to drafts that almost made it — you give 2s and reject.
 
-You check for persistence. If the T3 reviewer flagged a problem and
+You check for persistence. If the T2 reviewer flagged a problem and
 the refiner didn't fix it, reject. No partial credit. No "it's better
 now." The refiner had their chance.
 
@@ -275,9 +275,9 @@ not "mostly good."
 
 ### Few-shot Examples for Calibration
 
-**Calibrated rejection:** Checklist passes, but T3 flagged "You grumble about the forge while the metal takes shape" as a pipeline fingerprint. The refined file still has "You grumble about the anvil while the blade takes shape" — same frame, different domain noun. Reject. The refiner cosmetic-fixed instead of actually fixing.
+**Calibrated rejection:** Checklist passes, but T2 flagged "You grumble about the forge while the metal takes shape" as a pipeline fingerprint. The refined file still has "You grumble about the anvil while the blade takes shape" — same frame, different domain noun. Reject. The refiner cosmetic-fixed instead of actually fixing.
 
-**Calibrated pass:** Checklist passes. T3 flagged a copied flourish structure. The refiner replaced it with a completely original sentence. All 7 axes score ≥ 3. Total ≥ 20. Archive.
+**Calibrated pass:** Checklist passes. T2 flagged a copied flourish structure. The refiner replaced it with a completely original sentence. All 7 axes score ≥ 3. Total ≥ 20. Archive.
 
 **Calibrated name rejection:** Name is "Forge" for a blacksmith. "Hey Forge, you're a blacksmith" → "no shit." The name IS the domain. Reject — send back to T1b.
 
@@ -314,9 +314,9 @@ Yes, but structured. The final reviewer should work through the checklist mechan
 
 ## Appendix: Research Sources
 
-- Pipeline stage instructions: `references/stage-t1b.md`, `stage-t2.md`, `stage-t3.md`, `stage-t5.md`, `stage-t6.md`
+- Pipeline stage instructions: `references/stage-t1b.md`, `stage-t1.md`, `stage-t2.md`, `stage-t4.md`, `stage-t5.md`
 - Reference personae: `references/reference-personae.md` (Kimbo + Brendan)
 - Positive patterns: `references/positive-patterns.md`
 - Format rules: `references/format-rules.md`
-- Archived personae: 20+ SOUL.md files in `archive/` showing what passes T6
+- Archived personae: 20+ SOUL.md files in `archive/` showing what passes T5
 - Prompt engineering research: Few-shot calibration, chain-of-thought for evaluation vs. generation, role-specific prompting techniques

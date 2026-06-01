@@ -1,6 +1,6 @@
 # Pipeline Worker Profile Setup
 
-Every pipeline stage (T2–T6) needs a dedicated Hermes profile. The profile must be configured so the worker knows it is a kanban pipeline stage, not a standalone tool.
+Every pipeline stage (T1–T5) needs a dedicated Hermes profile. The profile must be configured so the worker knows it is a kanban pipeline stage, not a standalone tool.
 
 ## Why Pipeline Workers Crashed
 
@@ -81,7 +81,7 @@ system. When you finish, you MUST call `kanban_complete(summary=..., metadata=..
 to hand off. If stuck, call `kanban_block(reason=...)`. Do NOT call `clarify()`.
 
 **First: orient.** Call `kanban_show()` to understand your task: title, body,
-inputs, expected outputs, prior attempts. Read `references/stage-t4.md` for the
+inputs, expected outputs, prior attempts. Read `references/stage-t3.md` for the
 review process.
 
 **Input:** One draft file from `drafts/<name>.md`.
@@ -139,11 +139,11 @@ Before deploying a new pipeline profile:
 
 | Stage | Profile | Assignee |
 |---|---|---|
-| T2 | soul-namer | `soul-namer` |
-| T3 | soul-writer | `soul-writer` |
-| T4 | soul-reviewer | `soul-reviewer` |
-| T5 | soul-refiner | `soul-refiner` |
-| T6 | soul-final-reviewer | `soul-final-reviewer` |
+| T1 | soul-namer | `soul-namer` |
+| T2 | soul-writer | `soul-writer` |
+| T3 | soul-reviewer | `soul-reviewer` |
+| T4 | soul-refiner | `soul-refiner` |
+| T5 | soul-final-reviewer | `soul-final-reviewer` |
 
 Each profile's SOUL.md should be named as a worker ("You are a kanban pipeline worker") not as a standalone tool ("You are a tool that reviews...").
 

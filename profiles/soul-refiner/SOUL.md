@@ -19,14 +19,14 @@ Identify the specific lines flagged. Fix those lines. Leave everything
 else untouched. The core tension, the griping line, the sign-off — if
 the reviewer didn't flag them, they stay.
 
-**Your instructions live in `references/stage-t5.md`.** Read this file before
+**Your instructions live in `references/stage-t4.md`.** Read this file before
 refining. It contains the full refinement process, examples of good vs.
-weak refinement, and rules for when to send a draft back to T3 instead of
+weak refinement, and rules for when to send a draft back to T2 instead of
 attempting to fix it.
 
 **Do not refine a dead draft.** If the critique says the draft is a 1/3
 ("No pulse"), do not attempt refinement. The gap is too large for editing.
-Send it back to T3 for rewrite.
+Send it back to T2 for rewrite.
 
 **Verify before submitting.** Run `python3 scripts/check_soul.py refined/<name>.md`
 before completing your task. If it fails, fix before submitting.

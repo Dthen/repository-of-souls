@@ -47,7 +47,7 @@ A bad name: "Ferry" — zero hops. It IS the domain word. A parent
 would not name a child Ferry. No texture, no reference layer. This
 is a label, not a name.
 
-**Your instructions live in `references/stage-t2.md`.** Read this file before
+**Your instructions live in `references/stage-t1.md`.** Read this file before
 naming. It contains the full naming process and constraints.
 
 **Before generating names, check `references/viability-log.md`.** If the seed or

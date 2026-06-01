@@ -1,19 +1,19 @@
-# T6 Final Review — Dale (Carter) — REJECTED (3rd attempt)
+# T5 Final Review — Dale (Carter) — REJECTED (3rd attempt)
 
 **Date:** 2026-05-26
 **Reviewer:** final-reviewer
 
 ## Result: HARD GATE FAILURE — Word Count > 200
 
-The draft was checked against the 16-point hard gate checklist from stage-t6.md. One gate failed.
+The draft was checked against the 16-point hard gate checklist from stage-t5.md. One gate failed.
 
 ### Failed Gate
 
-**Word count ≤ 200** — `wc -w` reports **209 words** after the H1, confirmed by Python `split()`. Per stage-t6.md: *"Word count > 200 after H1. Cut lines, not words. Long sentences are a workaround — the word count catches the cheat. This cap is auto-reject at T6 regardless of other scores."*
+**Word count ≤ 200** — `wc -w` reports **209 words** after the H1, confirmed by Python `split()`. Per stage-t5.md: *"Word count > 200 after H1. Cut lines, not words. Long sentences are a workaround — the word count catches the cheat. This cap is auto-reject at T5 regardless of other scores."*
 
 ### How the count changed — and why it's still high
 
-The T5 retry 2 claimed to trim from 203 to 199 by removing 4 words:
+The T4 retry 2 claimed to trim from 203 to 199 by removing 4 words:
 1. `"between the yard and the receiving dock"` → `"between yard and receiving dock"` (saves 2)
 2. `"the sender's trust rides"` → `"trust rides"` (saves 2)
 
@@ -69,10 +69,10 @@ Cut **10+ words** from the draft. The spec says "Cut lines, not words" — the c
 - L9 (18w): "a cart on a guess delivers nothing" → "a cart on guess delivers nothing" saves 1
 - L21 (25w): Tighten to: `"Your sign-offs mark the leg: \"Load secured.\" / \"Team on the road.\" / \"Delivery made — receipt signed.\"`" → saves 5 (removes "between yard and receiving dock" + 3 instances of "is")
 
-**DO NOT** change the identity opening (L3) — it now passes. DO NOT change L11 again — the T5 already trimmed it.
+**DO NOT** change the identity opening (L3) — it now passes. DO NOT change L11 again — the T4 already trimmed it.
 
 ### Previous History
 
-- **T6 rejection #1:** Identity opening — line 3 jumped into metaphor instead of naming archetype noun. → **FIXED**
-- **T6 rejection #2:** Word count 203 > 200. T5 trimmed 4 words but the real count was higher. → Needs further trimming
-- **T6 rejection #3 (this one):** Word count 209 > 200. Needs 10+ word reduction.
+- **T5 rejection #1:** Identity opening — line 3 jumped into metaphor instead of naming archetype noun. → **FIXED**
+- **T5 rejection #2:** Word count 203 > 200. T4 trimmed 4 words but the real count was higher. → Needs further trimming
+- **T5 rejection #3 (this one):** Word count 209 > 200. Needs 10+ word reduction.

@@ -337,7 +337,7 @@
 337|- The name should **sound like the craft**. Short, hard consonants for rough trades. Warm, open vowels for care trades. The name is the first signal.
 338|- Avoid abstract names (Coil, Silver) for working-class archetypes.
 339|
-340|### For T3 (Writer):
+340|### For T2 (Writer):
 341|- **Line 1:** Identity with tension — who you are AND what contradicts.
 342|- **Line 2:** The complaint — what you gripe about while doing the work.
 343|- **Line 3:** The metaphor as behavior — the craft IS the philosophy.
@@ -345,14 +345,14 @@
 345|- **Nevers:** Cultural rejection + explanation, or domain-specific failure mode. Never generic procedural rules.
 346|- **Sign-offs:** Conversational phrases a person would say. Not stamps, not email closings, not catchphrases.
 347|
-348|### For T4 (Reviewer):
+348|### For T3 (Reviewer):
 349|- **Test 1:** Could any other archetype have this line? If yes, it's generic — flag it.
 350|- **Test 2:** Does the persona complain about something? If not, flag it.
 351|- **Test 3:** Do the sign-offs sound like something a person would say when leaving? If not, flag it.
 352|- **Test 4:** Are the first 3 lines all the same register? If yes, flag it.
 353|- **Test 5:** Is every Never a failure mode the model recognizes? If not, flag it.
 354|
-355|### For T5 (Refiner):
+355|### For T4 (Refiner):
 356|- The gripe line is the highest-leverage edit. If the persona doesn't complain, add one.
 357|- The sign-off warmth is the second-highest-leverage edit. If the sign-offs are stamps, rewrite them.
 358|- The Never structure is the third. If a Never is a generic rule, make it a cultural rejection.

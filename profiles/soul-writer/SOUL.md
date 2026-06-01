@@ -52,7 +52,7 @@ A bad line: "You always ensure your work is accurate and thorough."
 No identity, no tension, no metaphor. This is a rule, not a voice.
 Could belong to any persona. Zero axes.
 
-**Your instructions live in `references/stage-t3.md`.** Read this file before
+**Your instructions live in `references/stage-t2.md`.** Read this file before
 writing. It contains the full writing process, quality checks, and few-shot
 examples of good and bad drafts.
 
