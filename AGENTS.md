@@ -2,20 +2,21 @@
 
 ## Pipeline Overview
 
-Six stages, strictly linear:
+Seven stages, strictly linear:
 
 ```
-T0 (Viability Screener) → T1 (Namer) → T2 (Writer) → T3 (Reviewer) → T4 (Refiner) → T5 (Final Reviewer)
+T0 (Researcher) → T1 (Viability Screener) → T2 (Namer) → T3 (Writer) → T4 (Reviewer) → T5 (Refiner) → T6 (Final Reviewer)
 ```
 
 | Stage | Assignee | Input | Output |
 |---|---|---|---|
-| T0 | `soul-namer` or `soul-writer` | `seeds/<seed>.md` | Viability verdict |
-| T1 | `soul-namer` | `seeds/<seed>.md` | `names/<name>.md` |
-| T2 | `soul-writer` | `names/<name>.md` + seed | `drafts/<name>.md` |
-| T3 | `soul-reviewer` | `drafts/<name>.md` | `critiques/<name>.md` |
-| T4 | `soul-refiner` | `drafts/<name>.md` + `critiques/<name>.md` | `refined/<name>.md` |
-| T5 | `soul-final-reviewer` | `refined/<name>.md` | `archive/<name>.md` (or T4 retry) |
+| T0 | `soul-researcher` | `archive/`, `seeds/` | New seed files + T1 tasks |
+| T1 | `soul-namer` | `seeds/<seed>.md` | Viability verdict (GO/HOLD/KILL) |
+| T2 | `soul-namer` | `seeds/<seed>.md` | `names/<name>.md` |
+| T3 | `soul-writer` | `names/<name>.md` + seed | `drafts/<name>.md` |
+| T4 | `soul-reviewer` | `drafts/<name>.md` | `critiques/<name>.md` |
+| T5 | `soul-refiner` | `drafts/<name>.md` + `critiques/<name>.md` | `refined/<name>.md` |
+| T6 | `soul-final-reviewer` | `refined/<name>.md` | `archive/<name>.md` (or T5 retry) |
 
 **For detailed stage instructions, see the corresponding reference file in `references/`.**
 
@@ -26,12 +27,13 @@ T0 (Viability Screener) → T1 (Namer) → T2 (Writer) → T3 (Reviewer) → T4 
 | File | Contents |
 |---|---|
 | [`references/orchestration.md`](references/orchestration.md) | Task creation rules, chain validation, pre-flight checks, retry chains, file path rules, git credentials, naming conventions |
-| [`references/stage-t0.md`](references/stage-t0.md) | T0 Viability Screener instructions |
-| [`references/stage-t1.md`](references/stage-t1.md) | T1 Namer instructions |
-| [`references/stage-t2.md`](references/stage-t2.md) | T2 Writer instructions |
-| [`references/stage-t3.md`](references/stage-t3.md) | T3 Reviewer scoring rubric and gap flags |
-| [`references/stage-t4.md`](references/stage-t4.md) | T4 Refiner instructions |
-| [`references/stage-t5.md`](references/stage-t5.md) | T5 Final Reviewer hard-gate checklist, scoring rubric, archive instructions, and retry chain rules |
+| [`references/stage-researcher.md`](references/stage-researcher.md) | T0 Researcher — archetype discovery, seed generation, pipeline spawning |
+| [`references/stage-t1.md`](references/stage-t1.md) | T1 Viability Screener instructions |
+| [`references/stage-t2.md`](references/stage-t2.md) | T2 Namer instructions |
+| [`references/stage-t3.md`](references/stage-t3.md) | T3 Writer instructions |
+| [`references/stage-t4.md`](references/stage-t4.md) | T4 Reviewer scoring rubric and gap flags |
+| [`references/stage-t5.md`](references/stage-t5.md) | T5 Refiner instructions |
+| [`references/stage-t6.md`](references/stage-t6.md) | T6 Final Reviewer hard-gate checklist, scoring rubric, archive instructions, and retry chain rules |
 | [`references/format-rules.md`](references/format-rules.md) | Hard format constraints (lines, words, Nevers, sign-offs, filename case) |
 | [`references/positive-patterns.md`](references/positive-patterns.md) | What good personae do right, what sign-offs are (and are not) |
 | [`references/reference-personae.md`](references/reference-personae.md) | Kimbo + Brendan the Wizen — examples to study, not templates to copy |
@@ -61,4 +63,4 @@ Full format constraints (line count, word count, Never rules, sign-off rules, et
 
 ## Version
 
-v3.0 — 2026-06-01
+v4.0 — 2026-06-01

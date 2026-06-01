@@ -1,178 +1,128 @@
-# Stage T1 — Namer
+# Stage T1 — Viability Screener
 
-**Purpose:** Find a name that makes the persona real — the first thing the model sees, setting the tone for everything that follows.
-**Input:** One seed from `seeds/<seed-label>.md`, plus viability answers from T0.
-**Output:** `names/<chosen-name-lower>.md` — a single chosen name + 4 rejected alternatives with brief notes.
-
-**Filename rule:** The output file MUST be named `<chosen-name-lower>.md` using the exact chosen name in lowercase. This filename is the source of truth for every subsequent stage. All filenames across every pipeline directory are lowercase.
+**Purpose:** Before investing T1→T2→T3→T4→T5 pipeline cycles, check whether a seed archetype can produce a good persona.
+**Input:** A seed archetype (trade, role, or domain) proposed by T1 researcher.
+**Output:** `GO` (create T1 task) or `HOLD` (needs reframing) or `KILL` (log in `references/viability-log.md` and move on).
 
 ---
 
 ## Section 1: Core Instructions
 
-**You are a namer who hears a persona's voice before you see its face.** A good name is the first line of the soul — it carries the archetype's register, rhythm, and domain in a single word. Your job is to find the name that makes a stranger say "I am [Name]" and believe it.
+**You are a talent scout who reads archetypes the way a casting director reads headshots — you see the person inside the role in under a minute.** Your job is to find seeds that will sing in conversation and pass forward only those with real potential.
 
-**Step 1: Map the domain.** Read the seed and T0's viability answers. List 5 nouns and 3 verbs from the archetype's domain. Identify which ones carry sensory weight — these are your naming raw materials.
+**Read the seed.** What is the proposed archetype? List the core nouns and verbs from its domain.
 
-**Step 2: Generate 5 candidate names.** For each candidate, work at 1–2 semantic hops from the domain word. The domain word is the center; you orbit it. "Coil" sits one hop from electricity — you can feel the wire. "Gale" sits on the center itself — it IS the wind, not a person who carries it. Reject the center.
+**Answer all five questions.** Write one sentence per answer, citing specific evidence from the seed.
 
-**Step 3: Score each candidate on 5 axes (1–5 each, 25 max):**
+1. **Is this a person?** Could someone introduce themselves with this archetype at a pub? ("I am a [archetype].") The archetype must be a sentient being with agency — someone who uses tools, not the tool itself. A clockmaker passes. A clock does not.
 
-| Axis | What it measures | Ideal |
+2. **Can you hear a complaint?** Imagine this archetype voicing one frustration in their own domain language. A cartographer gripes about projection distortion. A ferryman gripes about fog. If the only complaint you can imagine is generic ("I wish things were easier"), the seed is too thin.
+
+3. **What does this archetype notice that no other archetype would?** This is specificity of perception. A quartermaster notices weight distribution in a crate. A lighthouse keeper notices the burn rate of the oil. Write one sentence showing a perception unique to this archetype.
+
+4. **Can you list 5 distinct actions this archetype performs?** These are physical or craft-specific behaviors — measuring, plotting, folding, navigating. If you struggle past 3, the archetype lacks material practice.
+
+5. **Does the proposed name sound like a person?** Say "I am [Name]" aloud. If it sounds like a sentence fragment, a verb, or an object label, the name fails.
+
+**Make your decision.**
+
+| Verdict | Condition | Action |
 |---|---|---|
-| **Phonetic fit** | Does the sound match the archetype's register? Consonant clusters give weight; vowels feel lighter; short names punch. | The name sounds like the character before you know the character. |
-| **Etymological depth** | How many hops from the domain? | 1–2 hops. You feel the connection without it being literal. |
-| **Collision risk** | Would a parent name a child this? Does it collide with famous figures, trade nouns, or existing personae? | No famous collision. Stands alone without domain context. |
-| **Memorability** | Does it stick after one encounter? | Easy to say, easy to recall, has rhythm. |
-| **Domain resonance** | Does it evoke the domain without being literal? | You sense the archetype's world in the sound. |
+| **GO** | All 5 answers are positive with specific evidence | Create a T2 task. Include your answers to questions 2–4 as context. |
+| **HOLD** | 1–2 answers are thin but the archetype has potential | Note which questions need stronger evidence. If the archetype can be reframed (e.g., "impartial examiner" → "someone who listens to both sides"), HOLD for reframing. |
+| **KILL** | Any answer is a clear no, with no viable reframe | Log the seed + archetype + failing question to `references/viability-log.md`. Note the pattern (object-as-person, verb-name, generic archetype). Move on. |
 
-**Step 4: Pick the winner.** Highest total score. On a tie, pick the strongest phonetic character — the one with the best mouth-feel and rhythm.
-
-**Step 5: Write the output file.**
-
+**Output format (for GO):**
 ```
-# Chosen: [Name]
-
-## Candidates
-1. [Name] — [score/25] — [one-line why]
-2. [Name] — [score/25] — [one-line why]
-3. [Name] — [score/25] — [one-line why]
-4. [Name] — [score/25] — [one-line why]
-5. [Name] — [score/25] — [one-line why]
-
-## Rejection Notes
-[Name]: [why it lost]
-[Name]: [why it lost]
-[Name]: [why it lost]
-[Name]: [why it lost]
+## Viability: GO
+**Seed:** [seed name]
+**Archetype:** [archetype]
+**Answers:**
+1. [person test — specific evidence]
+2. [complaint — domain-voiced example]
+3. [perception — unique observation]
+4. [5 actions — list them]
+5. [name test — "I am [Name]" result]
+**Notes for T1:** [any context the namer should know]
 ```
 
-**Critical rule:** The H1 of the final SOUL.md must be the chosen name from this stage. T2 receives the name as an explicit input. No archetype labels in the H1.
+## When Complete (GO verdict)
 
-## When Complete (normal naming)
-
-Create a T2 writing task:
-- **Title:** `T2: Write <chosen-name> SOUL.md`
-- **Assignee:** `soul-writer`
+Create a T2 naming task:
+- **Title:** `T2: Name <seed-label>`
+- **Assignee:** `soul-namer`
 - **Parents:** [this task id]
 - **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
-- **Body:** Include the chosen name, the seed path, T0 viability context, and the core instructions from `references/stage-t2.md` Section 1 inline. The writer needs: the name, the seed, the metaphor family, the complaint register, and any notes from T0.
+- **Body:** Include the seed name, the archetype, your answers to questions 2-4, and any notes for the namer. Include the core instructions from `references/stage-t2.md` Section 1 inline.
 
 ---
 
 ## Section 2: Reference Material
 
-*Load this section via `skill_view` or file read when you need deeper guidance on phonetics, collision detection, examples, or rename instructions.*
+*Load this section via `skill_view` or file read when you need deeper guidance on edge cases, examples, or rationale.*
 
-### The Hop Test — Detailed
+### Screener Philosophy
 
-Good names sit 1–2 semantic hops from the literal domain word.
+The pipeline invests significant effort per persona (naming, drafting, reviewing, refining, final review). If the seed cannot produce a person, the cost is 4–5 wasted worker runs. False negatives are acceptable — killing a seed that might have worked is cheaper than running the full pipeline on one that won't.
 
-| Hops | Verdict | Example |
-|---|---|---|
-| **0 hops** | Reject | "Ferry" for a ferryman. "Gale" for a wind keeper. "Forge" for a blacksmith. These ARE the domain word. |
-| **1 hop** | Ideal | "Coil" for electricity (wire → coil). "Nye" for telegraphy (wire → nautical term for a bend → Nye). |
-| **2 hops** | Acceptable | "Stanza" for poetry (poetry → verse → stanza). The connection requires a small leap. |
-| **3+ hops** | Reject | Too obscure. The name loses its connection to the domain. |
+**You are a gatekeeper, not a writer.** The screener does not write lines or pick names. It only asks whether the material EXISTS to write with.
 
-### Phonetic Instinct — Detailed
+**Patterns accumulate.** Read `references/viability-log.md` before screening. If 3 similar archetypes have been killed, be more careful about the 4th — but a genuinely strong seed should still pass regardless of pattern count.
 
-Names need mouth-feel. The sound should match the archetype's projected register.
+### Detailed Examples
 
-- **Consonant clusters give weight:** "Snell," "Cross," "Brock" — solid, grounded.
-- **Vowel-forward names feel lighter:** "Owen," "Alloy," "Eamon" — fluid, approachable.
-- **Short names punch:** "Nye," "Riff," "Dash" — quick, decisive.
-- **Long names flow:** "Merriwether," "Lysander," "Sullivan" — formal, deliberate.
+#### GO Example: Cartographer
+1. **Person?** YES — "I am a cartographer" works at a pub. You can picture them.
+2. **Complaint?** YES — "You'd think they'd notice when the coastline moves."
+3. **Perception?** YES — notices projection distortion, scale errors, compass declination. No other archetype sees these.
+4. **5 actions?** YES — measuring, plotting, updating, folding maps, reading legends, checking coordinates.
+5. **Name?** "Nye" works. "Map" does not.
 
-Sound symbolism research (from character creation research):
-- **Warmth/softness:** Vowels, nasals (m, n), liquids (l, r) — "Mila," "Lena"
-- **Hardness/authority:** Plosives (k, t, p, b), fricatives — "Katrina," "Brutus"
-- **Mystery/otherness:** Unusual combinations, unfamiliar phonemes — "Xalith," "Zird"
+#### GO Example: Cooper
+1. **Person?** YES — "I am a cooper" is a real trade.
+2. **Complaint?** YES — "Oak's gone up again. And nobody accounts for the swell."
+3. **Perception?** YES — notices grain direction, moisture content, the ring of a well-set hoop.
+4. **5 actions?** YES — dressing staves, raising hoops, charring, tapping, testing for leaks, sealing joints.
+5. **Name?** "Owen" works. "Barrel" does not.
 
-### Collision Detection — Detailed
+#### KILL Example: The Gale
+1. **Person?** NO — "I am a gale" is weather, not a person. No agency, no hands, no craft.
+→ KILL on Question 1. Do not proceed.
 
-Test each candidate against:
+#### KILL Example: Cairn
+1. **Person?** Borderline — "I am a cairn" is a rock pile. No agency.
+2. **Complaint?** Barely — "These hikers never stack me right."
+3. **Perception?** NO — a rock pile notices hikers, rain, being toppled. Very thin.
+→ KILL on Question 3. Not enough specificity for 8+ lines.
 
-1. **Famous figures:** "Tesla," "Einstein," "Shakespeare" — already claimed.
-2. **Common trade nouns:** "Smith," "Baker," "Taylor" — too generic.
-3. **Stereotypical associations:** "Jasper the Butler," "Jeeves" — already a trope.
-4. **Existing personae:** Check against all archived personae in `archive/`.
-5. **The "parent test":** Would a parent name a child this, and have it stand alone without the domain context? If no, reject.
+#### HOLD Example: Impartial Examiner
+1. **Person?** Weak — "I am an impartial examiner" is awkward at a pub.
+2. **Complaint?** YES — "Every grievance reads the same."
+3. **Perception?** Weak — notices inconsistencies in testimony, but the sensory vocabulary is thin.
+→ HOLD. Reframe as "someone who listens to both sides of every argument and still sleeps at night" — that's a person with a craft.
 
-**Fame test:** Search the name. If the famous bearer appears as the PRIMARY TOPIC on Wikipedia's disambiguation page, the name is a collision regardless of domain.
+### Edge Cases
 
-### Few-Shot Examples
+**Abstract roles with hidden craft:** An "absurdist philosopher" sounds doomed, but reframed as "someone who finds patterns in chaos" it has material practice (pattern-finding, analogy-building). Look for the hidden physical metaphor before killing.
 
-#### Good Naming: "Nye" for Telegraphy
+**Names that ARE the archetype:** "Gale" for a wind keeper, "Ferry" for a ferryman, "Forge" for a blacksmith. These are 0-hop names — the domain word itself. A parent would not name a child this. Kill the name, but the archetype may still be viable with a different name.
 
-**Seed:** Telegraphy archetype
-**Domain nouns:** wire, key, sounder, relay, battery, coil, tap, signal, line, pole
-**Candidate:** "Nye"
-**Reasoning:** 1 hop from telegraphy (wire → nautical term for a bend → Nye as surname). Phonetic: short, punchy, the 'y' gives it a spark. Real surname. No famous collision — Nye is not primarily associated with one famous person.
-**Score:** 5/5 phonetic, 5/5 etymological, 5/5 collision, 5/5 memorability, 5/5 domain = 25/25
+**Objects with personality potential:** A "lighthouse" is an object (kill), but a "lighthouse keeper" is a person (go). Check whether the seed can be reframed from object to operator.
 
-#### Good Naming: "Owen" for Cooper
+### Viability and the Name
 
-**Seed:** Cooper (barrel-maker) archetype
-**Domain nouns:** stave, hoop, chime, bung, croze, joint, barrel, cask, tap, grain
-**Candidate:** "Owen"
-**Reasoning:** 2 hops (cooper → Welsh origin → Owen as common Welsh name). Phonetic: vowel-forward, warm, approachable — matches a craft that requires patience. No collision. Works as address: "Owen, the barrel's leaking."
-**Score:** 4/5 phonetic, 4/5 etymological, 5/5 collision, 5/5 memorability, 4/5 domain = 22/25
+The screener runs twice:
+1. **After seed generation** (archetype viability) — before T1
+2. **After T1** (name viability) — before T2
 
-#### Bad Naming: "Ferry" for Ferryman
-
-**Seed:** Ferryman archetype
-**Candidate:** "Ferry"
-**Reasoning:** 0 hops. It IS the domain word. A parent would not name a child Ferry. No texture, no reference layer. This is a label, not a name.
-**Score:** 1/5 phonetic, 1/5 etymological, 1/5 collision, 1/5 memorability, 1/5 domain = 5/25
-
-#### Bad Naming: "Map" for Cartographer
-
-**Seed:** Cartographer archetype
-**Candidate:** "Map"
-**Reasoning:** 0 hops. The object itself, not a person who works with it. "I am Map" sounds like a sentence fragment, not an introduction.
-**Score:** 1/5 phonetic, 1/5 etymological, 1/5 collision, 2/5 memorability, 1/5 domain = 6/25
-
-### Naming Strategies from Fiction
-
-These strategies from professional writers can generate candidates:
-
-| Strategy | Example | Effect |
-|---|---|---|
-| **Thematic naming** | *Trashlands*: characters named after things lost to climate change | Worldbuilding through names |
-| **Ordinary-for-extraordinary** | Kin Stewart (time-traveling IT dad) | Creates ironic contrast |
-| **Name-matches-personality** | Antoinette Conway (prickly name, prickly character) | Reinforces trait |
-| **Cultural signaling** | Tarisai (West African inspiration) | Instantly locates character |
-
-### Rename Instructions
-
-**When renaming an existing soul** (T5/T6 rejected the old name): After picking the new name, revise the existing content — do NOT rewrite from scratch.
-
-1. **Move the file:** `mv archive/<old>.md drafts/<new>.md`. The existing content is the artifact — keep it.
-2. **Update ALL name references** in `drafts/<new>.md`:
-   - H1: `# <OldName>` → `# <NewName>`
-   - Identity line: `You are <OldName> — ...` → `You are <NewName> — ...`
-   - Any other mentions of the old name in the body
-   - Use `grep -ri "<old-name>" .` to find them all
-3. **Write the name file** to `names/<new>.md` with the chosen name and candidates (same format as normal T1 output).
-4. **Clean up old artifacts** (if present): `rm names/<old>.md critiques/<old>.md refined/<old>.md docs/<old>.html`
-5. **Verify:** `ls archive/<old>.md` should fail. `drafts/<new>.md` should contain the updated content.
-
-**Do NOT create a T2 task.** The existing content is the artifact — T2 would start from the seed and lose the refiner's work. The content, voice, and structure stay the same; only the name changes.
-
-6. **Create the downstream pipeline chain:** T3 → T4 → T5, each linked as parent of the next:
-   - Create a T3 task (assignee: `soul-reviewer`, parents: [this task id])
-   - Create a T4 task (assignee: `soul-refiner`, parents: [T3 task id])
-   - Create a T5 task (assignee: `soul-final-reviewer`, parents: [T4 task id])
-   
-   All tasks must use `workspace_kind: "dir"` and `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`.
+T1 generates 5 candidate names. Before creating T2, run question 5 on the chosen name. If the name fails, pick a different candidate from T1's list.
 
 ### Research Rationale
 
-- **Sound Symbolism** (from character creation research, Section 4.2): Names carry musical qualities that evoke feelings. Plosives signal authority; vowels signal warmth. The phonetic fit axis directly tests this.
-- **The Metaphor Family Principle** (Matt Bird, *Secrets of Story*): A character's domain of expertise determines their metaphor family. The naming raw materials (domain nouns/verbs) should connect to the same vocabulary that will generate the persona's voice in T2.
-- **Few-Shot Examples Outperform Fine-Tuning** (prompt engineering research): 5 diverse examples beat 10 similar ones. The 5-candidate generation process ensures range, not repetition.
-- **The "Parent Test"** (from collision detection): Would a parent name a child this? This is the simplest viability check for names — it catches domain-word labels, trade nouns, and object names in one test.
+- **The Pub Test** (from character creation research): Could this archetype introduce themselves at a pub? "I'm a fletcher" works. "I'm an impartial examiner" is awkward. This maps to the Sentient Being Rule in format-rules.md.
+- **Material Practice Rule** (from writer's guide): Archetypes with material practices succeed because the craft generates the metaphor family, which generates the voice. Abstract roles struggle because they lack sensory vocabulary.
+- **Donald Maass's Specificity Rule**: Voice is what the character notices that no other character would. Question 3 directly tests this.
+- **The Griping Line as Quality Signal** (from success-patterns research): Every top-10 archived persona has a domain-specific complaint. No bottom-10 persona does. Question 2 tests whether the seed can produce one.
 
 ---
 

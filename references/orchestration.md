@@ -9,10 +9,10 @@ This document governs how pipeline tasks are created, linked, and validated. Eve
 The pipeline is a **strictly linear chain** with pre-flight gates:
 
 ```
-T0 (Viability) → T1 (Namer) → T2 (Writer) → T3 (Reviewer) → T4 (Refiner) → T5 (Final Reviewer)
+T0 (Researcher) → T1 (Viability) → T2 (Namer) → T3 (Writer) → T4 (Reviewer) → T5 (Refiner) → T6 (Final Reviewer)
 ```
 
-T0 is a kanban gate that runs after seeds are produced. T1–T5 are kanban workers.
+T0 is the Researcher (orchestrator that finds archetypes and spawns T1 tasks). T1 is the Viability Screener. T2–T6 are kanban workers.
 
 ### Progressive Disclosure
 
