@@ -117,12 +117,7 @@ Profiles that DON'T push (e.g., soul-namer, soul-reviewer) don't strictly need t
 
 ## Skills
 
-Profiles can load skills. The `kanban-worker` skill is auto-loaded for all kanban workers, so don't list it explicitly. List domain-specific skills:
-
-```yaml
-skills:
-  - soul-repository-reviewer
-```
+The `kanban-worker` skill is auto-loaded for all kanban workers. There are no custom pipeline skills — all stage instructions are inline in the task body.
 
 ## Verification Checklist
 
