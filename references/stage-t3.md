@@ -38,7 +38,7 @@ Create a T4 review task:
 - **Assignee:** `soul-reviewer`
 - **Parents:** [this task id]
 - **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
-- **Body:** Include the draft file path, and the core instructions from `references/stage-t3.md` Section 1 inline. The reviewer needs: the draft path, the format compliance confirmation, and the evaluation framework.
+- **Body:** Include the draft file path, and the core instructions from `references/stage-t4.md` Section 1 inline. The reviewer needs: the draft path, the format compliance confirmation, and the evaluation framework.
 
 ---
 
