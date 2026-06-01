@@ -49,6 +49,15 @@
 
 **Critical rule:** The H1 of the final SOUL.md must be the chosen name from this stage. T2 receives the name as an explicit input. No archetype labels in the H1.
 
+## When Complete (normal naming)
+
+Create a T2 writing task:
+- **Title:** `T2: Write <chosen-name> SOUL.md`
+- **Assignee:** `soul-writer`
+- **Parents:** [this task id]
+- **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
+- **Body:** Include the chosen name, the seed path, T0 viability context, and the core instructions from `references/stage-t2.md` Section 1 inline. The writer needs: the name, the seed, the metaphor family, the complaint register, and any notes from T0.
+
 ---
 
 ## Section 2: Reference Material

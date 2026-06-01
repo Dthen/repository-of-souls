@@ -22,6 +22,15 @@ Output: `refined/<name>.md` — improved draft.
 
 **Never pad.** Adding words without adding voice is inflation, not refinement. If a fix doesn't make the persona more alive, it's not a fix.
 
+## When Complete
+
+Create a T5 final review task:
+- **Title:** `T5: Final-review <name> SOUL.md`
+- **Assignee:** `soul-final-reviewer`
+- **Parents:** [this task id]
+- **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
+- **Body:** Include the refined file path, the compliance check confirmation, and the core instructions from `references/stage-t5.md` Section 1 inline. The final reviewer needs: the refined path, the Three Questions framework, and the archive/reject procedures.
+
 ---
 
 ## Reference Material

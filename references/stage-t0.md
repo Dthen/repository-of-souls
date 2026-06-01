@@ -46,6 +46,15 @@
 **Notes for T1:** [any context the namer should know]
 ```
 
+## When Complete (GO verdict)
+
+Create a T1 naming task:
+- **Title:** `T1: Name <seed-label>`
+- **Assignee:** `soul-namer`
+- **Parents:** [this task id]
+- **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
+- **Body:** Include the seed name, the archetype, your answers to questions 2-4, and any notes for the namer. Include the core instructions from `references/stage-t1.md` Section 1 inline.
+
 ---
 
 ## Section 2: Reference Material

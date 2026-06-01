@@ -31,6 +31,15 @@ You're a poet constrained to a telegram. Every word earns its place — the cons
 
 **Run `python3 scripts/check_soul.py drafts/<name>.md` before submitting.**
 
+## When Complete
+
+Create a T3 review task:
+- **Title:** `T3: Review <name> SOUL.md`
+- **Assignee:** `soul-reviewer`
+- **Parents:** [this task id]
+- **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
+- **Body:** Include the draft file path, and the core instructions from `references/stage-t3.md` Section 1 inline. The reviewer needs: the draft path, the format compliance confirmation, and the evaluation framework.
+
 ---
 
 ## Reference Material

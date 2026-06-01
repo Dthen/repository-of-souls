@@ -41,9 +41,13 @@ If you are creating a task for Stage N, Stage N-1 must:
 
 **THIS IS NOT OPTIONAL.** Creating a downstream task without its upstream parent is the root cause of phantom-blocked chains.
 
-### Critical Rule: Full Task Body Only
+### Critical Rule: Self-Propagating Chains
 
-Every task body MUST include the **complete stage instructions** from the relevant `references/stage-*.md` file. Do NOT write abbreviated task bodies. Do NOT omit the Archive Process section, the `build_site.py` step, git commit/push instructions, rejection-chain creation rules, or any other part of the spec. **This is especially true for test runs.** A worker receives its instructions from the task body; if the body is incomplete, the worker produces incomplete work. Read the full stage file and include every section.
+Each stage file includes a "When Complete" section that instructs the worker to create the next stage task. The pipeline is self-propagating — you only need to create the T0 task. Each worker creates its successor.
+
+**This is the primary chain mechanism.** Do NOT rely on manual chain creation. The workers handle handoff automatically via the "When Complete" instructions in each stage file.
+
+If a worker fails to create the next stage task, check that the stage file's "When Complete" section is present and the task body includes the full core instructions inline.
 
 ### Critical Rule: Automate Compliance, Evaluate Quality
 

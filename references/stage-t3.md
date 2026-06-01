@@ -34,6 +34,15 @@ You've edited a thousand personae. You know the difference between compliance an
 
 Write the critique to `critiques/<name>.md`.
 
+## When Complete
+
+Create a T4 refinement task:
+- **Title:** `T4: Refine <name> SOUL.md`
+- **Assignee:** `soul-refiner`
+- **Parents:** [this task id]
+- **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
+- **Body:** Include the draft file path, the critique file path, the holistic score, and the core instructions from `references/stage-t4.md` Section 1 inline. The refiner needs: the draft, the critique, and the gap notes.
+
 ---
 
 ## Reference Material
