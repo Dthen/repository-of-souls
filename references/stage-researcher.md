@@ -2,9 +2,9 @@
 
 **Purpose:** Find archetypes that will produce good personae, test them against viability criteria, write seed files, and spawn pipeline chains.
 **Input:** The archive (`archive/`) and existing seeds (`seeds/`).
-**Output:** New seed files in `seeds/` + T0 viability tasks spawned on the `soul-factory` board.
+**Output:** New seed files in `seeds/` + T1 viability tasks spawned on the `soul-factory` board.
 
-**You are an ORCHESTRATOR, not an executor.** You do not write drafts, review, refine, or final-review. Your job ends when the T0 tasks are spawned.
+**You are an ORCHESTRATOR, not an executor.** You do not write drafts, review, refine, or final-review. Your job ends when the T1 tasks are spawned.
 
 ---
 
@@ -48,7 +48,7 @@ For each gap, generate 2–3 archetype candidates. **Do NOT use web search as yo
 
 ### Step 4: Pre-Filter with Viability Questions
 
-Before writing a seed file, test each candidate against the five T0 viability questions:
+Before writing a seed file, test each candidate against the five T1 viability questions:
 
 1. **Is this a person?** Could someone introduce themselves at a pub? ("I am a [archetype].")
 2. **Can you hear a complaint?** Imagine one frustration in domain language.
@@ -56,7 +56,7 @@ Before writing a seed file, test each candidate against the five T0 viability qu
 4. **Can you list 5 actions?** Physical or craft-specific behaviors.
 5. **Does the name sound like a person?** Say "I am [Name]" aloud.
 
-**If any answer is a clear no, discard the candidate.** Do not write seed files for archetypes that won't pass T0.
+**If any answer is a clear no, discard the candidate.** Do not write seed files for archetypes that won't pass T1.
 
 ### Step 5: Write Seed Files
 
@@ -88,16 +88,16 @@ For each viable candidate, write a seed file to `seeds/<label>.md`:
 
 ### Step 6: Spawn Pipeline Chains
 
-For each seed file, create a T0 viability task on the `soul-factory` board:
+For each seed file, create a T1 viability task on the `soul-factory` board:
 
 ```
-Title: T0 Viability <seed-label>
+Title: T1 Viability <seed-label>
 Assignee: soul-namer
 Workspace: workspace_kind: "dir", workspace_path: "/home/kimbo/.hermes/projects/soul-repository"
-Body: Include the seed file content, the T0 core instructions from references/stage-t0.md Section 1 inline, and the archetype name.
+Body: Include the seed file content, the T1 core instructions from references/stage-t1.md Section 1 inline, and the archetype name.
 ```
 
-**One T0 task per seed.** Do not batch multiple seeds into one task.
+**One T1 task per seed.** Do not batch multiple seeds into one task.
 
 ### Step 7: Update the Coverage Map
 
@@ -107,7 +107,7 @@ After spawning, update `seeds/COVERAGE_MAP.md` with the new seeds and the curren
 
 Call `kanban_complete` with:
 - Summary: how many seeds generated, which categories they fill
-- Metadata: list of seed files created, T0 task IDs spawned
+- Metadata: list of seed files created, T1 task IDs spawned
 
 ---
 
@@ -154,7 +154,7 @@ When you need to find the vocabulary for an archetype:
 The old seed format had: Archetype, Domain, Metaphor, Functional Risk. The new format adds:
 - **Core Tension** — the contradiction that makes the archetype interesting
 - **Domain Vocabulary** — the raw materials for the writer
-- **Viability Notes** — pre-filtered answers to the T0 questions
+- **Viability Notes** — pre-filtered answers to the T1 questions
 
 These additions come from the research we've done on what makes personae work. The T0 screener tests these same qualities — by pre-answering them in the seed, we save the screener time and improve pass rates.
 

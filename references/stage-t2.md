@@ -56,7 +56,7 @@ Create a T3 writing task:
 - **Assignee:** `soul-writer`
 - **Parents:** [this task id]
 - **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
-- **Body:** Include the chosen name, the seed path, T0 viability context, and the core instructions from `references/stage-t2.md` Section 1 inline. The writer needs: the name, the seed, the metaphor family, the complaint register, and any notes from T0.
+- **Body:** Include the chosen name, the seed path, T1 viability context, and the core instructions from `references/stage-t3.md` Section 1 inline. The writer needs: the name, the seed, the metaphor family, the complaint register, and any notes from T1.
 
 ---
 
@@ -161,9 +161,9 @@ These strategies from professional writers can generate candidates:
 **Do NOT create a T2 task.** The existing content is the artifact — T2 would start from the seed and lose the refiner's work. The content, voice, and structure stay the same; only the name changes.
 
 6. **Create the downstream pipeline chain:** T3 → T4 → T5, each linked as parent of the next:
-   - Create a T3 task (assignee: `soul-reviewer`, parents: [this task id])
-   - Create a T4 task (assignee: `soul-refiner`, parents: [T3 task id])
-   - Create a T5 task (assignee: `soul-final-reviewer`, parents: [T4 task id])
+   - Create a T4 task (assignee: `soul-reviewer`, parents: [this task id])
+   - Create a T5 task (assignee: `soul-refiner`, parents: [T4 task id])
+   - Create a T6 task (assignee: `soul-final-reviewer`, parents: [T5 task id])
    
    All tasks must use `workspace_kind: "dir"` and `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`.
 

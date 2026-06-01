@@ -159,13 +159,13 @@ When T5 returns KILL (unfixable):
 
 If T5 rejects on name quality (not a person, common word, stereotype), the chain is:
 
-1. Create a **standalone** T1 task (no parent) with the archetype context and a note that it replaces the rejected name.
-2. The T1 namer picks a new name, renames the existing file, and creates the downstream chain: **T3 → T4 → T5**.
-3. Complete the current T5 noting that a rename chain was created.
+1. Create a **standalone** T2 task (no parent) with the archetype context and a note that it replaces the rejected name.
+2. The T2 namer picks a new name, renames the existing file, and creates the downstream chain: **T4 → T5 → T6**.
+3. Complete the current T6 noting that a rename chain was created.
 
-**How the rename works:** The content is already in archive — T1 revises it in place, not rewrites from scratch. T1 moves `archive/<old>.md` → `drafts/<new>.md`, then updates every reference to the old name: the H1, the identity line, and any other mentions in the body. Use `grep -ri "<old-name>" .` to find them all. The content, voice, and structure stay the same — only the name changes.
+**How the rename works:** The content is already in archive — T2 revises it in place, not rewrites from scratch. T2 moves `archive/<old>.md` → `drafts/<new>.md`, then updates every reference to the old name: the H1, the identity line, and any other mentions in the body. Use `grep -ri "<old-name>" .` to find them all. The content, voice, and structure stay the same — only the name changes.
 
-**Important:** Do NOT rename files yourself. Do NOT create a child T4 chained to the blocked T5 parent — this creates a deadlock. The T1 namer handles the rename; the downstream chain reviews the renamed content.
+**Important:** Do NOT rename files yourself. Do NOT create a child T5 chained to the blocked T6 parent — this creates a deadlock. The T2 namer handles the rename; the downstream chain reviews the renamed content.
 
 ---
 
@@ -206,6 +206,6 @@ Apply this to all profiles that run `git push`: `soul-writer`, `soul-namer`, `so
 2. **Verify artifacts exist before creating downstream tasks.** Never assume a previous stage completed.
 3. **Run `check_soul.py` before review stages.** Non-compliant drafts should never reach T3 or T5.
 4. **Use full task bodies.** Abbreviated task bodies produce incomplete work.
-5. **Create the full chain in one step when possible.** T2 creates T3→T4→T5 as children. This prevents orphaned tasks.
-6. **Never skip T4.** Every draft goes through refinement before final review. Even a 3/3 T3 score gets T4 to verify the draft is polished.
+5. **Create the full chain in one step when possible.** T3 creates T4→T5→T6 as children. This prevents orphaned tasks.
+6. **Never skip T5.** Every draft goes through refinement before final review. Even a 3/3 T4 score gets T5 to verify the draft is polished.
 7. **Log failures.** Killed personae go in `references/viability-log.md`. This prevents repeated failures.

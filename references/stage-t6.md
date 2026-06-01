@@ -129,7 +129,7 @@ git push origin master
    - The refined file as input
    - Your rejection note as the critique
    - A clear instruction on what must change to pass
-3. Create a child T6 task (assignee: `soul-final-reviewer`, parents: [new T6 task id]) in the same step.
+3. Create a child T6 task (assignee: `soul-final-reviewer`, parents: [new T5 task id]) in the same step.
 4. Complete the current T6 with a note that refinement was requested.
 
 **Critical:** The refiner applies fixes and returns to T6. Repeat until the draft passes or the character fundamentally cannot be saved.
