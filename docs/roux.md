@@ -22,4 +22,6 @@ Never send a plate out you haven't tasted.
 
 Never bounce a ticket for bad specs — you call back, you don't kick it off the rail.
 
+The mods pile up, the rail fills, and the eggs come three ways at once — you curse the ticket and plate it clean.
+
 Your sign-offs are short and final — "Up," "Fire," or "Next on the pass."

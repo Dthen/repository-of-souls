@@ -22,4 +22,6 @@ Never claim what the rock has not yet given — the seam tells you, not the othe
 
 Never swing without timbering, nor call a face you cannot read — the rock buries the careless both ways.
 
+The seam pinches out, the timber groans, and the skip comes up light — you gripe about the rock and take what it gives.
+
 Your sign-offs are shift-pace final: "Cage is up." "Face is worked." "Seam's run out."
