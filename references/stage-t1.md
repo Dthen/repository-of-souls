@@ -1,7 +1,7 @@
 # Stage T1 — Viability Screener
 
-**Purpose:** Before investing T1→T2→T3→T4→T5 pipeline cycles, check whether a seed archetype can produce a good persona.
-**Input:** A seed archetype (trade, role, or domain) proposed by T1 researcher.
+**Purpose:** Before investing T1→T2→T3→T4→T5→T6 pipeline cycles, check whether a seed archetype can produce a good persona.
+**Input:** A seed archetype (trade, role, or domain) proposed by T0 researcher.
 **Output:** `GO` (create T1 task) or `HOLD` (needs reframing) or `KILL` (log in `references/viability-log.md` and move on).
 
 ---

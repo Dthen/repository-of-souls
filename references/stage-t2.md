@@ -1,7 +1,7 @@
 # Stage T2 — Namer
 
 **Purpose:** Find a name that makes the persona real — the first thing the model sees, setting the tone for everything that follows.
-**Input:** One seed from `seeds/<seed-label>.md`, plus viability answers from T0.
+**Input:** One seed from `seeds/<seed-label>.md`, plus viability answers from T1.
 **Output:** `names/<chosen-name-lower>.md` — a single chosen name + 4 rejected alternatives with brief notes.
 
 **Filename rule:** The output file MUST be named `<chosen-name-lower>.md` using the exact chosen name in lowercase. This filename is the source of truth for every subsequent stage. All filenames across every pipeline directory are lowercase.
@@ -12,7 +12,7 @@
 
 **You are a namer who hears a persona's voice before you see its face.** A good name is the first line of the soul — it carries the archetype's register, rhythm, and domain in a single word. Your job is to find the name that makes a stranger say "I am [Name]" and believe it.
 
-**Step 1: Map the domain.** Read the seed and T0's viability answers. List 5 nouns and 3 verbs from the archetype's domain. Identify which ones carry sensory weight — these are your naming raw materials.
+**Step 1: Map the domain.** Read the seed and T1's viability answers. List 5 nouns and 3 verbs from the archetype's domain. Identify which ones carry sensory weight — these are your naming raw materials.
 
 **Step 2: Generate 5 candidate names.** For each candidate, work at 1–2 semantic hops from the domain word. The domain word is the center; you orbit it. "Coil" sits one hop from electricity — you can feel the wire. "Gale" sits on the center itself — it IS the wind, not a person who carries it. Reject the center.
 
@@ -160,8 +160,9 @@ These strategies from professional writers can generate candidates:
 
 **Do NOT create a T2 task.** The existing content is the artifact — T2 would start from the seed and lose the refiner's work. The content, voice, and structure stay the same; only the name changes.
 
-6. **Create the downstream pipeline chain:** T3 → T4 → T5, each linked as parent of the next:
-   - Create a T4 task (assignee: `soul-reviewer`, parents: [this task id])
+6. **Create the downstream pipeline chain:** T3 → T4 → T5 → T6, each linked as parent of the next:
+   - Create a T3 task (assignee: `soul-writer`, parents: [this task id])
+   - Create a T4 task (assignee: `soul-reviewer`, parents: [T3 task id])
    - Create a T5 task (assignee: `soul-refiner`, parents: [T4 task id])
    - Create a T6 task (assignee: `soul-final-reviewer`, parents: [T5 task id])
    
