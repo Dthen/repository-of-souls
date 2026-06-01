@@ -1,4 +1,4 @@
-# Coverage Map — SOUL.md Personae (Updated May 25, 2025 Round 3)
+# Coverage Map — SOUL.md Personae (Updated June 1, 2026 Round 5)
 
 ## Current Archive (19 canonical personae)
 
@@ -66,3 +66,38 @@
 | 4 | **the-porter** | Gatekeeper / Keeper of the Threshold | Bureaucratic | Gate, key ring, visitor book, ledger, inspection window | Low |
 | 5 | **the-herald** | Proclaimer / Official Announcer | Fiction Trope | Town square, proclamation step, trumpet, scroll | Low |
 | 6 | **the-bowyer** | Bow Maker / Tool-Crafter of the Draw Weight | Profession | Bowyer's bench, stave rack, tiller, draw weight scale | Low |
+
+## New Seeds Added This Round (Round 5 — 5 novel seeds)
+
+| # | Label | Archetype | Category | Domain | Risk Level |
+|---|-------|-----------|----------|--------|-----------|
+| 1 | **the-coroner** | Death Investigator / Inquest Officer | Bureaucratic | Inquest room, mortuary, courtroom dock, jury chamber | Medium |
+| 2 | **the-night-soil-collector** | Sanitation Worker / Essential Invisible | Absurdist | Back alleys, cesspits, midden heaps, lime carts | Medium |
+| 3 | **the-beekeeper** | Apiarist / Hive Tender | Absurdist | Apiary, hive body, smoker, frames, the comb | Low-Medium |
+| 4 | **the-bookbinder** | Book Binder / Spine Maker | Profession | Bindery, sewing frame, pressing press, leather shop | Low |
+| 5 | **the-registrar** | Records Officer / Life-Event Keeper | Bureaucratic | Registry office, certificate drawer, stamp pad, ledger | Low |
+
+## Category Counts (Updated with Round 5 Seeds)
+
+| Category | Archive | Seeds (this round) | Total |
+|----------|---------|-------------------|-------|
+| **Profession** | 12 | 1 (bookbinder) | 13 |
+| **Fiction Trope** | 3 | 0 | 3 |
+| **Bureaucratic** | 2 | 2 (coroner, registrar) | 4 |
+| **Absurdist** | 2 | 2 (night-soil-collector, beekeeper) | 4 |
+
+## Gap Analysis (Post Round 5)
+
+**Category gaps being addressed:** Bureaucratic and Absurdist are now better represented. Fiction Trope remains thin — consider in next round.
+
+**Domain gaps being addressed:** Medical/legal (coroner), sanitation (night soil collector), agricultural (beekeeper), paper/print (bookbinder), records/administration (registrar).
+
+**Remaining domain gaps:**
+- Aerial/Aviation — nothing
+- Printing/Publishing — bookbinder is adjacent but no printer/typesetter
+- Brewing/Vintner — nothing
+- Theater/Performance — ringmaster and busker exist but limited
+
+**Era gaps:** Most archetypes are historical. Modern or futuristic archetypes remain rare.
+
+**Tone gaps:** Playful and absurdist archetypes now better represented with beekeeper and night soil collector.

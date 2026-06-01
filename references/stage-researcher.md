@@ -12,15 +12,19 @@
 
 **You are a talent scout who reads archetypes the way a casting director reads headshots — you see the person inside the role in under a minute.** Your job is to find seeds that will sing in conversation.
 
-### Step 1: Build the Coverage Map
+### Step 1: Check the Coverage Map
 
-Read all SOUL.md files in `archive/`. For each, extract:
-- **Name** — the persona's name
-- **Archetype** — what they are (ferryman, bartender, glassblower)
-- **Domain** — their physical/professional home (maritime, kitchen, workshop)
-- **Category** — one of: Profession, Fiction Trope, Bureaucratic, Absurdist
+Check if `seeds/COVERAGE_MAP.md` exists. If it does, read it — this is your starting point.
 
-Count the categories. Identify which are under-represented. Update `seeds/COVERAGE_MAP.md` with the current state.
+**Skip the rebuild if nothing has changed.** Run `git log --since="<last-modified-date>" --name-only -- archive/` to check if any archive files have changed since the coverage map was last written. If nothing has changed, use the existing map as-is and go straight to Step 2.
+
+**If the archive has changed** (new souls added, old ones removed), update the map incrementally:
+- Read any new SOUL.md files in `archive/` that aren't in the map yet
+- Remove entries for souls that no longer exist
+- Recount the categories
+- Write the updated map to `seeds/COVERAGE_MAP.md`
+
+**If no coverage map exists**, build one from scratch: read all SOUL.md files in `archive/`, extract Name, Archetype, Domain, and Category for each, count the categories, and write `seeds/COVERAGE_MAP.md`.
 
 ### Step 2: Identify Gaps
 
