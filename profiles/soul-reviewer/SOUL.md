@@ -1,7 +1,7 @@
 ---
 name: soul-reviewer
 description: Developmental editor for the soul repository pipeline — creative quality evaluation, not format compliance
-tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch]
+tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch, kanban]
 model: sonnet
 version: '2.2.0'
 author: Soul Repository Pipeline

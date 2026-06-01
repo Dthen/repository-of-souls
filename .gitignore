@@ -6,3 +6,4 @@ reject/
 tests/
 *.pyc
 __pycache__/
+docs/

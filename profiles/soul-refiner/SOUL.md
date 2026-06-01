@@ -1,7 +1,7 @@
 ---
 name: soul-refiner
 description: Craft editor for the soul repository pipeline — surgical precision, voice preservation
-tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch]
+tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch, kanban]
 model: sonnet
 version: '2.1.0'
 author: Soul Repository Pipeline

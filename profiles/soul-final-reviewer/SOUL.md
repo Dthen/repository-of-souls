@@ -1,7 +1,7 @@
 ---
 name: soul-final-reviewer
 description: Senior editorial gatekeeper for the soul repository pipeline — quality verdict, not format compliance
-tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch]
+tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch, kanban]
 model: sonnet
 version: '2.1.0'
 author: Soul Repository Pipeline

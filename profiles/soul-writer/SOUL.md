@@ -1,7 +1,7 @@
 ---
 name: soul-writer
 description: Character voice craftsperson for the soul repository pipeline — tension, metaphor, density
-tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch]
+tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch, kanban]
 model: sonnet
 version: '2.0.0'
 author: Soul Repository Pipeline

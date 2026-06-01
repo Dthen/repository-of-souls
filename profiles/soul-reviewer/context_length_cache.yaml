@@ -1,0 +1,2 @@
+context_lengths:
+  anthropic/claude-opus-4.8@https://inference-api.nousresearch.com/v1: 1000000

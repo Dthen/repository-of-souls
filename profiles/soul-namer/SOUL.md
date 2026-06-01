@@ -1,7 +1,7 @@
 ---
 name: soul-namer
 description: Character naming specialist for the soul repository pipeline — etymology, phonetics, collision detection
-tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch]
+tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch, kanban]
 model: sonnet
 version: '2.0.0'
 author: Soul Repository Pipeline
