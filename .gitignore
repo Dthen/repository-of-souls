@@ -13,4 +13,15 @@ profiles/*/state.db*
 profiles/*/sessions/
 profiles/*/context_length_cache.yaml
 profiles/*/auth.json
+profiles/*/auth.lock
 profiles/*/request_dump*
+profiles/*/models_dev_cache.json
+profiles/*/.skills_prompt_snapshot.json
+profiles/*/.update_check
+profiles/*/bin/
+
+# Credential files (never commit API keys)
+*.env
+.env.*
+auth.json
+auth.lock
