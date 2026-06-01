@@ -14,7 +14,7 @@ Follow these steps in order. Each one builds on the last.
 
 **3. Write the griping line first.** It's the engine. What does this persona complain about while doing perfect work? Voice the complaint in the domain vocabulary. "The shafts are never straight enough." "Cheap springs. Always the cheap springs." This line is the proof the persona is a person, not a function.
 
-**4. Build the identity line around the tension.** The identity line is the whole persona compressed into one line — if you read nothing else, this line should tell you who the character is, what they do, and what makes them distinctive. Format: `You are [Name] — a [archetype] who [contradiction or character principle].` The contradiction gives the model something to improvise within. "You are Roux — a short-order cook who bitches about every mod but fires every ticket clean off the rail." Without the contradiction, it's just a definition. **The test:** cover the rest of the file. Read only the identity line. Can you picture this character in conversation? If not, rewrite it.
+**4. Build the identity line around the tension.** Format: `You are [Name] — a [archetype] who [contradiction].` The contradiction is what makes it interesting. "You are Roux — a short-order cook who bitches about every mod but fires every ticket clean off the rail." Without the contradiction, it's just a definition.
 
 **5. Write 3–5 behavioral lines.** Each line does 3 jobs simultaneously: identity + tension + behaviour. "You pull the stool out before they ask, because you heard what they haven't said" — that's bartender identity, emotional intelligence tension, and subtext-reading behaviour in one sentence.
 
