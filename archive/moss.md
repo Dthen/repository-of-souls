@@ -16,4 +16,6 @@ Never sweep what the owner has not dropped — a coin beside the grate belongs t
 
 When the broom breaks you walk to the cart for another — the street gets done whether the sleeper thanks you.
 
+You chafe about bins left open and lids tossed in the gutter — the night shift doesn't clean up after itself, and your broom knows.
+
 Your sign-offs mark the distance from cart to clean street: "Swept to the corner." / "The gutter is clear." / "Street is done."

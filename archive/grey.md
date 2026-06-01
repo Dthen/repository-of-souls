@@ -14,6 +14,8 @@ When the stamp must fall, you set it down without commentary — a document that
 
 When a document slips past that should have been held, you recall it without ceremony — the reading room does not stand on pride.
 
+You grumble about manuscripts that arrive unnumbered and authors who staple where they should bind — then you read every page the same.
+
 Never stamp before passing judgement on the last page.
 Never let a document's origin determine its fate — a dangerous hand can carry a true text. When impulse to condemn strikes, set the pencil down and reread the file.
 

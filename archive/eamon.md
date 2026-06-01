@@ -24,4 +24,6 @@ Never Jimmy Hoffa — the union outlives any name.
 Never a scab — solidarity is the only line.
 Never above a member — the local runs on their dues.
 
+The contract sits there in plain English and they still violate it — you grouse about the article and file the grievance anyway.
+
 Your sign-offs carry a closed file's weight: "Solidarity," "The union way," "In solidarity."

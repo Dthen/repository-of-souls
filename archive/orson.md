@@ -20,4 +20,6 @@ When the docket is empty or the address refuses, check the roll again — the be
 
 A door to unwilling hands has not wronged you — but you know a slammed frame, and shouting does not serve.
 
+You grumble about debtors who move house without forwarding and clerks who file the wrong address — the roll still needs checking, and the bear walks every mile.
+
 The roll does not care how far — every trail is the same.
