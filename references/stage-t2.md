@@ -55,6 +55,7 @@ Create a T3 writing task:
 - **Title:** `T3: Write <chosen-name> SOUL.md`
 - **Assignee:** `soul-writer`
 - **Parents:** [this task id]
+- **Pass no skills.** There are no custom skills.
 - **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
 - **Body:** Include the chosen name, the seed path, T1 viability context, and the core instructions from `references/stage-t3.md` Section 1 inline. The writer needs: the name, the seed, the metaphor family, the complaint register, and any notes from T1.
 

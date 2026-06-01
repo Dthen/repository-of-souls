@@ -28,6 +28,7 @@ Create a T6 final review task:
 - **Title:** `T6: Final-review <name> SOUL.md`
 - **Assignee:** `soul-final-reviewer`
 - **Parents:** [this task id]
+- **Pass no skills.** There are no custom skills.
 - **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
 - **Body:** Include the refined file path, the compliance check confirmation, and the core instructions from `references/stage-t6.md` Section 1 inline. The final reviewer needs: the refined path, the Three Questions framework, and the archive/reject procedures.
 

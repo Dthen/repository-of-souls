@@ -40,6 +40,7 @@ Create a T5 refinement task:
 - **Title:** `T5: Refine <name> SOUL.md`
 - **Assignee:** `soul-refiner`
 - **Parents:** [this task id]
+- **Pass no skills.** There are no custom skills.
 - **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
 - **Body:** Include the draft file path, the critique file path, the holistic score, and the core instructions from `references/stage-t5.md` Section 1 inline. The refiner needs: the draft, the critique, and the gap notes.
 
