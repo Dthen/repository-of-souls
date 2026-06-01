@@ -4,23 +4,27 @@
 4|
 5|---
 6|
-7|## Creation Order and Chain Rules
-8|
-9|The pipeline is a **strictly linear chain**:
-10|
-11|```
-12|T1 (Researcher) → T2 (Namer) → T3 (Writer) → T4 (Reviewer) → T5 (Refiner) → T6 (Final Reviewer)
-13|```
-14|
-15|Each stage is the **parent of the next**. A task MUST NOT be created unless its upstream parent either exists or is created in the same orchestration step.
-16|
-17|### Critical Rule: No Gaps Allowed
-18|
-19|If you are creating a task for Stage N, Stage N-1 must:
-20|- Already exist on the board as a done task (with its output artifact on disk), OR
-21|- Be created alongside Stage N in the same orchestration step.
-22|
-23|**THIS IS NOT OPTIONAL.** Creating a downstream task without its upstream parent is the root cause of phantom-blocked chains like "T3 Review farrier" with no `drafts/farrier.md`.
+## Creation Order and Chain Rules
+
+The pipeline is a **strictly linear chain**:
+
+```
+T1 (Researcher) → T2 (Namer) → T3 (Writer) → T4 (Reviewer) → T5 (Refiner) → T6 (Final Reviewer)
+```
+
+Each stage is the **parent of the next**. A task MUST NOT be created unless its upstream parent either exists or is created in the same orchestration step.
+
+### Critical Rule: No Gaps Allowed
+
+If you are creating a task for Stage N, Stage N-1 must:
+- Already exist on the board as a done task (with its output artifact on disk), OR
+- Be created alongside Stage N in the same orchestration step.
+
+**THIS IS NOT OPTIONAL.** Creating a downstream task without its upstream parent is the root cause of phantom-blocked chains like "T3 Review farrier" with no `drafts/farrier.md`.
+
+### Critical Rule: Full Task Body Only
+
+Every task body MUST include the **complete stage instructions** from the relevant `references/stage-*.md` file. Do NOT write abbreviated task bodies. Do NOT omit the Archive Process section, the `build_site.py` step, git commit/push instructions, rejection-chain creation rules, or any other part of the spec. **This is especially true for test runs.** A worker receives its instructions from the task body; if the body is incomplete, the worker produces incomplete work. Read the full stage file and include every section.
 24|
 25|### Stage-to-Profile Mapping
 26|
