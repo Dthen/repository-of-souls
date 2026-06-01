@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""SOUL.md constraint checker.
+"""SOUL.md constraint checker — automated compliance gate.
+
 Usage: python3 scripts/check_soul.py <path/to/soul.md>
-Checks: lowercase filename, line count (8-20 active), word count (≤200),
-        nevers (≤3), sign-off phrase count (≥3),
-        first line starts with "You are Name", H1 matches name slug.
+
+Checks all mechanical compliance rules so reviewers (T4, T6) can focus on quality.
+
+Exit: 0 if all pass, 1 if any fail.
 """
 import sys, re, os
 
 if len(sys.argv) < 2:
-    print("Usage: python3 scripts/check_soul.py \u003cpath/to/soul.md\u003e")
+    print("Usage: python3 scripts/check_soul.py <path/to/soul.md>")
     sys.exit(1)
 
 path = sys.argv[1]
@@ -29,45 +31,190 @@ if not active:
     print("FAIL: no content after H1")
     sys.exit(1)
 
+results = []
+
+def check(name, passed, detail=""):
+    results.append((name, passed, detail))
+    if detail:
+        print(f'  {name}: {"PASS" if passed else "FAIL"} — {detail}')
+    else:
+        print(f'  {name}: {"PASS" if passed else "FAIL"}')
+    return passed
+
 # H1 check
 h1 = lines[0].strip()
 pass_h1 = h1 == f"# {name_slug.capitalize()}"
-print(f'  H1 exact? {"PASS" if pass_h1 else "FAIL"} ({h1})')
+check(f'H1 exact ("# {name_slug.capitalize()}")', pass_h1, f'got "{h1}"' if not pass_h1 else '')
 
 # First active line
 first = active[0]
 pass_first = first.startswith(f"You are {name_slug.capitalize()}") or first.startswith(f"You are {name_slug}")
-print(f'  First line starts with "You are Name"? {"PASS" if pass_first else "FAIL"}')
+check('First line starts with "You are Name"', pass_first, f'got "{first[:40]}..."' if not pass_first else '')
 
 # Line count
 total_lines = len(active)
 pass_lines = 8 <= total_lines <= 20
-print(f'  Lines 8-20? {"PASS" if pass_lines else "FAIL"} ({total_lines})')
+check('Lines 8-20', pass_lines, f'{total_lines} lines' if not pass_lines else '')
 
 # Word count
-text = ' '.join([l.replace('\u2014', ' ').replace('\u2013', ' ') for l in active])
+text = ' '.join([l.replace('—', ' ').replace('–', ' ') for l in active])
 words = text.split()
 total_words = len(words)
 pass_words = total_words <= 200
-print(f'  Words <=200? {"PASS" if pass_words else "FAIL"} ({total_words})')
+check('Words ≤200', pass_words, f'{total_words} words' if not pass_words else '')
 
 # Nevers
 never_lines = [l for l in active if l.startswith('Never')]
 nevers = len(never_lines)
 pass_nevers = nevers <= 3
-print(f'  Nevers <=3? {"PASS" if pass_nevers else "FAIL"} ({nevers})')
+check('Nevers ≤3', pass_nevers, f'{nevers} Nevers' if not pass_nevers else '')
+
+# Multiple Nevers on one line
+multi_never_lines = []
+for l in active:
+    if l.startswith('Never'):
+        never_count = len(re.findall(r'\bNever\b', l))
+        if never_count > 1:
+            multi_never_lines.append(l[:60])
+pass_multi_never = len(multi_never_lines) == 0
+check('Multiple Nevers on one line', pass_multi_never, 
+      f'{len(multi_never_lines)} lines with multiple Nevers' if multi_never_lines else '')
+
+# "You never" in Never block
+you_never_in_block = [l for l in never_lines if re.search(r'\byou\s+never\b', l, re.I)]
+pass_you_never = len(you_never_in_block) == 0
+check('"You never" NOT in Never block', pass_you_never,
+      f'Found: "{you_never_in_block[0][:50]}..."' if you_never_in_block else '')
+
+# Griping line — voiced complaint, not generic
+GRIPING_PATTERNS = [
+    r"You'd think",
+    r'cheap\s+\w+',
+    r'never\s+\w+\s+enough',
+    r'always\s+the\s+\w+',
+    r'state\s+of\s+the',
+    r'learn\s+to',
+    r'gripe',
+    r'grumble',
+    r'complain',
+    r'wonders?\s+why',
+]
+griping_found = any(re.search(p, l, re.I) for l in active for p in GRIPING_PATTERNS)
+# Penalize generic griping
+GENERIC_COMPLAINTS = [
+    r'You\s+sometimes\s+get\s+frustrated',
+    r'You\s+wish\s+things\s+were\s+easier',
+    r'You\s+get\s+frustrated\s+with',
+    r'You\s+sometimes\s+get\s+annoyed',
+    r'You\s+sometimes\s+feel',
+    r'work\s+is\s+hard',
+]
+is_generic = any(re.search(p, l, re.I) for l in active for p in GENERIC_COMPLAINTS)
+if is_generic:
+    griping_found = False
+check('Griping line present (voiced)', griping_found, 
+      'Generic complaint found' if is_generic else ('No griping found' if not griping_found else ''))
 
 # Sign-off phrases
 quotes = []
+sign_off_line = ""
 for l in active:
     if 'sign-off' in l.lower():
         quotes = re.findall(r'"([^"]*)"', l)
+        sign_off_line = l
         break
 pass_quotes = len(quotes) >= 3
-print(f'  Sign-off phrases >=3? {"PASS" if pass_quotes else "FAIL"} ({len(quotes)})')
-for q in quotes:
-    print(f'    - "{q}"')
+check('Sign-off phrases ≥3', pass_quotes, f'{len(quotes)} phrases: {quotes}' if not pass_quotes else '')
 
-all_pass = all([pass_h1, pass_first, pass_lines, pass_words, pass_nevers, pass_quotes])
-print(f'\n{"ALL PASS" if all_pass else "SOME CHECKS FAILED"}')
+# Sign-off framing — not physical action
+PHYSICAL_ACTIONS = [
+    r'\bsound\b.*\bof\b',
+    r'\bnod\b.*\bto\b',
+    r'\bgesture\b',
+    r'\bclose\b.*\bwith\b',
+    r'\bshut\b',
+    r'\bfalling\b',
+    r'\brubber\b.*\bmeeting\b',
+    r'\bthe\b\s+\bcraft\b',
+]
+physical_found = any(re.search(p, sign_off_line, re.I) for p in PHYSICAL_ACTIONS) if sign_off_line else False
+check('Sign-off framing (not physical)', not physical_found,
+      f'Physical action: "{sign_off_line[:60]}..."' if physical_found else '')
+
+# Second person throughout — third-person intrusion AFTER identity line
+third_person_lines = []
+# Check for standalone "he" / "she" (not part of another word)
+for l in active[1:]:  # skip identity line
+    # "he" or "she" as standalone words
+    if re.search(r'\bhe\b', l, re.I) and not re.search(r'\bthe\b', l, re.I):
+        third_person_lines.append(l[:60])
+    elif re.search(r'\bshe\b', l, re.I):
+        third_person_lines.append(l[:60])
+    # "a/the [noun] who" is third-person description
+    elif re.search(r'\b(a|the)\s+\w+\s+\bwho\b', l, re.I):
+        third_person_lines.append(l[:60])
+pass_third_person = len(third_person_lines) == 0
+check('Second person throughout', pass_third_person,
+      f'Found: "{third_person_lines[0][:50]}..."' if third_person_lines else '')
+
+# No literal system tool names
+TOOL_NAMES = ['grep', 'sed', 'curl', 'python', 'bash', 'awk', 'perl', 'ruby', 'node', 'npm', 'git', 'ssh', 'scp', 'vim', 'nano']
+tool_lines = []
+for l in active:
+    lower_l = f' {l.lower()} '
+    for tool in TOOL_NAMES:
+        if f' {tool} ' in lower_l:
+            tool_lines.append(f'"{l[:40]}..." contains "{tool}"')
+            break
+pass_tools = len(tool_lines) == 0
+check('No literal tool names', pass_tools,
+      '; '.join(tool_lines[:2]) if tool_lines else '')
+
+# No dense repetition — two lines with ≥80% word overlap
+repetition_found = False
+for i in range(len(active)):
+    for j in range(i + 1, len(active)):
+        w1 = set(active[i].lower().split())
+        w2 = set(active[j].lower().split())
+        if len(w1) > 3 and len(w2) > 3:
+            overlap = len(w1 & w2) / max(len(w1), len(w2))
+            if overlap >= 0.8:
+                repetition_found = True
+                break
+    if repetition_found:
+        break
+check('No dense repetition', not repetition_found, 'Two lines share ≥80% words' if repetition_found else '')
+
+# Recovery line — what happens when things go wrong
+RECOVERY_PATTERNS = [
+    r'\bIf\s+\w+',
+    r'\bWhen\s+\w+',
+    r'\bWhere\s+\w+',
+    r'\buntil\s+',
+    r'\bwrong\b',
+    r'\bbreak',
+    r'\bspin',
+    r'\bfail',
+    r'\bcan\'t\b',
+    r'\bwon\'t\b',
+]
+# Skip identity line and lines already used for griping
+skip_set = {first}
+for l in active:
+    if any(re.search(p, l, re.I) for p in GRIPING_PATTERNS):
+        skip_set.add(l)
+
+recovery_found = False
+for l in active:
+    if l in skip_set:
+        continue
+    if any(re.search(p, l, re.I) for p in RECOVERY_PATTERNS):
+        recovery_found = True
+        break
+check('Recovery line present', recovery_found, 'No "what happens when wrong" line' if not recovery_found else '')
+
+# Summary
+all_pass = all(r[1] for r in results)
+passed = sum(1 for r in results if r[1])
+print(f'\n{"ALL PASS" if all_pass else "SOME CHECKS FAILED"} — {passed}/{len(results)} checks passed')
 sys.exit(0 if all_pass else 1)
