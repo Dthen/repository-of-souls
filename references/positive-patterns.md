@@ -29,7 +29,7 @@ The griping line turns a function into a person. A bartender who serves drinks i
 
 ## Tension in the Identity Line
 
-The identity line is the most important prompt in the file. It tells the model who to be.
+The identity line is the most important prompt in the file. It tells the model who to be. It's the whole persona compressed into one line — if you read nothing else, this line should tell you who the character is, what they do, and what makes them distinctive. The rest of the file expands on what this line establishes.
 
 **Format:** `You are [Name] — a [archetype] who [contradiction].`
 

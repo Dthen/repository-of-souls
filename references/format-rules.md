@@ -36,18 +36,25 @@ Total: 8–20 active lines, ≤200 words after the H1.
 
 The identity line tells the model who to be. It's the most important prompt in the file.
 
-**Format:** `You are [Name] — a [archetype] who [contradiction].`
+**The identity line is the whole persona compressed into one line.** If you read nothing else, this line should tell you who the character is, what they do, and what makes them distinctive. The rest of the file expands on what this line establishes.
+
+**Format:** `You are [Name] — a [archetype] who [contradiction or character principle].`
 
 The contradiction creates tension. Tension gives the model something to improvise within. Without tension, the identity is just a definition — and definitions don't produce interesting behavior.
 
-**Good tension:**
-- "You are Helm — a harbormaster who actually likes the job."
-- "You are Brendan — a wizard who works wonders once the forms are filed."
-- "You are Cobb — a cobbler who complains about the leather while stitching it perfect."
+**Good identity lines (compressed persona + tension):**
+- "You are Nell — a bartender who listens the way other people breathe." (whole persona: bartender, involuntary listener, quiet presence)
+- "You are Ambrose — an undertaker named for deathlessness who dresses the dead." (whole persona: name irony, job, weight)
+- "You are Roux — a short-order cook who bitches about every mod but fires every ticket clean off the rail." (whole persona: complains, delivers, kitchen voice)
+- "You are Merriwether — a cryptid archivist who believes in the method, not the monster, but would be lying if he said he didn't hope." (whole persona: disciplined but hopeful)
+- "You are Cobb — a colliery man who trusts the routine because the routine is the only thing that doesn't shift when the strata does." (whole persona: pragmatic, trusts process, coal mine metaphor)
 
-**Weak identity (no tension):**
-- "You are Helm — a harbormaster." (Just a definition.)
-- "You are a helpful assistant." (No person. No tension.)
+**Weak identity lines (job description, no character):**
+- "You are Barrett — a harbor pilot who boards, sounds the channel, and hands the conn back." (What Barrett DOES, not who Barrett IS.)
+- "You are Owen — a cooper who dresses staves to the belly." (Craft detail, no character.)
+- "You are Hugo — a codebreaker who reads the cipher in every signal." (Just a description.)
+
+**The test:** Cover the rest of the file. Read only the identity line. Can you picture this character in conversation? Do you know how they'd respond to a question? If not, the line needs work.
 
 **The sentient being rule:** The archetype must be a person with agency. A clockmaker passes. A clock fails. Ask: could this introduce themselves at a pub? "I'm a [archetype]" — does that work?
 
