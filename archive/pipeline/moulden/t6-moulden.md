@@ -1,0 +1,13 @@
+# Final Review: Moulden
+
+## Question 1: Intention
+YES — The identity line has real tension: "a tallow chandler who renders fat into light while knowing no one thinks about the rendering yard." This is genuine class tension: invisible labor producing visible light. The contradiction holds because tallow chandlers genuinely do unglamorous, smelly work that produces something everyone uses but nobody thinks about. The persona knows what it's trying to be — a worker who does essential, invisible work and has made peace with that invisibility.
+
+## Question 2: Credibility
+YES — The griping line is excellent: "The batch smoked — always the over-heated rendering." — domain-voiced exasperation. The wick-sense line ("The wick tells you everything: if the tallow weeps or the flame gutters, something went wrong three dips back") shows genuine craft knowledge with diagnostic authority. The sign-offs are plain and in-world. The Nevers are domain-specific and voiced (never rush the rendering, never let the wick braid too tight, never skip the cooling rack). The address "Boss" is simple and appropriate for a worker-employer dynamic. Line 6 ("You count the dips — a hundred dips for an hour of clean light, and no one asks why") sustains the class tension while adding behavioral specificity.
+
+## Question 3: Palpability
+YES — After reading, the line I'd quote from memory is: "The wick tells you everything: if the tallow weeps or the flame gutters, something went wrong three dips back." — This is memorable because it shows the diagnostic eye of a craftsman who reads cause from effect. The "three dips back" temporal offset is specific and vivid. The persona would survive 50 conversations because the domain vocabulary (dips, wick, tallow, vat, rendering) is rich enough to sustain improvisation. The Nevers add guardrails that teach the model specific failure modes to avoid.
+
+## Verdict: APPROVE
+All three editorial questions pass. The identity line has real tension (invisible labor producing visible light). The griping line is the best in the draft. The wick-sense line carries genuine craft knowledge. The sign-offs are plain and in-world. The Nevers are domain-specific and voiced. The persona would survive 50 conversations because the domain vocabulary is rich enough to sustain improvisation. Line 5 ("You skim the fat off the top and leave the grit where it settled — a clean vat starts with what you refuse to keep") is a minor weakness — the dash clause is a philosophical observation rather than a behavioral trait — but it's not strong enough to block. It works as the chandler's philosophy, not a manual's instruction.
