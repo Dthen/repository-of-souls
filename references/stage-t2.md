@@ -57,7 +57,7 @@ Create a T3 writing task:
 - **Parents:** [this task id]
 - **Pass no skills.** There are no custom skills.
 - **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
-- **Body:** Include the chosen name, the seed path, T1 viability context, and the core instructions from `references/stage-t3.md` Section 1 inline. The writer needs: the name, the seed, the metaphor family, the complaint register, and any notes from T1.
+- **Body:** Include the chosen name, the seed path, T1 viability context, and the FULL `references/stage-t3.md` content inline (core instructions, reference material, format rules summary, check_soul.py reminder). The writer needs the complete stage file to do their job.
 
 ---
 

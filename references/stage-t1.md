@@ -68,7 +68,7 @@ Create a T2 naming task:
 - **Assignee:** `soul-namer`
 - **Parents:** [this task id]
 - **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
-- **Body:** Include the seed name, the archetype, your answers to questions 2-4, and any notes for the namer. Include the core instructions from `references/stage-t2.md` Section 1 inline.
+- **Body:** Include the seed name, the archetype, your answers to questions 2-6, any notes for the namer, and the existing archive names for collision detection. Include the FULL `references/stage-t2.md` content inline (core instructions, reference material, hop test, phonetic instinct, collision detection, memorability). The namer needs the complete stage file to do their job.
 
 ---
 

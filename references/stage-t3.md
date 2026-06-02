@@ -39,7 +39,7 @@ Create a T4 review task:
 - **Parents:** [this task id]
 - **Pass no skills.** There are no custom skills.
 - **Workspace:** `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/.hermes/projects/soul-repository"`
-- **Body:** Include the draft file path, and the core instructions from `references/stage-t4.md` Section 1 inline. The reviewer needs: the draft path, the format compliance confirmation, and the evaluation framework.
+- **Body:** Include the draft file path, the format compliance confirmation, and the FULL `references/stage-t4.md` content inline (core instructions, reference material, severity hierarchy, calibration examples). The reviewer needs the complete stage file to do their job.
 
 ---
 
