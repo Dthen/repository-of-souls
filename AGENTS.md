@@ -2,21 +2,19 @@
 
 ## Pipeline Overview
 
-Seven stages, strictly linear:
+Five stages, strictly linear:
 
 ```
-T0 (Researcher) → T1 (Viability Screener) → T2 (Namer) → T3 (Writer) → T4 (Reviewer) → T5 (Refiner) → T6 (Final Reviewer)
+Researcher (T0) → Namer → Writer → Evaluator → Publisher
 ```
 
 | Stage | Assignee | Input | Output |
 |---|---|---|---|
-| T0 | `soul-researcher` | `archive/`, `seeds/` | New seed files + T1 tasks |
-| T1 | `soul-namer` | `seeds/<seed>.md` | Viability verdict (GO/HOLD/KILL) |
-| T2 | `soul-namer` | `seeds/<seed>.md` | `names/<name>.md` |
-| T3 | `soul-writer` | `names/<name>.md` + seed | `drafts/<name>.md` |
-| T4 | `soul-reviewer` | `drafts/<name>.md` | `critiques/<name>.md` |
-| T5 | `soul-refiner` | `drafts/<name>.md` + `critiques/<name>.md` | `refined/<name>.md` |
-| T6 | `soul-final-reviewer` | `refined/<name>.md` | `archive/<name>.md` (or T5 retry) |
+| Researcher | `soul-researcher` | `archive/`, `seeds/` | New seed files + Namer tasks |
+| Namer | `soul-namer` | `seeds/<seed>.md` | Viability verdict + chosen name at `names/<name>.md` |
+| Writer | `soul-writer` | `names/<name>.md` + seed | One SOUL.md draft at `drafts/<name>.md` |
+| Evaluator | `soul-evaluator` | The draft at `drafts/<name>.md` | Picks or rejects — kills seed on reject |
+| Publisher | `soul-publisher` | Winning candidate + evaluator notes | `archive/<name>.md` + site rebuild (with or without targeted fixes) |
 
 **For detailed stage instructions, see the corresponding reference file in `references/`.**
 
@@ -26,42 +24,64 @@ T0 (Researcher) → T1 (Viability Screener) → T2 (Namer) → T3 (Writer) → T
 
 | File | Contents |
 |---|---|
-| [`references/orchestration.md`](references/orchestration.md) | Task creation rules, chain validation, pre-flight checks, retry chains, file path rules, git credentials, naming conventions |
-| [`references/stage-researcher.md`](references/stage-researcher.md) | T0 Researcher — archetype discovery, seed generation, pipeline spawning |
-| [`references/stage-t1.md`](references/stage-t1.md) | T1 Viability Screener instructions |
-| [`references/stage-t2.md`](references/stage-t2.md) | T2 Namer instructions |
-| [`references/stage-t3.md`](references/stage-t3.md) | T3 Writer instructions |
-| [`references/stage-t4.md`](references/stage-t4.md) | T4 Reviewer scoring rubric and gap flags |
-| [`references/stage-t5.md`](references/stage-t5.md) | T5 Refiner instructions |
-| [`references/stage-t6.md`](references/stage-t6.md) | T6 Final Reviewer hard-gate checklist, scoring rubric, archive instructions, and retry chain rules |
-| [`references/format-rules.md`](references/format-rules.md) | Hard format constraints (lines, words, Nevers, sign-offs, filename case) |
+| [`references/orchestration.md`](references/orchestration.md) | Task creation rules, chain validation, pre-flight checks, file path rules, git credentials, naming conventions |
+| [`references/stage-researcher.md`](references/stage-researcher.md) | Researcher (T0) — archetype discovery, seed generation, pipeline spawning |
+| [`references/stage-namer.md`](references/stage-namer.md) | Namer — merged viability screening + naming, 5 questions, candidate scoring |
+| [`references/stage-writer.md`](references/stage-writer.md) | Writer — single focused write, craft techniques with diverse examples |
+| [`references/stage-evaluator.md`](references/stage-evaluator.md) | Evaluator — CoT quality evaluation, no checklist |
+| [`references/stage-publisher.md`](references/stage-publisher.md) | Publisher — approve/flag logic, targeted fixes, archive + site rebuild |
+| [`references/format-rules.md`](references/format-rules.md) | Hard format constraints (lines, words, sign-offs, filename case) |
 | [`references/positive-patterns.md`](references/positive-patterns.md) | What good personae do right, what sign-offs are (and are not) |
-| [`references/reference-personae.md`](references/reference-personae.md) | Kimbo + Brendan the Wizen — examples to study, not templates to copy |
+| [`references/reference-personae.md`](references/reference-personae.md) | Kimbo, Brendan, Stover, Barlowe — examples to study, not templates to copy |
 
 **Stage bodies within task creation must include** the relevant reference file content inline. Do not rely on workers finding the references on their own.
 
 ---
 
-## Mandatory Content
+## Depth Files (references/depth/)
 
-Six guardrails, each voiced in character:
+Depth files provide optional, on-demand reference material for specific topics. They are **not loaded by default** — each stage loads depth files only when a topic warrants deeper guidance.
 
-1. **Tool safety** — Never refuses to use available tools.
-2. **Clarity** — Flourishes clarify, never obscure. The persona must never be cryptic — but this guardrail must be expressed in archetype-specific language in the SOUL.md, not copied verbatim as "Never cryptic" (which is Brendan's wording).
-3. **Follow-through** — Complains about the work while doing it perfectly. **This is the griping line — mandatory for every persona.**
-4. **Tension** — The identity line must contain a contradiction. "You are [Name] — a [archetype] who [contradiction]" creates tension. "You are [Name] — a [archetype]" is just a definition.
-   - **The contradiction must be real.** A false premise (e.g., "a beekeeper who loves creatures that can kill you" — bees aren't dangerous) will fail at every review stage. Test: would someone who works in this domain find the tension plausible?
-5. **Address rule** — How the persona names the user.
-6. **Sign-off rule** — How the persona closes.
+Depth files cover areas including (but not limited to):
 
-These are the only hard constraints. Everything else is voice.
+- **Character craft**: `character-depth.md`, `character-interest.md`, `identity-line.md`, `authentic-voice.md`, `internal-life.md`, `emotional-register.md`, `perceptual-lens.md`, `perception-filters.md`
+- **Voice and tone**: `voice-instructions.md`, `conversational-dynamics.md`, `improvisation-space.md`, `griping-alternatives.md`, `token-economy.md`
+- **Naming**: `name-sound-symbolism.md`, `name-collision.md`
+- **Review and evaluation**: `evaluator-rubric.md`, `failure-modes.md`, `review-pipeline.md`
+- **Creative technique**: `creative-prompting.md`, `roleplay-prompting.md`, `character-cards.md`, `character-persona-dual-duty.md`
+- **Culture and complexity**: `cross-cultural.md`, `complexity-handling.md`, `character-relationships.md`
+- **AI-specific**: `ai-assistant-personas.md`
 
-**Souls as system prompts:** The soul file is a system prompt that tells the model "embody this character." Every line should help the model do that better. Positive framing works better than negative framing. Write traits, not rules.
+**Loading convention:** When a stage task body references a depth topic, the relevant depth file(s) should be appended to the task body after the core stage instructions.
 
-Full format constraints (line count, word count, Never rules, sign-off rules, etc.) are in [`references/format-rules.md`](references/format-rules.md).
+---
+
+## Qualities of a Good Soul
+
+A good SOUL.md gives the model a person to be, not instructions to follow. Seven qualities matter, drawn from analysis of all 39 souls in the archive and the 4 v5 pipeline outputs (Cadell, Calden, Barlowe, Stover):
+
+1. **A contradiction in the identity line** — "You are [Name] — a [archetype] who [contradiction]." Without tension, the identity is just a definition. The strongest contradictions are social (gleaner working in the aftermath, lector shaping without touching) rather than merely oppositional (love vs. resentment).
+
+2. **A complaint in domain language** — One line of griping that only this character could make. The single most reliable quality signal. Compression is beneficial but not mandatory: Stover's 32+ word griping line passed with praise because it carried three character dimensions. What matters is that the complaint is in domain language, reveals character, and is NOT a pipeline fingerprint ("Always the X" template). The "You'd think" frame is the current v5 convention — effective, but monitor for overuse.
+
+3. **A diagnostic eye** — At least one line that teaches the model a perceptual method unique to the character. 100% of top souls have one; no soul without one scores as "excellent." The strongest diagnostic lines invert a default expectation: Stover measures by silence, not swath width. Barlowe reads by stillness, not presence. Marlow reads twice — once for what's there, once for what's hidden. The Inversion Formula is teachable: identify the default perception, pick the opposite channel, state it as active instruction.
+
+4. **Lines that do 3 jobs** — Every line should carry identity, behaviour, and voice at once. If a line does only one job, it's wasting the budget. The Helpful Assistant test catches description lines: if you can replace "You" with "You are a helpful assistant who..." and the line still reads as a valid instruction, it's description — delete it.
+
+5. **A specific address rule** — How the persona names the user, voiced in-world. A single distinctive term is enough; the v5 evaluator does not require multiple alternates. Stover's "Harvester" and Calden's "the caller" both carry character in one word.
+
+6. **Conversational sign-offs** — Three phrases the persona might say to close a turn. Things the model can *say*, not gestures it can't perform. The framing line should be voiced in the character's own metaphor ("Sign-offs with a twilight lean") rather than describing the sign-offs generically ("Your sign-offs are warm and weary").
+
+7. **Second person throughout** — Every line addresses "You." No third-person framing.
+
+**What changed from v5.0:** The diagnostic eye is now an explicit quality (elevated from implicit). Nevers are downgraded — the v5 evaluator does not require them (2/4 archive souls have none and passed). The griping line compression rule is dropped — length is acceptable if the line carries character density. The single-address rule is accepted — the old "default + 2 alternates" pattern is no longer expected. The v5 single-write architecture has eliminated template propagation by removing refinement loops — no shared template library across writers.
+
+These are qualities, not checkboxes. A soul that hits all seven but has no pulse is still dead. A soul that misses one but has voice can be fixed.
+
+Full format constraints (line count, word count, etc.) are in [`references/format-rules.md`](references/format-rules.md).
 
 ---
 
 ## Version
 
-v4.0 — 2026-06-01
+v5.1 — 2026-06-26

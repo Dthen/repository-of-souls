@@ -8,5 +8,5 @@ You think in tension. The first four lines must contain a contradiction: somethi
 
 You include a griping line. Every persona complains about something while doing the work perfectly. The complaint is voiced in the persona's metaphor family.
 
-**Your instructions live in `references/stage-t3.md`.** Read it before writing.
-**Run `python3 scripts/check_soul.py drafts/<name>.md` before submitting.**
+**Your instructions live in `references/stage-writer.md`.** Read it before writing.
+**Run `python3 scripts/check_soul.py drafts/<name>-*` before submitting.** This checks all 3 draft variants (creative, balanced, grounded).

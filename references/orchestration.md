@@ -6,69 +6,71 @@ This document governs how pipeline tasks are created, linked, and validated. Eve
 
 ## Pipeline Architecture
 
-The pipeline is a **strictly linear chain** with pre-flight gates:
+The pipeline is a **linear 5-stage pipeline** with pre-flight gates and no internal retry loops:
 
 ```
-T0 (Researcher) → T1 (Viability) → T2 (Namer) → T3 (Writer) → T4 (Reviewer) → T5 (Refiner) → T6 (Final Reviewer)
+Researcher (T0) → Namer → Writer → Evaluator → Publisher
 ```
 
-T0 is the Researcher (orchestrator that finds archetypes and spawns T1 tasks). T1 is the Viability Screener. T2–T6 are kanban workers.
+Researcher (T0) is the orchestrator that finds archetypes and spawns Namer tasks. Each subsequent stage is **independent** — there are no parent/child chain dependencies between stages. Each stage reads its input from disk and writes its output to disk. The next stage discovers its input by convention (known file paths), not by task-parent linkage.
 
-### Progressive Disclosure
+---
 
-The pipeline uses **progressive disclosure** — each stage only sees what it needs:
+## Progressive Disclosure
 
-- **T0** sees the archive and existing seeds. It finds gaps and generates seed candidates.
-- **T1** sees the seed. It checks viability before investing pipeline cycles.
-- **T2** sees the viable seed. It picks a name.
-- **T3** sees the seed + chosen name. It writes a draft.
-- **T4** sees the draft. It evaluates creative quality (not format compliance — that's automated).
-- **T5** sees the draft + critique. It refines.
-- **T6** sees the refined draft. It evaluates whether the character has a pulse.
+Each stage only sees what it needs:
 
-**Compliance is automated.** `check_soul.py` runs before T4 and T6. Reviewers do NOT check format, line counts, or word counts. They evaluate creative quality only.
+- **Researcher** sees the archive and existing seeds. It finds gaps and generates seed candidates.
+- **Namer** sees the seed. It runs 6 viability questions, generates 5 candidate names, scores them, and picks the best. One pass, done.
+- **Writer** sees the chosen name + seed. It produces one SOUL.md, focusing on finding a genuine voice rather than generating variants. See `references/stage-writer.md` for the writing approach.
+- **Evaluator** sees the draft. It evaluates for pulse (voice, contradiction, griping quality) and either picks it (with fix notes) or rejects it and kills the seed.
+- **Publisher** sees the winning candidate + evaluator's notes. It either approves directly or applies targeted fixes to specific issues, then archives and rebuilds the site.
+
+**Compliance is automated.** `check_soul.py` runs before the Publisher stage. Evaluators and Publishers do NOT check format, line counts, or word counts. They evaluate creative quality and fix scoping only.
 
 ---
 
 ## Creation Order and Chain Rules
 
-Each stage is the **parent of the next**. A task MUST NOT be created unless its upstream parent either exists or is created in the same orchestration step.
+### No Parent/Child Chains
 
-### Critical Rule: No Gaps Allowed
+Stages are **independent**. A task MUST NOT be created with `parent` links to upstream stages. Each stage reads its input from a known file path, not from task-parent linkage.
 
-If you are creating a task for Stage N, Stage N-1 must:
-- Already exist on the board as a done task (with its output artifact on disk), OR
-- Be created alongside Stage N in the same orchestration step.
+### Stage Independence
 
-**THIS IS NOT OPTIONAL.** Creating a downstream task without its upstream parent is the root cause of phantom-blocked chains.
+Each stage can be created independently once its required artifact exists on disk:
 
-### Critical Rule: Self-Propagating Chains
+| Stage | Required artifact on disk before creating |
+|---|---|---|
+| Researcher | — (creates seeds) |
+| Namer | `seeds/<seed>.md` |
+| Writer | `names/<name>.md` + `seeds/<seed>.md` |
+| Evaluator | Draft file at `drafts/<name>.md` |
+| Publisher | Winning candidate at `drafts/<name>.md` + evaluator notes |
 
-Each stage file includes a "When Complete" section that instructs the worker to create the next stage task. The pipeline is self-propagating — you only need to create the T0 task. Each worker creates its successor.
+### Self-Propagating Chains
 
-**This is the primary chain mechanism.** Do NOT rely on manual chain creation. The workers handle handoff automatically via the "When Complete" instructions in each stage file.
+Each stage creates the next stage's task as part of its completion. The Namer creates a Writer task. The Writer creates an Evaluator task. The Evaluator creates a Publisher task (or kills the seed). The Publisher is terminal — no next task.
 
-If a worker fails to create the next stage task, check that the stage file's "When Complete" section is present and the task body includes the full core instructions inline.
+**Chain rule:** Before creating the next task, verify the upstream artifact exists on disk. If it doesn't, kanban_block with the reason.
 
-### Critical Rule: Automate Compliance, Evaluate Quality
+### Automate Compliance, Evaluate Quality
 
-Format compliance (line count, word count, sign-off count, H1 match, etc.) is handled by `scripts/check_soul.py`. Reviewers (T4, T6) evaluate creative quality only. Do NOT ask reviewers to check compliance — it wastes their cognitive budget and turns them into format cops.
+Format compliance (line count, word count, sign-off count, H1 match, etc.) is handled by `scripts/check_soul.py`. Evaluators evaluate creative quality only. Do NOT ask evaluators to check compliance — it wastes their cognitive budget.
 
-Run `check_soul.py` before creating T4 or T6 tasks. If the draft fails compliance, fix it or send it back to the writer. Do not send non-compliant drafts to reviewers.
+Run `check_soul.py` before creating a Publisher task. If the winning candidate fails compliance, flag it in the Publisher task so fixes are applied.
 
 ---
 
 ## Stage-to-Profile Mapping
 
 | Stage | Title pattern | `assignee` value | Purpose |
-|-------|---------------|------------------|---------|
-| T0 | `T0: Research <topic>` | `soul-researcher` | Archetype discovery, seed generation |
-| T1 | `T1: Viability <Seed>` | `soul-namer` | 5-question viability gate |
-| T2 | `T2: Name <Seed>` | `soul-namer` | Pick a name |
-| T3 | `T3: Write <Name> SOUL.md` | `soul-writer` | Write draft |
-| T4 | `T4: Review <Name> SOUL.md` | `soul-reviewer` | Developmental editing — Four Pillars |
-| T5 | `T5: Refine <Name> SOUL.md` | `soul-refiner` | Craft editing — fix gaps |
-| T6 | `T6: Final-review <Name> SOUL.md` | `soul-final-reviewer` | Senior gate — Three Questions |
+|---|---|---|---|
+| Researcher | `Research <topic>` | `soul-researcher` | Archetype discovery, seed generation |
+| Namer | `Name <Seed>` | `soul-namer` | Viability gate (5 questions) + name selection |
+| Writer | `Write <Name> SOUL.md` | `soul-writer` | Single focused write, principles with examples |
+| Evaluator | `Evaluate <Name> SOUL.md` | `soul-evaluator` | Side-by-side selection or kill |
+| Publisher | `Publish <Name> SOUL.md` | `soul-publisher` | Approve/flag, archive, site rebuild |
 
 Do NOT assign all stages to one profile. Do NOT use the creating worker's own profile.
 
@@ -77,9 +79,10 @@ Do NOT assign all stages to one profile. Do NOT use the creating worker's own pr
 ## Task Workspace
 
 Every task MUST be created with:
+
 ```yaml
 workspace_kind: "dir"
-workspace_path: "/home/kimbo/.hermes/projects/soul-repository"
+workspace_path: "/home/kimbo/projects/soul-repository"
 ```
 
 `scratch` workspaces isolate workers in temporary directories where they cannot read AGENTS.md, cannot see existing personae, and cannot write outputs to the correct locations.
@@ -88,21 +91,19 @@ workspace_path: "/home/kimbo/.hermes/projects/soul-repository"
 
 ## Pre-Flight Checks Before Creating Any Task
 
-Before calling `kanban_create`, verify the upstream artifact exists and (for review stages) that compliance checks pass.
+Before calling `kanban_create`, verify the upstream artifact exists on disk.
 
 | Creating stage | Required upstream artifact | Path to check | Compliance check |
 |---|---|---|---|
-| T0 | Archive + seeds | `archive/`, `seeds/` | — |
-| T1 | Seed file | `seeds/<seed-label>.md` | — |
-| T2 | Viability passed | T1 task done | — |
-| T3 | Chosen name file | `names/<chosen-name>.md` | — |
-| T4 | Draft file + compliance | `drafts/<name>.md` | `check_soul.py` must pass |
-| T5 | Critique file | `critiques/<name>.md` | — |
-| T6 | Refined file + compliance | `refined/<name>.md` | `check_soul.py` must pass |
+| Researcher | Archive + seeds | `archive/`, `seeds/` | — |
+| Namer | Seed file | `seeds/<seed-label>.md` | — |
+| Writer | Chosen name file + seed | `names/<chosen-name>.md`, `seeds/<seed-label>.md` | — |
+| Evaluator | Draft file | `drafts/<name>.md` | — |
+| Publisher | Winning candidate + evaluator notes | `drafts/<name>-{variant}.md` (as picked by evaluator) | `check_soul.py` must pass (or notes flag compliance issues for Publisher to fix) |
 
 **If the file doesn't exist:** Do NOT create the downstream task. Create the missing upstream stages instead.
 
-**If `check_soul.py` fails:** Do NOT create the review task. Send the draft back to the writer with the compliance report as feedback.
+**If `check_soul.py` fails:** Note the compliance issues in the Publisher task body so the Publisher can apply targeted fixes.
 
 ---
 
@@ -112,64 +113,53 @@ The `Input file` directive in each task body MUST reference the correct director
 
 | Stage | Output directory | Task body must reference |
 |---|---|---|
-| T0 | (no output file) | Input: `archive/`, `seeds/` |
-| T1 | (no output file) | Input: `seeds/<seed-label>.md` |
-| T2 | `names/` | Input: `seeds/<seed-label>.md` |
-| T3 | `drafts/` | Input: `names/<name>.md` |
-| T4 | `critiques/` | Input: `drafts/<name>.md` |
-| T5 | `refined/` | Input: `drafts/<name>.md` + `critiques/<name>.md` |
-| T6 | `archive/` or `reject/` | Input: `refined/<name>.md` |
+| Researcher | `seeds/` | Input: `archive/`, `seeds/` |
+| Namer | `names/` | Input: `seeds/<seed-label>.md` |
+| Writer | `drafts/` | Input: `names/<name>.md` + `seeds/<seed-label>.md` |
+| Evaluator | `evaluations/` | Input: `drafts/<name>.md` |
+| Publisher | `archive/` | Input: `drafts/<name>.md` (the winning candidate) + evaluator notes |
 
-**T6 MUST read `refined/<name>.md`, never `drafts/<name>.md`.** Passing the wrong path means T6 judges stale draft content instead of the refiner's actual output.
+**Writer writes 1 file:** `<name>.md` to `drafts/`.
 
-**T4 MUST NOT read `critiques/<name>.md` as its input.** T4 writes the critique; it does not read one.
+**Evaluator writes evaluation notes** to `evaluations/<name>.md` covering the voice assessment, decision rationale, and any fix items for the Publisher.
 
----
-
-## T6 Retry Chain (On REFINE verdict)
-
-When T6 returns REFINE (not APPROVE or KILL), it creates a **loopback**:
-
-1. Write a specific rejection note (2–3 paragraphs) explaining which of the Three Questions failed and why. Quote problematic lines. Suggest fixes.
-2. Create a new T5 task with:
-   - The `refined/<name>.md` file as input
-   - Your rejection note as the critique
-   - A clear instruction on what must change to pass
-3. **In the same orchestration step**, create a T6 child task chained to the new T5 (assignee: `soul-final-reviewer`, parents: [new T5 task id]).
-4. Complete the current T6 with a note that refinement was requested.
-
-**Without step 3, the T5 fix completes with no T6 to re-review it — the chain breaks and the fix is orphaned.**
-
-The refiner applies the fixes and returns the draft to T6. Repeat until the draft passes or the character fundamentally cannot be saved.
-
-Only when a draft has failed T6 **three times with the same structural flaw** should you consider KILL.
+**Publisher reads the winning candidate from Evaluator** — there is one draft; the Evaluator either picks it or rejects it. If picked, the Publisher reads the draft and the evaluator's fix notes.
 
 ---
 
-## T6 Kill Process (On KILL verdict)
+## Publisher Approval / Fix / Kill Logic
 
-When T6 returns KILL (unfixable):
+The Publisher has two paths:
 
-1. Move the draft to `reject/<name>.md`.
-2. Write a note explaining which seed archetype does not work and why.
-3. Log the failure in `references/viability-log.md`.
-4. Complete the T6 task with the kill note.
+### APPROVE Path
+
+1. Read the winning candidate from `drafts/<name>-{variant}.md`.
+2. Run `check_soul.py` to verify compliance. If it passes, proceed. If it fails, see FLAG path.
+3. Copy the candidate to `archive/<name>.md`.
+4. Rebuild the site.
+5. Complete the task with a summary.
+
+### FLAG Path
+
+1. Read the winning candidate from `drafts/<name>-{variant}.md`.
+2. Read the evaluator's minor-issue notes.
+3. Apply **targeted fixes** only — fix the specific issues identified by the evaluator. Do not rewrite, restyle, or improve the draft beyond the scoped fixes.
+   - "Fix these 3 things" means exactly 3 changes, not "make it better."
+4. Run `check_soul.py` to verify compliance.
+5. Copy the fixed candidate to `archive/<name>.md`.
+6. Rebuild the site.
+7. Complete the task noting which fixes were applied.
+
+### KILL Path (Evaluator rejects the draft)
+
+If the Evaluator rejects the draft:
+
+1. The seed is killed. Do NOT create a Publisher task.
+2. Move the seed to `reject/<seed-label>.md` (or note the kill in `references/viability-log.md`).
+3. Log the failure in `references/viability-log.md` explaining why the seed archetype failed.
+4. Complete the Evaluator task with the kill note.
 
 **Researchers read `references/viability-log.md` before proposing new seeds.** If the killed archetype appears in the log, the researcher should avoid it.
-
----
-
-## T6 Name-Rejection Chain
-
-If T6 rejects on name quality (not a person, common word, stereotype), the chain is:
-
-1. Create a **standalone** T2 task (no parent) with the archetype context and a note that it replaces the rejected name.
-2. The T2 namer picks a new name, renames the existing file, and creates the downstream chain: **T3 → T4 → T5 → T6**.
-3. Complete the current T6 noting that a rename chain was created.
-
-**How the rename works:** The content is already in archive — T2 revises it in place, not rewrites from scratch. T2 moves `archive/<old>.md` → `drafts/<new>.md`, then updates every reference to the old name: the H1, the identity line, and any other mentions in the body. Use `grep -ri "<old-name>" .` to find them all. The content, voice, and structure stay the same — only the name changes.
-
-**Important:** Do NOT rename files yourself. Do NOT create a child T5 chained to the blocked T6 parent — this creates a deadlock. The T2 namer handles the rename; the downstream chain reviews the renamed content.
 
 ---
 
@@ -177,14 +167,17 @@ If T6 rejects on name quality (not a person, common word, stereotype), the chain
 
 Every stage uses the **chosen character name** as the filename, not the seed label.
 
-The T1 Namer is the source of truth. If the chosen name is **Roux**, all files for that persona are:
+The Namer is the source of truth. If the chosen name is **Roux**, all files for that persona are:
+
 - `names/roux.md`
 - `drafts/roux.md`
-- `critiques/roux.md`
-- `refined/roux.md`
-- `archive/roux.md` (or `reject/roux.md`)
+- `archive/roux.md` (or `reject/<seed-label>.md` if killed)
 
-**Rule:** Read the chosen name from the previous stage's output file. Never construct a filename from the seed label (e.g. `the-galley-chef`).
+**Rule:** Read the chosen name from the Namer's output file (`names/<name>.md`). Never construct a filename from the seed label (e.g. `the-galley-chef`).
+
+**Writer output:** The Writer writes `<name>.md` to `drafts/`.
+
+**Publisher output:** The winning draft is copied to `archive/<name>.md`.
 
 ---
 
@@ -200,7 +193,7 @@ cp ~/.gitconfig ~/.hermes/profiles/<profile>/home/.gitconfig
 chmod 600 ~/.hermes/profiles/<profile>/home/.git-credentials
 ```
 
-Apply this to all profiles that run `git push`: `soul-writer`, `soul-namer`, `soul-reviewer`, `soul-refiner`, `soul-final-reviewer`.
+Apply this to all profiles that run `git push`: `soul-writer`, `soul-namer`, `soul-evaluator`, `soul-publisher`.
 
 ---
 
@@ -208,8 +201,10 @@ Apply this to all profiles that run `git push`: `soul-writer`, `soul-namer`, `so
 
 1. **Read `references/stage-*.md` before creating tasks.** Do not guess at the instructions.
 2. **Verify artifacts exist before creating downstream tasks.** Never assume a previous stage completed.
-3. **Run `check_soul.py` before review stages.** Non-compliant drafts should never reach T4 or T6.
+3. **Run `check_soul.py` before the Publisher stage.** Non-compliant drafts should be flagged for targeted fixes.
 4. **Use full task bodies.** Abbreviated task bodies produce incomplete work.
-5. **Create the full chain in one step when possible.** T4 creates T5→T6 as children. This prevents orphaned tasks.
-6. **Never skip T5.** Every draft goes through refinement before final review. Even a 3/3 T4 score gets T5 to verify the draft is polished.
+5. **Do not create parent/child chains between stages.** Each stage is independent — it reads its input from disk, not from task linkage.
+6. **Do not skip stages.** Every seed goes through all 5 stages: Researcher → Namer → Writer → Evaluator → Publisher.
 7. **Log failures.** Killed personae go in `references/viability-log.md`. This prevents repeated failures.
+8. **No retry loops.** If the Evaluator rejects the draft, the seed is killed. Do not re-generate candidates.
+9. **Scoped fixes only.** The Publisher FLAG path applies exactly the fixes specified by the Evaluator — no more, no less. "Fix these 3 things" means 3 changes, not a rewrite.

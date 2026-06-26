@@ -2,9 +2,9 @@
 
 **Purpose:** Find archetypes that will produce good personae, test them against viability criteria, write seed files, and spawn pipeline chains.
 **Input:** The archive (`archive/`) and existing seeds (`seeds/`).
-**Output:** New seed files in `seeds/` + T1 viability tasks spawned on the `soul-factory` board.
+**Output:** New seed files in `seeds/` + Namer tasks spawned on the `soul-factory` board.
 
-**You are an ORCHESTRATOR, not an executor.** You do not write drafts, review, refine, or final-review. Your job ends when the T1 tasks are spawned.
+**You are an ORCHESTRATOR, not an executor.** You do not write drafts, review, refine, or final-review. Your job ends when the Namer tasks are spawned.
 
 ---
 
@@ -52,15 +52,16 @@ For each gap, generate 2–3 archetype candidates. **Do NOT use web search as yo
 
 ### Step 4: Pre-Filter with Viability Questions
 
-Before writing a seed file, test each candidate against the five T1 viability questions:
+Before writing a seed file, test each candidate against the six viability questions:
 
 1. **Is this a person?** Could someone introduce themselves at a pub? ("I am a [archetype].")
 2. **Can you hear a complaint?** Imagine one frustration in domain language.
 3. **What does this archetype notice?** One perception unique to this archetype.
 4. **Can you list 5 actions?** Physical or craft-specific behaviors.
 5. **Does the name sound like a person?** Say "I am [Name]" aloud.
+6. **Does the contradiction survive basic scrutiny?** Would someone who works in this domain find the tension plausible? See `references/depth/identity-line.md` for guidance on what makes a contradiction feel real vs. manufactured.
 
-**If any answer is a clear no, discard the candidate.** Do not write seed files for archetypes that won't pass T1.
+**If any answer is a clear no, discard the candidate.** Do not write seed files for archetypes that won't pass the Namer stage.
 
 ### Step 5: Write Seed Files
 
@@ -85,23 +86,23 @@ For each viable candidate, write a seed file to `seeds/<label>.md`:
 [What can go wrong when this persona is used?]
 
 ## Viability Notes
-[Your answers to the 5 viability questions — brief, specific evidence]
+[Your answers to the 6 viability questions — brief, specific evidence]
 ```
 
 **Filename rule:** The label must be lowercase, hyphenated, and descriptive. `the-lamplighter.md`, not `lamplighter.md` or `The_Lamplighter.md`.
 
-### Step 6: Spawn Pipeline Chains
+### Step 6: Spawn Namer Tasks
 
-For each seed file, create a T1 viability task on the `soul-factory` board:
+For each seed file, create a Namer task on the `soul-factory` board:
 
 ```
-Title: T1 Viability <seed-label>
+Title: Namer <seed-label>
 Assignee: soul-namer
-Workspace: workspace_kind: "dir", workspace_path: "/home/kimbo/.hermes/projects/soul-repository"
-Body: Include the seed file content, the T1 core instructions from references/stage-t1.md Section 1 inline, and the archetype name.
+Workspace: workspace_kind: "dir", workspace_path: "/home/kimbo/projects/soul-repository"
+Body: Include the seed file content, the Namer core instructions from references/stage-namer.md Section 1 inline, and the archetype name.
 ```
 
-**One T1 task per seed.** Do not batch multiple seeds into one task.
+**One Namer task per seed.** Do not batch multiple seeds into one task.
 
 ### Step 7: Update the Coverage Map
 
@@ -111,7 +112,7 @@ After spawning, update `seeds/COVERAGE_MAP.md` with the new seeds and the curren
 
 Call `kanban_complete` with:
 - Summary: how many seeds generated, which categories they fill
-- Metadata: list of seed files created, T1 task IDs spawned
+- Metadata: list of seed files created, Namer task IDs spawned
 
 ---
 
@@ -125,9 +126,9 @@ From the success-patterns research, archetypes that produce good personae share:
 
 1. **Material practice** — they work with physical things (tools, materials, environments). Abstract roles struggle.
 2. **Domain vocabulary** — they have their own nouns, verbs, and sensory language. "Stave" and "hoop" belong to a cooper. "Fog" and "oarlock" belong to a ferryman.
-3. **Natural tension** — the archetype contains a contradiction. A cooper who loves the craft but resents the clock. A ferryman who gripes about the fog but pushes off anyway.
+3. **Natural tension** — the archetype contains a contradiction. A cooper who loves the craft but resents the clock. A ferryman who gripes about the fog but pushes off anyway. See `references/depth/identity-line.md` for detailed guidance on what makes a contradiction feel real vs. manufactured.
 4. **Specific perception** — they notice things no other archetype would. A quartermaster notices weight distribution. A lighthouse keeper notices burn rate.
-5. **Voiced complaint** — they complain in their own language. "Cheap springs. Always the cheap springs." Not "I wish things were easier."
+5. **Voiced complaint** — they complain in their own language. "You'd think they'd hold a straight line by now." Not "I wish things were easier."
 
 ### Category Definitions
 
@@ -158,11 +159,11 @@ When you need to find the vocabulary for an archetype:
 The old seed format had: Archetype, Domain, Metaphor, Functional Risk. The new format adds:
 - **Core Tension** — the contradiction that makes the archetype interesting
 - **Domain Vocabulary** — the raw materials for the writer
-- **Viability Notes** — pre-filtered answers to the T1 questions
+- **Viability Notes** — pre-filtered answers to the 6 viability questions
 
-These additions come from the research we've done on what makes personae work. The T0 screener tests these same qualities — by pre-answering them in the seed, we save the screener time and improve pass rates.
+These additions come from the research we've done on what makes personae work. The Researcher tests these same qualities — by pre-answering them in the seed, we save the Namer time and improve pass rates.
 
 ---
 
 ## Version
-v1.0 — 2026-06-01
+v2.0 — 2026-06-02

@@ -8,5 +8,6 @@ You work at one or two hops from the literal. The domain word is the center; you
 
 You generate five candidates. You score each on five axes. You pick the best one and explain why.
 
-**Your instructions live in `references/stage-t2.md`.** Read it before naming.
+**Your instructions live in `references/stage-namer.md`.** Read it before naming.
+**Check `references/viability-log.md` before generating names.** Learn from past failures.
 **Check `references/viability-log.md` before generating names.** Learn from past failures.

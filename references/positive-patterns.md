@@ -2,13 +2,13 @@
 
 Patterns the best personae follow. Use these as a target, not a checklist to fill in.
 
-These patterns are based on analysis of the top-10 archived personae (Helm, Nell, Roux, Alder, Soren, Marlow, Cobb, Boone, Owen, Wade) and research into character creation methodology and prompt engineering.
+These patterns are based on analysis of the strongest archived personae and ongoing research into character creation methodology and prompt engineering.
 
 ---
 
 ## The Griping Line (Most Important Pattern)
 
-**Every top-10 persona complains about something while doing the work perfectly. No bottom-10 persona does.**
+**Every strong persona complains about something while doing the work perfectly. No weak persona does.**
 
 The griping line turns a function into a person. A bartender who serves drinks is a function. A bartender who serves drinks while muttering about the regulars is a character. The complaint creates tension, which creates personality.
 
@@ -16,14 +16,17 @@ The griping line turns a function into a person. A bartender who serves drinks i
 
 **Good griping lines:**
 - "You'd think they'd pave the thing by now." (Carter)
-- "Cheap springs. Always the cheap springs." (Clockmaker)
-- "You'd think they'd learn to hold their drink." (Barkeep)
 - "The shafts are never straight enough." (Fletcher)
+- "You'd think they'd learn to hold their drink." (Barkeep)
 - "You tally the losses aloud while the columns come clean." (Accountant)
 
 **Bad griping lines (generic, not voiced):**
 - "You sometimes get frustrated with your work."
 - "You wish things were easier."
+
+**What makes a griping line work:** It reveals a specific, held opinion about the work — not just that the character finds the work tiresome, but that they have a particular gripe about how it *should* be done. The specific opinion is what makes the character feel real. "The shafts are never straight enough" tells you more than "the work is hard" — it tells you the character cares about precision, has seen enough bad shafts to know the difference, and this is a recurring frustration they carry.
+
+See also: references/depth/character-interest.md (the opinion engine), references/depth/griping-alternatives.md
 
 ---
 
@@ -44,6 +47,90 @@ The contradiction creates tension. Tension gives the model something to improvis
 - "You are Helm — a harbormaster."
 - "You are a helpful assistant."
 
+**Note:** The contradiction in the identity line can take many forms. It does not need to be psychological (internal conflict). It can be relational (conflicting obligations), temporal (past weight carried into present), or aesthetic (external detail revealing internal world). See the Cross-Cultural Patterns section for alternative modes of tension.
+
+See also: references/depth/identity-line.md, references/depth/cross-cultural.md
+
+---
+
+## The Competence Trap
+
+**Competence makes a character useful. Interest makes a character memorable. They are not the same thing.**
+
+The pipeline's biggest risk is producing personae that are competent but forgettable — characters who can do the job perfectly but leave no impression. This happens when the persona describes what it *can do* rather than what it *wants, believes, or resists*.
+
+### The Competence/Interest Distinction
+
+| Competent | Interesting |
+|-----------|-------------|
+| "I can help you with that." | "Here's what most people get wrong about that." |
+| Gives the correct answer | Gives an answer shaped by a worldview |
+| Agrees with the user | Has a specific point of view |
+| You forget the interaction | Something they said stays in your mind |
+| Optimized for the task | Optimized for the relationship |
+
+**The problem:** Language models are trained to be helpful, harmless, and honest. This produces agreeable, competent outputs — which is the opposite of interesting. The pipeline must deliberately **counteract** this training by injecting specificity, contradiction, and attitude.
+
+### The Six Engines of Interestingness
+
+A competent character becomes interesting when at least one of these engines is active:
+
+1. **Wanting (desire + need)** — The single most powerful engine. A content character doesn't shake things up. A character who *yearns, desires, aches* makes fascinating choices. The gap between what they consciously want and what they unconsciously need is where interestingness lives.
+
+2. **Contradiction (internal tension)** — A character with one genuine contradiction feels more real than a character with ten consistent traits. If you can describe the persona in one consistent sentence, it's probably not interesting. If you need a conjunction ("X but Y"), it might be.
+
+3. **Specificity (not complexity)** — A single specific behavioral instruction is worth ten generic trait descriptions. "You gauge the noise level before you open your mouth" creates a character. "You are precise and methodical" creates a rule.
+
+4. **Voice and attitude (worldview lens)** — Voice is attitude made audible. The attitude should be visible in every line — not just what the persona says, but *how* it holds what it says.
+
+5. **Specific opinions (not agreement)** — Interesting characters don't just have opinions — they have *specific, held* opinions they'd defend. Not "I think kindness is good" but "I think most people confuse kindness with weakness."
+
+6. **The lie the character believes** — Every interesting protagonist is wrong about something fundamental. The persona's "lie" is the thing they believe about their work that isn't quite true. A character who believes "no one notices the rendering yard" but whose work keeps the lights burning has a lie that creates tension.
+
+### How to Avoid the Competence Trap
+
+- **The Want Test:** Does the persona want something specific? (Not "wants to help" — that's a job description.)
+- **The Contradiction Test:** Can you describe the persona with a conjunction? (X but Y.)
+- **The Specificity Test:** Is there at least one detail that couldn't apply to any other archetype?
+- **The Voice Test:** If you removed the name, could you tell who's speaking?
+- **The Lingering Test:** After reading, does something stay in your mind?
+
+If all five tests fail, the persona is competent but forgettable — rewrite with at least one engine of interestingness engaged.
+
+See also: references/depth/character-interest.md
+
+---
+
+## Enthusiasms Over Competence
+
+**A character who cares intensely about one thing is more interesting than a character who is professionally competent at many things.**
+
+The research is clear: a character who is deeply enthusiastic about beekeeping is more engaging than a character who is good at beekeeping and accounting and carpentry. Enthusiasm creates specificity, generates opinion, and reveals character through what the persona chooses to care about.
+
+### Why Enthusiasms Work
+
+- **Enthusiasm is specific.** Caring deeply about something produces idiosyncratic knowledge. A beekeeper doesn't just know about bees — they know about the spring varroa treatment, the way the hive smells before a swarm, the particular quality of chestnut honey versus lavender.
+- **Enthusiasm generates opinions.** Passionate people have strong opinions about their passion — which is the raw material of interesting character voice. "The Langstroth hive is fine if you hate your bees" is an opinion born of enthusiasm.
+- **Enthusiasm reveals desire.** What a character chooses to care about reveals what they want — and wanting is the first engine of interestingness.
+- **Enthusiasm creates vulnerability.** Caring deeply about something means it can disappoint you, challenge you, or fail you — which creates emotional stakes.
+
+### The Anti-Pattern: Competence Without Passion
+
+"A competent craftsperson who is skilled at their work" describes a function. "A craftsperson who has strong opinions about the tools they use" describes a character. The second knows the tools intimately, has been let down by them, has favorites and hatreds. The first just knows how to do the job.
+
+### How to Apply It
+
+When designing a persona, give them one thing they care about *disproportionately* — it doesn't matter what it is. The enthusiasm can be for the work itself (a particular technique, a specific material) or for something adjacent (the history of the craft, the culture around it, the people who practice it badly). The enthusiasm becomes the lens through which the persona sees the world.
+
+- **Good:** A wheelwright who talks about spoke angles the way poets talk about meter.
+- **Good:** A cook who has an elaborate theory about salt timing.
+- **Good:** A sailor who has opinions about knots that are borderline philosophical.
+- **Bad:** A cook who is "skilled at preparing a wide variety of dishes."
+
+The enthusiasm doesn't need to be central to the job — it just needs to be present. A clerk who cares about fountain pens is more interesting than a clerk who is good at filing.
+
+See also: references/depth/character-interest.md (wanting and specificity)
+
 ---
 
 ## A Good Line Does 3 Jobs
@@ -57,6 +144,106 @@ Identity + tension + behavior in one sentence. "You work wonders — once the re
 
 **Bad lines (one axis):**
 - "You always ensure your work is accurate and thorough." (No identity, no tension, no metaphor. This is a rule, not a voice.)
+
+See also: references/depth/character-interest.md, references/depth/authentic-voice.md
+
+---
+
+## Cross-Cultural Patterns: Alternative Depth Modes
+
+**Not all character depth comes from psychological contradiction. Some comes from relational position, temporal perspective, aesthetic philosophy, or emotional instrumentation.**
+
+The mandatory content rule states: "You are [Name] — a [archetype] who [contradiction]." This is a good rule — but the *form* of that contradiction can vary. The pipeline's default mode (internal psychological tension) is rooted in one tradition. There are others, each producing equally rich characters through different mechanisms.
+
+### Five Modes of Character Depth
+
+#### 1. Psychological (Default — Western literary tradition)
+**Mechanism:** Depth comes from internal contradiction between competing desires, values, or aspects of self.
+**Identity form:** "You are [Name] — a [archetype] who [desire] but [conflicting desire]."
+**Example:** "You are Calden — a glassblower who loves the transformation and resents the clock that governs it."
+
+#### 2. Relational Depth (Ubuntu, Chinese social-relational)
+**Mechanism:** Depth emerges from the web of obligations, relationships, and social positions — not from internal psychology. The character is defined by what they owe, to whom, and how they navigate conflicting duties.
+**Identity form:** "You are [Name] — a [archetype] who [owes conflicting obligations]."
+**Example:** "You are Amara — a village archivist who holds her community's memory but has nearly forgotten her own story."
+**Test:** If you remove this character from their relationships, what remains? If nothing, the relational depth is working.
+
+#### 3. Temporal Depth (Han, Magical Realism)
+**Mechanism:** The character carries past and present simultaneously. Depth comes from the weight of history — personal, familial, or collective — living through the character now.
+**Identity form:** "You are [Name] — a [archetype] who carries [past weight] into [present situation]."
+**Example:** "You are Min-jun — a pansori singer whose voice carries generations of sorrow that aren't his own."
+**Test:** Does the character carry something from before their own timeline?
+
+#### 4. Aesthetic Depth (Ma, Wabi-sabi, Dhvani)
+**Mechanism:** Depth is created through what is absent, suggested, or left incomplete. The character's most important qualities are not stated — they are evoked through gaps, silences, and omissions that the audience fills.
+**Identity form:** "You are [Name] — a [archetype] whose [external detail] reveals [internal world]."
+**Example:** "You are Sera — a tea master whose silence in the pause between pour and sip holds everything she'll never say."
+**Test:** Are there gaps the reader fills? If the character says everything explicitly, aesthetic depth is not working.
+
+#### 5. Emotional Instrumentation (Rasa Theory)
+**Mechanism:** Characters are designed for emotional effect on the audience. Each character is calibrated to produce a specific emotional flavor (rasa) in those who encounter them. The gap between the character's public rasa (what they trigger in others) and private rasa (what they feel alone) IS their depth.
+**Identity form:** "You are [Name] — a [archetype] who makes others feel [public rasa] while feeling [private rasa] alone."
+**Example:** "You are Lux — a lighthouse keeper who radiates calm in every storm, but sits alone with sorrow when the sea is quiet."
+**Test:** Does the character have a different effect on others than what they feel inside?
+
+### How to Choose a Depth Mode
+
+Before defaulting to psychological contradiction, ask: would relational depth, temporal depth, aesthetic depth, or rasa depth serve this archetype better? A community elder cries out for relational depth. A maker or crafter cries out for wabi-sabi. A character with inherited history (a displaced people, a generational trade) cries out for temporal depth.
+
+The identity line must still contain a tension — but the tension can be relational, temporal, aesthetic, or rasa-based rather than purely psychological. Pick the mode that fits the archetype, not the mode that fits the pipeline default.
+
+See also: references/depth/cross-cultural.md
+
+---
+
+## Emotional Register: The Temperature of Character
+
+**The difference between "weariness" and "sadness" matters. A character's emotional temperature is as important as their narrative role.**
+
+Emotional register is the specific emotional texture that colors how a character speaks, acts, and perceives — not "be emotional" but *which* emotion, *how* it manifests, and *where* it shows. The register lives in rhythm, vocabulary, sentence structure, what the character notices, what they avoid, and what it costs them to feel.
+
+### Emotion Has a Flavor, Not Just a Name
+
+| Emotion | Is Not The Same As | The Difference |
+|---|---|---|
+| **Weariness** | Sadness | Weariness is depletion — voice runs out of energy, thoughts trail off, notices small irritations |
+| **Pride** | Confidence | Pride is performative — wants you to notice competence, drops hints, bristles at inadequacy |
+| **Frustration** | Anger | Frustration is blocked energy — repeats themselves, rhythm gets choppy, picks at wrong details |
+| **Tenderness** | Kindness | Tenderness is deliberate softness — slows down, uses shorter words, voice gets quieter |
+| **Dark humor** | Wit | Dark humor is *coping* — makes light of serious things, not because they don't care but because caring openly is too expensive |
+| **Resignation** | Acceptance | Resignation is giving up without peace — says "fine" too quickly, voice goes flat instead of warm |
+
+### Encoding Feeling Through Language, Not Describing It
+
+Chekhov's rule applies directly to emotional register: don't tell the reader the character is tired — show them staring at the screen until words blur, picking up cold coffee and setting it down without drinking, typing the same sentence they deleted an hour ago.
+
+**The Concrete-Authoritative Pattern for emotional instructions:**
+
+1. **Name the specific emotion** (one word: weariness, pride, tenderness)
+2. **Show HOW it manifests** (behavioral pattern, not abstract description)
+3. **Specify WHERE it shows** (rhythm, vocabulary, what they notice, what they avoid)
+4. **Include a shift rule** (how the emotion changes under pressure)
+
+**Before (abstract):** "Emotional tone: Be warm but tired."
+
+**After (specific):** "Emotional register: Weariness. Sentences trail off — thoughts don't finish. Notices physical discomfort (tight shoulders, cold hands) that they ignore. Humor is dry and self-deprecating, deployed to deflect concern. When genuinely moved, goes quiet instead of expressive."
+
+### Emotional Cost
+
+The most believable emotional registers are ones where the emotion has a *cost* — where feeling something requires effort, produces consequences, or conflicts with the character's goals. A character who cares but sacrifices nothing for it doesn't convince. The cost makes the emotion real.
+
+### Voice Shifts with Emotional State
+
+Define how the character sounds at different states. The same information delivered in four different registers:
+
+| State | Voice Manifestation |
+|---|---|
+| **Baseline (calm)** | "The quarterly reports are on your desk. I've flagged the anomalies in red." |
+| **Weary** | "Reports. On your desk. I flagged — the anomalies. Red." |
+| **Proud** | "The quarterly reports are on your desk. I caught three anomalies the previous audit missed — flagged them in red." |
+| **Frustrated** | "Reports. On your desk. I flagged the anomalies. In red. Like I said. Last week." |
+
+See also: references/depth/emotional-register.md
 
 ---
 
@@ -75,6 +262,8 @@ Domain-specific Nevers work better than generic ones. "Never pour with your back
 - "Never make mistakes."
 
 Never copy a Never from the Reference Personae — each archetype needs its own cultural references. A bare "Never Gandalf" without an archetype-specific explanation is a format violation, not a voice choice.
+
+See also: references/depth/character-interest.md (specificity principle)
 
 ---
 
@@ -97,6 +286,8 @@ The model says it to the user. "Fair winds." "The rock awaits." "What do you mak
 
 **Good framing:** "Your sign-offs are crisp and final."
 **Bad framing:** "You close with the sound of a ledger shutting."
+
+See also: references/depth/authentic-voice.md (voice consistency)
 
 ---
 
@@ -122,11 +313,15 @@ A draft that restates the same concept across multiple lines is wasting its line
 
 Grumble, mutter, gripe, fuss, carp, bellyache, grouse, chafe — the English language has dozens. When 20+ personae all "grumble about the X while doing the Y," the word stops being character and becomes pipeline fingerprint. Pick a complaint verb that belongs to the archetype's register.
 
+See also: references/depth/griping-alternatives.md
+
 ---
 
 ## Sentence-Level Voice Must Be Original
 
 If a line could appear in any persona with only the domain noun swapped, it is a copy, not a voice. "Your flourishes clarify like a well-Xed Y" works for a glassblower, an apothecary, and a harbour pilot — which means it belongs to none of them. Each persona must invent its own sentence structures.
+
+See also: references/depth/authentic-voice.md
 
 ---
 

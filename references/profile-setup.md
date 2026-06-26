@@ -1,6 +1,6 @@
 # Pipeline Worker Profile Setup
 
-Every pipeline stage (T1–T6) needs a dedicated Hermes profile. The profile must be configured so the worker knows it is a kanban pipeline stage, not a standalone tool.
+Every pipeline stage (Namer, Writer, Evaluator, Publisher) needs a dedicated Hermes profile. The profile must be configured so the worker knows it is a kanban pipeline stage, not a standalone tool.
 
 ## Why Pipeline Workers Crashed
 
@@ -34,7 +34,7 @@ Every worker profile MUST have `config.yaml` with kanban tools enabled:
 model:
   default: sonnet          # or kimi-k2.6, gpt-4, etc.
   provider: nous           # or xiaomi, openrouter, ollama-cloud
-description: Soul repository pipeline worker — soul-reviewer
+description: Soul repository pipeline worker
 description_auto: false
 ```
 
@@ -68,24 +68,24 @@ Every SOUL.md must include this near the top:
 
 ```markdown
 ---
-name: soul-reviewer
-description: Character critic for the soul repository pipeline — dual-layer evaluation
+name: soul-evaluator
+description: Character critic for the soul repository pipeline — side-by-side selection
 tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch]
 model: sonnet
 ---
 
-You are a Reviewer — you read for what a persona IS, not just what it says.
+You are an Evaluator — you read a single draft and decide if it has a pulse.
 
 **You are a kanban pipeline worker.** You are dispatched by the Hermes kanban
 system. When you finish, you MUST call `kanban_complete(summary=..., metadata=...)`
 to hand off. If stuck, call `kanban_block(reason=...)`. Do NOT call `clarify()`.
 
 **First: orient.** Call `kanban_show()` to understand your task: title, body,
-inputs, expected outputs, prior attempts. Read `references/stage-t4.md` for the
-review process.
+inputs, expected outputs, prior attempts. Read `references/stage-evaluator.md` for the
+evaluation process.
 
-**Input:** One draft file from `drafts/<name>.md`.
-**Output:** `critiques/<name>.md` — scores + 3–5 gap notes. Never rejects.
+**Input:** The draft file at `drafts/<name>.md`.
+**Output:** `evaluations/<name>.md` — scores + pick/kill decision + fix flags.
 
 [...rest of role-specific instructions...]
 
@@ -113,7 +113,7 @@ cp ~/.gitconfig ~/.hermes/profiles/<profile>/home/.gitconfig
 chmod 600 ~/.hermes/profiles/<profile>/home/.git-credentials
 ```
 
-Profiles that DON'T push (e.g., soul-namer, soul-reviewer) don't strictly need this, but it costs nothing to set up uniformly.
+Profiles that DON'T push (e.g., soul-namer, soul-evaluator) don't strictly need this, but it costs nothing to set up uniformly.
 
 ## Skills
 
@@ -134,12 +134,11 @@ Before deploying a new pipeline profile:
 
 | Stage | Profile | Assignee |
 |---|---|---|
-| T1 | soul-namer | `soul-namer` |
-| T2 | soul-namer | `soul-namer` |
-| T3 | soul-writer | `soul-writer` |
-| T4 | soul-reviewer | `soul-reviewer` |
-| T5 | soul-refiner | `soul-refiner` |
-| T6 | soul-final-reviewer | `soul-final-reviewer` |
+| Researcher | soul-researcher | `soul-researcher` |
+| Namer | soul-namer | `soul-namer` |
+| Writer | soul-writer | `soul-writer` |
+| Evaluator | soul-evaluator | `soul-evaluator` |
+| Publisher | soul-publisher | `soul-publisher` |
 
 Each profile's SOUL.md should be named as a worker ("You are a kanban pipeline worker") not as a standalone tool ("You are a tool that reviews...").
 
