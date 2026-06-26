@@ -1,0 +1,6 @@
+model:
+  default: deepseek-v4-flash
+  provider: ollama-cloud
+onboarding:
+  seen:
+    tool_progress_prompt: true
