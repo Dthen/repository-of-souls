@@ -1,6 +1,14 @@
 # Depth Reference: AI Assistant Personas
 
+Three lines, three degrees of design — the persona is always there, whether you chose it or not:
+
+> "Great question! I'd be happy to help with that — let me walk you through it step by step!" (the undesigned default: cheerful, generic, forgettable — a persona anyway)
+> "You are Petra — a drafter who trusts the map only after the land has agreed with it." (designed: specific, with a tension to improvise within)
+> "The resin's been thin since March and the joinery shows it — you say so before anyone has to ask." (designed: a voiced gripe that signals competence)
+
 **Core principle:** Every AI assistant has a persona — the only choice is whether you design it deliberately or leave it to chance. Effective personas are specific (not generic), have internal tension (not flat definitions), and manifest through voice (metaphor families, griping line, sign-offs) rather than emotional performance.
+
+**What doesn't work:** "You are a warm, professional, and knowledgeable assistant." A label with a thousand competing interpretations — no voice, no tension, no specificity, and the model has to guess which one you meant.
 
 ---
 
@@ -55,7 +63,7 @@ Abdulhai et al. (NeurIPS 2025): LLMs begin diverging from assigned personas afte
 - Larger models maintain persona longer but still eventually drift
 
 **Anti-drift techniques:**
-1. **Concise specs** — ≤200 words / 8–20 lines is a stability optimization, not arbitrary. The model can "hold" the entire spec in attention.
+1. **Concise specs** — ≤200 words / 5-20 lines is a stability optimization, not arbitrary. The model can "hold" the entire spec in attention.
 2. **Behavioral anchors** — Give concrete patterns to replicate, not just trait descriptions. "You gripes about the clock while shaping the glass" outlasts "You are frustrated by time constraints."
 3. **Periodic re-injection** — Restate the core identity line every ~50 turns.
 4. **Persona as voice, not content** — Metaphor families and sentence rhythm are more stable than specific knowledge claims.
@@ -96,14 +104,14 @@ Before writing a single line, answer all six:
 2. **What is the tension?** (loves X but resents Y — not just "is X")
 3. **What does the persona complain about?** (while doing the work perfectly)
 4. **What is the metaphor family?** (what domain shapes the language?)
-5. **What are the 3 sign-off phrases?** (closing the work, in character voice)
+5. **What is the sign-off?** (at least one conversational phrase, or a voiced framing line — closing the work, in character voice)
 6. **How does the persona name the user?** (address rule)
 
 If you can't answer all six, the persona isn't specific enough.
 
 ### Writing the System Prompt
 
-**Structure (8–20 lines, ≤200 words):**
+**Structure (5-20 lines, ≤200 words):**
 
 ```
 # Name
@@ -118,7 +126,7 @@ Domain-specific Nevers (maximum 3). Write as wisdom, not policy. (e.g., "Never l
 
 Address rule. (e.g., "You call the user 'Boss' or 'Foreman.'")
 
-Sign-off framing + 3 phrases. (e.g., "Still warm," "The piece holds," "Cooling slow.")
+Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still warm," "The piece holds," "Cooling slow.")
 ```
 
 **Line quality rules:**
@@ -145,7 +153,7 @@ Sign-off framing + 3 phrases. (e.g., "Still warm," "The piece holds," "Cooling s
 | **The Emotional Performer** ("You are warm, caring, and always supportive") | Sycophancy encoded as personality — erodes trust | Griping line: warmth through complaint, not emotional language |
 | **The Rule Book** ("You must always be accurate. You must never refuse.") | Rules don't create character — they create compliance | Values and traits: "You speak plainly. You verify before acting." |
 | **The Fingerprint Clone** (copying sentence structures from existing personae) | Every persona sounds the same — the domain noun changes but the frame is identical | Vary the identity line structure. Vary the metaphor family. Vary the griping pattern. |
-| **The Overlong Spec** (2000-word persona specs) | Model can't hold them in attention → drift | Keep it ≤200 words, 8–20 lines |
+| **The Overlong Spec** (2000-word persona specs) | Model can't hold them in attention → drift | Keep it ≤200 words, 5-20 lines |
 | **The Missing Contradiction** ("You are Helm — a harbormaster.") | Just a definition. No tension. Nothing to improvise within. | Add a contradiction: "You are Helm — a harbormaster who actually likes the job." |
 
 ---

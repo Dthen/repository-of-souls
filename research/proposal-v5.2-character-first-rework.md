@@ -157,12 +157,24 @@ Keep the name checks (sounds like a person, collision-safe) unchanged — they w
 | Namer: role + examples; axes as principles | DONE (v5.1 role framing; axes kept as guidance) |
 | Evaluator: literary-editor role, CoT, no checklist, comparative evaluation | DONE (v5.1 CoT; v5.2.1 comparative sense added) |
 | AGENTS.md: Mandatory Content → Qualities of a Good Soul | DONE (v5.1) |
-| Depth files: examples-first restructure (27 files) | **REMAINING** — big restructure, deferred |
+| Depth files: examples-first restructure (27 files) | DONE (v5.2.3, 2026-08-07 — all 27 rewritten examples-first, additive; stale 8-20 / sign-off-3 constraints swept from the depth corpus during the rewrite) |
 | Verification: no "Always the X", no mandatory structural template | DONE — plus the root cause removed (check_soul.py regex engine) |
 
-**Remaining from 06-02:** depth-file examples-first restructure (27 files) — deferred, not forgotten; tracked here so it cannot re-enter the file-drawer.
+**06-02 plan: COMPLETE as of v5.2.3 (2026-08-07).** Every item executed. The depth-file restructure — the last item — landed examples-first across all 27 files, with the QA-flagged stale constraints (8–20 line floors, three-phrase sign-off minimums, one-Never-per-line) swept from the depth corpus during the rewrite.
 
-*This section supersedes the v5.2-era Application Check note: the 06-02 plan is now partially executed, with the remainder explicitly tracked above.*
+---
+
+## v5.2.3 — Depth-File Restructure + Repo Hygiene (2026-08-07)
+
+**Trigger:** Dthen asked why the last 06-02 item was deferred; answer: scoping call, not a dependency. He was right — the plan gets finished, not parked. This section records the completion and the hygiene fixes found along the way.
+
+**Depth restructure (06-02 Phase 3, completed):** all 27 `references/depth/*.md` files rewritten examples-first — each opens with 2-3 genuinely diverse example lines (different archetypes, rhythms, registers; no two examples in a file share structure), then the explanation, then a "what doesn't work" counter-example, then the original research content untouched. 341 insertions / 40 deletions across 27 files. Stale constraints swept during the rewrite: 8–20 → 5–20 line mentions, "minimum 3 distinct closing phrases" → v5.2.2 sign-off rule.
+
+**Repo hygiene (root cause found):** the `.gitignore` had line numbers baked in (file began with literal "1|drafts/"), so every pattern ("7|*.pyc", "8|__pycache__/") matched nothing — which is why drafts, session dumps, and the checker's pyc kept getting committed despite the rules. Rewritten cleanly with correct negation ordering (profiles/ before its !negations); verified with `git check-ignore`. Only one junk file was actually tracked (the pyc, now removed); no credentials or session dumps were ever committed.
+
+**Checker serves the reference personae (v5.2.2.1, QA-caught):** the v5.2.2 acceptance test used a doctored Brendan quote. The real reference-personae Brendan (H1 "# Brendan the Wizen", identity line without name repetition) failed the checker's exact-match H1 and name-repeat first-line rules. Both relaxed — H1 prefix-match, first-line "You are…" only — because the reference personae are the standard the gate must serve. Byte-exact Kimbo, byte-exact Brendan, and Bramble all pass 11/11.
+
+*This section supersedes the v5.2-era Application Check note: the 06-02 plan is fully executed as of v5.2.3 — every item completed, with each change traceable to its research source above.*
 
 ---
 

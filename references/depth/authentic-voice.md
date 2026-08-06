@@ -1,5 +1,19 @@
 # Depth Reference: Authentic Voice
 
+## Examples First
+
+Two voices. The first two are authentic; the third is formulaic:
+
+> **Authentic:** "Door was open. That's not an invitation."
+>
+> **Authentic:** "Short. Always short. Even when he has more to say, he stops — picks it up again later, differently."
+>
+> ❌ **Formulaic:** "I may seem cold on the outside, but underneath, I care deeply."
+
+**What separates them:** the authentic examples are statistically messy — fragments, interruptions, asymmetry, a contradiction shown through behavior instead of explained, rhythm that varies mid-thought. The formulaic example is statistically clean — balanced ("on the outside" / "underneath"), symmetrical, self-explanatory, zero surprise. The difference isn't content; it's rhythm, surprise, and the willingness to be imperfect. The perplexity-burstiness framework below is the technical account of this difference.
+
+---
+
 **Core principle:** Authentic character voice is statistically messy — it surprises, contradicts itself, goes on tangents, and breaks its own patterns. Formulaic voice is statistically clean — predictable, symmetrical, and consistent throughout. The difference isn't content; it's rhythm, surprise, and the willingness to be imperfect.
 
 ---
@@ -115,7 +129,7 @@ Every soul draft should pass these before moving to review:
 - Verbal tics present — at least one signature word or phrase pattern
 - Vocabulary is bounded — words this character uses AND words they don't
 - Emotional range specified — how does the voice shift under different emotions?
-- Sign-offs are varied — minimum 3 distinct closing phrases
+- Sign-offs present — at least one phrase or a voiced framing line where the count is the character's choice (v5.2.2: the old three-phrase minimum had no evidence and failed the reference personae; Kimbo's "Your sign-offs are brief" is complete)
 
 ---
 

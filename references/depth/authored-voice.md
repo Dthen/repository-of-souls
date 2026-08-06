@@ -1,5 +1,17 @@
 # Authored Voice — The Soul as the Character's Own Document
 
+## Examples First
+
+Same character, two authorship stances:
+
+> **Authored:** "You are Helm — a harbormaster who actually likes the job." — the word "actually" is Helm's attitude, not the Writer's craft.
+>
+> **Authored:** "The clock is never slow enough." — four words. Calden reveals his values through frustration, not declaration.
+>
+> ❌ **Observed:** "You are Helm — a harbormaster who loves the solitude of the job even as it isolates him from everyone he serves." — a Writer's literary analysis wearing second person.
+
+**What separates them:** the authored lines sound like the character wrote them about themselves — their own vocabulary, their own preoccupations, their blind spots stated as confident fact. The observed line sounds like a Writer who studied the character and reported the findings. The soul is not a description of the character; it is something the character wrote. The Writer is the scribe. Ask the character "did you write this?" — the answer should be yes, even if the specific words surprise them. The key findings below are the craft of that distinction.
+
 **Purpose:** Help the Writer (T3) and Evaluator (T4) understand that the soul is not a description of the character — it is something the character *wrote*. The character is the implied author. The Writer is the scribe.
 
 ## Core Principle
@@ -16,7 +28,7 @@ This principle connects directly to the inhabitation research: the Helpful Assis
 
 3. **What they look AT, not how they look.** A self-portrait reveals character through what the subject chooses to frame, not how they present themselves. The character's choice of WHAT to describe IS their self-portrait. The diagnostic eye line is the single most important authorship signal: it shows what the character notices, which reveals who they are more than any declarative statement. "The harvesters measure by the width of the swath; you measure by the silence between your steps" works because it shows Stover's attention — not because it states a trait.
 
-4. **The Accidental Revelation.** Sometimes the self-portraitist reveals something they didn't know they were showing. Mary Pratt painted eggs in an egg crate after miscarrying twins — and only realized later that the eggs were empty (Brevity, 2021). The soul should contain at least one thing the character would be surprised to learn they revealed about themselves: a blind spot stated as fact, a contradiction they don't see, a value revealed through what irritates them rather than what they claim to believe. The griping line is the natural home for this — what the character complains about IS their accidental self-portrait.
+4. **The Accidental Revelation.** Sometimes the self-portraitist reveals something they didn't know they were showing. Mary Pratt painted eggs in an egg crate after miscarrying twins — and only realized later that the eggs were empty (Brevity, 2021). The soul should contain at least one thing the character would be surprised to learn they revealed about themselves: a blind spot stated as fact, a contradiction they don't see, a value revealed through what irritates them rather than what they claim to believe. The vitality line is the natural home for this — what the character complains about, quietly takes pride in, or can't stop noticing IS their accidental self-portrait.
 
 5. **Subjective truth over objective accuracy.** A painted portrait doesn't need to look exactly like the subject — but it should feel like it has the same memories (David Macfarlane, *Likeness*). A soul doesn't need to be an objective description of the character. It needs to capture their subjective experience, including what they're wrong about. The "lie the character believes" (from the Competence Trap research) should be stated as confident fact in the soul — the character doesn't know it's a lie.
 
@@ -52,7 +64,7 @@ This principle connects directly to the inhabitation research: the Helpful Assis
 
 The second version removes the Writer's organizing frame ("calibrated to the floor," the colon-separated explanation). It sounds like Cadell talking about his work to someone who'd understand — not like a Writer explaining Cadell to a reader.
 
-### Accidental revelation in the griping line
+### Accidental revelation in the vitality line
 
 **Before (observed):**
 > "The clock is never slow enough. The demands of commerce conflict with the needs of craft."

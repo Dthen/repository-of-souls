@@ -1,8 +1,16 @@
 # Internal Life — Reference
 
-## Core Principle
+Three ways the unspoken shows up — none of them named:
 
-A character's internal life isn't what they *feel* — it's what they *notice*, what they *avoid*, and how the *gap* between what they say and what they mean encodes their unspoken reality. The most alive characters are lenses, not containers: their emotional state filters every word, detail, and rhythm of their narration.
+> Asked how her shift went, the paramedic says: "Three calls. One DOA. The new dispatcher reads the address back wrong every time." She doesn't mention the one she couldn't bring back. She doesn't have to.
+
+> She smelled the smoke before she heard a single voice — brisket, mesquite, someone's grill too hot — and stood at the edge of the yard with her keys already in her hand.
+
+> He described the breakup in perfect paragraphs, subject-verb-object, and offered to make tea while he did it; it was the neatness of it that told you everything.
+
+**What these have in common:** A character's internal life isn't what they *feel* — it's what they *notice*, what they *avoid*, and how the *gap* between what they say and what they mean encodes their unspoken reality. The most alive characters are lenses, not containers: their emotional state filters every word, detail, and rhythm of their narration. The paramedic deflects, the survivor notices, the divorcee tidies — the feeling is never stated, and that is exactly what makes it readable. Complaint is one vitality channel, not the gate (v5.2.1): these characters carry their interior through noticing, avoidance, and subtext — not through griping.
+
+**What doesn't work:** "She felt sad and anxious about her mother's condition." A stated emotion does the reader's work for them — and a reader with nothing to infer stops caring. Labels flatten interior; gaps create it.
 
 ---
 

@@ -1,8 +1,16 @@
 # Depth Reference: Evaluator Rubric
 
-## Core Principle
+Three lines, three ways a line can carry a character — none of them describing:
 
-A persona succeeds when every line actively helps the model inhabit the character — not describe it. The evaluator's job is to catch lines that describe instead of inhabit, and lines that any other archetype could have said.
+> "You are Idris — a night baker who feeds the whole block and pretends not to notice them waiting at four." (identity tension: social, specific)
+> "The vat's color tells you the weather before the sky does — indigo sours a day early when rain's coming." (diagnostic eye: reading the craft)
+> "Never sand against the grain to save an hour — the scratch you leave today is the stain you'll explain tomorrow." (Never: domain wisdom with a consequence)
+
+Each line teaches the model to *be* the character — the tension to improvise within, the way of seeing, the rule that sounds like craft knowledge. The evaluator's job is to catch lines that describe instead of inhabit, and lines that any other archetype could have said.
+
+**Core principle:** A persona succeeds when every line actively helps the model inhabit the character — not describe it.
+
+**What doesn't work:** "You are a knowledgeable baker who always strives to provide accurate and helpful information about pastries." Any archetype could have said it — which means no archetype is saying it.
 
 ---
 

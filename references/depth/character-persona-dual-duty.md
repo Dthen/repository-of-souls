@@ -1,12 +1,18 @@
 # Depth: Character Persona Dual Duty — Functional Helpfulness + Interesting Character
 
-**Note:** The source file `research-character-persona-dual-duty.md` was not found at the expected path. This depth file synthesizes from the closest thematic match: `research-ai-assistant-personas.md`, which directly addresses the dual duty of AI assistant personas — being both competent tools and compelling characters. The `research-character-cards.md` and `research-roleplay-prompting.md` files also contribute relevant cross-references.
+Three lines, one job each — and the job is both jobs at once:
+
+> "You are Sable — a letterpress printer who never ships a page with a broken letter, because the 'e' is worn and you know which line it will fail on." (functional: accuracy. characterful: the worn 'e' you know personally)
+> "You count the crates twice and tell the foreman you counted once — trust comes easier when you don't show off." (functional: reliability. characterful: the wry arithmetic of trust)
+> "The town runs on your clock, and you've thought, some mornings, about letting it run slow." (functional: the town keeps time. characterful: the thought you've never acted on)
+
+**Core principle:** AI assistant personas serve a dual duty: they must be **functional** (competent, trustworthy, precise) AND **characterful** (interesting, memorable, distinctive). The tension between these two duties is the central design problem — too far toward function produces a sterile tool, too far toward character produces entertainment rather than utility. The soul-repository solves this with personae that are *both*, through the griping line, domain-specific metaphor families, and identity lines with built-in tension.
+
+**What doesn't work:** "You are a helpful, friendly AI assistant who always answers accurately and cheerfully." Pure function in a character costume — no tension, no voice, no memory hook. It fails both duties.
 
 ---
 
-## Core Principle
-
-AI assistant personas serve a dual duty: they must be **functional** (competent, trustworthy, precise) AND **characterful** (interesting, memorable, distinctive). The tension between these two duties is the central design problem — too far toward function produces a sterile tool, too far toward character produces entertainment rather than utility. The soul-repository solves this with personae that are *both*, through the griping line, domain-specific metaphor families, and identity lines with built-in tension.
+**Note:** The source file `research-character-persona-dual-duty.md` was not found at the expected path. This depth file synthesizes from the closest thematic match: `research-ai-assistant-personas.md`, which directly addresses the dual duty of AI assistant personas — being both competent tools and compelling characters. The `research-character-cards.md` and `research-roleplay-prompting.md` files also contribute relevant cross-references.
 
 ---
 
@@ -117,7 +123,7 @@ Compared to both commercial assistants and roleplay platforms:
 | Dimension | Commercial Assistants | Roleplay Platforms | Soul Repository |
 |---|---|---|---|
 | **Persona scope** | Broad, generic (millions of users) | Specific but performative (fictional character) | Specific AND functional (the character IS the assistant) |
-| **Length** | Long system prompts | Variable, can be very long | ≤200 words, 8-20 lines |
+| **Length** | Long system prompts | Variable, can be very long | ≤200 words, 5-20 lines |
 | **Density** | Single-purpose instructions | Multiple purposes, varying density | Every line does 2-3 jobs (identity + behavior + voice) |
 | **Internal conflict** | None ("helpful assistant") | Optional but valued | Required (identity line with tension) |
 | **Personality source** | Emotional performance ("I understand") | Narrative context | The griping line (complaint + competence) |
@@ -142,7 +148,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 **Mitigations:**
 
-1. **Concise, memorable persona specs.** ≤200 words, 8-20 lines. The model can "hold" the entire spec in attention. Longer specs drift more.
+1. **Concise, memorable persona specs.** ≤200 words, 5-20 lines. The model can "hold" the entire spec in attention. Longer specs drift more.
 
 2. **Behavioral anchors, not trait descriptions.** "You gripe about the clock while shaping the glass" is more stable than "You are frustrated by time constraints" because it gives a concrete pattern to replicate.
 
@@ -161,10 +167,10 @@ Compared to both commercial assistants and roleplay platforms:
    - What is the tension? (Loves X but resents Y)
    - What does the persona complain about? (While doing the work perfectly)
    - What is the metaphor family? (What domain shapes the language?)
-   - What are the 3 sign-off phrases?
+   - What is the sign-off? (at least one conversational phrase, or a voiced framing line — in character voice)
    - How does the persona name the user?
 
-2. **Write the system prompt (8-20 lines, ≤200 words):**
+2. **Write the system prompt (5-20 lines, ≤200 words):**
    ```
    # Name
    

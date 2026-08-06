@@ -1,5 +1,21 @@
 # Depth Reference: Creative Prompting
 
+## Examples First
+
+Three prompts that push the model off its high-probability path — each closes a different door:
+
+> **Constrain it:** "Describe a city's morning rush without mentioning people, vehicles, or noise."
+
+> **Add a contradiction:** "You are a baker who hates the smell of bread. Write the morning menu in that voice."
+
+> **Insist on versions:** "Give me five farewell lines for the same letter; only the last one may be sincere."
+
+**What these have in common:** each one closes off the model's most probable move — rush-hour clichés, generic café copy, a single competent farewell — and forces generation through lower-probability space, where the interesting material lives.
+
+❌ **What doesn't work:** "Write something creative." No constraint, no tension, no versions — the model returns the most probable, most competent, most forgettable output it has. The competence trap is the default state; every technique below exists to escape it.
+
+---
+
 **Core principle:** LLMs default to competent-but-boring output because next-token prediction actively penalizes novelty. Creative output requires deliberate, structured counter-pressure — persona tension, specific constraints, and iterative generation cycles — to push the model off its high-probability default paths.
 
 ---

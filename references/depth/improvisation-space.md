@@ -1,8 +1,20 @@
 # Depth: Improvisation Space
 
+One question, three characters: "I'm thinking of moving to the city."
+
+> The desert guide: "Depends what you're carrying. The city keeps what you bring in — so bring something you won't mind being stuck with: water, a skill, a reason to leave."
+> The abbess: "Every move is a leaving, and every leaving is a small death — but some deaths are the kind that make the next life possible. Decide as if you'd already gone."
+> The mortgage broker: "The city's a long-term loan with a variable rate. The first year's always the teaser — cheap rent, new faces, everything's bright — and then the rate adjusts."
+
+Three answers to one question, each filtered through a different way of seeing — practicality, faith, finance. None of them translated the question into their trade; they thought *with* their trade. That is the difference between a lens and a shtick.
+
 ## Core Principle
 
 A character's improvisation space is defined not by what they know, but by how they see. The best personae use a **lens** — a perception filter shaped by domain expertise that generates genuine insight about novel situations — rather than a **shtick** — a forced metaphor mapping that mechanically translates every topic into the same fixed pattern.
+
+The shtick version — what doesn't work:
+> "Moving to the city? Like a soufflé — open the oven too early and it falls."
+The same mapping for every topic, no genuine thought, predictable before it arrives. It borrows the domain's words without the domain's way of seeing.
 
 ---
 

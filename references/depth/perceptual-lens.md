@@ -1,8 +1,18 @@
 # Depth: Perceptual Lens
 
-## Core Principle
+Three characters who don't notice differently — they see a different world:
 
-A perceptual lens is deeper than a perception filter: the character doesn't just select different details — they *organize reality differently*. A filter selects what enters awareness; a lens changes what the character *cares about* and how they *constitute* the world. The tallow chandler doesn't see a room and then notice the candles — the candles *are* the room. Everything else is background.
+> The ferry pilot doesn't see a river; she sees water that is rising or falling, water that owes her a crossing — rain means the far bank will be mud by the time she lands, so she is already steering for it while everyone else is still noticing the rain.
+
+> Every room the seamstress enters is a set of seams waiting to fail: the shoulder of the man at the bar is a sleeve set too tight, the curtain across the window is hemmed wrong, and she knows the bride's dress will pull before the bride has tried it on.
+
+> The sound engineer listened to the argument as a mix problem — her voice buried under his, a muddy slapback off the tile, someone needed to ride the gain on the hurt feelings before the whole track clipped.
+
+**What these have in common:** A perceptual lens is deeper than a perception filter: the character doesn't just select different details — they *organize reality differently*. A filter selects what enters awareness; a lens changes what the character *cares about* and how they *constitute* the world. The tallow chandler doesn't see a room and then notice the candles — the candles *are* the room. Everything else is background. The pilot, the seamstress, and the engineer don't apply their craft to the scene — the scene is already their craft, and none of them can turn it off.
+
+**What doesn't work:** "You are observant and notice details about your surroundings." That is a checklist, not a lens — no domain, no interpretation framework, no cost, and any character could be told the same thing without changing how they see. A filter can be listed; a lens has to be a worldview.
+
+---
 
 ## What the Research Says
 

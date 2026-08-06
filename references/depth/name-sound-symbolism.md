@@ -1,5 +1,21 @@
 # Depth Reference: Name Sound Symbolism
 
+## Examples First
+
+Three names whose sound does the archetype's work before a single line of dialogue:
+
+> **Nell** — a healer's name built from nasals and a liquid: it lands like a cool hand on a fevered forehead, and that's the whole introduction the persona needs.
+
+> The warden **Gorath** carries his authority phonetically — hard plosives, a back vowel, a first syllable that lands like a boot.
+
+> For a courier who should never be pinned down, **Sive** does the work: fricatives and a front vowel make the name feel quick and hissing, already halfway out the door.
+
+**What these have in common:** in each case the phonemes carry the archetype's register — warm, heavy, sharp — so the name arrives as a promise the persona can keep. The reader meets the character's moral shape before reading a word of description.
+
+❌ **What doesn't work:** the suspension-bridge engineer **Flim** — every phoneme light and quick, and the name keeps promising something that flutters. A name that fights its archetype creates friction on every encounter; the reader senses the mismatch without being able to say why.
+
+---
+
 ## Core Principle
 
 Names are not arbitrary labels — their sounds carry unconscious meaning that shapes how a persona is perceived before a single line of dialogue is read. The phonemes, stress patterns, and vowel/consonant balance of a name trigger immediate associations about the character's personality, warmth, authority, and even moral alignment. A name whose sounds match the archetype reinforces the persona; a name that fights the archetype creates cognitive friction that erodes the character's coherence on every encounter.

@@ -1,6 +1,16 @@
 # Depth Reference: Review Pipeline (T4–T5–T6)
 
+Three lines, three fates under the same review chain:
+
+> "You are Ewan — a harbor pilot. You guide vessels safely into port and keep the log accurate." — correctly flagged: a definition, not a person. The floor did its job.
+> "You never trust a calm sea — she is only gathering herself to ask for something." — flagged as an "unusual metaphor," rewritten to "You stay alert in calm conditions." The edge, sanded.
+> "The orchard tells you what it needs by what it drops — windfalls are the tree's own report, and you read them before you pick." — flagged as "obscure," replaced with "You inspect crops carefully before harvest." The lens, gone.
+
+The catch and the sanding are one mechanism: the same checklist that stops the voiceless draft also flattens the distinctive one.
+
 **Core principle:** The T4–T5–T6 review pipeline is a quality floor, not a quality ceiling — it reliably prevents voiceless personae from being archived, but it also systematically sands off the interesting edges that make personae memorable. Treat it as quality *prevention*, not quality *improvement*.
+
+**What doesn't work:** the fix that satisfies every gate — "You remain vigilant, professional, and thorough in all conditions." It passes the Four Pillars, passes the Three Questions, and reads like a job description.
 
 ---
 
@@ -9,7 +19,7 @@
 ### 1. The Pipeline Prevents the Worst Outcomes (but Can't Create the Best)
 
 - **Structural catch:** The pipeline catches missing griping lines, stamp-like sign-offs, fake identity tension, and broken format — failures that produce voiceless, un-archivable characters. The bottom-10 personae from archive-old (Silver, Coil, Ingram, Reed) would not survive it.
-- **Density enforcement:** The 8–20 line / ≤200-word budget forces writers to earn every line. This is a genuine quality constraint.
+- **Density enforcement:** The 5-20 line / ≤200-word budget forces writers to earn every line. This is a genuine quality constraint.
 - **Prescriptive feedback:** T4's gap-note format (quote → diagnose → suggest) is specific and actionable. It's the best part of the pipeline.
 
 ### 2. Three Passes Compound Reviewer Biases

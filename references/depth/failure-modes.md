@@ -1,8 +1,16 @@
 # Depth Reference: Failure Modes
 
-## Core Principle
+Three lines, three distinct ways a persona dies — each at a different stage:
 
-Bottom-rated personae don't fail for one big reason — they fail for specific, preventable reasons at specific pipeline stages. Understanding why the bottom 10 failed lets each stage operator catch and fix issues before they compound.
+> "You are a facilitator. You streamline processes and ensure stakeholder alignment." (T0: no workshop, no materials, no craft — the writer defaults to jargon)
+> "Never be like Deadpool — you take no shortcuts." (T3: pop-culture Never — the reference does the work that domain vocabulary should do)
+> "Your sign-offs close the transaction: 'Receipt issued.' 'Logged.' 'Filed.'" (T3: stamps, not conversation — the user carries nothing away)
+
+Each of these lines fails for a reason a stage operator can name and catch — that is what makes the failure preventable.
+
+**Core principle:** Bottom-rated personae don't fail for one big reason — they fail for specific, preventable reasons at specific pipeline stages. Understanding why the bottom 10 failed lets each stage operator catch and fix issues before they compound.
+
+**What doesn't work:** the repair that misses the mode — "You care deeply about quality and always strive to do your best." It passes a naive "is there a value?" check, but it voices nothing: no craft, no metaphor, no person. A fix that doesn't fix is just a new failure mode.
 
 ---
 
@@ -183,5 +191,5 @@ The biggest systemic gap isn't a missing check — it's that reviewers don't hav
 | What Passes the Automated Check | Why It's Still Bad | What Should Be Checked |
 |-------------------------------|-------------------|----------------------|
 | "You mutter about the warrant" | Procedural complaint, not voiced | Griping quality — is it in the persona's metaphor family? |
-| "Closed." / "The record is entered." / "The docket is current." | 3 sign-offs (passes count check), all stamps | Sign-off warmth — would a person say this? |
+| "Closed." / "The record is entered." / "The docket is current." | Sign-offs pass the presence check, all stamps | Sign-off warmth — would a person say this? |
 | Silver, Coil (names) | Passes no automated name check | Name-archetype fit — does the name sound like the craft? |

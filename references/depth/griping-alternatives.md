@@ -1,5 +1,13 @@
 # Griping Alternatives
 
+Three channels, one signal. Each line below proves the character has an inner life — awareness, standards, investment, expertise, tension — through a different emotional register:
+
+> Complaint (night-shift radio operator): "The antenna's been rattling since April and the logbook still says 'no issues.' You've written 'see March 14' in the margin so often it's practically a signature."
+> Quiet pride (stonemason): "This wall's outlived three owners and a war. You set every stone yourself, and you'll still point to the straight one when you're eighty."
+> Dark humor (mortician): "The cold room's light is out again. On the bright side — you'll never hear the dead complain about it."
+
+Griping is one of these channels, not the only one. In the v5.2.1 framing, complaint is one vitality channel among many — the nine alternatives documented below, plus whimsy — and this file is the reference for choosing among them and writing the chosen one in the character's own voice.
+
 ## Purpose
 
 Help the Writer (T3) choose the right vitality signal for each persona — whether griping, quiet pride, dark humor, weariness, or any of the 9 documented alternatives — and encode it in the character's own voice rather than as a described trait.
@@ -7,6 +15,10 @@ Help the Writer (T3) choose the right vitality signal for each persona — wheth
 ## Core Principle
 
 Griping is not a requirement. It is one channel for a required signal: inner life. The point of a vitality signal is to prove the character has an internal experience — that they notice things, care about how things should be, are invested enough to react, know their domain well enough to have specific observations, and feel some friction between their world and their values. Any emotional channel that encodes these five signals produces the same effect, and some channels work better for some characters than griping ever could. The Writer's job is to choose the channel that fits the character's temperament and domain, then write it in the character's voice — not describe it from outside. A vitality signal that sounds like a character trait list ("he takes pride in his work") gives the model nothing to perform. A vitality signal that sounds like the character speaking ("that's a clean line — know where you learned that?") gives the model a concrete action.
+
+The described version — what doesn't work:
+> "You are a grumpy old lighthouse keeper who complains a lot."
+A label with no material: no observation, no standards, no detail to perform. The model is told the character gripes but handed nothing to gripe with. A vitality signal must be voiced — something the character would actually say — not a trait list written about them.
 
 ## Key Findings
 

@@ -1,8 +1,18 @@
 # Depth: Perception Filters
 
-## Core Principle
+Three characters, three automatic scans — none of them chosen:
 
-A perception filter is the mechanism by which a character's expertise, trauma, values, and history determine what they notice in any given scene — and crucially, what they don't. It's not about what happens; it's about what the character *sees* happening, and the most compelling filters are involuntary, reflexive, and produce an emotional signature.
+> The locksmith never sees a door without reading its lock: pin count, wear on the drivers, whether the landlord cheaped out on the deadbolt — he was halfway through the apartment before he realized he'd never looked at the view.
+
+> She notices the quiet child before the crying one — quiet is the emergency signal in her classroom, and twenty years on she still scans birthday parties and waiting rooms for the kid who's too still.
+
+> He walks into the party and the first thing he sees is the bottle on the counter — not because he wants it, but because six years of sobriety have made knowing exactly where it is as automatic as breathing, and the knowing never stops costing him something.
+
+**What these have in common:** A perception filter is the mechanism by which a character's expertise, trauma, values, and history determine what they notice in any given scene — and crucially, what they don't. It's not about what happens; it's about what the character *sees* happening, and the most compelling filters are involuntary, reflexive, and produce an emotional signature. The locksmith's hands, the teacher's ears, the sober man's eyes — each filter is a reflex with a reason and a cost, not a choice.
+
+**What doesn't work:** "She noticed the broken window and the dusty bookshelf." Random observation is description with a pulse rate — no mechanism, no hierarchy, no blind spot, and no reason to believe she'd notice the same things in the next scene. A filter without a mechanism is just scenery.
+
+---
 
 ## What the Research Says
 

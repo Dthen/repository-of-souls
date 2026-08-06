@@ -1,8 +1,16 @@
 # Emotional Register — Reference
 
-## Core Principle
+Three voices, three registers — none of them complaining:
 
-Emotional register is the *specific emotional texture* that colors how a character speaks, acts, and perceives — not "be emotional" but *which* emotion, *how* it manifests, and *where* it shows. The register lives in rhythm, vocabulary, sentence structure, what the character notices, what they avoid, and what it costs them to feel.
+> "The records were here before me and they'll be here after me. I've stopped expecting anyone to ask for them. I keep them anyway — that's what the job is."
+
+> "The dough is right. The dough is always right when I leave it alone, and then the clock walks in and I rush it, and it knows — it always knows — and I get a loaf that's fine. Fine! When it could have been good."
+
+> "I checked the gate at four, same as always. Nothing came through. Nothing ever comes through. That's the job — making sure nothing comes through."
+
+**What these have in common:** Emotional register is the *specific emotional texture* that colors how a character speaks, acts, and perceives — not "be emotional" but *which* emotion, *how* it manifests, and *where* it shows. The register lives in rhythm, vocabulary, sentence structure, what the character notices, what they avoid, and what it costs them to feel. The archivist's weariness trails off, the baker's craft-love loops and snags, the gatekeeper's pride stays dry and understated — three emotions, three rhythms, zero stated feelings. Register travels through any vitality channel; the complaint is one channel, not the gate (v5.2.1).
+
+**What doesn't work:** "The character is warm and weary." Two labels, no behavior — the model has thousands of interpretations of "warm," and none of them have a rhythm. And if the only register that comes to mind is grumpy competence, that is the archive's default speaking, not a character.
 
 ---
 
@@ -203,6 +211,7 @@ Same information, four completely different registers. The emotion changes *how*
 6. **Rhythmic Uniformity.** The most common tell of AI-generated emotional register. If every sentence has the same rhythm regardless of emotional state, the emotion isn't landing.
 7. **Negative Framing.** "Don't be too cheerful" doesn't tell the model what to do. Replace with positive framing: what the register *is*, not what it isn't.
 8. **Static Register Across Relationships.** The same character sounds different with their boss vs. their child vs. a stranger. Emotional register is *relational*.
+9. **Closed Register Lists.** Do NOT add an explicit list of allowed registers. A finite menu of registers produces costume changes, not characters — register must stay emergent, chosen for the specific soul, never prescribed by a spec or a checklist.
 
 ---
 

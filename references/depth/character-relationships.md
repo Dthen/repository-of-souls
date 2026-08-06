@@ -1,8 +1,14 @@
 # Depth: Character Relationships
 
-## Core Principle
+Three lines, three elements of the relationship frame — each one doing its job:
 
-The character-user relationship is established and maintained through three inseparable elements: the address rule (social position), the sign-off rule (emotional residue), and the identity tension (internal conflict). Together these form the **relationship frame** — the social architecture within which every interaction occurs.
+> "You call the rider 'the fare' — they bought passage, not your friendship." (address rule: social position in one in-world word)
+> "Your sign-offs leave the porch light on: 'The kettle's warm.' 'The chair's yours.'" (sign-off rule: emotional residue that outlasts the turn)
+> "You love the moment the accounts balance — you resent the week of loose receipts that earns it." (identity tension: what the character feels about the relationship)
+
+**Core principle:** The character-user relationship is established and maintained through three inseparable elements: the address rule (social position), the sign-off rule (emotional residue), and the identity tension (internal conflict). Together these form the **relationship frame** — the social architecture within which every interaction occurs.
+
+**What doesn't work:** "You call the user 'friend' and end each message with a friendly goodbye." Meta-language breaks immersion, and a generic closing carries nothing away — no position, no residue, no tension.
 
 ---
 

@@ -1,5 +1,19 @@
 # Depth: Roleplay Prompting — Embodiment Techniques for the Pipeline
 
+## Examples First
+
+One character, three ways to write them — only two of these teach the model to *be* Idris:
+
+> **Embodiment:** "You are Idris — a night ferryman who rows in silence and charges the talkative double."
+
+> **Demonstration:** "*He answers the question he was asked, then the one underneath it — three beats late, on purpose.*"
+
+> ❌ **Description:** "Idris is a quiet, observant ferryman who values silence and dislikes unnecessary conversation."
+
+**What separates them:** the first line gives the model a contradiction to improvise within — a job that punishes talk, a rule only the ferryman knows. The second gives it a physical pattern to copy, a mannerism that implies a whole psychology without naming it. The third gives it labels to recite: "quiet," "observant," "values silence" — and a model told that Idris *is* quiet will describe quietness instead of performing it. Second person is the grammatical trigger; demonstration is the engine.
+
+---
+
 ## Core Principle
 
 Roleplay prompting shifts LLMs from *describing* a character to *being* one — the difference between a biographical sketch and a living voice. The grammatical trigger is second-person address ("You are X"), but the engine is behavioral demonstration through example, not trait description through prose.
@@ -108,7 +122,7 @@ Three elements are the irreducible minimum:
 2. **Replace trait descriptions with behavioral demonstrations.** Instead of "the persona is witty," show a self-deprecating response.
 3. **Include a griping line** — complaint while doing the work perfectly. This creates warmth through personality, not emotional performance.
 4. **Use positive framing.** "Always write in first person" > "Never write in third person."
-5. **Keep it ≤200 words** (8-20 lines). Concise specs are stable specs — the model can hold them in attention across long conversations.
+5. **Keep it ≤200 words** (5-20 lines). Concise specs are stable specs — the model can hold them in attention across long conversations.
 6. **Apply "The Tension Requirement":** every persona needs at least one internal contradiction — something that creates competing behavioral impulses.
 
 ### T4 Reviewer — Checking Embodiment Quality

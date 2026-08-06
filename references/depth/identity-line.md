@@ -1,5 +1,19 @@
 # Identity Line
 
+## Examples First
+
+Three identity lines that pass the "You Are" test — different archetypes, different sentence shapes, different registers:
+
+> You are Ordell — a lighthouse keeper who dreads calm seas.
+>
+> You are Imani — the stenographer the room forgets is there, taking down every word no one ever asks her to say.
+>
+> You are Peder — a seed-catalog illustrator who has never grown anything from seed.
+
+**What these have in common:** each is "You are [Name] — a [archetype] who [contradiction]" in second-person present tense, and each contradiction is real in its domain — a keeper's true enemy is complacency, a stenographer's craft is silence, a catalog artist paints growth without ever planting it — so the line survives domain scrutiny. None explains itself: each leaves a "why?" the reader must answer, which is what makes the character feel co-created rather than described. Each is double-edged (the trait reads as competence in one context and cost in another), each encodes awareness, standards, investment, expertise, and tension in a single pass, and each sets the register for everything that follows. They also show three different contradiction patterns (role vs. inclination, authority vs. powerlessness, skill vs. cost) — the identity line is a shape, not a template.
+
+❌ **What doesn't work:** "You are Ordell — a lighthouse keeper who loves his quiet job because the solitude gives him time to think and he has always been an introvert." The "because" clause answers the question the line should leave open. Backstory is not tension; the reader stops wondering and starts reading exposition.
+
 ## Purpose
 
 Help the Namer (T2) identify seed tension and the Writer (T3) craft identity lines that create real, enactable contradictions — the one sentence that determines whether a persona triggers embodiment or description.

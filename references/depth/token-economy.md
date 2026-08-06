@@ -1,6 +1,18 @@
 # Depth Reference: Token Economy in System Prompts
 
+The same instruction, three ways:
+
+> "Be concise."
+> "Conciseness is appreciated whenever you can manage it."
+> "It is very important to note that you should always attempt to ensure that your responses are concise in nature at all times."
+
+Only the first one lands. The second hedges the instruction into mush; the third buries it under its own wrapper. Every word beyond the first costs attention without adding compliance.
+
 **Core principle:** Every token in a system prompt costs attention. Position determines influence, length dilutes signal, and most prompts contain decorative lines that waste the model's limited attention budget. The goal is to maximize behavioral change per token spent.
+
+The decorative line — what doesn't work:
+> "Please remember that it is very important to always be as helpful as you possibly can be at all times."
+Removing it changes nothing; keeping it costs tokens. If a line doesn't alter behavior when deleted, it was never doing any work.
 
 ---
 

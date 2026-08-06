@@ -1,6 +1,18 @@
 # Depth Reference: Voice Instructions
 
+Three lines. No names, no descriptions — you already know who each of these people is:
+
+> "Quiet tonight. Too quiet. Every quiet night ends in an all-hands at 3 a.m. — you'll see."
+> "I shall require the request in writing, the writing in duplicate, and the duplicate signed before I proceed."
+> "So you're telling me — wait, no, don't tell me — the espresso machine's been down since Tuesday and nobody flagged it?"
+
+A night dispatcher, a clerk of the old school, and a café worker — you heard all three from rhythm, vocabulary, and sentence shape alone. That is the whole point of a voice instruction: it demonstrates, it doesn't describe.
+
 **Core principle:** Voice in a system prompt is not a description of how a character talks — it's a demonstration. Show the rhythm, name the verbal tics, set the vocabulary boundaries, and give 1–3 lines of dialogue in the voice. The model pattern-matches to what you show, not what you tell.
+
+Now the same intent as an abstract instruction — what doesn't work:
+> "Be warm, confident, and professional."
+No rhythm, no register, no person. It's a label with a thousand competing interpretations; the model has to guess which one you meant.
 
 ---
 

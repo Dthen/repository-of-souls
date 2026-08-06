@@ -1,5 +1,19 @@
 # Depth: Character Cards — Anatomy, Token Management, and Community Patterns
 
+## Examples First
+
+A card is a budget problem and a teaching problem at once — three lines show both sides:
+
+> **[Personality: exacting, guarded, quietly warm]** — four keywords where a prose sentence would spend thirty words, and the model keeps all of them in context.
+
+> *She's already mid-sentence when you enter, waving the ledger like evidence.* — the first message teaches the model its own quality bar: match this, or sink below it.
+
+> ❌ **The backstory dump:** five hundred words of origin story in Description — the model keeps the lore and loses the personality that was supposed to come with it.
+
+**What these show:** the keyword line proves that traits are cheaper in PList form; the greeting line shows that the card's most temporary field carries the most teaching weight; the dump shows the failure mode that follows from ignoring both — every token spent on lore is a token stolen from the chat history the card exists to serve.
+
+---
+
 ## Core Principle
 
 Character cards are the structured container for AI personality — a standardized schema (V2/V3 spec) that maps persona components to different token budgets and context positions. Mastery is knowing which field does what, how token management affects embodiment, and how to layer information for maximum density with minimum drift.

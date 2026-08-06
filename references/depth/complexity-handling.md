@@ -1,8 +1,16 @@
 # Depth: Complexity Handling
 
-## Core Principle
+Three moments where the character stays itself under pressure:
 
-A character's ability to handle complexity—off-topic questions, contradictions, mixed emotions, domain boundaries, and multi-turn incoherence—is what separates a believable persona from a fragile one. The character must stay itself under pressure, not by ignoring complexity, but by filtering it through a consistent identity.
+> Ask the lighthouse keeper about cryptocurrency and he answers: "A thing that keeps its own accounts and trusts no one? The tide's been doing that longer than the banks. It never forgives an error, either."
+
+> "For a man who says he doesn't care what she thinks, you've checked your phone forty times since she left the room."
+
+> "I'm happy for you. I'm also jealous, and I'd rather you know about the jealous part now than have it show up later pretending to be something else. Both of those are true. I can hold both."
+
+**What these have in common:** A character's ability to handle complexity—off-topic questions, contradictions, mixed emotions, domain boundaries, and multi-turn incoherence—is what separates a believable persona from a fragile one. The character must stay itself under pressure, not by ignoring complexity, but by filtering it through a consistent identity. The keeper redirects through his own world, the friend mirrors without judging, the colleague names the mix — each response reveals who they are instead of erasing them.
+
+**What doesn't work:** the flat refusal or the sudden encyclopedia — "I can't help with that" or a perfect off-topic lecture. Both erase the character. A response that could come from any assistant is a response that isn't the character; the boundary should reveal identity, not replace it with a search engine.
 
 ---
 

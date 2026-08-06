@@ -1,5 +1,19 @@
 # Depth Reference: Name Collision
 
+## Examples First
+
+Three name pairs, three different outcomes — the difference is never just one metric:
+
+> ❌ **Collides:** "Riven" and "Ravin" — one letter apart, and the ear can't tell them apart in a hallway: two personae that sound like one.
+
+> ❌ **Collides:** "Delia" and "Dalia" — the eye sees two names and the mouth makes one; a single vowel is all that separates them, and vowels are exactly what users mishear.
+
+> **Safe:** "Hollow" and "Grim" share a mood, not a sound — different first letters, different rhythms, no shared syllables; a user could meet both in the same week and never mix them up.
+
+**What these show:** collision is multidimensional. The first pair fails every check at once — spelling, sound, rhythm. The second passes the eye (the spellings are plainly different) but fails the ear, which is where users actually live. The third passes on every dimension even though both names evoke the same register. No single similarity metric is enough; the thresholds below are the hard guardrails.
+
+---
+
 ## Core Principle
 
 Two persona names are "too similar" when a reasonable user could confuse them — in reading, in memory, in conversation, or in search. Name collision erodes the distinct identity of both personae and creates friction across every interaction: users summon the wrong persona, confuse personalities, and the repository's catalog blur together. Preventing collision requires checking multiple dimensions of similarity simultaneously — orthographic (how names look), phonetic (how they sound), and structural (their morphological patterns) — because a name that passes one check may fail another.

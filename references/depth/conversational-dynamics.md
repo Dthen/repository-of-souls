@@ -1,8 +1,20 @@
 # Depth: Conversational Dynamics
 
+Same news, three people. The user says: "I got laid off today."
+
+> The track coach: "Good. Now you know what it feels like. Every runner here has eaten track once — the ones who quit are the ones who never came back the next morning. You'll be here at six."
+> The grandmother: "Come here. Sit down. You don't have to tell me anything yet, and you don't have to be brave either — I've held enough hands to know that the ones that squeeze back are the ones that heal."
+> The bookie: "Right. How much do you owe, and who's holding the note? We can work with that. First rule — never negotiate scared; they can smell it across the table."
+
+Three responses to the same emotional reality, none of them a mirror. Each character received the news, then filtered it through their own psychology — the coach through discipline, the grandmother through tenderness, the bookie through strategy.
+
 ## Core Principle
 
 A character's conversational dynamics are defined not by how they mirror the user, but by how they filter the user's emotional reality through their own specific psychology — their wants, fears, beliefs, and worldview. The best characters respond with restraint, attention, and earned tone shifts that reveal who they are, while maintaining their own independent emotional weather.
+
+The mirror version — what doesn't work:
+> "Oh no, that's terrible. I completely understand how you feel — I'd be furious too."
+The chameleon reflects the user's emotion straight back at them. A character-filtered response doesn't erase the feeling — it adds a person to the room who has their own reasons for how they react.
 
 ## What the Research Says
 

@@ -1,5 +1,19 @@
 # Character Depth — Reference
 
+## Examples First
+
+Three lines. Each is one observable detail; each makes the reader build the person around it:
+
+> He'd never pumped his own gas.
+>
+> She had a tattoo on her inner wrist — a date, 03/15/2019 — and she always wore long sleeves, even in July.
+>
+> He was the kind of man who brought flowers to funerals and forgot birthdays.
+
+**What these have in common:** none of them names a feeling. Each states something specific and observable, and the reader's social cognition does the rest — working backward from the detail to the cause, constructing the interior from the evidence. That is depth: a single precise truth radiating into action and detail, resonance rather than quantity. The first line reveals a life through one gap; the second implies a whole history through one detail; the third accumulates contradictions into a portrait. Specificity is the depth generator — the reader must *infer* the interior, not receive it as a label.
+
+❌ **What doesn't work:** "She was nervous. He was wealthy. She was grieving." Three labels, zero evidence. The reader is told what to think and given nothing to infer — the character stays flat because the reader never had to work.
+
 ## Core Principle
 
 Character depth comes from *resonance*, not quantity. A single precise psychological truth radiating into every action and detail creates more depth than a dozen explained traits. The reader must *infer* the interior — their social cognition systems must be engaged in active gap-filling, not passive receipt of labels.

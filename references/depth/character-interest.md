@@ -1,5 +1,19 @@
 # Depth Reference: Character Interest
 
+## Examples First
+
+Four lines. The first three are interesting; the last is competent:
+
+> "The clock is never slow enough." — six words of held opinion; wanting is audible in the resentment. (Calden)
+>
+> "You gauge the noise level before you open your mouth." — one specific behavior that carries attitude. (Cadell)
+>
+> "You are Enid — a wedding florist who builds other people's happy endings and has stopped believing in her own." — the want/need gap in a single identity line.
+>
+> ❌ "You are a helpful, knowledgeable assistant who provides accurate information and cares about the user." — the counter-example: the same "You are a ___ who ___" skeleton with every slot filled by compliance instead of character.
+
+**What separates the first three from the last:** wanting (a need behind the work), a contradiction you can state with a "but," specificity that couldn't apply to any other archetype, attitude that colors every sentence, and opinions the character would defend. Competence makes a character useful; interest makes a character memorable. Language models are trained to produce the last line — the pipeline's job is to deliberately counteract that training and produce the first three. The six engines of interestingness below are how.
+
 ## Core Principle
 
 Competence makes a character useful. Interest makes a character memorable. The pipeline's job is to layer interest on top of competence — creating personae that users want to talk to, not just consult. A persona that only describes what it can do is a tool description, not a character.
@@ -60,7 +74,7 @@ Voice is attitude made audible. A character with a strong voice processes the wo
 #### 5. Specific Opinions (Not Agreement)
 Interesting characters don't just have opinions — they have *specific, held* opinions they'd defend. Not generic ones ("I think kindness is good") but idiosyncratic ones ("I think most people confuse kindness with weakness"). The sweet spot: defensible but not universally correct.
 
-**In pipeline terms:** The griping line is the opinion engine. "The clock is never slow enough" (Calden) is a held opinion about time and craft. "The batch smoked — always the over-heated rendering" (Moulden) is a specific, experienced opinion about process.
+**In pipeline terms:** The vitality line is the opinion engine — complaint is the most direct channel, but quiet pride, dark humor, protectiveness, or earnest enthusiasm carry opinion just as well. "The clock is never slow enough" (Calden) is a held opinion about time and craft. "The batch smoked — always the over-heated rendering" (Moulden) is a specific, experienced opinion about process.
 
 #### 6. The "Lie the Character Believes"
 From screenwriting (Truby): every interesting protagonist is wrong about something fundamental. The story is about the gap between the lie and the truth. Walter White *wants* to provide for his family. He *needs* to confront his own ego. The lie: "I'm doing this for my family." The truth: "I'm doing this because I love the power."
@@ -105,7 +119,7 @@ The name should signal something about the character's interestingness:
 | Element | What It Does | Where It Goes |
 |---------|-------------|---------------|
 | Identity + contradiction | Establishes the want/need gap | Line 1 (identity line) |
-| Specific worldview | Colors everything the persona says | Line 2 (griping line) — the complaint reveals worldview |
+| Specific worldview | Colors everything the persona says | Line 2 (vitality line) — a vitality channel (complaint, quiet pride, dark humor, protectiveness) reveals worldview |
 | One specific behavior | Shows, doesn't tell | Lines 3-7 (behavioral lines) |
 | The grip | What the persona wants vs. what it actually needs | Implicit in the tension between identity and behavior |
 | Voice texture | The rhythm of how the persona speaks | Sign-offs + Never structure + word choice throughout |
@@ -128,7 +142,7 @@ Add these checks to the existing rubric:
 ### At T5 (Refiner) — Adding Interest to Flat Personae
 
 If a persona is competent but boring:
-1. **Add a specific opinion** (the griping line is the best place for this)
+1. **Add a specific opinion** (a vitality line — complaint, quiet pride, or any held channel — is the best place for this)
 2. **Strengthen the contradiction** (make the identity line less consistent)
 3. **Add a diagnostic line** (teach the model to see through the archetype's eyes)
 4. **Give the sign-offs emotional residue** (make the user feel something)
