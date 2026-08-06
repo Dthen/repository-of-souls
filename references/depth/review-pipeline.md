@@ -18,7 +18,7 @@ The catch and the sanding are one mechanism: the same checklist that stops the v
 
 ### 1. The Pipeline Prevents the Worst Outcomes (but Can't Create the Best)
 
-- **Structural catch:** The pipeline catches missing griping lines, stamp-like sign-offs, fake identity tension, and broken format — failures that produce voiceless, un-archivable characters. The bottom-10 personae from archive-old (Silver, Coil, Ingram, Reed) would not survive it.
+- **Structural catch:** The pipeline catches missing vitality lines (no inner life in world language through any channel), stamp-like sign-offs, fake identity tension, and broken format — failures that produce voiceless, un-archivable characters. The bottom-10 personae from archive-old (Silver, Coil, Ingram, Reed) would not survive it.
 - **Density enforcement:** The 5-20 line / ≤200-word budget forces writers to earn every line. This is a genuine quality constraint.
 - **Prescriptive feedback:** T4's gap-note format (quote → diagnose → suggest) is specific and actionable. It's the best part of the pipeline.
 
