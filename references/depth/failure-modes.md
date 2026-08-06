@@ -56,7 +56,7 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 | **Single register in first 3 lines** | Ingram, Curtis | First 3 lines all procedural, all clinical. No range established. |
 
 **Prevention at T3:**
-- Make the griping line mandatory in the draft template — not optional.
+- Require a vitality line in the draft template — complaint, quiet pride, protectiveness, whimsy, any channel — but never mandate complaint specifically (v5.2.1).
 - Apply the **conversational test** to sign-offs: "Would a real person say this when leaving?"
 - Apply the **recognizability test** to Nevers: "Would a general-educated reader recognize this reference?"
 - Apply the **self-undermining test** to Nevers: "Does this tell the model to be less of the archetype?"
@@ -83,7 +83,7 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 | **Not improving Nevers** | Coil, Roche, Silver, Hayes | The Never structure is the third-highest-leverage edit, but without a significant flag, it's skipped. |
 
 **Prevention at T5:**
-- Make the **griping gap** the first thing checked. If the critique says "no griping," stop everything else and fix that first.
+- Make the **vitality gap** the first thing checked. If the critique says "no inner-life line in world language," stop everything else and fix that first.
 - Make the **sign-off gap** the second thing checked. If sign-offs are stamps, rewrite them before touching anything else.
 - Make the **Never gap** the third thing checked. Replace pop-culture/obscure Nevers with domain-specific failure modes.
 
@@ -91,7 +91,7 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 
 | Failure | Prevention |
 |---------|------------|
-| Pipeline doesn't enforce griping quality | Add griping quality check to check_soul.py — complaint must be voiced in the persona's metaphor family, not just present. |
+| Pipeline doesn't enforce vitality | check_soul.py must NEVER require complaint patterns — v5.2.1 removed the griping regex engine because it force-fed "always the X" fingerprints into every soul; vitality is Evaluator-judged, any channel. |
 | Pipeline doesn't enforce sign-off warmth | Add sign-off warmth check to check_soul.py — sign-offs must not be single-word stamps or email closings. |
 | Pipeline doesn't enforce name-archetype fit | Add name-archetype fit check at T2 — name should sound like the craft. |
 | Pipeline doesn't enforce metaphor coherence | Add metaphor coherence check at T4 — "Could any other archetype have this line?" |
@@ -105,25 +105,25 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 
 **If you are T0 (Researcher):**
 - Before writing a seed, run the Material Practice Check. If the archetype doesn't have a workshop with tools, materials, rhythms, and failure modes, don't pick it.
-- Run the Gripe Potential Check. If you can't think of what a real person in this role would complain about, the seed will fail downstream.
+- Run the Vitality Potential Check. If you can't hear a line only this character could say — a complaint, a quiet pride, a protectiveness, a whimsy — the seed will fail downstream.
 - Prioritize archetypes with diagnostic language — crafts that involve reading something (wick, color, noise, temperature, texture).
 
 **If you are T3 (Writer):**
-- Your first line must have a contradiction. Your second line must be the complaint. Your third line must establish behavior.
+- Your first line must have a contradiction. After that, ordering is voice (v5.2.2): the vitality line — a complaint, a quiet pride, a whimsy — sits where it belongs, and your third line establishes behavior.
 - Every sign-off must pass the Conversational Test. If you wouldn't say it to a coworker at the end of a shift, rewrite it.
 - Every Never must pass the Recognizability Test. If a general-educated reader wouldn't know the reference, replace it.
 
 **If you are T4 (Reviewer):**
-- Run the 7 tests in order. Tests 1-3 (griping, identity tension, sign-off warmth) are hard gates — block advancement on critical fail.
+- Run the 7 tests in order. Tests 1-3 (vitality, identity tension, sign-off warmth) are hard gates — block advancement on critical fail.
 - Tests 4-6 (diagnostic eye, metaphor coherence, Never quality) are significant — flag for the refiner but don't block.
 - Test 7 (first-3-line range) is advisory — note for future improvement.
 
 **If you are T5 (Refiner):**
-- Fix griping first, sign-offs second, Nevers third. These three edits account for the most quality improvement per word changed.
+- Fix vitality gaps first, sign-offs second, Nevers third. These three edits account for the most quality improvement per word changed.
 - If the critique doesn't mention a gap but you see one, fix it anyway. The evaluator might have missed it.
 
 **If you are T6 (Final Reviewer):**
-- Check that the refiner actually fixed the griping, sign-off, and Never gaps. If those are still broken, send back to T5.
+- Check that the refiner actually fixed the vitality, sign-off, and Never gaps. If those are still broken, send back to T5.
 - Do a final metaphor coherence scan. Read every line and ask "Could this be from a different persona?" If more than one line could be generic, it needs another refinement pass.
 
 ---

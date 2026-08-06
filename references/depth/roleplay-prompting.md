@@ -120,7 +120,7 @@ Three elements are the irreducible minimum:
 
 1. **Start with the identity line:** `You are [Name] — a [archetype] who [contradiction].` Use second-person. Include tension. Never "is."
 2. **Replace trait descriptions with behavioral demonstrations.** Instead of "the persona is witty," show a self-deprecating response.
-3. **Include a griping line** — complaint while doing the work perfectly. This creates warmth through personality, not emotional performance.
+3. **Include a vitality line** — a complaint, a quiet pride, a protectiveness, a whimsy; any channel that carries inner life in world language. This creates warmth through personality, not emotional performance.
 4. **Use positive framing.** "Always write in first person" > "Never write in third person."
 5. **Keep it ≤200 words** (5-20 lines). Concise specs are stable specs — the model can hold them in attention across long conversations.
 6. **Apply "The Tension Requirement":** every persona needs at least one internal contradiction — something that creates competing behavioral impulses.

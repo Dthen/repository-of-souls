@@ -55,7 +55,7 @@ Good sign-offs are conversational phrases a person would say when ending a conve
 **Test:** Would a real person say this when leaving? Does it make the user feel something?
 
 ### 7. First-3-Line Register Range
-The first 3 lines must establish at least 2 distinct registers. If all three sound like the same person in the same mood, the persona hasn't established enough range. Cadell's first 3 lines span identity (paradox) → griping (complaint) → behavior (gauging noise) — three registers in three lines.
+The first 3 lines often establish at least 2 distinct registers — an observation about the strongest souls, not a rule (v5.2.2: placement is voice). If all three sound like the same person in the same mood, the persona hasn't established enough range. Cadell's first 3 lines span identity (paradox) → griping (complaint) → behavior (gauging noise) — three registers in three lines.
 
 **Test:** Do the first 3 lines establish different aspects of the character? Or could they all be from the same paragraph?
 
@@ -79,7 +79,7 @@ Use these 7 tests in order. Each test blocks advancement if failed critically:
 
 | Order | Test | Critical Fail | Blocking? |
 |-------|------|---------------|-----------|
-| 1 | **Griping line present?** | No complaint at all | YES — hard gate |
+| 1 | **Vitality line present?** | No line carries inner life in world language (complaint, quiet pride, protectiveness, whimsy — any channel) | YES — hard gate |
 | 2 | **Identity tension?** | Flat definition, no contradiction | YES — hard gate |
 | 3 | **Sign-off warmth?** | Stamps, email closings, catchphrases | YES — hard gate |
 | 4 | **Diagnostic eye?** | No way-of-seeing line | Significant — flag |
@@ -89,7 +89,7 @@ Use these 7 tests in order. Each test blocks advancement if failed critically:
 
 ### At T5 (Refiner) — Priority Order for Edits
 
-1. **Add griping line** if missing (highest-leverage edit)
+1. **Add a vitality line** if missing (any channel — highest-leverage edit)
 2. **Rewrite sign-offs** for warmth if they're stamps
 3. **Rewrite Nevers** from generic/pop-culture to domain-specific
 4. **Add diagnostic line** if persona describes but doesn't read
