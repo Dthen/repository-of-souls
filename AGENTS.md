@@ -26,7 +26,7 @@ Researcher (T0) → Namer → Writer → Evaluator → Publisher
 |---|---|
 | [`references/orchestration.md`](references/orchestration.md) | Task creation rules, chain validation, pre-flight checks, file path rules, git credentials, naming conventions |
 | [`references/stage-researcher.md`](references/stage-researcher.md) | Researcher (T0) — archetype discovery, seed generation, pipeline spawning |
-| [`references/stage-namer.md`](references/stage-namer.md) | Namer — merged viability screening + naming, 5 questions, candidate scoring |
+| [`references/stage-namer.md`](references/stage-namer.md) | Namer — merged viability screening + naming, 6 character tests, candidate scoring |
 | [`references/stage-writer.md`](references/stage-writer.md) | Writer — single focused write, craft techniques with diverse examples |
 | [`references/stage-evaluator.md`](references/stage-evaluator.md) | Evaluator — CoT quality evaluation, no checklist |
 | [`references/stage-publisher.md`](references/stage-publisher.md) | Publisher — approve/flag logic, targeted fixes, archive + site rebuild |
@@ -34,7 +34,7 @@ Researcher (T0) → Namer → Writer → Evaluator → Publisher
 | [`references/positive-patterns.md`](references/positive-patterns.md) | What good personae do right, what sign-offs are (and are not) |
 | [`references/reference-personae.md`](references/reference-personae.md) | Kimbo, Brendan, Stover, Barlowe — examples to study, not templates to copy |
 
-**Stage bodies within task creation must include** the relevant reference file content inline. Do not rely on workers finding the references on their own.
+**Workers load the latest spec from the references directory.** Task bodies should reference the relevant stage specification file (e.g., "Follow `references/stage-namer.md`") rather than duplicating its content inline. Workers have disk access to `/home/kimbo/projects/soul-repository` via `workspace_kind: "dir"` — they read the current version of the spec at runtime. This ensures spec updates propagate automatically to all downstream tasks without requiring task-body rebuilds. One source of truth, always current.
 
 ---
 
@@ -44,7 +44,7 @@ Depth files provide optional, on-demand reference material for specific topics. 
 
 Depth files cover areas including (but not limited to):
 
-- **Character craft**: `character-depth.md`, `character-interest.md`, `identity-line.md`, `authentic-voice.md`, `internal-life.md`, `emotional-register.md`, `perceptual-lens.md`, `perception-filters.md`
+- **Character craft**: `character-depth.md`, `character-interest.md`, `identity-line.md`, `authentic-voice.md`, `authored-voice.md`, `internal-life.md`, `emotional-register.md`, `perceptual-lens.md`, `perception-filters.md`
 - **Voice and tone**: `voice-instructions.md`, `conversational-dynamics.md`, `improvisation-space.md`, `griping-alternatives.md`, `token-economy.md`
 - **Naming**: `name-sound-symbolism.md`, `name-collision.md`
 - **Review and evaluation**: `evaluator-rubric.md`, `failure-modes.md`, `review-pipeline.md`
@@ -62,7 +62,7 @@ A good SOUL.md gives the model a person to be, not instructions to follow. Seven
 
 1. **A contradiction in the identity line** — "You are [Name] — a [archetype] who [contradiction]." Without tension, the identity is just a definition. The strongest contradictions are social (gleaner working in the aftermath, lector shaping without touching) rather than merely oppositional (love vs. resentment).
 
-2. **A complaint in domain language** — One line of griping that only this character could make. The single most reliable quality signal. Compression is beneficial but not mandatory: Stover's 32+ word griping line passed with praise because it carried three character dimensions. What matters is that the complaint is in domain language, reveals character, and is NOT a pipeline fingerprint ("Always the X" template). The "You'd think" frame is the current v5 convention — effective, but monitor for overuse.
+2. **A complaint in domain language** — One line of griping that only this character could make. The single most reliable quality signal. Compression is beneficial but not mandatory: Stover's 32+ word griping line passed with praise because it carried three character dimensions. What matters is that the complaint is in domain language, reveals character, and is NOT a pipeline fingerprint ("Always the X" template). The griping-alternatives research documents 9 alternative vitality channels (quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia) — the Writer should reach for these before defaulting to any single complaint structure.
 
 3. **A diagnostic eye** — At least one line that teaches the model a perceptual method unique to the character. 100% of top souls have one; no soul without one scores as "excellent." The strongest diagnostic lines invert a default expectation: Stover measures by silence, not swath width. Barlowe reads by stillness, not presence. Marlow reads twice — once for what's there, once for what's hidden. The Inversion Formula is teachable: identify the default perception, pick the opposite channel, state it as active instruction.
 
@@ -84,4 +84,8 @@ Full format constraints (line count, word count, etc.) are in [`references/forma
 
 ## Version
 
-v5.1 — 2026-06-26
+v5.2 — 2026-08-06
+
+## Application Check (v5.2)
+
+Every rule in this spec traces to evidence in the research corpus — citations live in `research/proposal-v5.2-character-first-rework.md`. The v5.1-era failure mode was research existing without being applied (see `~/.hermes/plans/2026-06-02_144500-spec-rewrite-prompt-research.md`, status: never executed). Before the next spec rewrite, verify each new rule against its cited research and delete any rule that cannot be traced. Rules without evidence are how souls go dry.

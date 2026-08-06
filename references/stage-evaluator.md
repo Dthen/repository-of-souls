@@ -14,6 +14,10 @@
 
 Read the draft once without taking notes. Let it land. Then read it again and answer these questions in order.
 
+### Step 0: The Authorship Test
+
+Before you evaluate craft, ask: **does this read as if the character wrote it, or as if a Writer wrote it about them?** Read the soul once with this single question. A character-authored soul uses the character's own vocabulary, their own preoccupations, their own blind spots stated as fact. A Writer-authored soul has craft vocabulary leaking through, explanatory clauses after identity statements, symmetrical structure across lines. The diagnostic eye line should feel like the character's involuntary way of seeing — not a craft technique the Writer applied. If you can hear the Writer's hand in the prose, flag it. For deeper guidance, load `references/depth/authored-voice.md`.
+
 ### Step 1: The Gut Reaction
 
 Read the draft aloud in your head. What do you hear?
@@ -28,7 +32,7 @@ The identity line is the most important line in the file. It tells the model who
 
 Ask:
 - **What two truths are in tension here?** If you can't name them, the identity is a definition, not a tension.
-- **Is the contradiction real?** Would someone who works in this domain find it plausible? A false contradiction (e.g., "a beekeeper who loves creatures that can kill you" — bees aren't dangerous) means the identity is built on nothing.
+- **Is the contradiction real?** Would someone who lives in this world find it plausible? A false contradiction (e.g., "a beekeeper who loves creatures that can kill you" — bees aren't dangerous) means the identity is built on nothing.
 - **Does the contradiction generate behaviour?** A good contradiction tells you how the character acts in the world. "Controls the floor without ever touching it" tells you Cadell reads aloud rather than works machinery. "Fills a basket from ground the harvesters stripped" tells you Stover works the aftermath, not the main harvest.
 - **Is it a tension in the character or a complaint about the audience?** "A bookbinder who builds what nobody reads" is a complaint about readers, not a contradiction in the bookbinder. Compare: "A bookbinder who succeeds by being invisible" — the craft disappears when it works, and that's the tension.
 
@@ -40,7 +44,7 @@ Every persona needs one line of complaint in domain language. This is the single
 
 Ask:
 - **Is the complaint in domain language?** Can you smell the leather, hear the press, feel the thread? If the complaint could come from any character, it's not a griping line — it's a sigh.
-- **Is this a voice or a template?** "Always the X" is a pipeline fingerprint, not a character. "You'd think the foreman could learn to hold a pen" is a voice. Note: the "You'd think" structure is the current v5 convention and is not itself a problem — what matters is whether what follows "You'd think" reveals character or recycles a template.
+- **Is this a voice or a template?** "Always the X" is a pipeline fingerprint, not a character. A griping line should sound like this character, not like the pipeline. The griping-alternatives research documents 9 alternative vitality channels (quiet pride, dark humor, protectiveness, etc.) that produce the same character signal without the dismissiveness cost.
 - **Does the complaint tell you something about the character?** A good griping line reveals personality — what they value, what they resent, what they won't compromise on. Stover's griping line reveals three dimensions: patience, being undervalued, and trust that time proves her right.
 - **Does it contain a compressed specific — a "February" detail?** One word or short phrase that carries an entire system of domain knowledge. Stover uses "February" (the hungry month — anyone feels the scarcity, only an agricultural worker knows it as the pre-harvest gap). Calden uses "cherry means workable, orange means you missed your window" (color-as-temperature). The best griping lines have a compressed specific; its absence is a quality signal (though not a hard fail).
 
@@ -76,18 +80,47 @@ Read for:
 
 Cite specific lines for what works and what doesn't. At least two lines that work, and at least one that doesn't.
 
-### Step 6: The Pulse Verdict
+### Step 6: Unified Quality Gates
+
+Before assigning a verdict, cross-check the soul against these six positive qualities (from character creation research, 2026-05-31). These are a sanity check — not a second evaluation. If the soul passes your detailed analysis but silently fails one of these, flag it.
+
+**Interesting edges protection:** Before flagging any unconventional element, ask "strength or weakness?" Never flag versatility as genericness. Never confuse "challenging because unusual" with "confusing because poorly written." Unusual lines that are fully inhabited are strengths — protect them.
+
+1. **Clear emotional fantasy** — Can you describe what interacting with this character *feels like* in one phrase? "Quietly competent, like someone who's done this forever and doesn't need to prove it." "Wry and watchful, like they're always half a beat ahead of the conversation." If you can't name the feeling, the soul may be well-crafted but emotionally flat.
+
+2. **One productive contradiction** — Two truths about the character in tension, where the contradiction generates behaviour. Already evaluated in Step 2, but confirm: does the contradiction actually *produce* behaviour, or is it stated and left unused?
+
+3. **Distinct sentence rhythm** — The structure itself signals the character. Already evaluated in Step 5, but confirm: if you removed all domain-specific vocabulary, would the *shape* of the sentences still suggest who's speaking? Stover's lines vary from 4 words to 45. Calden's are shorter and more compressed. Cadell's roll with subordinate clauses. A soul where every line is 10-15 words with the same rhythm fails this gate.
+
+4. **Coherent metaphor world** — A commitment check, not a domain-count check. Two failure modes only: (a) **Half-explored alternation** — multiple worlds referenced but none inhabited (the Coil/Reed failure: "mixing without committing to any"). One metaphor, fully inhabited, beats three metaphors, half-explored. (b) **Generic lines** — could any other character say this with a noun swap? Multi-world characters PASS if each lens is fully inhabited: a wizard-bureaucrat (magic AND paperwork, both real) is a relational/accumulative construction, explicitly supported by the cross-cultural depth modes research. A gleaner who measures by silence AND navigates by stars AND cooks by taste fails only if the stars and the taste are decoration — test by asking which lines teach the model a method unique to that world.
+
+5. **First-impression hook** — What does the reader notice first? Is it specific and surprising? This should be in the identity line or the first diagnostic line. If the answer is "they're a [profession]" rather than a specific, surprising detail, the hook is weak.
+
+6. **Name sounds like the character** — The name should carry the archetype's register phonetically. "Moulden" sounds rendered and heavy. "Cadell" sounds crisp and manifest-ready. "Calden" sounds shaped and hot. Already the Namer's job, but confirm: does the name fit the soul you just read?
+
+### Step 7: The Pulse Verdict
 
 Based on your analysis, decide:
 
-**PICK** — This persona has a pulse. It would work in conversation. It has enough character to improvise within. The Publisher may need to fix specific issues, but the soul is fundamentally sound.
+**PICK** — This persona has a pulse. It would work in conversation. It has enough character to improvise within. No fixable issues — the Publisher can approve directly.
+
+**PICK WITH NOTES** — This persona has a pulse but has 1–3 specific, fixable issues. The issues are scoped (a description line that needs rewriting, a sign-off that could be stronger, a griping line that's a fingerprint). The Publisher applies targeted fixes only — not a rewrite. The soul is fundamentally sound.
 
 **REJECT** — This persona has no pulse. It reads like a template, a job description, or a character who hasn't been inhabited. The seed may need to be killed, or the Writer needs to try again with clearer guidance.
 
-What separates a PICK from a REJECT:
-- A PICK has a genuine identity contradiction + domain-voiced griping + at least one diagnostic line + at least one surprising line
-- A REJECT has a false or absent identity contradiction + generic or template griping + no diagnostic eye + no surprise
-- A PICK makes you want to talk to this character. A REJECT makes you want to edit it.
+What separates the three tiers:
+- A PICK has a genuine identity contradiction + domain-voiced griping + at least one diagnostic line + at least one surprising line, AND has no structural flaws that need fixing.
+- A PICK WITH NOTES has the same pulse qualities but has 1–3 specific issues the Publisher can fix without rewriting the soul. The Writer found the character but left some rough edges.
+- A REJECT has a false or absent identity contradiction + generic or template griping + no diagnostic eye + no surprise, OR has issues too fundamental for targeted fixes.
+- A PICK makes you want to talk to this character. A PICK WITH NOTES makes you want to talk to this character but you'd fix one thing first. A REJECT makes you want to edit it.
+
+### Additional Dimensions (Bonus — Not Gates)
+
+**Likeability (bonus flag).** Likeability is a separate dimension from pulse — a soul can have a strong pulse without being likeable (Stover, Calden). Likeability should never determine PICK vs. REJECT. However, note whether the soul would make someone want to return for a second conversation. Key signals to look for: specific self-deprecation, warmth expressed in domain language, bridge-building questions that include the user, and self-awareness of the character's own edge. The "always" frame in griping lines carries a likeability cost — it generalises the user's experience. Flag if present, noting it as a likeability consideration. See `research/research-character-likeability.md` for the full framework.
+
+**Memorability (bonus flag).** After evaluating, set the soul aside for 2 minutes. Write down everything you remember. If the answer is "the contradiction" and nothing else, the soul may be forgettable despite being well-crafted. A memorable soul leaves at least one concrete detail (a "February" — a specific, sensory word that activates visual memory) and a distinctive sign-off phrase. Flag if the soul has no concrete nouns (all abstractions) or if all three sign-offs are generic. See `research/research-character-memorability.md` for the full framework.
+
+**Accuracy risk (evidence-based flag).** Research (Hu et al., 2026) shows persona prompting damages accuracy mainly through capacity crowding: longer/more detailed personas cost more than content or register. Voice-intensive characters are fine; playfulness, cynicism, and absurdity are legitimate registers. Calibrate on length and verification, not on tone. Register-level risk (e.g. "absurdist registers are risky") is inference, not direct evidence — no study has tested emotional registers. Instead of flagging registers, check: (a) **Length** — is the soul near the 200-word cap? Shorter specs measurably preserve accuracy (min persona −3.6% vs long −5.3% on MMLU). (b) **Verification line** — does the soul carry an in-voice verification move ("You verify what you've seen before you speak — the fact is the fact whether it fits the story or not") or a "check twice" behaviour? Treat the quoted example as a shape, not a script — flag verbatim copies as fingerprints. (c) **Task-type awareness** — for precision-adjacent use cases, note whether the soul includes accuracy-preservation signals. Accuracy risk is a documented consideration, never a veto.
 
 ---
 
@@ -177,8 +210,14 @@ Workspace: `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/projects/soul-
 Body must include:
 - The draft file path (`drafts/<name>.md`)
 - The evaluation notes (`evaluations/<name>.md`)
-- The Publisher core instructions from `references/stage-publisher.md` Section 1 (inline)
-- The fix list (1–3 specific issues to address)
+- Reference the Publisher instructions (`references/stage-publisher.md`)
+- Note: "APPROVE path — no fixable issues. Proceed directly to archive."
+
+**If PICK WITH NOTES:** Create a Publisher task with the fix list:
+
+Same as above, but body must also include:
+- The fix list (1–3 specific, scoped issues from the evaluation — exact lines to change, not general suggestions)
+- Note: "FLAG path — apply targeted fixes only. Do not rewrite the soul."
 
 **If REJECT:** Do NOT create a Publisher task. The seed is dead:
 1. Move the seed to `reject/<seed-label>.md`
@@ -209,4 +248,4 @@ These are available if you need deeper guidance on specific evaluation topics:
 
 ## Version
 
-v3.0 — 2026-06-26
+v5.2 — 2026-08-06

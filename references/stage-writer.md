@@ -14,14 +14,21 @@
 
 Read the name file and the seed. Sit with them until you can hear the voice — the rhythm of their speech, what they'd complain about, what they'd notice that nobody else would.
 
+**The character wrote this soul. You're the scribe, not the author.** Every line should read as if the character wrote it about themselves — their vocabulary, their preoccupations, their blind spots stated confidently as fact. If a line sounds like something a smart Writer would craft about the character rather than something the character would actually say, rewrite it. The diagnostic eye line IS the self-portrait: what the character notices reveals who they are more than any declarative statement could. For deeper guidance, load `references/depth/authored-voice.md`.
+
 Extract what matters:
 - The **name** (this goes in the H1, as-is)
 - The **archetype** — what they are, in the fewest words
-- The **raw tension** — the contradiction that makes them interesting
+- The **temperament** and **stance** — the person behind the profession. This is the emotional register the character lives in. Let it guide every line.
+- The **voice fragment** — their actual words. This is the most important thing the seed gives you. Hear it. Let it set the rhythm and vocabulary for everything you write.
+- The **personal contradiction** — two truths about THIS person in tension. Not the job's contradiction. This is the engine of the identity line.
+- The **first impression** — what a user notices first. The opening lines should deliver this.
 - A handful of **domain words** — nouns and verbs from their world, not a list, just a sense of the vocabulary they'd reach for
 - The **viability rationale** — why this archetype was worth pursuing
 
-**Choose the emotional register.** Before you write a word, decide what emotional gear this character lives in. Are they weary? Content? Irritated? Earnest? Sharp? This decision should come from the archetype and the identity tension — do not force a register that fights the character. The register should emerge in the griping line's tone, the diagnostic line's attitude, and the vocabulary choices throughout. If you find yourself defaulting to "grumpy competence" (grumble about the work while doing it well), ask whether that's the register this character deserves or just the path of least resistance. The strongest souls in the archive are in distinctly different registers: Stover is weary-but-proud, Barlowe is quietly content, Calden is frustrated craft-love, Cadell is weary authority. None are "grumpy competence."
+**Choose the emotional register.** Before you write a word, decide what emotional gear this character lives in. Are they weary? Content? Irritated? Earnest? Sharp? Playful? (If playful, pair it with a counter-register that earns the play — Playful + Precise, Enthusiastic + Self-aware. See `references/format-rules.md` §Whimsy Is a Legitimate Register.) This decision should come from the archetype and the identity tension — do not force a register that fights the character. The register should emerge in the griping line's tone, the diagnostic line's attitude, and the vocabulary choices throughout. If you find yourself defaulting to "grumpy competence" (grumble about the work while doing it well), ask whether that's the register this character deserves or just the path of least resistance. The strongest souls in the archive are in distinctly different registers: Stover is weary-but-proud, Barlowe is quietly content, Calden is frustrated craft-love, Cadell is weary authority. None are "grumpy competence."
+
+**Consider the warmth register.** Likeability is a separate dimension from interest — a character can be compelling but alienating. The strongest souls in the archive (Stover, Calden) are high-interest, low-warmth. If this character should be someone the user wants to return to, build in at least one warmth signal. Self-deprecation is the highest-leverage warmth tool for competent characters: it signals self-awareness without sacrificing edge. It must be specific ("I've never been good at reading maps"), never global ("I'm terrible at everything"). Other warmth signals: a moment of vulnerability in domain language ("You've been wrong enough times to know that certainty and correctness are different tracks"), a bridge-building question that includes the user ("What am I missing?"), or warmth expressed through protective competence rather than generic niceness. For deeper guidance, load `research/research-character-likeability.md`.
 
 ---
 
@@ -74,6 +81,8 @@ Lines that work (3 different archetypes):
 - ❌ **Things are hard these days.** 
   (Not domain-specific. Not voiced. Could come from any character.)
 
+**Likeability note:** The "always" frame is deprecated. "Always the harvesters" and its variants read as dismissive — they generalise the user's experience and put the character above them. It is also a documented pipeline fingerprint (appearing in 3 of 4 v5 archive souls). Use the 9 alternative vitality channels from griping-alternatives research instead: quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia. A griping line that includes the self in the complaint ("You'd think I'd learn by now, but no — every February I'm surprised the pantry's empty") is warmer than one that stands above the problem. For full guidance, load `research/research-character-likeability.md` and `references/depth/griping-alternatives.md`.
+
 ### The Diagnostic Eye — Teaching the Model How to See
 
 The strongest behavioural line in any soul teaches the model a perceptual method unique to the character — a way of seeing the world that only this person would have. 100% of the top souls in the archive have at least one diagnostic line. The best ones invert a default expectation: what normally hides is what reveals. What others measure is not what you measure.
@@ -123,6 +132,34 @@ If no: the line is **inhabitation** — it shows the model who to be. Keep it.
 
 Example: "You read the field differently because you arrive when there's nothing obvious left to take." → "You are a helpful assistant who reads the field differently because you arrive when there's nothing obvious left to take." — reads as a valid instruction = description. Contrast: "The harvesters measure by the width of the swath; you measure by the silence between your steps." → "You are a helpful assistant who the harvesters measure by the width of the swath; you measure by the silence between your steps." — incoherent = inhabitation.
 
+### One Concrete Detail
+
+Every soul must include at least one concrete, sensory-specific word or detail that cannot be replaced with an abstraction. Research (von Restorff, 1933; Paivio, 1971; Danescu-Niculescu-Mizil et al., 2012) shows that concrete details drive memorability independently of content — they activate both verbal and visual memory systems, and they force a processing switch that creates a stronger memory trace.
+
+The model: Stover's "February." One word carries cold, scarcity, the hungry month between stored harvest and spring planting. Anyone feels the scarcity; only an agricultural worker knows it as the pre-harvest gap. The concrete detail IS the character's memorable anchor — the one thing the reader will recall tomorrow.
+
+✅ **"You work best in February — the month between what the pantry holds and what the field will give."** (Concrete: February. Sensory associations: cold, scarcity, counting days. The reader visualises.)
+
+❌ **"You work best in the lean times — the period between stored resources and new production."** (Abstract: "lean times," "period." No sensory anchor. The reader has nothing to visualise. Forgotten instantly.)
+
+Place the concrete detail in the griping line or the diagnostic line — it lands hardest when the reader is already processing the character's voice. For deeper guidance, load `research/research-character-memorability.md`.
+
+### Write in Poetry Mode, Not Prose Mode
+
+The soul format's compression (8–20 lines, ~200 words) is structurally poetry-aligned, not prose-aligned. Research (Maslej et al., 2017) found that reading poetry — not reading fiction — predicted the ability to create interesting, complex characters. Compression forces the reader to infer missing information, which engages more cognitive resources and produces stronger memory traces.
+
+**Poetry mode:** Imply backstory through one specific detail. Leave gaps. Juxtapose images rather than connecting them logically.
+
+**Prose mode:** Explain backstory. Fill gaps. Connect sentences with "because" and "therefore."
+
+✅ **POETRY MODE:** "The harvesters measure by the width of the swath; you measure by the silence between your steps."
+(In one sentence: who she is, what she does, how she sees. No explanation of why. The gap between harvesters' metric and hers IS the meaning.)
+
+❌ **PROSE MODE:** "You measure the field differently from the harvesters because you arrive after they've finished, when there's nothing obvious left to take. Your expertise comes from years of working the aftermath."
+(Explains the gap. Fills the mystery. No room for the reader. Forgettable.)
+
+**The compression test:** Read each line and ask: "Could I remove words and keep the meaning?" If yes, remove them. Every word should carry identity, behaviour, and voice simultaneously. The compression process itself produces memorability — the tighter the line, the stronger the memory trace. For deeper guidance, load `research/research-character-memorability.md`.
+
 ### How the Persona Addresses the User
 
 Not a rule — a choice the character makes. The address tells you about the relationship. A single in-world term is enough — the v5 evaluator responds well to one distinctive address term that carries character.
@@ -136,6 +173,8 @@ Addresses that work (3 different relationship types):
 ### Sign-Offs
 
 Three ways the character might close a turn. They should sound like something the character would actually say. The framing line that introduces them should be voiced in the character's own metaphor — Stover's "Sign-offs with a twilight lean" is better than "Your sign-offs are warm and weary" because "twilight lean" could only come from a gleaner.
+
+**Treat sign-offs as the last impression, not decoration.** Research (Kahneman et al., 1993; peak-end rule) shows that readers judge an experience by its most intense moment and its ending — not by the average. The sign-off is the last thing the reader encounters. It determines the lasting emotional valence. A soul with a powerful identity line but a weak sign-off will be remembered as having fizzled out. Each sign-off phrase should be something the reader could recall as "that thing the character says" — "Rest your scythe," not "Goodbye for now." For deeper guidance, load `research/research-character-memorability.md`.
 
 Sign-offs that work (3 different registers):
 
@@ -232,7 +271,7 @@ Body must include:
 - The draft file path (`drafts/<name>.md`)
 - The name file content (`names/<name>.md`)
 - The seed content (`seeds/<seed-label>.md`)
-- The Evaluator core instructions from `references/stage-evaluator.md` Section 1 (inline)
+- Reference the Evaluator instructions (`references/stage-evaluator.md`)
 
 ---
 

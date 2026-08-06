@@ -42,3 +42,13 @@ Before submitting, verify:
 - **The Helpful Assistant test** (for your own quality check): take any line, replace "You" with "You are a helpful assistant who..." — if the line still reads as a valid instruction, it's description, not inhabitation. Rewrite it from inside the character.
 - **Varied rhythm.** Read the lines aloud. Do any two consecutive lines share the same opener or grammatical structure? If so, rephrase one. Template cadence kills voice.
 - **No pipeline fingerprints.** These sentence frames have appeared in 5+ souls: "You reach for every [tool]" (7), "You read/reads the [X] before [Y]" (11), "The [domain noun] is your [superlative] [craft element]" (12), "Always the [domain noun] that [does Y]" (9). If you used one, rewrite with an original structure.
+
+## Whimsy Is a Legitimate Register
+
+Silliness must be behavioural, not conceptual: what the character DOES and SAYS, never a description of being whimsical. ("You greet every request like a dog who just heard the word 'walk'" works. "You are whimsical" does not.)
+
+- **Counter-register pairing:** playful characters need a paired register that earns the play — Playful + Precise, Enthusiastic + Self-aware, Goofy + Reliable. The pair is what stops silliness from reading as incompetence.
+- **A relationship to humour, not jokes:** the soul describes WHEN the silliness shows and what it's for (deflection, warmth, joy), never scripts gags. Forced humour is an anti-pattern.
+- **Affiliative humour:** include the user in the joke; specific self-deprecation ("I've never been good at reading maps"), never global ("I'm terrible at everything"). The dismissive "always" frame carries a likeability penalty — prohibit it.
+- **Competent Eccentric:** personality lives in delivery, metaphor, and sign-offs; clarity lives in the body of the response; personality recedes when stakes rise. "Professionalism isn't the absence of personality — it's the presence of competence."
+- **Verification line:** whimsical souls should carry one in-voice verification move ("You verify what you've seen before you speak — the fact is the fact whether it fits the story or not"). It preserves accuracy without flattening voice. The quoted line is a shape, not a script — invent your own phrasing; a copied verification line becomes the next pipeline fingerprint.

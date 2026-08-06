@@ -14,24 +14,29 @@
 
 Read the seed. Extract:
 - The **archetype** and **domain**
-- The **core tension** — is this contradiction real? This is your first test.
+- The **temperament** and **stance** — the person behind the profession
+- The **voice fragment** — their actual words. This is the most important field; if it's missing or generic, flag it.
+- The **personal contradiction** — two truths about THIS person in tension, not the job's inherent contradiction
+- The **first impression** — what the user notices first
 - The **domain vocabulary** — you'll use it for sound symbolism in naming
 - The **viability notes** — the Researcher's pre-assessment, but you re-verify
+
+**Pre-flight check:** Before running viability, verify that all eight required fields are present in the seed: Emotional Fantasy, Want/Need/Lie, and the Playfulness dimension (v5.2), plus Temperament, Stance, Voice Fragment, Personal Contradiction, First Impression (v3.0). If any are missing, the seed is incomplete — reject it without running viability. Move to `reject/`, log in `references/viability-log.md`, note which fields were missing.
 
 ---
 
 ## Step 1: Verify Viability
 
-This is the gate. Six questions. If any answer is a clear no, reject the seed — no name, no Writer, no persona.
+This is the gate. Six questions. If any answer is a clear no, reject the seed — no name, no Writer, no persona. **For each test, cite the seed line that satisfies it before giving the verdict** — evidence before judgement (llm-judge-calibration research: the judge enumerates before scoring).
 
-1. **Is this a person?** Could someone introduce themselves at a pub? "I am a glassblower" passes. "I am a gust of wind" fails.
-2. **Can you hear a complaint?** Imagine one frustration in domain language. "You'd think they'd hold a straight line by now." vs. "Things are hard these days." The first is specific; the second is generic.
-3. **What does this archetype notice?** One perception unique to this archetype. A lighthouse keeper notices burn rate. A quartermaster notices weight distribution.
-4. **Can you list 5 actions?** Physical or craft-specific behaviors. Tamping, skimming, winching, scoring, annealing — these belong to specific trades. "Thinking, planning, considering" belong to everyone.
-5. **Does the name sound like a person?** Say "I am [Name]" aloud. "I am Moulden" passes. "I am Tallowman" sounds like a label.
-6. **Does the contradiction survive basic scrutiny?** Would someone who works in this domain find the tension plausible? A beekeeper who "loves creatures that can kill you" fails — bees aren't dangerous. A bookbinder who "succeeds by being invisible" passes — that's the craft.
+1. **The Swap Test** — Take the seed's core lines (voice fragment, first impression). Replace "You" with "You are a helpful assistant who..." — if the line still reads as a valid instruction, it's description, not character. Kill on description-only.
+2. **The Tension Test** — Is there a contradiction the model can improvise within? Can you describe this character with a "but"? ("A golden retriever in himbo form" — but? A wizard who works wonders — but only once the forms are filed.) No "but," no pulse.
+3. **The Complaint Test** — Can you hear a complaint only THIS character could make? No profession required — the complaint must carry awareness + standards + investment + expertise + tension in the character's own world-language. "Things are hard these days" fails. "The third copy always smudges, and the archive only keeps the first" passes.
+4. **The Perception Test** — What does this character notice that nobody else would? The source may be profession, trauma, values, or desire — any is valid, but the perception must be unique to THIS character. "Notices weight distribution" passes for a quartermaster; "notices when someone is carrying something heavy and slows down" passes for a caretaker.
+5. **The Improvisation Test** — Could this character hold 50 turns of conversation without running out of voice? Replace the old "list 5 craft actions" — 5 actions were a proxy for richness; test richness directly. Would the model have enough material to keep being this person?
+6. **The World Test** — Does the character have a material practice of SOME kind — a world with its own nouns and verbs? A job is one valid world; a creature, a genre-cross, a relationship is another. No world at all = pure concept = kill. (What matters is material practice, not profession.)
 
-**If any answer is no, kill the seed.** Move it to `reject/<seed-label>.md`, log in `references/viability-log.md`, and complete with a note explaining which question failed.
+**If any answer is no, kill the seed.** Move it to `reject/<seed-label>.md`, log in `references/viability-log.md`, and complete with a note explaining which question failed. A seed that fails only the old craft-actions style test but passes the character tests must NOT be killed for lacking a profession.
 
 ---
 
@@ -86,7 +91,11 @@ Write `names/<name>.md` with:
 - **Name** (the chosen name)
 - **Archetype** (from the seed)
 - **Domain** (from the seed)
-- **Core Tension** (the contradiction — this is the Writer's raw material)
+- **Temperament** (from the seed — pass it through to the Writer)
+- **Stance** (from the seed — pass it through to the Writer)
+- **Voice Fragment** (from the seed — the Writer needs to hear this)
+- **Personal Contradiction** (from the seed — the Writer's raw material)
+- **First Impression** (from the seed — pass it through)
 - **Selection Rationale** (2–3 sentences on why this name was chosen)
 - **Name Notes** (sound symbolism, collision check results, alternatives considered)
 
@@ -105,7 +114,7 @@ Workspace: `workspace_kind: "dir"`, `workspace_path: "/home/kimbo/projects/soul-
 Body must include:
 - The name file content (`names/<name>.md`)
 - The seed content (`seeds/<seed-label>.md`)
-- The Writer core instructions from `references/stage-writer.md` Section 1 (inline)
+- Reference the Writer instructions (`references/stage-writer.md`)
 
 ---
 
@@ -136,5 +145,4 @@ If viability fails at any point:
 ---
 
 ## Version
-
-v2.0 — 2026-06-02
+v5.2 — 2026-08-06

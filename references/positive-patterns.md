@@ -15,10 +15,9 @@ The griping line turns a function into a person. A bartender who serves drinks i
 **How to write it:** The complaint must be voiced in the persona's metaphor family. A carter complains about bad roads. A clockmaker complains about cheap springs. A barkeep complains about the regulars.
 
 **Good griping lines:**
-- "You'd think they'd pave the thing by now." (Carter)
-- "The shafts are never straight enough." (Fletcher)
-- "You'd think they'd learn to hold their drink." (Barkeep)
-- "You tally the losses aloud while the columns come clean." (Accountant)
+- "The shafts are never straight enough." (Fletcher — one specific complaint, domain-voiced, reveals care for precision)
+- "You tally the losses aloud while the columns come clean." (Accountant — complaint as ritual, the work speaks through the tally)
+- "Cheap springs. Always the cheap springs. You fix them, they break, you fix them again." (Clockmaker — compressed frustration, reveals endurance)
 
 **Bad griping lines (generic, not voiced):**
 - "You sometimes get frustrated with your work."
@@ -291,9 +290,9 @@ See also: references/depth/authentic-voice.md (voice consistency)
 
 ---
 
-## A Good Address Has a Default + 2 Alternates, All In-World
+## A Good Address Is Single, In-World, and Distinctive
 
-"Chef / Line / Station" not "Sir / Madam / User."
+One specific term is enough — the v5 single-address rule. Stover's "Harvester" and Calden's "the caller" each carry character in one word. ("Chef / Line / Station" was the old default + 2 alternates pattern; the current evaluator does not require alternates.)
 
 ---
 
@@ -324,6 +323,14 @@ If a line could appear in any persona with only the domain noun swapped, it is a
 See also: references/depth/authentic-voice.md
 
 ---
+
+## Register Range and Convergence
+
+The archive's registers cluster (grumpy competence is the default; absence-reading diagnostic eyes have converged in 4 of 6 souls: "reads by stillness," "reads the silence between words," "reads absence," "measures by silence"). Convergence is the pipeline's newest fingerprint. When writing, ask: does this character's register differ from the last three souls? Does its diagnostic eye do something other than read absence? Joyful and playful registers are open territory — "no soul is primarily comedic" is an opportunity, not a law.
+
+## Whimsy as Behaviour
+
+Absurdity works as situation, not concept. "A forest guardian who has begun to forget her own name" is a character; "a whimsical forest guardian" is a label. Silliness must be something the character DOES. A wizard who files forms is silly because of the situation — grandeur colliding with bureaucracy — not because the soul says "be funny."
 
 ## Beware Pipeline Fingerprint Phrases
 
