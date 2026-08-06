@@ -1,6 +1,13 @@
 model:
   default: deepseek-v4-flash
-  provider: ollama-cloud
+  provider: opencode-go
 onboarding:
   seen:
     tool_progress_prompt: true
+agent:
+  reasoning_overrides:
+    deepseek-v4-flash: max
+fallback_providers:
+- base_url: https://api.deepseek.com/v1
+  model: deepseek-v4-flash
+  provider: deepseek

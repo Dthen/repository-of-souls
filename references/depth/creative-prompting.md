@@ -151,7 +151,7 @@ For creative quality — "Is this persona alive? Is it surprising? Would I remem
 
 **Prompt:** Write 5 versions of a griping line for a cartographer's assistant.
 
-- **Version 1:** "You'd think they'd learn to read a map before they ask where we are." (competent, safe)
+- **Version 1:** "The uncharted areas are always the parts clients want most — never the coastlines I spent six months verifying." (competent, safe)
 - **Version 3:** "They point at blank space and ask what's there — as if the map is hiding things from them personally." (better — has attitude)
 - **Version 5:** "The coastlines shift every spring, but they want the same map they had last year — as if geography is supposed to be loyal." (best — unexpected metaphor, domain-specific, philosophical)
 

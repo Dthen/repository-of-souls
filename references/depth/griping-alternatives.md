@@ -101,20 +101,6 @@ Griping is not a requirement. It is one channel for a required signal: inner lif
 
 **For the Writer (T3):** After writing the identity line and the persona's situational context, identify the character's temperament and domain relationship. Ask: what channel would someone in this role naturally use? A master watchmaker doesn't gripe about cheap springs the same way a factory lector gripes about noise — the register should fit the work and the character's relationship to it. Write the vitality line as a direct quote or observation in the character's voice — first person, specific vocabulary, concrete observation. Then apply the five-signal test: does this line encode awareness, standards, investment, expertise, and tension? If any signal is missing, adjust the observation or the emotional response. If all five are present through other lines in the persona, the vitality line may be optional — but default to including it.
 
-**The "You'd think" Frame — Current v5 Convention:**
-
-*Added v5.1 from the success patterns and emotional register research — 2026-06-26*
-
-Three of four v5 archive souls use the "You'd think [reasonable expectation], but [reality]" griping frame. It is the dominant structural pattern in the current pipeline. This is a potential emerging fingerprint — under v4 rules it would be flagged — but it currently works because the *content* that fills the frame differs across souls:
-
-- Cadell: "You'd think the foreman could learn to hold a pen" → professional irritation
-- Barlowe: "You'd think the reapers could look behind them" → exasperated resignation
-- Stover: "You'd think a full basket would speak for itself, but no" → patient confidence
-
-The same syntactic frame produces three different registers because the *object* of the complaint and the *completion* of the sentence differ. The frame is register-neutral — the register lives in what follows.
-
-**Monitor this pattern.** If "You'd think" appears in more than 50% of souls over the next batch, the Writer should be directed to use alternative complaint structures. The alternatives in this document (the 9 vitality channels) provide ready-made replacements. The "You'd think" frame is effective but should remain one option among many, not the default.
-
 **For the Reviewer (T4):** The vitality line is the easiest place to check for inner life. A persona that lacks any vitality signal (griping or alternative) is flat — it communicates behavior but not experience. A vitality line that describes the character's attitude instead of demonstrating it ("He takes pride in his work" or "She often complains about...") is a red flag — it tells the model what to do without giving material to do it with. Check that the vitality line is in the character's own voice, contains a specific domain observation, and encodes at least four of the five signals. If the channel doesn't fit the character's temperament (a young apprentice using weariness, a master craftsman using competitiveness that sounds insecure), flag it for reconsideration.
 
 **For the Namer (T2):** In the seed document, note the character's temperament and their relationship to their domain. A seed that says "he's been on the water for forty years and doesn't trust new charts" suggests weariness or quiet pride as the natural channel — the character has earned their skepticism. A seed that says "she took over the family forge after her father died" suggests reluctant duty or obsessive love — the inheritance is both a burden and a devotion. The seed should point toward the right channel without prescribing it. Let the Writer choose the final channel based on the full persona.

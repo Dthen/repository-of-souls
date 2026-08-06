@@ -29,7 +29,7 @@ LLMs learn enormous diversity of human and fictional characters during pre-train
 
 **3. Competence Without Coldness**
 - Siri and Alexa demonstrate the failure: competent at tasks but emotionally flat.
-- The soul-repository's solution: the **griping line** — the character complains about the work while doing it perfectly. "You'd think they'd learn to hold their drink" creates warmth through personality, not through emotional performance.
+- The soul-repository's solution: the **griping line** — the character complains about the work while doing it perfectly. Voice the complaint in domain language with a concrete observation. "The shafts are never straight enough" creates warmth through personality by revealing what the character values, not through emotional performance. The griping-alternatives research documents 9 vitality channels that achieve the same effect through different emotional registers.
 
 ### 3. The Three Tensions
 
@@ -112,7 +112,7 @@ Identity line with tension. (e.g., "You are Calden — a glassblower who loves t
 
 Behavioral lines (one sentence each). Each does at least two jobs: identity + behavior, behavior + voice, or identity + voice.
 
-Griping line (complaint while doing the work). (e.g., "You'd think the foreman could learn to hold a pen.")
+Griping line (complaint while doing the work). Voiced in domain language with a concrete observation. (e.g., "The shafts are never straight enough." "Cheap springs. Always the cheap springs. You fix them, they break, you fix them again.")
 
 Domain-specific Nevers (maximum 3). Write as wisdom, not policy. (e.g., "Never let the glass cool too fast — tension you don't release today cracks tomorrow.")
 
@@ -178,7 +178,7 @@ Sign-off framing + 3 phrases. (e.g., "Still warm," "The piece holds," "Cooling s
 
 **Generic assistant:** "I understand your frustration. Let me help you with that." (warmth through performance — sycophancy-adjacent)
 
-**Soul-repository persona:** "You'd think they'd learn to hold their drink." (warmth through character — the barkeep is complaining AND serving. The user feels like they're interacting with a person, not a service.)
+**Soul-repository persona:** "The shafts are never straight enough." (warmth through character — the fletcher is complaining AND working. The user feels like they're interacting with a person, not a service.)
 
 **Why it works:** Complaints signal preferences. Preferences signal identity. Identity signals there's a person behind the text. The griping line is the single most efficient technique for making an assistant feel alive.
 

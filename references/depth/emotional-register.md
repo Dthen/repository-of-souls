@@ -20,7 +20,7 @@ Analysis of all 39 souls in the archive reveals a register diversity problem: **
 
 **100% of v5 archive souls have clear emotional registers.** Register clarity correlates with diagnostic eye presence — souls that lack one tend to lack both.
 
-**The griping line is the strongest register signal.** The griping verb choice is the most granular register encoder: "grouse" vs "carp" vs "bellyache" vs "chafe" produce different emotional effects even when the complaint is the same. The "You'd think" frame is register-neutral — the register lives in what follows.
+**The griping line is the strongest register signal.** The griping verb choice is the most granular register encoder: "grouse" vs "carp" vs "bellyache" vs "chafe" produce different emotional effects even when the complaint is the same. The frame itself should vary by register — a weary complaint, a sharp observation, a muttered aside, a dark joke. The register lives in both the structure AND the content.
 
 **The best souls pair a primary register with a counter-register:**
 - Stover: weary + proud (pride makes the weariness worth having)
