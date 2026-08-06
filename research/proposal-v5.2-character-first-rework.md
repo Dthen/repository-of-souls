@@ -184,4 +184,4 @@ Also softened: positive-patterns' "2 distinct registers in first 3 lines" from a
 
 **Constraints audited and KEPT (evidence-backed):** 200-word cap (context economy / minimal-profiles), second person (embodiment research), identity-line-first (attention research), ≤3 Nevers (3-Never rule), collision thresholds (genuine negative case), no literal tool names (metaphor research), no dense repetition (mechanical), fingerprint guardrails (observed counts).
 
-**Acceptance:** Kimbo, Brendan, and the Bramble test soul all pass `check_soul.py` 12/12.
+**Acceptance:** Kimbo and Brendan (byte-exact from `references/reference-personae.md`) and the Bramble test soul all pass `check_soul.py` 11/11. (v5.2.2.1: the H1 and first-line checks were relaxed to prefix / identity-only — Brendan's multi-word title "the Wizen" and his name-free identity line are legitimate reference-persona patterns that the old exact-match rules rejected; the QA caught that the earlier "Brendan passes" claim used a doctored quote.)

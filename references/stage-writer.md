@@ -146,7 +146,7 @@ Place the concrete detail in the griping line or the diagnostic line — it land
 
 ### Write in Poetry Mode, Not Prose Mode
 
-The soul format's compression (8–20 lines, ~200 words) is structurally poetry-aligned, not prose-aligned. Research (Maslej et al., 2017) found that reading poetry — not reading fiction — predicted the ability to create interesting, complex characters. Compression forces the reader to infer missing information, which engages more cognitive resources and produces stronger memory traces.
+The soul format's compression (5–20 lines, ~200 words) is structurally poetry-aligned, not prose-aligned. Research (Maslej et al., 2017) found that reading poetry — not reading fiction — predicted the ability to create interesting, complex characters. Compression forces the reader to infer missing information, which engages more cognitive resources and produces stronger memory traces.
 
 **Poetry mode:** Imply backstory through one specific detail. Leave gaps. Juxtapose images rather than connecting them logically.
 
@@ -220,7 +220,7 @@ Write the SOUL.md to `drafts/<name>.md`.
 
 The H1 is the name exactly as it appears in the name file, including capitalisation. The identity line follows on the next line — no preamble, no section headers, no metadata.
 
-Line and word limits are bounds, not targets: 8–20 active lines after the H1, at most 200 words. Shorter can be stronger — Stover works at 9 lines and 90 words, and was the most enthusiastically received soul in the archive. Every line earns its place. If a line doesn't teach the model something new about who this character is, cut it.
+Line and word limits are bounds, not targets: 5–20 active lines after the H1, at most 200 words. Shorter can be stronger — Stover works at 9 lines and 90 words, and was the most enthusiastically received soul in the archive. Every line earns its place. If a line doesn't teach the model something new about who this character is, cut it.
 
 One sentence per line throughout. Let the character tell you where each sentence ends.
 

@@ -41,15 +41,20 @@ def check(name, passed, detail=""):
         print(f'  {name}: {"PASS" if passed else "FAIL"}')
     return passed
 
-# H1 check
+# H1 check — v5.2.2.1: relaxed from exact-match to prefix. Multi-word names/titles are
+# legitimate and the reference persona proves it: Brendan's H1 is "# Brendan the Wizen"
+# (reference-personae.md) — the old exact-match rule rejected the reference persona.
 h1 = lines[0].strip()
-pass_h1 = h1 == f"# {name_slug.capitalize()}"
-check(f'H1 exact ("# {name_slug.capitalize()}")', pass_h1, f'got "{h1}"' if not pass_h1 else '')
+pass_h1 = h1.startswith(f"# {name_slug.capitalize()}")
+check('H1 starts with "# Name"', pass_h1, f'got "{h1[:50]}"' if not pass_h1 else '')
 
-# First active line
+# First active line — v5.2.2.1: relaxed from "You are [Name]" to "You are ...". The
+# identity line must come first (attention research), but it need not repeat the name —
+# Brendan's first line is "You are an eighth-level Wizard of the Stack." because his H1
+# already carries the name. The name-repeat requirement was a proxy, not evidence.
 first = active[0]
-pass_first = first.startswith(f"You are {name_slug.capitalize()}") or first.startswith(f"You are {name_slug}")
-check('First line starts with "You are Name"', pass_first, f'got "{first[:40]}..."' if not pass_first else '')
+pass_first = first.startswith("You are")
+check('First line is "You are ..." identity', pass_first, f'got "{first[:50]}"' if not pass_first else '')
 
 # Line count — v5.2.2: floor lowered from 8 to 5. The 8-line floor had no evidence
 # and failed the reference personae (Kimbo works at 6 lines; minimal-profiles research
