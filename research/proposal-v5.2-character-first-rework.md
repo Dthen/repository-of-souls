@@ -130,4 +130,36 @@ Keep the name checks (sounds like a person, collision-safe) unchanged — they w
 
 ---
 
-*This proposal supersedes the "whimsy cannot be a pipeline stage" intuition from the originating conversation: whimsy CAN be encouraged — it just can't be *mandated* as a checklist item. The v5.2 mechanism: make the seed character-first, make the gates test character, make the metaphor rule a commitment check, and give whimsy a register + guardrails instead of a veto.*
+## v5.2.1 — Vitality over Griping (2026-08-07)
+
+**Trigger:** Dthen flagged that the "griping as mandatory constraint" decision from the June 2026 discussion was never executed — the 06-02 spec-rewrite plan sat in the file-drawer while the mandate persisted. This section records the execution and the audit of the 06-02 plan.
+
+**The smoking gun:** `scripts/check_soul.py` (the automated compliance gate) hard-coded a griping-line regex check requiring "You'd think", "always the \w+", "cheap \w+", "never \w+ enough", "learn to", "gripe", "grumble", "complain" — the Writer could not submit a soul without matching complaint patterns, and the "always the X" regex is the literal origin of the archive's most infectious fingerprint (9+ souls). A parallel "recovery line" regex ("If \w+", "When \w+", "until", "wrong", "fail"...) forced a second formula. Both checks are REMOVED — compliance checks mechanical format only; vitality is Evaluator territory (per research-prompt-engineering: quality is LLM-judged, never regex).
+
+**Changes applied:**
+1. `scripts/check_soul.py` — griping-line and recovery-line regex checks removed (with explanatory comments).
+2. AGENTS.md quality #2 — "A complaint in domain language" → "A vitality line in world language" (any of 12 channels; complaint is one, not the gate).
+3. `stage-evaluator.md` — Step 3 "The Griping Line" → "The Vitality Line"; hard rejection only when NO vitality line exists (any channel); PICK/REJECT definitions updated; comparative-evaluation prompt added (06-02 item).
+4. `stage-namer.md` + `stage-researcher.md` — Complaint Test → Vitality Test (both instances).
+5. `stage-writer.md` — Griping Line section → Vitality Line (channels listed; "if you default to complaint, ask whether the character deserves it or the pipeline is choosing for you"); register guidance updated.
+6. `positive-patterns.md` — griping pattern reframed as the complaint channel within the vitality pattern.
+7. `reference-system-prompt-architecture.md` — griping references updated to vitality ("griping mandatory" cell fixed).
+8. `profiles/soul-writer/SOUL.md` — griping mandate → vitality line.
+9. `format-rules.md` — ordering-is-voice note: identity-first is the only fixed position; the identity → griping → Nevers → address → sign-off sequence is a reference example, not a required structure (06-02 item).
+
+### 06-02 plan audit (spec-rewrite-prompt-research, written 2026-06-02, previously never executed)
+
+| 06-02 item | Status (2026-08-07) |
+|---|---|
+| Strip mandatory structural templates (Nevers format, sign-off format, line ordering) | DONE for ordering (v5.2.1 format-rules note); Nevers de-mandated since v5.0; sign-off count stays as format bound |
+| Convert ~25 negative constraints to positive; max 3 guardrails | PARTIAL — current negative count is far below the v4-era 25; remaining negatives are fingerprint guardrails (positive version ambiguous — keep per research) |
+| Core Structure as reference example, not template | DONE (v5.2.1 ordering note + v5.1 "qualities not checkboxes") |
+| Namer: role + examples; axes as principles | DONE (v5.1 role framing; axes kept as guidance) |
+| Evaluator: literary-editor role, CoT, no checklist, comparative evaluation | DONE (v5.1 CoT; v5.2.1 comparative sense added) |
+| AGENTS.md: Mandatory Content → Qualities of a Good Soul | DONE (v5.1) |
+| Depth files: examples-first restructure (27 files) | **REMAINING** — big restructure, deferred |
+| Verification: no "Always the X", no mandatory structural template | DONE — plus the root cause removed (check_soul.py regex engine) |
+
+**Remaining from 06-02:** depth-file examples-first restructure (27 files) — deferred, not forgotten; tracked here so it cannot re-enter the file-drawer.
+
+*This section supersedes the v5.2-era Application Check note: the 06-02 plan is now partially executed, with the remainder explicitly tracked above.*

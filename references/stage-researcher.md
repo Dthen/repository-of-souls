@@ -49,7 +49,7 @@ For each gap, generate 2–3 archetype candidates. **Do NOT use web search as yo
 1. **The emotional fantasy** — What should interacting with this character FEEL like? One phrase. ("Being enthusiastically greeted by a golden retriever trapped in a himbo's body.") This is the PbtA first principle and the single highest-leverage field. If you cannot name the feeling, the candidate has no pulse yet.
 2. **The contradiction** — Two truths in tension, one of which can be absurd. Apply the "but" test: can you describe this character with a conjunction? If not, it's a definition, not a character.
 3. **The want and the lie** — What does it want? What does it need and not know? What does it believe that isn't quite true? (Want Test: "wants to help people" is a job description — reject it.)
-4. **The world** — THEN decide what world carries this person: a trade, a creature, a genre-cross, an institution, a role-from-life. The world supplies the material practice, the griping language, the diagnostic eye, and the compressed specific — it does NOT define the character.
+4. **The world** — THEN decide what world carries this person: a trade, a creature, a genre-cross, an institution, a role-from-life. The world supplies the material practice, the vitality language, the diagnostic eye, and the compressed specific — it does NOT define the character.
 
 **Tone axis in gap analysis:** In addition to category/domain/era gaps, check TONE gaps explicitly: if all souls are dignified, look for silly; if all are human, look for non-human; if all are single-world, look for genre-crosses; if all registers are sober, look for joyful.
 
@@ -67,7 +67,7 @@ Before writing a seed file, test each candidate against the six character tests 
 
 1. **The Swap Test** — Take the candidate's core lines. Replace "You" with "You are a helpful assistant who..." — if it still reads as a valid instruction, it's description, not character. Kill on description-only.
 2. **The Tension Test** — Is there a contradiction the model can improvise within? Can you describe this character with a "but"? ("A golden retriever in himbo form" — but? A wizard who works wonders — but only once the forms are filed.) No "but," no pulse.
-3. **The Complaint Test** — Can you hear a complaint only THIS character could make? No profession required — the complaint must carry awareness + standards + investment + expertise + tension in the character's own world-language.
+3. **The Vitality Test** — Can you hear a line only THIS character could make — a complaint, a quiet pride, a protectiveness, a reluctant duty, a whimsy, any channel? The line must carry awareness + standards + investment + expertise + tension in the character's own world-language. No profession required, no channel required. "Things are hard these days" fails. "The third copy always smudges, and the archive only keeps the first" passes.
 4. **The Perception Test** — What does this character notice that nobody else would? The source may be profession, trauma, values, or desire — any is valid, but the perception must be unique to THIS character.
 5. **The Improvisation Test** — Could this character hold 50 turns of conversation without running out of voice? (The old "5 craft actions" check was a proxy for richness; test richness directly.)
 6. **The World Test** — Does the character have a material practice of SOME kind — a world with its own nouns and verbs? A job is one valid world; a creature, a genre-cross, a relationship is another. No world at all = pure concept = kill.
@@ -159,7 +159,7 @@ From the success-patterns research, archetypes that produce good personae share:
 2. **Domain vocabulary** — they have their own nouns, verbs, and sensory language. "Stave" and "hoop" belong to a cooper. "Fog" and "oarlock" belong to a ferryman.
 3. **Natural tension** — the archetype contains a contradiction. A cooper who loves the craft but resents the clock. A ferryman who gripes about the fog but pushes off anyway. See `references/depth/identity-line.md` for detailed guidance on what makes a contradiction feel real vs. manufactured.
 4. **Specific perception** — they notice things no other archetype would. A quartermaster notices weight distribution. A lighthouse keeper notices burn rate.
-5. **Voiced complaint** — they complain in their own language. "The shafts are never straight enough." Not "I wish things were easier."
+5. **Voiced vitality** — they have a line that only they could say — a complaint, a quiet pride, a dark joke, a protectiveness. "The shafts are never straight enough." Not "I wish things were easier."
 
 ### Category Definitions
 
@@ -198,4 +198,4 @@ These additions come from the research we've done on what makes personae work. T
 ---
 
 ## Version
-v5.2 — 2026-08-06
+v5.2.1 — 2026-08-07

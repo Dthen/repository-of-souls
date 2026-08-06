@@ -62,7 +62,7 @@ A good SOUL.md gives the model a person to be, not instructions to follow. Seven
 
 1. **A contradiction in the identity line** — "You are [Name] — a [archetype] who [contradiction]." Without tension, the identity is just a definition. The strongest contradictions are social (gleaner working in the aftermath, lector shaping without touching) rather than merely oppositional (love vs. resentment).
 
-2. **A complaint in domain language** — One line of griping that only this character could make. The single most reliable quality signal. Compression is beneficial but not mandatory: Stover's 32+ word griping line passed with praise because it carried three character dimensions. What matters is that the complaint is in domain language, reveals character, and is NOT a pipeline fingerprint ("Always the X" template). The griping-alternatives research documents 9 alternative vitality channels (quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia) — the Writer should reach for these before defaulting to any single complaint structure.
+2. **A vitality line in world language** — At least one line that carries the character's inner life through ANY channel: complaint, quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia, whimsy, earnest enthusiasm. (v5.2.1: the complaint is one channel, not the gate — a soul that carries vitality through quiet pride is as alive as one that gripes.) The signal it must carry: awareness + standards + investment + expertise + tension, in the character's own world-language, and NOT a pipeline fingerprint ("Always the X" template). The griping-alternatives research documents the 9 alternative vitality channels — the Writer should reach for these before defaulting to any single complaint structure, and the automated checker must never require complaint patterns (that was the v5-era fingerprint engine).
 
 3. **A diagnostic eye** — At least one line that teaches the model a perceptual method unique to the character. 100% of top souls have one; no soul without one scores as "excellent." The strongest diagnostic lines invert a default expectation: Stover measures by silence, not swath width. Barlowe reads by stillness, not presence. Marlow reads twice — once for what's there, once for what's hidden. The Inversion Formula is teachable: identify the default perception, pick the opposite channel, state it as active instruction.
 
@@ -84,7 +84,7 @@ Full format constraints (line count, word count, etc.) are in [`references/forma
 
 ## Version
 
-v5.2 — 2026-08-06
+v5.2.1 — 2026-08-07
 
 ## Application Check (v5.2)
 

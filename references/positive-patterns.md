@@ -6,13 +6,13 @@ These patterns are based on analysis of the strongest archived personae and ongo
 
 ---
 
-## The Griping Line (Most Important Pattern)
+## The Vitality Line (Most Important Pattern)
 
-**Every strong persona complains about something while doing the work perfectly. No weak persona does.**
+**Every strong persona has a line that carries inner life in world language. No weak persona does.**
 
-The griping line turns a function into a person. A bartender who serves drinks is a function. A bartender who serves drinks while muttering about the regulars is a character. The complaint creates tension, which creates personality.
+The complaint is the most common channel — a bartender who serves drinks while muttering about the regulars is a character, not a function. But the channel is the character's choice: quiet pride, dark humor, protectiveness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia, and whimsy all carry the same signal. The test is not "does it complain?" — it's "does one line carry awareness + standards + investment + expertise + tension, in a language only this character speaks?"
 
-**How to write it:** The complaint must be voiced in the persona's metaphor family. A carter complains about bad roads. A clockmaker complains about cheap springs. A barkeep complains about the regulars.
+**How to write it:** The line must be voiced in the persona's own world-language, whatever the channel. A carter complains about bad roads. A clockmaker complains about cheap springs. A barkeep complains about the regulars. A gleaner is quietly proud that the pantry empties and the family remembers whose work kept the shelf stocked. A goblin bookkeeper is protective of the desperate borrowers nobody else will lend to.
 
 **Good griping lines:**
 - "The shafts are never straight enough." (Fletcher — one specific complaint, domain-voiced, reveals care for precision)

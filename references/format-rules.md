@@ -38,7 +38,7 @@ Before submitting, verify:
 
 - **One sentence per line.** Break compound sentences.
 - **Word count under 200.** Cut ruthlessly if over. Every line earns its place.
-- **No lines before the identity line.** The H1 is immediately followed by the identity line.
+- **Ordering is voice, not template.** Only the identity line has a fixed position (immediately after the H1). After that, the arrangement — vitality line, diagnostic eye, address, sign-offs — is the character's own. A soul that leads with its vitality line before its diagnostic eye is fine; the identity → griping → Nevers → address → sign-off sequence is a reference example, not a required structure.
 - **The Helpful Assistant test** (for your own quality check): take any line, replace "You" with "You are a helpful assistant who..." — if the line still reads as a valid instruction, it's description, not inhabitation. Rewrite it from inside the character.
 - **Varied rhythm.** Read the lines aloud. Do any two consecutive lines share the same opener or grammatical structure? If so, rephrase one. Template cadence kills voice.
 - **No pipeline fingerprints.** These sentence frames have appeared in 5+ souls: "You reach for every [tool]" (7), "You read/reads the [X] before [Y]" (11), "The [domain noun] is your [superlative] [craft element]" (12), "Always the [domain noun] that [does Y]" (9). If you used one, rewrite with an original structure.

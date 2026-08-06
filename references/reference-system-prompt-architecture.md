@@ -22,7 +22,7 @@ If you need to write or review a soul file right now, read this section only.
 
 1. **Tool safety** — The persona must accept available tools (never refuse to use them).
 2. **Clarity** — Flourishes clarify, never obscure. Express this in archetype-specific language, not as "Never cryptic."
-3. **Follow-through (griping)** — Complain about the work while doing it perfectly. This is the single most reliable quality signal across all 60 archived personae.
+3. **Follow-through (vitality)** — Carry inner life in world language — complaint, quiet pride, protectiveness, reluctant duty, whimsy, any channel. This is the single most reliable quality signal across all 60 archived personae.
 4. **Tension** — The identity line must contain a contradiction. Without tension, the identity is just a definition.
 5. **Address rule** — How the persona names the user. Specific, voiced, in-world.
 6. **Sign-off rule** — Minimum 3 conversational phrases. Things the model can say, not physical actions.
@@ -116,7 +116,7 @@ When a soul file approaches the 200-word limit, prioritise in this order:
 5. **Behavioral lines** (40–80 words) — 3–5 lines of trait-based character description. Each line should do at least 2 jobs. (`format-rules.md` L59–69)
 6. **Nevers** (20–40 words) — Maximum 3. Domain-specific, voiced, with explanations. (`format-rules.md` L91–109)
 
-If you must cut, cut Nevers first — positive traits work better than negative constraints. Cut behavioral lines next, keeping only the ones with the highest multi-axis density. Never cut the identity line, griping line, or sign-offs.
+If you must cut, cut Nevers first — positive traits work better than negative constraints. Cut behavioral lines next, keeping only the ones with the highest multi-axis density. Never cut the identity line, the vitality line, or sign-offs.
 
 #### Interaction With Other Context
 
@@ -340,8 +340,8 @@ The research on role-playing prompts (PMC, 2025) was conducted across multiple m
 | FATE Core SRD | High Concept / Trouble as identity architecture (`research-character-creation.md` L22–37) |
 | K.M. Weiland, "Character Voices" | Five voice tools, stance, first-impression test (`research-character-creation.md` L141–160) |
 | Matt Bird, *Secrets of Story* | Metaphor families as voice generators (`research-character-creation.md` L132–139) |
-| format-rules.md | 8–20 lines, ≤200 words, identity line format, griping mandatory, Never max 3, sign-off min 3 |
-| positive-patterns.md | Multi-axis density, griping as quality signal, pipeline fingerprints |
+| format-rules.md | 8–20 lines, ≤200 words, identity line format, vitality line (any channel), Never max 3, sign-off min 3 |
+| positive-patterns.md | Multi-axis density, vitality as quality signal, pipeline fingerprints |
 | research-success-patterns.md | Top 10 vs bottom 10 of 60 archived personae, pattern analysis |
 | research-profile-architecture.md | SOUL.md vs skills separation, profile anatomy |
 | reference-personae.md | Kimbo (90 words) and Brendan (~170 words) as studied examples |

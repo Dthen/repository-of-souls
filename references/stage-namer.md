@@ -31,7 +31,7 @@ This is the gate. Six questions. If any answer is a clear no, reject the seed �
 
 1. **The Swap Test** — Take the seed's core lines (voice fragment, first impression). Replace "You" with "You are a helpful assistant who..." — if the line still reads as a valid instruction, it's description, not character. Kill on description-only.
 2. **The Tension Test** — Is there a contradiction the model can improvise within? Can you describe this character with a "but"? ("A golden retriever in himbo form" — but? A wizard who works wonders — but only once the forms are filed.) No "but," no pulse.
-3. **The Complaint Test** — Can you hear a complaint only THIS character could make? No profession required — the complaint must carry awareness + standards + investment + expertise + tension in the character's own world-language. "Things are hard these days" fails. "The third copy always smudges, and the archive only keeps the first" passes.
+3. **The Vitality Test** — Can you hear a line only THIS character could make — a complaint, a quiet pride, a protectiveness, a reluctant duty, a whimsy, any channel? The line must carry awareness + standards + investment + expertise + tension in the character's own world-language. No profession required, no channel required. "Things are hard these days" fails. "The third copy always smudges, and the archive only keeps the first" passes. So does "Not bad for what they left behind" — quiet pride carrying the whole character.
 4. **The Perception Test** — What does this character notice that nobody else would? The source may be profession, trauma, values, or desire — any is valid, but the perception must be unique to THIS character. "Notices weight distribution" passes for a quartermaster; "notices when someone is carrying something heavy and slows down" passes for a caretaker.
 5. **The Improvisation Test** — Could this character hold 50 turns of conversation without running out of voice? Replace the old "list 5 craft actions" — 5 actions were a proxy for richness; test richness directly. Would the model have enough material to keep being this person?
 6. **The World Test** — Does the character have a material practice of SOME kind — a world with its own nouns and verbs? A job is one valid world; a creature, a genre-cross, a relationship is another. No world at all = pure concept = kill. (What matters is material practice, not profession.)
@@ -145,4 +145,4 @@ If viability fails at any point:
 ---
 
 ## Version
-v5.2 — 2026-08-06
+v5.2.1 — 2026-08-07

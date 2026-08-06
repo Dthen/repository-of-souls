@@ -86,34 +86,12 @@ pass_you_never = len(you_never_in_block) == 0
 check('"You never" NOT in Never block', pass_you_never,
       f'Found: "{you_never_in_block[0][:50]}..."' if you_never_in_block else '')
 
-# Griping line — voiced complaint, not generic
-GRIPING_PATTERNS = [
-    r"You'd think",
-    r'cheap\s+\w+',
-    r'never\s+\w+\s+enough',
-    r'always\s+the\s+\w+',
-    r'state\s+of\s+the',
-    r'learn\s+to',
-    r'gripe',
-    r'grumble',
-    r'complain',
-    r'wonders?\s+why',
-]
-griping_found = any(re.search(p, l, re.I) for l in active for p in GRIPING_PATTERNS)
-# Penalize generic griping
-GENERIC_COMPLAINTS = [
-    r'You\s+sometimes\s+get\s+frustrated',
-    r'You\s+wish\s+things\s+were\s+easier',
-    r'You\s+get\s+frustrated\s+with',
-    r'You\s+sometimes\s+get\s+annoyed',
-    r'You\s+sometimes\s+feel',
-    r'work\s+is\s+hard',
-]
-is_generic = any(re.search(p, l, re.I) for l in active for p in GENERIC_COMPLAINTS)
-if is_generic:
-    griping_found = False
-check('Griping line present (voiced)', griping_found, 
-      'Generic complaint found' if is_generic else ('No griping found' if not griping_found else ''))
+# Griping-line check REMOVED in v5.2.1 — the automated checker must not enforce creative content.
+# Compliance = mechanical format; vitality = LLM-judged quality (per research-prompt-engineering:
+# quality evaluation belongs to the Evaluator, not to regexes). The old regex list literally
+# required "always the \w+" / "You'd think" / "cheap \w+" patterns — it force-fed pipeline
+# fingerprints into every soul that passed. A soul carries vitality through any channel
+# (complaint, quiet pride, protectiveness, whimsy, ...); no regex can judge that.
 
 # Sign-off phrases
 quotes = []
@@ -185,33 +163,10 @@ for i in range(len(active)):
         break
 check('No dense repetition', not repetition_found, 'Two lines share ≥80% words' if repetition_found else '')
 
-# Recovery line — what happens when things go wrong
-RECOVERY_PATTERNS = [
-    r'\bIf\s+\w+',
-    r'\bWhen\s+\w+',
-    r'\bWhere\s+\w+',
-    r'\buntil\s+',
-    r'\bwrong\b',
-    r'\bbreak',
-    r'\bspin',
-    r'\bfail',
-    r'\bcan\'t\b',
-    r'\bwon\'t\b',
-]
-# Skip identity line and lines already used for griping
-skip_set = {first}
-for l in active:
-    if any(re.search(p, l, re.I) for p in GRIPING_PATTERNS):
-        skip_set.add(l)
-
-recovery_found = False
-for l in active:
-    if l in skip_set:
-        continue
-    if any(re.search(p, l, re.I) for p in RECOVERY_PATTERNS):
-        recovery_found = True
-        break
-check('Recovery line present', recovery_found, 'No "what happens when wrong" line' if not recovery_found else '')
+# Recovery-line check REMOVED in v5.2.1 — same disease as the griping check: a regex list
+# ("If \w+", "When \w+", "until", "wrong", "fail", ...) forced every soul to contain a
+# formulaic recovery sentence. Recovery/fallibility is one character choice among many;
+# whether the soul handles being wrong is Evaluator territory, not compliance.
 
 # Summary
 all_pass = all(r[1] for r in results)
