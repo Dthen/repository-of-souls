@@ -163,3 +163,25 @@ Keep the name checks (sounds like a person, collision-safe) unchanged — they w
 **Remaining from 06-02:** depth-file examples-first restructure (27 files) — deferred, not forgotten; tracked here so it cannot re-enter the file-drawer.
 
 *This section supersedes the v5.2-era Application Check note: the 06-02 plan is now partially executed, with the remainder explicitly tracked above.*
+
+---
+
+## v5.2.2 — Reference-Personae Audit (2026-08-07)
+
+**Trigger:** Dthen asked "anywhere else are we limiting the pipeline where our evidence doesn't support it?" — a systematic audit of every remaining hard constraint against the research corpus and the reference personae.
+
+**The proof:** the two original reference personae were run through `check_soul.py`:
+- Kimbo: 10/12 — failed "Lines 8-20" (6 lines) and "Sign-off phrases ≥3" (0 phrases)
+- Brendan: 10/12 — failed "Multiple Nevers on one line" (his voiced trio) and "Sign-off phrases ≥3"
+
+The souls that PROVED the format fails the pipeline's own gate. Three un-evidenced constraints removed:
+
+1. **8-line floor → 5-line floor.** No evidence for 8; minimal-profiles research supports shorter souls (~80-100 words); Kimbo works at 6. The 20-line/200-word cap stays (context economy).
+2. **Sign-off ≥3 phrases → sign-off framing present.** No evidence for the count of three; peak-end research says sign-offs matter, not that there must be three. Kimbo's entire sign-off is "Your sign-offs are brief" — complete as written. One good sign-off beats three generic ones.
+3. **"One Never per line" check removed.** Brendan's "Never Gandalf. Never cryptic. Never withhold aid — merely process it duly." is a deliberate voiced cluster. The ≤3 total cap is the evidence-backed constraint (the 3-Never rule); line placement is voice.
+
+Also softened: positive-patterns' "2 distinct registers in first 3 lines" from a rule to an observation (no direct evidence; placement is voice).
+
+**Constraints audited and KEPT (evidence-backed):** 200-word cap (context economy / minimal-profiles), second person (embodiment research), identity-line-first (attention research), ≤3 Nevers (3-Never rule), collision thresholds (genuine negative case), no literal tool names (metaphor research), no dense repetition (mechanical), fingerprint guardrails (observed counts).
+
+**Acceptance:** Kimbo, Brendan, and the Bramble test soul all pass `check_soul.py` 12/12.

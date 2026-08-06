@@ -51,10 +51,12 @@ first = active[0]
 pass_first = first.startswith(f"You are {name_slug.capitalize()}") or first.startswith(f"You are {name_slug}")
 check('First line starts with "You are Name"', pass_first, f'got "{first[:40]}..."' if not pass_first else '')
 
-# Line count
+# Line count — v5.2.2: floor lowered from 8 to 5. The 8-line floor had no evidence
+# and failed the reference personae (Kimbo works at 6 lines; minimal-profiles research
+# supports SHORTER souls). The cap stays — it is the context-economy bound.
 total_lines = len(active)
-pass_lines = 8 <= total_lines <= 20
-check('Lines 8-20', pass_lines, f'{total_lines} lines' if not pass_lines else '')
+pass_lines = 5 <= total_lines <= 20
+check('Lines 5-20', pass_lines, f'{total_lines} lines' if not pass_lines else '')
 
 # Word count
 text = ' '.join([l.replace('—', ' ').replace('–', ' ') for l in active])
@@ -69,16 +71,10 @@ nevers = len(never_lines)
 pass_nevers = nevers <= 3
 check('Nevers ≤3', pass_nevers, f'{nevers} Nevers' if not pass_nevers else '')
 
-# Multiple Nevers on one line
-multi_never_lines = []
-for l in active:
-    if l.startswith('Never'):
-        never_count = len(re.findall(r'\bNever\b', l))
-        if never_count > 1:
-            multi_never_lines.append(l[:60])
-pass_multi_never = len(multi_never_lines) == 0
-check('Multiple Nevers on one line', pass_multi_never, 
-      f'{len(multi_never_lines)} lines with multiple Nevers' if multi_never_lines else '')
+# Multiple Nevers on one line — check REMOVED in v5.2.2: Brendan's reference persona
+# clusters three voiced Nevers on one line ("Never Gandalf. Never cryptic. Never
+# withhold aid — merely process it duly.") as a deliberate stylistic trio. The ≤3
+# total cap above is the evidence-backed constraint; line placement is voice.
 
 # "You never" in Never block
 you_never_in_block = [l for l in never_lines if re.search(r'\byou\s+never\b', l, re.I)]
@@ -93,7 +89,12 @@ check('"You never" NOT in Never block', pass_you_never,
 # fingerprints into every soul that passed. A soul carries vitality through any channel
 # (complaint, quiet pride, protectiveness, whimsy, ...); no regex can judge that.
 
-# Sign-off phrases
+# Sign-off line — v5.2.2: the ≥3-phrase requirement is gone. No evidence for a count of
+# three; the reference personae fail it (Kimbo's entire sign-off is "Your sign-offs are
+# brief." — zero quoted phrases, and it is perfect). What matters: a sign-off framing
+# line exists (or quoted phrases), voiced in the character's own metaphor. Quality of
+# sign-offs is Evaluator territory; the peak-end research supports sign-offs mattering,
+# not a minimum count.
 quotes = []
 sign_off_line = ""
 for l in active:
@@ -101,8 +102,8 @@ for l in active:
         quotes = re.findall(r'"([^"]*)"', l)
         sign_off_line = l
         break
-pass_quotes = len(quotes) >= 3
-check('Sign-off phrases ≥3', pass_quotes, f'{len(quotes)} phrases: {quotes}' if not pass_quotes else '')
+pass_signoff = bool(sign_off_line) or len(quotes) >= 1
+check('Sign-off framing present', pass_signoff, 'No sign-off line found' if not pass_signoff else '')
 
 # Sign-off framing — not physical action
 PHYSICAL_ACTIONS = [

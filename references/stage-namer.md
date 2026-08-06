@@ -145,4 +145,4 @@ If viability fails at any point:
 ---
 
 ## Version
-v5.2.1 — 2026-08-07
+v5.2.2 — 2026-08-07

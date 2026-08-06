@@ -296,9 +296,9 @@ One specific term is enough — the v5 single-address rule. Stover's "Harvester"
 
 ---
 
-## A Good Core Tension Has 2 Distinct Registers in the First 3 Lines
+## A Good Core Tension Often Shows 2 Distinct Registers Early
 
-If lines 1–3 all sound the same (all serious, all jokey, all procedural), the tension is back-loaded and the model has less room to improvise.
+An observation about the archive's strongest souls, not a rule: if lines 1–3 all sound the same (all serious, all jokey, all procedural), the tension may be back-loaded. A soul that builds slowly is fine if the register holds — the tension is the requirement, not its placement.
 
 ---
 

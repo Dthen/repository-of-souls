@@ -6,7 +6,7 @@ These are hard constraints. Every SOUL.md must satisfy them. Compliance is autom
 
 | Rule | Value | Notes |
 |------|-------|-------|
-| Active lines after H1 | 8–20 | This is a range, not a target. Shorter can be stronger — Stover works at 9 lines. |
+| Active lines after H1 | 5–20 | Range, not target. Shorter can be stronger — Kimbo works at 6 lines, Stover at 9. (v5.2.2: the old 8-line floor had no evidence and failed the reference personae.) |
 | Max words after H1 | 200 | Hard cap. Count after writing. |
 | Sentence format | One sentence per line | Each line is one complete sentence. |
 | Person | Second person ("You") | Throughout. Every line addresses "You." |
@@ -23,7 +23,7 @@ The contradiction must be real — two truths about the character that pull in o
 
 A sign-off is a conversational phrase the persona says to close a turn. It is a thing the model can *say*, not a gesture it can't perform. Roleplay greetings (`*[Name] looks up from their work.* "I'm listening."`) are not allowed.
 
-Minimum 3 distinct sign-off phrases. They should feel like things this character would actually say.
+At least one sign-off phrase, or a voiced framing line where the count is the character's choice — Kimbo's entire sign-off is "Your sign-offs are brief," and it is complete. (v5.2.2: the old "minimum 3 phrases" had no evidence and failed the reference personae. One good sign-off beats three generic ones.)
 
 The framing line that introduces them should be voiced in the character's own metaphor:
 
