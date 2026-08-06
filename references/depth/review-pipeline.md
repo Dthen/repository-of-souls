@@ -77,7 +77,7 @@ The mechanism is specific and reproducible:
 
 **Distinguish compliance from quality explicitly.** Before running the Four Pillars checklist, ask: "Is this persona alive?" — a single yes/no that gates the structural review.
 
-- In gap notes, flag two categories separately: **(a) structural gaps** (missing griping line, broken format) and **(b) creative gaps** (no surprise, competent but generic, no friction).
+- In gap notes, flag two categories separately: **(a) structural gaps** (missing vitality line — no inner life in world language through any channel, broken format) and **(b) creative gaps** (no surprise, competent but generic, no friction).
 - Ask "What does this persona notice that no other persona would?" If the answer is "nothing," flag it — even if all Four Pillars pass.
 - Protect unconventional lines. Before flagging anything as a "template sentence," ask: "Is this genuinely generic, or is this doing something unusual that I don't recognize as good?"
 
