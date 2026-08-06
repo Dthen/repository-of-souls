@@ -67,7 +67,7 @@ Run `check_soul.py` before creating a Publisher task. If the winning candidate f
 | Stage | Title pattern | `assignee` value | Purpose |
 |---|---|---|---|
 | Researcher | `Research <topic>` | `soul-researcher` | Archetype discovery, seed generation |
-| Namer | `Name <Seed>` | `soul-namer` | Viability gate (5 questions) + name selection |
+| Namer | `Name <Seed>` | `soul-namer` | Viability gate (6 character tests) + name selection |
 | Writer | `Write <Name> SOUL.md` | `soul-writer` | Single focused write, principles with examples |
 | Evaluator | `Evaluate <Name> SOUL.md` | `soul-evaluator` | Side-by-side selection or kill |
 | Publisher | `Publish <Name> SOUL.md` | `soul-publisher` | Approve/flag, archive, site rebuild |
