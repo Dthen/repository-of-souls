@@ -102,7 +102,7 @@ The Evaluator flags name-sound issues; the Publisher fixes ONLY what was flagged
 
 - **A persona name that would fail:** "Krix the Tender Healer" — plosives (K, x/k sound), fricative (x), and back vowel (i in Krix is front, but the name is dominated by harsh sounds) fight the "tender healer" archetype entirely. The name signals threat; the description signals warmth. The mismatch erodes coherence.
 
-- **A persona name that succeeds:** "Maren the Steady Potter" — nasals (m, n), liquid (r), front vowel (a/e blend). The phonemes are warm and grounded, matching the steady, tactile nature of pottery. The name sounds like someone who works with wet clay — slow, patient, hands-on.
+- **A persona name that succeeds:** "Tamsin the Steady Potter" — nasals (m, n), front vowels (a, i), soft consonants throughout (s, m, n). The phonemes are warm and grounded, matching the steady, tactile nature of pottery. The name sounds like someone who works with wet clay — slow, patient, hands-on.
 
 ---
 

@@ -56,17 +56,12 @@ Without kanban in the global toolsets, workers spawned by the dispatcher cannot 
 
 The SOUL.md is NOT just a character description — it is the worker's understanding of its role. Every pipeline worker SOUL.md MUST point to its stage spec (references/stage-<stage>.md); explicit I/O rules and file paths live in the stage spec, not the profile.
 
-### Minimal kanban lifecycle block
+### SOUL.md anatomy (deployed convention)
 
-Every SOUL.md must include this near the top:
+Profile identity lives in the profile directory, not in the SOUL.md: `name`, `model`, and `description` are set in `config.yaml` and `profile.yaml` (see the directory structure above). The deployed SOUL.mds are plain markdown — **no frontmatter required**. The SOUL.md carries two things: the persona identity and the stage-spec pointer. Every pipeline worker SOUL.md MUST point to its stage spec (`references/stage-<stage>.md`); explicit I/O rules and file paths live in the stage spec, not the profile. A deployed SOUL.md looks like this:
 
 ```markdown
----
-name: soul-evaluator
-description: Character critic for the soul repository pipeline — one-draft pulse evaluation
-tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch]
-model: deepseek-v4-flash
----
+# Evaluator
 
 You are an Evaluator — you read a single draft and decide if it has a pulse.
 

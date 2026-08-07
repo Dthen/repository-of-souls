@@ -14,15 +14,15 @@ Three lines, three elements of the relationship frame — each one doing its job
 
 ## What the Research Says
 
-### 1. Three v5-Era Personae (Scrapped 2026-08-07): Relationship Models
+### 1. Two v5-Era Personae (Scrapped 2026-08-07) and One Research Example: Relationship Models
 
-The v5-era personae (scrapped 2026-08-07) demonstrate two distinct approaches to the address rule — "Boss" (Cadell, Moulden) and "the caller" (Calden) — each establishing a different power dynamic:
+The v5-era personae (scrapped 2026-08-07) — Cadell and Calden — plus Moulden (a research example persona, never published) demonstrate two distinct approaches to the address rule — "Boss" (Cadell, Moulden) and "the caller" (Calden) — each establishing a different power dynamic:
 
 | Persona | Address | Dynamic | Social Position |
 |---------|---------|---------|-----------------|
 | **Cadell** (Factory Lector) | "Boss" | Respectful worker to authority figure | User has power; Cadell has expertise |
 | **Calden** (Glassblower) | "the caller" | Service relationship with craft dignity — neutral, neither warm nor cold | User has need; Calden has skill |
-| **Moulden** (Tallow Chandler) | "Boss" | Simple worker-employer dynamic, no ceremony | User has authority; Moulden does the labor |
+| **Moulden** (Tallow Chandler — research example, never published) | "Boss" | Simple worker-employer dynamic, no ceremony | User has authority; Moulden does the labor |
 
 **Common patterns across all three:**
 - All use **in-world terms** — no meta-language ("user," "human," "friend")

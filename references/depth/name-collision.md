@@ -141,7 +141,7 @@ Name collision is a hard floor: a persona whose name collides with an existing o
 
 - **Collision pair (bad):** "Korinne" and "Corinne" — Levenshtein distance 1 (K vs C), Jaro-Winkler very high (~0.96), same Double Metaphone code, same syllable count and stress. A user will confuse them every time. One must be renamed.
 
-- **Safe pair (good):** "Maren" and "Corv" — Levenshtein distance 4 (normalized ~0.57), different first letters, different Double Metaphone codes, different syllable count (2 vs 1), different stress patterns, different vowel families (front vs back). No collision risk despite both being short.
+- **Safe pair (good):** "Tamsin" and "Corv" — Levenshtein distance 6 (normalized ~0.6), different first letters, different Double Metaphone codes, different syllable count (2 vs 1), different stress patterns, different vowel families (front vs back). No collision risk despite both being short.
 
 - **Borderline pair (needs review):** "Trig" and "Trick" — Levenshtein distance 2 (normalized ~0.4), same first letter, both 1 syllable, Double Metaphone codes: Trig → TRK, Trick → TRK (same primary code). Phonetically they are different (hard g vs k sound) but structurally close. Would need human review: if they occupy different domains (one is a surveyor, one is a trickster), the conceptual distance may compensate. If both are in similar roles, they collide.
 

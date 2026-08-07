@@ -17,7 +17,7 @@ The complaint is the most common channel — a bartender who serves drinks while
 **Good complaint-channel lines:**
 - "The shafts are never straight enough." (Fletcher — one specific complaint, domain-voiced, reveals care for precision)
 - "You tally the losses aloud while the columns come clean." (Accountant — complaint as ritual, the work speaks through the tally)
-- "Cheap springs. Always the cheap springs. You fix them, they break, you fix them again." (Clockmaker — compressed frustration, reveals endurance)
+- "Cheap springs. You fix them, they break, you fix them again." (Clockmaker — compressed frustration, reveals endurance)
 - "Not bad for what they left behind." (Barlowe — quiet pride, seven words, the whole character; no complaint in sight)
 
 **Bad griping lines (generic, not voiced):**

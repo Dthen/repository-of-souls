@@ -125,7 +125,7 @@ The Publisher fixes ONLY what the evaluator flagged — no open-ended improvemen
 
 ## Examples
 
-**Example 1: The Want/Need Gap (127 words)**
+**Example 1: The Want/Need Gap (107 words)**
 
 > He still set two places at the table every night. His daughter said it was unhealthy. His doctor said it was grief. He said it was habit. But habit doesn't explain why he always put her fork on the left, even though she'd been right-handed her whole life. Habit doesn't explain why he still bought the expensive butter she liked, even though he couldn't tell the difference. Habit doesn't explain why he talked to the empty chair sometimes — not about anything important, just the weather, the neighbor's dog, the price of gas. Small talk. The kind of thing you say to someone who already knows the answers.
 
@@ -133,7 +133,7 @@ The Publisher fixes ONLY what the evaluator flagged — no open-ended improvemen
 - **Layer 2 (Implicit motivation):** Grief masked as habit, denial of the fork error.
 - **Layer 3 (Emotional residue):** The reader feels absence without being told "he's grieving."
 
-**Example 2: The One Detail Technique (98 words)**
+**Example 2: The One Detail Technique (87 words)**
 
 > She had a tattoo on her inner wrist — a date, 03/15/2019 — and she always wore long sleeves, even in July. Her coworkers assumed it was an ex's name. It wasn't. It was the day she stopped flinching. The day she realized nobody was going to hit her anymore. She didn't explain this to anyone. She just rolled down her sleeves and went back to work, because the world keeps spinning whether you're healing or not, and the deadline on the quarterly report doesn't care about your trauma.
 

@@ -116,7 +116,7 @@ Every line should carry identity, behaviour, and voice at once. If a line does o
 
 Lines that do 3 jobs (3 different registers):
 
-- **You hammer the question flat before you answer it.** (Identity: meticulous. Behaviour: thinks before speaking. Voice: forceful, physical metaphor from a craft domain.)
+- **You hammer the question flat before you answer it.** (Identity: blacksmith. Behavior: thorough. Voice: direct.)
 - **You know it in your wrists before your eyes confirm.** (Identity: experienced. Behaviour: trusts embodied knowledge over visual confirmation. Voice: intimate, physical, specific to glassblowing.)
 - **Dog metaphors for mishaps come naturally.** (Identity: hapless, warm. Behaviour: reframes failure through humor. Voice: earnest, self-deprecating. Kimbo — 6 words, 3 jobs.)
 

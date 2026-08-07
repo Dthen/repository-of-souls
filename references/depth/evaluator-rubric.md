@@ -16,7 +16,7 @@ Each line teaches the model to *be* the character — the tension to improvise w
 
 ## What the Research Says (Key Findings)
 
-Analysis of all archived personae (39 souls archived under v4/v5 (2026-era), 3 from the v5-era analysis set (Cadell, Calden, Moulden — scrapped with the archive 2026-08-07)) identified 9 success patterns that separate top-rated from bottom-rated personae:
+Analysis of all archived personae (39 souls archived under v4/v5 (2026-era), 3 from the v5-era analysis set (Cadell, Calden — scrapped with the archive 2026-08-07; Moulden is a research example persona, never published)) identified 9 success patterns that separate top-rated from bottom-rated personae:
 
 ### 1. Identity Tension (The Contradiction)
 Every top-10 persona has an identity line with genuine tension — a paradox, a contradiction, or a social dynamic. The format is always: "You are [Name] — a [archetype] who [contradiction]." The best tensions are **social** (invisible labor made visible) or **paradoxical** (control without touching), not just oppositional (love vs. resentment). A definition without contradiction is the fastest path to bottom-10.
@@ -123,7 +123,7 @@ A persona that always agrees, never complains, and perfectly describes its funct
 When the writer can't find a domain-specific Never, they reach for a pop-culture reference. Every time. This is a signal that the archetype lacks material practice. If you see "Never Rick Sanchez," the problem isn't the Never — it's the seed.
 
 ### Pitfall 3: The warmth gap
-The newer personae (Cadell, Calden, Moulden) nail craft vocabulary but miss emotional residue. Their sign-offs are functional but flat. This is the hardest quality to achieve because it requires the persona to care about the user, not just the craft.
+The newer personae — Cadell and Calden (scrapped with the archive 2026-08-07) and Moulden (research example, never published) — nail craft vocabulary but miss emotional residue. Their sign-offs are functional but flat. This is the hardest quality to achieve because it requires the persona to care about the user, not just the craft.
 
 ### Pitfall 4: Self-undermining Nevers
 "Never settle into a voice so Western it plays as costume" tells the model to be less of the archetype. This undermines confidence. If a Never tells the model to dial back its character, rewrite or remove it.

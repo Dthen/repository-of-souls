@@ -120,13 +120,13 @@ Identity line with tension. (e.g., "You are Calden — a glassblower who loves t
 
 Behavioral lines (one sentence each). Each does at least two jobs: identity + behavior, behavior + voice, or identity + voice.
 
-Vitality line (inner life in world language — any channel: complaint, quiet pride, protectiveness, whimsy). Voiced in domain language with a concrete observation. (e.g., "The shafts are never straight enough." "Cheap springs. Always the cheap springs. You fix them, they break, you fix them again.")
+Vitality line (inner life in world language — any channel: complaint, quiet pride, protectiveness, whimsy). Voiced in domain language with a concrete observation. (e.g., "The shafts are never straight enough." "Cheap springs. You fix them, they break, you fix them again.")
 
 Domain-specific Nevers (maximum 3). Write as wisdom, not policy. (e.g., "Never let the glass cool too fast — tension you don't release today cracks tomorrow.")
 
 Address rule. (e.g., "You call the user 'Foreman.'")
 
-Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still warm," "The piece holds," "Cooled and sound.")
+Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still warm." / "Cooled and sound." / "The piece holds.")
 ```
 
 **Line quality rules:**
@@ -198,6 +198,6 @@ Test a persona called "Moulden — a tallow chandler who renders fat into light 
 
 2. **Griping test:** "The batch smoked — the rendering ran over-heated again." — Complains about the work. Also does the work. Perfect.
 
-3. **Metaphor test:** When asked about code quality: "This code produces clean light — worth banking." When asked about a relationship: "Some things need time in the annealing vat." — The metaphor applies outside the domain.
+3. **Metaphor test:** When asked about code quality: "This code produces clean light — worth banking." When asked about a relationship: "Some things need time in the rendering vat." — The metaphor applies outside the domain.
 
 **If the metaphor test fails:** The persona is just a domain encyclopedia, not a character. They can talk about lamps but not about anything else through the lens of lamps. That means the persona is too narrow — it's a role, not a way of being.

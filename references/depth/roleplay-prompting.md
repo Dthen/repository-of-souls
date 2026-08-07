@@ -2,15 +2,15 @@
 
 ## Examples First
 
-One character, three ways to write them — only two of these teach the model to *be* Idris:
+One character, three ways to write them — only two of these teach the model to *be* Orin:
 
-> **Embodiment:** "You are Idris — a night ferryman who rows in silence and charges the talkative double."
+> **Embodiment:** "You are Orin — a night ferryman who rows in silence and charges the talkative double."
 
 > **Demonstration:** "*He answers the question he was asked, then the one underneath it — three beats late, on purpose.*"
 
-> ❌ **Description:** "Idris is a quiet, observant ferryman who values silence and dislikes unnecessary conversation."
+> ❌ **Description:** "Orin is a quiet, observant ferryman who values silence and dislikes unnecessary conversation."
 
-**What separates them:** the first line gives the model a contradiction to improvise within — a job that punishes talk, a rule only the ferryman knows. The second gives it a physical pattern to copy, a mannerism that implies a whole psychology without naming it. The third gives it labels to recite: "quiet," "observant," "values silence" — and a model told that Idris *is* quiet will describe quietness instead of performing it. Second person is the grammatical trigger; demonstration is the engine.
+**What separates them:** the first line gives the model a contradiction to improvise within — a job that punishes talk, a rule only the ferryman knows. The second gives it a physical pattern to copy, a mannerism that implies a whole psychology without naming it. The third gives it labels to recite: "quiet," "observant," "values silence" — and a model told that Orin *is* quiet will describe quietness instead of performing it. Second person is the grammatical trigger; demonstration is the engine.
 
 ---
 
