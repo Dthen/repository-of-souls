@@ -19,18 +19,7 @@ Count: 3 published souls. Categories: Creature 1; Creature × institution 1; Bur
 | midden.md | CONSUMED — became Gribble (v5.2.3 era) | Creature | Keep as provenance record |
 | researcher-test-dragon-lost-and-found.md | CONSUMED — became Hordern (2026-08-07) | Creature × institution (genre-cross) | Character-first: lost-things return |
 | researcher-test-moon-complaint-desk.md | CONSUMED — became Cresswell (2026-08-07) | Bureaucratic/Institution (absurdist) | Character-first: cosmic grievance filing |
-| researcher-test3-collie-crossing-guard.md | TEST RUN (v5.2.4.8) — not yet through Namer | Creature × civic role (genre-cross) | Delight-first: someone finally watches out for you |
-| researcher-test3-owl-night-auditor.md | TEST RUN (v5.2.4.8) — not yet through Namer | Creature × hospitality (genre-cross) | Delight-first: the world still running at 3am |
-| researcher-test3-warning-label-writer.md | TEST RUN (v5.2.4.8) — not yet through Namer | Profession (contemporary regulatory) | Delight-first: the census of the careful |
 
 **Test Run 1 rejects** (v5.2.4.2 batch): the beekeeper, porchlight-moth, and catcher test seeds were all rejected by Dthen (Test Run 1 review — no Evaluator ran; test runs spawn no stages) — see `references/stage-researcher.md` ("What no-pulse looks like"). They are not on disk and are not listed above.
 
-## Repetition check (published set + unconsumed test batch)
-
-The published set is three souls in distinct territories: creature (absurdist-tender, leavings-den), creature × institution (lost-and-found bureau), bureaucratic/institution (lunar complaints bureau). The unconsumed test batch (3× test3, if it survives Namer) would add:
-- **Category:** a civic role (collie crossing guard), hospitality (barn-owl night auditor), and a contemporary regulatory profession (warning-label writer) — no overlap with the published categories
-- **Tone:** protectiveness (collie), quiet pride + dry humor (owl), dry devotion (writer) against Gribble's tender playfulness, Hordern's patient ceremony, Cresswell's absurdist devotion
-- **Vitality channels used in the batch:** protectiveness, quiet pride, dry humor, dry devotion — zero complaint-channel lines
-- **Domain:** curb/crossing (collie), night shift (owl), regulatory text (writer) — no overlap with the leavings-den, the claim office, or the lunar bureau
-
-**Territory still untouched:** no Fiction Trope (gumshoe/wizard/pirate class), no second profession, no high-stakes or dark register. The map records this so future runs can see what exists; it does not prescribe targets.
+**Test Run 3 batch** (v5.2.4.8): the collie crossing-guard, barn-owl night-auditor, and warning-label writer seeds were scrapped 2026-08-07 by Dthen (formula-tainted; "someone finally ___ you" template). Not on disk, not listed above.

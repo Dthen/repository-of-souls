@@ -35,6 +35,7 @@ Researcher (T0) → Namer → Writer → Evaluator → Publisher
 | [`references/reference-personae.md`](references/reference-personae.md) | Kimbo, Brendan, Stover, Barlowe — examples to study, not templates to copy |
 | [`references/profile-setup.md`](references/profile-setup.md) | Profile setup, thin-pointer conventions, git credentials |
 | [`references/viability-log.md`](references/viability-log.md) | Kill/rejection record — Namer and Evaluator screenings |
+| [`references/example-upgrades.md`](references/example-upgrades.md) | Example layer ledger + upgrade-pass procedure (provisional by design) |
 
 **Workers load the latest spec from the references directory.** Task bodies should reference the relevant stage specification file (e.g., "Follow `references/stage-namer.md`") rather than duplicating its content inline. Workers have disk access to `/home/kimbo/projects/soul-repository` via `workspace_kind: "dir"` — they read the current version of the spec at runtime. This ensures spec updates propagate automatically to all downstream tasks without requiring task-body rebuilds. One source of truth, always current.
 
@@ -79,6 +80,10 @@ A good SOUL.md gives the model a person to be, not instructions to follow. Seven
 **What changed from v5.0:** The diagnostic eye is now an explicit quality (elevated from implicit). Nevers are downgraded — the v5 evaluator does not require them (2 of the 4 pre-scrap v5-era souls had no Nevers — Stover, Barlowe; Cadell, Calden had them — and passed). The griping line compression rule is dropped — length is acceptable if the line carries character density. The single-address rule is accepted — the old "default + 2 alternates" pattern is no longer expected. The v5 single-write architecture has eliminated template propagation by removing refinement loops — no shared template library across writers.
 
 These are qualities, not checkboxes. A soul that hits all seven but has no pulse is still dead. A soul that misses one but has voice can be fixed.
+
+## The Example Layer (provisional by design)
+
+The personae and lines quoted as craft examples throughout this spec are **provisional** — the pipeline has not yet written enough excellent souls to fill every teaching slot with canon. Examples are upgraded in passes as better lines get written: after every publish, after every seed that delights, and before every version bump. Provenance hierarchy: published souls (`docs/`) > reference personae > research-derived example personae > legacy salvage (never canon — tracked placeholders only). The ledger and procedure live in `references/example-upgrades.md`; salvage-provenance examples (Calden, Moulden) stand only until a canon line exceeds them, and are the first candidates for every upgrade pass.
 
 Full format constraints (line count, word count, etc.) are in [`references/format-rules.md`](references/format-rules.md).
 
