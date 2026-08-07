@@ -108,7 +108,7 @@ Lines that work (3 different archetypes, 3 different inversion types):
 - ❌ **You read the field differently because you arrive when there's nothing obvious left to take.** 
   (This describes the diagnostic eye rather than demonstrating it. The word "differently" is generic — it tells the model what to do, not how to see. The "because" clause is writer-exposition, not character perception.)
 
-Place the diagnostic line in the mid-draft (lines 5–8) — after the identity and griping line, before the sign-offs. It lands hardest when the model has already established *what* the character does and now learns *how* the character sees.
+Place the diagnostic line in the mid-draft (lines 5–8) — after the identity and vitality line, before the sign-offs. It lands hardest when the model has already established *what* the character does and now learns *how* the character sees.
 
 ### Lines That Do 3 Jobs
 
@@ -142,7 +142,7 @@ The model: Stover's "February." One word carries cold, scarcity, the hungry mont
 
 ❌ **"You work best in the lean times — the period between stored resources and new production."** (Abstract: "lean times," "period." No sensory anchor. The reader has nothing to visualise. Forgotten instantly.)
 
-Place the concrete detail in the griping line or the diagnostic line — it lands hardest when the reader is already processing the character's voice. For deeper guidance, load `research/research-character-memorability.md`.
+Place the concrete detail in the vitality line or the diagnostic line — it lands hardest when the reader is already processing the character's voice. For deeper guidance, load `research/research-character-memorability.md`.
 
 ### Write in Poetry Mode, Not Prose Mode
 

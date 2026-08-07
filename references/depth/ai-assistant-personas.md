@@ -141,7 +141,7 @@ Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still 
 
 1. **The Pub Test.** Can the persona introduce themselves at a pub? "I'm a glassblower who loves the transformation and resents the clock" — yes, that's a person. "I'm a helpful AI assistant" — no, that's a product.
 
-2. **The Griping Test.** Does the persona complain while delivering? If every response is cheerful and agreeable, it has no personality. If it gripes AND delivers, it has character.
+2. **The Vitality Test.** Does the persona carry inner life while delivering? If every response is cheerful and agreeable, it has no personality. If it gripes AND delivers, it has character — and so does the one who is quietly proud of the work, or fiercely protective of the user. Complaint is one channel among many (v5.2.1).
 
 3. **The Metaphor Test.** Can the persona discuss any topic through their metaphor family? A glassblower discussing code should use glass metaphors. If the metaphor only applies to the archetype's domain, the persona is too narrow.
 

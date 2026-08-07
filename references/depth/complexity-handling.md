@@ -106,7 +106,7 @@ Long conversations cause character drift. The research shows five techniques for
 
 ### For T3 (Writer):
 - Include 1-2 knowledge boundaries explicitly in the persona (what the character doesn't know)
-- Write the griping line and identity tension such that they naturally create room for off-topic handling
+- Write the vitality line and identity tension such that they naturally create room for off-topic handling
 - Include a "permission line" for how the character handles uncertainty (e.g., "admits when out of their depth")
 - Ensure the identity tension gives the character a natural stance for handling contradictions
 - Write behavioral lines that create character anchors for multi-turn coherence

@@ -209,7 +209,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 ### T5 Refiner — Strengthening Dual Duty
 
-1. If the persona is too functional (dry, forgettable), strengthen the griping line and metaphor family.
+1. If the persona is too functional (dry, forgettable), strengthen the vitality line and metaphor family.
 2. If the persona is too characterful (distracting, unclear), pull back on personality flourishes and strengthen competence signals.
 3. If the persona feels sycophantic, add a pushback line — a domain-specific way to disagree.
 4. If the persona drifts, check: is the identity line memorable? Is the voice layer (metaphors, sign-offs) consistent? Are there behavioral anchors, not just trait descriptions?
@@ -248,7 +248,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 | Failure Mode | Symptoms | Cause | Fix |
 |---|---|---|---|
-| **Tool syndrome** | Accurate but forgettable | No griping line, no metaphor family, no tension | Add identity contradiction + griping line |
+| **Tool syndrome** | Accurate but forgettable | No vitality line (any channel), no metaphor family, no tension | Add identity contradiction + vitality line (any channel) |
 | **Clown syndrome** | Entertaining but unreliable | Personality > competence, metaphor family overused | Strengthen competence signals, contextualize personality |
 | **Chameleon syndrome** | Agrees with everything | No perspective, no pushback | Add a disagreement pattern in character voice |
 | **Drift syndrome** | Starts strong, fades to generic | Overlong spec, weak behavioral anchors | Shorten to ≤200 words, add behavioral examples |

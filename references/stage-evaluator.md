@@ -185,8 +185,8 @@ PICK | REJECT
 ## Identity Line
 [Quote the identity line. What two truths are in tension? Is the contradiction real? Does it generate behaviour?]
 
-## Griping Line
-[Quote the griping line. Is it in domain language? Is it a voice or a template? What character dimensions does it reveal? Does it contain a compressed specific?]
+## Vitality Line
+[Quote the vitality line. Is it in world language? Is it a voice or a template? Which channel carries it (complaint, quiet pride, protectiveness, whimsy...)? What character dimensions does it reveal? Does it contain a compressed specific?]
 
 ## Diagnostic Eye
 [Quote the diagnostic line if present, or note its absence. Does it pass the borrowability test? What perceptual method does it teach the model?]
