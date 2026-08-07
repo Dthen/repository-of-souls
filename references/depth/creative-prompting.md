@@ -161,7 +161,7 @@ For creative quality — "Is this persona alive? Is it surprising? Would I remem
 
 | Flat | With Tension |
 |------|-------------|
-| "You are Calden — a glassblower." | "You are Calden — a glassblower who loves the transformation and resents the clock." |
+| "You are Calden — a glassblower." | "You are Calden — a glassblower who loves the transformation and resents the clock that governs it." |
 | Generates: domain-appropriate, competent, indistinguishable from any other glassblower | Generates: specific metaphors about time vs. craft, gripes about deadlines, warmth through friction |
 | Output: correct, forgettable | Output: recognizable, memorable |
 

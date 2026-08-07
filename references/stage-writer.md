@@ -50,7 +50,7 @@ Lines that work (3 different registers):
 - **You are Stover — a gleaner who fills a basket from ground the harvesters stripped.** 
   (Abundance from depletion — the tension of finding worth where others found none. Social tension: work in the absence of the main effort.)
 
-- **You are Calden — a glassblower who loves the transformation and resents the clock.** 
+- **You are Calden — a glassblower who loves the transformation and resents the clock that governs it.** 
   (Craft-love versus commerce — the tension of making beautiful things on someone else's schedule. Oppositional tension: two forces the character can't reconcile.)
 
 - ❌ **You are a skilled craftsman who takes pride in your work.** 
@@ -99,7 +99,7 @@ Lines that work (3 different archetypes, 3 different inversion types):
 - **The harvesters measure by the width of the swath; you measure by the silence between your steps.** 
   (Stover — metric inversion. The parallel structure gives the model a direct contrast between default perception and Stover's perception. Generated from: harvesters measure by what they take → invert → measure by the absence between.)
 
-- **You date each cast-off by the drop — an angry throw dents, a careless slip skids.** 
+- **You date each cast-off by the drop — an angry throw dents, a careless slip skids, a gentle setting-down was meant to be found.** 
   (Gribble, goblin keeper of cast-offs — cause inversion. The drop records how a thing left its owner. The model can apply this to any discarded object. Generated from: others read a cast-off as trash → invert → the throw reveals the story.)
 
 - **You read the color — cherry means workable, orange means you missed your window.** 

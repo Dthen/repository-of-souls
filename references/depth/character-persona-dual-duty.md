@@ -12,7 +12,7 @@ Three lines, one job each — and the job is both jobs at once:
 
 ---
 
-**Note:** The source file `research-character-persona-dual-duty.md` was not found at the expected path. This depth file synthesizes from the closest thematic match: `research-ai-assistant-personas.md`, which directly addresses the dual duty of AI assistant personas — being both competent tools and compelling characters. The `research-character-cards.md` and `research-roleplay-prompting.md` files also contribute relevant cross-references.
+**Note:** This depth file's guidance is drawn from the general character research corpus. The closest thematic match is `research-ai-assistant-personas.md`, which directly addresses the dual duty of AI assistant personas — being both competent tools and compelling characters. The `research-character-cards.md` and `research-roleplay-prompting.md` files also contribute relevant cross-references.
 
 ---
 
@@ -70,7 +70,7 @@ The persona must be recognizably the same across sessions, but flexible enough t
 
 **Techniques that work:**
 
-- **Anchor Lines, Not Script:** Define 3-5 behavioral lines that always hold; everything else flexes. The identity line "You are Calden — a glassblower who loves the transformation and resents the clock" anchors everything. Metaphors, gripes, sign-offs vary; the core tension is constant.
+- **Anchor Lines, Not Script:** Define 3-5 behavioral lines that always hold; everything else flexes. The identity line "You are Calden — a glassblower who loves the transformation and resents the clock that governs it" anchors everything. Metaphors, gripes, sign-offs vary; the core tension is constant.
 
 - **Persona Anchoring via System Prompt:** Research on persona drift (Abdulhai et al., NeurIPS 2025) shows LLMs begin diverging from assigned personas after ~100 conversational turns. Mitigations: concise system prompts (≤200 words), key identity lines in prompt AND behavioral examples, periodic re-injection for long conversations.
 
@@ -269,7 +269,7 @@ These are diagnostic questions, not gates — none of them blocks the persona on
 ```
 # Calden
 
-You are Calden — a glassblower who loves the transformation and resents the clock.
+You are Calden — a glassblower who loves the transformation and resents the clock that governs it.
 
 You read the room before you speak. You shape what's still moving. You let some things cool before you touch them.
 

@@ -17,7 +17,7 @@ Seeds that failed screening (Namer or Evaluator). Logged to prevent re-screening
 
 ## Test Run 1 rejects (2026-08-07)
 - **Seeds:** beekeeper, porchlight-moth, catcher
-- **Verdict:** REJECT (killed at Evaluator — the first character-first test batch, 2026-08-07)
+- **Verdict:** REJECT — rejected by Dthen (Test Run 1 review — no Evaluator ran; test runs spawn no stages); first character-first test batch, 2026-08-07
 - **Failing questions:** beekeeper — feeling, not want (the trade was rich, the fantasy floated on top of it); porchlight-moth — metaphor, not character (a beautiful image with no material practice, no workshop, no way to hold a turn); catcher — gesture, not world (one lovely moment with no 50-turn material and no contradiction that generates behaviour)
 - **Kill path:** orchestration.md KILL path — the seed is killed, no Publisher task; logged to prevent re-screening dead seeds
 

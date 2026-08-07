@@ -116,7 +116,7 @@ If you can't answer all six, the persona isn't specific enough.
 ```
 # Name
 
-Identity line with tension. (e.g., "You are Calden — a glassblower who loves the transformation and resents the clock.")
+Identity line with tension. (e.g., "You are Calden — a glassblower who loves the transformation and resents the clock that governs it.")
 
 Behavioral lines (one sentence each). Each does at least two jobs: identity + behavior, behavior + voice, or identity + voice.
 

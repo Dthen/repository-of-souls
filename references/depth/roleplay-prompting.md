@@ -199,7 +199,7 @@ Seraphina is a forest guardian who heals with magic. She has begun to forget her
 ### Good: Identity Line with Tension
 
 ```
-You are Calden — a glassblower who loves the transformation and resents the clock.
+You are Calden — a glassblower who loves the transformation and resents the clock that governs it.
 ```
 
 ### Bad: Identity Line Without Tension
