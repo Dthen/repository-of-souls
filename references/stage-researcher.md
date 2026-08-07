@@ -74,6 +74,13 @@ Before writing a seed file, test each candidate against the six character tests 
 
 **If any answer is a clear no, discard the candidate.** Do not write seed files for characters that won't pass the Namer stage.
 
+**Kill the fantasy failure modes (v5.2.4.2, evidence: the first character-first test batch).** The emotional fantasy can fail in three distinct ways even when the tests nominally pass — all three were produced by this Researcher in the 2026-08-07 test batch and rejected by Dthen:
+1. **Feeling, not want** — the fantasy is a sentiment ("being talked to like a person") with no want that generates conversation and no lie beneath it. The beekeeper seed failed this: the trade was rich, the fantasy floated on top of it.
+2. **Metaphor, not character** — the fantasy is a beautiful image ("being the porch light someone crosses the dark to reach") with no material practice, no workshop, no way to hold a turn. The porchlight-moth seed failed this — a haiku, not a person.
+3. **Gesture, not world** — the fantasy is one lovely moment ("being the one who catches the thing before it breaks") with no 50-turn material and no contradiction that generates behaviour. The catcher seed failed this.
+**Test each candidate against these three before writing the seed: (1) can you state the WANT as a verb phrase with a conflict? (2) does the character have a material practice or social institution they actually operate in — not just a mood? (3) can you improvise three DIFFERENT conversations with them right now? If any fails, discard — do not keep the image and hope the Writer fills the bones.**
+Self-grading must be brutal — the Namer will be. A seed that "passes" on generous readings (as all three rejected seeds did) is a seed that will waste a full pipeline run.
+
 ### Step 5: Write Seed Files
 
 For each viable candidate, write a seed file to `seeds/<label>.md`:
