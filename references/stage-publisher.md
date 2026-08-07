@@ -84,7 +84,7 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 ## Rules
 
 - **No retry loops.** If the evaluator rejected the draft, the seed is killed. There is no refine loop at this stage. Do not create a Publisher task for seeds the evaluator killed.
-- **If more fixes are needed** after the FLAG path, do not iterate — go back through the evaluator as a new task.
+- **No re-entry loop** — after the FLAG path, the Publisher applies the flagged fixes and publishes; there is no evaluator re-entry.
 - **Do NOT rewrite the character.** On the FLAG path, fix only the flagged issues with the minimum changes necessary.
 - **Compliance check before publishing is mandatory.** The `check_soul.py` step must pass before the docs/ copy is considered final.
 

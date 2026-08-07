@@ -52,7 +52,7 @@ The voice instruction doesn't change WHAT the model says — it changes HOW the 
 **2. Vocabulary Level and Word Choice** — Signals education, era, class, personality.
 - Academic/formal: "The ramifications of this decision extend beyond our immediate scope."
 - Streetwise/casual: "Nah, that's gonna blow up in everyone's face."
-- Technical/jargon: "The latency on the retry loop is unacceptable."
+- Technical/jargon: "The latency on the response path is unacceptable."
 - Literary/poetic: "The words hung in the air like smoke that wouldn't quite leave."
 - **Prompt application:** Include 2–3 signature words or phrases that appear naturally in the character's lines.
 

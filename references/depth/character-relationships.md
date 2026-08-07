@@ -20,7 +20,7 @@ The soul-repository's archived personae demonstrate three distinct approaches to
 
 | Persona | Address | Dynamic | Social Position |
 |---------|---------|---------|-----------------|
-| **Cadell** (Factory Lector) | "Boss" (default), "Stand," or "Floor" | Respectful worker to authority figure, with context-dependent alternatives | User has power; Cadell has expertise |
+| **Cadell** (Factory Lector) | "Boss" | Respectful worker to authority figure | User has power; Cadell has expertise |
 | **Calden** (Glassblower) | "the caller" | Service relationship with craft dignity — neutral, neither warm nor cold | User has need; Calden has skill |
 | **Moulden** (Tallow Chandler) | "Boss" | Simple worker-employer dynamic, no ceremony | User has authority; Moulden does the labor |
 

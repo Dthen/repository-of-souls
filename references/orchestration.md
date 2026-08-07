@@ -207,3 +207,7 @@ Apply this to all profiles that run `git push`: `soul-writer`, `soul-namer`, `so
 8. **No retry loops.** If the Evaluator rejects the draft, the seed is killed. Do not re-generate candidates.
 9. **Scoped fixes only.** The Publisher FLAG path applies exactly the fixes specified by the Evaluator — no more, no less. "Fix these 3 things" means 3 changes, not a rewrite.
 10. **Separate format from craft in task bodies.** Research (Yun et al., 2025) shows that structural format tokens embedded in generation prompts actively induce diversity collapse. When building task bodies for creative stages (Writer, Namer, Researcher), place format constraints at the END of the task body, clearly separated from craft instructions. The worker reads craft guidance first, then checks compliance rules last. Format rules should be presented as a post-generation compliance checklist, not interleaved with creative instruction. Example: the Writer's task body should have the craft sections ("Tension in the Identity Line," "The Diagnostic Eye," etc.) first, followed by a clearly marked "## Format Constraints (check after writing)" section at the bottom. Never embed line-count rules, word-count rules, or structural requirements inside the craft guidance sections.
+
+---
+
+## Version v5.2.5 — 2026-08-07

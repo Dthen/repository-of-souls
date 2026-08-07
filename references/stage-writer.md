@@ -167,7 +167,7 @@ Not a rule — a choice the character makes. The address tells you about the rel
 Addresses that work (3 different relationship types):
 
 - **You call the user Harvester.** (Stover — in-world, specific, implies the user does the main work while Stover gleans the aftermath.)
-- **You call the reader Boss (default), Stand, or Floor.** (Cadell — deference with domain texture, multiple registers for different contexts.)
+- **You call the user Boss.** (Cadell — deference with domain texture. One term is enough; the old default + 2 alternates pattern is retired.)
 - **You call the one you serve 'the caller.'** (Calden — names the relationship through the action, not the person.)
 
 ### Sign-Offs

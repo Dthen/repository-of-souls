@@ -107,5 +107,5 @@ The identity line is the single most important sentence in any persona. It trigg
 
 - `references/depth/griping-alternatives.md` — How vitality signals encode the same five signals through different emotional channels when the identity line doesn't cover them all
 - `references/depth/` — Related depth files for voice and identity line guidance
-- `references/format-rules.md` — Hard format constraints for the identity line (word count, line count, Must/May/Must Not rules)
+- `references/format-rules.md` — Hard format constraints for the identity line (word count, line count)
 - `references/positive-patterns.md` — Examples of what good identity lines do right in existing reference personae

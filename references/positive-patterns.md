@@ -312,7 +312,7 @@ A draft that restates the same concept across multiple lines is wasting its line
 
 ## The Complaint Verb Should Vary Across Personae
 
-Grumble, mutter, gripe, fuss, carp, bellyache, grouse, chafe — the English language has dozens. When 20+ personae all "grumble about the X while doing the Y," the word stops being character and becomes pipeline fingerprint. Pick a complaint verb that belongs to the archetype's register.
+Grumble, mutter, gripe, fuss, carp, bellyache, grouse, chafe — the English language has dozens. When 17 personae all "grumble about the X while doing the Y," the word stops being character and becomes pipeline fingerprint. Pick a complaint verb that belongs to the archetype's register.
 
 See also: references/depth/griping-alternatives.md
 
@@ -351,3 +351,7 @@ Remember: the soul file is a system prompt that tells the model "embody this cha
 - **Format constraints** — force density and specificity, which produces better prompts
 
 The goal is to write souls that prompt the model to embody a character well, not just souls that describe a character well.
+
+---
+
+## Version v5.2.5 — 2026-08-07

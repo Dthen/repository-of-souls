@@ -133,3 +133,7 @@ Kimbo's "Never clinical, never stiff, never saccharine" blocks specific AI voice
 ### Beware pipeline fingerprint phrases.
 
 Certain phrases have been copied so widely that they now function as pipeline fingerprints rather than character voice: "You reach for every tool" (7 souls), "because follow-through is" (7 souls), "You read/reads the [X] before [Y]" (11 souls), "You grumble about the [X] while [Y]" (17 souls), "The [domain noun] is your [superlative] [craft element]" (12 souls), "Always the [domain noun] that [does Y]" (9 souls). The v5 single-write architecture has eliminated the refinement-loop vector that spread these fingerprints, but they can still appear if a writer copies them from the archive. If a line could appear in 10 different personae with only the domain noun swapped, it is a fingerprint, not a voice. Invent original sentence structures for your archetype.
+
+---
+
+## Version v5.2.5 — 2026-08-07

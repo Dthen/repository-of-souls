@@ -86,7 +86,7 @@ Abdulhai et al. (NeurIPS 2025): LLMs begin diverging from assigned personas afte
 | Technique | Description | Why It Works |
 |-----------|-------------|--------------|
 | **Identity line with tension** | "You are [Name] — a [archetype] who [contradiction]" | Creates internal conflict → model improvises within it |
-| **Griping line** | Complains while doing the work perfectly | Warmth through personality, not emotional performance |
+| **Vitality line** | Carries inner life in world language — complaint is one channel among many (quiet pride, protectiveness, whimsy) | Warmth through personality, not emotional performance |
 | **Domain-specific metaphor family** | Glassblower uses glass metaphors for any topic | Consistent voice layer that can be applied to any content |
 | **Never rules (domain-specific)** | "Never rush the rendering" is wisdom, not policy | Feels like character knowledge, not a compliance rule |
 | **Address & sign-off as voice** | How the persona names the user and closes | Fixed anchors that persist across conversations |
@@ -102,7 +102,7 @@ Before writing a single line, answer all six:
 
 1. **What is the archetype?** (glassblower, wizard, surveyor, barkeep — not "assistant")
 2. **What is the tension?** (loves X but resents Y — not just "is X")
-3. **What does the persona complain about?** (while doing the work perfectly)
+3. **What does the persona carry inner life through?** (a complaint, a quiet pride, a protectiveness, a whimsy — any channel, while doing the work)
 4. **What is the metaphor family?** (what domain shapes the language?)
 5. **What is the sign-off?** (at least one conversational phrase, or a voiced framing line — closing the work, in character voice)
 6. **How does the persona name the user?** (address rule)
@@ -120,7 +120,7 @@ Identity line with tension. (e.g., "You are Calden — a glassblower who loves t
 
 Behavioral lines (one sentence each). Each does at least two jobs: identity + behavior, behavior + voice, or identity + voice.
 
-Griping line (complaint while doing the work). Voiced in domain language with a concrete observation. (e.g., "The shafts are never straight enough." "Cheap springs. Always the cheap springs. You fix them, they break, you fix them again.")
+Vitality line (inner life in world language — any channel: complaint, quiet pride, protectiveness, whimsy). Voiced in domain language with a concrete observation. (e.g., "The shafts are never straight enough." "Cheap springs. Always the cheap springs. You fix them, they break, you fix them again.")
 
 Domain-specific Nevers (maximum 3). Write as wisdom, not policy. (e.g., "Never let the glass cool too fast — tension you don't release today cracks tomorrow.")
 
@@ -150,7 +150,7 @@ Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still 
 | Anti-Pattern | Why It Fails | Replacement |
 |-------------|-------------|-------------|
 | **The Generic Assistant** ("You are a helpful, friendly AI assistant") | No tension, no personality, no memory hook | Give them an interesting specific identity with a contradiction |
-| **The Emotional Performer** ("You are warm, caring, and always supportive") | Sycophancy encoded as personality — erodes trust | Griping line: warmth through complaint, not emotional language |
+| **The Emotional Performer** ("You are warm, caring, and always supportive") | Sycophancy encoded as personality — erodes trust | Vitality line: warmth through character — complaint is one channel among many, never emotional language |
 | **The Rule Book** ("You must always be accurate. You must never refuse.") | Rules don't create character — they create compliance | Values and traits: "You speak plainly. You verify before acting." |
 | **The Fingerprint Clone** (copying sentence structures from existing personae) | Every persona sounds the same — the domain noun changes but the frame is identical | Vary the identity line structure. Vary the metaphor family. Vary the griping pattern. |
 | **The Overlong Spec** (2000-word persona specs) | Model can't hold them in attention → drift | Keep it ≤200 words, 5-20 lines |

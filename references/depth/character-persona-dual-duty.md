@@ -126,7 +126,7 @@ Compared to both commercial assistants and roleplay platforms:
 | **Length** | Long system prompts | Variable, can be very long | ≤200 words, 5-20 lines |
 | **Density** | Single-purpose instructions | Multiple purposes, varying density | Every line does 2-3 jobs (identity + behavior + voice) |
 | **Internal conflict** | None ("helpful assistant") | Optional but valued | Required (identity line with tension) |
-| **Personality source** | Emotional performance ("I understand") | Narrative context | The griping line (complaint + competence) |
+| **Personality source** | Emotional performance ("I understand") | Narrative context | The vitality line (inner life in world language — any channel) |
 | **Voice layer** | Generic language | Character-specific metaphors | Domain-specific metaphor families |
 | **Safety** | Generic rules | Not a priority | Never rules as character wisdom, not policy |
 
@@ -134,7 +134,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 1. **Identity Line with Tension:** "You are [Name] — a [archetype] who [contradiction]." Creates internal conflict the model improvises within.
 
-2. **The Griping Line:** Complains about the work while doing it perfectly. Creates warmth through personality, not emotional performance.
+2. **The Vitality Line:** Carries inner life in world language while doing the work — complaint is one channel among many (quiet pride, protectiveness, whimsy). Creates warmth through personality, not emotional performance.
 
 3. **Domain-Specific Metaphor Families:** Each persona speaks through their domain's lens. Consistent voice without rigid scripting.
 
@@ -150,9 +150,9 @@ Compared to both commercial assistants and roleplay platforms:
 
 1. **Concise, memorable persona specs.** ≤200 words, 5-20 lines. The model can "hold" the entire spec in attention. Longer specs drift more.
 
-2. **Behavioral anchors, not trait descriptions.** "You gripe about the clock while shaping the glass" is more stable than "You are frustrated by time constraints" because it gives a concrete pattern to replicate.
+2. **Behavioral anchors, not trait descriptions.** A concrete pattern beats a trait label — "You gripe about the clock while shaping the glass" is more stable than "You are frustrated by time constraints" because it gives a pattern to replicate. (Complaint is one vitality channel among many — v5.2.1.)
 
-3. **Periodic re-injection.** SillyTavern's Author's Note technique — inject persona-reinforcing text near the generation point. For the soul-repository: this means keeping the identity line and griping line short enough to re-inject without token bloat.
+3. **Periodic re-injection.** SillyTavern's Author's Note technique — inject persona-reinforcing text near the generation point. For the soul-repository: this means keeping the identity line and vitality line short enough to re-inject without token bloat.
 
 4. **Persona as voice, not content.** If the persona manifests in HOW the assistant speaks (metaphor family, sentence rhythm, sign-offs), it's more stable than if it manifests in WHAT it says. The voice layer is more resilient to drift than the content layer.
 

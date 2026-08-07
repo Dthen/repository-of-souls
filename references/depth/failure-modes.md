@@ -91,7 +91,7 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 | Failure | Prevention |
 |---------|------------|
 | Pipeline doesn't enforce vitality | check_soul.py must NEVER require complaint patterns — v5.2.1 removed the griping regex engine because it force-fed "always the X" fingerprints into every soul; vitality is Evaluator-judged, any channel. |
-| Pipeline doesn't enforce sign-off warmth | Add sign-off warmth check to check_soul.py — sign-offs must not be single-word stamps or email closings. |
+| Pipeline doesn't enforce sign-off warmth | Forbidden — check_soul.py must never enforce creative patterns (v5.2.1; see check_soul.py:91–96). Sign-off warmth is Evaluator territory, not a regex. |
 | Pipeline doesn't enforce name-archetype fit | Add name-archetype fit check at the Namer stage — name should sound like the craft. |
 | Pipeline doesn't enforce metaphor coherence | Add metaphor coherence check at the Evaluator stage — "Could any other archetype have this line?" |
 | Pipeline doesn't enforce first-3-line register range | Add register range check at the Evaluator stage — "Do the first 3 lines establish at least 2 distinct registers?" |
@@ -123,7 +123,7 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 
 **If you are the Publisher (final verification):**
 - Verify each flagged issue is actually resolved in the published file, then run `check_soul.py` and publish.
-- If more fixes are needed after the FLAG path, do not iterate — go back through the evaluator as a new task (stage-publisher).
+- If more fixes are needed after the FLAG path, there is no re-entry loop — the Publisher applies the flagged fixes and publishes (stage-publisher).
 
 ---
 
@@ -189,6 +189,6 @@ The biggest systemic gap isn't a missing check — it's that reviewers don't hav
 
 | What Passes the Automated Check | Why It's Still Bad | What Should Be Checked |
 |-------------------------------|-------------------|----------------------|
-| "You mutter about the warrant" | Procedural complaint, not voiced | Griping quality — is it in the persona's metaphor family? |
+| "You mutter about the warrant" | Procedural complaint, not voiced | Not a checker job — the Evaluator asks whether the vitality line sits in the persona's metaphor family (check_soul.py must never enforce creative patterns — v5.2.1; check_soul.py:91–96) |
 | "Closed." / "The record is entered." / "The docket is current." | Sign-offs pass the presence check, all stamps | Sign-off warmth — would a person say this? |
 | Silver, Coil (names) | Passes no automated name check | Name-archetype fit — does the name sound like the craft? |

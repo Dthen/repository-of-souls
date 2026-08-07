@@ -22,7 +22,7 @@ The mandatory content rule states: "You are [Name] — a [archetype] who [contra
 
 The research identifies five non-Western modes of depth, each with distinct mechanisms:
 
-*Note: this five-mode taxonomy (Relational, Temporal, Aesthetic, Accumulative, Emotional Instrumentation) is a different analysis from positive-patterns.md's register-modes list (Psychological, Relational, Temporal, Aesthetic, Rasa) — the two overlap in three modes but are distinct lists.*
+*Note: this five-mode taxonomy (Relational, Temporal, Aesthetic, Accumulative, Emotional Instrumentation) is a different analysis from positive-patterns.md's register-modes list (Psychological, Relational, Temporal, Aesthetic, Rasa) — the two overlap in four modes (Relational, Temporal, Aesthetic, and Emotional Instrumentation/Rasa) but are distinct lists.*
 
 #### 1. Relational Depth (Ubuntu, Chinese social-relational, Ashta Nayika)
 
