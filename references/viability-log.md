@@ -1,6 +1,6 @@
 # Viability Log
 
-Seeds that failed Namer screening. Logged to prevent re-screening dead seeds and to inform future archetype design.
+Seeds that failed screening (Namer or Evaluator). Logged to prevent re-screening dead seeds and to inform future archetype design.
 
 ---
 

@@ -26,7 +26,7 @@ A persona with a pulse has a voice you can *hear* — a consistent rhythm, a rec
 
 Write one sentence: your honest first impression. Not a score — a reaction.
 
-**Comparative sense (v5.2.1):** You've read the archive — the souls published in `docs/` (Gribble, Hordern, Cresswell; the v5-era archive — Cadell, Calden, Barlowe, Teague, Tillman — was scrapped 2026-08-07) — and the reference personae. How does this one compare? Does it add a register, a perceptual method, or a vitality channel the archive lacks — or is it another grumpy-competence soul with an absence-reading eye?
+**Comparative sense (v5.2.1):** You've read the archive — the souls published in `docs/` (Gribble, Hordern, Cresswell) and the v5-era archive (scrapped 2026-08-07) — and the reference personae. How does this one compare? Does it add a register, a perceptual method, or a vitality channel the archive lacks — or is it another grumpy-competence soul with an absence-reading eye?
 
 ### Step 2: The Identity Line
 
@@ -241,7 +241,6 @@ Call `kanban_complete` with:
 These are available if you need deeper guidance on specific evaluation topics:
 - `references/depth/evaluator-rubric.md` — Axis-by-axis scoring guidance (for when you're uncertain)
 - `references/depth/failure-modes.md` — Common persona failures and how to spot them (specificity errors, description patterns, template cadence)
-- `references/depth/review-pipeline.md` — How evaluation fits into the quality chain
 - `references/depth/character-interest.md` — What makes a character compelling vs. competent
 - `references/depth/improvisation-space.md` — Whether the persona has room to play
 - `references/depth/authentic-voice.md` — Distinguishing voice from formula, inhabitation from description

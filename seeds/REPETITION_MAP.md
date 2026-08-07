@@ -1,6 +1,6 @@
 # Repetition Map
 
-Last built: 2026-08-07 (Researcher test run t_fa5d8e30 — post archive-scrap rebuild; the v5-era souls barlowe/cadell/calden/teague/tillman were removed 2026-08-07)
+Last built: 2026-08-07 (Researcher test run t_fa5d8e30 — post archive-scrap rebuild; the v5-era archive (scrapped 2026-08-07))
 
 ## Published souls (docs/)
 

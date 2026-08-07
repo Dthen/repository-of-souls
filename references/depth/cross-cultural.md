@@ -135,9 +135,9 @@ The identity line must still contain a tension — but the tension can be relati
 
 5. **The inheritance test (for temporal depth characters):** Does the character carry something from before their own timeline? If the character only has personal history, temporal depth has been missed.
 
-### For Publisher-Side Refinement and Evaluator (hard gates)
+### For Publisher and Evaluator (hard gates)
 
-1. **Quality gates should include cross-cultural calibration.** The refiner should verify that the character's depth mechanism is consistent throughout the persona, not just in the identity line.
+1. **Quality gates should include cross-cultural calibration.** The Publisher should verify that the character's depth mechanism is consistent throughout the persona, not just in the identity line.
 
 2. **A hard gate for cultural authenticity.** If a character claims a specific cultural tradition (han, ubuntu, wabi-sabi) but the persona text shows no evidence of that tradition's depth mechanism, it fails. Cultural borrowing without substance is appropriation.
 

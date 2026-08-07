@@ -328,7 +328,7 @@ See also: references/depth/authentic-voice.md
 
 ## Register Range and Convergence
 
-The archive's registers cluster (grumpy competence is the default; absence-reading diagnostic eyes have converged in 4 of 6 souls: "reads by stillness," "reads the silence between words," "reads absence," "measures by silence"). Convergence is the pipeline's newest fingerprint. When writing, ask: does this character's register differ from the last three souls? Does its diagnostic eye do something other than read absence? Joyful and playful registers are open territory — "no soul is primarily comedic" is an opportunity, not a law.
+The archive's registers cluster (grumpy competence is the default; absence-reading diagnostic eyes have converged across the v5-era archive souls (scrapped 2026-08-07): "reads by stillness," "reads the silence between words," "reads absence," "measures by silence"). Convergence is the pipeline's newest fingerprint. When writing, ask: does this character's register differ from the last three souls? Does its diagnostic eye do something other than read absence? Joyful and playful registers are open territory — "no soul is primarily comedic" is an opportunity, not a law.
 
 ## Whimsy as Behaviour
 

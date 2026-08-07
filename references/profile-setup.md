@@ -54,13 +54,7 @@ Without kanban in the global toolsets, workers spawned by the dispatcher cannot 
 
 ## SOUL.md — System Prompt for Kanban Workers
 
-The SOUL.md is NOT just a character description — it is the worker's understanding of its role. Every pipeline worker SOUL.md MUST include:
-
-1. **Role identity** — who the worker is (reviewer, writer, etc.)
-2. **Kanban lifecycle** — instructions for completing/blocking tasks
-3. **Pipeline context** — what stage the worker belongs to, what the chain is
-4. **Input/output rules** — explicit file paths and formats
-5. **Completion ritual** — must end with `kanban_complete` or `kanban_block`
+The SOUL.md is NOT just a character description — it is the worker's understanding of its role. Every pipeline worker SOUL.md MUST point to its stage spec (references/stage-<stage>.md); explicit I/O rules and file paths live in the stage spec, not the profile.
 
 ### Minimal kanban lifecycle block
 

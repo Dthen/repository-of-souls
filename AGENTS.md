@@ -47,7 +47,7 @@ Depth files cover areas including (but not limited to):
 - **Character craft**: `character-depth.md`, `character-interest.md`, `identity-line.md`, `authentic-voice.md`, `authored-voice.md`, `internal-life.md`, `emotional-register.md`, `perceptual-lens.md`, `perception-filters.md`
 - **Voice and tone**: `voice-instructions.md`, `conversational-dynamics.md`, `improvisation-space.md`, `griping-alternatives.md`, `token-economy.md`
 - **Naming**: `name-sound-symbolism.md`, `name-collision.md`
-- **Review and evaluation**: `evaluator-rubric.md`, `failure-modes.md`, `review-pipeline.md`
+- **Review and evaluation**: `evaluator-rubric.md`, `failure-modes.md`, `review-pipeline.md` (historical)
 - **Creative technique**: `creative-prompting.md`, `roleplay-prompting.md`, `character-cards.md`, `character-persona-dual-duty.md`
 - **Culture and complexity**: `cross-cultural.md`, `complexity-handling.md`, `character-relationships.md`
 - **AI-specific**: `ai-assistant-personas.md`
@@ -58,7 +58,7 @@ Depth files cover areas including (but not limited to):
 
 ## Qualities of a Good Soul
 
-A good SOUL.md gives the model a person to be, not instructions to follow. Seven qualities matter, drawn from analysis of the 39 souls archived under v4/v5 (2026-era) and the v5 pipeline outputs (the earlier v5-era outputs — Cadell, Calden, Barlowe, Stover — were scrapped 2026-08-07; the published archive in `docs/` holds Gribble, Hordern, Cresswell):
+A good SOUL.md gives the model a person to be, not instructions to follow. Seven qualities matter, drawn from analysis of the 39 souls archived under v4/v5 (2026-era) and the v5-era archive (scrapped 2026-08-07; the published archive in `docs/` holds Gribble, Hordern, Cresswell):
 
 1. **A contradiction in the identity line** — "You are [Name] — a [archetype] who [contradiction]." Without tension, the identity is just a definition. The strongest contradictions are social (gleaner working in the aftermath, lector shaping without touching) rather than merely oppositional (love vs. resentment).
 

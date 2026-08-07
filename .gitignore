@@ -19,6 +19,18 @@ profiles/*/models_dev_cache.json
 profiles/*/.skills_prompt_snapshot.json
 profiles/*/.update_check
 profiles/*/bin/
+profiles/*/audio_cache/
+profiles/*/cache/
+profiles/*/cron/
+profiles/*/hooks/
+profiles/*/image_cache/
+profiles/*/lsp/
+profiles/*/memories/
+profiles/*/pairing/
+profiles/*/sandboxes/
+profiles/*/.no-bundled-skills
+profiles/*/verification_evidence.db
+profiles/*/home/
 
 # Credential files (never commit API keys)
 *.env
@@ -29,10 +41,6 @@ auth.lock
 # Profile skills (profiles should only have custom skills, not full tree)
 profiles/*/skills/
 
-# Pipeline profile configs (no secrets): profiles/ ignored, but configs allowed.
-# Order matters — the ignore rule must come BEFORE the negations (last match wins).
-profiles/
-!profiles/*/config.yaml
-!profiles/*/profile.yaml
-# Deployed pipeline prompts MUST be tracked — unversioned prompts are how drift happened.
-!profiles/*/SOUL.md
+# Pipeline profile configs stay local (no secrets tracked); deployed SOUL.mds track naturally.
+profiles/*/config.yaml
+profiles/*/profile.yaml
