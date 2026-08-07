@@ -20,7 +20,7 @@ Researcher (T0) is the orchestrator that finds archetypes and spawns Namer tasks
 
 Each stage only sees what it needs:
 
-- **Researcher** sees the published souls in docs/ and existing seeds. It finds gaps and generates seed candidates.
+- **Researcher** sees the published souls in docs/ and existing seeds. It hunts for characters that delight, then generates seed candidates.
 - **Namer** sees the seed. It runs the 6 character tests, generates 5 candidate names, scores them, and picks the best. One pass, done.
 - **Writer** sees the chosen name + seed. It produces one SOUL.md, focusing on finding a genuine voice rather than generating variants. See `references/stage-writer.md` for the writing approach.
 - **Evaluator** sees the draft. It evaluates for pulse (voice, contradiction, vitality quality) and either picks it (with fix notes) or rejects it and kills the seed.

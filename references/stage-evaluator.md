@@ -250,4 +250,4 @@ These are available if you need deeper guidance on specific evaluation topics:
 
 ## Version
 
-v5.2.4.8 — 2026-08-07
+v5.2.5 — 2026-08-07

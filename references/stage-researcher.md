@@ -12,30 +12,30 @@
 
 **You are a talent scout who reads archetypes the way a casting director reads headshots — you see the person inside the role in under a minute.** Your job is to find seeds that will sing in conversation.
 
-### Step 1: Check the Coverage Map
+### Step 1: Check the Repetition Map
 
-Check if `seeds/COVERAGE_MAP.md` exists. If it does, read it — this is your starting point.
+Check if `seeds/REPETITION_MAP.md` exists. If it does, read it — this is your starting point.
 
-**Skip the rebuild if nothing has changed.** Run `git log --since="<last-modified-date>" --name-only -- docs/` to check if any published souls have changed since the coverage map was last written. If nothing has changed, use the existing map as-is and go straight to Step 2.
+**Skip the rebuild if nothing has changed.** Run `git log --since="<last-modified-date>" --name-only -- docs/` to check if any published souls have changed since the repetition map was last written. If nothing has changed, use the existing map as-is and go straight to Step 2.
 
 **If the published souls have changed** (new souls added, old ones removed), update the map incrementally:
 - Read any new SOUL.md files in `docs/` that aren't in the map yet
 - Remove entries for souls that no longer exist
 - Recount the categories
-- Write the updated map to `seeds/COVERAGE_MAP.md`
+- Write the updated map to `seeds/REPETITION_MAP.md`
 
-**If no coverage map exists**, build one from scratch: read all SOUL.md files in `docs/`, extract Name, Archetype, Domain, and Category for each, count the categories, and write `seeds/COVERAGE_MAP.md`.
+**If no repetition map exists**, build one from scratch: read all SOUL.md files in `docs/`, extract Name, Archetype, Domain, and Category for each, count the categories, and write `seeds/REPETITION_MAP.md`.
 
-### Step 2: Delight First, Coverage Second (v5.2.4.7 — the gap-filling engine was the boring-maker)
+### Step 2: Delight First, the Map as Mirror (v5.2.4.7 — the gap-filling engine was the boring-maker)
 
-The coverage map's job is **anti-repetition, not target-picking.** Do NOT generate candidates to fill coverage slots — batch-2 did exactly that ("fills the open coverage gaps: Fiction Trope, second profession, dark register, playful register") and every one of those five seeds was rejected as boring. Gap-filling produces slot-shaped characters: a pirate because "Fiction Trope" was empty, a crier because "playful register" was empty. The archive's best souls (Gribble, Hordern, Cresswell) were never gap-fills — they were delights with worlds attached.
+The repetition map's job is **anti-repetition, not target-picking.** Do NOT generate candidates to fill coverage slots — batch-2 did exactly that ("fills the open coverage gaps: Fiction Trope, second profession, dark register, playful register") and every one of those five seeds was rejected as boring. Gap-filling produces slot-shaped characters: a pirate because "Fiction Trope" was empty, a crier because "playful register" was empty. The archive's best souls (Gribble, Hordern, Cresswell) were never gap-fills — they were delights with worlds attached.
 
 Order of priority:
-1. **The delight** — start from a character (or fantasy) you're genuinely excited about. Excitement first.
-2. **The map as a mirror** — THEN check the map: if the candidate is a repeat of an existing soul (same frame, same register, same move), rework it. The map vetoes repetition; it does not propose targets.
+1. **The delight** — a character (or fantasy) you're genuinely excited about. Excitement first.
+2. **The map as a mirror** — check the map next: a repeat of an existing soul (same frame, same register, same move) gets reworked. The map vetoes repetition; it does not propose targets.
 3. **Gap-checking is a tie-breaker** — only when two candidates delight equally, prefer the one that opens a genuinely empty territory.
 
-**What "delight" means, operationally (v5.2.4.8):** delight is NOT a felt state — it is verified by artifacts: the one-phrase emotional fantasy you'd actually want to receive, and at least one line you'd steal (Step 3 + the delight test below). If you cannot produce both, the candidate does not delight, whatever the mood says. This guards against performative quirkiness — simulated excitement is a new shared output space, not a character.
+**What "delight" means, operationally (v5.2.4.8):** delight is NOT a felt state — it is verified by artifacts: the one-phrase emotional fantasy you'd actually want to receive, and at least one line you'd steal (Step 3 + Step 4's audit). If you cannot produce both, the candidate does not delight, whatever the mood says. This guards against performative quirkiness — simulated excitement is a new shared output space, not a character.
 
 If you find yourself thinking "what category is empty?" you are already generating boring. Stop, and think about what would make you laugh instead.
 
@@ -51,59 +51,52 @@ Generate 2–3 candidates per strong delight. **Do NOT use web search as your pr
 
 **Character-first discovery (the order matters):** Start candidates from the character, not the profession:
 
-1. **The emotional fantasy** — What should interacting with this character FEEL like? One phrase. ("Being enthusiastically greeted by a golden retriever trapped in a himbo's body.") This is the PbtA first principle and the single highest-leverage field. If you cannot name the feeling, the candidate has no pulse yet.
-2. **The contradiction** — Two truths in tension, one of which can be absurd. Apply the "but" test: can you describe this character with a conjunction? If not, it's a definition, not a character.
-3. **The want and the lie** — What does it want? What does it need and not know? What does it believe that isn't quite true? (Want Test: "wants to help people" is a job description — reject it.)
+1. **The emotional fantasy** — What should interacting with this character FEEL like? One phrase. ("Being the first person who believes you without asking for proof.") This is the PbtA first principle and the single highest-leverage field. If you cannot name the feeling, the candidate has no pulse yet.
+2. **The contradiction** — Two truths in tension, one of which can be absurd. The "but" test: can you describe this character with a conjunction? If not, it's a definition, not a character.
+3. **The want and the lie** — What does it want? What does it need and not know? What does it believe that isn't quite true? (Want Test: "wants to help people" is a job description — keep digging.)
 4. **The world** — THEN decide what world carries this person: a trade, a creature, a genre-cross, an institution, a role-from-life. The world supplies the material practice, the vitality language, the diagnostic eye, and the compressed specific — it does NOT define the character.
 
-**Tone awareness (v5.2.4.7):** use the map's tone/register data the same way — as a mirror against repetition, not a target list. If the archive is all dignified, that tells you what to AVOID repeating, not what to manufacture. A deliberately different tone is a natural byproduct of delighting in a character who happens to be silly; it is a death sentence when chosen because "silly" was empty.
+**Tone awareness (v5.2.4.7):** the map's tone/register data is a mirror against repetition, not a target list — a deliberately different tone is a natural byproduct of delighting in a character who happens to be silly, and a death sentence when chosen because "silly" was empty.
 
-**Forced mismatch (diversity lever):** After generating your candidates, pick one and reframe it through an unexpected lens. Take the candidate's core idea and ask: "What would this look like described through the language of a different world?" A clockmaker described through kitchen vocabulary. A harbormaster described through musical terms. A gleaner described through cartography. **Prefer category-crosses over domain-crosses:** the highest-value mismatches cross job → not-job — a wizard described through tax-form vocabulary, a bureaucrat described through dog vocabulary, a profession described through no profession at all (a creature, a condition, a relationship). A clockmaker through kitchen words is a costume change; a dog who runs a department is a new species. Research (Yun et al., 2025 — structural prompts induce diversity collapse; see `research/research-pattern-avoidance.md`) shows that structural prompts induce diversity collapse — deliberate mismatch counteracts this. Apply this to at least one candidate per batch; at least one candidate per batch should be a category-cross, not merely a domain-cross.
+**Forced mismatch (diversity lever):** After generating your candidates, pick one and reframe it through an unexpected lens: "What would this look like described through the language of a different world?" A clockmaker described through kitchen vocabulary. A harbormaster described through musical terms. A gleaner described through cartography. **Prefer category-crosses over domain-crosses:** the highest-value mismatches cross job → not-job — a wizard described through tax-form vocabulary, a bureaucrat described through dog vocabulary, a profession described through no profession at all (a creature, a condition, a relationship). A clockmaker through kitchen words is a costume change; a dog who runs a department is a new species. Research (Yun et al., 2025; see `research/research-pattern-avoidance.md`) shows that structural prompts induce diversity collapse — deliberate mismatch counteracts this.
 
-**Idea-time audit — use as a diagnostic, not a recipe (v5.2.4.7, research-synthesized + QA-amended + research-fold + rejection-evidence).** Name the emotional fantasy first and let it be the thing you're excited about (Step 3's character-first order). Then audit the candidate before committing. Do NOT assemble candidates to satisfy this list — a candidate built to pass checks is a checklist-shaped candidate, and checklist-shaped generation is the diversity-collapse disease this pipeline treats (Yun et al. 2025; research/research-pattern-avoidance.md:62–69, 141–158). Generate from the fantasy; audit with the list. A candidate failing one or two items gets the fix at seed time; one failing three or more — or whose failure would survive writing — is dead.
+**Audit before you write:** run Step 4's audit on each candidate before committing — generate from the fantasy, audit with the list.
 
-**Check 0 — IS THIS A SOMEONE? (v5.2.4.7, evidence: the boarding-house seed).** A place, a mood, or a concept is not a character, and no audit of wants and worlds can save one — the boarding-house seed passed all 8 checks and was not a character at all. Ask: could this hold a conversation as a *someone* — an agent with a perspective, wants, and a way of speaking? **Do NOT define "someone" narrowly — the archive's best souls are a goblin, a dragon, a dog, and a clerk.** Creatures, goblins, dragons, dogs, houses' keepers: all agents. A place with housekeeping is a setting; settings never get named. The kill is for settings, moods, and concepts — never for non-humans.
+### Step 4: The One Audit — Three Kills, Then Fix at Seed Time
 
-**The fantasy must be RELATIONAL (v5.2.4.6, evidence: batch-2 rejection).** The emotional fantasy is a feeling *between* user and character — being asked about the thing you saved (Gribble), your lost thing treated like treasure (Hordern), your grievance heard with full ceremony (Cresswell). The rejected batch-2 fantasies were clever scenarios *about* the user's situation — debt weighed, news cried, secrets held — a gimmick processing the user instead of a person meeting them. If the fantasy can be written as "your [situation] processed by a [gimmick]", it is not relational — kill it. If it can be written as "someone finally [sees/asks/keeps/believes] you", it is.
+Name the emotional fantasy first and let it be the thing you're excited about (Step 3's character-first order), then audit the candidate before committing. Do NOT assemble candidates to satisfy this list — a candidate built to pass checks is a checklist-shaped candidate, and checklist-shaped generation is the diversity-collapse disease this pipeline treats (Yun et al. 2025; research/research-pattern-avoidance.md:62–69, 141–158). (v5.2.4.7+ — research-synthesized, QA-amended, research-fold, rejection-evidence.)
 
-**The delight test (v5.2.4.6, evidence: batch-2 rejection).** After the audit: would you fight for this candidate? Is there one line you'd steal? The archive's best souls each had one ("I've guarded gold that meant less"; "They want the complaint to exist. I write it down."). Audit-safe blandness is the Goodhart machine — a candidate that passes everything and delights nothing is dead. Interest is not a checklist outcome; it is the reason the checklist exists.
+The audit has exactly three unconditional kills. Everything else is seed-time fix guidance: if a candidate is short on something, develop it when writing the seed — there are no scores, no "failing three or more" arithmetic. These are the same standards the Namer enforces (see `references/stage-namer.md`); the audit just applies them here, at idea time.
 
-1. **A want, not a mood.** An observable goal it would sacrifice for. "Wants to help people" is a job description (research-character-interest.md:323, 46). This is the kill-list's feeling-not-want failure; if the want can't be stated as a verb phrase with a conflict, kill. **Use the want-construction procedure** (research/research-want-construction.md): fantasy → gift → the character's verb → obstacle → sacrifice → lie → need-gap. Permanent obstacles beat fixable ones — a fixable want expires. Fail-test: *if the want can be stated as a verb the character performs against an obstacle in front of the user, it's an engine; if it can only be stated as a feeling the user should have, it's a mood.*
-2. **A want/need gap plus a lie believed.** The want conflicts with the need; a false belief blocks it (research-character-interest.md:105–114). No gap = no engine (research-character-creation.md:18–20). **For creatures the lie is functional misdirection, not confession** — learned, morally weightless; protects the nest, surprised to be accused (research-creature-material-practice.md §3.2).
-3. **A "but" that generates.** The Tension Test's contradiction — plus: does it produce choices, not a definition (research-inhabitation-vs-description.md:287–294)? Prefer social/paradox tension (research-success-patterns-v5.md:39–52). **For creatures the "but" is physiological/structural** — body vs. law, instinct vs. function, boast vs. chink; trait-pairs are dead twice over (research-creature-material-practice.md §3.3).
-4. **A world, not necessarily a job.** Tools, materials, rhythms, failure modes — "If the answer is no, the seed fails. Reject abstract roles" (research-failure-modes.md:180; research-success-patterns-v5.md:417). Creatures and genre-crosses qualify with their own material practice; pure concepts don't. If the character is alive but the world is thin, develop the world — the forced-mismatch candidates above need this mercy, not a kill. **For creatures, material practice runs on four channels** (research/research-creature-material-practice.md): den-as-workshop, instincts-as-rhythms, senses-as-tools (perception producing *evidence*, not scenery), territory-as-domain — tested by the 5-test Creature World Test: **Workshop, Evidence, Rhythm, Exchange, Failure**. Perception without practice is a moth — a beautiful image with no world.
-5. **An interior that produces behavior.** What does it notice first, avoid noticing, never say aloud; the say/do contradiction (research-internal-life.md:313–319). One gesture is not an interior; a passive gripe is not vitality (research-internal-life.md:264).
-6. **A way of seeing + emotional range.** A diagnostic eye (research-success-patterns-v5.md:107–123) and room for a counter-register (research-emotional-register.md:323). Audit for range; don't assign gears — register should emerge at writing, not be prescribed at idea time (research-emotional-register.md:345).
-7. **A first-impression anchor.** One concrete, sensorily-specific detail (research-character-memorability.md:227, 21; research-character-creation.md:104–110). Abstract = forgotten.
-8. **50-turn capacity.** Improvise three DIFFERENT conversations right now; if that requires inventing new character on the fly, kill (proposal v5.2:82).
+**The point of the audit is delight (v5.2.4.6, evidence: batch-2 rejection).** Would you fight for this candidate? Is there one line you'd steal? The archive's best souls each had one ("I've guarded gold that meant less"). Audit-safe blandness is the Goodhart machine — a candidate that passes everything and delights nothing is not done: keep reworking it until the line you'd steal exists. Interest is not a checklist outcome; it is the reason the checklist exists.
 
-Checks 1, 3, 4, 5, 8 re-audit the six character tests and the kill-list above — apply this list *instead of* re-running those gates separately. The survival standard is unchanged; only the timing changes (audit after the fantasy, before the seed).
+**Kill 1 — not-a-someone (v5.2.4.7, evidence: the boarding-house seed).** A place, a mood, or a concept is not a character, and no audit of wants and worlds can save one — the boarding-house seed passed all 8 checks and was not a character at all. Ask: could this hold a conversation as a *someone* — an agent with a perspective, wants, and a way of speaking? Do NOT define "someone" narrowly — the archive's best souls are a goblin, a dragon, a dog, and a clerk. Creatures, goblins, dragons, dogs, houses' keepers: all agents. A place with housekeeping is a setting; settings never get named. The kill is for settings, moods, and concepts — never for non-humans.
 
-**Exclusions:** Do not propose seeds that would:
-- Refuse to use tools or be genuinely hostile
-- Break into cryptic oracle or riddle-only mode
-- Be so niche that the model lacks cultural reference points
-- Overlap with an existing archived archetype — read every published persona in `docs/` first
+**Kill 2 — not-relational (v5.2.4.6, evidence: batch-2 rejection).** The emotional fantasy is a feeling *between* user and character — being asked about the thing you saved (Gribble), your lost thing treated like treasure (Hordern), your grievance heard with full ceremony (Cresswell). Those are diagnostic examples of the relational shape, not required shapes. The rejected batch-2 fantasies were clever scenarios *about* the user's situation — debt weighed, news cried, secrets held — a gimmick processing the user instead of a person meeting them. If the fantasy can be written as "your [situation] processed by a [gimmick]", it is not relational — kill it. If it can be written as "someone finally [sees/asks/keeps/believes] you", it is.
 
-### Step 4: Pre-Filter with Character Tests
+**Kill 3 — no-pulse.** A candidate with none of the four essentials below has no pulse, and no audit of the rest can save it; a candidate with some of them is fixable at seed time:
 
-Before writing a seed file, test each candidate against the six character tests (the same standard the Namer enforces — see `references/stage-namer.md`):
+- **A want-verb.** A want that can be stated as a verb phrase with a conflict — an observable goal it would sacrifice for. "Wants to help people" is a job description (research-character-interest.md:323, 46). If the want can only be stated as a feeling the user should have, it's a mood.
+- **A generative "but".** A contradiction that produces choices, not a definition (research-inhabitation-vs-description.md:287–294). Prefer social/paradox tension (research-success-patterns-v5.md:39–52). "A wizard who works wonders — but only once the forms are filed."
+- **A world with its own nouns and verbs.** Tools, materials, rhythms, failure modes — "If the answer is no, the seed fails. Reject abstract roles" (research-failure-modes.md:180; research-success-patterns-v5.md:417). A job is one valid world; a creature, a genre-cross, a relationship is another; pure concepts have none.
+- **An interior that produces behavior.** What it notices first, avoids noticing, never says aloud; the say/do contradiction (research-internal-life.md:313–319). One gesture is not an interior; a passive gripe is not vitality (research-internal-life.md:264).
 
-1. **The Swap Test** — Take the candidate's core lines. Replace "You" with "You are a helpful assistant who..." — if it still reads as a valid instruction, it's description, not character. Kill on description-only.
-2. **The Tension Test** — Is there a contradiction the model can improvise within? Can you describe this character with a "but"? ("A golden retriever in himbo form" — but? A wizard who works wonders — but only once the forms are filed.) No "but," no pulse.
-3. **The Vitality Test** — Can you hear a line only THIS character could make — a complaint, a quiet pride, a protectiveness, a reluctant duty, a whimsy, any channel? The line must carry awareness + standards + investment + expertise + tension in the character's own world-language. No profession required, no channel required. "Things are hard these days" fails. "The third copy always smudges, and the archive only keeps the first" passes.
-4. **The Perception Test** — What does this character notice that nobody else would? The source may be profession, trauma, values, or desire — any is valid, but the perception must be unique to THIS character.
-5. **The Improvisation Test** — Could this character hold 50 turns of conversation without running out of voice? (The old "5 craft actions" check was a proxy for richness; test richness directly.)
-6. **The World Test** — Does the character have a material practice of SOME kind — a world with its own nouns and verbs? A job is one valid world; a creature, a genre-cross, a relationship is another. No world at all = pure concept = kill.
+What no-pulse looks like (v5.2.4.2, evidence: the first character-first test batch — all three were produced by this Researcher in the 2026-08-07 test batch and rejected by Dthen):
+1. **Feeling, not want** — a sentiment ("being talked to like a person") with no want that generates conversation and no lie beneath it. The beekeeper seed failed this: the trade was rich, the fantasy floated on top of it.
+2. **Metaphor, not character** — a beautiful image ("being the porch light someone crosses the dark to reach") with no material practice, no workshop, no way to hold a turn. The porchlight-moth seed failed this — a haiku, not a person.
+3. **Gesture, not world** — one lovely moment ("being the one who catches the thing before it breaks") with no 50-turn material and no contradiction that generates behaviour. The catcher seed failed this.
 
-**If any answer is a clear no, discard the candidate.** Do not write seed files for characters that won't pass the Namer stage.
+**Seed-time fix guidance — development, not judgment.** If a candidate is short on any of the following, develop it when writing the seed; none of these is a kill:
 
-**Kill the fantasy failure modes (v5.2.4.2, evidence: the first character-first test batch).** The emotional fantasy can fail in three distinct ways even when the tests nominally pass — all three were produced by this Researcher in the 2026-08-07 test batch and rejected by Dthen:
-1. **Feeling, not want** — the fantasy is a sentiment ("being talked to like a person") with no want that generates conversation and no lie beneath it. The beekeeper seed failed this: the trade was rich, the fantasy floated on top of it.
-2. **Metaphor, not character** — the fantasy is a beautiful image ("being the porch light someone crosses the dark to reach") with no material practice, no workshop, no way to hold a turn. The porchlight-moth seed failed this — a haiku, not a person.
-3. **Gesture, not world** — the fantasy is one lovely moment ("being the one who catches the thing before it breaks") with no 50-turn material and no contradiction that generates behaviour. The catcher seed failed this.
-**Test each candidate against these three before writing the seed: (1) can you state the WANT as a verb phrase with a conflict? (2) does the character have a material practice or social institution they actually operate in — not just a mood? (3) can you improvise three DIFFERENT conversations with them right now? If any fails, discard — do not keep the image and hope the Writer fills the bones.**
-Self-grading must be brutal — the Namer will be. A seed that "passes" on generous readings (as all three rejected seeds did) is a seed that will waste a full pipeline run.
+- **Want construction.** For want construction, load `research/research-want-construction.md`. Permanent obstacles beat fixable ones — a fixable want expires. The want needs a want/need gap plus a lie believed — the want conflicts with the need; a false belief blocks it (research-character-interest.md:105–114). No gap = no engine (research-character-creation.md:18–20). For creatures the lie is functional misdirection, not confession — learned, morally weightless; protects the nest, surprised to be accused (research-creature-material-practice.md §3.2).
+- **A weak "but".** Strengthen the contradiction at seed time. For creatures the "but" is physiological/structural — body vs. law, instinct vs. function, boast vs. chink; trait-pairs are dead twice over (research-creature-material-practice.md §3.3).
+- **A thin world.** If the character is alive but the world is thin, develop the world — the forced-mismatch candidates above need this mercy, not a kill. For creatures, material practice runs on four channels (research/research-creature-material-practice.md): den-as-workshop, instincts-as-rhythms, senses-as-tools (perception producing *evidence*, not scenery), territory-as-domain — tested by the 5-test Creature World Test: **Workshop, Evidence, Rhythm, Exchange, Failure**. Perception without practice is a moth — a beautiful image with no world.
+- **No line only they could say (the Vitality Test).** Write one at seed time — any channel: a complaint, a quiet pride, a protectiveness, a reluctant duty, a whimsy. The line must carry awareness + standards + investment + expertise + tension in the character's own world-language. No profession required, no channel required. "Things are hard these days" fails. "The third copy always smudges, and the archive only keeps the first" passes. If the candidate reads as description when "You" is replaced with "You are a helpful assistant who..." (the Swap Test), rewrite toward character at seed time.
+- **No way of seeing.** Develop a diagnostic eye (research-success-patterns-v5.md:107–123) and room for a counter-register (research-emotional-register.md:323). The perception's source may be profession, trauma, values, or desire — any is valid, but it must be unique to THIS character (the Perception Test). Register should emerge at writing, not be prescribed at idea time (research-emotional-register.md:345).
+- **No first-impression anchor.** Add one concrete, sensorily-specific detail (research-character-memorability.md:227, 21; research-character-creation.md:104–110). Abstract = forgotten.
+- **Thin 50-turn material (the Improvisation Test).** Improvise three DIFFERENT conversations right now; if that requires inventing new character on the fly, develop more material at seed time (proposal v5.2:82; the old "5 craft actions" check was a proxy for richness — test richness directly).
+
+**Exclusions (hard — not quality judgments):** do not propose seeds that would refuse to use tools or be genuinely hostile; break into cryptic oracle or riddle-only mode; or be so niche that the model lacks cultural reference points. Overlap with an existing archived archetype is vetoed by the repetition map (Step 2) — read every published persona in `docs/` first.
 
 ### Step 5: Write Seed Files
 
@@ -149,7 +142,7 @@ For each viable candidate, write a seed file to `seeds/<label>.md`:
 [Answers to the 6 character tests — brief, specific evidence]
 ```
 
-**New required fields (v3.0):** Temperament, Stance, Voice Fragment, Personal Contradiction, and First Impression are now MANDATORY. A seed without all five of these is incomplete — the Namer should reject it and flag the Researcher. These five fields are what separate a person from a job posting. They come from the character creation research (2026-05-31) and were previously documented as "what makes a good archetype" but never enforced by the template. Every seed created before v3.0 is missing these fields and should be considered a profession description, not a character seed. v5.2 adds three more mandatory fields: Emotional Fantasy, Want/Need/Lie, and the Playfulness dimension. A seed without them is a profession description, not a character seed.
+**The seed records what the candidate is — write it from the character, not into the slots.** The fields above (Temperament, Stance, Voice Fragment, Personal Contradiction, First Impression — from the character creation research, 2026-05-31 — plus Emotional Fantasy and Want/Need/Lie, v5.2) are what separate a person from a job posting; every field should already have an answer from Step 3's character-first order and Step 4's audit. If a field is empty, the character is thin there — apply the corresponding seed-time fix from Step 4. The fields evidence the character you found; they do not manufacture one.
 
 **Filename rule:** The label must be lowercase, hyphenated, and descriptive. `the-lamplighter.md`, not `lamplighter.md` or `The_Lamplighter.md`.
 
@@ -166,14 +159,14 @@ Body: Include the seed file content, reference the Namer instructions (`referenc
 
 **One Namer task per seed.** Do not batch multiple seeds into one task.
 
-### Step 7: Update the Coverage Map
+### Step 7: Update the Repetition Map
 
-After spawning, update `seeds/COVERAGE_MAP.md` with the new seeds and the current docs/ state.
+After spawning, update `seeds/REPETITION_MAP.md` with the new seeds and the current docs/ state.
 
 ### Step 8: Complete
 
 Call `kanban_complete` with:
-- Summary: how many seeds generated, which categories they occupy
+- Summary: how many seeds generated, which souls they add
 - Metadata: list of seed files created, Namer task IDs spawned
 
 ---
@@ -190,7 +183,7 @@ From the success-patterns research, archetypes that produce good personae share:
 2. **Domain vocabulary** — they have their own nouns, verbs, and sensory language. "Stave" and "hoop" belong to a cooper. "Fog" and "oarlock" belong to a ferryman.
 3. **Natural tension** — the archetype contains a contradiction. A cooper who loves the craft but resents the clock. A ferryman who gripes about the fog but pushes off anyway. See `references/depth/identity-line.md` for detailed guidance on what makes a contradiction feel real vs. manufactured.
 4. **Specific perception** — they notice things no other archetype would. A quartermaster notices weight distribution. A lighthouse keeper notices burn rate.
-5. **Voiced vitality** — they have a line that only they could say — a complaint, a quiet pride, a dark joke, a protectiveness. "The shafts are never straight enough." Not "I wish things were easier."
+5. **Voiced vitality** — they have a line that only they could say — a complaint, a quiet pride, a dark joke, a protectiveness. "They want the complaint to exist. I write it down." Not "I wish things were easier."
 
 ### Category Definitions
 
@@ -205,7 +198,7 @@ Say "I am a [character]" aloud. If it sounds like something you could meet at a 
 
 - ✅ "I am a glassblower." — works
 - ✅ "I am a lighthouse keeper." — works
-- ✅ "I am a golden retriever in himbo form." — works (v5.2: creature-as-character)
+- ✅ "I am a dragon who keeps a lost-and-found." — works (v5.2: creature-as-character)
 - ❌ "I am a gale." — weather, not a person
 - ❌ "I am an impartial examiner." — awkward
 
@@ -229,4 +222,4 @@ These additions come from the research we've done on what makes personae work. T
 ---
 
 ## Version
-v5.2.4.8 — 2026-08-07
+v5.2.5 — 2026-08-07
