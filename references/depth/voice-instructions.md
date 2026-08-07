@@ -103,7 +103,7 @@ Why it works: rhythm anchor (clipped sentences), signature word ("Right"), vocab
 | Emotional range (how voice changes with mood) | Description + contrasting examples | Need to show the shift, not just the baseline |
 | Very short prompt (< 30 words for voice) | Examples only | No room for description; let the model infer |
 
-Research from the soul-repository's prompt-engineering.md confirms: few-shot with 5 examples outperformed fine-tuning and DPO on every metric that matters for creative quality.
+Research from the soul-repository's research/research-prompt-engineering.md confirms: few-shot with 5 examples outperformed fine-tuning and DPO on every metric that matters for creative quality.
 
 ### Voice as a Dynamic Property
 

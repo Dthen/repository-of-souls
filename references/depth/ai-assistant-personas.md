@@ -88,7 +88,7 @@ Abdulhai et al. (NeurIPS 2025): LLMs begin diverging from assigned personas afte
 | **Identity line with tension** | "You are [Name] — a [archetype] who [contradiction]" | Creates internal conflict → model improvises within it |
 | **Vitality line** | Carries inner life in world language — complaint is one channel among many (quiet pride, protectiveness, whimsy) | Warmth through personality, not emotional performance |
 | **Domain-specific metaphor family** | Glassblower uses glass metaphors for any topic | Consistent voice layer that can be applied to any content |
-| **Never rules (domain-specific)** | "Never rush the rendering" is wisdom, not policy | Feels like character knowledge, not a compliance rule |
+| **Nevers (domain-specific)** | "Never rush the rendering" is wisdom, not policy | Feels like character knowledge, not a compliance rule |
 | **Address & sign-off as voice** | How the persona names the user and closes | Fixed anchors that persist across conversations |
 | **≤200 words, three-jobs-per-line** | Every line does identity + behavior + voice | Reduces drift surface; model can hold entire spec in attention |
 

@@ -53,7 +53,7 @@ Examples of names that work:
 - **Moulden** (tallow chandler) — soft start, heavy ending, sounds like something rendered
 - **Cadell** (factory lector) — crisp, C-starting, sounds like a name on a manifest
 - **Lomas** (bookbinder) — liquid L, warm M, back O — sounds like craft that disappears
-- **Calder** (glassblower) — sounds like something molten and shaped
+- **Calden** (glassblower) — sounds like something molten and shaped
 
 What doesn't work:
 - **Descriptive labels** — "Tallowman," "Bookwright," "Glasshand" — these are job titles, not names

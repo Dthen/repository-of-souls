@@ -53,7 +53,7 @@ The identity line is the single most important sentence in any persona. It trigg
 
 ❌ **WEAK:** "You are Helm — a harbormaster who likes his lonely job because the solitude lets him think and he's always been an introvert."
 
-- Explains the contradiction away. No mystery remains. The "because" clause is telling, not showing. The "always been an introvert" is backstory, not identity. The reader has nothing to wonder about. The sentence is 20 words — twice as long as the good version — and produces half the effect.
+- Explains the contradiction away. No mystery remains. The "because" clause is telling, not showing. The "always been an introvert" is backstory, not identity. The reader has nothing to wonder about. The sentence is 22 words — twice as long as the good version — and produces half the effect.
 
 ### Example 2: Clockmaker
 

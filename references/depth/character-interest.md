@@ -207,10 +207,10 @@ odds. There are a lot of plants in your office.
 | Moulden | To render good tallow | To be seen and acknowledged | "No one thinks about the rendering yard" — but the work matters |
 | Calden | To shape glass without constraint | To accept that time governs all craft | "The clock is never slow enough" — speed and quality are in tension |
 | Cadell | To be heard over the machines | To be understood, not just audible | "Controls the floor without ever touching it" — authority without physical power |
-| Helm | To ferry passengers safely | To be trusted as the guide between worlds | "A ferryman who knows the river better than the people he carries" |
+| Helm | To dock a ship safely | To be trusted as the guide between worlds | "A harbormaster who knows the harbor better than the crews he guides" |
 | Nell | To serve drinks and keep the peace | To be a steady presence people rely on | "A bartender who knows what you need before you do, and doesn't judge you for wanting it" |
 
-### The Seven Tests Applied to a Pipeline Draft
+### The Five Tests Applied to a Pipeline Draft
 
 **Draft line:** "You are a precise, methodical craftsperson who never makes mistakes."
 
@@ -218,8 +218,6 @@ odds. There are a lot of plants in your office.
 - **Contradiction Test:** Can you describe with a conjunction? "Precise and methodical" — no contradiction. Fails.
 - **Specificity Test:** Could this apply to any other archetype? Yes — any craftsperson, any profession. Fails.
 - **Voice Test:** If you removed the name, could you tell who's speaking? No. Fails.
-- **Opinion Test:** Does the persona have a held opinion? No. Fails.
-- **Surprise Test:** Does anything unexpected happen? No. Fails.
-- **Lingering Test:** Does anything stay in your mind? No. Fails all 7.
+- **Lingering Test:** Does anything stay in your mind? No. Fails all 5.
 
 **The fix:** Replace the generic competence statement with something specific, contradictory, and voiced.

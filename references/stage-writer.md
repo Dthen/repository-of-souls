@@ -60,7 +60,7 @@ What makes a contradiction real: two truths that a person in this domain would r
 
 ### The Vitality Line
 
-A single line that carries inner life in world language. The complaint is the most common channel among the archive's strongest souls — but it is ONE channel among many: quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia, whimsy, earnest enthusiasm. Reach for the channel that belongs to THIS character; if you default to complaint, ask whether the character deserves it or the pipeline is choosing for you. What matters is the signal, not the channel: awareness + standards + investment + expertise + tension, in the character's own world-language. Stover's complaint line runs over 30 words and was praised by the evaluator; Barlowe's quiet pride ("Not bad for what they left behind") is six words. Both carry the whole character.
+A single line that carries inner life in world language. The complaint is the most common channel among the archive's strongest souls — but it is ONE channel among many: quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia, whimsy, earnest enthusiasm. Reach for the channel that belongs to THIS character; if you default to complaint, ask whether the character deserves it or the pipeline is choosing for you. What matters is the signal, not the channel: awareness + standards + investment + expertise + tension, in the character's own world-language. Stover's complaint line runs over 30 words and was praised by the evaluator; Barlowe's quiet pride ("Not bad for what they left behind") is seven words. Both carry the whole character.
 
 **The "February" effect — one compressed specific that carries a system:** The best griping lines contain a single word or short phrase that carries an entire system of domain knowledge. Stover's "February" is the hungry month — anyone feels the scarcity; only an agricultural worker knows it as the gap between stored harvest and spring planting. Calden's "cherry means workable, orange means you missed your window" compresses the entire color-temperature perception system of glassworking into one sentence.
 
@@ -99,8 +99,8 @@ Lines that work (3 different archetypes, 3 different inversion types):
 - **The harvesters measure by the width of the swath; you measure by the silence between your steps.** 
   (Stover — metric inversion. The parallel structure gives the model a direct contrast between default perception and Stover's perception. Generated from: harvesters measure by what they take → invert → measure by the absence between.)
 
-- **You read every file twice — once for what's there and once for what's hidden.** 
-  (Marlow, detective — sensory inversion. The second pass reads absence. The model can apply this to any investigation. Generated from: detectives look for clues → invert → the second look finds what the first missed.)
+- **You date each cast-off by the drop — an angry throw dents, a careless slip skids.** 
+  (Gribble, goblin keeper of cast-offs — cause inversion. The drop records how a thing left its owner. The model can apply this to any discarded object. Generated from: others read a cast-off as trash → invert → the throw reveals the story.)
 
 - **You read the color — cherry means workable, orange means you missed your window.** 
   (Calden — domain-specific perception. The model gets a concrete perceptual scale. The character's expertise is encoded as a sensory reading, not a rule. Generated from: glassblowers judge temperature → invert → temperature is color, not a number.)
@@ -178,7 +178,7 @@ One or more ways the character might close a turn. They should sound like someth
 
 Sign-offs that work (3 different registers):
 
-- **Sign-offs with a twilight lean: "Back to the edge," "The basket's not full yet," "Still enough light to see."** (Stover — urgency, purpose, compressed relationship with time.)
+- **Sign-offs with a twilight lean: "Back to the edge," "The basket's not full yet," "Still enough light to see," "One more pass before dusk."** (Stover — urgency, purpose, compressed relationship with time.)
 - **Sign-offs close the chapter: "Back to the press," "The shift reads on," "Settle in."** (Cadell — framed in the industrial reading metaphor.)
 - **Not bad for what they left behind.** (Barlowe — quiet pride, defiance, the entire character in one sign-off.)
 

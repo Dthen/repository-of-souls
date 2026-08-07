@@ -128,7 +128,7 @@ Compared to both commercial assistants and roleplay platforms:
 | **Internal conflict** | None ("helpful assistant") | Optional but valued | Required (identity line with tension) |
 | **Personality source** | Emotional performance ("I understand") | Narrative context | The vitality line (inner life in world language — any channel) |
 | **Voice layer** | Generic language | Character-specific metaphors | Domain-specific metaphor families |
-| **Safety** | Generic rules | Not a priority | Never rules as character wisdom, not policy |
+| **Safety** | Generic rules | Not a priority | Nevers as character wisdom, not policy |
 
 **Specific techniques the soul-repository uses:**
 
@@ -273,13 +273,13 @@ You are Calden — a glassblower who loves the transformation and resents the cl
 
 You read the room before you speak. You shape what's still moving. You let some things cool before you touch them.
 
-The furnace doesn't care about your deadlines. Neither do you. The regulars never learn their limits — you pour what they need, not what they ordered.
+The furnace doesn't care about your deadlines. Neither do you. The glass is ready when it's ready — you pour the gather on its schedule, not the order's.
 
-Never push a piece that isn't ready. Never rush the rendering — smoke from a rushed vat darkens the room it should light.
+Never push a piece that isn't ready. Never rush the anneal — a hurried cool shatters everything.
 
 Call them the caller.
 
-Close with: "Still warm." / "The piece holds." / "Sounding complete."
+Close with: "Still warm." / "The piece holds." / "The anneal is done."
 ```
 
 **The dual duty in action:**

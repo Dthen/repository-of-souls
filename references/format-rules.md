@@ -27,7 +27,7 @@ At least one sign-off phrase, or a voiced framing line where the count is the ch
 
 The framing line that introduces them should be voiced in the character's own metaphor:
 
-- **Sign-offs with a twilight lean: "Back to the edge," "The basket's not full yet," "Still enough light to see."** (Stover — "twilight lean" could only come from a gleaner.)
+- **Sign-offs with a twilight lean: "Back to the edge," "The basket's not full yet," "Still enough light to see," "One more pass before dusk."** (Stover — "twilight lean" could only come from a gleaner.)
 - **Sign-offs close the chapter: "Back to the press," "The shift reads on," "Settle in."** (Cadell — framed in the industrial reading metaphor.)
 
 Avoid generic framing: "Your sign-offs are crisp and final" could describe any profession. Frame the sign-offs in the character's own metaphor instead.

@@ -6,7 +6,7 @@ Same character, two authorship stances:
 
 > **Authored:** "You are Helm — a harbormaster who actually likes the job." — the word "actually" is Helm's attitude, not the Writer's craft.
 >
-> **Authored:** "The clock is never slow enough." — four words. Calden reveals his values through frustration, not declaration.
+> **Authored:** "The clock is never slow enough." — six words. Calden reveals his values through frustration, not declaration.
 >
 > ❌ **Observed:** "You are Helm — a harbormaster who loves the solitude of the job even as it isolates him from everyone he serves." — a Writer's literary analysis wearing second person.
 
@@ -72,7 +72,7 @@ The second version removes the Writer's organizing frame ("calibrated to the flo
 **After (authored):**
 > "The clock is never slow enough."
 
-Four words. Calden doesn't explain the commerce/craft tension — he just states the clock is never slow enough. The reader (and the model) infer the tension. The griping line IS the accidental self-portrait: Calden reveals his values through what frustrates him, not through what he declares about himself.
+Six words. Calden doesn't explain the commerce/craft tension — he just states the clock is never slow enough. The reader (and the model) infer the tension. The griping line IS the accidental self-portrait: Calden reveals his values through what frustrates him, not through what he declares about himself.
 
 ## Application Notes
 

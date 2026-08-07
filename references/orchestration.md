@@ -56,7 +56,7 @@ Each stage creates the next stage's task as part of its completion. The Namer cr
 
 ### Automate Compliance, Evaluate Quality
 
-Format compliance (line count, word count, sign-off count, H1 match, etc.) is handled by `scripts/check_soul.py`. Evaluators evaluate creative quality only. Do NOT ask evaluators to check compliance — it wastes their cognitive budget.
+Format compliance (line count, word count, sign-off presence, H1 match, etc.) is handled by `scripts/check_soul.py`. Evaluators evaluate creative quality only. Do NOT ask evaluators to check compliance — it wastes their cognitive budget.
 
 Run `check_soul.py` before creating a Publisher task. If the winning candidate fails compliance, flag it in the Publisher task so fixes are applied.
 
