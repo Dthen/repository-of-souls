@@ -26,13 +26,16 @@ Check if `seeds/COVERAGE_MAP.md` exists. If it does, read it — this is your st
 
 **If no coverage map exists**, build one from scratch: read all SOUL.md files in `docs/`, extract Name, Archetype, Domain, and Category for each, count the categories, and write `seeds/COVERAGE_MAP.md`.
 
-### Step 2: Identify Gaps
+### Step 2: Delight First, Coverage Second (v5.2.4.7 — the gap-filling engine was the boring-maker)
 
-Look for:
-- **Category gaps** — if Profession dominates, look for Bureaucratic or Absurdist archetypes
-- **Domain gaps** — if maritime is covered, look for land-based, aerial, underground, or indoor domains
-- **Era gaps** — if all archetypes are historical, look for modern or futuristic ones (and vice versa)
-- **Tone gaps** — if all archetypes are serious, look for playful or absurdist ones
+The coverage map's job is **anti-repetition, not target-picking.** Do NOT generate candidates to fill coverage slots — batch-2 did exactly that ("fills the open coverage gaps: Fiction Trope, second profession, dark register, playful register") and every one of those five seeds was rejected as boring. Gap-filling produces slot-shaped characters: a pirate because "Fiction Trope" was empty, a crier because "playful register" was empty. The archive's best souls (Gribble, Hordern, Cresswell) were never gap-fills — they were delights with worlds attached.
+
+Order of priority:
+1. **The delight** — start from a character (or fantasy) you're genuinely excited about. Excitement first.
+2. **The map as a mirror** — THEN check the map: if the candidate is a repeat of an existing soul (same frame, same register, same move), rework it. The map vetoes repetition; it does not propose targets.
+3. **Gap-checking is a tie-breaker** — only when two candidates delight equally, prefer the one that opens a genuinely empty territory.
+
+If you find yourself thinking "what category is empty?" you are already generating boring. Stop, and think about what would make you laugh instead.
 
 ### Step 3: Generate Candidates
 
@@ -40,7 +43,7 @@ For each gap, generate 2–3 archetype candidates. **Do NOT use web search as yo
 
 1. **The gold lines** — read `seeds/gold-lines.md` (if it exists). These are the strongest lines from old personae — they suggest archetypes.
 2. **Domain vocabulary** — what tools, materials, and sensory language does this archetype have? If you can't list 5 nouns and 3 verbs, the archetype is too thin.
-3. **Historical trades** — guild crafts, lost professions, specialist roles that have rich material practice
+3. **Historical trades** — LAST RESORT, not a default (v5.2.4.7): guild crafts and lost professions produced the entire dry v5-era archive. Only reach for them when they carry a character you're excited about — never because the category is empty.
 4. **Institutional roles** — bureaucratic, legal, governmental roles with procedural vocabulary
 5. **Fiction tropes** — character types from literature, film, mythology that have established voices
 
@@ -51,13 +54,13 @@ For each gap, generate 2–3 archetype candidates. **Do NOT use web search as yo
 3. **The want and the lie** — What does it want? What does it need and not know? What does it believe that isn't quite true? (Want Test: "wants to help people" is a job description — reject it.)
 4. **The world** — THEN decide what world carries this person: a trade, a creature, a genre-cross, an institution, a role-from-life. The world supplies the material practice, the vitality language, the diagnostic eye, and the compressed specific — it does NOT define the character.
 
-**Tone axis in gap analysis:** In addition to category/domain/era gaps, check TONE gaps explicitly: if all souls are dignified, look for silly; if all are human, look for non-human; if all are single-world, look for genre-crosses; if all registers are sober, look for joyful.
+**Tone awareness (v5.2.4.7):** use the map's tone/register data the same way — as a mirror against repetition, not a target list. If the archive is all dignified, that tells you what to AVOID repeating, not what to manufacture. A deliberately different tone is a natural byproduct of delighting in a character who happens to be silly; it is a death sentence when chosen because "silly" was empty.
 
 **Forced mismatch (diversity lever):** After generating your candidates, pick one and reframe it through an unexpected lens. Take the candidate's core idea and ask: "What would this look like described through the language of a different world?" A clockmaker described through kitchen vocabulary. A harbormaster described through musical terms. A gleaner described through cartography. **Prefer category-crosses over domain-crosses:** the highest-value mismatches cross job → not-job — a wizard described through tax-form vocabulary, a bureaucrat described through dog vocabulary, a profession described through no profession at all (a creature, a condition, a relationship). A clockmaker through kitchen words is a costume change; a dog who runs a department is a new species. Research (Yun et al., 2025 — structural prompts induce diversity collapse; see `research/research-pattern-avoidance.md`) shows that structural prompts induce diversity collapse — deliberate mismatch counteracts this. Apply this to at least one candidate per batch; at least one candidate per batch should be a category-cross, not merely a domain-cross.
 
-**Idea-time audit — use as a diagnostic, not a recipe (v5.2.4.6, research-synthesized + QA-amended + research-fold + rejection-evidence).** Name the emotional fantasy first and let it be the thing you're excited about (Step 3's character-first order). Then audit the candidate before committing. Do NOT assemble candidates to satisfy this list — a candidate built to pass checks is a checklist-shaped candidate, and checklist-shaped generation is the diversity-collapse disease this pipeline treats (Yun et al. 2025; research/research-pattern-avoidance.md:62–69, 141–158). Generate from the fantasy; audit with the list. A candidate failing one or two items gets the fix at seed time; one failing three or more — or whose failure would survive writing — is dead.
+**Idea-time audit — use as a diagnostic, not a recipe (v5.2.4.7, research-synthesized + QA-amended + research-fold + rejection-evidence).** Name the emotional fantasy first and let it be the thing you're excited about (Step 3's character-first order). Then audit the candidate before committing. Do NOT assemble candidates to satisfy this list — a candidate built to pass checks is a checklist-shaped candidate, and checklist-shaped generation is the diversity-collapse disease this pipeline treats (Yun et al. 2025; research/research-pattern-avoidance.md:62–69, 141–158). Generate from the fantasy; audit with the list. A candidate failing one or two items gets the fix at seed time; one failing three or more — or whose failure would survive writing — is dead.
 
-**Check 0 — IS THIS A PERSON? (v5.2.4.6, evidence: the boarding-house seed).** A place, a mood, or a concept is not a character, and no audit of wants and worlds can save one — the boarding-house seed passed all 8 checks and was not a character at all. Ask: could this hold a conversation as a *someone*? A place with housekeeping is a setting. Settings never get named. Kill anything that isn't a person — the person may live IN the place (the house's keeper), the place itself cannot be the persona.
+**Check 0 — IS THIS A SOMEONE? (v5.2.4.7, evidence: the boarding-house seed).** A place, a mood, or a concept is not a character, and no audit of wants and worlds can save one — the boarding-house seed passed all 8 checks and was not a character at all. Ask: could this hold a conversation as a *someone* — an agent with a perspective, wants, and a way of speaking? **Do NOT define "someone" narrowly — the archive's best souls are a goblin, a dragon, a dog, and a clerk.** Creatures, goblins, dragons, dogs, houses' keepers: all agents. A place with housekeeping is a setting; settings never get named. The kill is for settings, moods, and concepts — never for non-humans.
 
 **The fantasy must be RELATIONAL (v5.2.4.6, evidence: batch-2 rejection).** The emotional fantasy is a feeling *between* user and character — being asked about the thing you saved (Gribble), your lost thing treated like treasure (Hordern), your grievance heard with full ceremony (Cresswell). The rejected batch-2 fantasies were clever scenarios *about* the user's situation — debt weighed, news cried, secrets held — a gimmick processing the user instead of a person meeting them. If the fantasy can be written as "your [situation] processed by a [gimmick]", it is not relational — kill it. If it can be written as "someone finally [sees/asks/keeps/believes] you", it is.
 
@@ -224,4 +227,4 @@ These additions come from the research we've done on what makes personae work. T
 ---
 
 ## Version
-v5.2.4.6 — 2026-08-07
+v5.2.4.7 — 2026-08-07
