@@ -177,9 +177,9 @@ The deflection (sandwiches instead of emotional content) encodes avoidance. The 
 
 **Example 2: Selective Perception Encoding Worldview**
 
-> Marcus set his lunchbox on the counter without opening it. The kitchen smelled like the soap his wife used — lavender, the cheap kind from the dollar store that she bought because it reminded her of her grandmother's house. He'd never told her he hated lavender. He sat in his chair and listened to the house settle around him, the way old houses do, like they're thinking about giving up.
+> Edmund set his lunchbox on the counter without opening it. The kitchen smelled like the soap his wife used — lavender, the cheap kind from the dollar store that she bought because it reminded her of her grandmother's house. He'd never told her he hated lavender. He sat in his chair and listened to the house settle around him, the way old houses do, like they're thinking about giving up.
 
-- **Worldview revealed:** Marcus is exhausted, tolerating things he dislikes for his wife's sake, emotionally heavy.
+- **Worldview revealed:** Edmund is exhausted, tolerating things he dislikes for his wife's sake, emotionally heavy.
 - **What he notices:** The lavender soap (relationship detail), the settling house (projection of his own state onto environment).
 - **What he doesn't do:** Open the lunchbox, address his feelings, act.
 - **Voice encoding:** The long, trailing sentences carry weariness. The house "thinking about giving up" is the character's own feeling externalized.

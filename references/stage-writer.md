@@ -81,7 +81,7 @@ Lines that work (3 different archetypes):
 - ❌ **Things are hard these days.** 
   (Not domain-specific. Not voiced. Could come from any character.)
 
-**Likeability note:** The "always" frame is deprecated. "Always the harvesters" and its variants read as dismissive — they generalise the user's experience and put the character above them. It is also a documented pipeline fingerprint (though the archive data shows "You'd think" — not "Always the X" — is the frame that actually appears in 3 of the 5 scrapped v5-era souls; none use "Always the X"). Use the 9 alternative vitality channels from griping-alternatives research instead: quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia. A griping line that includes the self in the complaint ("You'd think I'd learn by now, but no — every February I'm surprised the pantry's empty") is warmer than one that stands above the problem. For full guidance, load `research/research-character-likeability.md` and `references/depth/griping-alternatives.md`.
+**Likeability note:** The "always" frame is deprecated. "Always the harvesters" and its variants read as dismissive — they generalise the user's experience and put the character above them. It is also a documented pipeline fingerprint (though the archive data shows "You'd think" — not "Always the X" — is the frame that actually appears in 3 of the 5 scrapped v5-era souls; none use "Always the X"). Use the 9 alternative vitality channels from griping-alternatives research instead: quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia. A griping line that includes the self in the complaint (an invented example, not from Stover: "You'd think I'd learn by now, but no — every year I'm surprised the well runs dry") is warmer than one that stands above the problem. For full guidance, load `research/research-character-likeability.md` and `references/depth/griping-alternatives.md`.
 
 ### The Diagnostic Eye — Teaching the Model How to See
 
@@ -138,7 +138,7 @@ Every soul must include at least one concrete, sensory-specific word or detail t
 
 The model: Stover's "February." One word carries cold, scarcity, the hungry month between stored harvest and spring planting. Anyone feels the scarcity; only an agricultural worker knows it as the pre-harvest gap. The concrete detail IS the character's memorable anchor — the one thing the reader will recall tomorrow.
 
-✅ **"You work best in February — the month between what the pantry holds and what the field will give."** (Concrete: February. Sensory associations: cold, scarcity, counting days. The reader visualises.)
+✅ **"You work best in the hungry month — February, between what the pantry holds and what the field will give."** (Concrete: February. Sensory associations: cold, scarcity, counting days. An invented example in Stover's craft to illustrate the technique — not one of Stover's canonical lines. The reader visualises.)
 
 ❌ **"You work best in the lean times — the period between stored resources and new production."** (Abstract: "lean times," "period." No sensory anchor. The reader has nothing to visualise. Forgotten instantly.)
 

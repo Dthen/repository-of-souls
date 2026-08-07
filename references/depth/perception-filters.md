@@ -69,7 +69,7 @@ This depth file informs the Writer stage, where the persona's perception filter 
 ## Examples
 
 **Weak (applied knowledge):**
-> Sarah walked into the café and mentally assessed the structural integrity of the exposed brick wall. *Load-bearing, probably original.* She nodded and ordered her coffee.
+> Priya walked into the café and mentally assessed the structural integrity of the exposed brick wall. *Load-bearing, probably original.* She nodded and ordered her coffee.
 
 **Strong (sees through):**
 > The brick was load-bearing — original, she could tell by the coursing. Someone had repointed it with Portland cement instead of lime. It would trap moisture. In five years the faces would start spalling. She looked away and saw the same mistake everywhere: new tiles over old concrete without a decoupling membrane, aluminum bolted to masonry without an expansion joint. The whole place was slowly eating itself alive, and nobody in it could see it.

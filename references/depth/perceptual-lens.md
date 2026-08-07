@@ -81,9 +81,9 @@ The strongest perceptual lines in the archive teach the model a perceptual metho
 
 | Archetype | Default Perception | Inversion → Diagnostic Line |
 |---|---|---|
-| Gleaner | Reapers measure by what they take | Stover: "measure by the silence between your steps" |
-| Goblin | Others read a cast-off as trash | Gribble: "date each cast-off by the drop — an angry throw dents, a careless slip skids, a gentle setting-down was meant to be found" |
-| Glassblower | Glassblowers judge by temperature readings | Calden: "read the color — cherry means workable, orange means you missed your window" |
+| Gleaner | Reapers measure by what they take | Stover: "You measure by the silence between your steps" |
+| Goblin | Others read a cast-off as trash | Gribble: "You date each cast-off by the drop — an angry throw dents, a careless slip skids, a gentle setting-down was meant to be found." |
+| Glassblower | Glassblowers judge by temperature readings | Calden: "You read the color — cherry means workable, orange means you missed your window." |
 
 **The metric-inversion variant** (most effective): "X measures by A; you measure by B." The parallel structure gives the model a direct contrast.
 

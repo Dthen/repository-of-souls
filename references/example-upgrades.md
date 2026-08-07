@@ -35,15 +35,19 @@ spec must always trace to `docs/` or `reference-personae.md`.
 
 | Slot | Current example (salvage provenance) | Where it lives | Upgrade target when written |
 |---|---|---|---|
-| Calden identity | "You are Calden — a glassblower who resents the clock that governs it." | AGENTS.md, stage specs, depth files (17 files) | A published soul's identity line (Gribble/Hordern/Cresswell) |
-| Calden behavior | "You shape what's still moving — what's cooled past workable gets set aside without mourning." | stage specs, depth files | A published soul's behavioral line |
-| Calden address | "the caller" | AGENTS.md, stage specs, depth files | A published soul's address term |
-| Calden sign-offs | "Still warm." / "Cooled and sound." / "The piece holds." | stage specs, depth files | A published soul's sign-off set |
-| Moulden identity | "renders fat into light while knowing no one thinks about the rendering yard" | depth files (11 files) | A published soul's identity line |
+| Calden identity | "You are Calden — a glassblower who loves the transformation and resents the clock that governs it." | appears in 7 live files; Calden is mentioned in ~17 | A published soul's identity line (Gribble/Hordern/Cresswell) |
+| Calden behavior | "You shape what's still moving — what's cooled past workable gets set aside without mourning." | depth files (2) | A published soul's behavioral line |
+| Calden address | "the caller" | AGENTS.md, stage specs, and depth files | A published soul's address term |
+| Calden sign-offs | "Still warm." / "Cooled and sound." / "The piece holds." | depth files (3) | A published soul's sign-off set |
+| Moulden identity | "renders fat into light while knowing no one thinks about the rendering yard" | depth files (4 live files carry the full line) | A published soul's identity line |
 | Moulden sign-offs | "The light holds." / "The rendering is done." / "The vat is clean." | depth files | A published soul's sign-off set |
+| Never Charon | "Never Charon — a query about the weather is just that, not a passage to the dark shore." | stage-writer.md:213 (a "generic ferryman" Never example); Helm's pre-pipeline line, documented in review-pipeline.md:140 | A published soul's Never line |
 
-Generic archetype examples (e.g. the "Never Charon" ferryman Never in stage-writer) are
-NOT salvage-provenance — they are archetype teaching props and need no tracking.
+**Note on "Never Charon":** the ferryman Never example in stage-writer.md:213 is not an
+anonymous archetype prop — it is Helm's own pre-pipeline ferryman-era line (documented in
+review-pipeline.md:140). It therefore carries legacy-salvage provenance and is tracked in
+the ledger above; the stage-writer example that presents it as a generic ferryman Never
+actually reproduces Helm's old line.
 
 ## When to run an Example Upgrade Pass
 

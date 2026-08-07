@@ -223,44 +223,6 @@ input[type="search"]::placeholder { color: var(--text-muted); }
 }
 .action-btn:hover { border-color: var(--accent); }
 .action-btn.primary:hover { background: #7b6cf0; }
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.7);
-  display: none;
-  align-items: flex-start;
-  justify-content: center;
-  z-index: 100;
-  padding: 16px;
-  padding-top: 40px;
-}
-.modal-overlay.active { display: flex; }
-.modal {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  max-width: 640px;
-  width: 100%;
-  max-height: 80vh;
-  overflow-y: auto;
-  padding: 24px;
-  position: relative;
-}
-.modal-close {
-  position: absolute;
-  top: 16px; right: 16px;
-  background: none;
-  border: none;
-  color: var(--text-muted);
-  font-size: 24px;
-  cursor: pointer;
-}
-.modal-close:hover { color: var(--text); }
-.modal h2 {
-  font-family: var(--font-serif);
-  font-size: 28px;
-  margin-bottom: 20px;
-}
 .soul-text p {
   font-family: var(--font-serif);
   font-size: 16px;
@@ -418,16 +380,6 @@ function summonRandom() {{
   const href = chosen.querySelector('.card-action').href;
   location.href = href;
 }}
-
-function closeModal(e) {{
-  if (!e || e.target.id === 'modal') {{
-    document.getElementById('modal').classList.remove('active');
-  }}
-}}
-
-document.addEventListener('keydown', e => {{
-  if (e.key === 'Escape') closeModal();
-}});
 </script>
 </body>
 </html>'''
