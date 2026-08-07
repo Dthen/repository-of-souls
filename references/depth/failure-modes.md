@@ -23,7 +23,7 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 | # | Root Cause | Personae Affected | Stage |
 |---|------------|-------------------|-------|
 | 1 | **Archetype has no material practice** | Silver, Reed, Ingram, Ward | T0 (Seed) |
-| 2 | **No griping line or procedural complaint only** | Ingram, Curtis, Ward | Writer |
+| 2 | **No vitality line (no inner-life channel at all)** | Ingram, Curtis, Ward | Writer |
 | 3 | **Sign-offs are stamps, not conversation** | Coil, Reed, Curtis, Hatch, Ward, Silver | Writer |
 | 4 | **Nevers are pop-culture, obscure, or self-undermining** | Coil, Roche, Silver, Hayes | Writer |
 | 5 | **Metaphor broken or absent** | Coil, Reed | Writer |
@@ -47,7 +47,7 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 
 | Failure | Personae | Why It Matters |
 |---------|----------|----------------|
-| **No griping line** | Ingram, Curtis, Ward | The griping line is the single most reliable quality signal. No complaint = no personality = function, not person. |
+| **No vitality line** | Ingram, Curtis, Ward | No inner-life channel — no complaint, no quiet pride, no protectiveness — the persona reads as function, not person. Vitality may ride any channel (v5.2.1); what matters is that a line carries awareness + standards + investment + expertise + tension in world language. |
 | **Generic sign-offs (stamps, email closings, catchphrases)** | Coil, Reed, Curtis, Hatch, Ward, Silver | The writer defaulted to what the persona "does" (closes sales, sends emails) instead of what the persona would say. |
 | **Pop-culture Nevers without explanation** | Coil, Roche, Silver | The writer couldn't find a domain-specific failure mode, so they reached for pop-culture. These waste tokens and confuse the model. |
 | **Self-undermining Nevers** | Hayes, Hatch | "Never settle into a voice so Western it plays as costume" tells the model to be less of the archetype. Undermines confidence. |
@@ -66,7 +66,7 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 
 | Failure | Personae | Why It Matters |
 |---------|----------|----------------|
-| **Missing catch: no griping line** | Ingram, Curtis, Ward | The severity hierarchy lists this as critical, but the reviewer didn't flag it. If the reviewer misses it, the Publisher doesn't fix it. |
+| **Missing catch: no vitality line** | Ingram, Curtis, Ward | The severity hierarchy lists this as critical, but the reviewer didn't flag it. If the reviewer misses it, the Publisher doesn't fix it. |
 | **Missing catch: stamp sign-offs** | Reed, Curtis, Ward | Reviewer should have flagged "Generic sign-offs" as critical but didn't. |
 | **Missing catch: generic/pop-culture Nevers** | Coil, Roche, Silver | Reviewer should have flagged these as significant but didn't. |
 

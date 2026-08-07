@@ -1,5 +1,7 @@
 # System Prompt Architecture for Soul Files
 
+> **Historical** — describes the v1.0-era system-prompt architecture; kept as research, not instructions. Several of its mandates (name-repeat, fixed line ordering, the 3-phrase sign-off minimum, the griping-line doctrine, the mimo model) have since been retired — see `references/format-rules.md` and the stage specs for the current doctrine.
+
 **Purpose:** Bridge prompt engineering research and character creation research for the soul repository pipeline. Soul files are system prompts that assert an identity and make an LLM embody a character.
 **Date:** 2026-06-01
 **Scope:** How SOUL.md works as a system prompt — not just what to write, but why it works and what the research says.

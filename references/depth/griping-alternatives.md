@@ -121,4 +121,4 @@ A label with no material: no observation, no standards, no detail to perform. Th
 
 - `references/depth/identity-line.md` — How the identity line can encode the five vitality signals in a single sentence, potentially reducing or eliminating the need for a separate vitality line
 - `references/positive-patterns.md` — Examples of well-voiced vitality lines in reference personae, showing different channels in context
-- `references/format-rules.md` — Format constraints for the griping line (must be voiced in character, must not be a description of a trait)
+- `references/format-rules.md` — Hard format constraints (lines, words, sign-offs); the vitality line is Evaluator-judged quality, not a format rule

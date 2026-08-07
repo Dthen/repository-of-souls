@@ -93,4 +93,4 @@ Four words. Calden doesn't explain the commerce/craft tension — he just states
 
 ## Version
 
-v1.0 — 2026-07-20
+v5.2.5 — 2026-08-07

@@ -1,5 +1,7 @@
 # Seed Material — Salvaged Lines from Archive
 
+> **Legacy** — v4-era salvaged material (2026-06-01); historical, not current instructions. Kept as raw material for study; the current seed template lives in `references/stage-researcher.md`.
+
 **Purpose:** The strongest lines from the archived personae, saved as raw material for new personae built under the current spec. These are NOT templates to copy — they're examples of what good voice, tension, and domain specificity look like.
 
 **Date:** 2026-06-01

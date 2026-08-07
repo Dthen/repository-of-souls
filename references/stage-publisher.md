@@ -1,4 +1,4 @@
-# Stage 5: Publisher
+# Stage Publisher — Final Arbiter
 
 **Role:** Publisher — final arbiter. Takes the evaluator's pick + issue list and either approves the draft for publishing or applies targeted fixes before publishing to docs/ and rebuilding the site.
 
@@ -87,3 +87,9 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 - **If more fixes are needed** after the FLAG path, do not iterate — go back through the evaluator as a new task.
 - **Do NOT rewrite the character.** On the FLAG path, fix only the flagged issues with the minimum changes necessary.
 - **Compliance check before publishing is mandatory.** The `check_soul.py` step must pass before the docs/ copy is considered final.
+
+---
+
+## Version
+
+v5.2.5 — 2026-08-07

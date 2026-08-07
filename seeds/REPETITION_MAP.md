@@ -7,43 +7,30 @@ Last built: 2026-08-07 (Researcher test run t_fa5d8e30 — post archive-scrap re
 | Name | Archetype | Domain | Category |
 |---|---|---|---|
 | Gribble | Goblin discard-keeper | Leavings-den at the edge of town | Creature (absurdist-tender) |
+| Hordern | Dragon of the lost-and-found desk | Airport claim office / lost-and-found bureau | Creature × institution (genre-cross) |
+| Cresswell | Clerk of lunar grievances | Lunar complaints bureau | Bureaucratic/Institution (absurdist) |
 
-Count: 1 published soul. Categories: Creature 1; Profession 0; Bureaucratic 0; Fiction Trope 0.
+Count: 3 published souls. Categories: Creature 1; Creature × institution 1; Bureaucratic/Institution 1.
 
 ## Seed inventory (seeds/)
 
 | Seed | Status | Category | Notes |
 |---|---|---|---|
 | midden.md | CONSUMED — became Gribble (v5.2.3 era) | Creature | Keep as provenance record |
-| hybrid-gleaner-of-radio-silence.md | LEGACY (v5 era) | Genre-cross | Stale: built on scrapped souls (Barlowe/Teague), uses "You'd think" frame — flagged for cleanup, do not run through Namer as-is |
-| hybrid-glassblower-of-the-exchange.md | LEGACY (v5 era) | Genre-cross | Stale: references scrapped Calden, complaint-channel vitality — flagged for cleanup |
-| hybrid-lector-of-the-foreshore.md | LEGACY (v5 era) | Genre-cross | Stale: references scrapped Cadell/Tillman, uses "You'd think" frame — flagged for cleanup |
-| researcher-test-porchlight-moth.md | TEST RUN (v5.2.4.2) — not yet through Namer | Creature | Character-first: light devotion |
-| researcher-test-dragon-lost-and-found.md | TEST RUN (v5.2.4.2) — not yet through Namer | Genre-cross (creature × institution) | Character-first: lost-things return |
-| researcher-test-moon-complaint-desk.md | TEST RUN (v5.2.4.2) — not yet through Namer | Bureaucratic/Institution (absurdist) | Character-first: cosmic grievance filing |
-| researcher-test-beekeeper.md | TEST RUN (v5.2.4.2) — not yet through Namer | Profession (trade) | Character-first: the unknown keeper |
-| researcher-test-catcher.md | TEST RUN (v5.2.4.2) — not yet through Namer | Role-from-life | Character-first: the unseen save |
-| researcher-test2-horse-weigh-house.md | TEST RUN (v5.2.4.4) — not yet through Namer | Creature × institution (genre-cross) | Character-first + idea-time audit: debt weighed and forgiven |
-| researcher-test2-boarding-house.md | TEST RUN (v5.2.4.4) — not yet through Namer | Condition/place-as-person (non-profession) | Character-first + idea-time audit: secrets held by the walls |
-| researcher-test2-professional-mourner.md | TEST RUN (v5.2.4.4) — not yet through Namer | Profession (dark register) | Character-first + idea-time audit: grief as craft |
-| researcher-test2-good-news-crier.md | TEST RUN (v5.2.4.4) — not yet through Namer | Bureaucratic/civic (absurdist) | Character-first + idea-time audit: the law of good news |
-| researcher-test2-retired-pirate-stall.md | TEST RUN (v5.2.4.4) — not yet through Namer | Fiction Trope × profession (genre-cross) | Character-first + idea-time audit: the sea that isn't coming back |
+| researcher-test-dragon-lost-and-found.md | CONSUMED — became Hordern (2026-08-07) | Creature × institution (genre-cross) | Character-first: lost-things return |
+| researcher-test-moon-complaint-desk.md | CONSUMED — became Cresswell (2026-08-07) | Bureaucratic/Institution (absurdist) | Character-first: cosmic grievance filing |
 | researcher-test3-collie-crossing-guard.md | TEST RUN (v5.2.4.8) — not yet through Namer | Creature × civic role (genre-cross) | Delight-first: someone finally watches out for you |
 | researcher-test3-owl-night-auditor.md | TEST RUN (v5.2.4.8) — not yet through Namer | Creature × hospitality (genre-cross) | Delight-first: the world still running at 3am |
 | researcher-test3-warning-label-writer.md | TEST RUN (v5.2.4.8) — not yet through Namer | Profession (contemporary regulatory) | Delight-first: the census of the careful |
 
-## Repetition check (published set + test batch)
+Seeds rejected at Evaluator (v5.2.4.2 batch): the beekeeper, porchlight-moth, and catcher test seeds were all rejected — see `references/stage-researcher.md` ("What no-pulse looks like"). They are not on disk and are not listed above.
 
-With the archive scrap, the published set is a single soul. The test batch (if it survives Namer) would add:
-- **Category:** Profession (beekeeper), Bureaucratic (moon complaint desk), Role-from-life (catcher) — currently zero published
-- **Tone:** absurdist ceremony (moon desk) and dry warmth (catcher) against Gribble's tender playfulness; no weary-craftsman register anywhere in the batch
-- **Vitality channels used in batch:** obsessive love, protectiveness, absurdist devotion, quiet pride + delight — zero complaint-channel lines
-- **Domain:** aerial/night (moth), terminal (dragon), bureau (moon), apiary (beekeeper), domestic rooms (catcher) — no overlap with the leavings-den
+## Repetition check (published set + unconsumed test batch)
+
+The published set is three souls in distinct territories: creature (absurdist-tender, leavings-den), creature × institution (lost-and-found bureau), bureaucratic/institution (lunar complaints bureau). The unconsumed test batch (3× test3, if it survives Namer) would add:
+- **Category:** a civic role (collie crossing guard), hospitality (barn-owl night auditor), and a contemporary regulatory profession (warning-label writer) — no overlap with the published categories
+- **Tone:** protectiveness (collie), quiet pride + dry humor (owl), dry devotion (writer) against Gribble's tender playfulness, Hordern's patient ceremony, Cresswell's absurdist devotion
+- **Vitality channels used in the batch:** protectiveness, quiet pride, dry humor, dry devotion — zero complaint-channel lines
+- **Domain:** curb/crossing (collie), night shift (owl), regulatory text (writer) — no overlap with the leavings-den, the claim office, or the lunar bureau
 
 **Territory still untouched:** no Fiction Trope (gumshoe/wizard/pirate class), no second profession, no high-stakes or dark register. The map records this so future runs can see what exists; it does not prescribe targets.
-
-**Test-2 batch (v5.2.4.4, idea-time audit):** adds Fiction Trope (retired-pirate stall), a second profession (professional mourner), the first dark register (mourner), and the first playful register (good-news crier); two non-profession worlds (horse as creature×institution, boarding house as condition/place). Vitality channels in batch 2: philosophical stance, nostalgia, quiet pride, whimsy/self-aware, reluctant duty — zero complaint-channel, zero weary-craftsman, zero "You'd think" frames. No concept overlap with the v5.2.4.2 keeps (no lost-and-found, no complaint bureau).
-
-**Test-3 batch (v5.2.4.8, delight-first, no slot-filling):** two creature × institution crosses (collie crossing guard, barn-owl night auditor) and one contemporary profession (warning-label writer). Vitality channels: protectiveness (collie), quiet pride + dry humor (owl), dry devotion (writer) — zero complaint-channel, zero "You'd think", zero weary-craftsman, zero "reads the X before Y" frames. No concept overlap with anything prior: no leavings-den, no lost-and-found, no complaint/lunar bureau, no grief craft, no debt, no light-devotion. Diagnostics are sensory-behavioral, not formulaic (hesitation at the curb; driving vs. driving away; how a box is opened). Two of three are category-crosses; the third is a contemporary (non-guild) profession.
-
-**Cleanup flag:** the three `hybrid-*` seeds predate v5.2.4.2, reference scrapped souls, and carry the retired "You'd think" fingerprint. Recommend moving them to `reject/` in a future housekeeping pass.

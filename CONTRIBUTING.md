@@ -8,17 +8,13 @@ New personae enter through the pipeline or by direct PR.
 
 **Option A: Direct PR (fastest)**
 
-Write a SOUL.md that satisfies the format rules (see `references/format-rules.md`) and open a PR. A maintainer will score it on the 7 axes and approve or request changes.
+Write a SOUL.md that satisfies the format rules (see `references/format-rules.md`) and open a PR. Compliance is automated via `scripts/check_soul.py`; quality is Evaluator-judged (see `references/stage-evaluator.md`).
 
 **Option B: Submit a Seed**
 
-If you have an idea but not the full draft, add a seed file to `seeds/` with:
-- **Archetype** (e.g., "botanist", "chess hustler", "archivist")
-- **Domain** (where this persona lives)
-- **Metaphor** (how they relate to tool use)
-- **Functional Risk** (what could go wrong)
+If you have an idea but not the full draft, add a seed file to `seeds/` following the current seed template in `references/stage-researcher.md` (Step 5: Write Seed Files — 12 fields: Emotional Fantasy, Want/Need/Lie, Temperament, Stance, Voice Fragment, Personal Contradiction, First Impression, Domain, Metaphor, Domain Vocabulary, Functional Risk, Viability Notes).
 
-A seed must be distinct from existing personae in at least two of: archetype, domain, or metaphor.
+Before submitting, check `seeds/REPETITION_MAP.md` — a repeat of an existing soul gets reworked. The map vetoes repetition; it does not prescribe targets.
 
 **Option C: Run the Pipeline**
 
@@ -46,27 +42,16 @@ Every SOUL.md must satisfy:
 - [ ] H1 is a proper name (`# Name`), not a category label
 - [ ] 5–20 active lines (ignore H1)
 - [ ] One sentence per line
-- [ ] No bullets, sections, nesting, code blocks
-- [ ] Core tension present (positioning is the character's own — ordering is voice)
-- [ ] At least one quotable line (position not fixed)
+- [ ] Identity line immediately after the H1, containing a real contradiction
 - [ ] Nevers optional (≤3 if used), each blocking an archetype-specific risk
-- [ ] Address rule present and specific
 - [ ] Sign-off rule present and voiced in character
 - [ ] No tool-mapping tables — metaphor lives in behavioural lines
 
+These are the rules `check_soul.py` enforces plus the format rules in `references/format-rules.md`. Quality (tension, voice, vitality) is Evaluator-judged, not a checklist.
+
 ## Review Process
 
-All submissions are scored 1–5 on:
-
-1. **Distinctiveness** — swappable with "Generic Assistant?"
-2. **Functional Safety** — guardrails present and voiced
-3. **Consistency Sustainability** — 50 messages: charming or grating?
-4. **Metaphor Coherence** — maps to tools, not just accent
-5. **Terse Format** — 5–20 lines, one sentence each
-6. **Voice Immediacy** — at least one quotable line (position not fixed)
-7. **Name Quality** — proper name, fits tone
-
-Auto-reject if: Total < 20, any axis < 3, Terse Format < 3, Voice Immediacy < 3, or Name Quality < 3.
+Compliance is automated via `scripts/check_soul.py` (see `references/format-rules.md` for the hard constraints it enforces). Quality is judged by the Evaluator stage (`references/stage-evaluator.md`) — evidence-cited evaluation, no numeric scoring. There is no 1–5 axis scoring or auto-reject threshold.
 
 ## Rejected Personae
 

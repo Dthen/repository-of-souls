@@ -1,6 +1,6 @@
 # Pipeline Worker Profile Setup
 
-Every pipeline stage (Namer, Writer, Evaluator, Publisher) needs a dedicated Hermes profile. The profile must be configured so the worker knows it is a kanban pipeline stage, not a standalone tool.
+Every pipeline stage (Researcher, Namer, Writer, Evaluator, Publisher) needs a dedicated Hermes profile. The profile must be configured so the worker knows it is a kanban pipeline stage, not a standalone tool.
 
 ## Why Pipeline Workers Crashed
 
@@ -32,8 +32,8 @@ Every worker profile MUST have `config.yaml` with kanban tools enabled:
 
 ```yaml
 model:
-  default: sonnet          # or kimi-k2.6, gpt-4, etc.
-  provider: nous           # or xiaomi, openrouter, ollama-cloud
+  default: deepseek-v4-flash
+  provider: opencode-go
 description: Soul repository pipeline worker
 description_auto: false
 ```
@@ -69,9 +69,9 @@ Every SOUL.md must include this near the top:
 ```markdown
 ---
 name: soul-evaluator
-description: Character critic for the soul repository pipeline — side-by-side selection
+description: Character critic for the soul repository pipeline — one-draft pulse evaluation
 tools: [Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch]
-model: sonnet
+model: deepseek-v4-flash
 ---
 
 You are an Evaluator — you read a single draft and decide if it has a pulse.
@@ -85,7 +85,7 @@ inputs, expected outputs, prior attempts. Read `references/stage-evaluator.md` f
 evaluation process.
 
 **Input:** The draft file at `drafts/<name>.md`.
-**Output:** `evaluations/<name>.md` — scores + pick/kill decision + fix flags.
+**Output:** `evaluations/<name>.md` — pulse evaluation + pick/kill decision + fix flags.
 
 [...rest of role-specific instructions...]
 
@@ -113,11 +113,11 @@ cp ~/.gitconfig ~/.hermes/profiles/<profile>/home/.gitconfig
 chmod 600 ~/.hermes/profiles/<profile>/home/.git-credentials
 ```
 
-Profiles that DON'T push (e.g., soul-namer, soul-evaluator) don't strictly need this, but it costs nothing to set up uniformly.
+Apply credentials to all profiles that run `git push`: `soul-writer`, `soul-namer`, `soul-evaluator`, `soul-publisher` (per `references/orchestration.md`).
 
 ## Skills
 
-The `kanban-worker` skill is auto-loaded for all kanban workers. There are no custom pipeline skills — all stage instructions are inline in the task body.
+The `kanban-worker` skill is auto-loaded for all kanban workers. There are no custom pipeline skills — stage instructions live in `references/stage-*.md`, and task bodies reference the stage file (e.g., "Follow `references/stage-namer.md`") rather than duplicating its content inline.
 
 ## Verification Checklist
 
@@ -152,4 +152,4 @@ Before deploying, test manually:
 
 ## Version
 
-v1.0 — 2026-06-01
+v5.2.5 — 2026-08-07

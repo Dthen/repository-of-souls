@@ -21,7 +21,7 @@ Read the seed. Extract:
 - The **domain vocabulary** — you'll use it for sound symbolism in naming
 - The **viability notes** — the Researcher's pre-assessment, but you re-verify
 
-**Pre-flight check:** Before running viability, verify that all eight required fields are present in the seed: Emotional Fantasy, Want/Need/Lie, and the Playfulness dimension (v5.2), plus Temperament, Stance, Voice Fragment, Personal Contradiction, First Impression (v3.0). If any are missing, the seed is incomplete — reject it without running viability. Move to `reject/`, log in `references/viability-log.md`, note which fields were missing.
+**Pre-flight check:** Before running viability, verify that all seven required fields are present in the seed: Emotional Fantasy, Want/Need/Lie, Temperament, Stance, Voice Fragment, Personal Contradiction, First Impression — with the Playfulness dimension (v5.2) carried inside Temperament when the character is playful. If any are missing, the seed is incomplete — reject it without running viability. Move to `reject/`, log in `references/viability-log.md`, note which fields were missing.
 
 ---
 

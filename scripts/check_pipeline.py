@@ -1,5 +1,9 @@
 import sqlite3, os
 
+# NOTE: diagnostic-only utility. Queries the kanban DB for v4-era archetype
+# keywords (Scrivener, Postilion, Tallow, ...) — not part of the current
+# pipeline; kept for archaeology of old tasks.
+
 db = os.path.expanduser('~/.hermes/kanban.db')
 if os.path.exists(db):
     conn = sqlite3.connect(db)

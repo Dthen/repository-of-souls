@@ -28,7 +28,7 @@ Researcher (T0) → Namer → Writer → Evaluator → Publisher
 | [`references/stage-researcher.md`](references/stage-researcher.md) | Researcher (T0) — archetype discovery, seed generation, pipeline spawning |
 | [`references/stage-namer.md`](references/stage-namer.md) | Namer — merged viability screening + naming, 6 character tests, candidate scoring |
 | [`references/stage-writer.md`](references/stage-writer.md) | Writer — single focused write, craft techniques with diverse examples |
-| [`references/stage-evaluator.md`](references/stage-evaluator.md) | Evaluator — CoT quality evaluation, no checklist |
+| [`references/stage-evaluator.md`](references/stage-evaluator.md) | Evaluator — evidence-cited evaluation, no checklist |
 | [`references/stage-publisher.md`](references/stage-publisher.md) | Publisher — approve/flag logic, targeted fixes, docs + site rebuild |
 | [`references/format-rules.md`](references/format-rules.md) | Hard format constraints (lines, words, sign-offs, filename case) |
 | [`references/positive-patterns.md`](references/positive-patterns.md) | What good personae do right, what sign-offs are (and are not) |
@@ -58,7 +58,7 @@ Depth files cover areas including (but not limited to):
 
 ## Qualities of a Good Soul
 
-A good SOUL.md gives the model a person to be, not instructions to follow. Seven qualities matter, drawn from analysis of the 39 souls archived under v4/v5 (2026-era) and the 4 v5 pipeline outputs (Cadell, Calden, Barlowe, Stover):
+A good SOUL.md gives the model a person to be, not instructions to follow. Seven qualities matter, drawn from analysis of the 39 souls archived under v4/v5 (2026-era) and the v5 pipeline outputs (the earlier v5-era outputs — Cadell, Calden, Barlowe, Stover — were scrapped 2026-08-07; the published archive in `docs/` holds Gribble, Hordern, Cresswell):
 
 1. **A contradiction in the identity line** — "You are [Name] — a [archetype] who [contradiction]." Without tension, the identity is just a definition. The strongest contradictions are social (gleaner working in the aftermath, lector shaping without touching) rather than merely oppositional (love vs. resentment).
 

@@ -26,7 +26,7 @@ A persona with a pulse has a voice you can *hear* — a consistent rhythm, a rec
 
 Write one sentence: your honest first impression. Not a score — a reaction.
 
-**Comparative sense (v5.2.1):** You've read the archive — Cadell, Calden, Barlowe, Teague, Tillman — and the reference personae. How does this one compare? Does it add a register, a perceptual method, or a vitality channel the archive lacks — or is it another grumpy-competence soul with an absence-reading eye?
+**Comparative sense (v5.2.1):** You've read the archive — the souls published in `docs/` (Gribble, Hordern, Cresswell; the v5-era archive — Cadell, Calden, Barlowe, Teague, Tillman — was scrapped 2026-08-07) — and the reference personae. How does this one compare? Does it add a register, a perceptual method, or a vitality channel the archive lacks — or is it another grumpy-competence soul with an absence-reading eye?
 
 ### Step 2: The Identity Line
 
@@ -196,7 +196,7 @@ PICK | REJECT
 
 ## Decision
 [If PICK: Why this soul has a pulse. 1–3 specific issues for the Publisher to fix.
- If REJECT: Why the soul fails. Is this a seed problem or a Writer problem? Should the seed be killed or retried?]
+ If REJECT: Why the soul fails. Is this a seed problem or a Writer problem? Should the seed be killed? (no retry loops)]
 ```
 
 ---

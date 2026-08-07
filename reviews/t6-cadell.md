@@ -1,5 +1,7 @@
 # T6 Review — Cadell
 
+> **Historical** — v4-era T4/T5/T6 review artifact (2026-06-02); kept as research, not instructions. The archive/ path it references no longer exists — the live output directory is `docs/`.
+
 **Reviewer:** soul-final-reviewer
 **Input:** `refined/cadell.md` (14/14 compliance checks passed)
 **Date:** 2026-06-02
