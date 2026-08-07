@@ -68,7 +68,7 @@ check('First line is "You are ..." identity', pass_first, f'got "{first[:50]}"' 
 # The cap stays — it is the context-economy bound.
 total_lines = len(active)
 pass_lines = 5 <= total_lines <= 20
-check('Lines 5-20', pass_lines, f'{total_lines} lines' if not pass_lines else '')
+check('Lines 5–20', pass_lines, f'{total_lines} lines' if not pass_lines else '')
 
 # Word count
 text = ' '.join([l.replace('—', ' ').replace('–', ' ') for l in active])

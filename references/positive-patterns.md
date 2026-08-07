@@ -312,7 +312,7 @@ A draft that restates the same concept across multiple lines is wasting its line
 
 ## The Complaint Verb Should Vary Across Personae
 
-Grumble, mutter, gripe, fuss, carp, bellyache, grouse, chafe — the English language has dozens. When 17 personae all "grumble about the X while doing the Y," the word stops being character and becomes pipeline fingerprint. Pick a complaint verb that belongs to the archetype's register.
+Grumble, mutter, gripe, fuss, carp, bellyache, grouse, chafe — the English language has dozens. When 17 personae all "You grumble about the [X] while [Y]," the word stops being character and becomes pipeline fingerprint. Pick a complaint verb that belongs to the archetype's register.
 
 See also: references/depth/griping-alternatives.md
 

@@ -16,7 +16,7 @@ Each line teaches the model to *be* the character — the tension to improvise w
 
 ## What the Research Says (Key Findings)
 
-Analysis of all archived personae (60+ from old batch, 3 from the v5-era archive (scrapped 2026-08-07)) identified 9 success patterns that separate top-rated from bottom-rated personae:
+Analysis of all archived personae (39 souls archived under v4/v5 (2026-era), 3 from the v5-era analysis set (Cadell, Calden, Moulden — scrapped with the archive 2026-08-07)) identified 9 success patterns that separate top-rated from bottom-rated personae:
 
 ### 1. Identity Tension (The Contradiction)
 Every top-10 persona has an identity line with genuine tension — a paradox, a contradiction, or a social dynamic. The format is always: "You are [Name] — a [archetype] who [contradiction]." The best tensions are **social** (invisible labor made visible) or **paradoxical** (control without touching), not just oppositional (love vs. resentment). A definition without contradiction is the fastest path to bottom-10.
@@ -147,7 +147,7 @@ If every line sounds procedural, every line sounds like the same person. The eva
 | Good | Bad |
 |------|-----|
 | "The clock is never slow enough." (Calden — 6 words, entire attitude) | "You sometimes get frustrated with your work." (generic, not voiced) |
-| "The batch smoked — always the over-heated rendering." (Moulden — specific, exasperated) | "You wish things were easier." (generic, no voice) |
+| "The batch smoked — the rendering ran over-heated again." (Moulden — specific, exasperated) | "You wish things were easier." (generic, no voice) |
 
 ### Nevers
 

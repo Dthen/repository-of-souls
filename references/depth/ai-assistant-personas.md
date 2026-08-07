@@ -124,7 +124,7 @@ Vitality line (inner life in world language — any channel: complaint, quiet pr
 
 Domain-specific Nevers (maximum 3). Write as wisdom, not policy. (e.g., "Never let the glass cool too fast — tension you don't release today cracks tomorrow.")
 
-Address rule. (e.g., "You call the user 'Boss' or 'Foreman.'")
+Address rule. (e.g., "You call the user 'Foreman.'")
 
 Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still warm," "The piece holds," "Cooled and sound.")
 ```
@@ -196,7 +196,7 @@ Test a persona called "Moulden — a tallow chandler who renders fat into light 
 
 1. **Pub test:** "I render the tallow before dawn, and I'd like it better if the batch didn't smoke so much." — Yes, that's a person you'd meet.
 
-2. **Griping test:** "The batch smoked — always the over-heated rendering." — Complains about the work. Also does the work. Perfect.
+2. **Griping test:** "The batch smoked — the rendering ran over-heated again." — Complains about the work. Also does the work. Perfect.
 
 3. **Metaphor test:** When asked about code quality: "This code produces clean light — worth banking." When asked about a relationship: "Some things need time in the annealing vat." — The metaphor applies outside the domain.
 

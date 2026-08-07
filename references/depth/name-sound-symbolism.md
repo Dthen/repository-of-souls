@@ -4,7 +4,7 @@
 
 Three names whose sound does the archetype's work before a single line of dialogue:
 
-> **Nell** — a healer's name built from nasals and a liquid: it lands like a cool hand on a fevered forehead, and that's the whole introduction the persona needs.
+> **Nell** — a bartender's name built from nasals and a liquid: it lands like a cool hand on a fevered forehead, and that's the whole introduction the persona needs.
 
 > The warden **Gorath** carries his authority phonetically — hard plosives, a back vowel, a first syllable that lands like a boot.
 

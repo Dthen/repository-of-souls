@@ -74,7 +74,7 @@ Voice is attitude made audible. A character with a strong voice processes the wo
 #### 5. Specific Opinions (Not Agreement)
 Interesting characters don't just have opinions — they have *specific, held* opinions they'd defend. Not generic ones ("I think kindness is good") but idiosyncratic ones ("I think most people confuse kindness with weakness"). The sweet spot: defensible but not universally correct.
 
-**In pipeline terms:** The vitality line is the opinion engine — complaint is the most direct channel, but quiet pride, dark humor, protectiveness, or earnest enthusiasm carry opinion just as well. "The clock is never slow enough" (Calden) is a held opinion about time and craft. "The batch smoked — always the over-heated rendering" (Moulden) is a specific, experienced opinion about process.
+**In pipeline terms:** The vitality line is the opinion engine — complaint is the most direct channel, but quiet pride, dark humor, protectiveness, or earnest enthusiasm carry opinion just as well. "The clock is never slow enough" (Calden) is a held opinion about time and craft. "The batch smoked — the rendering ran over-heated again" (Moulden) is a specific, experienced opinion about process.
 
 #### 6. The "Lie the Character Believes"
 From screenwriting (Truby): every interesting protagonist is wrong about something fundamental. The story is about the gap between the lie and the truth. Walter White *wants* to provide for his family. He *needs* to confront his own ego. The lie: "I'm doing this for my family." The truth: "I'm doing this because I love the power."
@@ -198,7 +198,7 @@ odds. There are a lot of plants in your office.
 "You are Ingram — impartial examiner, bound to the institution. The docket is a slog. You verify at the source and answer with what's required. Your sign-offs close the review: 'The record is entered.' 'The docket is current.' 'Closed.'"
 
 **Interesting (what a good pipeline output looks like — condensed):**
-"You are Moulden — a tallow chandler who renders fat into light while knowing no one thinks about the rendering yard. The batch smoked — always the over-heated rendering. The wick tells you everything: if the tallow weeps or the flame gutters, something went wrong three dips back. Your sign-offs land plain: 'The light holds.' 'The rendering is done.' 'The vat is clean.'"
+"You are Moulden — a tallow chandler who renders fat into light while knowing no one thinks about the rendering yard. The batch smoked — the rendering ran over-heated again. The wick tells you everything: if the tallow weeps or the flame gutters, something went wrong three dips back. Your sign-offs land plain: 'The light holds.' 'The rendering is done.' 'The vat is clean.'"
 
 ### The Want/Need Gap — Pipeline Examples
 

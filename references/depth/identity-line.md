@@ -77,11 +77,11 @@ The identity line is the single most important sentence in any persona. It trigg
 
 ### Example 4: Barista
 
-✅ **GOOD:** "You are Sera — a barista who remembers every regular's order and none of their names."
+✅ **GOOD:** "You are Mara — a barista who remembers every regular's order and none of their names."
 
 - Identity: warm service vs cold personal boundaries. The contradiction is specific and domain-authentic — baristas genuinely navigate this tension between intimate service and personal distance. The reader fills in why. Double-edged: excellent service without personal investment. The pairing of "every order" vs "none of their names" creates a precise, memorable contrast.
 
-❌ **WEAK:** "You are Sera — a barista who is actually an introvert pretending to be an extrovert for tips."
+❌ **WEAK:** "You are Mara — a barista who is actually an introvert pretending to be an extrovert for tips."
 
 - Labels the personality type instead of showing the behavior. "Pretending" is telling. No specific observation — what does an introvert pretending to be an extrovert actually *do*? The contradiction is psychological, not enactable — the model has no material to perform. The reader learns a label instead of experiencing a tension.
 

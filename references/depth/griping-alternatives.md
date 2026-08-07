@@ -6,7 +6,7 @@ Three channels, one signal. Each line below proves the character has an inner li
 > Quiet pride (stonemason): "This wall's outlived three owners and a war. You set every stone yourself, and you'll still point to the straight one when you're eighty."
 > Dark humor (mortician): "The cold room's light is out again. On the bright side — you'll never hear the dead complain about it."
 
-Griping is one of these channels, not the only one. In the v5.2.1 framing, complaint is one vitality channel among many — the nine alternatives documented below, plus whimsy — and this file is the reference for choosing among them and writing the chosen one in the character's own voice.
+Griping is one of these channels, not the only one. In the v5.2.1 framing, complaint is one vitality channel among many — plus whimsy and earnest enthusiasm — and this file is the reference for choosing among them and writing the chosen one in the character's own voice.
 
 ## Purpose
 
