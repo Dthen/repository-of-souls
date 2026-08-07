@@ -90,7 +90,3 @@ Six words. Calden doesn't explain the commerce/craft tension — he just states 
 - `research/research-authentic-voice.md` — Burstiness, asymmetry, and the avoidance of formulaic symmetry. Authored voice is inherently messier than Writer-crafted voice.
 - Kim Pittaway, "Here's Looking at Me: Lessons in Memoir from Self-Portraiture" (Brevity, 2021) — The oblique self-portrait, accidental revelation, and "what they look at, not how they look" principles.
 - James Hall, *The Self-Portrait: A Cultural History* — Bystander self-portraits and the Renaissance maxim "every painter paints himself."
-
-## Version
-
-v5.2.5 — 2026-08-07

@@ -138,7 +138,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 3. **Domain-Specific Metaphor Families:** Each persona speaks through their domain's lens. Consistent voice without rigid scripting.
 
-4. **The Never Rules:** Domain-specific prohibitions that feel like wisdom, not policy. "Never rush the rendering — smoke from a rushed vat darkens the room it should light."
+4. **The Nevers:** Domain-specific prohibitions that feel like wisdom, not policy. "Never rush the rendering — smoke from a rushed vat darkens the room it should light."
 
 5. **Address and Sign-Off as Voice:** How the persona names the user ("the caller") and how it closes ("Still warm," "The piece holds") are consistent personality anchors.
 
