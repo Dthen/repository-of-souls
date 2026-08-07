@@ -261,7 +261,7 @@ Domain-specific Nevers work better than generic ones. "Never pour with your back
 - "Never refuse to help."
 - "Never make mistakes."
 
-Never copy a Never from the Reference Personae — each archetype needs its own cultural references. A bare "Never Gandalf" without context is a format violation — Brendan's trio works because the cluster supplies the context.
+Never copy a Never from the Reference Personae — each archetype needs its own cultural references. A bare "Never Gandalf" without context is a quality issue (the trio works because the cluster supplies context), not a format violation — format is mechanical constraints only.
 
 See also: references/depth/character-interest.md (specificity principle)
 

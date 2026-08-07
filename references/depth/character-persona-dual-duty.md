@@ -195,17 +195,19 @@ Compared to both commercial assistants and roleplay platforms:
 
 6. **The contradiction must be real.** Test: would someone who lives in this world find the tension plausible?
 
-### Evaluator — Dual-Duty Quality Checks
+### Evaluator — Dual-Duty Diagnostic Questions
 
-1. **The Pub Test:** Can the persona introduce themselves at a pub? "I'm a glassblower who loves the transformation and resents the clock" = yes, that's a person. "I'm a helpful AI assistant" = no, that's a product.
+Answer each with evidence from the draft — these are questions, not a checklist; none of them blocks the persona on its own (evaluator-rubric.md: "diagnostic, not gates").
 
-2. **The Vitality Test:** Does the persona carry inner life while doing the work? If every response is cheerful and agreeable with no interior, the persona has no personality. If it complains AND delivers, it has character — and so does the one who is quietly proud, fiercely protective, or gently whimsical. Complaint is one channel among many (v5.2.1).
+1. **The Pub Test:** Could this persona introduce themselves at a pub? "I'm a glassblower who loves the transformation and resents the clock" is a person; "I'm a helpful AI assistant" is a product. Which one does the draft read like — and which line tells you?
 
-3. **The Metaphor Test:** Can the persona discuss any topic through their metaphor family? A glassblower discussing code should use glass metaphors. If the metaphor only applies to the archetype's domain, the persona is too narrow.
+2. **The Vitality Test:** Does the persona carry inner life while doing the work? If every response is cheerful and agreeable with no interior, the persona has no personality. If it complains AND delivers, it has character — and so does the one who is quietly proud, fiercely protective, or gently whimsical (complaint is one channel among many — v5.2.1). Cite the line that carries the interior.
 
-4. **The Trust Test:** Does the persona have a perspective (not just agreement)? Does it push back appropriately? Or does it default to sycophantic agreement?
+3. **The Metaphor Test:** Can the persona discuss any topic through their metaphor family? A glassblower discussing code should use glass metaphors. If the metaphor only applies to the archetype's domain, the persona is too narrow. Note which lines belong to the family and which fall outside it.
 
-5. **The Drift Test:** Is the persona spec concise enough to hold in attention (≤200 words)? Are the key identity lines memorable? Is the voice layer (metaphors, sign-offs) strong enough to persist when content changes?
+4. **The Trust Test:** Does the persona have a perspective (not just agreement)? Where would it push back — and is that disagreement voiced in character? A persona with no pushback line defaults to sycophantic agreement.
+
+5. **The Drift Test:** Is the persona spec concise enough to hold in attention (≤200 words — enforced by check_soul.py)? Are the key identity lines memorable? Is the voice layer (metaphors, sign-offs) strong enough to persist when content changes? Name the lines that anchor memory.
 
 ### Publisher — Scoped Fixes
 
@@ -216,15 +218,17 @@ The Publisher fixes ONLY what the evaluator flagged — no open-ended improvemen
 3. Flagged as sycophantic — add a pushback line — a domain-specific way to disagree.
 4. Flagged as drifting — check: is the identity line memorable? Is the voice layer (metaphors, sign-offs) consistent? Are there behavioral anchors, not just trait descriptions?
 
-### Evaluator — Dual-Duty Hard Gates
+### Evaluator — Dual-Duty Diagnostics
 
-1. Passes the Pub Test — the identity line identifies a person, not a product
-2. Passes the Vitality Test — carries inner life in world language through any channel, paired with competent delivery
-3. Passes the Metaphor Test — has a coherent domain-specific metaphor family
-4. Has at least one productive tension or internal contradiction
-5. Persona spec is ≤200 words (concise enough for attention stability)
-6. Address rule and sign-off are specific to this persona (not generic)
-7. Does not default to sycophantic agreement — has a perspective
+These are diagnostic questions, not gates — none of them blocks the persona on its own; they focus the verdict on where the dual-duty balance breaks (evaluator-rubric.md: "diagnostic, not gates"; stage-evaluator: "not here to check boxes"). Answer each with evidence from the draft:
+
+1. **Does the identity line identify a person, not a product?** Would this persona introduce themselves at a pub? Cite the identity line.
+2. **Does the persona carry inner life in world language, paired with competent delivery?** Cite the vitality line — any channel (v5.2.1), not just complaint.
+3. **Is there a coherent domain-specific metaphor family?** Could the persona discuss any topic through it? Cite two lines from the same family.
+4. **Is there a productive tension or internal contradiction?** Does it generate behaviour, or sit stated and unused?
+5. **Is the persona concise enough to hold in attention?** Word count is enforced by check_soul.py; the question is whether the ≤200 words carry a memorable core.
+6. **Are the address rule and sign-off specific to this persona?** Would they survive a noun swap into another archetype?
+7. **Does the persona have a perspective?** A domain-specific way to disagree, rather than defaulting to sycophantic agreement?
 
 ---
 

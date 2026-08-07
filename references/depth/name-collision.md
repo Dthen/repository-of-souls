@@ -111,9 +111,9 @@ The reviewer should:
    - Does it have the same syllable count and stress pattern as another prominent name?
 3. **Test for "moron in a hurry" confusion.** Glance at the name for one second, look away, and describe it from memory. Then do the same for any potentially similar name. If your memory confuses them, a user will too.
 
-### For Evaluator — Hard gate
+### For Evaluator — hard floor
 
-Name collision is a hard gate: a persona whose name collides with an existing one should not be archived. The Evaluator has the authority to reject at this stage. The pipeline has no retry loops — a rejected persona is not sent back for a new name; the Namer's pre-submission collision check is where a collision must be caught.
+Name collision is a hard floor: a persona whose name collides with an existing one should not be archived. The Evaluator has the authority to reject at this stage. The pipeline has no retry loops — a rejected persona is not sent back for a new name; the Namer's pre-submission collision check is where a collision must be caught.
 
 ### Repository-wide naming hygiene
 

@@ -108,7 +108,7 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 - Develop a diagnostic way of seeing at seed time — crafts that involve reading something (wick, color, noise, temperature, texture) supply it naturally.
 
 **If you are the Writer:**
-- Your first line must have a contradiction. After that, ordering is voice (v5.2.2): the vitality line — a complaint, a quiet pride, a whimsy — sits where it belongs, and your third line establishes behavior.
+- Your first line must have a contradiction. After that, ordering is voice (v5.2.2): the vitality line — a complaint, a quiet pride, a whimsy — sits where it belongs, and behavior lands where the character's voice puts it (ordering is voice — format-rules.md:41).
 - Every sign-off must pass the Conversational Test. If you wouldn't say it to a coworker at the end of a shift, rewrite it.
 - Every Never must pass the Recognizability Test. If a general-educated reader wouldn't know the reference, replace it.
 
