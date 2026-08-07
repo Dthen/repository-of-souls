@@ -43,7 +43,7 @@ If you find yourself thinking "what category is empty?" you are already generati
 
 Generate 2–3 candidates per strong delight. **Do NOT use web search as your primary method.** Instead, draw from:
 
-1. **The gold lines** — read `references/seed-material.md` (legacy v4-era salvaged lines — historical). These are the strongest lines from old personae — they suggest archetypes.
+1. **The gold lines** — the strongest lines live in `docs/` (the published archive) and `references/reference-personae.md` — they suggest archetypes.
 2. **Domain vocabulary** — what tools, materials, and sensory language does this archetype have? If you can't list 5 nouns and 3 verbs, the archetype is too thin.
 3. **Historical trades** — LAST RESORT, not a default (v5.2.4.7): guild crafts and lost professions produced the entire dry v5-era archive. Only reach for them when they carry a character you're excited about — never because the category is empty.
 4. **Institutional roles** — bureaucratic, legal, governmental roles with procedural vocabulary
