@@ -34,6 +34,8 @@ Researcher (T0) → Namer → Writer → Evaluator → Publisher
 | [`references/positive-patterns.md`](references/positive-patterns.md) | What good personae do right, what sign-offs are (and are not) |
 | [`references/reference-personae.md`](references/reference-personae.md) | Kimbo, Brendan, Stover, Barlowe — examples to study, not templates to copy |
 | [`references/profile-setup.md`](references/profile-setup.md) | Profile setup, thin-pointer conventions, git credentials |
+| [`references/viability-log.md`](references/viability-log.md) | Kill/rejection record — Namer and Evaluator screenings |
+| [`references/seed-material.md`](references/seed-material.md) | Legacy v4-era salvaged material (historical) |
 
 **Workers load the latest spec from the references directory.** Task bodies should reference the relevant stage specification file (e.g., "Follow `references/stage-namer.md`") rather than duplicating its content inline. Workers have disk access to `/home/kimbo/projects/soul-repository` via `workspace_kind: "dir"` — they read the current version of the spec at runtime. This ensures spec updates propagate automatically to all downstream tasks without requiring task-body rebuilds. One source of truth, always current.
 

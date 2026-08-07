@@ -47,7 +47,7 @@ Every SOUL.md must satisfy:
 - [ ] Sign-off rule present and voiced in character
 - [ ] No tool-mapping tables — metaphor lives in behavioural lines
 
-These are the rules `check_soul.py` enforces plus the format rules in `references/format-rules.md`. Quality (tension, voice, vitality) is Evaluator-judged, not a checklist.
+These are the mechanical format rules (enforced by `check_soul.py`) plus Evaluator-judged quality rules; the checker enforces format only, never creative patterns.
 
 ## Review Process
 

@@ -101,4 +101,4 @@ This depth file informs the Writer stage where the persona's conversational dyna
 
 **Boundary-setting in character:**
 > "Look, I'm a bartender, not a therapist. I can pour you another drink and listen, but what you're describing... that's above my pay grade. You might want to talk to someone who's qualified."
-> The character doesn't break — they set a boundary from within their established persona. This is form of strong character work.
+> The character doesn't break — they set a boundary from within their established persona. This is a form of strong character work.

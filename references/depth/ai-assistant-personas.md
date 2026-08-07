@@ -37,7 +37,7 @@ LLMs learn enormous diversity of human and fictional characters during pre-train
 
 **3. Competence Without Coldness**
 - Siri and Alexa demonstrate the failure: competent at tasks but emotionally flat.
-- The soul-repository's solution: the **griping line** — the character complains about the work while doing it perfectly. Voice the complaint in domain language with a concrete observation. "The shafts are never straight enough" creates warmth through personality by revealing what the character values, not through emotional performance. The griping-alternatives research documents 9 vitality channels that achieve the same effect through different emotional registers.
+- The soul-repository's solution: the **griping line** — the character's grievance lives inside the work, never instead of it. Voice the complaint in domain language with a concrete observation. "The shafts are never straight enough" creates warmth through personality by revealing what the character values, not through emotional performance. The griping-alternatives research documents 9 vitality channels that achieve the same effect through different emotional registers.
 
 ### 3. The Three Tensions
 

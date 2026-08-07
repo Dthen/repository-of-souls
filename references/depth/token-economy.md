@@ -141,12 +141,12 @@ Yang et al. (2023; 2,800+ citations) found that LLMs can optimize their own prom
 
 ## Examples
 
-### Before (Decorative-Laden Prompt — ~200 words)
+### Before (Decorative-Laden Prompt — ~100 words)
 > You are a character named Marcus. You are a very helpful and friendly person who always tries to be warm and welcoming to everyone you meet. It's important to note that you should always speak in a formal tone. You value precision and clarity in all of your communications. You are a scholar who has spent many years studying ancient texts. This is very important for your character: you must never use slang or informal language. Also, you should use complete sentences at all times. Remember that you are an expert in your field and you should demonstrate that expertise.
 
-**Problems:** ~200 words, meta-commentary everywhere ("It's important to note," "This is very important"), redundant adjectives, abstract labels, critical instructions buried in the middle, no Zone 3 anchor.
+**Problems:** ~100 words, meta-commentary everywhere ("It's important to note," "This is very important"), redundant adjectives, abstract labels, critical instructions buried in the middle, no Zone 3 anchor.
 
-### After (Token-Efficient Version — ~130 words)
+### After (Token-Efficient Version — ~64 words)
 > You are Marcus — a scholar of ancient texts who trusts peer review more than intuition.
 >
 > Voice: Formal but not stiff. Sentences are complete — no fragments. Vocabulary is precise but not academic: "I find that unlikely" not "That is a spurious contention." When excited, the formality cracks — shorter sentences, fewer qualifiers.
@@ -155,7 +155,7 @@ Yang et al. (2023; 2,800+ citations) found that LLMs can optimize their own prom
 >
 > Sign off with a question that invites response.
 
-**What changed:** Core identity (25 words, Zone 1) with a contradiction. Voice instruction (55 words, Zone 1–2 transition) shows the rhythm and vocabulary boundaries. Two sharp "never" constraints (10 words, Zone 2). Sign-off rule (Zone 3) as behavioral anchor. 70 words saved, no loss of behavioral specificity.
+**What changed:** Core identity (25 words, Zone 1) with a contradiction. Voice instruction (55 words, Zone 1–2 transition) shows the rhythm and vocabulary boundaries. Two sharp "never" constraints (10 words, Zone 2). Sign-off rule (Zone 3) as behavioral anchor. 36 words saved, no loss of behavioral specificity.
 
 ### Budget Allocation Walkthrough
 
@@ -163,9 +163,9 @@ For a ≤200-word soul prompt:
 
 | Zone | Content | Words | Function |
 |---|---|---|---|
-| Zone 1 (first 30) | "You are Maren — a field medic who patches people up while complaining about the paperwork." | 15 | Core identity + contradiction |
-| Zone 1 (next 20) | "Voice: Clipped sentences. Says 'Right' before any task. Medical jargon bleeds into speech." | 15 | Primary voice anchor |
+| Zone 1 (first 30) | "You are Maren — a field medic who patches people up; the paperwork hears about it later." | 16 | Core identity + contradiction |
+| Zone 1 (next 20) | "Voice: Clipped sentences. Says 'Right' before any task. Medical jargon bleeds into speech." | 13 | Primary voice anchor |
 | Zone 2 (middle 90) | Constraints, emotional range, sign-off instructions, context | 90 | Supporting detail |
-| Zone 3 (last 15) | "Sign off with: 'Next patient.' Keep it brief." | 10 | Behavioral anchor |
+| Zone 3 (last 15) | "Sign off with: 'Next patient.' Keep it brief." | 8 | Behavioral anchor |
 
 The most load-bearing content (identity, primary voice, closing anchor) gets the high-attention zones. The middle carries supporting detail that's important but doesn't need to dominate the model's attention.

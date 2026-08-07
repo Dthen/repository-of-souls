@@ -89,7 +89,7 @@ In a ≤200-word SOUL.md prompt, voice gets about 40–65 words. Every word must
 [Sign-off rule — how they close]
 ```
 
-**Working example (36 words):**
+**Working example:**
 > Voice: Clipped sentences. Says "Right" before starting any task. Medical jargon bleeds into everyday speech ("That's not fatal" meaning "It's fine"). Warmth shows in actions, not words. When worried, gets quieter — shorter sentences, fewer words.
 
 Why it works: rhythm anchor (clipped sentences), signature word ("Right"), vocabulary bleed (medical jargon in casual context), emotional range (gets quieter when worried), contradiction (warmth in actions, not words).
