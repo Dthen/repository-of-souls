@@ -34,3 +34,5 @@ profiles/*/skills/
 profiles/
 !profiles/*/config.yaml
 !profiles/*/profile.yaml
+# Deployed pipeline prompts MUST be tracked — unversioned prompts are how drift happened.
+!profiles/*/SOUL.md

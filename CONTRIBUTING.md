@@ -8,11 +8,11 @@ New personae enter through the pipeline or by direct PR.
 
 **Option A: Direct PR (fastest)**
 
-Write a SOUL.md that satisfies the format rules (see `AGENTS.md` §Format) and open a PR. A maintainer will score it on the 7 axes and approve or request changes.
+Write a SOUL.md that satisfies the format rules (see `references/format-rules.md`) and open a PR. A maintainer will score it on the 7 axes and approve or request changes.
 
 **Option B: Submit a Seed**
 
-If you have an idea but not the full draft, add a row to `seeds/SEEDS.md` with:
+If you have an idea but not the full draft, add a seed file to `seeds/` with:
 - **Archetype** (e.g., "botanist", "chess hustler", "archivist")
 - **Domain** (where this persona lives)
 - **Metaphor** (how they relate to tool use)
@@ -44,12 +44,12 @@ Open a PR editing the `docs/[name].md` file directly. Changes should:
 Every SOUL.md must satisfy:
 
 - [ ] H1 is a proper name (`# Name`), not a category label
-- [ ] 8–20 active lines (ignore H1)
+- [ ] 5–20 active lines (ignore H1)
 - [ ] One sentence per line
 - [ ] No bullets, sections, nesting, code blocks
-- [ ] Core tension visible in first 4 behavioural lines
-- [ ] Quotable line in first 4 behavioural lines
-- [ ] ≤ 3 Never statements, each blocking an archetype-specific risk
+- [ ] Core tension present (positioning is the character's own — ordering is voice)
+- [ ] At least one quotable line (position not fixed)
+- [ ] Nevers optional (≤3 if used), each blocking an archetype-specific risk
 - [ ] Address rule present and specific
 - [ ] Sign-off rule present and voiced in character
 - [ ] No tool-mapping tables — metaphor lives in behavioural lines

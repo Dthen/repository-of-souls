@@ -108,7 +108,7 @@ Based on your analysis, decide:
 
 **PICK WITH NOTES** — This persona has a pulse but has 1–3 specific, fixable issues. The issues are scoped (a description line that needs rewriting, a sign-off that could be stronger, a griping line that's a fingerprint). The Publisher applies targeted fixes only — not a rewrite. The soul is fundamentally sound.
 
-**REJECT** — This persona has no pulse. It reads like a template, a job description, or a character who hasn't been inhabited. The seed may need to be killed, or the Writer needs to try again with clearer guidance.
+**REJECT** — This persona has no pulse. It reads like a template, a job description, or a character who hasn't been inhabited. The seed is killed — no retry loops (see orchestration.md).
 
 What separates the three tiers:
 - A PICK has a genuine identity contradiction + a vitality line in world language (any channel) + at least one diagnostic line + at least one surprising line, AND has no structural flaws that need fixing.
@@ -213,7 +213,7 @@ Body must include:
 - The draft file path (`drafts/<name>.md`)
 - The evaluation notes (`evaluations/<name>.md`)
 - Reference the Publisher instructions (`references/stage-publisher.md`)
-- Note: "APPROVE path — no fixable issues. Proceed directly to archive."
+- Note: "APPROVE path — no fixable issues. Proceed directly to docs/."
 
 **If PICK WITH NOTES:** Create a Publisher task with the fix list:
 
