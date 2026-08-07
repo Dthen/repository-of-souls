@@ -285,4 +285,4 @@ Call `kanban_complete` with:
 
 ## Version
 
-v5.2.4.4 — 2026-08-07
+v5.2.4.5 — 2026-08-07
