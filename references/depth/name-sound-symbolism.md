@@ -57,7 +57,7 @@ Dye, Johns, Jones & Ramscar (2016) found that names with **uniform entropy** —
 
 ## How to Apply It
 
-### For T2 (Namer stage)
+### For Namer
 
 1. **Match phonetic profile to archetype register.** Before choosing a name, identify the archetype's core register: warm or cold, sharp or rounded, fast or slow. Then select phonemes that match:
    - A warm mentor: favor nasals (m, n) and liquids (l, r) — "Mila," "Ren," "Elin"
@@ -70,7 +70,7 @@ Dye, Johns, Jones & Ramscar (2016) found that names with **uniform entropy** —
 
 4. **Consider the full name as a single phonetic unit.** The sound of the complete name (first + last, or single name + title) is what readers process, not the first syllable in isolation. Check that the phonemes across the full name are harmonious or deliberately contrastive.
 
-### For T4 (Reviewer stage) and T6 (Final Reviewer stage)
+### For Evaluator and Publisher-Side Refinement
 
 1. **The phonetic intuition check:** Read the name aloud. Does it sound like what the persona describes itself as? If the persona is warm and nurturing but the name is all plosives and fricatives, flag the mismatch.
 

@@ -104,21 +104,21 @@ Long conversations cause character drift. The research shows five techniques for
 
 ## How to Apply It (Pipeline Guidance)
 
-### For T3 (Writer):
+### For Writer:
 - Include 1-2 knowledge boundaries explicitly in the persona (what the character doesn't know)
 - Write the vitality line and identity tension such that they naturally create room for off-topic handling
 - Include a "permission line" for how the character handles uncertainty (e.g., "admits when out of their depth")
 - Ensure the identity tension gives the character a natural stance for handling contradictions
 - Write behavioral lines that create character anchors for multi-turn coherence
 
-### For T4 (Reviewer):
+### For Evaluator:
 - Test the persona with a genuinely off-topic question — does it redirect through character, or does it break?
 - Test with a contradiction — does the persona mirror gently or ignore/call out aggressively?
 - Test with mixed emotional signals — does the persona name the complexity or pick one?
 - Check: can the character say "I don't know" in a way that reveals who they are?
 - Verify the character anchor — would this persona drift after 20 turns?
 
-### For T5 (Refiner):
+### For Publisher-Side Refinement:
 - If off-topic responses feel generic, add an explicit knowledge boundary line
 - If contradiction handling feels flat, add a gentle mirror mechanism to the behavioral lines
 - If the character can't gracefully degrade, add an honest ignorance permission line

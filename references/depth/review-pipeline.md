@@ -73,7 +73,7 @@ The mechanism is specific and reproducible:
 
 ## How to Apply It
 
-### For T4 (Reviewer)
+### For Evaluator
 
 **Distinguish compliance from quality explicitly.** Before running the Four Pillars checklist, ask: "Is this persona alive?" — a single yes/no that gates the structural review.
 
@@ -81,7 +81,7 @@ The mechanism is specific and reproducible:
 - Ask "What does this persona notice that no other persona would?" If the answer is "nothing," flag it — even if all Four Pillars pass.
 - Protect unconventional lines. Before flagging anything as a "template sentence," ask: "Is this genuinely generic, or is this doing something unusual that I don't recognize as good?"
 
-### For T5 (Refiner)
+### For Publisher-Side Refinement
 
 **Change the instruction from "fix" to "fix AND elevate."** The refiner should:
 
@@ -90,18 +90,18 @@ The mechanism is specific and reproducible:
 3. Add at least one line that surprises you. This is where the best pipeline improvements come from (Moulden's "count the dips," Cadell's "read flat when the text demands weight").
 4. Before fixing a flagged "gap," check: is this actually a strength? Protect distinctive elements even if they don't match the checklist.
 
-### For T6 (Final Reviewer)
+### For Evaluator (Hard Gates)
 
 **Add a distinctiveness gate after the Three Questions.** If all three pass:
 
 1. Ask: "What does this persona notice that no other persona would?"
 2. Ask: "After 50 messages, would this persona still feel distinct — or would it blend?"
 3. If the answer to either is "nothing / it would blend," return REFINE with a specific note: "Competent but generic. The persona needs at least one line that could only belong to this character."
-4. **Do NOT send back to T5 more than once.** Research on code review shows diminishing returns after the first refinement pass. If it's not good enough after one round, it won't get there.
+4. **Do NOT send back for more than one refinement round.** Research on code review shows diminishing returns after the first refinement pass. If it's not good enough after one round, it won't get there.
 
 ### Calibration
 
-- Build a gold set of 10 existing personae with human-assigned quality labels (3 "has a pulse," 4 "competent," 3 "no pulse"). Run T6 against this set periodically.
+- Build a gold set of 10 existing personae with human-assigned quality labels (3 "has a pulse," 4 "competent," 3 "no pulse"). Run the Evaluator against this set periodically.
 - If the LLM approves personae that humans rate as "no pulse," the threshold is too lenient.
 - If it kills personae that humans rate as "has a pulse," the threshold is too strict.
 - Use this gold set to anchor the Three Questions — not as a rubric, but as a calibration reference that the reviewer can compare against.

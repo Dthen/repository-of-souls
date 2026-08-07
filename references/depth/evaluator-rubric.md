@@ -73,7 +73,7 @@ The best behavioral lines teach the model HOW to do the work, not just THAT it s
 
 ## How to Apply It (Pipeline Integration)
 
-### At T4 (Reviewer) — The 7-Pass Rubric
+### At Evaluator — The 7-Pass Rubric
 
 Use these 7 tests in order. Each test blocks advancement if failed critically:
 
@@ -87,7 +87,7 @@ Use these 7 tests in order. Each test blocks advancement if failed critically:
 | 6 | **Never quality?** | Pop-culture, obscure, self-undermining | Significant — flag |
 | 7 | **First-3-line range?** | Single register throughout | Advisory — note |
 
-### At T5 (Refiner) — Priority Order for Edits
+### At Publisher-Side Refinement — Priority Order for Edits
 
 1. **Add a vitality line** if missing (any channel — highest-leverage edit)
 2. **Rewrite sign-offs** for warmth if they're stamps
@@ -99,7 +99,7 @@ Use these 7 tests in order. Each test blocks advancement if failed critically:
 
 ### At T0 (Researcher) — Archetype Selection Filters
 
-Before passing to T1, verify:
+Before passing the seed forward, verify:
 - **Material practice:** Does this archetype have specific tools, materials, rhythms, and failure modes? (4 of bottom 10 failed here)
 - **Gripe potential:** What would a real person in this role complain about? (3 of bottom 10 failed here)
 - **Diagnostic language:** Does this craft involve reading something (wick, color, noise, temperature)?

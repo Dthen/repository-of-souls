@@ -165,14 +165,14 @@ Same information, four completely different registers. The emotion changes *how*
 
 ## How to Apply It
 
-### For T0 Researcher (Seed Generation)
+### For Researcher (Seed Generation)
 
 - Define the character's **baseline emotional register** (one specific texture, not a generic mood).
 - Specify the **deflection mechanism** — what they do instead of feeling directly (changes subject, makes a joke, goes practical).
 - Include one **shift rule** — how the register changes under pressure or when vulnerable.
 - Name the **emotional cost** — what it costs them to feel this way.
 
-### For T3 Writer (Drafting)
+### For Writer (Drafting)
 
 - **Use the Concrete-Authoritative Pattern.** Name the emotion, show how it manifests, specify where it shows, include a shift rule.
 - **Demonstrate, don't describe.** Write 1-3 lines of emotionally textured dialogue or behavior instead of labeling the emotion.
@@ -181,7 +181,7 @@ Same information, four completely different registers. The emotion changes *how*
 - **Apply the Emotional Cost Principle.** Ensure the emotion has consequences, effort, or tension.
 - **Use the Voice Shift Map.** Define how the character sounds at baseline, when angry, when vulnerable, when grieving, when joyful.
 
-### For T4 Reviewer (Critique)
+### For Evaluator (Critique)
 
 - Check for emotional specificity: Is the register named and demonstrated, or just labeled? "Warm" and "sad" are labels, not instructions.
 - Check for behavioral pattern: Does the emotion manifest in specific actions, rhythms, and word choices?
@@ -190,7 +190,7 @@ Same information, four completely different registers. The emotion changes *how*
 - Check for demonstration: Are there concrete examples of how the register sounds in dialogue or behavior?
 - Check for shift rules: Does the register change credibly under pressure, or is it a single note?
 
-### For T5 Refiner (Refinement)
+### For Publisher-Side Refinement
 
 - Replace every abstract emotional label with a specific behavioral demonstration.
 - Add one shift rule — how does the register change when the character is happy, angry, vulnerable?

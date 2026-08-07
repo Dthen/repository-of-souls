@@ -77,13 +77,13 @@ Readers approach characters with schemas (mental frameworks for understanding ty
 
 ## How to Apply It
 
-### For T0 Researcher (Seed Generation)
+### For Researcher (Seed Generation)
 
 - When generating seed concepts, include at least one behavioral detail that implies a contradiction, not just a trait description.
 - Surface the character's want (conscious) and hint at the need (unconscious) in the seed.
 - Include a "specificity anchor" — one concrete object, habit, or gesture that radiates meaning.
 
-### For T3 Writer (Drafting)
+### For Writer (Drafting)
 
 - **Lead with specificity.** Open character introductions with a specific behavior, not a trait label.
 - **Embed one contradiction.** It doesn't need explaining — just present it.
@@ -92,7 +92,7 @@ Readers approach characters with schemas (mental frameworks for understanding ty
 - **Leave one gap.** Don't explain everything. Let the reader wonder about one thing — the wondering *is* the engagement.
 - **Show the wound, not the scar.** How does past hurt manifest in present behavior? Don't say "she had trust issues." Show her reading texts over her partner's shoulder.
 
-### For T4 Reviewer (Critique)
+### For Evaluator (Critique)
 
 - Check for specificity: Are emotions labeled (shallow) or demonstrated through specific behavior (deep)?
 - Check for contradiction: Does the character have one genuine inner tension, or are they internally consistent?
@@ -100,7 +100,7 @@ Readers approach characters with schemas (mental frameworks for understanding ty
 - Check for vulnerability: Is the character performing throughout, or do they crack somewhere? Is the crack earned?
 - Check for the Distillation Test: Would removing detail make the character less real? If yes, depth is lacking.
 
-### For T5 Refiner (Refinement)
+### For Publisher-Side Refinement
 
 - Replace generic descriptions with specific ones (use the specificity table above).
 - If the character has multiple traits, check if they all flow from one core tension. If not, prune.

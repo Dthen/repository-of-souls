@@ -108,14 +108,14 @@ Griping creates the illusion of personality through complaint, but it's passive.
 
 ## How to Apply It
 
-### For T0 Researcher (Seed Generation)
+### For Researcher (Seed Generation)
 
 - Surface the "first-thing-noticed" for the character. What do they register when entering any space?
 - Identify the character's blind spot — what they *don't* notice reveals as much as what they do.
 - Note the character's relationship to their work (one of the seven modes).
 - Define the deflection mechanism — what do they do instead of feeling directly?
 
-### For T3 Writer (Drafting)
+### For Writer (Drafting)
 
 - **Before writing any character passage, ask:**
   1. What does this character notice first? (worldview)
@@ -133,7 +133,7 @@ Griping creates the illusion of personality through complaint, but it's passive.
 
 - **Vary sentence rhythm** to match emotional state. Let the voice *feel* the emotion through its structure.
 
-### For T4 Reviewer (Critique)
+### For Evaluator (Critique)
 
 - Check for subtext: Is there a gap between what the character says and what the reader understands?
 - Check for selective perception: Does the character notice things that reveal their profession, trauma, values, or desire?
@@ -141,7 +141,7 @@ Griping creates the illusion of personality through complaint, but it's passive.
 - Check for the substitution principle: Are emotions stated (labeled) or shown (through specific actions)?
 - Check for active engagement: Is the character a passive observer/complainer, or do they do things that reveal their interior?
 
-### For T5 Refiner (Refinement)
+### For Publisher-Side Refinement
 
 - Add one concrete detail of selective perception — what the character notices that someone else wouldn't.
 - Introduce one subtext technique: deflection, over-specific detail, contradictory action, loaded silence, or redirect to practicality.

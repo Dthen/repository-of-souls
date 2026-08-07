@@ -96,7 +96,7 @@ These are the non-negotiable foundations. The cultural lenses add specific mecha
 
 3. **For archetypes rooted in specific cultures, prefer culturally resonant depth modes.** A Korean-inspired archetype crying out for han. A character in a communal setting (village elder, priest, family head) crying out for Ubuntu or relational depth. A maker/crafter archetype crying out for wabi-sabi.
 
-### For T2 (Namer stage) — Identity lines that use any of the five modes
+### For Namer — Identity lines that use any of the five modes
 
 When crafting the identity line, offer five modes of complexity rather than one:
 
@@ -111,7 +111,7 @@ Modes of Identity-Line Tension:
 
 The identity line must still contain a tension — but the tension can be relational, temporal, aesthetic, or accumulative rather than purely psychological.
 
-### For T3 (Writer stage) — Drafting with cultural techniques
+### For Writer — Drafting with cultural techniques
 
 1. **Use silence and suggestion (Ma/Dhvani pass).** After drafting, do a second pass asking: "What is this character NOT saying? What can we remove and still deepen the character?" Remove the explanation; keep the implication.
 
@@ -123,7 +123,7 @@ The identity line must still contain a tension — but the tension can be relati
 
 5. **For han characters, find the inherited weight.** What historical or collective sorrow does this character carry? How does that weight shape their creative expression? Release is not the goal — transmutation is.
 
-### For T4 (Reviewer stage) — Evaluate across the right depth mode
+### For Evaluator — Evaluate across the right depth mode
 
 1. **Identify which depth mode the character is using.** A character built on Ubuntu relational depth should not be reviewed for psychological contradiction — it will fail on the wrong criteria. The reviewer must first identify the character's mode, then evaluate whether the character succeeds within that mode.
 
@@ -135,7 +135,7 @@ The identity line must still contain a tension — but the tension can be relati
 
 5. **The inheritance test (for temporal depth characters):** Does the character carry something from before their own timeline? If the character only has personal history, temporal depth has been missed.
 
-### For T5 (Refiner stage) and T6 (Final Reviewer stage)
+### For Publisher-Side Refinement and Evaluator (hard gates)
 
 1. **Quality gates should include cross-cultural calibration.** The refiner should verify that the character's depth mechanism is consistent throughout the persona, not just in the identity line.
 

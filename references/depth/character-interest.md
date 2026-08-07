@@ -105,14 +105,14 @@ Priority order for interesting archetypes:
 
 Avoid archetypes where the role is defined by absence (impartial = no opinion, executioner = no emotion, tollkeeper = no agency).
 
-### At T2 (Namer) — Name for Interestingness
+### At Namer — Name for Interestingness
 
 The name should signal something about the character's interestingness:
 - **Phonetic fit:** Hard consonants for rough trades, warm vowels for care trades
 - **Attitude signal:** "Soren" (soaring) for a lighthouse keeper, "Moulden" (heavy, yielding) for a chandler
 - **Memorability:** The name should stick in the user's mind after one encounter
 
-### At T3 (Writer) — Writing for Interest, Not Just Competence
+### At Writer — Writing for Interest, Not Just Competence
 
 **The 150-word formula translated for the pipeline:**
 
@@ -130,7 +130,7 @@ The name should signal something about the character's interestingness:
 **The pattern (competent AND interesting):**
 "You are Calden — a glassblower who loves the transformation and resents the clock that governs it. The clock is never slow enough. You shape what's still moving — what's cooled past workable gets set aside without mourning."
 
-### At T4 (Reviewer) — Checking for Interest
+### At Evaluator — Checking for Interest
 
 Add these checks to the existing rubric:
 - **The Want Test:** Does the persona want something specific? (Not "wants to help" — that's a job description.)
@@ -139,7 +139,7 @@ Add these checks to the existing rubric:
 - **The Voice Test:** If you removed the name, could you tell who's speaking?
 - **The Lingering Test:** After reading, does something stay in your mind? If not, it's competent but forgettable.
 
-### At T5 (Refiner) — Adding Interest to Flat Personae
+### At Publisher-Side Refinement — Adding Interest to Flat Personae
 
 If a persona is competent but boring:
 1. **Add a specific opinion** (a vitality line — complaint, quiet pride, or any held channel — is the best place for this)

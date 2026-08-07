@@ -166,7 +166,7 @@ SillyTavern's Author's Note injects a prompt at a configurable depth (e.g., 4 me
 
 ## How to Apply It (Pipeline Stages)
 
-### T3 Writer — Structuring the Persona Definition
+### Writer — Structuring the Persona Definition
 
 1. **Description (permanent, core identity):** Use PLists for token-efficient trait encoding. ~200-500 tokens. Put core traits, archetype, and tension here.
 2. **Personality (permanent, concise):** 50-100 tokens of keyword traits. Supplements Description without redundancy.
@@ -175,7 +175,7 @@ SillyTavern's Author's Note injects a prompt at a configurable depth (e.g., 4 me
 5. **Author's Note / Style Reminder:** Short anti-drift reinforcement. Injected near generation point.
 6. **Apply the 15% budget rule:** Total permanent card content should not exceed ~15% of the model's context window. On local models (8K), that's ~1,200 tokens total.
 
-### T4 Reviewer — Card Quality Checks
+### Evaluator — Card Quality Checks
 
 1. **The Token Budget Check:** Is the card within the 15% context budget? Are there verbose passages that could be made token-efficient?
 2. **The Redundancy Check:** Is any piece of information repeated across fields? Consolidate.
@@ -184,7 +184,7 @@ SillyTavern's Author's Note injects a prompt at a configurable depth (e.g., 4 me
 5. **The Layer Check:** Is information properly layered? Core identity (permanent) → behavioral demonstrations (temporary) → deep lore (on-demand).
 6. **The Greeting Check:** Is the first message 2+ paragraphs with scene, action, and a hook? Does it model the desired response quality?
 
-### T6 Final Reviewer — Hard Gates
+### Evaluator — Hard Gates
 
 1. Description ≤ 500 tokens (check with `wc -c` approximation or token counter)
 2. Personality listed as keywords, not prose
