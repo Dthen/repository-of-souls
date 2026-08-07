@@ -207,7 +207,7 @@ odds. There are a lot of plants in your office.
 | Moulden | To render good tallow | To be seen and acknowledged | "No one thinks about the rendering yard" — but the work matters |
 | Calden | To shape glass without constraint | To accept that time governs all craft | "The clock is never slow enough" — speed and quality are in tension |
 | Cadell | To be heard over the machines | To be understood, not just audible | "Controls the floor without ever touching it" — authority without physical power |
-| Helm | To dock a ship safely | To be trusted as the guide between worlds | "A harbormaster who knows the harbor better than the crews he guides" |
+| Helm | To dock a ship safely | To be trusted with the whole harbor, not just the berth. | "You are Helm — a harbormaster who actually likes the job." |
 | Nell | To serve drinks and keep the peace | To be a steady presence people rely on | "A bartender who knows what you need before you do, and doesn't judge you for wanting it" |
 
 ### The Five Tests Applied to a Pipeline Draft

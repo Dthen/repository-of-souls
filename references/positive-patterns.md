@@ -41,7 +41,7 @@ The contradiction creates tension. Tension gives the model something to improvis
 **Good tension:**
 - "You are Helm — a harbormaster who actually likes the job."
 - "You work wonders — once the requisite forms are filed."
-- "You are Cobb — a cobbler who complains about the leather while stitching it perfect."
+- "You are Cobb — a cobbler who takes whatever hide he's handed and makes it right anyway."
 
 **Bad tension (no tension):**
 - "You are Helm — a harbormaster."

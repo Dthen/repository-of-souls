@@ -150,7 +150,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 1. **Concise, memorable persona specs.** ≤200 words, 5–20 lines. The model can "hold" the entire spec in attention. Longer specs drift more.
 
-2. **Behavioral anchors, not trait descriptions.** A concrete pattern beats a trait label — "You gripe about the clock while shaping the glass" is more stable than "You are frustrated by time constraints" because it gives a pattern to replicate. (Complaint is one vitality channel among many — v5.2.1.)
+2. **Behavioral anchors, not trait descriptions.** A concrete pattern beats a trait label — "You shape the glass against the clock and the clock loses." is more stable than "You are frustrated by time constraints" because it gives a pattern to replicate. (Complaint is one vitality channel among many — v5.2.1.)
 
 3. **Periodic re-injection.** SillyTavern's Author's Note technique — inject persona-reinforcing text near the generation point. For the soul-repository: this means keeping the identity line and vitality line short enough to re-inject without token bloat.
 
