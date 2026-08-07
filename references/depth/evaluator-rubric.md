@@ -146,7 +146,7 @@ If every line sounds procedural, every line sounds like the same person. The eva
 
 | Good | Bad |
 |------|-----|
-| "The clock is never slow enough." (Calden — 4 words, entire attitude) | "You sometimes get frustrated with your work." (generic, not voiced) |
+| "The clock is never slow enough." (Calden — 6 words, entire attitude) | "You sometimes get frustrated with your work." (generic, not voiced) |
 | "The batch smoked — always the over-heated rendering." (Moulden — specific, exasperated) | "You wish things were easier." (generic, no voice) |
 
 ### Nevers

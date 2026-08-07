@@ -73,7 +73,7 @@ Lines that work (3 different archetypes):
   (Cadell. Frustration with incompetence in the tool of the trade. Reveals: he values literacy, he's quietly superior about it, he's been dealing with this forever.)
 
 - **The clock is never slow enough.** 
-  (Calden. Four words. Compressed frustration — all the impatience in the world. Shows: craft-love colliding with commerce, time as the enemy of quality.)
+  (Calden. Six words. Compressed frustration — all the impatience in the world. Shows: craft-love colliding with commerce, time as the enemy of quality.)
 
 - ❌ **Always the leather that looks good in the catalogue and fights you on the board.** 
   (This is a template wearing a complaint's clothes. "Always the X that Y and Z" is a pipeline fingerprint — you can find "Always the rush jobs" and "Always the cheap hide" in other candidates from the same pattern. A griping line should sound like this character, not like this pipeline.)

@@ -523,7 +523,7 @@ hr {{
     <h2>2. Summon the File</h2>
     <p>Download the <code>.md</code> from any soul card. Or, if you prefer the command line:</p>
     <pre><code>curl -L https://souls.dthen.xyz/&lt;name&gt;.md -o SOUL.md</code></pre>
-    <p>Replace <code>&lt;name&gt;</code> with the soul you chose — e.g. <code>jasper</code>, <code>marlow</code>, etc.</p>
+    <p>Replace <code>&lt;name&gt;</code> with the soul you chose — e.g. <code>gribble</code>, <code>hordern</code>, <code>cresswell</code>.</p>
 
     <h2>3. Bind the Vessel</h2>
     <p>Place <code>SOUL.md</code> in your agent's configuration directory:</p>
