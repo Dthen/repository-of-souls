@@ -221,5 +221,4 @@ These additions come from the research we've done on what makes personae work. T
 
 ---
 
-## Version
-v5.2.5 — 2026-08-07
+## Version v5.2.5 — 2026-08-07

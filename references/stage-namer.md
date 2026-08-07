@@ -144,5 +144,4 @@ If viability fails at any point:
 
 ---
 
-## Version
-v5.2.5 — 2026-08-07
+## Version v5.2.5 — 2026-08-07

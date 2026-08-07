@@ -90,6 +90,4 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 
 ---
 
-## Version
-
-v5.2.5 — 2026-08-07
+## Version v5.2.5 — 2026-08-07

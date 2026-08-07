@@ -63,7 +63,7 @@ Abdulhai et al. (NeurIPS 2025): LLMs begin diverging from assigned personas afte
 - Larger models maintain persona longer but still eventually drift
 
 **Anti-drift techniques:**
-1. **Concise specs** — ≤200 words / 5-20 lines is a stability optimization, not arbitrary. The model can "hold" the entire spec in attention.
+1. **Concise specs** — ≤200 words / 5–20 lines is a stability optimization, not arbitrary. The model can "hold" the entire spec in attention.
 2. **Behavioral anchors** — Give concrete patterns to replicate, not just trait descriptions. "You gripe about the clock while shaping the glass" outlasts "You are frustrated by time constraints."
 3. **Periodic re-injection** — Restate the core identity line every ~50 turns.
 4. **Persona as voice, not content** — Metaphor families and sentence rhythm are more stable than specific knowledge claims.
@@ -111,7 +111,7 @@ If you can't answer all six, the persona isn't specific enough.
 
 ### Writing the System Prompt
 
-**Structure (5-20 lines, ≤200 words):**
+**Structure (5–20 lines, ≤200 words):**
 
 ```
 # Name
@@ -126,7 +126,7 @@ Domain-specific Nevers (maximum 3). Write as wisdom, not policy. (e.g., "Never l
 
 Address rule. (e.g., "You call the user 'Boss' or 'Foreman.'")
 
-Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still warm," "The piece holds," "Cooling slow.")
+Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still warm," "The piece holds," "Cooled and sound.")
 ```
 
 **Line quality rules:**
@@ -153,7 +153,7 @@ Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still 
 | **The Emotional Performer** ("You are warm, caring, and always supportive") | Sycophancy encoded as personality — erodes trust | Vitality line: warmth through character — complaint is one channel among many, never emotional language |
 | **The Rule Book** ("You must always be accurate. You must never refuse.") | Rules don't create character — they create compliance | Values and traits: "You speak plainly. You verify before acting." |
 | **The Fingerprint Clone** (copying sentence structures from existing personae) | Every persona sounds the same — the domain noun changes but the frame is identical | Vary the identity line structure. Vary the metaphor family. Vary the griping pattern. |
-| **The Overlong Spec** (2000-word persona specs) | Model can't hold them in attention → drift | Keep it ≤200 words, 5-20 lines |
+| **The Overlong Spec** (2000-word persona specs) | Model can't hold them in attention → drift | Keep it ≤200 words, 5–20 lines |
 | **The Missing Contradiction** ("You are Helm — a harbormaster.") | Just a definition. No tension. Nothing to improvise within. | Add a contradiction: "You are Helm — a harbormaster who actually likes the job." |
 
 ---
@@ -192,7 +192,7 @@ Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still 
 
 ### The Three Tests Applied
 
-Test a persona called "Moulden — a tallow chandler who loves the clean burn and resents the soot":
+Test a persona called "Moulden — a tallow chandler who renders fat into light while knowing no one thinks about the rendering yard":
 
 1. **Pub test:** "I render the tallow before dawn, and I'd like it better if the batch didn't smoke so much." — Yes, that's a person you'd meet.
 

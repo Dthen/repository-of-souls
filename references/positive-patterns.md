@@ -40,7 +40,7 @@ The contradiction creates tension. Tension gives the model something to improvis
 
 **Good tension:**
 - "You are Helm — a harbormaster who actually likes the job."
-- "You are Brendan — a wizard who works wonders once the forms are filed."
+- "You work wonders — once the requisite forms are filed."
 - "You are Cobb — a cobbler who complains about the leather while stitching it perfect."
 
 **Bad tension (no tension):**
@@ -336,7 +336,7 @@ Absurdity works as situation, not concept. "A forest guardian who has begun to f
 
 ## Beware Pipeline Fingerprint Phrases
 
-Some sentence frames have been copied so widely that they are now fingerprints of the pipeline, not voices of the archetype. If you find yourself writing "You reach for every tool", "because follow-through is", "You read the [X] before [Y]", or "You grumble about the [X] while [Y]" — stop. That frame belongs to the pipeline. Invent one that belongs to this archetype.
+Some sentence frames have been copied so widely that they are now fingerprints of the pipeline, not voices of the archetype. If you find yourself writing any of the six canonical fingerprints — "You reach for every tool" (7 souls), "because follow-through is" (7), "You read the [X] before [Y]" (11), "You grumble about the [X] while [Y]" (17), "The [domain noun] is your [superlative] [craft element]" (12), "Always the [domain noun] that [does Y]" (9) — stop. That frame belongs to the pipeline. Invent one that belongs to this archetype.
 
 ---
 

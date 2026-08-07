@@ -199,12 +199,14 @@ These are the only hard negatives. Everything else is voice.
 2. **No roleplay greetings in sign-offs.** A sign-off is something the model can *say*, not a gesture it can't perform. "Back to the press" works. "*Looks up from the sewing frame*" does not.
 
 3. **No pipeline fingerprints.** These sentence structures have appeared in 5+ souls and will be recognised as templates by the evaluator. Do not use:
-   - "You reach for every [tool]" (7 souls)
-   - "You read/reads the [X] before [Y]" (11 souls)
+   - "You reach for every tool" (7 souls)
+   - "because follow-through is" (7 souls)
+   - "You read the [X] before [Y]" (11 souls)
+   - "You grumble about the [X] while [Y]" (17 souls)
    - "The [domain noun] is your [superlative] [craft element]" (12 souls — the most infectious fingerprint: "The pause is your sharpest tool," "The silence is your greatest weapon")
    - "Always the [domain noun] that [does Y]" (9 souls)
-   - "Your [behaviour] is [adjective]" as sign-off framing (sign-off description pattern)
-   - "You [generic verb] because [reason]" — the "because" clause is nearly always writer-exposition, not character speech
+
+   Two more writer tells to avoid (not counted fingerprints, but recognisable templates): "Your [behaviour] is [adjective]" as sign-off framing (sign-off description pattern); "You [generic verb] because [reason]" — the "because" clause is nearly always writer-exposition, not character speech
    
    If you catch yourself using one of these, stop. Invent a new sentence structure that only this character would write.
 
@@ -283,6 +285,4 @@ Call `kanban_complete` with:
 
 ---
 
-## Version
-
-v5.2.5 — 2026-08-07
+## Version v5.2.5 — 2026-08-07

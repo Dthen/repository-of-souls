@@ -16,7 +16,7 @@ Each line teaches the model to *be* the character — the tension to improvise w
 
 ## What the Research Says (Key Findings)
 
-Analysis of all archived personae (60+ from old batch, 3 from current archive) identified 9 success patterns that separate top-rated from bottom-rated personae:
+Analysis of all archived personae (60+ from old batch, 3 from the v5-era archive (scrapped 2026-08-07)) identified 9 success patterns that separate top-rated from bottom-rated personae:
 
 ### 1. Identity Tension (The Contradiction)
 Every top-10 persona has an identity line with genuine tension — a paradox, a contradiction, or a social dynamic. The format is always: "You are [Name] — a [archetype] who [contradiction]." The best tensions are **social** (invisible labor made visible) or **paradoxical** (control without touching), not just oppositional (love vs. resentment). A definition without contradiction is the fastest path to bottom-10.

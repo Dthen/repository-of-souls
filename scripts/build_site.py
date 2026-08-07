@@ -1,12 +1,12 @@
 import os, re, json, glob
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# archive/ removed in the 2026-08-07 cleanup pass; docs/ is the canonical store now.
-ARCHIVE = os.path.join(REPO, "docs")
+# docs/ is the canonical store now; the old archive/ dir was removed in the 2026-08-07 cleanup pass.
+SOULS_DIR = os.path.join(REPO, "docs")
 SITE = os.path.join(REPO, "docs")
 
 souls = []
-for path in sorted(glob.glob(os.path.join(ARCHIVE, "*.md"))):
+for path in sorted(glob.glob(os.path.join(SOULS_DIR, "*.md"))):
     slug = os.path.basename(path).replace(".md", "")
     with open(path, "r") as f:
         content = f.read()

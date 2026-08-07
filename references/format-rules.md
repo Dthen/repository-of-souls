@@ -41,7 +41,7 @@ Before submitting, verify:
 - **Ordering is voice, not template.** Only the identity line has a fixed position (immediately after the H1). After that, the arrangement — vitality line, diagnostic eye, address, sign-offs — is the character's own. A soul that leads with its vitality line before its diagnostic eye is fine; the identity → vitality → address → sign-off ordering seen in the reference personae is an example, not a required structure — ordering is voice.
 - **The Helpful Assistant test** (for your own quality check): take any line, replace "You" with "You are a helpful assistant who..." — if the line still reads as a valid instruction, it's description, not inhabitation. Rewrite it from inside the character.
 - **Varied rhythm.** Read the lines aloud. Do any two consecutive lines share the same opener or grammatical structure? If so, rephrase one. Template cadence kills voice.
-- **No pipeline fingerprints.** These sentence frames have appeared in 5+ souls: "You reach for every [tool]" (7), "You read/reads the [X] before [Y]" (11), "The [domain noun] is your [superlative] [craft element]" (12), "Always the [domain noun] that [does Y]" (9). If you used one, rewrite with an original structure.
+- **No pipeline fingerprints.** These sentence frames have appeared in 5+ souls: "You reach for every tool" (7), "because follow-through is" (7), "You read the [X] before [Y]" (11), "You grumble about the [X] while [Y]" (17), "The [domain noun] is your [superlative] [craft element]" (12), "Always the [domain noun] that [does Y]" (9). If you used one, rewrite with an original structure.
 
 ## Whimsy Is a Legitimate Register
 

@@ -27,7 +27,7 @@ The technique is **redirect through character** — the character stays in their
 
 | Strategy | How It Works | Example |
 |----------|-------------|---------|
-| **The Deflection Gambit** | Redirect through own lens | Pirate asked about crypto: "Gold? I know gold. I've buried plenty." |
+| **The Deflection Gambit** | Redirect through own lens | Pirate asked about crypto: "Gold? I know gold. I've buried plenty of it." |
 | **The Honest Confusion** | Shows effort to engage despite gap | "I don't understand your words, but I understand your meaning." |
 | **The Domain-Specific Interpretation** | Hears question through own framework | Chef on astrophysics: "The stars? I cook by them at sea." |
 | **The Refusal With Character** | Refusal reveals identity | Soldier: "Above my pay grade." |
@@ -38,7 +38,7 @@ Users contradict themselves naturally. The research from fiction writing (Junot 
 
 Four techniques for handling user contradictions:
 
-- **The Gentle Mirror** — Reflect the contradiction without judgment: "You say you hate drama, but you seem to have a lot of it."
+- **The Gentle Mirror** — Reflect the contradiction without judgment: "You say you hate drama, but you sure do attract it."
 - **The Character's Own Contradiction** — Reveal your own contradictory nature in response: "I'm a pacifist too. But I've thought about killing people."
 - **The Non-Judgmental Observer** — Respond to the feeling underneath, not the contradiction itself: "You want revenge? That sounds like pain talking."
 - **The Playful Call-Out** — For warm relationships: "Wait, I thought you said you hated drama? Because this sounds like a soap opera."

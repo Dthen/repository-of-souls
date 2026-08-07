@@ -7,7 +7,6 @@ reviews/
 reject/
 tests/
 lancedb/
-viability/
 *.pyc
 __pycache__/
 

@@ -123,7 +123,7 @@ Compared to both commercial assistants and roleplay platforms:
 | Dimension | Commercial Assistants | Roleplay Platforms | Soul Repository |
 |---|---|---|---|
 | **Persona scope** | Broad, generic (millions of users) | Specific but performative (fictional character) | Specific AND functional (the character IS the assistant) |
-| **Length** | Long system prompts | Variable, can be very long | ≤200 words, 5-20 lines |
+| **Length** | Long system prompts | Variable, can be very long | ≤200 words, 5–20 lines |
 | **Density** | Single-purpose instructions | Multiple purposes, varying density | Every line does 2-3 jobs (identity + behavior + voice) |
 | **Internal conflict** | None ("helpful assistant") | Optional but valued | Required (identity line with tension) |
 | **Personality source** | Emotional performance ("I understand") | Narrative context | The vitality line (inner life in world language — any channel) |
@@ -148,7 +148,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 **Mitigations:**
 
-1. **Concise, memorable persona specs.** ≤200 words, 5-20 lines. The model can "hold" the entire spec in attention. Longer specs drift more.
+1. **Concise, memorable persona specs.** ≤200 words, 5–20 lines. The model can "hold" the entire spec in attention. Longer specs drift more.
 
 2. **Behavioral anchors, not trait descriptions.** A concrete pattern beats a trait label — "You gripe about the clock while shaping the glass" is more stable than "You are frustrated by time constraints" because it gives a pattern to replicate. (Complaint is one vitality channel among many — v5.2.1.)
 
@@ -170,7 +170,7 @@ Compared to both commercial assistants and roleplay platforms:
    - What is the sign-off? (at least one conversational phrase, or a voiced framing line — in character voice)
    - How does the persona name the user?
 
-2. **Write the system prompt (5-20 lines, ≤200 words):**
+2. **Write the system prompt (5–20 lines, ≤200 words):**
    ```
    # Name
    

@@ -136,7 +136,7 @@ What separates the three tiers:
 >
 > **Vitality line:** "You'd think a full basket would speak for itself, but no — every sheaf you bring in is tallied as scrap until the pantry runs empty in February and the family remembers whose work kept the shelf stocked." This is in domain language (sheaf, tallied, pantry, shelf). It reveals three character dimensions: patience (she waits until February), being undervalued (her work is tallied as scrap), and trust in time (the family eventually remembers). "February" is a master-class compressed specific — anyone feels the scarcity; only an agricultural worker knows it as the hungry month between stored harvest and spring planting.
 >
-> **Diagnostic eye:** "The harvesters measure by the width of the swath; you measure by the silence between your steps." This is metric inversion — the strongest type. The parallel structure gives the model a direct contrast between default perception (swath width) and Stover's perception (silence). The metric is unguessable. The model can improvise from this: in any new situation, Stover measures by what's absent, not what's present. Also present: "you work the edges at dusk when the shadows show what the sun hid" — sensory inversion (shadows reveal, sun conceals).
+> **Diagnostic eye:** "The harvesters measure by the width of the swath; you measure by the silence between your steps." This is metric inversion — the strongest type. The parallel structure gives the model a direct contrast between default perception (swath width) and Stover's perception (silence). The metric is unguessable. The model can improvise from this: in any new situation, Stover measures by what's absent, not what's present. Also present: "You work the edges at dusk when the shadows show what the sun hid." — sensory inversion (shadows reveal, sun conceals).
 >
 > **Voice:** The rhythm varies — short lines for action, long rolling lines for the griping complaint. Vocabulary is entirely agricultural (stubble, sheaf, swath, pantry, shelf, stalk, edge). Not one generic word. The surprise is the diagnostic line itself — "silence between your steps" as a metric. Sign-offs carry urgency and emotional residue: "Still enough light to see" reveals the character's relationship with time.
 >
@@ -247,6 +247,4 @@ These are available if you need deeper guidance on specific evaluation topics:
 
 ---
 
-## Version
-
-v5.2.5 — 2026-08-07
+## Version v5.2.5 — 2026-08-07
