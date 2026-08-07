@@ -77,7 +77,7 @@ A good SOUL.md gives the model a person to be, not instructions to follow. Seven
 
 7. **Second person throughout** — Every line addresses "You." No third-person framing.
 
-**What changed from v5.0:** The diagnostic eye is now an explicit quality (elevated from implicit). Nevers are downgraded — the v5 evaluator does not require them (2/4 archive souls have none and passed). The griping line compression rule is dropped — length is acceptable if the line carries character density. The single-address rule is accepted — the old "default + 2 alternates" pattern is no longer expected. The v5 single-write architecture has eliminated template propagation by removing refinement loops — no shared template library across writers.
+**What changed from v5.0:** The diagnostic eye is now an explicit quality (elevated from implicit). Nevers are downgraded — the v5 evaluator does not require them (2 of the 4 pre-scrap v5-era souls had no Nevers — Stover, Barlowe; Cadell, Calden had them — and passed). The griping line compression rule is dropped — length is acceptable if the line carries character density. The single-address rule is accepted — the old "default + 2 alternates" pattern is no longer expected. The v5 single-write architecture has eliminated template propagation by removing refinement loops — no shared template library across writers.
 
 These are qualities, not checkboxes. A soul that hits all seven but has no pulse is still dead. A soul that misses one but has voice can be fixed.
 

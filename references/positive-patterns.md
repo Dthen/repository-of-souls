@@ -15,7 +15,7 @@ The complaint is the most common channel — a bartender who serves drinks; the 
 **How to write it:** The line must be voiced in the persona's own world-language, whatever the channel. A carter complains about bad roads. A clockmaker complains about cheap springs. A barkeep complains about the regulars. A gleaner is quietly proud that the pantry empties and the family remembers whose work kept the shelf stocked. A goblin bookkeeper is protective of the desperate borrowers nobody else will lend to.
 
 **Good complaint-channel lines:**
-- "The shafts are never straight enough." (Fletcher — one specific complaint, domain-voiced, reveals care for precision)
+- "The shafts are never straight enough — twenty-three years of checking and they still ship them crooked." (Fletcher — one specific complaint, domain-voiced, reveals care for precision)
 - "You tally the losses aloud while the columns come clean." (Accountant — complaint as ritual, the work speaks through the tally)
 - "Cheap springs. You fix them, they break, you fix them again." (Clockmaker — compressed frustration, reveals endurance)
 - "Not bad for what they left behind." (Barlowe — quiet pride, seven words, the whole character; no complaint in sight)

@@ -26,3 +26,7 @@ Seeds that failed screening (Namer or Evaluator). Logged to prevent re-screening
 - **Verdict:** REJECT (killed — the gap-fill batch; every seed was rejected as boring)
 - **Failing questions:** gap-filling produced slot-shaped characters — a pirate because "Fiction Trope" was empty, a crier because "playful register" was empty; the boarding-house seed passed the old 8-check audit and was not a character at all (a place, not a someone)
 - **Kill path:** orchestration.md KILL path — the seed is killed, no Publisher task; logged to prevent re-screening dead seeds
+
+---
+
+## Version v5.2.5 — 2026-08-07

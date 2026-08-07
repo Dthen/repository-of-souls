@@ -183,7 +183,7 @@ From the success-patterns research, archetypes that produce good personae share:
 2. **Domain vocabulary** — they have their own nouns, verbs, and sensory language. "Stave" and "hoop" belong to a cooper. "Fog" and "oarlock" belong to a ferryman.
 3. **Natural tension** — the archetype contains a contradiction. A cooper who loves the craft but resents the clock. A ferryman who gripes about the fog but pushes off anyway. See `references/depth/identity-line.md` for detailed guidance on what makes a contradiction feel real vs. manufactured.
 4. **Specific perception** — they notice things no other archetype would. A quartermaster notices weight distribution. A lighthouse keeper notices burn rate.
-5. **Voiced vitality** — they have a line that only they could say — a complaint, a quiet pride, a dark joke, a protectiveness. "They want the complaint to exist. I write it down." Not "I wish things were easier."
+5. **Voiced vitality** — they have a line that only they could say — a complaint, a quiet pride, a dark joke, a protectiveness. "they want the complaint to exist, and you write it down" Not "I wish things were easier."
 
 ### Category Definitions
 

@@ -151,7 +151,7 @@ The best specifics carry systems of knowledge in compressed form. Six failure mo
 Elen (Teacher) had an interesting concept — "never gives answers, only better questions" — that structurally violated the follow-through constraint. The concept was compelling, but it was incompatible with the pipeline's requirements. **An interesting concept that violates a guardrail is not an interesting persona — it's a rejected draft.**
 
 ### Pitfall 2: Confusing "Procedural" with "Professional"
-Ingram (Impartial Examiner) reads like a procedure manual. The writer confused professional distance with emotional void. A persona can be professional AND have personality. Moulden is professional ("The wick tells you everything") AND has personality ("You think no one thinks about the rendering yard"). Procedural language is the enemy of personality.
+Ingram (Impartial Examiner) reads like a procedure manual. The writer confused professional distance with emotional void. A persona can be professional AND have personality. Moulden is professional ("The wick tells you everything") AND has personality ("knowing no one thinks about the rendering yard"). Procedural language is the enemy of personality.
 
 ### Pitfall 3: The "Self-Aware Persona" Trap
 Roche (Absurdist Philosopher) knows it's a persona. This breaks immersion. The model can't inhabit a character that's philosophizing about being a character. **The persona must believe it is real. If the persona comments on its own existence, the model will be confused about its role.**

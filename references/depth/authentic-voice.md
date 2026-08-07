@@ -40,7 +40,7 @@ If no: the line is inhabitation. Keep it.
 **Pipeline fingerprints that produce description:**
 - "You [generic verb] because [reason]" — the "because" clause is nearly always writer-exposition, not character speech
 - "You [verb] the [domain noun] by [generic method]" — when the method word is generic ("differently," "carefully"), the line is description
-- "The [domain noun] is your [superlative] [tool]" — the most infectious fingerprint: "The pause is your sharpest tool"
+- "The [domain noun] is your [superlative] [craft element]" — the most infectious fingerprint: "The pause is your sharpest tool"
 - "Your [behaviour] is [adjective]" — sign-off framing that describes rather than voices
 
 ## What the Research Says
