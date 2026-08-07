@@ -35,11 +35,13 @@ Order of priority:
 2. **The map as a mirror** — THEN check the map: if the candidate is a repeat of an existing soul (same frame, same register, same move), rework it. The map vetoes repetition; it does not propose targets.
 3. **Gap-checking is a tie-breaker** — only when two candidates delight equally, prefer the one that opens a genuinely empty territory.
 
+**What "delight" means, operationally (v5.2.4.8):** delight is NOT a felt state — it is verified by artifacts: the one-phrase emotional fantasy you'd actually want to receive, and at least one line you'd steal (Step 3 + the delight test below). If you cannot produce both, the candidate does not delight, whatever the mood says. This guards against performative quirkiness — simulated excitement is a new shared output space, not a character.
+
 If you find yourself thinking "what category is empty?" you are already generating boring. Stop, and think about what would make you laugh instead.
 
 ### Step 3: Generate Candidates
 
-For each gap, generate 2–3 archetype candidates. **Do NOT use web search as your primary method.** Instead, draw from:
+Generate 2–3 candidates per strong delight. **Do NOT use web search as your primary method.** Instead, draw from:
 
 1. **The gold lines** — read `seeds/gold-lines.md` (if it exists). These are the strongest lines from old personae — they suggest archetypes.
 2. **Domain vocabulary** — what tools, materials, and sensory language does this archetype have? If you can't list 5 nouns and 3 verbs, the archetype is too thin.
@@ -47,7 +49,7 @@ For each gap, generate 2–3 archetype candidates. **Do NOT use web search as yo
 4. **Institutional roles** — bureaucratic, legal, governmental roles with procedural vocabulary
 5. **Fiction tropes** — character types from literature, film, mythology that have established voices
 
-**Character-first discovery (the order matters):** For each gap, generate candidates by starting with the PERSON, not the profession:
+**Character-first discovery (the order matters):** Start candidates from the character, not the profession:
 
 1. **The emotional fantasy** — What should interacting with this character FEEL like? One phrase. ("Being enthusiastically greeted by a golden retriever trapped in a himbo's body.") This is the PbtA first principle and the single highest-leverage field. If you cannot name the feeling, the candidate has no pulse yet.
 2. **The contradiction** — Two truths in tension, one of which can be absurd. Apply the "but" test: can you describe this character with a conjunction? If not, it's a definition, not a character.
@@ -69,7 +71,7 @@ For each gap, generate 2–3 archetype candidates. **Do NOT use web search as yo
 1. **A want, not a mood.** An observable goal it would sacrifice for. "Wants to help people" is a job description (research-character-interest.md:323, 46). This is the kill-list's feeling-not-want failure; if the want can't be stated as a verb phrase with a conflict, kill. **Use the want-construction procedure** (research/research-want-construction.md): fantasy → gift → the character's verb → obstacle → sacrifice → lie → need-gap. Permanent obstacles beat fixable ones — a fixable want expires. Fail-test: *if the want can be stated as a verb the character performs against an obstacle in front of the user, it's an engine; if it can only be stated as a feeling the user should have, it's a mood.*
 2. **A want/need gap plus a lie believed.** The want conflicts with the need; a false belief blocks it (research-character-interest.md:105–114). No gap = no engine (research-character-creation.md:18–20). **For creatures the lie is functional misdirection, not confession** — learned, morally weightless; protects the nest, surprised to be accused (research-creature-material-practice.md §3.2).
 3. **A "but" that generates.** The Tension Test's contradiction — plus: does it produce choices, not a definition (research-inhabitation-vs-description.md:287–294)? Prefer social/paradox tension (research-success-patterns-v5.md:39–52). **For creatures the "but" is physiological/structural** — body vs. law, instinct vs. function, boast vs. chink; trait-pairs are dead twice over (research-creature-material-practice.md §3.3).
-4. **A world, not necessarily a job.** Tools, materials, rhythms, failure modes — "If the answer is no, the seed fails. Reject abstract roles" (research-failure-modes.md:180; research-success-patterns-v5.md:417). Creatures and genre-crosses qualify with their own material practice; pure concepts don't. If the person is alive but the world is thin, develop the world — the forced-mismatch candidates above need this mercy, not a kill. **For creatures, material practice runs on four channels** (research/research-creature-material-practice.md): den-as-workshop, instincts-as-rhythms, senses-as-tools (perception producing *evidence*, not scenery), territory-as-domain — tested by the 5-test Creature World Test: **Workshop, Evidence, Rhythm, Exchange, Failure**. Perception without practice is a moth — a beautiful image with no world.
+4. **A world, not necessarily a job.** Tools, materials, rhythms, failure modes — "If the answer is no, the seed fails. Reject abstract roles" (research-failure-modes.md:180; research-success-patterns-v5.md:417). Creatures and genre-crosses qualify with their own material practice; pure concepts don't. If the character is alive but the world is thin, develop the world — the forced-mismatch candidates above need this mercy, not a kill. **For creatures, material practice runs on four channels** (research/research-creature-material-practice.md): den-as-workshop, instincts-as-rhythms, senses-as-tools (perception producing *evidence*, not scenery), territory-as-domain — tested by the 5-test Creature World Test: **Workshop, Evidence, Rhythm, Exchange, Failure**. Perception without practice is a moth — a beautiful image with no world.
 5. **An interior that produces behavior.** What does it notice first, avoid noticing, never say aloud; the say/do contradiction (research-internal-life.md:313–319). One gesture is not an interior; a passive gripe is not vitality (research-internal-life.md:264).
 6. **A way of seeing + emotional range.** A diagnostic eye (research-success-patterns-v5.md:107–123) and room for a counter-register (research-emotional-register.md:323). Audit for range; don't assign gears — register should emerge at writing, not be prescribed at idea time (research-emotional-register.md:345).
 7. **A first-impression anchor.** One concrete, sensorily-specific detail (research-character-memorability.md:227, 21; research-character-creation.md:104–110). Abstract = forgotten.
@@ -171,7 +173,7 @@ After spawning, update `seeds/COVERAGE_MAP.md` with the new seeds and the curren
 ### Step 8: Complete
 
 Call `kanban_complete` with:
-- Summary: how many seeds generated, which categories they fill
+- Summary: how many seeds generated, which categories they occupy
 - Metadata: list of seed files created, Namer task IDs spawned
 
 ---
@@ -227,4 +229,4 @@ These additions come from the research we've done on what makes personae work. T
 ---
 
 ## Version
-v5.2.4.7 — 2026-08-07
+v5.2.4.8 — 2026-08-07
