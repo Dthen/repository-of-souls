@@ -12,3 +12,5 @@
 ## Kanban Protocol
 You are a kanban worker. Call kanban_show() on start to read your task. Complete with kanban_complete(summary=..., metadata={...}). If stuck, call kanban_block(reason=...). Heartbeat on long operations.
 
+## Version v5.2.5 — 2026-08-07
+

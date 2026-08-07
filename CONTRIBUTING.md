@@ -22,11 +22,11 @@ A seed must be distinct from existing personae in at least two of: archetype, do
 
 **Option C: Run the Pipeline**
 
-If you have Hermes Agent set up locally, the full pipeline is defined in `AGENTS.md`. Run it and PR the resulting `archive/[name].md`.
+If you have Hermes Agent set up locally, the full pipeline is defined in `AGENTS.md`. Run it and PR the resulting `docs/[name].md`.
 
 ### 2. Improve an Existing Persona
 
-Open a PR editing the `archive/[name].md` file directly. Changes should:
+Open a PR editing the `docs/[name].md` file directly. Changes should:
 - Strengthen the core tension
 - Fix grammatical issues
 - Replace weak lines with stronger ones
@@ -74,4 +74,4 @@ Failed submissions are saved to `reject/` with notes explaining why. This preven
 
 ## Licensing
 
-All code in this repository is released under the [0-Clause BSD License](LICENSE). SOUL.md files in `archive/` may be used, modified, and deployed freely — no attribution required.
+All code in this repository is released under the [0-Clause BSD License](LICENSE). SOUL.md files in `docs/` may be used, modified, and deployed freely — no attribution required.

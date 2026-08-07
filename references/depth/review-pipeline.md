@@ -1,5 +1,7 @@
 # Depth Reference: Review Pipeline (Evaluator–Publisher)
 
+> Historical — describes the retired v4-era T4-T5-T6 review pipeline; kept as research, not instructions.
+
 Three lines, three fates under the same review chain:
 
 > "You are Ewan — a harbor pilot. You guide vessels safely into port and keep the log accurate." — correctly flagged: a definition, not a person. The floor did its job.
