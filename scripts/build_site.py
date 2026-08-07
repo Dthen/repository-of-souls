@@ -1,7 +1,8 @@
-import os, re, json, glob, shutil
+import os, re, json, glob
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ARCHIVE = os.path.join(REPO, "archive")
+# archive/ removed in the 2026-08-07 cleanup pass; docs/ is the canonical store now.
+ARCHIVE = os.path.join(REPO, "docs")
 SITE = os.path.join(REPO, "docs")
 
 souls = []
@@ -556,11 +557,7 @@ hr {{
 with open(os.path.join(SITE, "ritual.html"), "w") as f:
     f.write(ritual)
 
-# ── Copy .md files for raw download ──────────────────────────────
-for soul in souls:
-    shutil.copy2(
-        os.path.join(ARCHIVE, f"{soul['slug']}.md"),
-        os.path.join(SITE, f"{soul['slug']}.md")
-    )
-
+# ── .md raw downloads ────────────────────────────────────────────
+# The soul .md files already live in docs/ (canonical store since the
+# 2026-08-07 cleanup removed archive/) — no copy step needed.
 print(f"Built site with {len(souls)} souls")
