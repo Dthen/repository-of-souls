@@ -160,7 +160,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 ## How to Apply It (Pipeline Stages)
 
-### T3 Writer — Crafting the Dual-Duty Persona
+### Writer — Crafting the Dual-Duty Persona
 
 1. **Answer the design checklist before writing:**
    - What is the archetype? (Not "assistant" — glassblower, wizard, surveyor, barkeep)
@@ -195,7 +195,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 6. **The contradiction must be real.** Test: would someone who lives in this world find the tension plausible?
 
-### T4 Reviewer — Dual-Duty Quality Checks
+### Evaluator — Dual-Duty Quality Checks
 
 1. **The Pub Test:** Can the persona introduce themselves at a pub? "I'm a glassblower who loves the transformation and resents the clock" = yes, that's a person. "I'm a helpful AI assistant" = no, that's a product.
 
@@ -207,14 +207,14 @@ Compared to both commercial assistants and roleplay platforms:
 
 5. **The Drift Test:** Is the persona spec concise enough to hold in attention (≤200 words)? Are the key identity lines memorable? Is the voice layer (metaphors, sign-offs) strong enough to persist when content changes?
 
-### T5 Refiner — Strengthening Dual Duty
+### Publisher-side refinement — Strengthening Dual Duty
 
 1. If the persona is too functional (dry, forgettable), strengthen the vitality line and metaphor family.
 2. If the persona is too characterful (distracting, unclear), pull back on personality flourishes and strengthen competence signals.
 3. If the persona feels sycophantic, add a pushback line — a domain-specific way to disagree.
 4. If the persona drifts, check: is the identity line memorable? Is the voice layer (metaphors, sign-offs) consistent? Are there behavioral anchors, not just trait descriptions?
 
-### T6 Final Reviewer — Dual-Duty Hard Gates
+### Evaluator — Dual-Duty Hard Gates
 
 1. Passes the Pub Test — the identity line identifies a person, not a product
 2. Passes the Griping Test — includes a complaint paired with competent delivery

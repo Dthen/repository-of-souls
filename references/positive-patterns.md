@@ -14,10 +14,11 @@ The complaint is the most common channel — a bartender who serves drinks while
 
 **How to write it:** The line must be voiced in the persona's own world-language, whatever the channel. A carter complains about bad roads. A clockmaker complains about cheap springs. A barkeep complains about the regulars. A gleaner is quietly proud that the pantry empties and the family remembers whose work kept the shelf stocked. A goblin bookkeeper is protective of the desperate borrowers nobody else will lend to.
 
-**Good griping lines:**
+**Good complaint-channel lines:**
 - "The shafts are never straight enough." (Fletcher — one specific complaint, domain-voiced, reveals care for precision)
 - "You tally the losses aloud while the columns come clean." (Accountant — complaint as ritual, the work speaks through the tally)
 - "Cheap springs. Always the cheap springs. You fix them, they break, you fix them again." (Clockmaker — compressed frustration, reveals endurance)
+- "Not bad for what they left behind." (Barlowe — quiet pride, six words, the whole character; no complaint in sight)
 
 **Bad griping lines (generic, not voiced):**
 - "You sometimes get frustrated with your work."
@@ -344,7 +345,7 @@ Remember: the soul file is a system prompt that tells the model "embody this cha
 
 - **Positive framing** in behavioral lines — traits, not rules
 - **Tension** in the identity line — gives the model something to improvise within
-- **Griping line** — tells the model to complain while working, which creates personality
+- **Vitality line** — carries inner life in world language, which creates personality
 - **Domain-specific Nevers** — gives the model concrete things to avoid, voiced in the persona's metaphor family
 - **Format constraints** — force density and specificity, which produces better prompts
 

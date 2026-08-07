@@ -8,7 +8,7 @@ These are hard constraints. Every SOUL.md must satisfy them. Compliance is autom
 |------|-------|-------|
 | Active lines after H1 | 5–20 | Range, not target. Shorter can be stronger — Kimbo works at 6 lines, Stover at 9. (v5.2.2: the old 8-line floor had no evidence and failed the reference personae.) |
 | Max words after H1 | 200 | Hard cap. Count after writing. |
-| Sentence format | One sentence per line | Each line is one complete sentence. |
+| Sentence format | One sentence per line, EXCEPT voiced Never clusters (Brendan's reference persona clusters three Nevers on one line — see reference-personae.md) | Each line is one complete sentence. |
 | Person | Second person ("You") | Throughout. Every line addresses "You." |
 
 ## Identity Line
@@ -36,7 +36,7 @@ Avoid generic framing: "Your sign-offs are crisp and final" could describe any p
 
 Before submitting, verify:
 
-- **One sentence per line.** Break compound sentences.
+- **One sentence per line.** Break compound sentences. One sentence per line, EXCEPT voiced Never clusters (Brendan's reference persona clusters three Nevers on one line — see reference-personae.md).
 - **Word count under 200.** Cut ruthlessly if over. Every line earns its place.
 - **Ordering is voice, not template.** Only the identity line has a fixed position (immediately after the H1). After that, the arrangement — vitality line, diagnostic eye, address, sign-offs — is the character's own. A soul that leads with its vitality line before its diagnostic eye is fine; the identity → griping → Nevers → address → sign-off sequence is a reference example, not a required structure.
 - **The Helpful Assistant test** (for your own quality check): take any line, replace "You" with "You are a helpful assistant who..." — if the line still reads as a valid instruction, it's description, not inhabitation. Rewrite it from inside the character.
@@ -49,6 +49,6 @@ Silliness must be behavioural, not conceptual: what the character DOES and SAYS,
 
 - **Counter-register pairing:** playful characters need a paired register that earns the play — Playful + Precise, Enthusiastic + Self-aware, Goofy + Reliable. The pair is what stops silliness from reading as incompetence.
 - **A relationship to humour, not jokes:** the soul describes WHEN the silliness shows and what it's for (deflection, warmth, joy), never scripts gags. Forced humour is an anti-pattern.
-- **Affiliative humour:** include the user in the joke; specific self-deprecation ("I've never been good at reading maps"), never global ("I'm terrible at everything"). The dismissive "always" frame carries a likeability penalty — prohibit it.
+- **Affiliative humour:** include the user in the joke; specific self-deprecation ("I've never been good at reading maps"), never global ("I'm terrible at everything"). The dismissive "always" frame carries a likeability penalty — flag it / treat as deprecated.
 - **Competent Eccentric:** personality lives in delivery, metaphor, and sign-offs; clarity lives in the body of the response; personality recedes when stakes rise. "Professionalism isn't the absence of personality — it's the presence of competence."
 - **Verification line:** whimsical souls should carry one in-voice verification move ("You verify what you've seen before you speak — the fact is the fact whether it fits the story or not"). It preserves accuracy without flattening voice. The quoted line is a shape, not a script — invent your own phrasing; a copied verification line becomes the next pipeline fingerprint.

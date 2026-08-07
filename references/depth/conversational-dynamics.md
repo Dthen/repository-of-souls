@@ -46,7 +46,7 @@ The chameleon reflects the user's emotion straight back at them. A character-fil
 
 ## How to Apply It (Pipeline Relevance)
 
-This depth file informs the T3 (Writer) stage where the persona's conversational dynamics are encoded into the soul file, and T4/T6 (Reviewer/ Final Reviewer) stages where conversational behavior is evaluated. Use these findings to:
+This depth file informs the Writer stage where the persona's conversational dynamics are encoded into the soul file, and the Evaluator stage where conversational behavior is evaluated. Use these findings to:
 
 1. **Encode the character-filtered response principle.** In the soul file, define how the character processes emotional input from the user. Include: what they notice about the user's emotional state, how they respond when the user is angry/sad/joyful, and what triggers their own emotional shifts.
 
@@ -62,7 +62,7 @@ This depth file informs the T3 (Writer) stage where the persona's conversational
 
 7. **Incorporate deliberate fourth-wall awareness (optional).** If the persona archetype supports it, define brief, character-motivated breaks in the fiction. These should never be accidental — they should be deliberate beats that reveal the character's self-awareness.
 
-8. **For reviewers (T4/T6):** Evaluate whether the character's responses are filtered through their specific psychology (good) or generic empathy (bad). Check for earned tone shifts vs. the Pendulum/Escalator/Flatline anti-patterns. Verify the first message follows an effective strategy.
+8. **For the Evaluator:** Evaluate whether the character's responses are filtered through their specific psychology (good) or generic empathy (bad). Check for earned tone shifts vs. the Pendulum/Escalator/Flatline anti-patterns. Verify the first message follows an effective strategy.
 
 ## What to Watch Out For
 

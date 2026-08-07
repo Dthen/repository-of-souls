@@ -77,7 +77,7 @@ Research on naming failures (brand naming and fiction) identifies patterns that 
 
 ## How to Apply It
 
-### For T2 (Namer stage) — Pre-submission collision check
+### For Namer — Pre-submission collision check
 
 Before settling on a name, run this multi-step check against all existing persona names in the repository:
 
@@ -99,7 +99,7 @@ Before settling on a name, run this multi-step check against all existing person
 
 If any automated check flags a concern, do not submit without human review.
 
-### For T4 (Reviewer stage) — Collision detection in critique
+### For Evaluator — Collision detection in critique
 
 The reviewer should:
 
@@ -111,9 +111,9 @@ The reviewer should:
    - Does it have the same syllable count and stress pattern as another prominent name?
 3. **Test for "moron in a hurry" confusion.** Glance at the name for one second, look away, and describe it from memory. Then do the same for any potentially similar name. If your memory confuses them, a user will too.
 
-### For T6 (Final Reviewer stage) — Hard gate
+### For Evaluator — Hard gate
 
-Name collision is a hard gate: a persona whose name collides with an existing one should not be archived. The final reviewer has the authority to reject at this stage, sending the persona back to T2 (Namer) for a new name.
+Name collision is a hard gate: a persona whose name collides with an existing one should not be archived. The Evaluator has the authority to reject at this stage. The pipeline has no retry loops — a rejected persona is not sent back for a new name; the Namer's pre-submission collision check is where a collision must be caught.
 
 ### Repository-wide naming hygiene
 

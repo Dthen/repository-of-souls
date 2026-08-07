@@ -1,6 +1,6 @@
 # Stage 5: Publisher
 
-**Role:** Publisher — final arbiter. Takes the evaluator's pick + issue list and either approves the draft for archive or applies targeted fixes before archiving and rebuilding the site.
+**Role:** Publisher — final arbiter. Takes the evaluator's pick + issue list and either approves the draft for publishing or applies targeted fixes before publishing to docs/ and rebuilding the site.
 
 ---
 
@@ -15,7 +15,7 @@
 
 | What | Where |
 |---|---|
-| Archive file | `archive/<name>.md` |
+| Published file | `docs/<name>.md` |
 | Site rebuild | `python3 scripts/build_site.py` |
 
 ---
@@ -36,7 +36,7 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 *Evaluator picked the draft with no fixable issues.*
 
 1. **Verify compliance** — run `check_soul.py` on the draft at `drafts/<name>.md`
-2. **Copy** to `archive/<name>.md`
+2. **Copy** to `docs/<name>.md`
 3. **Rebuild the site** — run `python3 scripts/build_site.py`
 4. **Commit and push** the changes
 5. **kanban_complete** — use the APPROVE template below
@@ -47,9 +47,9 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 **Task:** PUBLISH — <name>
 **Path:** APPROVE
 **Compliance:** PASS
-**Archive:** archive/<name>.md
+**Archive:** docs/<name>.md
 **Site:** rebuilt and pushed
-**Summary:** Draft approved as-is, archived, and site rebuilt.
+**Summary:** Draft approved as-is, published to docs/, and site rebuilt.
 ```
 
 ---
@@ -60,8 +60,8 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 
 1. **Read** the evaluator's issue list from `evaluations/<name>.md`
 2. **Fix ONLY what was flagged** — no open-ended improvement, no rewriting of the character. Make the minimum changes needed to resolve each issue.
-3. **Write** the fixed version to `archive/<name>.md`
-4. **Verify compliance** — run `check_soul.py` on the archive file
+3. **Write** the fixed version to `docs/<name>.md`
+4. **Verify compliance** — run `check_soul.py` on the published file
 5. **Rebuild the site** — run `python3 scripts/build_site.py`
 6. **Commit and push** the changes
 7. **kanban_complete** — use the FLAG template below
@@ -73,10 +73,10 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 **Path:** FLAG
 **Issues flagged:** <count>
 **Issues resolved:** <count>
-**Archive:** archive/<name>.md
+**Archive:** docs/<name>.md
 **Compliance:** PASS
 **Site:** rebuilt and pushed
-**Summary:** <count> flagged issue(s) fixed with targeted edits, archived, and site rebuilt.
+**Summary:** <count> flagged issue(s) fixed with targeted edits, published to docs/, and site rebuilt.
 ```
 
 ---
@@ -86,4 +86,4 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 - **No retry loops.** If the evaluator rejected the draft, the seed is killed. There is no refine loop at this stage. Do not create a Publisher task for seeds the evaluator killed.
 - **If more fixes are needed** after the FLAG path, do not iterate — go back through the evaluator as a new task.
 - **Do NOT rewrite the character.** On the FLAG path, fix only the flagged issues with the minimum changes necessary.
-- **Compliance check before archive is mandatory.** The `check_soul.py` step must pass before the archive is considered final.
+- **Compliance check before publishing is mandatory.** The `check_soul.py` step must pass before the docs/ copy is considered final.

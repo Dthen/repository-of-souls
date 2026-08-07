@@ -108,7 +108,7 @@ Lines that work (3 different archetypes, 3 different inversion types):
 - ❌ **You read the field differently because you arrive when there's nothing obvious left to take.** 
   (This describes the diagnostic eye rather than demonstrating it. The word "differently" is generic — it tells the model what to do, not how to see. The "because" clause is writer-exposition, not character perception.)
 
-Place the diagnostic line in the mid-draft (lines 5–8) — after the identity and vitality line, before the sign-offs. It lands hardest when the model has already established *what* the character does and now learns *how* the character sees.
+Placement is a heuristic, not a rule — ordering is voice per format-rules. The diagnostic line often lands hardest in the mid-draft (lines 5–8) — after the identity and vitality line, before the sign-offs — when the model has already established *what* the character does and now learns *how* the character sees.
 
 ### Lines That Do 3 Jobs
 
@@ -142,7 +142,7 @@ The model: Stover's "February." One word carries cold, scarcity, the hungry mont
 
 ❌ **"You work best in the lean times — the period between stored resources and new production."** (Abstract: "lean times," "period." No sensory anchor. The reader has nothing to visualise. Forgotten instantly.)
 
-Place the concrete detail in the vitality line or the diagnostic line — it lands hardest when the reader is already processing the character's voice. For deeper guidance, load `research/research-character-memorability.md`.
+Placement is a heuristic, not a rule — ordering is voice per format-rules. The concrete detail often lands hardest in the vitality line or the diagnostic line, when the reader is already processing the character's voice. For deeper guidance, load `research/research-character-memorability.md`.
 
 ### Write in Poetry Mode, Not Prose Mode
 
@@ -222,7 +222,7 @@ The H1 is the name exactly as it appears in the name file, including capitalisat
 
 Line and word limits are bounds, not targets: 5–20 active lines after the H1, at most 200 words. Shorter can be stronger — Stover works at 9 lines and 90 words, and was the most enthusiastically received soul in the archive. Every line earns its place. If a line doesn't teach the model something new about who this character is, cut it.
 
-One sentence per line throughout. Let the character tell you where each sentence ends.
+One sentence per line throughout. Let the character tell you where each sentence ends. One sentence per line, EXCEPT voiced Never clusters (Brendan's reference persona clusters three Nevers on one line — see reference-personae.md).
 
 You do not need sections, headers, or separators between lines. Each line is its own sentence, and the arrangement is part of the voice.
 

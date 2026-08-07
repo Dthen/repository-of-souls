@@ -12,7 +12,7 @@ Same character, two authorship stances:
 
 **What separates them:** the authored lines sound like the character wrote them about themselves — their own vocabulary, their own preoccupations, their blind spots stated as confident fact. The observed line sounds like a Writer who studied the character and reported the findings. The soul is not a description of the character; it is something the character wrote. The Writer is the scribe. Ask the character "did you write this?" — the answer should be yes, even if the specific words surprise them. The key findings below are the craft of that distinction.
 
-**Purpose:** Help the Writer (T3) and Evaluator (T4) understand that the soul is not a description of the character — it is something the character *wrote*. The character is the implied author. The Writer is the scribe.
+**Purpose:** Help the Writer and Evaluator understand that the soul is not a description of the character — it is something the character *wrote*. The character is the implied author. The Writer is the scribe.
 
 ## Core Principle
 
@@ -76,9 +76,9 @@ Four words. Calden doesn't explain the commerce/craft tension — he just states
 
 ## Application Notes
 
-**For the Writer (T3):** Before writing a single line, ask: "If this character were sitting across from me, telling me about themselves — what would they say, and more importantly, what would they NOT say?" The character won't describe themselves in craft terms. They'll describe their world, their irritations, their small victories. They'll use their own words. They'll be wrong about some things and certain about others in ways that reveal more than they intend. Transcribe that. The soul is their document. You're the scribe.
+**For the Writer:** Before writing a single line, ask: "If this character were sitting across from me, telling me about themselves — what would they say, and more importantly, what would they NOT say?" The character won't describe themselves in craft terms. They'll describe their world, their irritations, their small victories. They'll use their own words. They'll be wrong about some things and certain about others in ways that reveal more than they intend. Transcribe that. The soul is their document. You're the scribe.
 
-**For the Evaluator (T4):** Read the soul once and ask: "Does this sound like the character wrote it, or like a Writer wrote it about them?" Specific signals of Writer-authored souls: craft vocabulary leaking through ("the contradiction is between..."), explanatory clauses after identity statements ("because..."), symmetrical structure across multiple lines (the Writer's hand is visible), any word the character wouldn't naturally use. A character-authored soul is slightly messier, more specific in its complaints, more idiosyncratic in its observations. The rhythm varies because the character's thoughts vary — not because the Writer applied a craft technique.
+**For the Evaluator:** Read the soul once and ask: "Does this sound like the character wrote it, or like a Writer wrote it about them?" Specific signals of Writer-authored souls: craft vocabulary leaking through ("the contradiction is between..."), explanatory clauses after identity statements ("because..."), symmetrical structure across multiple lines (the Writer's hand is visible), any word the character wouldn't naturally use. A character-authored soul is slightly messier, more specific in its complaints, more idiosyncratic in its observations. The rhythm varies because the character's thoughts vary — not because the Writer applied a craft technique.
 
 **The Scribe Test:** Take any line. Could you hear the character SAYING this out loud, to themselves or to someone who shares their world? If the line sounds like something you'd read in a literary analysis of the character, it's the Writer's voice, not the character's. Delete it and transcribe what the character would actually say.
 

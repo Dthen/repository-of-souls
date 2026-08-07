@@ -10,11 +10,11 @@ Researcher (T0) → Namer → Writer → Evaluator → Publisher
 
 | Stage | Assignee | Input | Output |
 |---|---|---|---|
-| Researcher | `soul-researcher` | `archive/`, `seeds/` | New seed files + Namer tasks |
+| Researcher | `soul-researcher` | `docs/`, `seeds/` | New seed files + Namer tasks |
 | Namer | `soul-namer` | `seeds/<seed>.md` | Viability verdict + chosen name at `names/<name>.md` |
 | Writer | `soul-writer` | `names/<name>.md` + seed | One SOUL.md draft at `drafts/<name>.md` |
 | Evaluator | `soul-evaluator` | The draft at `drafts/<name>.md` | Picks or rejects — kills seed on reject |
-| Publisher | `soul-publisher` | Winning candidate + evaluator notes | `archive/<name>.md` + site rebuild (with or without targeted fixes) |
+| Publisher | `soul-publisher` | Winning candidate + evaluator notes | `docs/<name>.md` + site rebuild (with or without targeted fixes) |
 
 **For detailed stage instructions, see the corresponding reference file in `references/`.**
 
@@ -29,7 +29,7 @@ Researcher (T0) → Namer → Writer → Evaluator → Publisher
 | [`references/stage-namer.md`](references/stage-namer.md) | Namer — merged viability screening + naming, 6 character tests, candidate scoring |
 | [`references/stage-writer.md`](references/stage-writer.md) | Writer — single focused write, craft techniques with diverse examples |
 | [`references/stage-evaluator.md`](references/stage-evaluator.md) | Evaluator — CoT quality evaluation, no checklist |
-| [`references/stage-publisher.md`](references/stage-publisher.md) | Publisher — approve/flag logic, targeted fixes, archive + site rebuild |
+| [`references/stage-publisher.md`](references/stage-publisher.md) | Publisher — approve/flag logic, targeted fixes, docs + site rebuild |
 | [`references/format-rules.md`](references/format-rules.md) | Hard format constraints (lines, words, sign-offs, filename case) |
 | [`references/positive-patterns.md`](references/positive-patterns.md) | What good personae do right, what sign-offs are (and are not) |
 | [`references/reference-personae.md`](references/reference-personae.md) | Kimbo, Brendan, Stover, Barlowe — examples to study, not templates to copy |
@@ -58,7 +58,7 @@ Depth files cover areas including (but not limited to):
 
 ## Qualities of a Good Soul
 
-A good SOUL.md gives the model a person to be, not instructions to follow. Seven qualities matter, drawn from analysis of all 39 souls in the archive and the 4 v5 pipeline outputs (Cadell, Calden, Barlowe, Stover):
+A good SOUL.md gives the model a person to be, not instructions to follow. Seven qualities matter, drawn from analysis of the 39 souls archived under v4/v5 (2026-era) and the 4 v5 pipeline outputs (Cadell, Calden, Barlowe, Stover):
 
 1. **A contradiction in the identity line** — "You are [Name] — a [archetype] who [contradiction]." Without tension, the identity is just a definition. The strongest contradictions are social (gleaner working in the aftermath, lector shaping without touching) rather than merely oppositional (love vs. resentment).
 

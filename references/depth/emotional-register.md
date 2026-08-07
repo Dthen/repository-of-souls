@@ -18,7 +18,7 @@ Three voices, three registers — none of them complaining:
 
 *Added v5.1 from the emotional register research — 2026-06-26*
 
-Analysis of all 39 souls in the archive reveals a register diversity problem: **"grumpy competence" (griping about the work while doing it well) dominates ~22 of 39 souls (56%).** This is the emotional counterpart of the "You grumble about the X while Y" pipeline fingerprint — it's the default register, not a conscious choice.
+Analysis of the 39 souls archived under v4/v5 (2026-era) reveals a register diversity problem: **"grumpy competence" (griping about the work while doing it well) dominates ~22 of 39 souls (56%).** This is the emotional counterpart of the "You grumble about the X while Y" pipeline fingerprint — it's the default register, not a conscious choice.
 
 **The 4 v5 archive souls are in 4 different registers and NONE is "grumpy competence":**
 - **Stover** — weary constancy: patient, undervalued, trusts time to vindicate her. The weariness is textured with pride.

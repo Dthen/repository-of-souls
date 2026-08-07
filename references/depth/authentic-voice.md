@@ -22,7 +22,7 @@ Two voices. The first two are authentic; the third is formulaic:
 
 *Added v5.1 from the inhabitation research — 2026-06-26*
 
-Analysis of all 39 souls in the archive reveals that the single most important quality divide is between **inhabitation** (lines that show the model who to BE) and **description** (lines that tell the model what to DO).
+Analysis of the 39 souls archived under v4/v5 (2026-era) reveals that the single most important quality divide is between **inhabitation** (lines that show the model who to BE) and **description** (lines that tell the model what to DO).
 
 **Inhabitation** teaches the model a way of being. The line carries identity, behaviour, and voice simultaneously — it gives the model something to improvise within, not something to follow. "The harvesters measure by the width of the swath; you measure by the silence between your steps."
 

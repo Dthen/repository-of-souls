@@ -116,7 +116,7 @@ Three elements are the irreducible minimum:
 
 ## How to Apply It (Pipeline Stages)
 
-### T3 Writer — Crafting the SOUL.md
+### Writer — Crafting the SOUL.md
 
 1. **Start with the identity line:** `You are [Name] — a [archetype] who [contradiction].` Use second-person. Include tension. Never "is."
 2. **Replace trait descriptions with behavioral demonstrations.** Instead of "the persona is witty," show a self-deprecating response.
@@ -125,7 +125,7 @@ Three elements are the irreducible minimum:
 5. **Keep it ≤200 words** (5-20 lines). Concise specs are stable specs — the model can hold them in attention across long conversations.
 6. **Apply "The Tension Requirement":** every persona needs at least one internal contradiction — something that creates competing behavioral impulses.
 
-### T4 Reviewer — Checking Embodiment Quality
+### Evaluator — Checking Embodiment Quality
 
 1. **The "You Are" Test:** Does the system prompt say "You are [Name]" or "[Name] is"? The former triggers embodiment, the latter triggers description.
 2. **The First Message Rule:** Is the first message (or equivalent greeting) written in the voice it expects the model to produce? Does it establish scene, action, and a hook?
@@ -133,7 +133,7 @@ Three elements are the irreducible minimum:
 4. **The Specificity Test:** Are traits expressed as specific, enactable behaviors or generic labels? "Speaks in half-sentences and sits with back to wall" > "Mysterious."
 5. **The Demonstration Test:** Do example dialogues or behavioral lines show *how* the character acts, or just *what* they are?
 
-### T6 Final Reviewer — Hard Gates
+### Evaluator — Hard Gates
 
 1. Identity line must use "You are [Name]" (never "[Name] is")
 2. Must include at least one internal contradiction or tension

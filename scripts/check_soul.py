@@ -3,7 +3,7 @@
 
 Usage: python3 scripts/check_soul.py <path/to/soul.md>
 
-Checks all mechanical compliance rules so reviewers (T4, T6) can focus on quality.
+Checks all mechanical compliance rules so reviewers (Evaluator, Publisher) can focus on quality.
 
 Exit: 0 if all pass, 1 if any fail.
 """
@@ -44,8 +44,15 @@ def check(name, passed, detail=""):
 # H1 check — v5.2.2.1: relaxed from exact-match to prefix. Multi-word names/titles are
 # legitimate and the reference persona proves it: Brendan's H1 is "# Brendan the Wizen"
 # (reference-personae.md) — the old exact-match rule rejected the reference persona.
+# Hyphenated/compound slugs split on '-' and compare against the first words of the H1,
+# so 'brendan-the-wizen.md' with H1 "# Brendan the Wizen" passes.
 h1 = lines[0].strip()
-pass_h1 = h1.startswith(f"# {name_slug.capitalize()}")
+name_words = name_slug.split('-')
+h1_words = h1.lstrip('#').strip().split()
+pass_h1 = len(h1_words) >= len(name_words) and all(
+    a.lower().strip('.,:;!?()') == b.lower().strip('.,:;!?()')
+    for a, b in zip(h1_words, name_words)
+)
 check('H1 starts with "# Name"', pass_h1, f'got "{h1[:50]}"' if not pass_h1 else '')
 
 # First active line — v5.2.2.1: relaxed from "You are [Name]" to "You are ...". The
@@ -57,8 +64,8 @@ pass_first = first.startswith("You are")
 check('First line is "You are ..." identity', pass_first, f'got "{first[:50]}"' if not pass_first else '')
 
 # Line count — v5.2.2: floor lowered from 8 to 5. The 8-line floor had no evidence
-# and failed the reference personae (Kimbo works at 6 lines; minimal-profiles research
-# supports SHORTER souls). The cap stays — it is the context-economy bound.
+# and failed the reference personae (reference personae fit: Kimbo works at 6 lines).
+# The cap stays — it is the context-economy bound.
 total_lines = len(active)
 pass_lines = 5 <= total_lines <= 20
 check('Lines 5-20', pass_lines, f'{total_lines} lines' if not pass_lines else '')
@@ -134,8 +141,11 @@ for l in active[1:]:  # skip identity line
         third_person_lines.append(l[:60])
     elif re.search(r'\bshe\b', l, re.I):
         third_person_lines.append(l[:60])
-    # "a/the [noun] who" is third-person description
-    elif re.search(r'\b(a|the)\s+\w+\s+\bwho\b', l, re.I):
+    # "a/the [noun] who" is third-person description — only flagged when the line ALSO
+    # carries a third-person pronoun (he/she/his/her/they). Second-person lines like
+    # "you're the one who remembers" are not intrusions.
+    elif (re.search(r'\b(a|the)\s+\w+\s+\bwho\b', l, re.I)
+          and re.search(r'\b(he|she|his|her|they)\b', l, re.I)):
         third_person_lines.append(l[:60])
 pass_third_person = len(third_person_lines) == 0
 check('Second person throughout', pass_third_person,

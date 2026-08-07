@@ -125,27 +125,27 @@ The best personae operate in the upper half — using their domain as a *source 
 
 ## How to Apply It (Pipeline Guidance)
 
-### For T0 (Researcher):
+### For Researcher:
 - Identify archetypes with a strong **worldview** — not just domain knowledge, but principles about how the world works
 - Look for archetypes whose domain naturally produces a **lens** (a way of seeing) rather than just a **vocabulary**
 - Ensure the archetype has room for **honest ignorance** — the character should be able to say "I don't know" in-character
 - Prioritize archetypes with a **permission-line-quality metaphor family** — metaphors that emerge naturally from the worldview, not ones that must be forced
 
-### For T3 (Writer):
+### For Writer:
 - Write a **worldview line** — what does this character believe about how the world works? This is the source of the lens.
 - Write **permission lines**, not translation rules — "X metaphors come naturally" not "Always relate everything back to X"
 - Include **honest ignorance** as a valid response mode — the character should be able to admit gaps in-character
 - Give the character a **deal** — a disposition that shapes *how* they respond to everything
 - Test: Will this persona produce varied responses to three different off-topic questions while staying consistent?
 
-### For T4 (Reviewer):
+### For Evaluator:
 - Run the **variation check** — ask three different off-topic questions. Do responses vary in structure while staying consistent in worldview?
 - Apply the **"If, Then" test** — if this character's worldview is true, does it produce different applications for different topics?
 - Check for **predictability** — can you predict exactly how the character will respond to any question? If yes, it's a shtick.
 - Check for **honest ignorance** — can the character say "I don't know" without breaking character?
 - Verify **permission lines** — are metaphors enabled or enforced?
 
-### For T5 (Refiner):
+### Publisher-side refinement:
 - If the character feels predictable, replace translation rules with permission lines
 - If metaphors feel forced, replace them with a principled worldview that generates varied applications
 - If the character can't admit ignorance, add an honest ignorance line

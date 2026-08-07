@@ -55,7 +55,7 @@ This gap is not fixable with temperature alone. GPT-4-turbo's decline in diverge
 |-------|--------|----------|
 | 0.0–0.3 | Deterministic, conservative | Baseline competence, copy-edit |
 | 0.4–0.7 | Some variation, still plausible | Refinement of existing drafts |
-| **0.8–1.2** | **Sweet spot for creative generation** | **T3 Writer stage** |
+| **0.8–1.2** | **Sweet spot for creative generation** | **Writer stage** |
 | 1.3–2.0 | High divergence, coherence degrades | Seed material only |
 
 - GPT-4 at temp 1.5 surpassed 72% of human participants on divergent creativity (Nature Sci Rep, 2026). At temp 0.5 it reached only ~50%.
@@ -113,14 +113,14 @@ Write 5 versions of this line, each targeting a different emotional register:
 
 ## How to Apply It
 
-### For T3 (Writer)
+### For Writer
 
 **Generate in creative mode, refine in competent mode.**
 
 | Stage | Mode | Parameters |
 |-------|------|------------|
-| T3 Draft generation | Creative | Temp 1.0–1.2, top-p 0.9, freq penalty 0.5, presence penalty 0.5 |
-| T5 Refinement | Competent | Temp 0.4–0.7, top-p 0.8, freq penalty 0.3 |
+| Writer draft generation | Creative | Temp 1.0–1.2, top-p 0.9, freq penalty 0.5, presence penalty 0.5 |
+| Publisher-side refinement | Competent | Temp 0.4–0.7, top-p 0.8, freq penalty 0.3 |
 
 **Persona-with-tension is mandatory.** Every persona must have an internal contradiction. "You are a harbormaster who actually likes the job" — this creates creative resistance that forces the model off default paths. A flat identity line ("You are a harbormaster") produces competent output.
 
@@ -128,7 +128,7 @@ Write 5 versions of this line, each targeting a different emotional register:
 
 **Add a "worst-first" step.** Before writing the real draft, generate a deliberately terrible version. Analyze why it's bad. Then write the good version — the model has to understand cliché to violate it.
 
-### For T5 (Refiner)
+### Publisher-side refinement
 
 Use the lower-temperature profile (0.4–0.7) for refinement. But add **one generation step with creative parameters**:
 

@@ -1,7 +1,7 @@
 # Stage Researcher — Seed Scout
 
 **Purpose:** Find archetypes that will produce good personae, test them against viability criteria, write seed files, and spawn pipeline chains.
-**Input:** The archive (`archive/`) and existing seeds (`seeds/`).
+**Input:** The published souls in `docs/` and existing seeds (`seeds/`).
 **Output:** New seed files in `seeds/` + Namer tasks spawned on the `soul-factory` board.
 
 **You are an ORCHESTRATOR, not an executor.** You do not write drafts, review, refine, or final-review. Your job ends when the Namer tasks are spawned.
@@ -16,15 +16,15 @@
 
 Check if `seeds/COVERAGE_MAP.md` exists. If it does, read it — this is your starting point.
 
-**Skip the rebuild if nothing has changed.** Run `git log --since="<last-modified-date>" --name-only -- archive/` to check if any archive files have changed since the coverage map was last written. If nothing has changed, use the existing map as-is and go straight to Step 2.
+**Skip the rebuild if nothing has changed.** Run `git log --since="<last-modified-date>" --name-only -- docs/` to check if any published souls have changed since the coverage map was last written. If nothing has changed, use the existing map as-is and go straight to Step 2.
 
-**If the archive has changed** (new souls added, old ones removed), update the map incrementally:
-- Read any new SOUL.md files in `archive/` that aren't in the map yet
+**If the published souls have changed** (new souls added, old ones removed), update the map incrementally:
+- Read any new SOUL.md files in `docs/` that aren't in the map yet
 - Remove entries for souls that no longer exist
 - Recount the categories
 - Write the updated map to `seeds/COVERAGE_MAP.md`
 
-**If no coverage map exists**, build one from scratch: read all SOUL.md files in `archive/`, extract Name, Archetype, Domain, and Category for each, count the categories, and write `seeds/COVERAGE_MAP.md`.
+**If no coverage map exists**, build one from scratch: read all SOUL.md files in `docs/`, extract Name, Archetype, Domain, and Category for each, count the categories, and write `seeds/COVERAGE_MAP.md`.
 
 ### Step 2: Identify Gaps
 
@@ -59,7 +59,7 @@ For each gap, generate 2–3 archetype candidates. **Do NOT use web search as yo
 - Refuse to use tools or be genuinely hostile
 - Break into cryptic oracle or riddle-only mode
 - Be so niche that the model lacks cultural reference points
-- Overlap with an existing archived archetype — read every persona in `archive/` first
+- Overlap with an existing archived archetype — read every published persona in `docs/` first
 
 ### Step 4: Pre-Filter with Character Tests
 
@@ -137,7 +137,7 @@ Body: Include the seed file content, reference the Namer instructions (`referenc
 
 ### Step 7: Update the Coverage Map
 
-After spawning, update `seeds/COVERAGE_MAP.md` with the new seeds and the current archive state.
+After spawning, update `seeds/COVERAGE_MAP.md` with the new seeds and the current docs/ state.
 
 ### Step 8: Complete
 

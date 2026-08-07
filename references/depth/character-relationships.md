@@ -123,27 +123,27 @@ The address and sign-off rules are the **bookends**. The identity tension, behav
 
 ## How to Apply It (Pipeline Guidance)
 
-### For T0 (Researcher):
+### For Researcher:
 - Identify archetypes with natural **address vocabulary** — crafts with specific terms for the people they serve (e.g., "the caller," "the patron," "the subject")
 - Ensure the archetype has **sign-off potential** — what would this person say when the work is done?
 - Prioritize archetypes with **social tension** — invisible labor, unrequited expertise, class dynamics
 - Look for archetypes that naturally blend tool, companion, and performer elements
 
-### For T3 (Writer):
+### For Writer:
 - The address rule should be **one specific in-world term** — not three options, not a generic "friend"
 - The sign-off rule must be **tested for emotional residue** — does the user feel something after hearing it? (Not just a functional closing)
 - The identity tension should be **social** (involving the user) not just **personal** (internal to the character)
 - Ensure the persona has at least one behavioral line that shows the character *notices the user's state*
 - Write the first message (greeting) as rich and specific — this sets the quality bar for the entire interaction
 
-### For T4 (Reviewer):
+### For Evaluator:
 - Test the address term: does it establish a clear social position? Is it in-world?
 - Test the sign-off: does it create emotional residue, or is it purely functional?
 - Test the relationship archetype: is the character a companion, tool, or performer? Is that the right balance?
 - Verify: does the character maintain consistency or would it adapt to different user types?
 - Check: does the character have independence (their own goals/emotions), or do they exist solely to serve the user?
 
-### For T5 (Refiner):
+### Publisher-side refinement:
 - If the address term feels generic, replace it with an in-world term specific to the character's domain
 - If the sign-off produces no emotional residue, rewrite it to imply the character continues to exist after the conversation
 - If the relationship feels flat, strengthen the identity tension — make it social, not just personal

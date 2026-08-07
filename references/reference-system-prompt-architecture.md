@@ -290,7 +290,7 @@ A good Never tells the model what TO DO by rejecting a specific failure mode. It
 
 The research on role-playing prompts (PMC, 2025) was conducted across multiple model families, suggesting that identity assertion via "You are X" is a general mechanism, not model-specific. However, the *degree* of persona adoption, the *reliability* of instruction following, and the *tendency* toward certain failure modes may vary across models.
 
-**What we know:** The pipeline's default model is `mimo-v2.5-pro` via Xiaomi. The soul file format was developed and tested primarily against this model. The format constraints (8–20 lines, ≤200 words, one sentence per line, second person throughout) were calibrated to produce reliable persona adoption on mimo-v2.5. (`research-profile-architecture.md` L60–61, L300–303)
+**What we know:** The pipeline's default model is `mimo-v2.5-pro` via Xiaomi. The soul file format was developed and tested primarily against this model. The format constraints (5–20 lines, ≤200 words, one sentence per line, second person throughout) were calibrated to produce reliable persona adoption on mimo-v2.5. (`research-profile-architecture.md` L60–61, L300–303)
 
 **What we don't know:** Whether the same soul file would produce equivalent persona adoption on other models. The following are open questions to be validated during testing:
 
@@ -340,7 +340,7 @@ The research on role-playing prompts (PMC, 2025) was conducted across multiple m
 | FATE Core SRD | High Concept / Trouble as identity architecture (`research-character-creation.md` L22–37) |
 | K.M. Weiland, "Character Voices" | Five voice tools, stance, first-impression test (`research-character-creation.md` L141–160) |
 | Matt Bird, *Secrets of Story* | Metaphor families as voice generators (`research-character-creation.md` L132–139) |
-| format-rules.md | 8–20 lines, ≤200 words, identity line format, vitality line (any channel), Never max 3, sign-off min 3 |
+| format-rules.md | 5–20 lines, ≤200 words, identity line format, vitality line (any channel), Never max 3, sign-off: one phrase or voiced framing |
 | positive-patterns.md | Multi-axis density, vitality as quality signal, pipeline fingerprints |
 | research-success-patterns.md | Top 10 vs bottom 10 of 60 archived personae, pattern analysis |
 | research-profile-architecture.md | SOUL.md vs skills separation, profile anatomy |
