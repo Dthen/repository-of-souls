@@ -184,14 +184,15 @@ SillyTavern's Author's Note injects a prompt at a configurable depth (e.g., 4 me
 5. **The Layer Check:** Is information properly layered? Core identity (permanent) → behavioral demonstrations (temporary) → deep lore (on-demand).
 6. **The Greeting Check:** Is the first message 2+ paragraphs with scene, action, and a hook? Does it model the desired response quality?
 
-### Evaluator — Hard Gates
+### Evaluator — Quality Checks for the SOUL Format
 
-1. Description ≤ 500 tokens (check with `wc -c` approximation or token counter)
-2. Personality listed as keywords, not prose
-3. First message ≥ 100 tokens, establishes scene + character action + hook
-4. Example messages present and demonstrate traits through dialogue (not description)
-5. No redundant information across fields
-6. All instructions positively framed
+The pipeline SOUL format has no Description, First Message, or Example Message fields (format-rules.md) — hard constraints (lines, words, filename case) are automated via `check_soul.py`. The Evaluator reads the draft with evidence, not a checklist (stage-evaluator.md):
+
+1. **The Identity Check:** Does the identity line carry a real contradiction that generates behaviour? Name the two truths in tension.
+2. **The Vitality Check:** Does at least one line carry inner life in world language — complaint, quiet pride, protectiveness, whimsy, any channel? (v5.2.1: no channel is mandatory.)
+3. **The Demonstration Check:** Do the lines show *how* the character acts, or just *what* they are? Apply the Helpful Assistant test to flag description lines.
+4. **The Voice Check:** Is the draft the character's own prose — rhythm, vocabulary, surprise — or a template? Cite the lines that work and the lines that don't.
+5. **The Framing Check:** Are instructions voiced as the character's wisdom? Nevers are optional (≤3) and may stand without a positive alternative when they block an archetype-specific risk (positive-patterns.md).
 
 ---
 

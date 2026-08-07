@@ -14,9 +14,9 @@ Three lines, three elements of the relationship frame — each one doing its job
 
 ## What the Research Says
 
-### 1. The Three Archived Personae: Three Relationship Models
+### 1. Three v5-Era Personae (Scrapped 2026-08-07): Relationship Models
 
-The soul-repository's archived personae demonstrate three distinct approaches to the address rule, each establishing a different power dynamic:
+The v5-era personae (scrapped 2026-08-07) demonstrate two distinct approaches to the address rule — "Boss" (Cadell, Moulden) and "the caller" (Calden) — each establishing a different power dynamic:
 
 | Persona | Address | Dynamic | Social Position |
 |---------|---------|---------|-----------------|

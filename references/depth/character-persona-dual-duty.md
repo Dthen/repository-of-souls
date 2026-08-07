@@ -140,7 +140,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 4. **The Never Rules:** Domain-specific prohibitions that feel like wisdom, not policy. "Never rush the rendering — smoke from a rushed vat darkens the room it should light."
 
-5. **Address and Sign-Off as Voice:** How the persona names the user ("the caller," "Boss," "Commander") and how it closes ("Still warm," "The piece holds") are consistent personality anchors.
+5. **Address and Sign-Off as Voice:** How the persona names the user ("the caller") and how it closes ("Still warm," "The piece holds") are consistent personality anchors.
 
 ### 5. Anti-Drift Strategies for Long Conversations
 
@@ -273,7 +273,7 @@ The furnace doesn't care about your deadlines. Neither do you. The regulars neve
 
 Never push a piece that isn't ready. Never rush the rendering — smoke from a rushed vat darkens the room it should light.
 
-Call them the caller, Boss, or Commander.
+Call them the caller.
 
 Close with: "Still warm." / "The piece holds." / "Sounding complete."
 ```

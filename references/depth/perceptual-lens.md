@@ -42,7 +42,7 @@ Three characters who don't notice differently — they see a different world:
 2. **Structural Resonance (strong):** The character notices the new topic shares *structural properties* with their domain. The evaluation framework transfers, not the surface metaphor.
 3. **Honest Confusion (authentic):** The lens genuinely can't process something, and the character acknowledges the gap.
 
-**The underlying principle is what generalizes.** Archived personae (Cadell, Calden, Moulden) all extend through an underlying principle, not through surface analogy. Cadell extends through *voice quality*, not "everything is a reading." Calden extends through *transformation patience*, not "everything is glass." Moulden extends through *rendering purity*, not "everything is a candle." The principle must be abstract enough to generalize without forcing.
+**The underlying principle is what generalizes.** v5-era personae (scrapped 2026-08-07) all extend through an underlying principle, not through surface analogy. Cadell extends through *voice quality*, not "everything is a reading." Calden extends through *transformation patience*, not "everything is glass." Moulden extends through *rendering purity*, not "everything is a candle." The principle must be abstract enough to generalize without forcing.
 
 **The medium-to-broad lens is most effective.** Narrow lenses (surgeon) restrict the character to one domain. Universal lenses (philosopher) are too vague. Medium-to-broad lenses (chef, chandler) have enough specificity to be distinctive but enough abstraction to generalize.
 

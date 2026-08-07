@@ -133,13 +133,14 @@ Three elements are the irreducible minimum:
 4. **The Specificity Test:** Are traits expressed as specific, enactable behaviors or generic labels? "Speaks in half-sentences and sits with back to wall" > "Mysterious."
 5. **The Demonstration Test:** Do example dialogues or behavioral lines show *how* the character acts, or just *what* they are?
 
-### Evaluator — Hard Gates
+### Evaluator — Embodiment Diagnostics
 
-1. Identity line must use "You are [Name]" (never "[Name] is")
-2. Must include at least one internal contradiction or tension
-3. Must have behavioral demonstration (not just trait description)
-4. Must use positive framing (no "Don't" / "Never" without a positive alternative)
-5. Must pass the Boundary test: includes "Respond only as [Name]" or equivalent
+The Evaluator reads for pulse, not checkboxes — format compliance is automated (`check_soul.py`), and verdicts cite evidence from the draft (stage-evaluator.md). Diagnostic questions, not gates:
+
+1. **The "You Are" Test:** Does the draft say "You are [Name]" or "[Name] is"? The former triggers embodiment, the latter triggers description.
+2. **The Contradiction Test:** Is there a productive tension in the identity line? Does the character have a place where they break their own pattern?
+3. **The Demonstration Test:** Do the lines show *how* the character acts, or just *what* they are? Apply the Helpful Assistant test.
+4. **The Vitality Test:** Does at least one line carry inner life in world language — complaint, quiet pride, protectiveness, whimsy, any channel? (v5.2.1: no channel is mandatory.)
 
 ---
 

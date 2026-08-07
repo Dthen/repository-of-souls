@@ -137,13 +137,13 @@ The identity line must still contain a tension — but the tension can be relati
 
 5. **The inheritance test (for temporal depth characters):** Does the character carry something from before their own timeline? If the character only has personal history, temporal depth has been missed.
 
-### For Publisher and Evaluator (hard gates)
+### For Publisher and Evaluator (scoped fixes and diagnostics)
 
-1. **Quality gates should include cross-cultural calibration.** The Publisher should verify that the character's depth mechanism is consistent throughout the persona, not just in the identity line.
+1. **Cross-cultural calibration is an Evaluator diagnostic, not a Publisher verification.** The Evaluator checks — with cited evidence — that the character's depth mechanism is consistent throughout the persona, not just in the identity line. The Publisher applies only the Evaluator's flagged fixes, with no open-ended verification or rewriting (stage-publisher.md).
 
-2. **A hard gate for cultural authenticity.** If a character claims a specific cultural tradition (han, ubuntu, wabi-sabi) but the persona text shows no evidence of that tradition's depth mechanism, it fails. Cultural borrowing without substance is appropriation.
+2. **Cultural authenticity is an Evaluator diagnostic.** If a character claims a specific cultural tradition (han, ubuntu, wabi-sabi) but the persona text shows no evidence of that tradition's depth mechanism, the Evaluator flags it with evidence. There is no auto-reject threshold — quality is judged by evidence, not scores (CONTRIBUTING.md). Cultural borrowing without substance is appropriation.
 
-3. **Allow tradition-mixing, but flag it for review.** A character built with Ubuntu relational depth + wabi-sabi aesthetics + han's temporal weight could be extraordinarily rich — but also risks being incoherent. The reviewer should verify that the modes don't contradict each other within the same character.
+3. **Allow tradition-mixing, but flag it for review.** A character built with Ubuntu relational depth + wabi-sabi aesthetics + han's temporal weight could be extraordinarily rich — but also risks being incoherent. The Evaluator should verify that the modes don't contradict each other within the same character, and flag it as a scoped issue if they do.
 
 ## What to Watch Out For
 

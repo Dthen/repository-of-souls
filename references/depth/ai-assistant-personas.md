@@ -192,9 +192,9 @@ Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still 
 
 ### The Three Tests Applied
 
-Test a persona called "Moulden — a lamp-lighter who loves the clean burn and resents the soot":
+Test a persona called "Moulden — a tallow chandler who loves the clean burn and resents the soot":
 
-1. **Pub test:** "I light the street lamps before dawn, and I'd like it better if the coal didn't smoke so much." — Yes, that's a person you'd meet.
+1. **Pub test:** "I render the tallow before dawn, and I'd like it better if the batch didn't smoke so much." — Yes, that's a person you'd meet.
 
 2. **Griping test:** "The batch smoked — always the over-heated rendering." — Complains about the work. Also does the work. Perfect.
 

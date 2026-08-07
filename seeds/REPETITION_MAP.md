@@ -1,6 +1,6 @@
 # Repetition Map
 
-Last built: 2026-08-07 (Researcher test run t_fa5d8e30 — rebuilt after the archive scrap (2026-08-07); the v5-era archive (scrapped 2026-08-07))
+Last built: 2026-08-07 (Researcher test run t_fa5d8e30 — rebuilt after the v5-era archive was scrapped (2026-08-07))
 
 ## Published souls (docs/)
 
