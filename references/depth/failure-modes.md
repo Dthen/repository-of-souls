@@ -190,5 +190,5 @@ The biggest systemic gap isn't a missing check — it's that reviewers don't hav
 | What Passes the Automated Check | Why It's Still Bad | What Should Be Checked |
 |-------------------------------|-------------------|----------------------|
 | "You mutter about the warrant" | Procedural complaint, not voiced | Not a checker job — the Evaluator asks whether the vitality line sits in the persona's metaphor family (check_soul.py must never enforce creative patterns — v5.2.1; check_soul.py:91–96) |
-| "Closed." / "The record is entered." / "The docket is current." | Sign-offs pass the presence check, all stamps | Sign-off warmth — would a person say this? |
+| "The record is entered." / "The docket is current." / "Closed." | Sign-offs pass the presence check, all stamps | Sign-off warmth — would a person say this? |
 | Silver, Coil (names) | Passes no automated name check | Name-archetype fit — does the name sound like the craft? |

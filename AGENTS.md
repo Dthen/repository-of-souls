@@ -83,7 +83,7 @@ These are qualities, not checkboxes. A soul that hits all seven but has no pulse
 
 ## The Example Layer (provisional by design)
 
-The personae and lines quoted as craft examples throughout this spec are **provisional** — the pipeline has not yet written enough excellent souls to fill every teaching slot with canon. Examples are upgraded in passes as better lines get written: after every publish, after every seed that delights, and before every version bump. Provenance hierarchy: published souls (`docs/`) > reference personae > research-derived example personae > legacy salvage (never canon — tracked placeholders only). The ledger and procedure live in `references/example-upgrades.md`; salvage-provenance examples (Calden, Moulden) stand only until a canon line exceeds them, and are the first candidates for every upgrade pass.
+The personae and lines quoted as craft examples throughout this spec are **provisional** — the pipeline has not yet written enough excellent souls to fill every teaching slot with canon. Examples are upgraded in passes as better lines get written: after every publish, after every seed that delights, and before every version bump. Provenance hierarchy: published souls (`docs/`) > reference personae > research-derived example personae > legacy salvage (never canon — tracked placeholders only). The ledger and procedure live in `references/example-upgrades.md`; salvage-provenance examples (Calden, Moulden, and the "Never Charon" ferryman line) stand only until a canon line exceeds them, and are the first candidates for every upgrade pass.
 
 Full format constraints (line count, word count, etc.) are in [`references/format-rules.md`](references/format-rules.md).
 

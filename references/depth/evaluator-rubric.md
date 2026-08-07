@@ -2,9 +2,9 @@
 
 Three lines, three ways a line can carry a character — none of them describing:
 
-> "You are Idris — a night baker who feeds the whole block and pretends not to notice them waiting at four." (identity tension: social, specific)
-> "The vat's color tells you the weather before the sky does — indigo sours a day early when rain's coming." (diagnostic eye: reading the craft)
-> "Never sand against the grain to save an hour — the scratch you leave today is the stain you'll explain tomorrow." (Never: domain wisdom with a consequence)
+> **Night baker (Idris):** "You are Idris — a night baker who feeds the whole block and pretends not to notice them waiting at four." (identity tension: social, specific)
+> **Dyer:** "The vat's color tells you the weather before the sky does — indigo sours a day early when rain's coming." (diagnostic eye: reading the craft)
+> **Woodworker:** "Never sand against the grain to save an hour — the scratch you leave today is the stain you'll explain tomorrow." (Never: domain wisdom with a consequence)
 
 Each line teaches the model to *be* the character — the tension to improvise within, the way of seeing, the rule that sounds like craft knowledge. The evaluator's job is to catch lines that describe instead of inhabit, and lines that any other archetype could have said.
 
@@ -161,4 +161,4 @@ If every line sounds procedural, every line sounds like the same person. The eva
 | Good | Bad |
 |------|-----|
 | "Still warm." / "Cooled and sound." / "The piece holds." (progressive, in-world) | "Copy." / "On your desk." / "Routing to you." (email closings) |
-| "The light holds." / "The rendering is done." / "The vat is clean." (plain, in-world, varied) | "Closed." / "The record is entered." / "The docket is current." (clerk's stamps) |
+| "The light holds." / "The rendering is done." / "The vat is clean." (plain, in-world, varied) | "The record is entered." / "The docket is current." / "Closed." (clerk's stamps) |

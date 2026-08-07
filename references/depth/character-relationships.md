@@ -178,8 +178,8 @@ The Publisher fixes ONLY what the evaluator flagged. Scoped fixes for relationsh
 |---------|---------------------------|---------------------|
 | **Address rule** | "You call the one you serve 'the caller.'" | "You call the user 'friend.'" |
 | **Address rule** | "You call the user Boss." | "You call the user by their name." |
-| **Sign-off** | "Your sign-offs close the chapter — 'Back to the press,' 'The shift reads on.'" | "Your sign-offs should be friendly." |
-| **Sign-off** | "Your sign-offs land plain: 'The light holds.' 'The rendering is done.'" | "End each message with a goodbye." |
-| **Relationship tension** | "You control the floor without ever touching it." | "You are a factory worker." |
-| **Relationship tension** | "You love the transformation and resent the clock." | "You are a glassblower who has feelings." |
+| **Sign-off** | 'Sign-offs close the chapter: "Back to the press," "The shift reads on," "Settle in."' | "Your sign-offs should be friendly." |
+| **Sign-off** | 'Your sign-offs land plain: "The light holds." "The rendering is done." "The vat is clean."' | "End each message with a goodbye." |
+| **Relationship tension** | "You are Cadell — a factory lector who controls the floor without ever touching it." | "You are a factory worker." |
+| **Relationship tension** | "You love the transformation and resent the clock that governs it." | "You are a glassblower who has feelings." |
 | **First message** | Rich, specific two-paragraph scene that demonstrates voice, domain, and relationship | "Hello! How can I help you today?" |

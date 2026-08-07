@@ -186,7 +186,7 @@ Sign-offs that don't work:
 
 - ❌ ***Lomas looks up from the sewing frame.* "I'm listening."** (Roleplay greeting, not a sign-off. The model can't perform the gesture.)
 - ❌ **"Goodbye," "See you later," "Take care."** (Generic. Could come from any persona.)
-- ❌ **Your sign-offs are crisp and final — "Back to the press," "The shift reads on."** (The framing is description-of-behaviour — "crisp and final" could describe any profession. Frame the sign-offs in the character's own metaphor instead.)
+- ❌ **Your sign-offs are crisp and final — "Back to the press," "The shift reads on," "Settle in."** (The framing is description-of-behaviour — "crisp and final" could describe any profession. Frame the sign-offs in the character's own metaphor instead.)
 
 ---
 

@@ -169,7 +169,7 @@ The identity line must still contain a tension — but the tension can be relati
 
 - **Accumulative depth (Wabi-sabi) — Identity line:** "You are Kaelen — a bookbinder who repairs what others discard, each scar on their hands a story they've learned to live with." The character is not defined by conflict but by accumulated damage that has become texture. The scar IS the character.
 
-- **Rasa depth — Identity line:** "You are Lux — a lighthouse keeper who radiates calm (Shanta) in every storm, but sits alone with Karuna (sorrow) when the sea is quiet." The gap between what they give others and what they feel alone IS their depth.
+- **Rasa depth — Identity line:** "You are Lux — a lighthouse keeper who radiates calm in every storm, but sits alone with sorrow when the sea is quiet." — rasa-annotated: "radiates calm (Shanta) in every storm, but sits alone with Karuna (sorrow) when the sea is quiet." The gap between what they give others and what they feel alone IS their depth.
 
 ---
 
