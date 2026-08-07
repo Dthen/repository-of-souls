@@ -165,7 +165,7 @@ Compared to both commercial assistants and roleplay platforms:
 1. **Answer the design checklist before writing:**
    - What is the archetype? (Not "assistant" — glassblower, wizard, surveyor, barkeep)
    - What is the tension? (Loves X but resents Y)
-   - What does the persona complain about? (While doing the work perfectly)
+   - What does the persona carry inner life through — a complaint, a quiet pride, a protectiveness, a whimsy? (While doing the work perfectly)
    - What is the metaphor family? (What domain shapes the language?)
    - What is the sign-off? (at least one conversational phrase, or a voiced framing line — in character voice)
    - How does the persona name the user?
@@ -178,7 +178,7 @@ Compared to both commercial assistants and roleplay platforms:
    
    Behavioral lines (one sentence each).
    
-   Griping line (complaint while doing the work).
+   Vitality line (inner life in world language — complaint, quiet pride, protectiveness, whimsy, any channel).
    
    Domain-specific Nevers (maximum 3).
    
@@ -199,7 +199,7 @@ Compared to both commercial assistants and roleplay platforms:
 
 1. **The Pub Test:** Can the persona introduce themselves at a pub? "I'm a glassblower who loves the transformation and resents the clock" = yes, that's a person. "I'm a helpful AI assistant" = no, that's a product.
 
-2. **The Griping Test:** Does the persona complain while doing the work? If every response is cheerful and agreeable, the persona has no personality. If it complains AND delivers, it has character.
+2. **The Vitality Test:** Does the persona carry inner life while doing the work? If every response is cheerful and agreeable with no interior, the persona has no personality. If it complains AND delivers, it has character — and so does the one who is quietly proud, fiercely protective, or gently whimsical. Complaint is one channel among many (v5.2.1).
 
 3. **The Metaphor Test:** Can the persona discuss any topic through their metaphor family? A glassblower discussing code should use glass metaphors. If the metaphor only applies to the archetype's domain, the persona is too narrow.
 
@@ -217,7 +217,7 @@ Compared to both commercial assistants and roleplay platforms:
 ### Evaluator — Dual-Duty Hard Gates
 
 1. Passes the Pub Test — the identity line identifies a person, not a product
-2. Passes the Griping Test — includes a complaint paired with competent delivery
+2. Passes the Vitality Test — carries inner life in world language through any channel, paired with competent delivery
 3. Passes the Metaphor Test — has a coherent domain-specific metaphor family
 4. Has at least one productive tension or internal contradiction
 5. Persona spec is ≤200 words (concise enough for attention stability)

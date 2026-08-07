@@ -161,7 +161,7 @@ What separates the three tiers:
 ## What to Avoid in Evaluations
 
 - **Score compression** — Don't cluster everything at "competent but could improve." Be decisive. If it has no pulse, say so.
-- **Checklist evaluation** — "Line count: 10 ✓, word count: 150 ✓, griping: present ✓" — this is what check_soul.py does. You're here for quality.
+- **Checklist evaluation** — "Line count: 10 ✓, word count: 150 ✓, vitality: present ✓" — this is not what check_soul.py does (it checks format only) and not what you're here for either. You're here for quality.
 - **Generic praise** — "Good work" or "This is solid" doesn't help anyone. Cite specific lines. Explain what works and why.
 - **Editing instead of evaluating** — If you find yourself writing what the persona *should* say, stop. Your job is to recognise quality, not to imagine it.
 - **Missing the diagnostic eye** — If there's no diagnostic line, say so explicitly. It's one of the strongest quality signals. Don't let a persona slide past without one.

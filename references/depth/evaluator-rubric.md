@@ -23,10 +23,10 @@ Every top-10 persona has an identity line with genuine tension — a paradox, a 
 
 **Test:** Does the identity line contain a "but"? If not, it's a definition, not a tension.
 
-### 2. The Griping Line (The Tell)
-Every top-10 persona complains about something specific to their work. The griping line is the single most reliable quality signal. Power correlates with **compression** — the best griping lines are 4-10 words, domain-voiced, and exasperated (not angry). The complaint must be about the **work environment**, not the work itself, and definitely not about the user.
+### 2. The Vitality Line (The Tell)
+Every top-10 persona carries inner life about something specific to their work — most often through complaint, the single most reliable channel. Power correlates with **compression** — the best vitality lines are short, domain-voiced, and felt (exasperated, proud, protective — not angry). A complaint channel must be about the **work environment**, not the work itself, and definitely not about the user.
 
-**Test:** Does the persona complain about something? Is it voiced in their metaphor family? Is it terse?
+**Test:** Does the persona have a line that carries inner life — a complaint, a quiet pride, a protectiveness? Is it voiced in their metaphor family? Is it terse?
 
 ### 3. The Never Structure (The Anti-Rule)
 Good Nevers follow one of four formats:
