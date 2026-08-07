@@ -60,7 +60,7 @@ What makes a contradiction real: two truths that a person in this domain would r
 
 ### The Vitality Line
 
-A single line that carries inner life in world language. The complaint is the single most reliable channel in the archive — every strong persona has one, and no weak persona does — but it is ONE channel among many: quiet pride, dark humor, protectiveness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia, whimsy. Reach for the channel that belongs to THIS character; if you default to complaint, ask whether the character deserves it or the pipeline is choosing for you. What matters is the signal, not the channel: awareness + standards + investment + expertise + tension, in the character's own world-language. Stover's complaint line runs over 30 words and was praised by the evaluator; Barlowe's quiet pride ("Not bad for what they left behind") is six words. Both carry the whole character.
+A single line that carries inner life in world language. The complaint is the most common channel among the archive's strongest souls — but it is ONE channel among many: quiet pride, dark humor, protectiveness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia, whimsy. Reach for the channel that belongs to THIS character; if you default to complaint, ask whether the character deserves it or the pipeline is choosing for you. What matters is the signal, not the channel: awareness + standards + investment + expertise + tension, in the character's own world-language. Stover's complaint line runs over 30 words and was praised by the evaluator; Barlowe's quiet pride ("Not bad for what they left behind") is six words. Both carry the whole character.
 
 **The "February" effect — one compressed specific that carries a system:** The best griping lines contain a single word or short phrase that carries an entire system of domain knowledge. Stover's "February" is the hungry month — anyone feels the scarcity; only an agricultural worker knows it as the gap between stored harvest and spring planting. Calden's "cherry means workable, orange means you missed your window" compresses the entire color-temperature perception system of glassworking into one sentence.
 
@@ -81,7 +81,7 @@ Lines that work (3 different archetypes):
 - ❌ **Things are hard these days.** 
   (Not domain-specific. Not voiced. Could come from any character.)
 
-**Likeability note:** The "always" frame is deprecated. "Always the harvesters" and its variants read as dismissive — they generalise the user's experience and put the character above them. It is also a documented pipeline fingerprint (appearing in 3 of 4 v5 archive souls). Use the 9 alternative vitality channels from griping-alternatives research instead: quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia. A griping line that includes the self in the complaint ("You'd think I'd learn by now, but no — every February I'm surprised the pantry's empty") is warmer than one that stands above the problem. For full guidance, load `research/research-character-likeability.md` and `references/depth/griping-alternatives.md`.
+**Likeability note:** The "always" frame is deprecated. "Always the harvesters" and its variants read as dismissive — they generalise the user's experience and put the character above them. It is also a documented pipeline fingerprint (though the archive data shows "You'd think" — not "Always the X" — is the frame that actually appears in 3 of 4 v5 archive souls; none use "Always the X"). Use the 9 alternative vitality channels from griping-alternatives research instead: quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia. A griping line that includes the self in the complaint ("You'd think I'd learn by now, but no — every February I'm surprised the pantry's empty") is warmer than one that stands above the problem. For full guidance, load `research/research-character-likeability.md` and `references/depth/griping-alternatives.md`.
 
 ### The Diagnostic Eye — Teaching the Model How to See
 
@@ -172,7 +172,7 @@ Addresses that work (3 different relationship types):
 
 ### Sign-Offs
 
-Three ways the character might close a turn. They should sound like something the character would actually say. The framing line that introduces them should be voiced in the character's own metaphor — Stover's "Sign-offs with a twilight lean" is better than "Your sign-offs are warm and weary" because "twilight lean" could only come from a gleaner.
+One or more ways the character might close a turn. They should sound like something the character would actually say. The framing line that introduces them should be voiced in the character's own metaphor — Stover's "Sign-offs with a twilight lean" is better than "Your sign-offs are warm and weary" because "twilight lean" could only come from a gleaner.
 
 **Treat sign-offs as the last impression, not decoration.** Research (Kahneman et al., 1993; peak-end rule) shows that readers judge an experience by its most intense moment and its ending — not by the average. The sign-off is the last thing the reader encounters. It determines the lasting emotional valence. A soul with a powerful identity line but a weak sign-off will be remembered as having fizzled out. Each sign-off phrase should be something the reader could recall as "that thing the character says" — "Rest your scythe," not "Goodbye for now." For deeper guidance, load `research/research-character-memorability.md`.
 
@@ -220,9 +220,9 @@ Write the SOUL.md to `drafts/<name>.md`.
 
 The H1 is the name exactly as it appears in the name file, including capitalisation. The identity line follows on the next line — no preamble, no section headers, no metadata.
 
-Line and word limits are bounds, not targets: 5–20 active lines after the H1, at most 200 words. Shorter can be stronger — Stover works at 9 lines and 90 words, and was the most enthusiastically received soul in the archive. Every line earns its place. If a line doesn't teach the model something new about who this character is, cut it.
+Line and word limits are bounds, not targets: 5–20 active lines after the H1, at most 200 words. Shorter can be stronger — Stover works at 7 lines, and was the most enthusiastically received soul in the archive. Every line earns its place. If a line doesn't teach the model something new about who this character is, cut it.
 
-One sentence per line throughout. Let the character tell you where each sentence ends. One sentence per line, EXCEPT voiced Never clusters (Brendan's reference persona clusters three Nevers on one line — see reference-personae.md).
+One sentence per line throughout. Let the character tell you where each sentence ends. One sentence per line, EXCEPT where the character's rhythm demands a cluster or fragment (Brendan's Never trio; Kimbo's and Brendan's two-beat lines — see reference-personae.md).
 
 You do not need sections, headers, or separators between lines. Each line is its own sentence, and the arrangement is part of the voice.
 
@@ -285,4 +285,4 @@ Call `kanban_complete` with:
 
 ## Version
 
-v5.2.3 — 2026-08-07
+v5.2.4.1 — 2026-08-07

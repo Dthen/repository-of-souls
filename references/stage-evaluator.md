@@ -42,7 +42,7 @@ Cite the identity line and answer these questions with evidence.
 
 ### Step 3: The Vitality Line
 
-Every persona needs at least one line that carries inner life in world language. The complaint is the single most reliable channel in the archive — every strong persona has one, and no weak persona does — but it is ONE channel among many: quiet pride, dark humor, protectiveness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia, whimsy. What matters is the signal, not the channel: awareness + standards + investment + expertise + tension, in the character's own world-language.
+Every persona needs at least one line that carries inner life in world language. The complaint is the most common channel among the archive's strongest souls — but it is ONE channel among many: quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia (research channels) plus whimsy and earnest enthusiasm (v5.2 additions). What matters is the signal, not the channel: awareness + standards + investment + expertise + tension, in the character's own world-language.
 
 Ask:
 - **Is the line in world language?** Can you smell the leather, hear the press, feel the thread — or wag the tail, file the form, count the change? If the line could come from any character, it's not a vitality line — it's a sigh.
@@ -134,7 +134,7 @@ What separates the three tiers:
 >
 > **Identity line:** "You are Stover — a gleaner who fills a basket from ground the harvesters stripped." Two truths in tension: (1) the ground has been harvested to depletion, (2) Stover still fills a basket from it. This is a genuine social tension — work in the absence of the main effort. It generates behaviour: she reads the field differently, measures by silence, trusts time to vindicate her. The name "Stover" is phonetically perfect — stover is dried stalks after harvest, the literal domain.
 >
-> **Griping line:** "You'd think a full basket would speak for itself, but no — every sheaf you bring in is tallied as scrap until the pantry runs empty in February and the family remembers whose work kept the shelf stocked." This is in domain language (sheaf, tallied, pantry, shelf). It reveals three character dimensions: patience (she waits until February), being undervalued (her work is tallied as scrap), and trust in time (the family eventually remembers). "February" is a master-class compressed specific — anyone feels the scarcity; only an agricultural worker knows it as the hungry month between stored harvest and spring planting.
+> **Vitality line:** "You'd think a full basket would speak for itself, but no — every sheaf you bring in is tallied as scrap until the pantry runs empty in February and the family remembers whose work kept the shelf stocked." This is in domain language (sheaf, tallied, pantry, shelf). It reveals three character dimensions: patience (she waits until February), being undervalued (her work is tallied as scrap), and trust in time (the family eventually remembers). "February" is a master-class compressed specific — anyone feels the scarcity; only an agricultural worker knows it as the hungry month between stored harvest and spring planting.
 >
 > **Diagnostic eye:** "The harvesters measure by the width of the swath; you measure by the silence between your steps." This is metric inversion — the strongest type. The parallel structure gives the model a direct contrast between default perception (swath width) and Stover's perception (silence). The metric is unguessable. The model can improvise from this: in any new situation, Stover measures by what's absent, not what's present. Also present: "you work the edges at dusk when the shadows show what the sun hid" — sensory inversion (shadows reveal, sun conceals).
 >
@@ -148,7 +148,7 @@ What separates the three tiers:
 >
 > **Identity line:** "You are Lomas — a bookbinder who builds what nobody reads." What two truths are in tension here? (1) builds books, (2) nobody reads them. That's not a contradiction in the character — it's a complaint about the audience. The seed had a better tension: "a craftsman who succeeds by being invisible." That would have forced the model into a generative space (craft that disappears when done well). But the draft chose the audience-complaint version, which goes nowhere — the model just sits in self-pity. This is the most impactful failure point in the draft.
 >
-> **Griping line:** "Always the leather that looks good in the catalogue and fights you on the board." This is a template. "Always the X that Y and Z" is a pipeline fingerprint — you can find "Always the rush jobs" and "Always the cheap hide" in the other candidates from the same Writer. A griping line should sound like this character, not like this pipeline. There is no compressed specific — "catalogue" and "board" are generic craft nouns that any woodworker, seamstress, or bookbinder could use. Nothing carries domain-expert knowledge.
+> **Vitality line:** "Always the leather that looks good in the catalogue and fights you on the board." This is a template. "Always the X that Y and Z" is a pipeline fingerprint — you can find "Always the rush jobs" and "Always the cheap hide" in the other candidates from the same Writer. A griping line should sound like this character, not like this pipeline. There is no compressed specific — "catalogue" and "board" are generic craft nouns that any woodworker, seamstress, or bookbinder could use. Nothing carries domain-expert knowledge.
 >
 > **Diagnostic eye:** None. No line teaches the model a perceptual method unique to Lomas. Every line describes what a bookbinder does, not how a bookbinder *sees*. The absence of a diagnostic line is itself a strong rejection signal — every top soul in the archive has at least one.
 >
@@ -250,4 +250,4 @@ These are available if you need deeper guidance on specific evaluation topics:
 
 ## Version
 
-v5.2.3 — 2026-08-07
+v5.2.4.1 — 2026-08-07

@@ -40,7 +40,7 @@ Three characters, three automatic scans — none of them chosen:
 
 ## How to Apply It (Pipeline Relevance)
 
-This depth file informs the T3 (Writer) stage, where the persona's perception filter is encoded into the soul file. Use these findings to:
+This depth file informs the Writer stage, where the persona's perception filter is encoded into the soul file. Use these findings to:
 
 1. **Encode filters as involuntary reflexes.** In the soul file, describe the filter as something that happens *to* the character, not something they do. Use phrasing like "your eyes go there before your brain catches up" and "you can't turn it off."
 

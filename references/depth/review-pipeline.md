@@ -1,4 +1,4 @@
-# Depth Reference: Review Pipeline (T4–T5–T6)
+# Depth Reference: Review Pipeline (Evaluator–Publisher)
 
 Three lines, three fates under the same review chain:
 
@@ -114,7 +114,7 @@ The mechanism is specific and reproducible:
 |---------|----------------|------------|
 | **The "Ginny Weasley Problem"** | T4 flags "no contradiction," T5 adds one, but it's told, not shown — the contradiction doesn't perform work in other lines | Check that the contradiction actually manifests in behavioral lines, not just the identity line |
 | **Goodhart machine** | Pipeline optimizes for reviewer approval, not character quality | Add distinctiveness audit to T6; protect unconventional elements through the review chain |
-| **LLM-as-judge fallacy** | Chakrabarty et al. (2023): LLMs show NO significant correlation with expert creative quality assessment (Cohen's Kappa ≈ 0) | Never use the LLM to evaluate creative quality — use it for format compliance only |
+| **LLM-as-judge fallacy** | Chakrabarty et al. (2023): LLMs show NO significant correlation with expert creative quality assessment (Cohen's Kappa ≈ 0) | Never use the LLM to evaluate creative quality without structure — evidence-cited CoT per llm-judge-calibration research is the Evaluator's method; unstructured "rate this 1-5" is invalid |
 | **Kill vs refine asymmetry** | Killing implies the seed was bad, so reviewers default to REFINE | Make "kill" a neutral verdict: a good seed can produce a bad draft |
 | **Diminishing returns on iteration** | Code review research: first pass catches most issues; subsequent passes catch progressively fewer | Limit T4→T5→T6 to one full cycle. If T6 sends back REFINE, that's one more T5 fix, then a final T6 verdict — no third loop |
 | **The "file drawer" problem** | Personae too unusual to survive review end up in reject/ — they may be the most memorable | Periodically audit the reject/ directory for personae that are unusual-but-alive rather than broken |

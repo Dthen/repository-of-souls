@@ -26,7 +26,7 @@ Each stage only sees what it needs:
 - **Evaluator** sees the draft. It evaluates for pulse (voice, contradiction, vitality quality) and either picks it (with fix notes) or rejects it and kills the seed.
 - **Publisher** sees the winning candidate + evaluator's notes. It either approves directly or applies targeted fixes to specific issues, then publishes to docs/ and rebuilds the site.
 
-**Compliance is automated.** `check_soul.py` runs before the Publisher stage. Evaluators and Publishers do NOT check format, line counts, or word counts. They evaluate creative quality and fix scoping only.
+**Compliance is automated.** Evaluators and Publishers do NOT check format, line counts, or word counts — compliance is automated by `check_soul.py`, which the Publisher runs and confirms passed before publishing. They evaluate creative quality and fix scoping only.
 
 ---
 
@@ -67,7 +67,7 @@ Run `check_soul.py` before creating a Publisher task. If the winning candidate f
 | Stage | Title pattern | `assignee` value | Purpose |
 |---|---|---|---|
 | Researcher | `Research <topic>` | `soul-researcher` | Archetype discovery, seed generation |
-| Namer | `Name <Seed>` | `soul-namer` | Viability gate (6 character tests) + name selection |
+| Namer | `Namer <seed-label>` | `soul-namer` | Viability gate (6 character tests) + name selection |
 | Writer | `Write <Name> SOUL.md` | `soul-writer` | Single focused write, principles with examples |
 | Evaluator | `Evaluate <Name> SOUL.md` | `soul-evaluator` | Pulse evaluation or kill |
 | Publisher | `Publish <Name> SOUL.md` | `soul-publisher` | Approve/flag, publish to docs/, site rebuild |

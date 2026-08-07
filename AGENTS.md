@@ -84,7 +84,7 @@ Full format constraints (line count, word count, etc.) are in [`references/forma
 
 ## Version
 
-v5.2.3 — 2026-08-07
+v5.2.4.1 — 2026-08-07
 
 ## Application Check (v5.2)
 

@@ -198,4 +198,4 @@ These additions come from the research we've done on what makes personae work. T
 ---
 
 ## Version
-v5.2.3 — 2026-08-07
+v5.2.4.1 — 2026-08-07

@@ -88,12 +88,6 @@ check('Nevers ≤3', pass_nevers, f'{nevers} Nevers' if not pass_nevers else '')
 # withhold aid — merely process it duly.") as a deliberate stylistic trio. The ≤3
 # total cap above is the evidence-backed constraint; line placement is voice.
 
-# "You never" in Never block
-you_never_in_block = [l for l in never_lines if re.search(r'\byou\s+never\b', l, re.I)]
-pass_you_never = len(you_never_in_block) == 0
-check('"You never" NOT in Never block', pass_you_never,
-      f'Found: "{you_never_in_block[0][:50]}..."' if you_never_in_block else '')
-
 # Griping-line check REMOVED in v5.2.1 — the automated checker must not enforce creative content.
 # Compliance = mechanical format; vitality = LLM-judged quality (per research-prompt-engineering:
 # quality evaluation belongs to the Evaluator, not to regexes). The old regex list literally

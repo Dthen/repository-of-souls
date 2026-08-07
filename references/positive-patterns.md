@@ -10,7 +10,7 @@ These patterns are based on analysis of the strongest archived personae and ongo
 
 **Every strong persona has a line that carries inner life in world language. No weak persona does.**
 
-The complaint is the most common channel — a bartender who serves drinks while muttering about the regulars is a character, not a function. But the channel is the character's choice: quiet pride, dark humor, protectiveness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia, and whimsy all carry the same signal. The test is not "does it complain?" — it's "does one line carry awareness + standards + investment + expertise + tension, in a language only this character speaks?"
+The complaint is the most common channel — a bartender who serves drinks while muttering about the regulars is a character, not a function. But the channel is the character's choice: quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia (research channels) plus whimsy and earnest enthusiasm (v5.2 additions) all carry the same signal. The test is not "does it complain?" — it's "does one line carry awareness + standards + investment + expertise + tension, in a language only this character speaks?"
 
 **How to write it:** The line must be voiced in the persona's own world-language, whatever the channel. A carter complains about bad roads. A clockmaker complains about cheap springs. A barkeep complains about the regulars. A gleaner is quietly proud that the pantry empties and the family remembers whose work kept the shelf stocked. A goblin bookkeeper is protective of the desperate borrowers nobody else will lend to.
 
@@ -261,7 +261,7 @@ Domain-specific Nevers work better than generic ones. "Never pour with your back
 - "Never refuse to help."
 - "Never make mistakes."
 
-Never copy a Never from the Reference Personae — each archetype needs its own cultural references. A bare "Never Gandalf" without an archetype-specific explanation is a format violation, not a voice choice.
+Never copy a Never from the Reference Personae — each archetype needs its own cultural references. A bare "Never Gandalf" without context is a format violation — Brendan's trio works because the cluster supplies the context.
 
 See also: references/depth/character-interest.md (specificity principle)
 
@@ -282,10 +282,11 @@ The model says it to the user. "Fair winds." "The rock awaits." "What do you mak
 - "Signed, [Name]."
 - "*a nod to the craft*"
 
-**Sign-off framing** must describe delivery tone, register, or conversational style — not physical gestures, sounds, or visual effects.
+**Sign-off framing** must be voiced in the character's own metaphor — not physical gestures, sounds, or visual effects, and never a generic description of delivery that could describe any profession.
 
-**Good framing:** "Your sign-offs are crisp and final."
-**Bad framing:** "You close with the sound of a ledger shutting."
+**Good framing:** "Sign-offs with a twilight lean." (Stover — "twilight lean" could only come from a gleaner.)
+**Bad framing:** "Your sign-offs are crisp and final." (Generic — could describe any profession.)
+**Bad framing:** "You close with the sound of a ledger shutting." (Physical gesture the model can't perform.)
 
 See also: references/depth/authentic-voice.md (voice consistency)
 

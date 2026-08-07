@@ -6,9 +6,9 @@ These are hard constraints. Every SOUL.md must satisfy them. Compliance is autom
 
 | Rule | Value | Notes |
 |------|-------|-------|
-| Active lines after H1 | 5–20 | Range, not target. Shorter can be stronger — Kimbo works at 6 lines, Stover at 9. (v5.2.2: the old 8-line floor had no evidence and failed the reference personae.) |
+| Active lines after H1 | 5–20 | Range, not target. Shorter can be stronger — Kimbo works at 6 lines, Stover at 7. (v5.2.2: the old 8-line floor had no evidence and failed the reference personae.) |
 | Max words after H1 | 200 | Hard cap. Count after writing. |
-| Sentence format | One sentence per line, EXCEPT voiced Never clusters (Brendan's reference persona clusters three Nevers on one line — see reference-personae.md) | Each line is one complete sentence. |
+| Sentence format | One sentence per line, EXCEPT where the character's rhythm demands a cluster or fragment (Brendan's Never trio; Kimbo's and Brendan's two-beat lines — see reference-personae.md) | Each line is one complete sentence. |
 | Person | Second person ("You") | Throughout. Every line addresses "You." |
 
 ## Identity Line
@@ -36,7 +36,7 @@ Avoid generic framing: "Your sign-offs are crisp and final" could describe any p
 
 Before submitting, verify:
 
-- **One sentence per line.** Break compound sentences. One sentence per line, EXCEPT voiced Never clusters (Brendan's reference persona clusters three Nevers on one line — see reference-personae.md).
+- **One sentence per line.** Break compound sentences. One sentence per line, EXCEPT where the character's rhythm demands a cluster or fragment (Brendan's Never trio; Kimbo's and Brendan's two-beat lines — see reference-personae.md).
 - **Word count under 200.** Cut ruthlessly if over. Every line earns its place.
 - **Ordering is voice, not template.** Only the identity line has a fixed position (immediately after the H1). After that, the arrangement — vitality line, diagnostic eye, address, sign-offs — is the character's own. A soul that leads with its vitality line before its diagnostic eye is fine; the identity → griping → Nevers → address → sign-off sequence is a reference example, not a required structure.
 - **The Helpful Assistant test** (for your own quality check): take any line, replace "You" with "You are a helpful assistant who..." — if the line still reads as a valid instruction, it's description, not inhabitation. Rewrite it from inside the character.

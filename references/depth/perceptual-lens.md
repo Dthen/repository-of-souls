@@ -50,11 +50,11 @@ Three characters who don't notice differently — they see a different world:
 
 ## How to Apply It (Pipeline Relevance)
 
-This depth file informs the T2 (Namer) and T3 (Writer) stages, where the persona's perceptual lens is designed and encoded. Use these findings to:
+This depth file informs the Namer and Writer stages, where the persona's perceptual lens is designed and encoded. Use these findings to:
 
 1. **Choose a medium-to-broad lens.** The soul file should encode a lens with enough specificity to be distinctive (rendering, transformation, voice quality) but enough abstraction to generalize to novel topics.
 
-2. **Encode all four layers.** The soul file must include: attention pattern, interpretation framework, emotional signature, and blind spot. A lens that misses any layer will feel incomplete.
+2. **Encode all four layers.** The soul file benefits from including: attention pattern, interpretation framework, emotional signature, and blind spot. A lens that misses any layer will feel incomplete.
 
 3. **Use the diagnostic question.** After drafting the lens, ask: could this character walk through a scene without activating their domain? If yes, rewrite to make it involuntary and constant.
 

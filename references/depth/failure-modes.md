@@ -3,8 +3,8 @@
 Three lines, three distinct ways a persona dies — each at a different stage:
 
 > "You are a facilitator. You streamline processes and ensure stakeholder alignment." (T0: no workshop, no materials, no craft — the writer defaults to jargon)
-> "Never be like Deadpool — you take no shortcuts." (T3: pop-culture Never — the reference does the work that domain vocabulary should do)
-> "Your sign-offs close the transaction: 'Receipt issued.' 'Logged.' 'Filed.'" (T3: stamps, not conversation — the user carries nothing away)
+> "Never be like Deadpool — you take no shortcuts." (Writer: pop-culture Never — the reference does the work that domain vocabulary should do)
+> "Your sign-offs close the transaction: 'Receipt issued.' 'Logged.' 'Filed.'" (Writer: stamps, not conversation — the user carries nothing away)
 
 Each of these lines fails for a reason a stage operator can name and catch — that is what makes the failure preventable.
 
@@ -23,10 +23,10 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 | # | Root Cause | Personae Affected | Stage |
 |---|------------|-------------------|-------|
 | 1 | **Archetype has no material practice** | Silver, Reed, Ingram, Ward | T0 (Seed) |
-| 2 | **No griping line or procedural complaint only** | Ingram, Curtis, Ward | T3 (Writing) |
-| 3 | **Sign-offs are stamps, not conversation** | Coil, Reed, Curtis, Hatch, Ward, Silver | T3 (Writing) |
-| 4 | **Nevers are pop-culture, obscure, or self-undermining** | Coil, Roche, Silver, Hayes | T3 (Writing) |
-| 5 | **Metaphor broken or absent** | Coil, Reed | T3 (Writing) |
+| 2 | **No griping line or procedural complaint only** | Ingram, Curtis, Ward | Writer |
+| 3 | **Sign-offs are stamps, not conversation** | Coil, Reed, Curtis, Hatch, Ward, Silver | Writer |
+| 4 | **Nevers are pop-culture, obscure, or self-undermining** | Coil, Roche, Silver, Hayes | Writer |
+| 5 | **Metaphor broken or absent** | Coil, Reed | Writer |
 
 ### Failure Mode Taxonomy by Stage
 
@@ -43,7 +43,7 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 - **Gripe potential check:** Ask "What would a real person in this role complain about?" If you can't answer, reject the seed.
 - **Diagnostic language check:** Ask "Does this craft involve reading something (wick, color, noise, temperature)?" If no, the writer will struggle to create a diagnostic line.
 
-#### T3 — Writing Failures (Writer)
+#### Writer — Writing Failures
 
 | Failure | Personae | Why It Matters |
 |---------|----------|----------------|
@@ -55,34 +55,34 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 | **Breaks in metaphor coherence** | Coil, Reed | Mixing laboratory, electrical, and literary references (Coil) or corporate, military, and pop-culture metaphors (Reed) without committing to any. |
 | **Single register in first 3 lines** | Ingram, Curtis | First 3 lines all procedural, all clinical. No range established. |
 
-**Prevention at T3:**
+**Prevention at the Writer stage:**
 - Require a vitality line in the draft template — complaint, quiet pride, protectiveness, whimsy, any channel — but never mandate complaint specifically (v5.2.1).
 - Apply the **conversational test** to sign-offs: "Would a real person say this when leaving?"
 - Apply the **recognizability test** to Nevers: "Would a general-educated reader recognize this reference?"
 - Apply the **self-undermining test** to Nevers: "Does this tell the model to be less of the archetype?"
 - Maintain **one metaphor family** across all lines. If a line could be from another archetype, rewrite it.
 
-#### T4 — Review Failures (Reviewer)
+#### Evaluator — Review Failures
 
 | Failure | Personae | Why It Matters |
 |---------|----------|----------------|
-| **Missing catch: no griping line** | Ingram, Curtis, Ward | The severity hierarchy lists this as critical, but the reviewer didn't flag it. If the reviewer misses it, the refiner doesn't fix it. |
+| **Missing catch: no griping line** | Ingram, Curtis, Ward | The severity hierarchy lists this as critical, but the reviewer didn't flag it. If the reviewer misses it, the Publisher doesn't fix it. |
 | **Missing catch: stamp sign-offs** | Reed, Curtis, Ward | Reviewer should have flagged "Generic sign-offs" as critical but didn't. |
 | **Missing catch: generic/pop-culture Nevers** | Coil, Roche, Silver | Reviewer should have flagged these as significant but didn't. |
 
-**Prevention at T4:**
+**Prevention at the Evaluator stage:**
 - The severity hierarchy already exists — the fix is **calibration**. The reviewer needs concrete examples of what each failure looks like in practice (provided in this file).
 - Use the **7-Pass Rubric** (see evaluator-rubric.md) as a checklist, not a suggestion.
 
-#### T5 — Refinement Failures (Refiner)
+#### Publisher — Refinement Failures (Targeted Fixes)
 
 | Failure | Personae | Why It Matters |
 |---------|----------|----------------|
-| **Not adding griping when missing** | Ingram, Curtis, Ward | The T5 instructions say this is the highest-leverage edit, but if the critique didn't flag it as critical, the refiner may skip it. |
-| **Not rewriting stamp sign-offs** | Reed, Curtis, Coil, Hatch | The T5 instructions say sign-off warmth is the second-highest-leverage edit, but without a critical flag, it's deprioritized. |
+| **Not adding griping when missing** | Ingram, Curtis, Ward | The Publisher instructions say this is the highest-leverage edit, but if the critique didn't flag it as critical, the Publisher may skip it. |
+| **Not rewriting stamp sign-offs** | Reed, Curtis, Coil, Hatch | The Publisher instructions say sign-off warmth is the second-highest-leverage edit, but without a critical flag, it's deprioritized. |
 | **Not improving Nevers** | Coil, Roche, Silver, Hayes | The Never structure is the third-highest-leverage edit, but without a significant flag, it's skipped. |
 
-**Prevention at T5:**
+**Prevention at the Publisher stage:**
 - Make the **vitality gap** the first thing checked. If the critique says "no inner-life line in world language," stop everything else and fix that first.
 - Make the **sign-off gap** the second thing checked. If sign-offs are stamps, rewrite them before touching anything else.
 - Make the **Never gap** the third thing checked. Replace pop-culture/obscure Nevers with domain-specific failure modes.
@@ -93,9 +93,9 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 |---------|------------|
 | Pipeline doesn't enforce vitality | check_soul.py must NEVER require complaint patterns — v5.2.1 removed the griping regex engine because it force-fed "always the X" fingerprints into every soul; vitality is Evaluator-judged, any channel. |
 | Pipeline doesn't enforce sign-off warmth | Add sign-off warmth check to check_soul.py — sign-offs must not be single-word stamps or email closings. |
-| Pipeline doesn't enforce name-archetype fit | Add name-archetype fit check at T2 — name should sound like the craft. |
-| Pipeline doesn't enforce metaphor coherence | Add metaphor coherence check at T4 — "Could any other archetype have this line?" |
-| Pipeline doesn't enforce first-3-line register range | Add register range check at T4 — "Do the first 3 lines establish at least 2 distinct registers?" |
+| Pipeline doesn't enforce name-archetype fit | Add name-archetype fit check at the Namer stage — name should sound like the craft. |
+| Pipeline doesn't enforce metaphor coherence | Add metaphor coherence check at the Evaluator stage — "Could any other archetype have this line?" |
+| Pipeline doesn't enforce first-3-line register range | Add register range check at the Evaluator stage — "Do the first 3 lines establish at least 2 distinct registers?" |
 
 ---
 
@@ -108,23 +108,23 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 - Run the Vitality Potential Check. If you can't hear a line only this character could say — a complaint, a quiet pride, a protectiveness, a whimsy — the seed will fail downstream.
 - Prioritize archetypes with diagnostic language — crafts that involve reading something (wick, color, noise, temperature, texture).
 
-**If you are T3 (Writer):**
+**If you are the Writer:**
 - Your first line must have a contradiction. After that, ordering is voice (v5.2.2): the vitality line — a complaint, a quiet pride, a whimsy — sits where it belongs, and your third line establishes behavior.
 - Every sign-off must pass the Conversational Test. If you wouldn't say it to a coworker at the end of a shift, rewrite it.
 - Every Never must pass the Recognizability Test. If a general-educated reader wouldn't know the reference, replace it.
 
-**If you are T4 (Reviewer):**
+**If you are the Evaluator:**
 - Run the 7 tests in order. Tests 1-3 (vitality, identity tension, sign-off warmth) are hard gates — block advancement on critical fail.
-- Tests 4-6 (diagnostic eye, metaphor coherence, Never quality) are significant — flag for the refiner but don't block.
+- Tests 4-6 (diagnostic eye, metaphor coherence, Never quality) are significant — flag for the Publisher but don't block.
 - Test 7 (first-3-line range) is advisory — note for future improvement.
 
-**If you are T5 (Refiner):**
+**If you are the Publisher (targeted fixes):**
 - Fix vitality gaps first, sign-offs second, Nevers third. These three edits account for the most quality improvement per word changed.
 - If the critique doesn't mention a gap but you see one, fix it anyway. The evaluator might have missed it.
 
-**If you are T6 (Final Reviewer):**
-- Check that the refiner actually fixed the vitality, sign-off, and Never gaps. If those are still broken, send back to T5.
-- Do a final metaphor coherence scan. Read every line and ask "Could this be from a different persona?" If more than one line could be generic, it needs another refinement pass.
+**If you are the Publisher (final verification):**
+- Check that the targeted fixes actually fixed the vitality, sign-off, and Never gaps. If those are still broken, do not publish — flag for another targeted-fix pass.
+- Do a final metaphor coherence scan. Read every line and ask "Could this be from a different persona?" If more than one line could be generic, it needs another targeted-fix pass.
 
 ---
 
