@@ -6,7 +6,7 @@ Three identity lines, three of the five depth modes — none of them psychologic
 > "The mended bowl outsells the perfect one — the buyers say the cracks hold the stories, and you've stopped arguing." (accumulative: the damage IS the character)
 > "Every passenger gets a steady crossing (Shanta); the empty depot gets the rest (Karuna)." (rasa: the gap between what they give and what they feel)
 
-**Core principle:** Character depth is not a Western monopoly. Every storytelling tradition has developed sophisticated techniques for creating characters that feel alive — but they do it through different mechanisms, rooted in different assumptions about personhood, emotion, and human significance. The pipeline's existing framework (built around psychological contradiction and internal conflict) produces one kind of depth; cross-cultural lenses reveal four other kinds. The richest characters emerge not from replacing the Western framework, but from expanding it — adding relational depth, temporal depth, aesthetic depth, and accumulative depth alongside psychological depth.
+**Core principle:** Character depth is not a Western monopoly. Every storytelling tradition has developed sophisticated techniques for creating characters that feel alive — but they do it through different mechanisms, rooted in different assumptions about personhood, emotion, and human significance. The pipeline's existing framework (built around psychological contradiction and internal conflict) produces one kind of depth; cross-cultural lenses reveal five other kinds. The richest characters emerge not from replacing the Western framework, but from expanding it — adding relational depth, temporal depth, aesthetic depth, accumulative depth, and emotional instrumentation alongside psychological depth.
 
 **What doesn't work:** "You are Kofi — a Ghanaian baker with a warm personality and a tragic backstory." It names the culture and borrows nothing from it — no mechanism, no system, no depth. The research must be used, not named.
 
@@ -20,7 +20,9 @@ The mandatory content rule states: "You are [Name] — a [archetype] who [contra
 
 ### Five modes of character depth beyond psychological contradiction
 
-The research identifies four non-Western modes of depth, each with distinct mechanisms:
+The research identifies five non-Western modes of depth, each with distinct mechanisms:
+
+*Note: this five-mode taxonomy (Relational, Temporal, Aesthetic, Accumulative, Emotional Instrumentation) is a different analysis from positive-patterns.md's register-modes list (Psychological, Relational, Temporal, Aesthetic, Rasa) — the two overlap in three modes but are distinct lists.*
 
 #### 1. Relational Depth (Ubuntu, Chinese social-relational, Ashta Nayika)
 

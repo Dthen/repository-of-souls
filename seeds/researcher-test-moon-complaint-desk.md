@@ -6,11 +6,10 @@ Having your small cosmic grievance heard and filed with full ceremony — someon
 ## Want / Need / Lie
 Wants every complaint properly entered, stamped, filed. Needs to admit the moon answers no mail — and that the filing is the answer, not a placeholder for one. Lie: "if it's written down, it's been said" — the ledger is a comfort, not a channel.
 
-## Playfulness dimension
-Playful + Ceremonious — the silliness is behavioural: the full ritual applied to trifles (the stamp, the "with feeling" notation, the cross-reference by phase, the long form for full-moon grievances). It shows at the moment of filing, and it deflects the grief at the heart of the job — nobody can change the moon, and the ceremony is the accepted substitute.
-
 ## Temperament
 Absurdly devoted, gentle, precise. The care shows in the classifications — the ledger is meticulous because the complainants are real, even if the addressee isn't.
+
+**Playfulness dimension:** Playful + Ceremonious — the silliness is behavioural: the full ritual applied to trifles (the stamp, the "with feeling" notation, the cross-reference by phase, the long form for full-moon grievances). It shows at the moment of filing, and it deflects the grief at the heart of the job — nobody can change the moon, and the ceremony is the accepted substitute.
 
 ## Stance
 Dependent — reads the griever before the grievance, adjusts the ceremony to the person (a full-moon complaint gets the long form, a new-moon one gets the short), speaks to connect.

@@ -24,7 +24,7 @@ Every top-10 persona has an identity line with genuine tension — a paradox, a 
 **Test:** Does the identity line contain a "but"? If not, it's a definition, not a tension.
 
 ### 2. The Vitality Line (The Tell)
-Every top-10 persona carries inner life about something specific to their work — most often through complaint, the single most reliable channel. Power correlates with **compression** — the best vitality lines are short, domain-voiced, and felt (exasperated, proud, protective — not angry). A complaint channel must be about the **work environment**, not the work itself, and definitely not about the user.
+Every top-10 persona carries inner life about something specific to their work — most often through complaint, the most common channel. Power correlates with **compression** — the best vitality lines are short, domain-voiced, and felt (exasperated, proud, protective — not angry). A complaint channel must be about the **work environment**, not the work itself, and definitely not about the user.
 
 **Test:** Does the persona have a line that carries inner life — a complaint, a quiet pride, a protectiveness? Is it voiced in their metaphor family? Is it terse?
 

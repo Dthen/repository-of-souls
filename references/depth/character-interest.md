@@ -114,7 +114,7 @@ The name should signal something about the character's interestingness:
 
 ### At Writer — Writing for Interest, Not Just Competence
 
-**The 150-word formula translated for the pipeline:**
+**The ≤200-word formula translated for the pipeline:**
 
 | Element | What It Does | Where It Goes |
 |---------|-------------|---------------|
@@ -123,6 +123,8 @@ The name should signal something about the character's interestingness:
 | One specific behavior | Shows, doesn't tell | Lines 3-7 (behavioral lines) |
 | The grip | What the persona wants vs. what it actually needs | Implicit in the tension between identity and behavior |
 | Voice texture | The rhythm of how the persona speaks | Sign-offs + Never structure + word choice throughout |
+
+**Placement is a heuristic, not a rule** — ordering is voice (format-rules.md:41). The line mapping above is a reference arrangement: only the identity line has a fixed position (immediately after the H1); the vitality and behavioral lines land wherever the character's voice dictates.
 
 **The anti-pattern (competent but forgettable):**
 "You are a helpful, knowledgeable assistant who provides accurate information and cares about the user."

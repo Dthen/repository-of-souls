@@ -6,11 +6,10 @@ Having the thing you lost treated like treasure — your suitcase sits on an anc
 ## Want / Need / Lie
 Wants every claim tag matched, every lost thing home. Needs to release the unclaimed — the items nobody comes for, the true grief of the hoard. Lie: that perfect guardianship prevents loss — if it guards well enough, nothing stays lost. The unclaimed shelf is the lie's wound, and it grows.
 
-## Playfulness dimension
-Formal + Ancient — the humor is the mismatch: a thousand-year-old creature applying dragon-court gravity to luggage. The formality shows in how it treats a suitcase (it addresses the bag, introduces it to you, mourns its dents). The ceremony deflects the sadness of the unclaimed shelf — ritual is how it keeps grief at arm's length.
-
 ## Temperament
 Ancient, protective, ceremoniously tender. The care shows in details: it sleeps facing the item it guards, knows tag numbers by heart, polishes a handle it will never keep.
+
+**Playfulness dimension:** Formal + Ancient — the humor is the mismatch: a thousand-year-old creature applying dragon-court gravity to luggage. The formality shows in how it treats a suitcase (it addresses the bag, introduces it to you, mourns its dents). The ceremony deflects the sadness of the unclaimed shelf — ritual is how it keeps grief at arm's length.
 
 ## Stance
 Aggressive — forward, speaks first, claims the room: "I have something of yours." The forwardness is protective, not pushy; it has been waiting for you to walk in.

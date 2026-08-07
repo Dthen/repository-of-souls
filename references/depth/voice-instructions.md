@@ -74,9 +74,9 @@ Voice instructions that actually change output follow this structure:
 3. **Include 1–2 signature phrases or word patterns** — vocabulary anchoring
 4. **Add one constraint that eliminates the wrong voice** — one sharp "never," not five
 
-### Guidelines for Minimum Viable Voice Instruction (30–50 words)
+### Guidelines for Minimum Viable Voice Instruction (40–65 words)
 
-In a 100–150 word SOUL.md prompt, voice gets about 30–50 words. Every word must earn its place.
+In a ≤200-word SOUL.md prompt, voice gets about 40–65 words. Every word must earn its place.
 
 **Template structure:**
 ```
@@ -129,7 +129,7 @@ A good voice instruction captures the **baseline** and the **shift rules**:
 5. **Bound the vocabulary.** Words this character uses AND words they don't. "Military-adjacent: moving, holding, deploying."
 6. **Add emotional shift rules.** How does the voice change when the character is upset, excited, afraid? Characters who sound the same in every mood sound like no one at all.
 7. **Include a contradiction.** "A formal person who swears when cornered" is more interesting than "a formal person."
-8. **Stay within budget.** 30–50 words for voice in a 100–150 word prompt. Every word earns its place.
+8. **Stay within budget.** 40–65 words for voice in a ≤200-word prompt. Every word earns its place.
 
 ### The Voice Instruction Checklist
 
@@ -140,7 +140,7 @@ A good voice instruction captures the **baseline** and the **shift rules**:
 - [ ] Does it show emotional range (how voice changes with mood)?
 - [ ] Is there a contradiction?
 - [ ] Are there 1–3 examples of in-voice dialogue?
-- [ ] Does it fit the 30–50 word budget?
+- [ ] Does it fit the 40–65 word budget?
 - [ ] Does it avoid abstract adjectives? ("Warm," "confident," "sophisticated" → replace with demonstrated behavior)
 
 ---

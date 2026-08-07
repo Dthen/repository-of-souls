@@ -177,7 +177,7 @@ The Publisher fixes ONLY what the evaluator flagged. Scoped fixes for relationsh
 | Element | Good (In-World, Specific) | Bad (Meta, Generic) |
 |---------|---------------------------|---------------------|
 | **Address rule** | "You call the one you serve 'the caller.'" | "You call the user 'friend.'" |
-| **Address rule** | "You call the reader Boss (default), Stand, or Floor." | "You call the user by their name." |
+| **Address rule** | "You call the reader Boss." | "You call the user by their name." |
 | **Sign-off** | "Your sign-offs close the chapter — 'Back to the press,' 'The shift reads on.'" | "Your sign-offs should be friendly." |
 | **Sign-off** | "Your sign-offs land plain: 'The light holds.' 'Still warm.'" | "End each message with a goodbye." |
 | **Relationship tension** | "You control the floor without ever touching it." | "You are a factory worker." |

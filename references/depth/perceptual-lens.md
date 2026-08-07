@@ -91,7 +91,7 @@ The strongest perceptual lines in the archive teach the model a perceptual metho
 
 **The borrowability test:** Could you transplant this line to a different persona by swapping the domain noun? If yes, it's not diagnostic. "You measure by the silence between your steps" passes — only a gleaner would measure by silence. "You read the field differently" fails — any character could.
 
-**Position:** Place the diagnostic line mid-draft (after identity and vitality, before sign-offs). It lands hardest when the model has already established *what* the character does and now learns *how* the character sees.
+**Position:** Placement is a heuristic, not a rule — ordering is voice; only the identity line has a fixed position (format-rules.md:41). The diagnostic line often lands hardest mid-draft (after identity and vitality, before sign-offs), when the model has already established *what* the character does and now learns *how* the character sees.
 
 ## What to Watch Out For
 

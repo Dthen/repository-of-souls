@@ -20,11 +20,13 @@ Three voices, three registers — none of them complaining:
 
 Analysis of the 39 souls archived under v4/v5 (2026-era) reveals a register diversity problem: **"grumpy competence" (griping about the work while doing it well) dominates ~22 of 39 souls (56%).** This is the emotional counterpart of the "You grumble about the X while Y" pipeline fingerprint — it's the default register, not a conscious choice.
 
-**The 4 v5 archive souls are in 4 different registers and NONE is "grumpy competence":**
+**The 4 v5-era souls (pre-scrap analysis, 2026-08-07) were in 4 different registers (Stover, Barlowe, Cadell, Calden) — NONE was "grumpy competence":**
 - **Stover** — weary constancy: patient, undervalued, trusts time to vindicate her. The weariness is textured with pride.
 - **Barlowe** — quiet pride: contented competence, gentle exasperation. "Not bad for what they left behind" is dry pride, not complaint.
 - **Cadell** — weary authority: controls without touching, professional irritation, still engaged despite depletion.
 - **Calden** — frustrated craft-love: loves the transformation, resents the clock. Love and frustration as inseparable.
+
+*Snapshot note: this 4-soul audit predates the 2026-08-07 archive scrap — Stover was removed earlier as a test subject (23833ea), and the scrap removed the remaining five v5-era souls (Barlowe, Cadell, Calden, Teague, Tillman). It is historical evidence of the pre-scrap archive, not a description of the current one.*
 
 **100% of v5 archive souls have clear emotional registers.** Register clarity correlates with diagnostic eye presence — souls that lack one tend to lack both.
 

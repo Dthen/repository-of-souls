@@ -23,7 +23,7 @@ Count: 3 published souls. Categories: Creature 1; Creature × institution 1; Bur
 | researcher-test3-owl-night-auditor.md | TEST RUN (v5.2.4.8) — not yet through Namer | Creature × hospitality (genre-cross) | Delight-first: the world still running at 3am |
 | researcher-test3-warning-label-writer.md | TEST RUN (v5.2.4.8) — not yet through Namer | Profession (contemporary regulatory) | Delight-first: the census of the careful |
 
-Seeds rejected at Evaluator (v5.2.4.2 batch): the beekeeper, porchlight-moth, and catcher test seeds were all rejected — see `references/stage-researcher.md` ("What no-pulse looks like"). They are not on disk and are not listed above.
+**Test Run 1 rejects** (v5.2.4.2 batch): the beekeeper, porchlight-moth, and catcher test seeds were all rejected at Evaluator — see `references/stage-researcher.md` ("What no-pulse looks like"). They are not on disk and are not listed above.
 
 ## Repetition check (published set + unconsumed test batch)
 

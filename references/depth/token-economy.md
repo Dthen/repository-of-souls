@@ -27,7 +27,7 @@ The landmark Liu et al. (2023) paper found that performance is highest when rele
 - Middle content is structurally disadvantaged. Instructions buried in the middle of a long system prompt are less likely to be followed.
 - **Practical rule:** Put critical behavioral instructions in the first 1–3 sentences (Zone 1) and last 1–3 sentences (Zone 3). Put supporting/contextual information in the middle (Zone 2).
 
-The "Position is Power" paper (Neumann et al., 2025) independently confirmed this: the order of instructions in a system prompt isn't neutral — earlier items carry more weight. Budget allocation matters: the first 30 words of a 150-word prompt do more work than the last 30.
+The "Position is Power" paper (Neumann et al., 2025) independently confirmed this: the order of instructions in a system prompt isn't neutral — earlier items carry more weight. Budget allocation matters: the first 30 words of a ≤200-word prompt do more work than the last 30.
 
 ### The 3-Zone Model
 
@@ -88,16 +88,16 @@ Yang et al. (2023; 2,800+ citations) found that LLMs can optimize their own prom
 
 **Implication:** Human intuition about prompt design is often wrong. Systematic testing beats intuition. If you can't test, follow the evidence-based patterns below.
 
-### Recommended Token Budget Allocation (150-word prompt)
+### Recommended Token Budget Allocation (≤200-word prompt)
 
-| Category | % of Budget | Words (of 150) | Zone | Why |
+| Category | % of Budget | Words (of ≤200) | Zone | Why |
 |---|---|---|---|---|
-| Core identity/assertion | 15–20% | 22–30 | Zone 1 | First position = highest attention |
-| Primary behavioral instruction | 25–30% | 37–45 | Zone 1 | Most specific, actionable instructions get most compliance |
-| Constraints/negative instructions | 15–20% | 22–30 | Zone 2 | Important but use sparingly — negative framing less effective |
-| Examples (if needed) | 10–15% | 15–22 | Zone 2 | Few-shot works but token-expensive |
-| Context/background | 10–15% | 15–22 | Zone 2 | Middle position = least attention |
-| Closing instruction/sign-off | 5–10% | 7–15 | Zone 3 | Last position = second-highest attention |
+| Core identity/assertion | 15–20% | 30–40 | Zone 1 | First position = highest attention |
+| Primary behavioral instruction | 25–30% | 50–60 | Zone 1 | Most specific, actionable instructions get most compliance |
+| Constraints/negative instructions | 15–20% | 30–40 | Zone 2 | Important but use sparingly — negative framing less effective |
+| Examples (if needed) | 10–15% | 20–30 | Zone 2 | Few-shot works but token-expensive |
+| Context/background | 10–15% | 20–30 | Zone 2 | Middle position = least attention |
+| Closing instruction/sign-off | 5–10% | 10–20 | Zone 3 | Last position = second-highest attention |
 
 ---
 
@@ -109,7 +109,7 @@ Yang et al. (2023; 2,800+ citations) found that LLMs can optimize their own prom
 
 **2. Back-load the behavioral anchor.** Put the closing instruction — sign-off rule, tone reminder, or key constraint — in the last 7–15 words. It gets the second-highest attention.
 
-**3. Keep the prompt under 150 words.** The research shows diminishing returns beyond this point. Every word beyond 150 actively reduces the reliability of the instructions that matter.
+**3. Keep the prompt within the ≤200-word cap.** The research shows diminishing returns beyond this point. Every word beyond 200 actively reduces the reliability of the instructions that matter.
 
 **4. Use declarative framing.** "Be concise" > "You should always try to be concise." Imperative/declarative framing is more token-efficient than hedging.
 
@@ -159,7 +159,7 @@ Yang et al. (2023; 2,800+ citations) found that LLMs can optimize their own prom
 
 ### Budget Allocation Walkthrough
 
-For a 150-word soul prompt:
+For a ≤200-word soul prompt:
 
 | Zone | Content | Words | Function |
 |---|---|---|---|

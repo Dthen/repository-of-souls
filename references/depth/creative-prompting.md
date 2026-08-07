@@ -127,7 +127,7 @@ The Publisher does not refine — it fixes ONLY what the evaluator flagged, with
 **Never use the LLM to evaluate creative quality.** LLM-as-judge for creativity is baseline-invalid (Cohen's Kappa ≈ 0 with expert assessment). Use LLM evaluation only for:
 - Format compliance (check_soul.py)
 - Structural completeness (missing vitality line — no inner life in world language through any channel, broken format)
-- Checklist verification (Four Pillars, Three Questions)
+- Compliance (check_soul.py format checks)
 
 For creative quality — "Is this persona alive? Is it surprising? Would I remember it?" — use human evaluation or structured metrics (DSI for semantic divergence, LZ complexity).
 
