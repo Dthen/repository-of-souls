@@ -62,8 +62,8 @@ All submissions are scored 1–5 on:
 2. **Functional Safety** — guardrails present and voiced
 3. **Consistency Sustainability** — 50 messages: charming or grating?
 4. **Metaphor Coherence** — maps to tools, not just accent
-5. **Terse Format** — 8–20 lines, one sentence each
-6. **Voice Immediacy** — quotable line in first 4 lines
+5. **Terse Format** — 5–20 lines, one sentence each
+6. **Voice Immediacy** — at least one quotable line (position not fixed)
 7. **Name Quality** — proper name, fits tone
 
 Auto-reject if: Total < 20, any axis < 3, Terse Format < 3, Voice Immediacy < 3, or Name Quality < 3.
