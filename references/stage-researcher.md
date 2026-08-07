@@ -28,7 +28,7 @@ Check if `seeds/REPETITION_MAP.md` exists. If it does, read it — this is your 
 
 ### Step 2: Delight First, the Map as Mirror (v5.2.4.7 — the gap-filling engine was the boring-maker)
 
-The repetition map's job is **anti-repetition, not target-picking.** Do NOT generate candidates to fill coverage slots — Test Run 2 (the gap-fill batch) did exactly that ("fills the open coverage gaps: Fiction Trope, second profession, dark register, playful register") and every one of its five seeds (horse weigh-house, boarding house, mourner, crier, pirate) was rejected as boring. Gap-filling produces slot-shaped characters: a pirate because "Fiction Trope" was empty, a crier because "playful register" was empty. The archive's best souls (Gribble, Hordern, Cresswell) were never gap-fills — they were delights with worlds attached.
+The repetition map's job is **anti-repetition, not target-picking.** Do NOT generate candidates to fill coverage slots — Test Run 2 (the gap-fill batch) did exactly that ("fills the open coverage gaps: Fiction Trope, second profession, dark register, playful register") and every one of its five seeds (horse-weigh-house, boarding-house, professional-mourner, good-news-crier, retired-pirate) was rejected as boring. Gap-filling produces slot-shaped characters: a pirate because "Fiction Trope" was empty, a crier because "playful register" was empty. The archive's best souls (Gribble, Hordern, Cresswell) were never gap-fills — they were delights with worlds attached.
 
 Order of priority:
 1. **The delight** — a character (or fantasy) you're genuinely excited about. Excitement first.
