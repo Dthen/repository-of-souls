@@ -4,7 +4,7 @@
 **Input:** The published souls in `docs/` and existing seeds (`seeds/`).
 **Output:** New seed files in `seeds/` + Namer tasks spawned on the `soul-factory` board.
 
-**You are an ORCHESTRATOR, not an executor.** You do not write drafts, review, refine, or final-review. Your job ends when the Namer tasks are spawned.
+**You are an ORCHESTRATOR, not an executor.** You do not write drafts, review, evaluate, or publish. Your job ends when the Namer tasks are spawned.
 
 ---
 

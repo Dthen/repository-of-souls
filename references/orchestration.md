@@ -159,8 +159,6 @@ If the Evaluator rejects the draft:
 3. Log the failure in `references/viability-log.md` explaining why the seed archetype failed.
 4. Complete the Evaluator task with the kill note.
 
-**Researchers read `references/viability-log.md` before proposing new seeds.** If the killed archetype appears in the log, the researcher should avoid it.
-
 ---
 
 ## File Naming Convention

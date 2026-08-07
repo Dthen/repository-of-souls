@@ -100,12 +100,14 @@ Readers approach characters with schemas (mental frameworks for understanding ty
 - Check for vulnerability: Is the character performing throughout, or do they crack somewhere? Is the crack earned?
 - Check for the Distillation Test: Would removing detail make the character less real? If yes, depth is lacking.
 
-### For Publisher-Side Refinement
+### For Publisher — Scoped Fixes
 
-- Replace generic descriptions with specific ones (use the specificity table above).
-- If the character has multiple traits, check if they all flow from one core tension. If not, prune.
-- Add one concrete micro-behavior that implies a hidden interior.
-- Ensure the want/need gap is present — the character is pursuing one thing while the reader senses a different underlying need.
+The Publisher fixes ONLY what the evaluator flagged — no open-ended improvement (stage-publisher; orchestration.md). When a flagged issue maps to one of these, this is what the scoped fix looks like:
+
+- Generic descriptions flagged — replace them with specific ones (use the specificity table above).
+- Multiple traits flagged as not flowing from one core tension — prune to the core.
+- Missing micro-behavior flagged — add one concrete micro-behavior that implies a hidden interior.
+- Want/need gap flagged — ensure the character is pursuing one thing while the reader senses a different underlying need.
 
 ---
 

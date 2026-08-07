@@ -141,13 +141,15 @@ Griping creates the illusion of personality through complaint, but it's passive.
 - Check for the substitution principle: Are emotions stated (labeled) or shown (through specific actions)?
 - Check for active engagement: Is the character a passive observer/complainer, or do they do things that reveal their interior?
 
-### For Publisher-Side Refinement
+### For Publisher — Scoped Fixes
 
-- Add one concrete detail of selective perception — what the character notices that someone else wouldn't.
-- Introduce one subtext technique: deflection, over-specific detail, contradictory action, loaded silence, or redirect to practicality.
-- Adjust sentence rhythm to match the character's emotional baseline.
-- Replace stated emotions with the Substitution Principle equivalents.
-- Ensure the character's blind spot is visible — what they won't or can't see.
+The Publisher fixes ONLY what the evaluator flagged — no open-ended improvement. Scoped fixes for internal-life issues:
+
+- Selective perception flagged missing — add one concrete detail of what the character notices that someone else wouldn't.
+- Subtext flagged missing — introduce one subtext technique: deflection, over-specific detail, contradictory action, loaded silence, or redirect to practicality.
+- Sentence rhythm flagged as uniform — adjust it to match the character's emotional baseline.
+- Stated emotions flagged — replace them with the Substitution Principle equivalents.
+- Blind spot flagged as invisible — make it visible — what they won't or can't see.
 
 ---
 

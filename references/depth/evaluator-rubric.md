@@ -73,36 +73,44 @@ The best behavioral lines teach the model HOW to do the work, not just THAT it s
 
 ## How to Apply It (Pipeline Integration)
 
-### At Evaluator — The 7-Pass Rubric
+### At Evaluator — Seven Diagnostic Signals
 
-Use these 7 tests in order. Each test blocks advancement if failed critically:
+These seven signals are diagnostic, not gates. No test blocks advancement on its own — they are lenses for weighing the draft (stage-evaluator: "not here to check boxes"; CONTRIBUTING: no auto-reject threshold). Use them to judge whether the draft has pulse, and to name specific, fixable issues when it does:
 
-| Order | Test | Critical Fail | Blocking? |
-|-------|------|---------------|-----------|
-| 1 | **Vitality line present?** | No line carries inner life in world language (complaint, quiet pride, protectiveness, whimsy — any channel) | YES — hard gate |
-| 2 | **Identity tension?** | Flat definition, no contradiction | YES — hard gate |
-| 3 | **Sign-off warmth?** | Stamps, email closings, catchphrases | YES — hard gate |
-| 4 | **Diagnostic eye?** | No way-of-seeing line | Significant — flag |
-| 5 | **Metaphor coherence?** | Mixed metaphors across lines | Significant — flag |
-| 6 | **Never quality?** | Pop-culture, obscure, self-undermining | Significant — flag |
-| 7 | **First-3-line range?** | Single register throughout | Advisory — note |
+| Signal | What to Look For | If Weak |
+|--------|------------------|---------|
+| 1 | **Vitality line present?** | No line carries inner life in world language (complaint, quiet pride, protectiveness, whimsy — any channel) | Flag as fixable; a total absence is a hard rejection signal (stage-evaluator Step 3) |
+| 2 | **Identity tension?** | Flat definition, no contradiction | Flag as fixable |
+| 3 | **Sign-off warmth?** | Stamps, email closings, catchphrases | Flag as fixable |
+| 4 | **Diagnostic eye?** | No way-of-seeing line | Note it |
+| 5 | **Metaphor coherence?** | Mixed metaphors across lines | Note it |
+| 6 | **Never quality?** | Pop-culture, obscure, self-undermining | Note it |
+| 7 | **First-3-line range?** | Single register throughout | Mention if relevant |
 
-### At Publisher-Side Refinement — Priority Order for Edits
+A draft with pulse is picked even when a signal is weak — the flagged weakness becomes the Publisher's scoped fix list. A draft without pulse is rejected and the seed dies. The signals inform that judgment; they do not replace it.
 
-1. **Add a vitality line** if missing (any channel — highest-leverage edit)
-2. **Rewrite sign-offs** for warmth if they're stamps
-3. **Rewrite Nevers** from generic/pop-culture to domain-specific
-4. **Add diagnostic line** if persona describes but doesn't read
-5. **Strengthen identity tension** if definition without contradiction
-6. **Normalize metaphor vocabulary** across all lines
-7. **Check emotional residue** on sign-offs
+### At Publisher — Scoped Fixes
 
-### At T0 (Researcher) — Archetype Selection Filters
+The Publisher fixes ONLY what the evaluator flagged — no open-ended improvement, no rewriting the character, and "fix these 3 things" means exactly 3 changes (stage-publisher; orchestration.md). There is no standing priority list; the flagged issues are the list. For a flagged weakness, this is what the scoped fix looks like:
 
-Before passing the seed forward, verify:
-- **Material practice:** Does this archetype have specific tools, materials, rhythms, and failure modes? (4 of bottom 10 failed here)
-- **Gripe potential:** What would a real person in this role complain about? (3 of bottom 10 failed here)
-- **Diagnostic language:** Does this craft involve reading something (wick, color, noise, temperature)?
+- **Vitality line missing** — add one line carrying inner life in world language (any channel)
+- **Sign-offs are stamps** — rewrite them for warmth (emotional residue)
+- **Nevers generic or pop-culture** — rewrite them domain-specific
+- **Diagnostic eye missing** — add a way-of-seeing line
+- **Identity tension flat** — strengthen the contradiction in the identity line
+- **Metaphor vocabulary mixed** — normalize across the flagged lines
+- **Sign-off residue flat** — check the emotional residue
+
+Nothing beyond the flagged issues gets touched.
+
+### At T0 (Researcher) — The Three-Kills Audit
+
+Before passing the seed forward, run the audit from stage-researcher.md Step 4 — exactly three unconditional kills, no scores, no kill arithmetic:
+- **Kill 1 — not-a-someone:** a place, a mood, or a concept is not a character
+- **Kill 2 — not-relational:** the fantasy is a gimmick processing the user, not a person meeting them
+- **Kill 3 — no-pulse:** none of the four essentials (a want-verb, a generative "but", a world with its own nouns and verbs, an interior that produces behavior)
+
+Everything else is seed-time fix guidance — develop it when writing the seed, don't reject for it.
 
 ---
 

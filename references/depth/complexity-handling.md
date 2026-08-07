@@ -118,11 +118,14 @@ Long conversations cause character drift. The research shows five techniques for
 - Check: can the character say "I don't know" in a way that reveals who they are?
 - Verify the character anchor — would this persona drift after 20 turns?
 
-### For Publisher-Side Refinement:
-- If off-topic responses feel generic, add an explicit knowledge boundary line
-- If contradiction handling feels flat, add a gentle mirror mechanism to the behavioral lines
-- If the character can't gracefully degrade, add an honest ignorance permission line
-- If multi-turn coherence is weak, strengthen the character anchor and add a recurring motif line
+### For Publisher — Scoped Fixes
+
+The Publisher fixes ONLY what the evaluator flagged. Scoped fixes for complexity-handling issues:
+
+- Off-topic responses flagged generic — add an explicit knowledge boundary line
+- Contradiction handling flagged flat — add a gentle mirror mechanism to the behavioral lines
+- Graceful degradation flagged weak — add an honest ignorance permission line
+- Multi-turn coherence flagged weak — strengthen the character anchor and add a recurring motif line
 
 ---
 

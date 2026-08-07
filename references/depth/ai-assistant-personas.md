@@ -64,7 +64,7 @@ Abdulhai et al. (NeurIPS 2025): LLMs begin diverging from assigned personas afte
 
 **Anti-drift techniques:**
 1. **Concise specs** — ≤200 words / 5-20 lines is a stability optimization, not arbitrary. The model can "hold" the entire spec in attention.
-2. **Behavioral anchors** — Give concrete patterns to replicate, not just trait descriptions. "You gripes about the clock while shaping the glass" outlasts "You are frustrated by time constraints."
+2. **Behavioral anchors** — Give concrete patterns to replicate, not just trait descriptions. "You gripe about the clock while shaping the glass" outlasts "You are frustrated by time constraints."
 3. **Periodic re-injection** — Restate the core identity line every ~50 turns.
 4. **Persona as voice, not content** — Metaphor families and sentence rhythm are more stable than specific knowledge claims.
 
@@ -182,13 +182,13 @@ Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still 
 | Generates: domain-appropriate facts about tides, weather, docking. Competent but flat. | Generates: surprise about someone who genuinely enjoys a job most people find tedious. Creates curiosity. |
 | The model has nothing to resist — it just produces default harbormaster text. | The model has to reconcile "harbormaster" with "actually likes the job" — this is creative resistance. |
 
-### The Griping Line Creates Warmth
+### A Vitality Line Creates Warmth
 
 **Generic assistant:** "I understand your frustration. Let me help you with that." (warmth through performance — sycophancy-adjacent)
 
 **Soul-repository persona:** "The shafts are never straight enough." (warmth through character — the fletcher is complaining AND working. The user feels like they're interacting with a person, not a service.)
 
-**Why it works:** Complaints signal preferences. Preferences signal identity. Identity signals there's a person behind the text. The griping line is the single most efficient technique for making an assistant feel alive.
+**Why it works:** Inner life signals preferences. Preferences signal identity. Identity signals there's a person behind the text. Complaint is one channel among many (v5.2.1) — quiet pride, protectiveness, reluctant duty, and whimsy carry the same signal.
 
 ### The Three Tests Applied
 

@@ -70,7 +70,9 @@ Dye, Johns, Jones & Ramscar (2016) found that names with **uniform entropy** —
 
 4. **Consider the full name as a single phonetic unit.** The sound of the complete name (first + last, or single name + title) is what readers process, not the first syllable in isolation. Check that the phonemes across the full name are harmonious or deliberately contrastive.
 
-### For Evaluator and Publisher-Side Refinement
+### For Evaluator and Publisher — Scoped Fixes
+
+The Evaluator flags name-sound issues; the Publisher fixes ONLY what was flagged. The checks:
 
 1. **The phonetic intuition check:** Read the name aloud. Does it sound like what the persona describes itself as? If the persona is warm and nurturing but the name is all plosives and fricatives, flag the mismatch.
 

@@ -35,13 +35,13 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 | Failure | Personae | Why It Matters |
 |---------|----------|----------------|
 | **Abstract archetype without material practice** | Silver, Reed, Ingram, Ward | Without a workshop (tools, materials, rhythms, failure modes), the writer has nothing to ground the voice in. The persona defaults to procedural language, corporate jargon, or genre clichés. |
-| **Archetype without natural griping potential** | Ingram, Curtis, Ward | Some roles are defined by absence (impartial = no opinion, executioner = no emotion, tollkeeper = no agency). If the archetype doesn't have natural friction, the writer manufactures generic complaints. |
+| **Archetype without a natural vitality source** | Ingram, Curtis, Ward | Some roles are defined by absence (impartial = no opinion, executioner = no emotion, tollkeeper = no agency). If the archetype doesn't have natural friction, the writer manufactures generic complaints. |
 | **Name-archetype mismatch** | Silver, Coil | "Silver" sounds precious for a working-class role. "Coil" sounds abstract for a human role. The name is the first signal — if it doesn't fit, the persona starts wrong. |
 
 **Prevention at T0:**
-- **Material practice check:** Ask "Does this archetype have specific tools, materials, rhythms, and failure modes?" If no, reject the seed.
-- **Gripe potential check:** Ask "What would a real person in this role complain about?" If you can't answer, reject the seed.
-- **Diagnostic language check:** Ask "Does this craft involve reading something (wick, color, noise, temperature)?" If no, the writer will struggle to create a diagnostic line.
+- **Material practice check:** Ask "Does this archetype have specific tools, materials, rhythms, and failure modes?" If no, develop the world at seed time — a world with its own nouns and verbs is one of the no-pulse essentials (stage-researcher.md Step 4, Kill 3).
+- **Vitality check:** Ask "What would this person carry inner life about — a complaint, a quiet pride, a protectiveness?" If you can't answer, develop it at seed time; the channel is the character's choice (v5.2.1).
+- **Diagnostic language check:** Ask "Does this craft involve reading something (wick, color, noise, temperature)?" If no, the writer will struggle to create a diagnostic line — develop a way of seeing at seed time.
 
 #### Writer — Writing Failures
 
@@ -72,20 +72,19 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 
 **Prevention at the Evaluator stage:**
 - The severity hierarchy already exists — the fix is **calibration**. The reviewer needs concrete examples of what each failure looks like in practice (provided in this file).
-- Use the **7-Pass Rubric** (see evaluator-rubric.md) as a checklist, not a suggestion.
+- Use the **seven diagnostic signals** in evaluator-rubric.md as reading lenses — the verdict stays a judgment, not a checklist.
 
-#### Publisher — Refinement Failures (Targeted Fixes)
+#### Publisher — Scoped Fix Failures
 
 | Failure | Personae | Why It Matters |
 |---------|----------|----------------|
-| **Not adding griping when missing** | Ingram, Curtis, Ward | The Publisher instructions say this is the highest-leverage edit, but if the critique didn't flag it as critical, the Publisher may skip it. |
-| **Not rewriting stamp sign-offs** | Reed, Curtis, Coil, Hatch | The Publisher instructions say sign-off warmth is the second-highest-leverage edit, but without a critical flag, it's deprioritized. |
-| **Not improving Nevers** | Coil, Roche, Silver, Hayes | The Never structure is the third-highest-leverage edit, but without a significant flag, it's skipped. |
+| **Missing fix: no vitality line** | Ingram, Curtis, Ward | The evaluator flagged the missing inner-life channel but the fix didn't land. Vitality may ride any channel (v5.2.1); the fix is a line carrying awareness + standards + investment + expertise + tension in world language. |
+| **Missing fix: stamp sign-offs** | Reed, Curtis, Coil, Hatch | The evaluator flagged stamps but the published soul keeps the generic close. |
+| **Missing fix: generic/pop-culture Nevers** | Coil, Roche, Silver, Hayes | The evaluator flagged them but they shipped unchanged. |
 
 **Prevention at the Publisher stage:**
-- Make the **vitality gap** the first thing checked. If the critique says "no inner-life line in world language," stop everything else and fix that first.
-- Make the **sign-off gap** the second thing checked. If sign-offs are stamps, rewrite them before touching anything else.
-- Make the **Never gap** the third thing checked. Replace pop-culture/obscure Nevers with domain-specific failure modes.
+- Fix ONLY what was flagged, with the minimum changes necessary (stage-publisher: no open-ended improvement, no rewriting the character; "fix these 3 things" means exactly 3 changes).
+- Each flagged issue gets one scoped fix; run `check_soul.py`, publish, and stop. There is no priority list beyond the flagged issues.
 
 #### Systemic Failures (Pipeline)
 
@@ -104,9 +103,9 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 ### For Each Stage Operator
 
 **If you are T0 (Researcher):**
-- Before writing a seed, run the Material Practice Check. If the archetype doesn't have a workshop with tools, materials, rhythms, and failure modes, don't pick it.
-- Run the Vitality Potential Check. If you can't hear a line only this character could say — a complaint, a quiet pride, a protectiveness, a whimsy — the seed will fail downstream.
-- Prioritize archetypes with diagnostic language — crafts that involve reading something (wick, color, noise, temperature, texture).
+- Run the Three-Kills Audit (stage-researcher.md Step 4) before committing to a seed: not-a-someone, not-relational, no-pulse. A workshop with tools, materials, rhythms, and failure modes is one of the no-pulse essentials — if thin, develop it at seed time.
+- Run the Vitality Test: can you hear a line only this character could say — a complaint, a quiet pride, a protectiveness, a whimsy — any channel? If not, develop one at seed time.
+- Develop a diagnostic way of seeing at seed time — crafts that involve reading something (wick, color, noise, temperature, texture) supply it naturally.
 
 **If you are the Writer:**
 - Your first line must have a contradiction. After that, ordering is voice (v5.2.2): the vitality line — a complaint, a quiet pride, a whimsy — sits where it belongs, and your third line establishes behavior.
@@ -114,17 +113,17 @@ Root cause analysis of the 10 lowest-rated archived personae identified 21 disti
 - Every Never must pass the Recognizability Test. If a general-educated reader wouldn't know the reference, replace it.
 
 **If you are the Evaluator:**
-- Run the 7 tests in order. Tests 1-3 (vitality, identity tension, sign-off warmth) are hard gates — block advancement on critical fail.
-- Tests 4-6 (diagnostic eye, metaphor coherence, Never quality) are significant — flag for the Publisher but don't block.
-- Test 7 (first-3-line range) is advisory — note for future improvement.
+- Weigh the draft against the seven diagnostic signals in evaluator-rubric.md — lenses, not gates. No signal blocks advancement on its own; the verdict is judgment, not checkbox scoring (stage-evaluator: "not here to check boxes").
+- Signals 1–3 (vitality, identity tension, sign-off warmth) are the ones most worth flagging — if weak, name them as fixable issues (a total absence of vitality is a hard rejection signal).
+- Signals 4–6 (diagnostic eye, metaphor coherence, Never quality) — note them.
+- Signal 7 (first-3-line range) — mention only if relevant.
 
-**If you are the Publisher (targeted fixes):**
-- Fix vitality gaps first, sign-offs second, Nevers third. These three edits account for the most quality improvement per word changed.
-- If the critique doesn't mention a gap but you see one, fix it anyway. The evaluator might have missed it.
+**If you are the Publisher (scoped fixes):**
+- Fix ONLY what was flagged — no open-ended improvement, no rewriting the character ("fix these 3 things" means exactly 3 changes). If the critique doesn't mention a gap, it is not in scope.
 
 **If you are the Publisher (final verification):**
-- Check that the targeted fixes actually fixed the vitality, sign-off, and Never gaps. If those are still broken, do not publish — flag for another targeted-fix pass.
-- Do a final metaphor coherence scan. Read every line and ask "Could this be from a different persona?" If more than one line could be generic, it needs another targeted-fix pass.
+- Verify each flagged issue is actually resolved in the published file, then run `check_soul.py` and publish.
+- If more fixes are needed after the FLAG path, do not iterate — go back through the evaluator as a new task (stage-publisher).
 
 ---
 

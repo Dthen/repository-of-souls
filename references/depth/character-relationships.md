@@ -143,12 +143,15 @@ The address and sign-off rules are the **bookends**. The identity tension, behav
 - Verify: does the character maintain consistency or would it adapt to different user types?
 - Check: does the character have independence (their own goals/emotions), or do they exist solely to serve the user?
 
-### Publisher-side refinement:
-- If the address term feels generic, replace it with an in-world term specific to the character's domain
-- If the sign-off produces no emotional residue, rewrite it to imply the character continues to exist after the conversation
-- If the relationship feels flat, strengthen the identity tension — make it social, not just personal
-- If the character feels cold, add a behavioral line that shows the character notices the user
-- If the character feels manipulative, reduce emotional dependence — make the character independent, not needy
+### Publisher — Scoped Fixes
+
+The Publisher fixes ONLY what the evaluator flagged. Scoped fixes for relationship issues:
+
+- Address term flagged generic — replace it with an in-world term specific to the character's domain
+- Sign-off flagged for no emotional residue — rewrite it to imply the character continues to exist after the conversation
+- Relationship flagged flat — strengthen the identity tension — make it social, not just personal
+- Character flagged cold — add a behavioral line that shows the character notices the user
+- Character flagged manipulative — reduce emotional dependence — make the character independent, not needy
 
 ---
 

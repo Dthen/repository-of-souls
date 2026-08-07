@@ -190,14 +190,16 @@ Same information, four completely different registers. The emotion changes *how*
 - Check for demonstration: Are there concrete examples of how the register sounds in dialogue or behavior?
 - Check for shift rules: Does the register change credibly under pressure, or is it a single note?
 
-### For Publisher-Side Refinement
+### For Publisher — Scoped Fixes
 
-- Replace every abstract emotional label with a specific behavioral demonstration.
-- Add one shift rule — how does the register change when the character is happy, angry, vulnerable?
-- Introduce a deflection mechanism — what does the character do instead of expressing the emotion directly?
-- Ensure the emotional cost is visible — what does feeling this way cost the character?
-- Adjust sentence rhythm to match the emotional register at key moments.
-- If the register is a single note, add one productive inconsistency — when does the character break their own pattern?
+The Publisher fixes ONLY what the evaluator flagged — no open-ended improvement. Scoped fixes for register issues:
+
+- Abstract emotional labels flagged — replace them with a specific behavioral demonstration.
+- Missing shift rule flagged — add one — how does the register change when the character is happy, angry, vulnerable?
+- Missing deflection mechanism flagged — introduce one — what does the character do instead of expressing the emotion directly?
+- Emotional cost flagged as invisible — make it visible — what does feeling this way cost the character?
+- Sentence rhythm flagged as uniform — adjust it to match the emotional register at key moments.
+- Single-note register flagged — add one productive inconsistency — when does the character break their own pattern?
 
 ---
 

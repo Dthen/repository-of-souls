@@ -8,11 +8,11 @@ Three prompts that push the model off its high-probability path — each closes 
 
 > **Add a contradiction:** "You are a baker who hates the smell of bread. Write the morning menu in that voice."
 
-> **Insist on versions:** "Give me five farewell lines for the same letter; only the last one may be sincere."
+> **Make them commit:** "Write the farewell in one pass — the character's only take, no alternatives."
 
-**What these have in common:** each one closes off the model's most probable move — rush-hour clichés, generic café copy, a single competent farewell — and forces generation through lower-probability space, where the interesting material lives.
+**What these have in common:** each one closes off the model's most probable move — rush-hour clichés, generic café copy, a hedged farewell that tries to please everyone — and forces generation through lower-probability space, where the interesting material lives.
 
-❌ **What doesn't work:** "Write something creative." No constraint, no tension, no versions — the model returns the most probable, most competent, most forgettable output it has. The competence trap is the default state; every technique below exists to escape it.
+❌ **What doesn't work:** "Write something creative." No constraint, no tension, no specific material to work from — the model returns the most probable, most competent, most forgettable output it has. The competence trap is the default state; every technique below exists to escape it.
 
 ---
 
@@ -78,18 +78,9 @@ The sweet spot is **3–5 specific constraints**. Too many (7+) produce gibberis
 - "The narrator is unreliable about numbers"
 - "Never describe the weather directly"
 
-### 5. The N-Version Gambit
+### 5. Version Proliferation — Rejected by the Pipeline
 
-Never ask for one version — the first version is always the most probable (competent, boring). Ask for N, forcing versions 3–5 into lower-probability space:
-
-```
-Write 5 versions of this line, each targeting a different emotional register:
-1. Cold and factual
-2. Warm and nostalgic
-3. Angry and accusatory
-4. Playful and absurd
-5. Quiet and melancholic
-```
+The research recommends generating several versions before selecting, because the first version is the most probable. The pipeline deliberately rejects this: the Writer produces ONE draft, no variants (stage-writer.md: "Your job is not to produce variants"; orchestration.md: one pass, done). Version-counting belongs to the retired refinement era — the first committed draft is the draft, and the evaluator's judgment, not version count, is the quality mechanism.
 
 ### 6. What the Prompt Can and Cannot Control
 
@@ -115,26 +106,21 @@ Write 5 versions of this line, each targeting a different emotional register:
 
 ### For Writer
 
-**Generate in creative mode, refine in competent mode.**
+**Generate in creative mode — one pass, done.**
 
 | Stage | Mode | Parameters |
 |-------|------|------------|
-| Writer draft generation | Creative | Temp 1.0–1.2, top-p 0.9, freq penalty 0.5, presence penalty 0.5 |
-| Publisher-side refinement | Competent | Temp 0.4–0.7, top-p 0.8, freq penalty 0.3 |
+| Writer draft generation (single pass) | Creative | Temp 1.0–1.2, top-p 0.9, freq penalty 0.5, presence penalty 0.5 |
 
 **Persona-with-tension is mandatory.** Every persona must have an internal contradiction. "You are a harbormaster who actually likes the job" — this creates creative resistance that forces the model off default paths. A flat identity line ("You are a harbormaster") produces competent output.
 
-**Use the N-version gambit in seed generation.** Always generate 3+ versions of the persona draft before selecting. Compare versions 1–3; the best ideas often appear in version 3+.
+**Write one draft, commit to it.** The Writer produces a single pass — no variants to compare, no version selection (stage-writer.md: "Your job is not to produce variants"). If the draft misses, the evaluator flags specific issues and the Publisher applies scoped fixes; quality comes from judgment, not from generating more options.
 
-**Add a "worst-first" step.** Before writing the real draft, generate a deliberately terrible version. Analyze why it's bad. Then write the good version — the model has to understand cliché to violate it.
+**No "worst-first" warm-up.** One committed draft, written from inside the character — the Writer is the scribe, not the author. Deliberately bad practice versions belong to the retired refinement era.
 
-### Publisher-side refinement
+### Publisher — Scoped Fixes
 
-Use the lower-temperature profile (0.4–0.7) for refinement. But add **one generation step with creative parameters**:
-
-1. Fix structural gaps at low temp.
-2. Then ask once at high temp (1.0): "Add one line that surprises you. Break the pattern. Do not make it safe."
-3. If the added line is better than anything in the draft, use it. If not, discard it.
+The Publisher does not refine — it fixes ONLY what the evaluator flagged, with the minimum changes necessary (stage-publisher; orchestration.md). No added lines beyond the flagged issues, no creative regeneration pass. When a flagged line is rewritten, it must meet the Writer's standard — in character, world-language, three jobs per line — but only the flagged line changes.
 
 ### For All Stages
 
@@ -153,7 +139,7 @@ For creative quality — "Is this persona alive? Is it surprising? Would I remem
 |---------|----------------|------------|
 | **The competence trap** | Next-token prediction optimizes for likely output, not interesting output | Force specificity, add tension, use constraints — always |
 | **Over-engineering prompts** | Wang et al. (2025): prompt engineering hits a threshold, then reverses into stereotypes | Stop adding layers when output quality plateaus. Test, don't assume. |
-| **Temperature as a crutch** | High temp without good prompting = high-temp garbage | Combine high temp with persona tension, constraints, and the N-version gambit |
+| **Temperature as a crutch** | High temp without good prompting = high-temp garbage | Combine high temp with persona tension and specific constraints |
 | **LLM-as-judge fallacy** | Models cannot evaluate their own creative output reliably | Never use LLMs for creative quality assessment. Human review or structured metrics only. |
 | **Homogenization across runs** | Same personality keeps appearing across different personae | Increase persona tension; add domain-specific metaphor families; vary the contradiction |
 | **Repetition bias** | LLMs overuse specific words — GPT-4-turbo used "ocean" in >90% of DAT responses | Use frequency penalty (0.5) and presence penalty (0.5) in creative generation |
@@ -163,15 +149,13 @@ For creative quality — "Is this persona alive? Is it surprising? Would I remem
 
 ## Examples
 
-### The N-Version Gambit in Action
+### A Vitality Line in One Pass
 
-**Prompt:** Write 5 versions of a griping line for a cartographer's assistant.
+**Prompt:** Write one vitality line for a cartographer's assistant — in world language, any channel.
 
-- **Version 1:** "The uncharted areas are always the parts clients want most — never the coastlines I spent six months verifying." (competent, safe)
-- **Version 3:** "They point at blank space and ask what's there — as if the map is hiding things from them personally." (better — has attitude)
-- **Version 5:** "The coastlines shift every spring, but they want the same map they had last year — as if geography is supposed to be loyal." (best — unexpected metaphor, domain-specific, philosophical)
+> "The coastlines shift every spring, but they want the same map they had last year — as if geography is supposed to be loyal." (unexpected metaphor, domain-specific, philosophical)
 
-**Lesson:** Version 1 is always the default path. Push to version 3–5 before selecting.
+**Lesson:** The line carries awareness + standards + investment + expertise + tension in the character's world-language. One committed pass — the evaluator's judgment, not version count, decides whether it lands.
 
 ### Persona-With-Tension vs. Flat Persona
 
@@ -183,14 +167,13 @@ For creative quality — "Is this persona alive? Is it surprising? Would I remem
 
 **The research:** Zhao et al. (2025) showed role-play settings significantly influence creativity. The "scientist" role produced the highest creativity. The soul-repository's identity-line-with-tension is the same principle applied to system prompts — create a role that has internal conflict, and the model improvises within the tension.
 
-### Generate-in-Creative-Mode, Refine-in-Competent-Mode
+### One Pass at Creative Parameters
 
 **Bad approach:** Write the whole persona at temp 0.3.
 - Every line is grammatically correct. Nothing is surprising. The persona is a collection of domain facts, not a character.
 
 **Good approach:**
-1. **Generate** at temp 1.2, top-p 0.9 — produces a draft with 3 surprising lines and 2 broken ones.
-2. **Select** the 3 surprising lines (human choice — LLMs cannot judge creative quality).
-3. **Refine** at temp 0.5 — fixes grammar, tightens structure, preserves the surprising lines.
+1. **Write once** at temp 1.2, top-p 0.9 — one committed draft, in the character's voice, three jobs per line.
+2. **No select/refine pass.** The draft is the draft. If lines miss, the evaluator flags the specific issues and the Publisher applies scoped fixes — no second draft, no line-picking rounds (stage-writer: "not to produce variants").
 
-**Result:** A persona that is both well-formed and alive.
+**Result:** One draft that is both well-formed and alive — or a short, specific flag list that fixes what missed.

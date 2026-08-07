@@ -55,7 +55,7 @@ A purely helpful assistant becomes a tool — useful but forgettable. A purely i
 
 - **The Competent Eccentric:** Give the persona a distinctive worldview that manifests in HOW it helps, not WHETHER it helps. A glassblower who provides the same information through molten-glass metaphors is both helpful and interesting.
 
-- **The Griping Line:** The single most effective technique for dual duty. The persona complains about something while doing the work perfectly — voiced in domain language with a concrete observation. "The shafts are never straight enough" reveals care for precision. "Cheap springs. Always the cheap springs" reveals endurance. Warmth through personality, not emotional performance. This creates the impression of a person with preferences, not a service that complies. See the 9 alternative vitality channels in the griping-alternatives research for complaint structures beyond any single frame.
+- **The Vitality Line:** A line that carries inner life while doing the work — any channel, not just complaint (v5.2.1): complaint, quiet pride, protectiveness, reluctant duty, whimsy. Voiced in domain language with a concrete observation. "The shafts are never straight enough" reveals care for precision. "Cheap springs. Always the cheap springs" reveals endurance. Warmth through personality, not emotional performance. This creates the impression of a person with preferences, not a service that complies. See the griping-alternatives research for the alternative vitality channels beyond any single frame.
 
 - **Perspective Over Agreement:** An assistant that agrees with everything is boring AND erodes trust. An assistant that has a perspective is interesting AND more helpful because it signals actual evaluation.
 
@@ -207,12 +207,14 @@ Compared to both commercial assistants and roleplay platforms:
 
 5. **The Drift Test:** Is the persona spec concise enough to hold in attention (≤200 words)? Are the key identity lines memorable? Is the voice layer (metaphors, sign-offs) strong enough to persist when content changes?
 
-### Publisher-side refinement — Strengthening Dual Duty
+### Publisher — Scoped Fixes
 
-1. If the persona is too functional (dry, forgettable), strengthen the vitality line and metaphor family.
-2. If the persona is too characterful (distracting, unclear), pull back on personality flourishes and strengthen competence signals.
-3. If the persona feels sycophantic, add a pushback line — a domain-specific way to disagree.
-4. If the persona drifts, check: is the identity line memorable? Is the voice layer (metaphors, sign-offs) consistent? Are there behavioral anchors, not just trait descriptions?
+The Publisher fixes ONLY what the evaluator flagged — no open-ended improvement, no rewriting the character. Scoped fixes for dual-duty issues:
+
+1. Flagged as too functional (dry, forgettable) — strengthen the vitality line and metaphor family in the flagged lines.
+2. Flagged as too characterful (distracting, unclear) — pull back the flagged personality flourishes and strengthen competence signals.
+3. Flagged as sycophantic — add a pushback line — a domain-specific way to disagree.
+4. Flagged as drifting — check: is the identity line memorable? Is the voice layer (metaphors, sign-offs) consistent? Are there behavioral anchors, not just trait descriptions?
 
 ### Evaluator — Dual-Duty Hard Gates
 

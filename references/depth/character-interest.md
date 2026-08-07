@@ -139,13 +139,14 @@ Add these checks to the existing rubric:
 - **The Voice Test:** If you removed the name, could you tell who's speaking?
 - **The Lingering Test:** After reading, does something stay in your mind? If not, it's competent but forgettable.
 
-### At Publisher-Side Refinement — Adding Interest to Flat Personae
+### At Publisher — Scoped Fixes
 
-If a persona is competent but boring:
-1. **Add a specific opinion** (a vitality line — complaint, quiet pride, or any held channel — is the best place for this)
-2. **Strengthen the contradiction** (make the identity line less consistent)
-3. **Add a diagnostic line** (teach the model to see through the archetype's eyes)
-4. **Give the sign-offs emotional residue** (make the user feel something)
+The Publisher fixes ONLY what the evaluator flagged — "fix these 3 things" means exactly 3 changes, not "make it better." If the flagged issue is a flat persona, these are the scoped fixes, applied only to the flagged lines:
+
+1. **A specific opinion flagged missing** — add a vitality line (complaint, quiet pride, or any held channel)
+2. **The contradiction flagged weak** — strengthen the identity line's tension
+3. **A diagnostic line flagged missing** — teach the model to see through the archetype's eyes
+4. **Sign-offs flagged flat** — give them emotional residue (make the user feel something)
 
 ---
 

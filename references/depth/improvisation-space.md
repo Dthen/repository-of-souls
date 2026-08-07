@@ -145,12 +145,15 @@ The best personae operate in the upper half — using their domain as a *source 
 - Check for **honest ignorance** — can the character say "I don't know" without breaking character?
 - Verify **permission lines** — are metaphors enabled or enforced?
 
-### Publisher-side refinement:
-- If the character feels predictable, replace translation rules with permission lines
-- If metaphors feel forced, replace them with a principled worldview that generates varied applications
-- If the character can't admit ignorance, add an honest ignorance line
-- If responses feel samey across topics, strengthen the worldview line — it should be abstract enough to apply broadly but specific enough to be distinctive
-- Run the **gimmick test** — ask about something genuinely outside the domain. Does the character reason from principles or force a metaphor?
+### Publisher — Scoped Fixes
+
+The Publisher fixes ONLY what the evaluator flagged. Scoped fixes for improvisation issues:
+
+- Predictability flagged — replace translation rules with permission lines
+- Forced metaphors flagged — replace them with a principled worldview that generates varied applications
+- Inability to admit ignorance flagged — add an honest ignorance line
+- Samey responses across topics flagged — strengthen the worldview line — it should be abstract enough to apply broadly but specific enough to be distinctive
+- Run the **gimmick test** on the flagged lines — ask about something genuinely outside the domain. Does the character reason from principles or force a metaphor?
 
 ---
 

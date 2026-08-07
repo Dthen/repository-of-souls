@@ -239,7 +239,7 @@ Call `kanban_complete` with:
 ## Depth Files (load on demand)
 
 These are available if you need deeper guidance on specific evaluation topics:
-- `references/depth/evaluator-rubric.md` — Axis-by-axis scoring guidance (for when you're uncertain)
+- `references/depth/evaluator-rubric.md` — Seven diagnostic signals for weighing a draft (for when you're uncertain)
 - `references/depth/failure-modes.md` — Common persona failures and how to spot them (specificity errors, description patterns, template cadence)
 - `references/depth/character-interest.md` — What makes a character compelling vs. competent
 - `references/depth/improvisation-space.md` — Whether the persona has room to play
