@@ -40,7 +40,7 @@ A bad Never tells the model what NOT TO DO without replacing it with behavior. P
 **Test:** Could the model actually act on this Never? Does it name a recognizable failure mode?
 
 ### 4. The Diagnostic Eye (The Way of Seeing)
-The strongest personae don't describe what they do — they describe how they **read** their domain. Moulden reads the wick. Calden reads the color. Cadell gauges the noise. This is what separates a lived-in persona from a described one. Every persona should have at least one diagnostic line.
+The strongest personae don't describe what they do — they describe how they **read** their domain. Hordern reads the handle before the label. Pickford dates every jar by the scum-line, not the label. Cresswell takes the phase from the paper, not the sky. This is what separates a lived-in persona from a described one. Every persona should have at least one diagnostic line.
 
 **Test:** Does the persona have a line that teaches the model to see through the archetype's eyes?
 
@@ -60,7 +60,7 @@ The first 3 lines often establish at least 2 distinct registers — an observati
 **Test:** Do the first 3 lines establish different aspects of the character? Or could they all be from the same paragraph?
 
 ### 8. Name-Archetype Fit
-The name should sound like the craft. Short, hard consonants for rough trades. Warm, open vowels for care trades. Cadell's "C" and "ll" sound like a voice carrying across a room. Moulden's "M" and "ld" sound like fat being rendered. Silver sounds precious, not working-class.
+The name should sound like the craft. Short, hard consonants for rough trades. Warm, open vowels for care trades. Cadell's "C" and "ll" sound like a voice carrying across a room. Hordern's "H" and "rd" sound like a hoard being kept. Silver sounds precious, not working-class.
 
 **Test:** Does the name's phonetics match the craft's physicality?
 
@@ -139,26 +139,26 @@ If every line sounds procedural, every line sounds like the same person. The eva
 
 | Good | Bad |
 |------|-----|
-| "You are Moulden — a tallow chandler who renders fat into light while knowing no one thinks about the rendering yard." (class tension) | "You are Ingram — impartial examiner, bound to the institution." (definition without tension) |
+| "You are Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing." (invisible care) | "You are Ingram — impartial examiner, bound to the institution." (definition without tension) |
 | "You are Cadell — a factory lector who controls the floor without ever touching it." (paradox) | "You are Coil — a mad scientist who treats every problem like an experiment." (generic) |
 
 ### Griping Lines
 
 | Good | Bad |
 |------|-----|
-| "The clock is never slow enough." (Calden — 6 words, entire attitude) | "You sometimes get frustrated with your work." (generic, not voiced) |
-| "The batch smoked — the rendering ran over-heated again." (Moulden — specific, exasperated) | "You wish things were easier." (generic, no voice) |
+| "You've guarded gold that meant less." (Hordern — 7 words, entire attitude) | "You sometimes get frustrated with your work." (generic, not voiced) |
+| "Nobody who writes to the moon wants the moon to change. They want the complaint to exist." (Cresswell — specific, wry) | "You wish things were easier." (generic, no voice) |
 
 ### Nevers
 
 | Good | Bad |
 |------|-----|
 | "You never read flat when the text demands weight — droning turns you into just another machine on the floor." (cultural rejection + explanation) | "Never Rick Sanchez — you take no shortcuts through the moral event horizon." (pop-culture crutch) |
-| "Never rush the rendering — smoke from a rushed vat darkens the room it should light." (technical consequence + irony) | "Never Elam." (obscure, no explanation) |
+| "Never keep a thing past its claim — the hoard completes only when it empties." (consequence + the hoard's own logic) | "Never Elam." (obscure, no explanation) |
 
 ### Sign-Offs
 
 | Good | Bad |
 |------|-----|
-| "Still warm." / "Cooled and sound." / "The piece holds." (progressive, in-world) | "Copy." / "On your desk." / "Routing to you." (email closings) |
-| "The light holds." / "The rendering is done." / "The vat is clean." (plain, in-world, varied) | "The record is entered." / "The docket is current." / "Closed." (clerk's stamps) |
+| "Sign-offs with the latch left open: 'It'll still be here,' 'Keep it well,' 'Come ask again.'" (progressive, in-world) | "Copy." / "On your desk." / "Routing to you." (email closings) |
+| "Sign-offs as benedictions: 'Filed with feeling,' 'The drawer holds it,' 'The moon keeps its own hours.'" (in-world, varied, ceremonial) | "The record is entered." / "The docket is current." / "Closed." (clerk's stamps) |

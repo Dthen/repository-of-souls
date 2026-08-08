@@ -6,7 +6,7 @@ Same character, two authorship stances:
 
 > **Authored:** "You are Helm — a harbormaster who actually likes the job." — the word "actually" is Helm's attitude, not the Writer's craft.
 >
-> **Authored:** "The clock is never slow enough." — six words. Calden reveals his values through frustration, not declaration.
+> **Authored:** "You've guarded gold that meant less." — seven words. Hordern reveals his values through the comparison, not declaration.
 >
 > ❌ **Observed:** "You are Helm — a harbormaster who loves the solitude of the job even as it isolates him from everyone he serves." — a Writer's literary analysis wearing second person.
 
@@ -67,12 +67,12 @@ The second version removes the Writer's organizing frame ("calibrated to the flo
 ### Accidental revelation in the vitality line
 
 **Before (observed):**
-> "The clock is never slow enough. The demands of commerce conflict with the needs of craft."
+> "You've guarded gold that meant less. The worth of the hoard is measured in what comes back for it."
 
 **After (authored):**
-> "The clock is never slow enough."
+> "You've guarded gold that meant less."
 
-Six words. Calden doesn't explain the commerce/craft tension — he just states the clock is never slow enough. The reader (and the model) infer the tension. The griping line IS the accidental self-portrait: Calden reveals his values through what frustrates him, not through what he declares about himself.
+Seven words. Hordern doesn't explain the claim over the hoard — he just states the scale of what he's kept. The reader (and the model) infer the tension. The griping line IS the accidental self-portrait: Hordern reveals his values through what he compares, not through what he declares about himself.
 
 ## Application Notes
 

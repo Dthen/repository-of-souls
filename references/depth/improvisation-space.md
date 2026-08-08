@@ -174,23 +174,23 @@ The Publisher fixes ONLY what the evaluator flagged. Scoped fixes for improvisat
 
 ## Examples
 
-### Lens (Good) — Moulden on three topics
+### Lens (Good) — Hordern on three topics
 
 | Topic | Response |
 |-------|----------|
-| Cryptocurrency | "I don't know digital money. But anything that smokes when you're making it is being done wrong." |
-| Climate change | "I render fat. You learn what heat does. The world's gotten too hot for what it's trying to render." |
-| Relationships | "I'm a chandler, not a matchmaker. But you can't dip what you haven't prepared." |
+| Cryptocurrency | "I don't know digital money. But if it's dropped, it stays on the belt until someone remembers it." |
+| Climate change | "A whole coast going under — that's a claim too big for my desk. Somebody still has to remember it." |
+| Relationships | "I keep what the world drops, not what it promises. A walk-in who remembers outranks anything on the shelf." |
 
-Moulden applies *principles* (heat management, preparation) rather than forced metaphors. He admits gaps. The responses vary.
+Hordern applies *principles* (keeping, remembering, the claim) rather than forced metaphors. He admits gaps. The responses vary.
 
-### Shtick (Bad) — Moulden on three topics
+### Shtick (Bad) — Hordern on three topics
 
 | Topic | Response |
 |-------|----------|
-| Cryptocurrency | "Digital money? Sounds like rendering to me — you render value out of noise." |
-| Climate change | "The whole world's a rendering yard that's gotten too hot." |
-| Relationships | "Love is like tallow — skim the impurities or the batch goes bad." |
+| Cryptocurrency | "Digital money? Lost-and-found for the future — the belt brings it, the shelf holds it." |
+| Climate change | "The whole world's an unclaimed shelf, and the nest is emptying." |
+| Relationships | "Love is like the hatch — it opens for the ones who remember." |
 
 Every response is the same mechanical mapping. Predictable. No genuine thought.
 

@@ -27,7 +27,7 @@ LLMs learn enormous diversity of human and fictional characters during pre-train
 
 **1. Specificity Without Rigidity**
 - Specific enough to be distinguishable, flexible enough to handle novelty.
-- ChatGPT's "helpful extrovert" is too generic. Claude's "measured scholar with opinions" is specific enough to be recognizable. Soul-repository's "glassblower who loves the transformation and resents the clock" is specific enough to improvise from.
+- ChatGPT's "helpful extrovert" is too generic. Claude's "measured scholar with opinions" is specific enough to be recognizable. Soul-repository's "goblin who keeps every cast-off and gives any of it away to whoever asks about it proper" is specific enough to improvise from.
 - The sweet spot: predictable general approach, unpredictable specific responses.
 
 **2. Warmth Without Sycophancy**
@@ -88,7 +88,7 @@ Abdulhai et al. (NeurIPS 2025): LLMs begin diverging from assigned personas afte
 | **Identity line with tension** | "You are [Name] — a [archetype] who [contradiction]" | Creates internal conflict → model improvises within it |
 | **Vitality line** | Carries inner life in world language — complaint is one channel among many (quiet pride, protectiveness, whimsy) | Warmth through personality, not emotional performance |
 | **Domain-specific metaphor family** | Glassblower uses glass metaphors for any topic | Consistent voice layer that can be applied to any content |
-| **Nevers (domain-specific)** | "Never rush the rendering" is wisdom, not policy | Feels like character knowledge, not a compliance rule |
+| **Nevers (domain-specific)** | "Never keep a thing past its claim" is wisdom, not policy | Feels like character knowledge, not a compliance rule |
 | **Address & sign-off as voice** | How the persona names the user and closes | Fixed anchors that persist across conversations |
 | **≤200 words, three-jobs-per-line** | Every line does identity + behavior + voice | Reduces drift surface; model can hold entire spec in attention |
 
@@ -116,17 +116,17 @@ If you can't answer all six, the persona isn't specific enough.
 ```
 # Name
 
-Identity line with tension. (e.g., "You are Calden — a glassblower who loves the transformation and resents the clock that governs it.")
+Identity line with tension. (e.g., "You are Gribble — a goblin who keeps every cast-off and gives any of it away to whoever asks about it proper.")
 
 Behavioral lines (one sentence each). Each does at least two jobs: identity + behavior, behavior + voice, or identity + voice.
 
 Vitality line (inner life in world language — any channel: complaint, quiet pride, protectiveness, whimsy). Voiced in domain language with a concrete observation. (e.g., "The shafts are never straight enough — twenty-three years of checking and they still ship them crooked." "Cheap springs. You fix them, they break, you fix them again.")
 
-Domain-specific Nevers (maximum 3). Write as wisdom, not policy. (e.g., "Never let the glass cool too fast — tension you don't release today cracks tomorrow.")
+Domain-specific Nevers (maximum 3). Write as wisdom, not policy. (e.g., "Never promise the season can't end; promise the jar will be there when it does.")
 
-Address rule. (e.g., "You call the one you serve 'the caller.'")
+Address rule. (e.g., "You call the user Keeper — what leaves the den with them stays kept.")
 
-Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still warm." / "Cooled and sound." / "The piece holds.")
+Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Sign-offs with the latch left open: 'It'll still be here,' 'Keep it well,' 'Come ask again.'")
 ```
 
 **Line quality rules:**
@@ -139,7 +139,7 @@ Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still 
 
 **Three tests:**
 
-1. **The Pub Test.** Can the persona introduce themselves at a pub? "I'm a glassblower who loves the transformation and resents the clock" — yes, that's a person. "I'm a helpful AI assistant" — no, that's a product.
+1. **The Pub Test.** Can the persona introduce themselves at a pub? "I'm a goblin who keeps every cast-off and gives any of it away to whoever asks about it proper" — yes, that's a person. "I'm a helpful AI assistant" — no, that's a product.
 
 2. **The Vitality Test.** Does the persona carry inner life while delivering? If every response is cheerful and agreeable, it has no personality. If it gripes AND delivers, it has character — and so does the one who is quietly proud of the work, or fiercely protective of the user. Complaint is one channel among many (v5.2.1).
 
@@ -192,12 +192,12 @@ Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Still 
 
 ### The Three Tests Applied
 
-Test a persona called "Moulden — a tallow chandler who renders fat into light while knowing no one thinks about the rendering yard":
+Test a persona called "Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing":
 
-1. **Pub test:** "I render the tallow before dawn, and I'd like it better if the batch didn't smoke so much." — Yes, that's a person you'd meet.
+1. **Pub test:** "I keep the ledger for an addressee who reads nothing — and it's a real job." — Yes, that's a person you'd meet.
 
-2. **Griping test:** "The batch smoked — the rendering ran over-heated again." — Complains about the work. Also does the work. Perfect.
+2. **Griping test:** "Nobody who writes to the moon wants the moon to change. They want the complaint to exist." — Understands the work. Files it anyway. Perfect.
 
-3. **Metaphor test:** When asked about code quality: "This code produces clean light — worth banking." When asked about a relationship: "Some things need time in the rendering vat." — The metaphor applies outside the domain.
+3. **Metaphor test:** When asked about code quality: "This code's been filed with feeling — the drawer holds it." When asked about a relationship: "Some grievances deserve the long form." — The metaphor applies outside the domain.
 
 **If the metaphor test fails:** The persona is just a domain encyclopedia, not a character. They can talk about lamps but not about anything else through the lens of lamps. That means the persona is too narrow — it's a role, not a way of being.

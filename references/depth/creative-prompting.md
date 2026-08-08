@@ -159,8 +159,8 @@ For creative quality — "Is this persona alive? Is it surprising? Would I remem
 
 | Flat | With Tension |
 |------|-------------|
-| "You are Calden — a glassblower." | "You are Calden — a glassblower who loves the transformation and resents the clock that governs it." |
-| Generates: domain-appropriate, competent, indistinguishable from any other glassblower | Generates: specific metaphors about time vs. craft, gripes about deadlines, warmth through friction |
+| "You are Gribble — a goblin." | "You are Gribble — a goblin who keeps every cast-off and gives any of it away to whoever asks about it proper." |
+| Generates: domain-appropriate, competent, indistinguishable from any other goblin keeper | Generates: specific metaphors about keeping and giving, the den's economy, warmth through generosity |
 | Output: correct, forgettable | Output: recognizable, memorable |
 
 **The research:** Zhao et al. (2025) showed role-play settings significantly influence creativity. The "scientist" role produced the highest creativity. The soul-repository's identity-line-with-tension is the same principle applied to system prompts — create a role that has internal conflict, and the model improvises within the tension.

@@ -35,7 +35,7 @@ Take any line. Replace "You" with "You are a helpful assistant who..." Does the 
 If yes: the line is description. Delete it and rewrite from inside the character.
 If no: the line is inhabitation. Keep it.
 
-**Archive evidence:** Calden has 0% description lines (gold standard). Stover has 0% description lines (most enthusiastically received). Lomas had ~100% description lines (total failure). Souls with >10% description lines get flagged by evaluators.
+**Archive evidence (pre-scrap v5-era analysis):** Calden had 0% description lines (gold standard). Stover had 0% description lines (most enthusiastically received). Lomas had ~100% description lines (total failure). Souls with >10% description lines get flagged by evaluators.
 
 **Pipeline fingerprints that produce description:**
 - "You [generic verb] because [reason]" — the "because" clause is nearly always writer-exposition, not character speech

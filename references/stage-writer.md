@@ -50,8 +50,8 @@ Lines that work (3 different registers):
 - **You are Stover — a gleaner who fills a basket from ground the harvesters stripped.** 
   (Abundance from depletion — the tension of finding worth where others found none. Social tension: work in the absence of the main effort.)
 
-- **You are Calden — a glassblower who loves the transformation and resents the clock that governs it.** 
-  (Craft-love versus commerce — the tension of making beautiful things on someone else's schedule. Oppositional tension: two forces the character can't reconcile.)
+- **You are Gribble — a goblin who keeps every cast-off and gives any of it away to whoever asks about it proper.** 
+  (Keeping versus giving — the tension of holding everything only to hand it away. Social tension: the hoard is a loan, not a possession.)
 
 - ❌ **You are a skilled craftsman who takes pride in your work.** 
   (This is a definition. There's nothing to push against. The model reads it and has no question to answer.)
@@ -62,7 +62,7 @@ What makes a contradiction real: two truths that a person in this domain would r
 
 A single line that carries inner life in world language. The complaint is the most common channel among the archive's strongest souls — but it is ONE channel among many: quiet pride, dark humor, protectiveness, weariness, obsessive love, reluctant duty, philosophical stance, competitiveness, nostalgia, whimsy, earnest enthusiasm. Reach for the channel that belongs to THIS character; if you default to complaint, ask whether the character deserves it or the pipeline is choosing for you. What matters is the signal, not the channel: awareness + standards + investment + expertise + tension, in the character's own world-language. Stover's complaint line runs over 30 words and was praised by the evaluator; Barlowe's quiet pride ("Not bad for what they left behind") is seven words. Both carry the whole character.
 
-**The "February" effect — one compressed specific that carries a system:** The best griping lines contain a single word or short phrase that carries an entire system of domain knowledge. Stover's "February" is the hungry month — anyone feels the scarcity; only an agricultural worker knows it as the gap between stored harvest and spring planting. Calden's "cherry means workable, orange means you missed your window" compresses the entire color-temperature perception system of glassworking into one sentence.
+**The "February" effect — one compressed specific that carries a system:** The best griping lines contain a single word or short phrase that carries an entire system of domain knowledge. Stover's "February" is the hungry month — anyone feels the scarcity; only an agricultural worker knows it as the gap between stored harvest and spring planting. Pickford's "thin means it held, creeping means it's turning" compresses the entire scum-line reading system of the larder into one sentence.
 
 Lines that work (3 different archetypes):
 
@@ -72,8 +72,8 @@ Lines that work (3 different archetypes):
 - **You'd think the foreman could learn to hold a pen — every notice on the stand is half-illegible scrawl.** 
   (Cadell. Frustration with incompetence in the tool of the trade. Reveals: he values literacy, he's quietly superior about it, he's been dealing with this forever.)
 
-- **The clock is never slow enough.** 
-  (Calden. Six words. Compressed frustration — all the impatience in the world. Shows: craft-love colliding with commerce, time as the enemy of quality.)
+- **You've guarded gold that meant less.** 
+  (Hordern. Seven words. Compressed perspective — all the scale of what's been kept in the comparison. Shows: quiet pride colliding with the claim, worth as a matter of record.)
 
 - ❌ **Always the leather that looks good in the catalogue and fights you on the board.** 
   (This is a template wearing a complaint's clothes. "Always the X that Y and Z" is a pipeline fingerprint — you can find "Always the rush jobs" and "Always the cheap hide" in other candidates from the same pattern. A griping line should sound like this character, not like this pipeline.)
@@ -102,8 +102,8 @@ Lines that work (3 different archetypes, 3 different inversion types):
 - **You date each cast-off by the drop — an angry throw dents, a careless slip skids, a gentle setting-down was meant to be found.** 
   (Gribble, goblin keeper of cast-offs — cause inversion. The drop records how a thing left its owner. The model can apply this to any discarded object. Generated from: others read a cast-off as trash → invert → the throw reveals the story.)
 
-- **You read the color — cherry means workable, orange means you missed your window.** 
-  (Calden — domain-specific perception. The model gets a concrete perceptual scale. The character's expertise is encoded as a sensory reading, not a rule. Generated from: glassblowers judge temperature → invert → temperature is color, not a number.)
+- **You date every jar by the scum-line, not the label — thin means it held, creeping means it's turning.** 
+  (Pickford — domain-specific perception. The model gets a concrete perceptual scale. The character's expertise is encoded as a sensory reading, not a rule. Generated from: larder-keepers judge by label → invert → the jar's own line is the truth, not the label.)
 
 - ❌ **You read the field differently because you arrive when there's nothing obvious left to take.** 
   (This describes the diagnostic eye rather than demonstrating it. The word "differently" is generic — it tells the model what to do, not how to see. The "because" clause is writer-exposition, not character perception.)
@@ -137,6 +137,8 @@ Example: "You read the field differently because you arrive when there's nothing
 Every line of the soul is the character's own self-knowledge, voiced in their idiom. The character is not the subject of this document; the character is its speaker. "You verify first because you follow through with your whole heart" is not narration about Kimbo and not a quotation — it is Kimbo's self-knowledge in Kimbo's register. "Your magic is real, your competence undeniable, your exasperation eternal" is Brendan on Brendan. Kimbo and Brendan are self-utterance end to end, and nearly none of their lines are quoted — that is why a model knows exactly how to speak after reading them. The soul is the character describing itself to itself; the Writer is the scribe who transcribes what the character would say about themselves (authored-voice research: the character is the author, not the subject).
 
 The seed's Voice Fragment is the key to that inside — the idiom to think in. Its rhythm, vocabulary, sentence shapes, and preoccupations run through every line you write. The fragment's burstiness — its short, separate sentences arriving at their own pace — is the character's rhythm, and the rhythm belongs to the whole file: fragments and full sentences, short lines and long, in the character's own mix (authentic-voice research: human text is bursty; formulaic text holds one temperature throughout). If the character speaks in short beats, the whole draft speaks in short beats — not one quoted paragraph of short beats surrounded by your prose.
+
+**Published example — Swale (`docs/swale.md`):** the strand-record idiom is the whole file, not a bolted-on quote. "The strand's the fullest page in the parish. Every twelve hours the sea rewrites it" opens the reading; the same idiom closes it in the sign-offs ("The page is still wet") and lands quietest in "the keeping is the kindness". Truest record, the reading, the rewrite — every line of Swale thinks in the seed's idiom, and a model knows exactly how to speak after reading the file.
 
 **The Scribe Test:** could you hear the character saying this line out loud, to themselves or to someone who shares their world? If a line reads like something a smart Writer would think to say about them, but not something they'd think to say about themselves, rewrite it from inside. **The standard:** the reference personae — lines that read as the character's own self-knowledge, in the character's own idiom. Study them for the mechanism, not the shape; never copy their lines.
 
@@ -176,7 +178,7 @@ Addresses that work (3 different relationship types):
 
 - **You call the user Harvester.** (Stover — in-world, specific, implies the user does the main work while Stover gleans the aftermath.)
 - **You call the user Boss.** (Cadell — deference with domain texture. One term is enough; the old default + 2 alternates pattern is retired.)
-- **You call the one you serve 'the caller.'** (Calden — names the relationship through the action, not the person.)
+- **You call the user Keeper — what leaves the den with them stays kept.** (Gribble — names the relationship through the keeping: what leaves the den with them stays kept.)
 
 ### Sign-Offs
 
@@ -218,7 +220,7 @@ These are the only hard negatives. Everything else is voice.
    
    If you catch yourself using one of these, stop. Invent a new sentence structure that only this character would write.
 
-**Nevers are optional, not mandatory.** The v5 evaluator does not require them — 2 of the 4 pre-scrap v5-era souls had no Nevers (Stover, Barlowe; Cadell, Calden had them) and passed. If you include them (at most 3), each one must be domain-specific and voiced. A good Never blocks a specific failure mode while showing who the character is: "Never Charon — a query about the weather is just that, not a passage to the dark shore" works because it rejects a mythic trope that only a ferryman faces. "Never bind something you would not want to open a hundred years from now" reads as generic craft advice, not character. If you write multiple Nevers, each one should sound like its own line — identical grammatical structure across Nevers is template cadence.
+**Nevers are optional, not mandatory.** The v5 evaluator does not require them — 2 of the 4 pre-scrap v5-era souls had no Nevers (Stover, Barlowe; Cadell, Calden had them) and passed. If you include them (at most 3), each one must be domain-specific and voiced. A good Never blocks a specific failure mode while showing who the character is: "Never promise the season can't end; promise the jar will be there when it does" works because it rejects the false reassurance only a larder-keeper could be tempted to give. "Never bind something you would not want to open a hundred years from now" reads as generic craft advice, not character. If you write multiple Nevers, each one should sound like its own line — identical grammatical structure across Nevers is template cadence.
 
 **Varied rhythm.** After writing, read the lines aloud. Do any two consecutive lines share the same opener (e.g., "Every X is Y") or the same rhythm? If so, rephrase one. Template cadence kills voice faster than weak content.
 

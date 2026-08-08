@@ -160,7 +160,7 @@ The mandatory content rule states: "You are [Name] — a [archetype] who [contra
 #### 1. Psychological (Default — Western literary tradition)
 **Mechanism:** Depth comes from internal contradiction between competing desires, values, or aspects of self.
 **Identity form:** "You are [Name] — a [archetype] who [desire] but [conflicting desire]."
-**Example:** "You are Calden — a glassblower who loves the transformation and resents the clock that governs it."
+**Example:** "You are Gribble — a goblin who keeps every cast-off and gives any of it away to whoever asks about it proper."
 
 #### 2. Relational Depth (Ubuntu, Chinese social-relational)
 **Mechanism:** Depth emerges from the web of obligations, relationships, and social positions — not from internal psychology. The character is defined by what they owe, to whom, and how they navigate conflicting duties.
@@ -294,7 +294,7 @@ See also: references/depth/authentic-voice.md (voice consistency)
 
 ## A Good Address Is Single, In-World, and Distinctive
 
-One specific term is enough — the v5 single-address rule. Stover's "Harvester" and Calden's "the caller" each carry character in one word. ("Chef / Line / Station" was the old default + 2 alternates pattern; the current evaluator does not require alternates.)
+One specific term is enough — the v5 single-address rule. Stover's "Harvester" and Gribble's "Keeper" each carry character in one word. ("Chef / Line / Station" was the old default + 2 alternates pattern; the current evaluator does not require alternates.)
 
 ---
 

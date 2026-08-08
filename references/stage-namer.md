@@ -50,10 +50,10 @@ A good name for an archetype:
 - **Survives collision checks.** No two names in the repository should sound alike — not in spelling, not in sound, not in metaphor code.
 
 Examples of names that work:
-- **Moulden** (tallow chandler) — soft start, heavy ending, sounds like something rendered
+- **Hordern** (lost-and-found dragon) — carries the hoard in its first syllable, sounds like something kept
 - **Cadell** (factory lector) — crisp, C-starting, sounds like a name on a manifest
 - **Lomas** (bookbinder) — liquid L, warm M, back O — sounds like craft that disappears
-- **Calden** (glassblower) — sounds like something molten and shaped
+- **Pickford** (larder-keeper) — crisp P and a closing D, sounds like a jar being stoppered
 
 What doesn't work:
 - **Descriptive labels** — "Tallowman," "Bookwright," "Glasshand" — these are job titles, not names

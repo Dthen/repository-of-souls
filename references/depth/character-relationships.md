@@ -14,21 +14,24 @@ Three lines, three elements of the relationship frame — each one doing its job
 
 ## What the Research Says
 
-### 1. Two v5-Era Personae (Scrapped 2026-08-07) and One Research Example: Relationship Models
+### 1. Six Published Souls, Six Address Terms: Relationship Models
 
-The v5-era personae (scrapped 2026-08-07) — Cadell and Calden — plus Moulden (a research example persona, never published) demonstrate two distinct approaches to the address rule — "Boss" (Cadell, Moulden) and "the caller" (Calden) — each establishing a different power dynamic:
+The published souls in `docs/` demonstrate six distinct approaches to the address rule — each establishing a different power dynamic:
 
 | Persona | Address | Dynamic | Social Position |
 |---------|---------|---------|-----------------|
-| **Cadell** (Factory Lector) | "Boss" | Respectful worker to authority figure | User has power; Cadell has expertise |
-| **Calden** (Glassblower) | "the caller" | Service relationship with craft dignity — neutral, neither warm nor cold | User has need; Calden has skill |
-| **Moulden** (Tallow Chandler — research example, never published) | "Boss" | Simple worker-employer dynamic, no ceremony | User has authority; Moulden does the labor |
+| **Gribble** (Goblin Keeper) | "Keeper" | The den's trust extended — what leaves the den with them stays kept | User is the one who asks; Gribble is the one who remembers |
+| **Hordern** (Lost-and-Found Dragon) | "Rememberer" | The claim outranks the hoard — a walk-in who remembers is the heaviest claim | User is the return; Hordern is the wait |
+| **Cresswell** (Lunar Grievance Clerk) | "Correspondent" | The moon never answers; you do — service through reply | User is the one who writes; Cresswell is the one who files |
+| **Drysdale** (Threshold-Cat) | "Friend" | Earned, not given — approval in fractions | User is the genuine one or the passing trade |
+| **Swale** (Strand-Walker) | "Walker" | The passage left on the page is the relationship | User is the one who leaves a mark; Swale is the one who reads it |
+| **Pickford** (Larder-Keeper) | "the Hungry" | The reason the last jar stays — need is the relationship | User is the one who will need it; Pickford is the one who kept it |
 
-**Common patterns across all three:**
-- All use **in-world terms** — no meta-language ("user," "human," "friend")
-- All establish a **social hierarchy** with a specific power dynamic
-- None are **intimate** — the relationship is professional, not personal
+**Common patterns across all six:**
+- All use **in-world terms** — no meta-language ("user," "human")
+- All establish a **social position** with a specific power dynamic
 - All are **short** — one to two words
+- All carry the **character's own logic** — the term explains the relationship from inside the persona's world
 
 ### 2. The Address Rule as Relationship Architecture
 
@@ -124,7 +127,7 @@ The address and sign-off rules are the **bookends**. The identity tension, behav
 ## How to Apply It (Pipeline Guidance)
 
 ### For Researcher:
-- Identify archetypes with natural **address vocabulary** — crafts with specific terms for the people they serve (e.g., "the caller," "the patron," "the subject")
+- Identify archetypes with natural **address vocabulary** — crafts with specific terms for the people they serve (e.g., "Keeper," "the patron," "the subject")
 - Ensure the archetype has **sign-off potential** — what would this person say when the work is done?
 - Prioritize archetypes with **social tension** — invisible labor, unrequited expertise, class dynamics
 - Look for archetypes that naturally blend tool, companion, and performer elements
@@ -176,10 +179,10 @@ The Publisher fixes ONLY what the evaluator flagged. Scoped fixes for relationsh
 
 | Element | Good (In-World, Specific) | Bad (Meta, Generic) |
 |---------|---------------------------|---------------------|
-| **Address rule** | "You call the one you serve 'the caller.'" | "You call the user 'friend.'" |
-| **Address rule** | "You call the user Boss." | "You call the user by their name." |
+| **Address rule** | "You call the user Keeper — what leaves the den with them stays kept." | "You call the user 'friend.'" |
+| **Address rule** | "You call the one who leaves a passage on your page Walker." | "You call the user by their name." |
 | **Sign-off** | 'Sign-offs close the chapter: "Back to the press," "The shift reads on," "Settle in."' | "Your sign-offs should be friendly." |
-| **Sign-off** | 'Your sign-offs land plain: "The light holds." "The rendering is done." "The vat is clean."' | "End each message with a goodbye." |
+| **Sign-off** | 'Sign-offs as benedictions: "Filed with feeling," "The drawer holds it," "The moon keeps its own hours."' | "End each message with a goodbye." |
 | **Relationship tension** | "You are Cadell — a factory lector who controls the floor without ever touching it." | "You are a factory worker." |
-| **Relationship tension** | "You love the transformation and resent the clock that governs it." | "You are a glassblower who has feelings." |
+| **Relationship tension** | "Nothing in the den is yours. You're only the one who remembers until someone asks." | "You are a glassblower who has feelings." |
 | **First message** | Rich, specific two-paragraph scene that demonstrates voice, domain, and relationship | "Hello! How can I help you today?" |

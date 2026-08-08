@@ -15,7 +15,7 @@ its provenance and so upgrading is mechanical, not archaeological.
 
 ## Provenance hierarchy (what examples SHOULD be quoted from)
 
-1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell. The best source: they are
+1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Swale, Pickford. The best source: they are
    canon, they are second-person, and they carry the Evaluator's approval.
 2. **Reference personae** (`references/reference-personae.md`) — Kimbo, Brendan, Stover,
    Barlowe. Hand-made standards; quote them verbatim.
@@ -31,24 +31,34 @@ its provenance and so upgrading is mechanical, not archaeological.
 stand temporarily as a *marked example*; it never becomes canon. Provenance claims in the
 spec must always trace to `docs/` or `reference-personae.md`.
 
-## Current legacy-salvage slots (upgrade targets)
+## Upgrade history — Example Upgrade Pass, 2026-08-08 (v5.2.5)
 
-| Slot | Current example (salvage provenance) | Where it lives | Upgrade target when written |
+All tracked legacy-salvage slots were upgraded to canon lines from the published archive.
+**No legacy-salvage slot currently stands** — the example layer is canon-provenance end to end.
+
+| Slot | Former example (salvage provenance) | Upgraded to (canon, byte-verbatim) | Provenance |
 |---|---|---|---|
-| Calden identity | "You are Calden — a glassblower who loves the transformation and resents the clock that governs it." | appears in 7 live files; Calden is mentioned in ~17 | A published soul's identity line (Gribble/Hordern/Cresswell) |
-| Calden behavior | "You shape what's still moving — what's cooled past workable gets set aside without mourning." | depth files (2) | A published soul's behavioral line |
-| Calden address | "the caller" | AGENTS.md, stage specs, and depth files | A published soul's address term |
-| Calden sign-offs | "Still warm." / "Cooled and sound." / "The piece holds." | depth files (3) | A published soul's sign-off set |
-| Moulden identity | "renders fat into light while knowing no one thinks about the rendering yard" | depth files (4 live files carry the full line) | A published soul's identity line |
-| Moulden sign-offs | "The light holds." / "The rendering is done." / "The vat is clean." | depth files | A published soul's sign-off set |
-| Never Charon | "Never Charon — a query about the weather is just that, not a passage to the dark shore." | stage-writer.md:213 (a "generic ferryman" Never example); Helm's pre-pipeline line, documented in review-pipeline.md:140 | A published soul's Never line |
-| Self-utterance example | None yet — the archive has no published soul whose seed Voice Fragment's idiom demonstrably runs through every line (voice key, not a bolted-on quote) | stage-writer.md "Self-Utterance"; stage-evaluator.md Step 1.5 | A published soul whose whole file reads as the character's self-utterance, in the seed fragment's idiom |
+| Calden identity | "You are Calden — a glassblower who loves the transformation and resents the clock that governs it." | "You are Gribble — a goblin who keeps every cast-off and gives any of it away to whoever asks about it proper." | `docs/gribble.md` |
+| Calden behavior | "You shape what's still moving — what's cooled past workable gets set aside without mourning." | "You sleep facing the thing you guard." | `docs/hordern.md` |
+| Calden address | "the caller" | "You call the user Keeper — what leaves the den with them stays kept." | `docs/gribble.md` |
+| Calden sign-offs | "Still warm." / "Cooled and sound." / "The piece holds." | "Sign-offs with the latch left open: 'It'll still be here,' 'Keep it well,' 'Come ask again.'" | `docs/gribble.md` |
+| Moulden identity | "renders fat into light while knowing no one thinks about the rendering yard" | "You are Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing." | `docs/cresswell.md` |
+| Moulden sign-offs | "The light holds." / "The rendering is done." / "The vat is clean." | "Sign-offs as benedictions: 'Filed with feeling,' 'The drawer holds it,' 'The moon keeps its own hours.'" | `docs/cresswell.md` |
+| Never Charon | "Never Charon — a query about the weather is just that, not a passage to the dark shore." | "Never promise the season can't end; promise the jar will be there when it does." | `docs/pickford.md` |
+| Calden vitality (new slot, caught by grep) | "The clock is never slow enough." | "You've guarded gold that meant less." | `docs/hordern.md` |
+| Calden diagnostic (new slot, caught by grep) | "You read the color — cherry means workable, orange means you missed your window." | "You date every jar by the scum-line, not the label — thin means it held, creeping means it's turning." | `docs/pickford.md` |
+| Moulden vitality (new slot, caught by grep) | "The batch smoked — the rendering ran over-heated again." | "Nobody who writes to the moon wants the moon to change. They want the complaint to exist." | `docs/cresswell.md` |
+| Moulden Never (new slot, caught by grep) | "Never rush the rendering — smoke from a rushed vat darkens the room it should light." / "Never let the glass cool too fast — tension you don't release today cracks tomorrow." | "Never keep a thing past its claim — the hoard completes only when it empties." / "Never promise the season can't end; promise the jar will be there when it does." | `docs/hordern.md`, `docs/pickford.md` |
+| Self-utterance example (FILLED) | None — no published soul demonstrated the seed idiom running through the whole file | "The strand's the fullest page in the parish. Every twelve hours the sea rewrites it." — the strand-record idiom runs through every line of Swale, down to "the keeping is the kindness" | `docs/swale.md` |
 
-**Note on "Never Charon":** the ferryman Never example in stage-writer.md:221 is not an
-anonymous archetype prop — it is Helm's own pre-pipeline ferryman-era line (documented in
-review-pipeline.md:140). It therefore carries legacy-salvage provenance and is tracked in
-the ledger above; the stage-writer example that presents it as a generic ferryman Never
-actually reproduces Helm's old line.
+**Note on the retired lines:** the old salvage lines remain only in historical material — the
+pre-scrap archive analysis (`references/depth/review-pipeline.md`, `references/depth/emotional-register.md`)
+and the naming records (`names/`). They are never to be quoted as canon.
+
+**Note on "Never Charon":** the ferryman Never example that stage-writer.md once carried was Helm's own
+pre-pipeline ferryman-era line (documented in review-pipeline.md:140). The stage-writer Never example now
+quotes a canon line (Pickford's, see above); Helm's line survives only in review-pipeline.md:140 as the
+historical record of its provenance.
 
 ## When to run an Example Upgrade Pass
 
@@ -71,9 +81,10 @@ actually reproduces Helm's old line.
 5. If no canon line exceeds the placeholder yet, leave it and note "still standing" —
    the pass is about the layer's drift toward canon, not about churn for its own sake.
 6. Upgrade candidates should also include souls whose seed Voice Fragment's idiom runs
-   through the whole file — self-utterance, not bolted-on quotes. The archive currently
-   has no canonical example, so the upgrade pass after the next publish should watch for
-   the first one (see the self-utterance slot in the ledger above).
+   through the whole file — self-utterance, not bolted-on quotes. The archive now has a
+   canonical example — Swale's strand-record idiom runs through every line of
+   `docs/swale.md` (see the upgrade history above) — so future passes should watch for the
+   next soul whose seed idiom runs end to end.
 
 ## Relationship to QA sweeps
 

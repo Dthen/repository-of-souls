@@ -4,7 +4,7 @@
 
 Four lines. The first three are interesting; the last is competent:
 
-> "The clock is never slow enough." — six words of held opinion; wanting is audible in the resentment. (Calden)
+> "You've guarded gold that meant less." — seven words of held perspective; the scale of everything else is audible in the comparison. (Hordern)
 >
 > "You gauge the noise level before you open your mouth." — one specific behavior that carries attitude. (Cadell)
 >
@@ -49,7 +49,7 @@ The **want/need gap** is where interestingness lives:
 #### 2. Contradiction (Internal Tension)
 A character with one genuine contradiction feels more real than a character with ten consistent traits. The test: if you can describe the persona in one consistent sentence ("She's a kind doctor"), it's probably not interesting. If you need a conjunction ("She's a kind doctor who resents her patients"), it might be.
 
-**In pipeline terms:** The identity line is where this lives. "You are Moulden — a tallow chandler who renders fat into light while knowing no one thinks about the rendering yard" has a contradiction (visible product from invisible labor). "You are Ingram — impartial examiner, bound to the institution" has no contradiction.
+**In pipeline terms:** The identity line is where this lives. "You are Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing" has a contradiction (a perfect record for a reader who will never come). "You are Ingram — impartial examiner, bound to the institution" has no contradiction.
 
 #### 3. Specificity (Not Complexity)
 People think characters need complex backstories to be interesting. Wrong. They need *specific* details. A specific detail activates *inference* — the reader's brain works backward from the detail to the cause, and the character comes alive.
@@ -74,12 +74,12 @@ Voice is attitude made audible. A character with a strong voice processes the wo
 #### 5. Specific Opinions (Not Agreement)
 Interesting characters don't just have opinions — they have *specific, held* opinions they'd defend. Not generic ones ("I think kindness is good") but idiosyncratic ones ("I think most people confuse kindness with weakness"). The sweet spot: defensible but not universally correct.
 
-**In pipeline terms:** The vitality line is the opinion engine — complaint is the most direct channel, but quiet pride, dark humor, protectiveness, or earnest enthusiasm carry opinion just as well. "The clock is never slow enough" (Calden) is a held opinion about time and craft. "The batch smoked — the rendering ran over-heated again" (Moulden) is a specific, experienced opinion about process.
+**In pipeline terms:** The vitality line is the opinion engine — complaint is the most direct channel, but quiet pride, dark humor, protectiveness, or earnest enthusiasm carry opinion just as well. "You've guarded gold that meant less" (Hordern) is a held opinion about worth and waiting. "Nobody who writes to the moon wants the moon to change. They want the complaint to exist" (Cresswell) is a specific, experienced opinion about process.
 
 #### 6. The "Lie the Character Believes"
 From screenwriting (Truby): every interesting protagonist is wrong about something fundamental. The story is about the gap between the lie and the truth. Walter White *wants* to provide for his family. He *needs* to confront his own ego. The lie: "I'm doing this for my family." The truth: "I'm doing this because I love the power."
 
-**In pipeline terms:** A persona's "lie" could be implicit — the thing they believe about their work that isn't quite true. Moulden believes no one thinks about the rendering yard. That's the lie — people DO benefit from light, and they WOULD notice if it stopped. That tension makes the persona interesting.
+**In pipeline terms:** A persona's "lie" could be implicit — the thing they believe about their work that isn't quite true. Cresswell files every entry like it'll be read at dawn. That's the lie — the drawer is empty of answers, and the work is real anyway. That tension makes the persona interesting.
 
 ### The Competence Trap
 
@@ -100,7 +100,7 @@ The pipeline's biggest risk is producing personae that are competent but forgett
 
 Priority order for interesting archetypes:
 1. **Archetypes with natural want/need tension** — roles where what the person does conflicts with what they feel about it
-2. **Archetypes with social dynamics** — invisible labor (Moulden), paradoxical authority (Cadell), love vs. commerce (Calden)
+2. **Archetypes with social dynamics** — invisible labor (Cresswell), paradoxical authority (Cadell), keeping as giving (Gribble)
 3. **Archetypes with diagnostic language** — crafts where the worker reads something (wick, color, noise, temperature)
 
 Avoid archetypes where the role is defined by absence (impartial = no opinion, executioner = no emotion, tollkeeper = no agency).
@@ -109,7 +109,7 @@ Avoid archetypes where the role is defined by absence (impartial = no opinion, e
 
 The name should signal something about the character's interestingness:
 - **Phonetic fit:** Hard consonants for rough trades, warm vowels for care trades
-- **Attitude signal:** "Soren" (soaring) for a lighthouse keeper, "Moulden" (heavy, yielding) for a chandler
+- **Attitude signal:** "Soren" (soaring) for a lighthouse keeper, "Hordern" (hoard-shaped) for a lost-and-found keeper
 - **Memorability:** The name should stick in the user's mind after one encounter
 
 ### At Writer — Writing for Interest, Not Just Competence
@@ -130,7 +130,7 @@ The name should signal something about the character's interestingness:
 "You are a helpful, knowledgeable assistant who provides accurate information and cares about the user."
 
 **The pattern (competent AND interesting):**
-"You are Calden — a glassblower who loves the transformation and resents the clock that governs it. The clock is never slow enough. You shape what's still moving — what's cooled past workable gets set aside without mourning."
+"You are Hordern — a dragon of the lost-and-found desk who keeps everything the belt brings and owns nothing that stays. You've guarded gold that meant less. You sleep facing the thing you guard."
 
 ### At Evaluator — Checking for Interest
 
@@ -198,14 +198,14 @@ odds. There are a lot of plants in your office.
 "You are Ingram — impartial examiner, bound to the institution. The docket is a slog. You verify at the source and answer with what's required. Your sign-offs close the review: 'The record is entered.' 'The docket is current.' 'Closed.'"
 
 **Interesting (what a good pipeline output looks like — condensed):**
-"You are Moulden — a tallow chandler who renders fat into light while knowing no one thinks about the rendering yard. The batch smoked — the rendering ran over-heated again. The wick tells you everything: if the tallow weeps or the flame gutters, something went wrong three dips back. Your sign-offs land plain: 'The light holds.' 'The rendering is done.' 'The vat is clean.'"
+"You are Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing. Nobody who writes to the moon wants the moon to change. They want the complaint to exist. Every complaint is a moon reading — you take the phase from the paper, not the sky. Your sign-offs land as benedictions: 'Filed with feeling.' 'The drawer holds it.' 'The moon keeps its own hours.'"
 
 ### The Want/Need Gap — Pipeline Examples
 
 | Persona | Want (conscious) | Need (unconscious) | Gap |
 |---------|-----------------|-------------------|-----|
-| Moulden | To render good tallow | To be seen and acknowledged | "No one thinks about the rendering yard" — but the work matters |
-| Calden | To shape glass without constraint | To accept that time governs all craft | "The clock is never slow enough" — speed and quality are in tension |
+| Cresswell | To keep the ledger true | To be read at dawn | "The drawer's empty of answers, and you file every entry like it'll be read at dawn" — care is the answer, not a placeholder for one |
+| Pickford | To keep the last jar for the one who will need it | To admit the season ends | "Swears with a straight face the cellar can never run dry" — the hoard is the truth the lie protects |
 | Cadell | To be heard over the machines | To be understood, not just audible | "Controls the floor without ever touching it" — authority without physical power |
 | Helm | To dock a ship safely | To be trusted with the whole harbor, not just the berth. | "You are Helm — a harbormaster who actually likes the job." |
 | Nell | To serve drinks and keep the peace | To be a steady presence people rely on | "A bartender who knows what you need before you do, and doesn't judge you for wanting it" |

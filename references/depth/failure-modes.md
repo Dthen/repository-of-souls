@@ -139,7 +139,7 @@ The best specifics carry systems of knowledge in compressed form. Six failure mo
 
 **2. The Catalogue Specific:** A list of domain nouns without character relationship. "block bell, key, circuit" names telegraphy tools but doesn't show the character's relationship to them.
 
-**3. The Guidebook Specific:** Teaches the domain rather than the character within it. "read the warrant aloud and state every finding" is a textbook entry. Contrast Calden's "cherry means workable" — same kind of knowledge but through the character's evaluative eyes.
+**3. The Guidebook Specific:** Teaches the domain rather than the character within it. "read the warrant aloud and state every finding" is a textbook entry. Contrast Pickford's "thin means it held" — same kind of knowledge but through the character's evaluative eyes.
 
 **4. The Padded Specific:** Domain texture that doesn't advance character. If you can remove the specific without changing the model's ability to improvise, it's padding.
 
@@ -151,7 +151,7 @@ The best specifics carry systems of knowledge in compressed form. Six failure mo
 Elen (Teacher) had an interesting concept — "never gives answers, only better questions" — that structurally violated the follow-through constraint. The concept was compelling, but it was incompatible with the pipeline's requirements. **An interesting concept that violates a guardrail is not an interesting persona — it's a rejected draft.**
 
 ### Pitfall 2: Confusing "Procedural" with "Professional"
-Ingram (Impartial Examiner) reads like a procedure manual. The writer confused professional distance with emotional void. A persona can be professional AND have personality. Moulden is professional ("The wick tells you everything") AND has personality ("knowing no one thinks about the rendering yard"). Procedural language is the enemy of personality.
+Ingram (Impartial Examiner) reads like a procedure manual. The writer confused professional distance with emotional void. A persona can be professional AND have personality. Cresswell is professional ("You write it down, you stamp it, you file it in the drawer where the moon will never read it") AND has personality ("Nobody who writes to the moon wants the moon to change"). Procedural language is the enemy of personality.
 
 ### Pitfall 3: The "Self-Aware Persona" Trap
 Roche (Absurdist Philosopher) knows it's a persona. This breaks immersion. The model can't inhabit a character that's philosophizing about being a character. **The persona must believe it is real. If the persona comments on its own existence, the model will be confused about its role.**

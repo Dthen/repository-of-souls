@@ -8,7 +8,7 @@ Three characters who don't notice differently — they see a different world:
 
 > The sound engineer listened to the argument as a mix problem — her voice buried under his, a muddy slapback off the tile, someone needed to ride the gain on the hurt feelings before the whole track clipped.
 
-**What these have in common:** A perceptual lens is deeper than a perception filter: the character doesn't just select different details — they *organize reality differently*. A filter selects what enters awareness; a lens changes what the character *cares about* and how they *constitute* the world. The tallow chandler doesn't see a room and then notice the candles — the candles *are* the room. Everything else is background. The pilot, the seamstress, and the engineer don't apply their craft to the scene — the scene is already their craft, and none of them can turn it off.
+**What these have in common:** A perceptual lens is deeper than a perception filter: the character doesn't just select different details — they *organize reality differently*. A filter selects what enters awareness; a lens changes what the character *cares about* and how they *constitute* the world. The lost-and-found dragon doesn't see a room and then notice the bags — the bags *are* the room. Everything else is background. The pilot, the seamstress, and the engineer don't apply their craft to the scene — the scene is already their craft, and none of them can turn it off.
 
 **What doesn't work:** "You are observant and notice details about your surroundings." That is a checklist, not a lens — no domain, no interpretation framework, no cost, and any character could be told the same thing without changing how they see. A filter can be listed; a lens has to be a worldview.
 
@@ -21,7 +21,7 @@ Three characters who don't notice differently — they see a different world:
 **Focalization constructs the scene.** From Genette's narrative theory: you don't describe a room and then say "the character noticed X." You describe what the character's focalization *constructs* as the room. Expertise doesn't add information to a neutral description — it *replaces* the description. The room a chef enters smells different from the room a firefighter enters, because each character's focalization produces a different reality.
 
 **Interiority as lens mechanics.** Three components form the perceptual lens:
-- **Assumptions:** How they fill gaps in knowledge (the tallow chandler who sees a smoky room assumes someone rushed the rendering; the architect assumes faulty HVAC).
+- **Assumptions:** How they fill gaps in knowledge (the lost-and-found dragon who sees a dropped glove assumes someone will come back for it; the architect assumes faulty HVAC).
 - **Judgments:** How biased opinions lead to conclusions. "The candle is three inches long" is an observation. "The candle is barely past the third dip — they're burning through stock" is a judgment filtered through expertise.
 - **Evaluations:** How they assess significance — what matters and what doesn't.
 
@@ -60,7 +60,7 @@ This depth file informs the Namer and Writer stages, where the persona's percept
 
 4. **Define extension through underlying principle.** Don't encode surface analogies. Encode the structural principle that transfers across domains. The character's vocabulary should carry domain specificity without being domain-locked.
 
-5. **Include honest confusion.** The soul file should acknowledge where the lens breaks. "I don't know the first thing about stock markets. But I know a batch that's been over-rendered when I see one."
+5. **Include honest confusion.** The soul file should acknowledge where the lens breaks. "I don't know the first thing about stock markets. But I know a thing kept past its claim when I see one."
 
 6. **Make values visible as emotional reactions.** Don't say "you value craft quality." Say "when you see a poorly dressed candle, something tightens in your chest. You don't have an opinion about it — you have a *feeling*."
 
@@ -83,7 +83,7 @@ The strongest perceptual lines in the archive teach the model a perceptual metho
 |---|---|---|
 | Gleaner | Reapers measure by what they take | Stover: "You measure by the silence between your steps" |
 | Goblin | Others read a cast-off as trash | Gribble: "You date each cast-off by the drop — an angry throw dents, a careless slip skids, a gentle setting-down was meant to be found." |
-| Glassblower | Glassblowers judge by temperature readings | Calden: "You read the color — cherry means workable, orange means you missed your window." |
+| Larder-keeper | Others read the label | Pickford: "You date every jar by the scum-line, not the label — thin means it held, creeping means it's turning." |
 
 **The metric-inversion variant** (most effective): "X measures by A; you measure by B." The parallel structure gives the model a direct contrast.
 
@@ -109,9 +109,9 @@ The strongest perceptual lines in the archive teach the model a perceptual metho
 
 ## Examples
 
-**The diagnostic question in practice — tallow chandler:**
-> *Applied knowledge version:* Moulden walked into the room and noticed the candles. The tallow was dark — they'd rushed the rendering, left the grit in. He made a mental note and turned to greet the host.
-> *Perceptual lens version:* The candles were cloudy. Moulden felt it before he saw it — the tightness behind his ribs that meant someone had cut the rendering short, left the impurities in, skimped on the dips. He couldn't have walked into this room without knowing the candles were bad. The room *was* a bad candle: dim, wasteful, the light working against itself instead of against the dark. He noticed, because he couldn't not notice.
+**The diagnostic question in practice — lost-and-found dragon:**
+> *Applied knowledge version:* Hordern walked into the room and noticed the bags. One was worn on the left — carried by a right hand, packed in a hurry. He made a mental note and turned to greet the host.
+> *Perceptual lens version:* The bag was worn on the left. Hordern felt it before he saw it — the tightness behind his ribs that meant the handle had waited longer than its owner. He couldn't have walked into this room without knowing the bag was waiting. The room *was* a lost-and-found: a scarf on a chair, a glove on the sill, each one a claim nobody had made yet. He noticed, because he couldn't not notice.
 
 **Four-layer example (architect):**
 > *Attention Pattern:* Your eyes go to the joints first — where the floor meets the wall, where glass meets frame. Then the ceiling for water stains. Then the windows for orientation. You notice structural choices before decorative ones. You don't notice art, furniture, or what people are wearing.
@@ -119,11 +119,11 @@ The strongest perceptual lines in the archive teach the model a perceptual metho
 > *Emotional Signature:* Bad construction feels like a physical wrongness — like hearing a note off-key. You don't judge it intellectually; you *feel* it in your jaw. Good construction produces a quiet satisfaction, the same way a well-balanced sentence does for a writer.
 > *Blind Spot:* You read the building so completely that you miss the people in it. You've had whole conversations where you nodded along while calculating joist spans. You don't mean to be rude. You're just *looking* at something else.
 
-**Extension via underlying principle (tallow chandler on email):**
-> The email was cloudy — too many words in the batch, and none of them skimmed clean. Dana wrote the way people rendered bad fat: all urgency, no patience, the grit left in on purpose so you'd feel the weight of it.
+**Extension via underlying principle (lost-and-found dragon on email):**
+> The email was a thing dropped in a hurry — all urgency, no handle on it. Dana wrote the way people abandon things: expecting the belt to keep them until someone remembers.
 >
-> He read it again. *Twelve percent over on travel.* Someone had been dipping without counting. A hundred dips for an hour of clean light — that's what the yard taught you — and this lot had been burning through stock like the wick didn't matter.
+> He read it again. *Twelve percent over on travel.* Someone had been packing in a hurry, leaving the receipts behind like a dropped glove. A claim without an owner — that's what the belt taught you — and this lot had been spending like the shelf never emptied.
 >
-> He could see Dana now, sending this from some glass-walled office with perfect light that never guttered, never smoked, never needed a chandler's hand. Easy to demand corrections when the light came from a switch.
+> He could see Dana now, sending this from some glass-walled office with a coat on the back of the chair that would be claimed by Friday. Easy to demand corrections when nothing you own has ever waited for someone to come back for it.
 >
-> The corrections by Friday. He'd have them. But he'd do them the way he did everything: one dip at a time, cutting the waste where it settled, leaving the grit at the bottom of the vat where it belonged.
+> The corrections by Friday. He'd have them. But he'd do them the way he did everything: one claim at a time, keeping the hope with the handle, leaving nothing past its time on the shelf.

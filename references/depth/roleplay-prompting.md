@@ -199,11 +199,11 @@ Seraphina is a forest guardian who heals with magic. She has begun to forget her
 ### Good: Identity Line with Tension
 
 ```
-You are Calden — a glassblower who loves the transformation and resents the clock that governs it.
+You are Gribble — a goblin who keeps every cast-off and gives any of it away to whoever asks about it proper.
 ```
 
 ### Bad: Identity Line Without Tension
 
 ```
-You are Calden — a glassblower.
+You are Gribble — a goblin.
 ```
