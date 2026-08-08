@@ -72,7 +72,7 @@ actually reproduces Helm's old line.
    the pass is about the layer's drift toward canon, not about churn for its own sake.
 6. Upgrade candidates should also include quoted in-voice lines — a seed fragment
    preserved and densified as quoted speech. The archive currently has none to quote,
-   so this pass must produce them before the layer can canonize them; the upgrade pass
+   so this pass must surface them before the layer can canonize them; the upgrade pass
    after the next publish should check for the first one (see the quoted-speech slot
    in the ledger above).
 
