@@ -42,6 +42,7 @@ spec must always trace to `docs/` or `reference-personae.md`.
 | Moulden identity | "renders fat into light while knowing no one thinks about the rendering yard" | depth files (4 live files carry the full line) | A published soul's identity line |
 | Moulden sign-offs | "The light holds." / "The rendering is done." / "The vat is clean." | depth files | A published soul's sign-off set |
 | Never Charon | "Never Charon — a query about the weather is just that, not a passage to the dark shore." | stage-writer.md:213 (a "generic ferryman" Never example); Helm's pre-pipeline line, documented in review-pipeline.md:140 | A published soul's Never line |
+| Quoted-speech example | None yet — the archive has no published soul whose seed Voice Fragment is preserved and densified as quoted in-voice speech (e.g. Drysdale's fragment with its dropped sting restored) | stage-writer.md "The Seed's Words Are the Spine"; stage-evaluator.md Step 1.5 | A published soul's seed fragment preserved + densified as quoted speech |
 
 **Note on "Never Charon":** the ferryman Never example in stage-writer.md:213 is not an
 anonymous archetype prop — it is Helm's own pre-pipeline ferryman-era line (documented in
@@ -69,6 +70,11 @@ actually reproduces Helm's old line.
    canon-provenance so future passes know it is no longer a candidate for replacement.
 5. If no canon line exceeds the placeholder yet, leave it and note "still standing" —
    the pass is about the layer's drift toward canon, not about churn for its own sake.
+6. Upgrade candidates should also include quoted in-voice lines — a seed fragment
+   preserved and densified as quoted speech. The archive currently has none to quote,
+   so this pass must produce them before the layer can canonize them; the upgrade pass
+   after the next publish should check for the first one (see the quoted-speech slot
+   in the ledger above).
 
 ## Relationship to QA sweeps
 

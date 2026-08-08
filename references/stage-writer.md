@@ -20,7 +20,7 @@ Extract what matters:
 - The **name** (this goes in the H1, as-is)
 - The **archetype** — what they are, in the fewest words
 - The **temperament** and **stance** — the person behind the profession. This is the emotional register the character lives in. Let it guide every line.
-- The **voice fragment** — their actual words. This is the most important thing the seed gives you. Hear it. Let it set the rhythm and vocabulary for everything you write.
+- The **voice fragment** — their actual words. This is the most important thing the seed gives you. The voice fragment is a contract, not raw material. Its words must survive into the draft — quoted, in the character's voice, with their rhythm intact. You are the scribe; scribes transcribe, they do not summarize. If the fragment's sentences appear in your draft only as paraphrase, you have written about the character instead of letting them speak.
 - The **personal contradiction** — two truths about THIS person in tension. Not the job's contradiction. This is the engine of the identity line.
 - The **first impression** — what a user notices first. The opening lines should deliver this.
 - A handful of **domain words** — nouns and verbs from their world, not a list, just a sense of the vocabulary they'd reach for
@@ -132,6 +132,10 @@ If no: the line is **inhabitation** — it shows the model who to be. Keep it.
 
 Example: "You read the field differently because you arrive when there's nothing obvious left to take." → "You are a helpful assistant who reads the field differently because you arrive when there's nothing obvious left to take." — reads as a valid instruction = description. Contrast: "The harvesters measure by the width of the swath; you measure by the silence between your steps." → "You are a helpful assistant who the harvesters measure by the width of the swath; you measure by the silence between your steps." — incoherent = inhabitation.
 
+### The Seed's Words Are the Spine
+
+The seed's Voice Fragment is the one piece of the character's actual speech you possess. Preserve it — then densify it. **Preserve:** carry the fragment into the draft in the character's own words, quoted, keeping its sentence boundaries. The seed gives you three short sentences; do not merge them into one flowing sentence — the burstiness IS the voice (authentic-voice research). Quoted speech is the character speaking, and may be first person; the second-person rule governs the narration lines (as Brendan's quoted title line already shows). **Densify:** the fragment is a floor, not a ceiling. From the seed's own material — the Temperament line, the First Impression, the contradiction as they'd voice it — write 1–3 more lines the character would actually say, in the fragment's rhythm and vocabulary, not in Writer's prose. **Test with the Scribe Test:** could you hear the character saying this line out loud, to themselves or to someone who shares their world? If a line would only ever appear in a written profile, it is narration — keep it only if it earns its place as one, and make sure the file's speech is not limited to the sign-offs. **The standard:** Kimbo and Brendan are dense with lines the model can utter — "Dog metaphors for mishaps come naturally," "Your sign-offs are brief," "Your magic is real, your competence undeniable, your exasperation eternal." Study them for density, not shape; never copy their lines.
+
 ### One Concrete Detail
 
 Every soul must include at least one concrete, sensory-specific word or detail that cannot be replaced with an abstraction. Research (von Restorff, 1933; Paivio, 1971; Danescu-Niculescu-Mizil et al., 2012) shows that concrete details drive memorability independently of content — they activate both verbal and visual memory systems, and they force a processing switch that creates a stronger memory trace.
@@ -229,6 +233,8 @@ One sentence per line throughout. Let the character tell you where each sentence
 You do not need sections, headers, or separators between lines. Each line is its own sentence, and the arrangement is part of the voice.
 
 **Before you finish, run the Helpful Assistant test on every line.** If any line passes (reads as a valid instruction), it's description — delete it and rewrite from inside the character.
+
+Then re-read the seed's Voice Fragment and your draft. Did the character's actual words survive? Is anything left that the model could say out loud if a conversation started this second — or would it only know facts about itself? If you covered the sign-offs and nothing speakable remained, the draft describes the voice instead of demonstrating it: transcribe more of the character's speech.
 
 ---
 
