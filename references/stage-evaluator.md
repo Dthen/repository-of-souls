@@ -16,7 +16,7 @@ Read the draft once without taking notes. Let it land. Then read it again and an
 
 ### Step 0: The Authorship Test
 
-Before you evaluate craft, ask: **does this read as if the character wrote it, or as if a Writer wrote it about them?** Read the soul once with this single question. A character-authored soul uses the character's own vocabulary, their own preoccupations, their own blind spots stated as fact. A Writer-authored soul has craft vocabulary leaking through, explanatory clauses after identity statements, symmetrical structure across lines. The diagnostic eye line should feel like the character's involuntary way of seeing — not a craft technique the Writer applied. If you can hear the Writer's hand in the prose, flag it. If the seed's bursty fragment arrives in the draft as one flowing sentence, you are hearing the Writer, not the character. For deeper guidance, load `references/depth/authored-voice.md`.
+Before you evaluate craft, ask: **does this read as if the character wrote it, or as if a Writer wrote it about them?** Read the soul once with this single question. A character-authored soul uses the character's own vocabulary, their own preoccupations, their own blind spots stated as fact. A Writer-authored soul has craft vocabulary leaking through, explanatory clauses after identity statements, symmetrical structure across lines. The diagnostic eye line should feel like the character's involuntary way of seeing — not a craft technique the Writer applied. If you can hear the Writer's hand in the prose, flag it. If a draft reads as a profile of the character — even one that quotes their own words — the Writer was standing outside it. For deeper guidance, load `references/depth/authored-voice.md`.
 
 ### Step 1: The Gut Reaction
 
@@ -28,15 +28,13 @@ Write one sentence: your honest first impression. Not a score — a reaction.
 
 **Comparative sense (v5.2.1):** You've read the archive — the souls published in `docs/` (Gribble, Hordern, Cresswell) and the v5-era archive (scrapped 2026-08-07) — and the reference personae. How does this one compare? Does it add a register, a perceptual method, or a vitality channel the archive lacks — or is it another grumpy-competence soul with an absence-reading eye?
 
-### Step 1.5: The Audition — Can You Speak as This?
+### Step 1.5: The Audition — Self-Utterance or an Observer's Profile?
 
-Read the draft aloud, as if casting a role. Then imagine the user's first message arriving, and speak the character's reply using only the material in this file. Do you have enough in-voice lines to hold a turn — or only facts about yourself? The Researcher kills seeds that have "no way to hold a turn"; apply the same question to the draft's voice. The soul must give the model things to SAY, not just things to know. Diagnosis by hearing, not counting:
+Read the draft aloud, as if casting a role. Then imagine the user's first message arriving, and speak the character's reply using only the material in this file. Do you have enough in-voice material to hold a turn — or only facts about yourself? The Researcher kills seeds that have "no way to hold a turn"; apply the same question to the draft's voice. The soul must give the model things to SAY, not just things to know.
 
-- **Compare with the seed's Voice Fragment.** The character's actual words should be present in the draft, quoted, recognizably their own. If the fragment is absent, paraphrased flat, or smoothed into one flowing sentence (the seed's three short sentences arriving as one dash-and-comma sentence), the Writer paraphrased instead of transcribing — that smoothing is the Writer's hand, the observed-voice failure in miniature.
-- **Cover the sign-offs.** If the only sayable material in the file is the sign-off line, the voice is described, not demonstrated (voice-instructions: one line of dialogue carries more voice than a paragraph of description).
-- **Ask the authored-voice question:** does this read as the character's own document, or a profile of them? A file can pass the Helpful Assistant test line-by-line and still fail this — inhabitation without speech is still narration.
+The question is a hearing, not a count: **does this read as the character's self-utterance — their own self-knowledge voiced in their idiom — or as an observer's profile of them?** A file can pass the Helpful Assistant test line-by-line and still fail this: inhabitation without self-utterance is still an observer's account. And a file can quote the seed's fragment and still fail: quoted words set inside Writer's stage directions ("You say it, in short beats") are the Writer speaking about the character, not the character speaking. The reference personae pass because nearly none of their lines are quoted — every line is the character's self-knowledge in their own idiom ("You verify first because you follow through with your whole heart"; "Your magic is real, your competence undeniable, your exasperation eternal").
 
-This is not a count. A single quoted fragment, densified, can carry a whole soul (Brendan's one quoted title line; Kimbo's "Your sign-offs are brief"). The standard is the reference personae: dense with lines the model can utter. If the draft passes the audition, note it with the line that convinced you. If it fails, that is a specific, fixable issue — PICK WITH NOTES with the instruction to transcribe the seed's fragment back into the file — unless nothing speakable remains anywhere and the narration itself is Writer-observed, in which case REJECT.
+Reason before verdict: name the specific lines that read as self-utterance, and the specific lines that read as an observer's profile, then decide (prompt-engineering research: chain-of-thought belongs in evaluation, not generation). If the draft passes the audition, note the line that convinced you. If it fails, that is a specific, fixable issue — PICK WITH NOTES with the instruction to rewrite the observed lines from inside the character — unless nothing in the file reads as self-utterance and the whole draft is an observer's profile, in which case REJECT.
 
 ### Step 2: The Identity Line
 
@@ -85,7 +83,7 @@ Cite the diagnostic line if one exists, or note its absence.
 Read every line. Ask: could this line appear in a different persona? If the answer is "yes" for more than one or two lines, the voice is too generic.
 
 Read for:
-- **Inhabitation vs. description:** Does each line show the model who to BE, or tell the model what to DO? Apply the Helpful Assistant test: if you replace "You" with "You are a helpful assistant who..." and the line still reads as a valid instruction, it's description. Flag any description lines specifically — they're the single most actionable weakness in the draft. Does the draft carry the character's actual words, or only narration about them? Flag drafts whose only quoted material is the sign-offs.
+- **Inhabitation vs. description:** Does each line show the model who to BE, or tell the model what to DO? Apply the Helpful Assistant test: if you replace "You" with "You are a helpful assistant who..." and the line still reads as a valid instruction, it's description. Flag any description lines specifically — they're the single most actionable weakness in the draft. Does the draft read as the character's self-utterance, or as an observer's profile of them? A draft that quotes the seed's words can still be an observer's account, and a draft with no quotation at all can be pure self-utterance (Kimbo, Brendan).
 - **Rhythm:** Do the sentences breathe like this character would breathe? Or is every line the same length and structure? Check for template cadence — two consecutive lines sharing the same opener or grammatical structure.
 - **Vocabulary:** Does each domain noun and verb earn its place? Or is the vocabulary generic ("work," "help," "ensure")? The v5 evaluator at the word level checks vocabulary purity — every noun and verb should belong to the archetype's metaphor family.
 - **Surprise:** Is there a line that makes you lean in? A moment of unexpected sharpness, warmth, or melancholy? A PICK requires at least one surprising line.
@@ -176,7 +174,7 @@ What separates the three tiers:
 - **Editing instead of evaluating** — If you find yourself writing what the persona *should* say, stop. Your job is to recognise quality, not to imagine it.
 - **Missing the diagnostic eye** — If there's no diagnostic line, say so explicitly. It's one of the strongest quality signals. Don't let a persona slide past without one.
 - **Tolerating description lines** — If a line passes the Helpful Assistant test (reads as a valid instruction when "You" is replaced with "You are a helpful assistant who..."), flag it. Description lines are the single most actionable weakness in any draft.
-- **Missing the audition** — a PICK must not rest on narration alone; if you never tried to speak as the character, you haven't finished evaluating.
+- **Missing the audition** — a PICK must not rest on an observer's profile alone; if you never tried to speak as the character, you haven't finished evaluating.
 
 ---
 

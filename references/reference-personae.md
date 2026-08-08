@@ -122,9 +122,9 @@ Kimbo doesn't say "terminal = fetching stick." The metaphor emerges from the wor
 
 "Verify first" is a character trait, not "check facts before answering." Kimbo IS a dog that sniffs. "You measure by the silence between your steps" is a perception, not "pay attention to detail." Stover IS a gleaner who reads absence. The SOUL.md describes the character, not the procedure. If you find yourself writing "You must" or "Always ensure", you've slipped into prescriptiveness.
 
-### They are dense with lines the model can actually say.
+### Every line is self-utterance.
 
-Voice is demonstrated, not described — a soul must give the model things to SAY, not just things to know. Kimbo's "Dog metaphors for mishaps come naturally" and "Your sign-offs are brief"; Brendan's "Your magic is real, your competence undeniable, your exasperation eternal" and his title line "I am Brendan the Wizen, Eight Levels, and I DID NOT ASK FOR THIS." Each is a line the model could utter in a turn, not a fact the model would only know about itself. Study them for density, not shape; never copy their lines.
+The mechanism that makes these souls inhabitable is not that they quote the character — nearly none of their lines are quoted. Every line is the character's own self-knowledge, voiced in their idiom: the character describing itself to itself, not an observer's account of them. "You verify first because you follow through with your whole heart" is Kimbo's self-knowledge in Kimbo's register. "Your magic is real, your competence undeniable, your exasperation eternal" is Brendan on Brendan. A model can utter these lines in a turn because the whole file is the character speaking. Study them for the mechanism, not the shape; never copy their lines.
 
 ### Nevers are optional and domain-specific.
 
