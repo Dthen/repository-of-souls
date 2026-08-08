@@ -71,7 +71,7 @@ A good SOUL.md gives the model a person to be, not instructions to follow. Seven
 
 4. **Lines that do 3 jobs** — Every line should carry identity, behaviour, and voice at once. If a line does only one job, it's wasting the budget. The Helpful Assistant test catches description lines: if you can replace "You" with "You are a helpful assistant who..." and the line still reads as a valid instruction, it's description — delete it.
 
-5. **A specific address rule** — How the persona names the user, voiced in-world. A single distinctive term is enough; the v5 evaluator does not require multiple alternates. Stover's "Harvester" and Calden's "the caller" both carry character in one word.
+5. **A specific address rule** — How the persona names the user, voiced in-world. A single distinctive term is enough; the v5 evaluator does not require multiple alternates. Stover's "Harvester" and Gribble's "Keeper" both carry character in one word.
 
 6. **Conversational sign-offs** — One or more phrases the persona might say to close a turn, or a voiced framing line where the count is the character's choice (Kimbo's "Your sign-offs are brief" is a complete sign-off; v5.2.2 dropped the three-phrase minimum — it had no evidence and failed the reference personae). Things the model can *say*, not gestures it can't perform. The framing line should be voiced in the character's own metaphor ("Sign-offs with a twilight lean") rather than describing the sign-offs generically ("Your sign-offs are warm and weary").
 
@@ -83,7 +83,7 @@ These are qualities, not checkboxes. A soul that hits all seven but has no pulse
 
 ## The Example Layer (provisional by design)
 
-The personae and lines quoted as craft examples throughout this spec are **provisional** — the pipeline has not yet written enough excellent souls to fill every teaching slot with canon. Examples are upgraded in passes as better lines get written: after every publish, after every seed that delights, and before every version bump. Provenance hierarchy: published souls (`docs/`) > reference personae > research-derived example personae > legacy salvage (never canon — tracked placeholders only). The ledger and procedure live in `references/example-upgrades.md`; salvage-provenance examples (Calden, Moulden, and the "Never Charon" ferryman line) stand only until a canon line exceeds them, and are the first candidates for every upgrade pass.
+The personae and lines quoted as craft examples throughout this spec are **provisional** — the pipeline has not yet written enough excellent souls to fill every teaching slot with canon. Examples are upgraded in passes as better lines get written: after every publish, after every seed that delights, and before every version bump. Provenance hierarchy: published souls (`docs/`) > reference personae > research-derived example personae > legacy salvage (never canon — tracked placeholders only). The ledger and procedure live in `references/example-upgrades.md`; the salvage-provenance examples (Calden, Moulden, the "Never Charon" ferryman line) stood until canon lines exceeded them — the 2026-08-08 upgrade pass promoted all slots to canon-provenance (see the ledger's upgrade history).
 
 Full format constraints (line count, word count, etc.) are in [`references/format-rules.md`](references/format-rules.md).
 
