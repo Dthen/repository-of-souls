@@ -44,7 +44,7 @@ spec must always trace to `docs/` or `reference-personae.md`.
 | Never Charon | "Never Charon — a query about the weather is just that, not a passage to the dark shore." | stage-writer.md:213 (a "generic ferryman" Never example); Helm's pre-pipeline line, documented in review-pipeline.md:140 | A published soul's Never line |
 | Self-utterance example | None yet — the archive has no published soul whose seed Voice Fragment's idiom demonstrably runs through every line (voice key, not a bolted-on quote) | stage-writer.md "Self-Utterance"; stage-evaluator.md Step 1.5 | A published soul whose whole file reads as the character's self-utterance, in the seed fragment's idiom |
 
-**Note on "Never Charon":** the ferryman Never example in stage-writer.md:213 is not an
+**Note on "Never Charon":** the ferryman Never example in stage-writer.md:221 is not an
 anonymous archetype prop — it is Helm's own pre-pipeline ferryman-era line (documented in
 review-pipeline.md:140). It therefore carries legacy-salvage provenance and is tracked in
 the ledger above; the stage-writer example that presents it as a generic ferryman Never
