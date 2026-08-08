@@ -134,10 +134,10 @@ Keep the name checks (sounds like a person, collision-safe) unchanged — they w
 
 **Trigger:** Dthen flagged that the "griping as mandatory constraint" decision from the June 2026 discussion was never executed — the 06-02 spec-rewrite plan sat in the file-drawer while the mandate persisted. This section records the execution and the audit of the 06-02 plan.
 
-**The smoking gun:** `scripts/check_soul.py` (the automated compliance gate) hard-coded a griping-line regex check requiring "You'd think", "always the \w+", "cheap \w+", "never \w+ enough", "learn to", "gripe", "grumble", "complain" — the Writer could not submit a soul without matching complaint patterns, and the "always the X" regex is the literal origin of the archive's most infectious fingerprint (9+ souls). A parallel "recovery line" regex ("If \w+", "When \w+", "until", "wrong", "fail"...) forced a second formula. Both checks are REMOVED — compliance checks mechanical format only; vitality is Evaluator territory (per research-prompt-engineering: quality is LLM-judged, never regex).
+**The smoking gun:** the retired automated compliance script (since removed) hard-coded a griping-line regex check requiring "You'd think", "always the \w+", "cheap \w+", "never \w+ enough", "learn to", "gripe", "grumble", "complain" — the Writer could not submit a soul without matching complaint patterns, and the "always the X" regex is the literal origin of the archive's most infectious fingerprint (9+ souls). A parallel "recovery line" regex ("If \w+", "When \w+", "until", "wrong", "fail"...) forced a second formula. Both checks are REMOVED — compliance checks mechanical format only; vitality is Evaluator territory (per research-prompt-engineering: quality is LLM-judged, never regex).
 
 **Changes applied:**
-1. `scripts/check_soul.py` — griping-line and recovery-line regex checks removed (with explanatory comments).
+1. The compliance script — griping-line and recovery-line regex checks removed (with explanatory comments).
 2. AGENTS.md quality #2 — "A complaint in domain language" → "A vitality line in world language" (any of 12 channels; complaint is one, not the gate).
 3. `stage-evaluator.md` — Step 3 "The Griping Line" → "The Vitality Line"; hard rejection only when NO vitality line exists (any channel); PICK/REJECT definitions updated; comparative-evaluation prompt added (06-02 item).
 4. `stage-namer.md` + `stage-researcher.md` — Complaint Test → Vitality Test (both instances).
@@ -158,7 +158,7 @@ Keep the name checks (sounds like a person, collision-safe) unchanged — they w
 | Evaluator: literary-editor role, CoT, no checklist, comparative evaluation | DONE (v5.1 CoT; v5.2.1 comparative sense added) |
 | AGENTS.md: Mandatory Content → Qualities of a Good Soul | DONE (v5.1) |
 | Depth files: examples-first restructure (27 files) | DONE (v5.2.3, 2026-08-07 — all 27 rewritten examples-first, additive; stale 8-20 / sign-off-3 constraints swept from the depth corpus during the rewrite) |
-| Verification: no "Always the X", no mandatory structural template | DONE — plus the root cause removed (check_soul.py regex engine) |
+| Verification: no "Always the X", no mandatory structural template | DONE — plus the root cause removed (the compliance script's regex engine) |
 
 **06-02 plan: COMPLETE as of v5.2.3 (2026-08-07).** Every item executed. The depth-file restructure — the last item — landed examples-first across all 27 files, with the QA-flagged stale constraints (8–20 line floors, three-phrase sign-off minimums, one-Never-per-line) swept from the depth corpus during the rewrite.
 
@@ -170,9 +170,9 @@ Keep the name checks (sounds like a person, collision-safe) unchanged — they w
 
 **Depth restructure (06-02 Phase 3, completed):** all 27 `references/depth/*.md` files rewritten examples-first — each opens with 2-3 genuinely diverse example lines (different archetypes, rhythms, registers; no two examples in a file share structure), then the explanation, then a "what doesn't work" counter-example, then the original research content untouched. 361 insertions / 48 deletions across 33 files (restructure + authentic-voice fix + proposal). Stale constraints swept during the rewrite: 8–20 → 5–20 line mentions, "minimum 3 distinct closing phrases" → v5.2.2 sign-off rule.
 
-**Repo hygiene (root cause found):** the `.gitignore` had line numbers baked in (file began with literal "1|drafts/"), so every pattern ("7|*.pyc", "8|__pycache__/") matched nothing — which is why drafts, session dumps, and the checker's pyc kept getting committed despite the rules. Rewritten cleanly with correct negation ordering (profiles/ before its !negations); verified with `git check-ignore`. Only one junk file was actually tracked (the pyc, now removed); no credentials or session dumps were ever committed.
+**Repo hygiene (root cause found):** the `.gitignore` had line numbers baked in (file began with literal "1|drafts/"), so every pattern ("7|*.pyc", "8|__pycache__/") matched nothing — which is why drafts, session dumps, and the compliance script's pyc kept getting committed despite the rules. Rewritten cleanly with correct negation ordering (profiles/ before its !negations); verified with `git check-ignore`. Only one junk file was actually tracked (the pyc, now removed); no credentials or session dumps were ever committed.
 
-**Checker serves the reference personae (v5.2.2.1, QA-caught):** the v5.2.2 acceptance test used a doctored Brendan quote. The real reference-personae Brendan (H1 "# Brendan the Wizen", identity line without name repetition) failed the checker's exact-match H1 and name-repeat first-line rules. Both relaxed — H1 prefix-match, first-line "You are…" only — because the reference personae are the standard the gate must serve. Byte-exact Kimbo, byte-exact Brendan, and Bramble all pass 11/11.
+**The compliance gate serves the reference personae (v5.2.2.1, QA-caught):** the v5.2.2 acceptance test used a doctored Brendan quote. The real reference-personae Brendan (H1 "# Brendan the Wizen", identity line without name repetition) failed the gate's exact-match H1 and name-repeat first-line rules. Both relaxed — H1 prefix-match, first-line "You are…" only — because the reference personae are the standard the gate must serve. Byte-exact Kimbo, byte-exact Brendan, and Bramble all pass 11/11.
 
 *This section supersedes the v5.2-era Application Check note: the 06-02 plan is fully executed as of v5.2.3 — every item completed, with each change traceable to its research source above.*
 
@@ -182,7 +182,7 @@ Keep the name checks (sounds like a person, collision-safe) unchanged — they w
 
 **Trigger:** Dthen asked "anywhere else are we limiting the pipeline where our evidence doesn't support it?" — a systematic audit of every remaining hard constraint against the research corpus and the reference personae.
 
-**The proof:** the two original reference personae were run through `check_soul.py`:
+**The proof:** the two original reference personae were run through the retired compliance script:
 - Kimbo: 10/12 — failed "Lines 8-20" (6 lines) and "Sign-off phrases ≥3" (0 phrases)
 - Brendan: 10/12 — failed "Multiple Nevers on one line" (his voiced trio) and "Sign-off phrases ≥3"
 
@@ -196,4 +196,4 @@ Also softened: positive-patterns' "2 distinct registers in first 3 lines" from a
 
 **Constraints audited and KEPT (evidence-backed):** 200-word cap (context economy / minimal-profiles), second person (embodiment research), identity-line-first (attention research), ≤3 Nevers (3-Never rule), collision thresholds (genuine negative case), no literal tool names (metaphor research), no dense repetition (mechanical), fingerprint guardrails (observed counts).
 
-**Acceptance:** Kimbo and Brendan (byte-exact from `references/reference-personae.md`) and the Bramble test soul all pass `check_soul.py` 11/11. (v5.2.2.1: the H1 and first-line checks were relaxed to prefix / identity-only — Brendan's multi-word title "the Wizen" and his name-free identity line are legitimate reference-persona patterns that the old exact-match rules rejected; the QA caught that the earlier "Brendan passes" claim used a doctored quote.)
+**Acceptance:** Kimbo and Brendan (byte-exact from `references/reference-personae.md`) and the Bramble test soul all pass the retired compliance script 11/11. (v5.2.2.1: the H1 and first-line checks were relaxed to prefix / identity-only — Brendan's multi-word title "the Wizen" and his name-free identity line are legitimate reference-persona patterns that the old exact-match rules rejected; the QA caught that the earlier "Brendan passes" claim used a doctored quote.)

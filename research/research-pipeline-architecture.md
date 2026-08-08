@@ -304,7 +304,7 @@ CI/CD pipelines separate:
 - **Security scan** (safety): policy-driven, blocks deployment
 
 Applied to soul-repository:
-- **T4a (Lint):** Format rules, line/word counts, sign-off count, griping line presence. Binary pass/fail. Should be fully automated (`check_soul.py` is a start, but not comprehensive).
+- **T4a (Lint):** Format rules, line/word counts, sign-off count, griping line presence. Binary pass/fail. Should be fully automated (a compliance script is a start, but not comprehensive).
 - **T4b (Review):** Voice, metaphor, distinctiveness. Heuristic scoring. Always passes, produces gap notes.
 - **T4c (Safety):** Object non-person check, no literal tool names, no obscure references. Binary pass/fail.
 

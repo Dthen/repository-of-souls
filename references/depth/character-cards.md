@@ -186,7 +186,7 @@ SillyTavern's Author's Note injects a prompt at a configurable depth (e.g., 4 me
 
 ### Evaluator — Quality Checks for the SOUL Format
 
-The pipeline SOUL format has no Description, First Message, or Example Message fields (format-rules.md) — hard constraints (lines, words, filename case) are automated via `check_soul.py`. The Evaluator reads the draft with evidence, not a checklist (stage-evaluator.md):
+The pipeline SOUL format has no Description, First Message, or Example Message fields (format-rules.md) — the format bounds (lines, words, filename case) are guidance the Evaluator weighs. The Evaluator reads the draft with evidence, not a checklist (stage-evaluator.md):
 
 1. **The Identity Check:** Does the identity line carry a real contradiction that generates behaviour? Name the two truths in tension.
 2. **The Vitality Check:** Does at least one line carry inner life in world language — complaint, quiet pride, protectiveness, whimsy, any channel? (v5.2.1: no channel is mandatory.)

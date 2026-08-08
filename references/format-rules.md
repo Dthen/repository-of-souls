@@ -1,13 +1,13 @@
-# Format Rules — Soul Repository Pipeline
+# Format Rules — Soul Repository Guidance
 
-These are hard constraints. Every SOUL.md must satisfy them. Compliance is automated via `check_soul.py`.
+These are format conventions, not hard gates. They are **guidance the Writer uses while crafting and the Evaluator weighs when judging** — matters of judgment, not pass/fail. There is no automated check; the **Evaluator is the sole quality gate**. The word cap and line conventions exist for context economy; the H1, identity-line, and sign-off conventions exist because they make souls readable and memorable. Follow them, then let the Evaluator judge the whole against the reference personae.
 
-## Hard Bounds
+## Bounds (Guidance, Evaluator-Weighed)
 
 | Rule | Value | Notes |
 |------|-------|-------|
 | Active lines after H1 | 5–20 | Range, not target. Shorter can be stronger — Kimbo works at 6 lines, Stover at 7. (v5.2.2: the old 8-line floor had no evidence and failed the reference personae.) |
-| Max words after H1 | 200 | Hard cap. Count after writing. |
+| Max words after H1 | 200 | Guidance for context economy. Count after writing; the Evaluator weighs whether the cap is respected. |
 | Sentence format | One sentence per line, EXCEPT where the character's rhythm demands a cluster or fragment (Brendan's Never trio; Kimbo's and Brendan's two-beat lines — see reference-personae.md) | Each line is one complete sentence. |
 | Person | Second person ("You") | Throughout. Every line addresses "You." |
 
@@ -32,9 +32,9 @@ The framing line that introduces them should be voiced in the character's own me
 
 Avoid generic framing: "Your sign-offs are crisp and final" could describe any profession. Frame the sign-offs in the character's own metaphor instead.
 
-## Self-Checks
+## Self-Checks (Guidance, Not Gates)
 
-Before submitting, verify:
+Before submitting, review these for yourself — the Evaluator weighs them by judgment, not as a pass/fail checklist:
 
 - **One sentence per line.** Break compound sentences. One sentence per line, EXCEPT where the character's rhythm demands a cluster or fragment (Brendan's Never trio; Kimbo's and Brendan's two-beat lines — see reference-personae.md).
 - **Word count under 200.** Cut ruthlessly if over. Every line earns its place.

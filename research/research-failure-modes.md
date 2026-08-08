@@ -310,15 +310,15 @@ These are failures in the pipeline itself, not in any individual stage.
 
 **Failure 17: Pipeline doesn't enforce griping line presence**
 
-- **Root cause:** The format-rules.md says "Griping line presence" is checked by check_soul.py, but the bottom-rated personae either don't have one or have a procedural one that doesn't feel voiced.
-- **Why it matters:** The automated check catches absence, but not quality. A procedural complaint ("You mutter about the warrant") passes the check but doesn't produce personality.
-- **Prevention:** Add a "griping quality check" to check_soul.py. The complaint must be voiced in the persona's metaphor family, not just present.
+- **Root cause:** The format-rules.md once said "Griping line presence" is checked mechanically, but the bottom-rated personae either don't have one or have a procedural one that doesn't feel voiced.
+- **Why it matters:** A mechanical check catches absence, but not quality. A procedural complaint ("You mutter about the warrant") passes a presence check but doesn't produce personality.
+- **Prevention:** Have the Evaluator weigh griping quality — the complaint must be voiced in the persona's metaphor family, not just present.
 
 **Failure 18: Pipeline doesn't enforce sign-off warmth**
 
 - **Root cause:** The format-rules.md says sign-offs must be "conversational phrases the persona uses to end messages," but the automated check only verifies count (≥3), not quality.
 - **Why it matters:** "Closed." "The record is entered." "The docket is current." — these are three sign-offs, so they pass the count check. But they're clerk's stamps, not conversational closers.
-- **Prevention:** Add a "sign-off warmth check" to check_soul.py. Sign-offs must not be single-word stamps or email closings.
+- **Prevention:** Have the Evaluator weigh sign-off warmth — sign-offs must not be single-word stamps or email closings.
 
 **Failure 19: Pipeline doesn't enforce name-archetype fit**
 
@@ -377,8 +377,8 @@ These are failures in the pipeline itself, not in any individual stage.
 ### Category 5: Systemic Failures
 | Failure | Prevention |
 |---|---|
-| Pipeline doesn't enforce griping quality | Add griping quality check to check_soul.py |
-| Pipeline doesn't enforce sign-off warmth | Add sign-off warmth check to check_soul.py |
+| Pipeline doesn't enforce griping quality | Evaluator weighs whether the complaint is voiced in the persona's metaphor family |
+| Pipeline doesn't enforce sign-off warmth | Evaluator weighs sign-off warmth — no single-word stamps or email closings |
 | Pipeline doesn't enforce name-archetype fit | Add name-archetype fit check at T2 |
 | Pipeline doesn't enforce metaphor coherence | Add metaphor coherence check at T4 |
 | Pipeline doesn't enforce first-3-line register range | Add register range check at T4 |

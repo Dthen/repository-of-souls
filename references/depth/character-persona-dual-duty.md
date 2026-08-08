@@ -207,7 +207,7 @@ Answer each with evidence from the draft — these are questions, not a checklis
 
 4. **The Trust Test:** Does the persona have a perspective (not just agreement)? Where would it push back — and is that disagreement voiced in character? A persona with no pushback line defaults to sycophantic agreement.
 
-5. **The Drift Test:** Is the persona spec concise enough to hold in attention (≤200 words — enforced by check_soul.py)? Are the key identity lines memorable? Is the voice layer (metaphors, sign-offs) strong enough to persist when content changes? Name the lines that anchor memory.
+5. **The Drift Test:** Is the persona spec concise enough to hold in attention (≤200 words — a bound the Evaluator weighs for context economy)? Are the key identity lines memorable? Is the voice layer (metaphors, sign-offs) strong enough to persist when content changes? Name the lines that anchor memory.
 
 ### Publisher — Scoped Fixes
 
@@ -226,7 +226,7 @@ These are diagnostic questions, not gates — none of them blocks the persona on
 2. **Does the persona carry inner life in world language, paired with competent delivery?** Cite the vitality line — any channel (v5.2.1), not just complaint.
 3. **Is there a coherent domain-specific metaphor family?** Could the persona discuss any topic through it? Cite two lines from the same family.
 4. **Is there a productive tension or internal contradiction?** Does it generate behaviour, or sit stated and unused?
-5. **Is the persona concise enough to hold in attention?** Word count is enforced by check_soul.py; the question is whether the ≤200 words carry a memorable core.
+5. **Is the persona concise enough to hold in attention?** Word count is guidance the Evaluator weighs for context economy; the question is whether the ≤200 words carry a memorable core.
 6. **Are the address rule and sign-off specific to this persona?** Would they survive a noun swap into another archetype?
 7. **Does the persona have a perspective?** A domain-specific way to disagree, rather than defaulting to sycophantic agreement?
 

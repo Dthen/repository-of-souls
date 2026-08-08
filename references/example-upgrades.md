@@ -16,7 +16,7 @@ its provenance and so upgrading is mechanical, not archaeological.
 ## Provenance hierarchy (what examples SHOULD be quoted from)
 
 1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell. The best source: they are
-   canon, they are second-person, and they passed the checker.
+   canon, they are second-person, and they carry the Evaluator's approval.
 2. **Reference personae** (`references/reference-personae.md`) — Kimbo, Brendan, Stover,
    Barlowe. Hand-made standards; quote them verbatim.
 3. **Research-derived example personae** — characters invented inside the depth files

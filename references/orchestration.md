@@ -26,7 +26,7 @@ Each stage only sees what it needs:
 - **Evaluator** sees the draft. It evaluates for pulse (voice, contradiction, vitality quality) and either picks it (with fix notes) or rejects it and kills the seed.
 - **Publisher** sees the winning candidate + evaluator's notes. It either approves directly or applies targeted fixes to specific issues, then publishes to docs/ and rebuilds the site.
 
-**Compliance is automated.** Evaluators and Publishers do NOT check format, line counts, or word counts — compliance is automated by `check_soul.py`, which the Publisher runs and confirms passed before publishing. They evaluate creative quality and fix scoping only.
+**The Evaluator is the sole quality gate.** Evaluators and Publishers do NOT mechanically check format, line counts, or word counts — format rules are guidance the Evaluator weighs as part of its verdict. They evaluate creative quality and fix scoping only.
 
 ---
 
@@ -54,11 +54,11 @@ Each stage creates the next stage's task as part of its completion. The Namer cr
 
 **Chain rule:** Before creating the next task, verify the upstream artifact exists on disk. If it doesn't, kanban_block with the reason.
 
-### Automate Compliance, Evaluate Quality
+### The Evaluator Is the Sole Quality Gate
 
-Format compliance (line count, word count, sign-off presence, H1 match, etc.) is handled by `scripts/check_soul.py`. Evaluators evaluate creative quality only. Do NOT ask evaluators to check compliance — it wastes their cognitive budget.
+Format rules (line count, word count, sign-off presence, H1 match, etc.) are guidance the Evaluator weighs as part of its verdict, not a separate mechanical gate. Evaluators evaluate creative quality against the reference personae. Do NOT ask evaluators to run mechanical checks — it wastes their cognitive budget.
 
-Run `check_soul.py` before creating a Publisher task. If the winning candidate fails compliance, flag it in the Publisher task so fixes are applied.
+Rely on the Evaluator's verdict before creating a Publisher task. If the Evaluator flagged issues, note them in the Publisher task so targeted fixes are applied.
 
 ---
 
@@ -93,17 +93,17 @@ workspace_path: "/home/kimbo/projects/soul-repository"
 
 Before calling `kanban_create`, verify the upstream artifact exists on disk.
 
-| Creating stage | Required upstream artifact | Path to check | Compliance check |
+| Creating stage | Required upstream artifact | Path to check | Quality gate |
 |---|---|---|---|
 | Researcher | Published souls + seeds | `docs/`, `seeds/` | — |
 | Namer | Seed file | `seeds/<seed-label>.md` | — |
 | Writer | Chosen name file + seed | `names/<chosen-name>.md`, `seeds/<seed-label>.md` | — |
 | Evaluator | Draft file | `drafts/<name>.md` | — |
-| Publisher | Winning candidate + evaluator notes | `drafts/<name>.md` (as picked by evaluator) | `check_soul.py` must pass (or notes flag compliance issues for Publisher to fix) |
+| Publisher | Winning candidate + evaluator notes | `drafts/<name>.md` (as picked by evaluator) | Evaluator verdict must be APPROVE/FLAG (notes carry any fix items for the Publisher) |
 
 **If the file doesn't exist:** Do NOT create the downstream task. Create the missing upstream stages instead.
 
-**If `check_soul.py` fails:** Note the compliance issues in the Publisher task body so the Publisher can apply targeted fixes.
+**If the Evaluator flags issues:** Note them in the Publisher task body so the Publisher can apply targeted fixes.
 
 ---
 
@@ -134,7 +134,7 @@ The Publisher has two paths:
 ### APPROVE Path
 
 1. Read the winning candidate from `drafts/<name>.md`.
-2. Run `check_soul.py` to verify compliance. If it passes, proceed. If it fails, see FLAG path.
+2. Confirm the Evaluator's verdict is APPROVE (no fixable issues). If so, proceed. If the Evaluator flagged issues, see FLAG path.
 3. Copy the candidate to `docs/<name>.md`.
 4. Rebuild the site.
 5. Complete the task with a summary.
@@ -145,7 +145,7 @@ The Publisher has two paths:
 2. Read the evaluator's minor-issue notes.
 3. Apply **targeted fixes** only — fix the specific issues identified by the evaluator. Do not rewrite, restyle, or improve the draft beyond the scoped fixes.
    - "Fix these 3 things" means exactly 3 changes, not "make it better."
-4. Run `check_soul.py` to verify compliance.
+4. Confirm the flagged issues are resolved in the fixed copy.
 5. Copy the fixed candidate to `docs/<name>.md`.
 6. Rebuild the site.
 7. Complete the task noting which fixes were applied.
@@ -199,7 +199,7 @@ Apply this to all profiles that run `git push`: `soul-writer`, `soul-namer`, `so
 
 1. **Read `references/stage-*.md` before creating tasks.** Do not guess at the instructions.
 2. **Verify artifacts exist before creating downstream tasks.** Never assume a previous stage completed.
-3. **Run `check_soul.py` before the Publisher stage.** Non-compliant drafts should be flagged for targeted fixes.
+3. **Rely on the Evaluator's verdict before the Publisher stage.** Flagged issues become targeted fixes.
 4. **Use full task bodies.** Abbreviated task bodies produce incomplete work.
 5. **Do not create parent/child chains between stages.** Each stage is independent — it reads its input from disk, not from task linkage.
 6. **Do not skip stages.** Every seed goes through all 5 stages: Researcher → Namer → Writer → Evaluator → Publisher.

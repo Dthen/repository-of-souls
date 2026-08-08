@@ -328,7 +328,7 @@
 328|### Actionable Insight: Separate Compliance from Quality
 329|
 330|**Layer 1: Compliance (automated, deterministic):**
-331|Run `check_soul.py` first. Line count, word count, Never count, sign-off count, H1 match. This is binary and should NOT involve the LLM at all.
+331|Run the compliance checks first. Line count, word count, Never count, sign-off count, H1 match. This is binary and should NOT involve the LLM at all.
 332|
 333|**Layer 2: Voice Quality (LLM-judged, with CoT):**
 334|This is where the LLM adds value. Use a structured evaluation prompt:
@@ -403,7 +403,7 @@
 403|1. **Rewrite the top 5 negative constraints as positive instructions** in format-rules.md
 404|2. **Add voice exemplars** to positive-patterns.md — show what "A good line does 3 jobs" looks like with 3 examples
 405|3. **Add CoT structure** to the T3 and T6 prompts — force the reviewer to cite specific lines before scoring
-406|4. **Separate compliance from quality** — run check_soul.py for compliance, use the LLM only for voice evaluation
+406|4. **Separate compliance from quality** — keep format checks lightweight and deterministic, use the LLM only for voice evaluation
 407|5. **Narrow the scoring scale** — replace 12 binary criteria with 3 compliance checks + 1 quality score (3-point)
 408|
 409|### Long-Term Improvements

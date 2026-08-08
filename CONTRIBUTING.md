@@ -8,7 +8,7 @@ New personae enter through the pipeline or by direct PR.
 
 **Option A: Direct PR (fastest)**
 
-Write a SOUL.md that satisfies the format rules (see `references/format-rules.md`) and open a PR. Compliance is automated via `scripts/check_soul.py`; quality is Evaluator-judged (see `references/stage-evaluator.md`).
+Write a SOUL.md that follows the format guidance (see `references/format-rules.md`) and open a PR. The Evaluator is the sole quality gate — it judges quality against the reference personae (see `references/stage-evaluator.md`).
 
 **Option B: Submit a Seed**
 
@@ -47,11 +47,11 @@ Every SOUL.md must satisfy:
 - [ ] Sign-off rule present and voiced in character
 - [ ] No tool-mapping tables — metaphor lives in behavioural lines
 
-These are the mechanical format rules (enforced by `check_soul.py`) plus Evaluator-judged quality rules; the checker enforces format only, never creative patterns.
+These are format guidance the Writer should follow and the Evaluator weighs against the reference personae. They are matters of judgment, not pass/fail gates.
 
 ## Review Process
 
-Compliance is automated via `scripts/check_soul.py` (see `references/format-rules.md` for the hard constraints it enforces). Quality is judged by the Evaluator stage (`references/stage-evaluator.md`) — evidence-cited evaluation, no numeric scoring. There is no 1–5 axis scoring or auto-reject threshold.
+Quality is judged by the Evaluator stage (`references/stage-evaluator.md`) — evidence-cited evaluation against the reference personae, no numeric scoring and no automated gate. The format rules in `references/format-rules.md` are guidance the Evaluator weighs, not hard constraints. There is no 1–5 axis scoring or auto-reject threshold.
 
 ## Rejected Personae
 

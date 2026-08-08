@@ -66,7 +66,7 @@ Code review research provides a useful counterpoint because software review has 
 
 Our own research (research-editorial-methodology.md) identified this problem clearly: "Our current setup asks T6 — the hard gate — to check 20 negative-constraint boxes (copy-edit behavior) while asking T4 — the soft gate — to evaluate 'feel' (developmental behavior). This inversion is the root cause of the 'format cop' problem."
 
-The pipeline has since been restructured to separate compliance (automated via `check_soul.py`) from quality (LLM-judged). But the restructured T4 and T6 prompts still conflate compliance with quality in subtle ways:
+The pipeline has since been restructured to separate compliance from quality (LLM-judged). But the restructured T4 and T6 prompts still conflate compliance with quality in subtle ways:
 
 **The Four Pillars (T4) and Three Questions (T6) are compliance checklists disguised as quality heuristics.** The Four Pillars — Intention, Tension, Specificity, Follow-through — are evaluated with binary yes/no/mostly answers. A persona that satisfies all four pillars is format-compliant, not necessarily good. The Three Questions — Intention, Credibility, Palpability — are better, but the evidence-grounding requirement ("cite 2-3 lines") creates a compliance loop: the reviewer must find evidence that the persona is good, which means it must have lines that can be cited as good, which means it must have lines that look like the reference personae.
 
@@ -93,7 +93,7 @@ LLM reviewers have systematic biases that compound across review passes. Five bi
 **True Negative Rates below 25% — reviewers confirm more than they challenge.** This is the most damaging bias for our pipeline. An agreeable reviewer will find reasons to approve personae that should be killed, and will produce "minor" gap notes when "critical" issues exist. The result: personae that should be rewritten are instead given minor fixes, and the pipeline archives competent-but-lifeless characters.
 
 ### Format/Authority Bias
-**Structured outputs score higher than equivalent prose.** A persona that follows the format perfectly — identity line with em-dash, behavioral lines in second person, sign-offs in quotes — will score higher than a persona that bends the format but creates more distinctive voice. Our pipeline's `check_soul.py` enforces format, but the LLM reviewers also reward format compliance in their quality judgments.
+**Structured outputs score higher than equivalent prose.** A persona that follows the format perfectly — identity line with em-dash, behavioral lines in second person, sign-offs in quotes — will score higher than a persona that bends the format but creates more distinctive voice. Our pipeline's format checks enforce format, but the LLM reviewers also reward format compliance in their quality judgments.
 
 ### The Compound Effect
 
@@ -263,7 +263,7 @@ The pipeline personae are better *on average* — they have fewer bad lines and 
 
 3. **Provides prescriptive feedback.** The T4 critique's gap notes are specific, actionable, and preservative. The "quote the line → diagnose the problem → suggest a fix" format is the best part of the pipeline.
 
-4. **Separates compliance from quality.** The pipeline now runs compliance checks via `check_soul.py` before LLM evaluation, which reduces the cognitive load on reviewers.
+4. **Separates compliance from quality.** The pipeline keeps format checks lightweight and deterministic, which reduces the cognitive load on reviewers.
 
 ### What the Pipeline Does Poorly
 

@@ -35,7 +35,7 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 
 *Evaluator picked the draft with no fixable issues.*
 
-1. **Verify compliance** — run `check_soul.py` on the draft at `drafts/<name>.md`
+1. **Confirm the Evaluator's verdict** — the draft was picked with no fixable issues
 2. **Copy** to `docs/<name>.md`
 3. **Rebuild the site** — run `python3 scripts/build_site.py`
 4. **Commit and push** the changes
@@ -61,7 +61,7 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 1. **Read** the evaluator's issue list from `evaluations/<name>.md`
 2. **Fix ONLY what was flagged** — no open-ended improvement, no rewriting of the character. Make the minimum changes needed to resolve each issue.
 3. **Write** the fixed version to `docs/<name>.md`
-4. **Verify compliance** — run `check_soul.py` on the published file
+4. **Confirm the flagged issues are resolved** — re-read the fixed lines
 5. **Rebuild the site** — run `python3 scripts/build_site.py`
 6. **Commit and push** the changes
 7. **kanban_complete** — use the FLAG template below
@@ -86,7 +86,7 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 - **No retry loops.** If the evaluator rejected the draft, the seed is killed. There is no refine loop at this stage. Do not create a Publisher task for seeds the evaluator killed.
 - **No re-entry loop** — after the FLAG path, the Publisher applies the flagged fixes and publishes; there is no evaluator re-entry.
 - **Do NOT rewrite the character.** On the FLAG path, fix only the flagged issues with the minimum changes necessary.
-- **Compliance check before publishing is mandatory.** The `check_soul.py` step must pass before the docs/ copy is considered final.
+- **The Evaluator's verdict gates publishing.** Only a draft the Evaluator approved (or picked with flagged fixes now applied) is final.
 
 ---
 

@@ -473,7 +473,7 @@ With only 4 evaluations, drift is hard to measure. But the criteria appear stabl
 - The evaluator always names a "gut reaction" persona — specific, not generic
 - The evaluator always identifies 2+ working lines and 1+ weak line
 - The evaluator always checks: identity contradiction, griping voice, metaphor purity, sign-off quality
-- The evaluator does NOT check: line count, word count, format compliance (left to check_soul.py)
+- The evaluator does NOT check: line count, word count, format compliance (guidance the Evaluator weighs, not a checklist)
 
 **Drift indicator:**
 - The evaluator does NOT consistently check for Nevers (noted for Barlowe/Stover — absent, not flagged)
@@ -499,7 +499,7 @@ Based on the 4 evaluations, a v5 PICK requires:
 **Not checked:**
 - Never line presence
 - Address alternates count
-- Line count compliance (handled by check_soul.py)
+- Line count compliance (guidance the Evaluator weighs)
 - Sign-off framing format
 
 ---

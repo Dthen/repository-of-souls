@@ -12,7 +12,7 @@ The soul-repository pipeline’s T4 and T6 stages currently evaluate character p
 
 This document synthesizes the latest research on LLM-as-judge calibration and translates it into concrete, implementable changes for the T4 and T6 prompts. The core recommendations are:
 
-1. **Separate compliance from quality.** Run line counts, word counts, sign-off counts, and H1 checks through deterministic automation (e.g., `check_soul.py`). Reserve the LLM for creative-quality judgment only.
+1. **Separate compliance from quality.** Keep line counts, word counts, sign-off counts, and H1 checks as lightweight guidance rather than hard gates, and reserve the LLM (the Evaluator) for creative-quality judgment only.
 2. **Narrow the scale.** Replace the 12–20 binary hard-gate items and the 7-axis 1–5 rubric with a **3-point quality scale** anchored by what the persona *does* in conversation, not by abstract adjectives.
 3. **Make chain-of-thought mandatory, with evidence.** The judge must cite specific lines before assigning any score. Reversing this order (score first, rationale second) produces rationalized nonsense.
 4. **Lock the rubric and version it.** Treat the rubric as code, not as a living document that drifts per-evaluation.
@@ -182,7 +182,7 @@ T6 is the **hard gate**. Its job is not diagnosis but verdict. However, the curr
 **Recommended split:**
 
 **T6 Compliance Layer (Automated, not LLM):**
-Run a deterministic script (e.g., `check_soul.py`) that verifies:
+Run lightweight deterministic checks that verify:
 1. Sentient being (regex / semantic check, with LLM fallback only for ambiguous cases)
 2. Lowercase filename
 3. Identity opening with tension (pattern match)
@@ -302,7 +302,7 @@ Each question must be answered with **specific line evidence** before a quality 
 ## Implementation Roadmap
 
 ### Quick Wins (This Sprint)
-1. **Automate the compliance layer.** Extract the 20 hard-gate items from the T6 prompt into a Python script (`check_soul.py` or `scripts/compliance_check.py`). The existing `format-rules.md` already contains the rules; they just need deterministic enforcement.
+1. **Keep the compliance layer lightweight.** The format rules in `format-rules.md` are guidance the Evaluator weighs, not hard gates — do not turn them into a deterministic script.
 2. **Rewrite the T4 prompt to use the 4-dimension, 3-point structure with mandatory line citations.** This is a prompt edit, no code changes.
 3. **Rewrite the T6 prompt to remove compliance checks and add the quality-only CoT structure.** Also a prompt edit.
 4. **Add length-neutrality language to both prompts.** One sentence: *"Do not reward verbosity. Evaluate signal density, not word count."*

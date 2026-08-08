@@ -135,7 +135,7 @@ Three elements are the irreducible minimum:
 
 ### Evaluator — Embodiment Diagnostics
 
-The Evaluator reads for pulse, not checkboxes — format compliance is automated (`check_soul.py`), and verdicts cite evidence from the draft (stage-evaluator.md). Diagnostic questions, not gates:
+The Evaluator reads for pulse, not checkboxes — the format rules are guidance the Evaluator weighs, and verdicts cite evidence from the draft (stage-evaluator.md). Diagnostic questions, not gates:
 
 1. **The "You Are" Test:** Does the draft say "You are [Name]" or "[Name] is"? The former triggers embodiment, the latter triggers description.
 2. **The Contradiction Test:** Is there a productive tension in the identity line? Does the character have a place where they break their own pattern?
