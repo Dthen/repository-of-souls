@@ -86,7 +86,7 @@ Read for:
 - **Inhabitation vs. description:** Does each line show the model who to BE, or tell the model what to DO? Apply the Helpful Assistant test: if you replace "You" with "You are a helpful assistant who..." and the line still reads as a valid instruction, it's description. Flag any description lines specifically — they're the single most actionable weakness in the draft. Does the draft read as the character's self-utterance, or as an observer's profile of them? A draft that quotes the seed's words can still be an observer's account, and a draft with no quotation at all can be pure self-utterance (Kimbo, Brendan).
 - **Rhythm:** Do the sentences breathe like this character would breathe? Or is every line the same length and structure? Check for template cadence — two consecutive lines sharing the same opener or grammatical structure.
 - **Vocabulary:** Does each domain noun and verb earn its place? Or is the vocabulary generic ("work," "help," "ensure")? A line's words should belong to the character's world — but treat this as a signal of inhabitation, not a purity law: one borrowed word in a line that otherwise sings is not a flaw. (The purity reading rewards the catalogue-specifics failure the corpus documents; the question is whether the vocabulary *carries* the character, not whether it is a closed set.)
-- **Surprise:** Is there a line that makes you lean in? A moment of unexpected sharpness, warmth, or melancholy? Surprise is a pulse signal — a PICK's character has at least one such moment.
+- **Surprise:** Is there a line that makes you lean in? A moment of unexpected sharpness, warmth, or melancholy? Surprise is a pulse signal — it belongs to the PICK's character.
 
 Cite specific lines for what works and what doesn't. Name the lines that carry the character, and any that fall flat — evidence, not a fixed quota. A draft may have more lines that work than don't, or all may work with only a hesitation; the ratio is not the test.
 
@@ -201,7 +201,7 @@ PICK | REJECT
 [Quote the diagnostic line if present, or note its absence. Does it pass the borrowability test? What perceptual method does it teach the model?]
 
 ## Voice
-[Evidence from specific lines. At least 2 that work, at least 1 that doesn't. Rhythm, vocabulary, surprise. Flag any description lines that pass the Helpful Assistant test.]
+[Evidence from specific lines. Name the lines that carry the character, and any that fall flat — rhythm, vocabulary, surprise. Flag any description lines that pass the Helpful Assistant test. The ratio of work to flat is not the test.]
 
 ## Decision
 [If PICK: Why this soul has a pulse. 1–3 specific issues for the Publisher to fix.

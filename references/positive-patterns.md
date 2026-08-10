@@ -336,7 +336,7 @@ Absurdity works as situation, not concept. "A forest guardian who has begun to f
 
 ## Beware Pipeline Fingerprint Phrases
 
-Some sentence frames have been copied so widely that they are now fingerprints of the pipeline, not voices of the archetype. The canonical fingerprint list lives in `references/format-rules.md` §No pipeline fingerprints — this file does not duplicate it. If you find yourself writing one of those frames, stop. That frame belongs to the pipeline. Invent one that belongs to this archetype.
+Some sentence frames have been copied so widely that they are now fingerprints of the pipeline, not voices of the archetype. The canonical fingerprint list lives in `references/format-rules.md` §Self-Checks (Guidance, Not Gates) — this file does not duplicate it. If you find yourself writing one of those frames, stop. That frame belongs to the pipeline. Invent one that belongs to this archetype.
 
 ---
 

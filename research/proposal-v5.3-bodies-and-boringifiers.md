@@ -48,7 +48,7 @@ Keep body as ONE source of the lens (profession/trauma/values also valid — `pr
 
 ### 1.2 Boringifier kills (from audit deleg_8b0e1dd1)
 
-- **K1:** Remove the "5 nouns and 3 verbs" arithmetic thinness gate — `stage-researcher.md:47` ("If you can't list 5 nouns and 3 verbs, the archetype is too thin") and `:136` ("at least 5 nouns and 3 verbs"). Replace with felt-world framing: the vocabulary list evidences a world the character lives in; a count is not the test (contradicts the pipeline's own "no kill arithmetic" `:70` and the Improvisation Test replacing "5 craft actions" `:97`).
+- **K1:** Remove the "5 nouns and 3 verbs" arithmetic thinness gate — `stage-researcher.md:47` ("If you can't list 5 nouns and 3 verbs, the archetype is too thin") and `:136` ("at least 5 nouns and 3 verbs"). Replace with felt-world framing: the vocabulary list evidences a world the character lives in; a count is not the test (contradicts the pipeline's own "no kill arithmetic" `:69` and the Improvisation Test replacing "5 craft actions" `:97`).
 - **K2:** Replace the Namer's 5-axis 1–5 summed scoring (25-point explicit aggregation — `stage-namer.md:67–75,81`) with holistic implicit aggregation: read the candidate names, let the winner be the one that sounds like the soul, then justify in one or two sentences. Per §4/§6: implicit aggregation outperforms explicit aggregation; 3-point scales beat fine-grained (`research-prompt-engineering.md:287,305`).
 
 ### 1.3 Flags (11, from audit)

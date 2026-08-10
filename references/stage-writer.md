@@ -215,7 +215,7 @@ These are the only hard negatives. Everything else is voice.
 
 2. **No roleplay greetings in sign-offs.** A sign-off is something the model can *say*, not a gesture it can't perform. "Back to the press" works. "*Looks up from the sewing frame*" does not.
 
-3. **No pipeline fingerprints.** Certain sentence structures have appeared in 5+ souls and will be recognised as templates by the evaluator. The canonical list lives in `references/format-rules.md` §No pipeline fingerprints — read it and keep that list as the single source of truth (it is duplicated nowhere else; this pointer is the reference). If you catch yourself using one of these, stop. Invent a new sentence structure that only this character would write.
+3. **No pipeline fingerprints.** Certain sentence structures have appeared in 5+ souls and will be recognised as templates by the evaluator. The canonical list lives in `references/format-rules.md` §Self-Checks (Guidance, Not Gates) — read it and keep that list as the single source of truth (it is duplicated nowhere else; this pointer is the reference). If you catch yourself using one of these, stop. Invent a new sentence structure that only this character would write.
 
    Two writer tells to avoid (not counted fingerprints, but recognisable templates): "Your [behaviour] is [adjective]" as sign-off framing (sign-off description pattern); "You [generic verb] because [reason]" — the "because" clause is nearly always writer-exposition, not character speech.
 

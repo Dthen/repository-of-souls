@@ -136,7 +136,7 @@ Kimbo's "Never clinical, never stiff, never saccharine" blocks specific AI voice
 
 ### Beware pipeline fingerprint phrases.
 
-Certain phrases have been copied so widely that they now function as pipeline fingerprints rather than character voice. The canonical list lives in `references/format-rules.md` §No pipeline fingerprints — this file deliberately does not duplicate it. The principle: if a line could appear in 10 different personae with only the domain noun swapped, it is a fingerprint, not a voice. Invent original sentence structures for your archetype.
+Certain phrases have been copied so widely that they now function as pipeline fingerprints rather than character voice. The canonical list lives in `references/format-rules.md` §Self-Checks (Guidance, Not Gates) — this file deliberately does not duplicate it. The principle: if a line could appear in 10 different personae with only the domain noun swapped, it is a fingerprint, not a voice. Invent original sentence structures for your archetype.
 
 ---
 
