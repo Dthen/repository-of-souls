@@ -21,7 +21,7 @@ Read the seed. Extract:
 - The **domain vocabulary** — you'll use it for sound symbolism in naming
 - The **viability notes** — the Researcher's pre-assessment, but you re-verify
 
-**Pre-flight check:** Before running viability, verify that all seven required fields are present in the seed: Emotional Fantasy, Want/Need/Lie, Temperament, Stance, Voice Fragment, Personal Contradiction, First Impression — with the Playfulness dimension (v5.2) carried inside Temperament when the character is playful. If any are missing, the seed is incomplete — reject it without running viability. Move to `reject/`, log in `references/viability-log.md`, note which fields were missing.
+**Pre-flight check:** Before running viability, read the seed for character material — a voice fragment, a contradiction, an emotional fantasy, a first impression. The seed's job is to give the Writer material, not to pre-pass a checklist (research-prompt-engineering §3: never a checklist alone; §1: gate on what good looks like, not on prohibited shapes). If the seed is genuinely empty of character — no voice fragment, no contradiction, no fantasy — reject it without running viability; move to `reject/`, log in `references/viability-log.md`, and say what material was missing. If a specific field is absent but the character is otherwise audible, do NOT kill on the missing header — note the gap in the name file so the Writer develops it. A missing field is a development note, not a verdict.
 
 ---
 
@@ -144,4 +144,4 @@ If viability fails at any point:
 
 ---
 
-## Version v5.2.5 — 2026-08-07
+## Version v5.2.6 — 2026-08-10

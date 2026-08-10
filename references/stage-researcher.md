@@ -138,8 +138,8 @@ For each viable candidate, write a seed file to `seeds/<label>.md`:
 ## Functional Risk
 [What can go wrong when this persona is used?]
 
-## Viability Notes
-[Answers to the 6 character tests — brief, specific evidence]
+## Viability Notes — OPTIONAL
+[Only if you already have specific evidence the character passes a test — otherwise leave this out. This is not a pre-flight gate: the Namer runs the six character tests itself, with cited evidence (research-prompt-engineering §6: compliance checks are deterministic and separate from quality judgment). A seed's job is to carry the character, not to pre-pass a checklist.]
 ```
 
 **The seed records what the candidate is — write it from the character, not into the slots.** The fields above (Temperament, Stance, Voice Fragment, Personal Contradiction, First Impression — from the character creation research, 2026-05-31 — plus Emotional Fantasy and Want/Need/Lie, v5.2) are what separate a person from a job posting; every field should already have an answer from Step 3's character-first order and Step 4's audit. If a field is empty, the character is thin there — apply the corresponding seed-time fix from Step 4. The fields evidence the character you found; they do not manufacture one.
@@ -215,10 +215,11 @@ When you need to find the vocabulary for an archetype:
 The old seed format had: Archetype, Domain, Metaphor, Functional Risk. The new format adds:
 - **Personal Contradiction** — two truths about THIS person in tension
 - **Domain Vocabulary** — the raw materials for the writer
-- **Viability Notes** — pre-filtered answers to the 6 character tests
+- **First Impression** — what a user notices first
+- **Viability Notes (now OPTIONAL)** — was "pre-filtered answers to the 6 character tests", but that made seeds into checklist-passing artifacts. Per research-prompt-engineering §3/§6, the Namer runs the tests itself with cited evidence; a seed's job is to carry the character, not to pre-pass checks. Include notes only when you already have specific evidence.
 
-These additions come from the research we've done on what makes personae work. The Researcher tests these same qualities — by pre-answering them in the seed, we save the Namer time and improve pass rates.
+These additions come from the research we've done on what makes personae work. The Researcher tests these same qualities — but the character comes first, the fields evidence it, and the Namer re-verifies.
 
 ---
 
-## Version v5.2.5 — 2026-08-07
+## Version v5.2.6 — 2026-08-10
