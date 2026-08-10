@@ -16,17 +16,11 @@
 
 Check if `seeds/REPETITION_MAP.md` exists. If it does, read it — this is your starting point.
 
-**Skip the rebuild if nothing has changed.** Run `git log --since="<last-modified-date>" --name-only -- docs/` to check if any published souls have changed since the repetition map was last written. If nothing has changed, use the existing map as-is and go straight to Step 2.
+The map is **observations-only**: dated, free-form notes of repetition patterns (repeated moves, body types, registers, structures) appended by the Evaluator or Publisher when they spotted a convergence across the published souls. It is not a roster and not a table — there is nothing to maintain, rebuild, or recount. For the current roster of published souls, read `docs/` directly.
 
-**If the published souls have changed** (new souls added, old ones removed), update the map incrementally:
-- Read any new SOUL.md files in `docs/` that aren't in the map yet
-- Remove entries for souls that no longer exist
-- Recount the categories
-- Write the updated map to `seeds/REPETITION_MAP.md`
+**Read the observations with mirror-eyes: they inform, they don't dictate.** The entries are the archive's self-knowledge — never rewrite, reorder, or delete them; the map is append-only.
 
-**Preserve the Observations section.** The map may carry dated, free-form convergence observations appended by the Evaluator or Publisher (repeated moves, body types, registers, structures). They are the archive's self-knowledge — never delete or edit them during a rebuild; carry them forward verbatim. Read them with the same mirror-eyes as the table: they inform, they don't dictate.
-
-**If no repetition map exists**, build one from scratch: read all SOUL.md files in `docs/`, extract Name, Archetype, Domain, and Category for each, count the categories, and write `seeds/REPETITION_MAP.md`.
+**If no repetition map exists**, create `seeds/REPETITION_MAP.md` with just the header and an empty Observations section (match the shape of the current file's header). Do not build a table — there is none.
 
 ### Step 2: Delight First, the Map as Mirror (v5.2.4.7 — the gap-filling engine was the boring-maker)
 
@@ -161,9 +155,9 @@ Body: Include the seed file content, reference the Namer instructions (`referenc
 
 **One Namer task per seed.** Do not batch multiple seeds into one task.
 
-### Step 7: Update the Repetition Map
+### Step 7: No Map Update
 
-After spawning, update `seeds/REPETITION_MAP.md` with the new seeds and the current docs/ state.
+No map update is needed at this stage — the map is observations-only, written by the Evaluator and Publisher. Do not add seeds or roster data to it.
 
 ### Step 8: Complete
 
