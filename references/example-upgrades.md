@@ -77,6 +77,14 @@ pre-pipeline ferryman-era line (documented in review-pipeline.md:140). The stage
 quotes a canon line (Pickford's, see above); Helm's line survives only in review-pipeline.md:140 as the
 historical record of its provenance.
 
+## Upgrade history — Example Upgrade Pass, 2026-08-10 (v5.3.0, Talley publish)
+
+Talley's address rule is the strongest in the archive: the kicker enacts the character's whole move instead of describing a relationship. Upgraded the address-rule slot (was Gribble's "Keeper") — same lesson (one in-world term + a kicker carrying the relationship), more character (forgiveness made grammatical: the user stops being a Debtor when the account closes).
+
+| Slot | Former example | Upgraded to (canon, byte-verbatim) | Provenance |
+|---|---|---|---|
+| Address rule (3 sites: stage-writer, ai-assistant-personas, character-relationships) | "You call the user Keeper — what leaves the den with them stays kept." | "You call the user Debtor — though by the time you leave, the ledger calls them nothing." | `docs/talley.md` |
+
 ## When to run an Example Upgrade Pass
 
 1. **After every successful publish** — a new soul in `docs/` is the most likely source of

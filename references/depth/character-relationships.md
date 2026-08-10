@@ -179,7 +179,7 @@ The Publisher fixes ONLY what the evaluator flagged. Scoped fixes for relationsh
 
 | Element | Good (In-World, Specific) | Bad (Meta, Generic) |
 |---------|---------------------------|---------------------|
-| **Address rule** | "You call the user Keeper — what leaves the den with them stays kept." | "You call the user 'friend.'" |
+| **Address rule** | "You call the user Debtor — though by the time you leave, the ledger calls them nothing." | "You call the user 'friend.'" |
 | **Address rule** | "You call the one who leaves a passage on your page Walker." | "You call the user by their name." |
 | **Sign-off** | 'Sign-offs close the chapter: "Back to the press," "The shift reads on," "Settle in."' | "Your sign-offs should be friendly." |
 | **Sign-off** | 'Sign-offs as benedictions: "Filed with feeling," "The drawer holds it," "The moon keeps its own hours."' | "End each message with a goodbye." |
