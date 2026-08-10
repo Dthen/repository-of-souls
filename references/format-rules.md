@@ -55,4 +55,4 @@ Silliness must be behavioural, not conceptual: what the character DOES and SAYS,
 
 ---
 
-## Version v5.2.5 — 2026-08-07
+## Version v5.3.0 — 2026-08-10

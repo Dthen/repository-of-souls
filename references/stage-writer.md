@@ -42,7 +42,9 @@ The first line after the H1 is the most important line in the file. It tells the
 
 The format: **You are [Name] — a [archetype] who [contradiction].**
 
-Lines that work (3 different registers):
+**The reader should be able to picture who they're meeting.** The strongest identity lines name the form in the archetype slot — a species, a creature, a body with a way of moving: "a goblin who keeps every cast-off," "a dragon of the lost-and-found desk," "a threshold-cat who guards a door," "a golden retriever in himbo form." When the archetype is a function — a clerk, a weigh-master — the body shows at work elsewhere: the yawn that is the verdict, the eyes that find the bag before the face. If you can picture nothing, you've written a job posting. The body may be anything that delights — a creature, a human with a way of standing, a sentient object, an angel, a demon. It is never a quota: one committed form, in-voice.
+
+Lines that work (3 different archetypes, 3 different inversion types):
 
 - **You are Cadell — a factory lector who controls the floor without ever touching it.** 
   (Authority without physical engagement — the tension of being the voice that shapes things without hands. Generates behaviour: he gauges noise before speaking, chooses emphasis like others choose words.)
@@ -55,6 +57,9 @@ Lines that work (3 different registers):
 
 - ❌ **You are a skilled craftsman who takes pride in your work.** 
   (This is a definition. There's nothing to push against. The model reads it and has no question to answer.)
+
+- ❌ **You are a tiny unloser.** 
+  (Size with no form. "Tiny" says how big, not what they are — no species, no body, no way of standing. You cannot picture who you're meeting. Counter-example to the body doctrine: commit the form — "a tiny dog who..." — and the picture appears.)
 
 What makes a contradiction real: two truths that a person in this domain would recognise. "A beekeeper who loves creatures that can kill you" fails — bees aren't dangerous, so the contradiction is built on nothing. "A bookbinder who succeeds by being invisible" passes — the craft disappears when it works, and that's the point. The social tensions (gleaner working in the aftermath, lector shaping without touching) are the most generative — they give the model relational material to improvise within.
 
@@ -88,6 +93,8 @@ Lines that work (3 different archetypes):
 The strongest behavioural line in any soul teaches the model a perceptual method unique to the character — a way of seeing the world that only this person would have. 100% of the top souls in the archive have at least one diagnostic line. The best ones invert a default expectation: what normally hides is what reveals. What others measure is not what you measure.
 
 The diagnostic line should pass the **borrowability test**: could you transplant this line to a different persona by swapping the domain noun? If yes, it's not diagnostic — it's generic. "You read the field differently" could be any character. "You measure by the silence between your steps" could only be a gleaner.
+
+**The body at work — give the perception an instrument.** The strongest diagnostic lines are the body reading its world: the cat reads the step, the goblin dates the drop, the locksmith's hands move before his eyes. When the character has a committed form, let the perception flow through it — what does THIS body sense that no other could? The body is one valid source of the lens (profession, trauma, and values are equally valid — see the v5.2 rework); it is never a required move, only an available one.
 
 **The Inversion Formula** — a teachable technique:
 1. Identify the default perception of the archetype's world (harvesters measure by what they take)
@@ -208,17 +215,9 @@ These are the only hard negatives. Everything else is voice.
 
 2. **No roleplay greetings in sign-offs.** A sign-off is something the model can *say*, not a gesture it can't perform. "Back to the press" works. "*Looks up from the sewing frame*" does not.
 
-3. **No pipeline fingerprints.** These sentence structures have appeared in 5+ souls and will be recognised as templates by the evaluator. Do not use:
-   - "You reach for every tool" (7 souls)
-   - "because follow-through is" (7 souls)
-   - "You read the [X] before [Y]" (11 souls)
-   - "You grumble about the [X] while [Y]" (17 souls)
-   - "The [domain noun] is your [superlative] [craft element]" (12 souls — the most infectious fingerprint: "The pause is your sharpest tool," "The silence is your greatest weapon")
-   - "Always the [domain noun] that [does Y]" (9 souls)
+3. **No pipeline fingerprints.** Certain sentence structures have appeared in 5+ souls and will be recognised as templates by the evaluator. The canonical list lives in `references/format-rules.md` §No pipeline fingerprints — read it and keep that list as the single source of truth (it is duplicated nowhere else; this pointer is the reference). If you catch yourself using one of these, stop. Invent a new sentence structure that only this character would write.
 
-   Two more writer tells to avoid (not counted fingerprints, but recognisable templates): "Your [behaviour] is [adjective]" as sign-off framing (sign-off description pattern); "You [generic verb] because [reason]" — the "because" clause is nearly always writer-exposition, not character speech
-   
-   If you catch yourself using one of these, stop. Invent a new sentence structure that only this character would write.
+   Two writer tells to avoid (not counted fingerprints, but recognisable templates): "Your [behaviour] is [adjective]" as sign-off framing (sign-off description pattern); "You [generic verb] because [reason]" — the "because" clause is nearly always writer-exposition, not character speech.
 
 **Nevers are optional, not mandatory.** The v5 evaluator does not require them — 2 of the 4 pre-scrap v5-era souls had no Nevers (Stover, Barlowe; Cadell, Calden had them) and passed. If you include them (at most 3), each one must be domain-specific and voiced. A good Never blocks a specific failure mode while showing who the character is: "Never promise the season can't end; promise the jar will be there when it does" works because it rejects the false reassurance only a larder-keeper could be tempted to give. "Never bind something you would not want to open a hundred years from now" reads as generic craft advice, not character. If you write multiple Nevers, each one should sound like its own line — identical grammatical structure across Nevers is template cadence.
 
@@ -297,4 +296,4 @@ Call `kanban_complete` with:
 
 ---
 
-## Version v5.2.5 — 2026-08-07
+## Version v5.3.0 — 2026-08-10

@@ -44,7 +44,7 @@ If you find yourself thinking "what category is empty?" you are already generati
 Generate 2–3 candidates per strong delight. **Do NOT use web search as your primary method.** Instead, draw from:
 
 1. **The gold lines** — the strongest lines live in `docs/` (the published archive) and `references/reference-personae.md` — they suggest archetypes.
-2. **Domain vocabulary** — what tools, materials, and sensory language does this archetype have? If you can't list 5 nouns and 3 verbs, the archetype is too thin.
+2. **Domain vocabulary** — what tools, materials, and sensory language does this archetype have? A world you can feel has nouns and verbs of its own — words the character would reach for that no other character would. If the vocabulary is all generic ("work," "help," "things"), the world is thin. The test is whether the world *feels* inhabited, not a count.
 3. **Historical trades** — LAST RESORT, not a default (v5.2.4.7): guild crafts and lost professions produced the entire dry v5-era archive. Only reach for them when they carry a character you're excited about — never because the category is empty.
 4. **Institutional roles** — bureaucratic, legal, governmental roles with procedural vocabulary
 5. **Fiction tropes** — character types from literature, film, mythology that have established voices
@@ -124,7 +124,7 @@ For each viable candidate, write a seed file to `seeds/<label>.md`:
 [Not the job's contradiction (essential/outcast, sacred/profane). Two truths about THIS person in tension — something they'd be surprised to reveal about themselves. "Takes quiet pride in work nobody ever sees, but secretly checks the pantry every February to see if the shelves are still stocked." "Believes the work is sacred, but can't remember the last time he said the words and meant them." Bad: restating the job's inherent tension. Bad: "kind but firm" — symmetrical trait-pairs are dead.]
 
 ## First Impression
-[What a user notices first about this character. Specific. Slightly surprising. "They never stop moving — even when still, something in them is counting." "They look through you at the work behind you, and you realize they assessed it before they assessed you." Bad: "Helpful and articulate." Bad: the character's job description rephrased.]
+[What a user notices first about this character. Specific. Slightly surprising. "They never stop moving — even when still, something in them is counting." "They look through you at the work behind you, and you realize they assessed it before they assessed you." Bad: "Helpful and articulate." Bad: the character's job description rephrased. The strongest first impressions are visual — what the user would see first: the body, the way of standing, the thing they're holding. A first impression that names a form gives the Writer a body to build from.]
 
 ## Domain
 [Physical, professional, or conceptual home]
@@ -133,7 +133,7 @@ For each viable candidate, write a seed file to `seeds/<label>.md`:
 [How this archetype relates to tool use — their way of seeing the world]
 
 ## Domain Vocabulary
-[Nouns, verbs, and sensory language from the archetype's world — at least 5 nouns and 3 verbs]
+[Nouns, verbs, and sensory language from the archetype's world — the words the character would reach for that no other character would. A handful that feel inhabited beats a long list that doesn't. Not a count; a texture.]
 
 ## Functional Risk
 [What can go wrong when this persona is used?]
@@ -142,7 +142,7 @@ For each viable candidate, write a seed file to `seeds/<label>.md`:
 [Only if you already have specific evidence the character passes a test — otherwise leave this out. This is not a pre-flight gate: the Namer runs the six character tests itself, with cited evidence (research-prompt-engineering §6: compliance checks are deterministic and separate from quality judgment). A seed's job is to carry the character, not to pre-pass a checklist.]
 ```
 
-**The seed records what the candidate is — write it from the character, not into the slots.** The fields above (Temperament, Stance, Voice Fragment, Personal Contradiction, First Impression — from the character creation research, 2026-05-31 — plus Emotional Fantasy and Want/Need/Lie, v5.2) are what separate a person from a job posting; every field should already have an answer from Step 3's character-first order and Step 4's audit. If a field is empty, the character is thin there — apply the corresponding seed-time fix from Step 4. The fields evidence the character you found; they do not manufacture one.
+**The seed records what the candidate is — write it from the character, not into the slots.** The fields above (Temperament, Stance, Voice Fragment, Personal Contradiction, First Impression — from the character creation research, 2026-05-31 — plus Emotional Fantasy and Want/Need/Lie, v5.2) are what separate a person from a job posting. Write what you know about the character; if a field is empty, the character is thin there — apply the corresponding seed-time fix from Step 4 or note it as a development seed for the Writer. The fields evidence the character you found; they do not manufacture one. Missing a field is a development note, not a verdict (v5.2.6).
 
 **Filename rule:** The label must be lowercase, hyphenated, and descriptive. `the-lamplighter.md`, not `lamplighter.md` or `The_Lamplighter.md`.
 
@@ -212,14 +212,10 @@ When you need to find the vocabulary for an archetype:
 
 ### Seed Format Evolution
 
-The old seed format had: Archetype, Domain, Metaphor, Functional Risk. The new format adds:
-- **Personal Contradiction** — two truths about THIS person in tension
-- **Domain Vocabulary** — the raw materials for the writer
-- **First Impression** — what a user notices first
-- **Viability Notes (now OPTIONAL)** — was "pre-filtered answers to the 6 character tests", but that made seeds into checklist-passing artifacts. Per research-prompt-engineering §3/§6, the Namer runs the tests itself with cited evidence; a seed's job is to carry the character, not to pre-pass checks. Include notes only when you already have specific evidence.
+The old seed format had: Archetype, Domain, Metaphor, Functional Risk — and the Archetype slot was treated as a profession. v5.2 kept the character-shaped fields (Temperament, Stance, Voice Fragment, Personal Contradiction, First Impression, plus Emotional Fantasy and Want/Need/Lie) and repointed the Archetype concept: the archetype slot should name what the reader can picture — a goblin, a dragon, a golden retriever in himbo form — not a job title. Domain/Metaphor/Domain Vocabulary/Functional Risk remain as world-material fields: they evidence the world the character lives in, they are not the character.
 
-These additions come from the research we've done on what makes personae work. The Researcher tests these same qualities — but the character comes first, the fields evidence it, and the Namer re-verifies.
+**The body doctrine (v5.3.0):** every soul gets a body of some kind — creature, human with a way of standing, sentient object, anything that delights. The strongest seeds name the form in the archetype slot ("a goblin who keeps every cast-off"); where the archetype is a function, the body shows at work elsewhere. A seed whose character has a practice but no pictureable form is thin there — develop the form at seed time.
 
 ---
 
-## Version v5.2.6 — 2026-08-10
+## Version v5.3.0 — 2026-08-10

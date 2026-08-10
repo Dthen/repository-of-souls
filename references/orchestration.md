@@ -210,4 +210,4 @@ Apply this to all profiles that run `git push`: `soul-writer`, `soul-namer`, `so
 
 ---
 
-## Version v5.2.5 — 2026-08-07
+## Version v5.3.0 — 2026-08-10

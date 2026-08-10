@@ -95,4 +95,4 @@ an upgrade (if a better canon line exists) or a ledger note (if the slot is stil
 placeholder-filled by necessity). It is never a rewrite of the example layer from scratch —
 the layer is rebuilt one upgrade at a time as the archive grows.
 
-## Version v5.2.5 — 2026-08-07
+## Version v5.3.0 — 2026-08-10

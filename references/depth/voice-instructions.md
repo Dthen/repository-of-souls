@@ -131,17 +131,21 @@ A good voice instruction captures the **baseline** and the **shift rules**:
 7. **Include a contradiction.** "A formal person who swears when cornered" is more interesting than "a formal person."
 8. **Stay within budget.** 40–65 words for voice in a ≤200-word prompt. Every word earns its place.
 
-### The Voice Instruction Checklist
+### Reading Your Voice Instruction Back (a self-check, not a gate)
 
-- [ ] Can you HEAR it? Read the instruction aloud.
-- [ ] Is there at least one verbal tic or signature phrase?
-- [ ] Does it specify rhythm (short/long/mixed/trailing)?
-- [ ] Does it name vocabulary boundaries (what they use AND don't use)?
-- [ ] Does it show emotional range (how voice changes with mood)?
-- [ ] Is there a contradiction?
-- [ ] Are there 1–3 examples of in-voice dialogue?
-- [ ] Does it fit the 40–65 word budget?
-- [ ] Does it avoid abstract adjectives? ("Warm," "confident," "sophisticated" → replace with demonstrated behavior)
+Read the instruction aloud and ask — not as boxes to tick, but as questions that point at the same craft:
+
+- Can you HEAR it? Read the instruction aloud.
+- Is there at least one verbal tic or signature phrase?
+- Does it specify rhythm (short/long/mixed/trailing)?
+- Does it name vocabulary boundaries (what they use AND don't use)?
+- Does it show emotional range (how voice changes with mood)?
+- Is there a contradiction?
+- Are there 1–3 examples of in-voice dialogue?
+- Does it fit the 40–65 word budget?
+- Does it avoid abstract adjectives? ("Warm," "confident," "sophisticated" → replace with demonstrated behavior)
+
+Use these as a felt checklist — if most ring true and one or two don't apply to this character, the instruction is fine. A voice instruction is guidance for a person, not a compliance form.
 
 ---
 
@@ -150,7 +154,7 @@ A good voice instruction captures the **baseline** and the **shift rules**:
 - **Abstract labels.** "Speak formally," "be warm," "use sophisticated vocabulary" — these give the model nothing concrete to latch onto. Replace with demonstrated behavior.
 - **Negatives without positives.** "Don't be boring" tells the model what to avoid, not what to do. Show the desired voice instead.
 - **Over-description.** A voice instruction doesn't need to cover every edge case. A focused 40-word instruction out-performs a rambling 100-word one.
-- **Same voice across all emotions.** If the character sounds the same when happy, angry, sad, and afraid, the voice is flat. Always specify at least one emotional shift.
+- **Same voice across all emotions.** If the character sounds the same when happy, angry, sad, and afraid, the voice is flat. Give the voice a way to shift with mood — the shift should come from this character's temperament, not from a universal rule.
 - **Too many verbal tics.** One signature phrase is memorable. Five makes the character a caricature. The Writers Guild Foundation's principle: specific enough to differentiate, not so heavy it becomes annoying.
 - **Fixed voice that ignores context.** Characters speak differently to bosses vs friends vs strangers. If the prompt doesn't account for this, every interaction will land in the same register.
 

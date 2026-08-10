@@ -64,27 +64,15 @@ Use `references/depth/name-sound-symbolism.md` for phoneme guidance. Use `refere
 
 ---
 
-## Step 3: Score Each Name on 5 Axes
+## Step 3: Pick the Winner
 
-Score each candidate 1–5 on each axis:
+Collision safety is non-negotiable. Among collision-safe candidates, pick the one that sounds like this soul — the name whose sound carries the character. Read the candidates aloud; the winner is the one you'd believe as the first line of this SOUL. Justify your choice in one or two sentences: why this name, what the sound carries, how it fits the archetype.
 
-1. **Speakability** — Can you say it aloud in one beat? Is the stress unambiguous?
-2. **Archetype Fit** — Does the sound carry the craft? Do the phonemes match the domain?
-3. **Distinctiveness** — Is it different from every name in the archive? Does it stand out?
-4. **Collision Safety** — Does it avoid phonetic overlap with existing names? This is a hard floor — any collision risk and the candidate is disqualified.
-5. **Memorability** — Would you remember this name after hearing it once? Does it have a hook?
+This is a holistic read, not a score-sum: fine-grained numeric scoring adds noise rather than precision, and implicit aggregation beats explicit checkbox-sums (research-prompt-engineering §4/§6: 3-point or binary scales align with human judgment more reliably than 5-point or 10-point scales; GoDaddy implicit aggregation outperforms explicit aggregation).
 
 ---
 
-## Step 4: Pick the Winner
-
-Collision safety is non-negotiable. Among collision-safe candidates, pick the highest total score.
-
-Explain your choice in one or two sentences: why this name, what the sound carries, how it fits the archetype.
-
----
-
-## Step 5: Write the Name File
+## Step 4: Write the Name File
 
 Write `names/<name>.md` with:
 
@@ -103,7 +91,7 @@ The filename is the lowercase name: `lomas.md`, `moulden.md`, `blythe-carrick.md
 
 ---
 
-## Step 6: Create the Writer Task
+## Step 5: Create the Writer Task
 
 After writing the name file, create a Writer task on the `soul-factory` board:
 
@@ -118,10 +106,10 @@ Body must include:
 
 ---
 
-## Step 7: Complete
+## Step 6: Complete
 
 Call `kanban_complete` with:
-- **Summary:** viability verdict, winning name, total score
+- **Summary:** viability verdict, winning name, selection rationale
 - **Metadata:** name file path, seed file referenced, Writer task ID
 
 ---
@@ -144,4 +132,4 @@ If viability fails at any point:
 
 ---
 
-## Version v5.2.6 — 2026-08-10
+## Version v5.3.0 — 2026-08-10

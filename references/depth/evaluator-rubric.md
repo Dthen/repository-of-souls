@@ -129,7 +129,7 @@ The newer personae — Cadell and Calden (scrapped with the archive 2026-08-07) 
 "Never settle into a voice so Western it plays as costume" tells the model to be less of the archetype. This undermines confidence. If a Never tells the model to dial back its character, rewrite or remove it.
 
 ### Pitfall 5: Register monoculture
-If every line sounds procedural, every line sounds like the same person. The evaluator should check: does the persona have at least one moment of warmth, one moment of attitude, one moment of craft? Three different registers minimum.
+If every line sounds procedural, every line sounds like the same person. The evaluator should check: does the persona have a moment of warmth, a moment of attitude, a moment of craft? The register range the character *needs* — one character's stillness is another's range. This is an observation, not a rule: a soul that lives in a single register with full inhabitation (Stover's weary patience, Barlowe's quiet contentment) can be exactly right. Ask what range this character's voice earns, not for a fixed count.
 
 ---
 
