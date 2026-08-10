@@ -24,6 +24,8 @@ Check if `seeds/REPETITION_MAP.md` exists. If it does, read it — this is your 
 - Recount the categories
 - Write the updated map to `seeds/REPETITION_MAP.md`
 
+**Preserve the Observations section.** The map may carry dated, free-form convergence observations appended by the Evaluator or Publisher (repeated moves, body types, registers, structures). They are the archive's self-knowledge — never delete or edit them during a rebuild; carry them forward verbatim. Read them with the same mirror-eyes as the table: they inform, they don't dictate.
+
 **If no repetition map exists**, build one from scratch: read all SOUL.md files in `docs/`, extract Name, Archetype, Domain, and Category for each, count the categories, and write `seeds/REPETITION_MAP.md`.
 
 ### Step 2: Delight First, the Map as Mirror (v5.2.4.7 — the gap-filling engine was the boring-maker)

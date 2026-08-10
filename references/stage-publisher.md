@@ -38,8 +38,9 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 1. **Confirm the Evaluator's verdict** — the draft was picked with no fixable issues
 2. **Copy** to `docs/<name>.md`
 3. **Rebuild the site** — run `python3 scripts/build_site.py`
-4. **Commit and push** the changes
-5. **kanban_complete** — use the APPROVE template below
+4. **Maintain the archive** — see *Archive Maintenance* below (repetition map + example ledger)
+5. **Commit and push** the changes
+6. **kanban_complete** — use the APPROVE template below
 
 #### kanban_complete — APPROVE
 
@@ -63,8 +64,9 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 3. **Write** the fixed version to `docs/<name>.md`
 4. **Confirm the flagged issues are resolved** — re-read the fixed lines
 5. **Rebuild the site** — run `python3 scripts/build_site.py`
-6. **Commit and push** the changes
-7. **kanban_complete** — use the FLAG template below
+6. **Maintain the archive** — see *Archive Maintenance* below (repetition map + example ledger)
+7. **Commit and push** the changes
+8. **kanban_complete** — use the FLAG template below
 
 #### kanban_complete — FLAG
 
@@ -78,6 +80,22 @@ Read the evaluation notes at `evaluations/<name>.md`. Determine which of the two
 **Site:** rebuilt and pushed
 **Summary:** <count> flagged issue(s) fixed with targeted edits, published to docs/, and site rebuilt.
 ```
+
+---
+
+## Archive Maintenance
+
+You are the last stage to touch the archive — the archive's self-knowledge evolves through you. Two duties, both light:
+
+1. **Update the repetition map** (`seeds/REPETITION_MAP.md`):
+   - Add the published soul's row to the Published souls table (Name / Archetype / Domain / Category — match the existing columns).
+   - If the Evaluator appended a dated **convergence observation** to the map's Observations section, leave it as-is (it's theirs, already in place for the next Researcher).
+   - If *you* notice a convergence the Evaluator didn't (you've just seen the whole archive), append your own dated observation — same spirit: a line or two, your own words, only if you spot one. No checklist, no quota.
+   - Update the category counts line if it changed.
+
+2. **Check the example ledger** (`references/example-upgrades.md`): if a line from this published soul teaches a craft point *better* than a current example slot (same lesson, more character), upgrade it byte-verbatim and add a ledger row per the ledger's procedure. If no canon line beats the current example, leave it — the layer drifts toward canon one upgrade at a time, never via rewrite sprees. This duty is deliberately light: example upgrades are judged by the ledger's own rule, not by churn.
+
+**Why this exists:** the repetition map and example ledger are the archive's living memory. If they only update when a Researcher happens to notice, the pipeline forgets its own patterns (the "never had one of his own" family ran to four souls before anyone flagged it). The Evaluator and Publisher are the stages with the archive fresh in context — the memory writes itself through them.
 
 ---
 
