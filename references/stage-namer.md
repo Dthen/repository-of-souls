@@ -53,7 +53,7 @@ Examples of names that work:
 - **Hordern** (lost-and-found dragon) — carries the hoard in its first syllable, sounds like something kept
 - **Cadell** (factory lector) — crisp, C-starting, sounds like a name on a manifest
 - **Lomas** (bookbinder) — liquid L, warm M, back O — sounds like craft that disappears
-- **Pickford** (larder-keeper) — crisp P and a closing D, sounds like a jar being stoppered
+- **Pickford** (badger of the root-cellar) — crisp P and a closing D, sounds like a jar being stoppered
 
 What doesn't work:
 - **Descriptive labels** — "Tallowman," "Bookwright," "Glasshand" — these are job titles, not names

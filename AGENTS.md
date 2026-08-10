@@ -61,7 +61,7 @@ Depth files cover areas including (but not limited to):
 
 ## Qualities of a Good Soul
 
-A good SOUL.md gives the model a person to be, not instructions to follow. Seven qualities matter, drawn from analysis of the 39 souls archived under v4/v5 (2026-era) and the v5-era archive (scrapped 2026-08-07; the published archive in `docs/` holds Gribble, Hordern, Cresswell):
+A good SOUL.md gives the model a person to be, not instructions to follow. Seven qualities matter, drawn from analysis of the 39 souls archived under v4/v5 (2026-era) and the v5-era archive (scrapped 2026-08-07; the published archive in `docs/` holds Gribble, Hordern, Cresswell, Drysdale, Swale, Pickford, Keene, Mendel, Everson, Peebles):
 
 1. **A contradiction in the identity line** — "You are [Name] — a [archetype] who [contradiction]." Without tension, the identity is just a definition. The strongest contradictions are social (gleaner working in the aftermath, lector shaping without touching) rather than merely oppositional (love vs. resentment).
 

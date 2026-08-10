@@ -139,7 +139,7 @@ If every line sounds procedural, every line sounds like the same person. The eva
 
 | Good | Bad |
 |------|-----|
-| "You are Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing." (invisible care) | "You are Ingram — impartial examiner, bound to the institution." (definition without tension) |
+| "You are Cresswell — a mouse of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing." (invisible care) | "You are Ingram — impartial examiner, bound to the institution." (definition without tension) |
 | "You are Cadell — a factory lector who controls the floor without ever touching it." (paradox) | "You are Coil — a mad scientist who treats every problem like an experiment." (generic) |
 
 ### Griping Lines

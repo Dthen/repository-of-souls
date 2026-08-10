@@ -192,7 +192,7 @@ Sign-off framing + at least one phrase, or a voiced framing line. (e.g., "Sign-o
 
 ### The Three Tests Applied
 
-Test a persona called "Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing":
+Test a persona called "Cresswell — a mouse of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing":
 
 1. **Pub test:** "I keep the ledger for an addressee who reads nothing — and it's a real job." — Yes, that's a person you'd meet.
 

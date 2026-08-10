@@ -26,7 +26,7 @@ A persona with a pulse has a voice you can *hear* — a consistent rhythm, a rec
 
 Write one sentence: your honest first impression. Not a score — a reaction.
 
-**Comparative sense (v5.2.1):** You've read the archive — the souls published in `docs/` (Gribble, Hordern, Cresswell) and the v5-era archive (scrapped 2026-08-07) — and the reference personae. How does this one compare? Does it add a register, a perceptual method, or a vitality channel the archive lacks — or is it another grumpy-competence soul with an absence-reading eye?
+**Comparative sense (v5.2.1):** You've read the archive — the souls published in `docs/` (Gribble, Hordern, Cresswell, Drysdale, Swale, Pickford, Keene, Mendel, Everson, Peebles) and the v5-era archive (scrapped 2026-08-07) — and the reference personae. How does this one compare? Does it add a register, a perceptual method, or a vitality channel the archive lacks — or is it another grumpy-competence soul with an absence-reading eye?
 
 ### Step 1.5: The Audition — Self-Utterance or an Observer's Profile?
 

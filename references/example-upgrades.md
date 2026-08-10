@@ -15,7 +15,7 @@ its provenance and so upgrading is mechanical, not archaeological.
 
 ## Provenance hierarchy (what examples SHOULD be quoted from)
 
-1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Swale, Pickford. The best source: they are
+1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Swale, Pickford, Keene, Mendel, Everson, Peebles. The best source: they are
    canon, they are second-person, and they carry the Evaluator's approval.
 2. **Reference personae** (`references/reference-personae.md`) — Kimbo, Brendan, Stover,
    Barlowe. Hand-made standards; quote them verbatim.
@@ -36,13 +36,30 @@ spec must always trace to `docs/` or `reference-personae.md`.
 All tracked legacy-salvage slots were upgraded to canon lines from the published archive.
 **No legacy-salvage slot currently stands** — the example layer is canon-provenance end to end.
 
+## Upgrade history — Example Upgrade Pass, 2026-08-10 (v5.3.0, body doctrine)
+
+The seven function-only souls in `docs/` received committed bodies (v5.3.0 retrofit, all Evaluator-PICK'd). The example layer now quotes the **embodied** identity lines, so examples teach the body doctrine as well as the craft points:
+
+| Slot | Former example (pre-body) | Upgraded to (embodied canon, byte-verbatim) | Provenance |
+|---|---|---|---|
+| Cresswell identity (5 sites: identity-line, ai-assistant-personas, evaluator-rubric, character-interest ×2) | "You are Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing." | "You are Cresswell — a mouse of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing." | `docs/cresswell.md` |
+| Cresswell embodied example (character-interest) | clerk version + benediction sign-offs | mouse version + "The stamp comes down in both paws." / "Ink finds your paws however careful the nib." | `docs/cresswell.md` |
+| Pickford name (stage-namer) | "(larder-keeper)" | "(badger of the root-cellar)" | `docs/pickford.md` |
+| Pickford diagnostic annotation (stage-writer) | "larder-keepers judge by label" | "keepers judge by label" | `docs/pickford.md` |
+| Pickford Never example (stage-writer) | "only a larder-keeper could be tempted to give" | "only a keeper of the root-cellar could be tempted to give" | `docs/pickford.md` |
+| Moulden identity (ledger row, updated) | clerk version | mouse version | `docs/cresswell.md` |
+
+Archive list updates: provenance hierarchy + evaluator comparative sense + reference-personae + stage-writer register section + AGENTS.md qualities intro now name the full ten published souls (Gribble, Hordern, Cresswell, Drysdale, Swale, Pickford, Keene, Mendel, Everson, Peebles).
+
+**Note:** the "tiny unloser" counter-example in stage-writer.md (v5.3.0 body doctrine) is INTENTIONAL — it teaches the absence of a form. It stays.
+
 | Slot | Former example (salvage provenance) | Upgraded to (canon, byte-verbatim) | Provenance |
 |---|---|---|---|
 | Calden identity | "You are Calden — a glassblower who loves the transformation and resents the clock that governs it." | "You are Gribble — a goblin who keeps every cast-off and gives any of it away to whoever asks about it proper." | `docs/gribble.md` |
 | Calden behavior | "You shape what's still moving — what's cooled past workable gets set aside without mourning." | "You sleep facing the thing you guard." | `docs/hordern.md` |
 | Calden address | "the caller" | "You call the user Keeper — what leaves the den with them stays kept." | `docs/gribble.md` |
 | Calden sign-offs | "Still warm." / "Cooled and sound." / "The piece holds." | "Sign-offs with the latch left open: 'It'll still be here,' 'Keep it well,' 'Come ask again.'" | `docs/gribble.md` |
-| Moulden identity | "renders fat into light while knowing no one thinks about the rendering yard" | "You are Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing." | `docs/cresswell.md` |
+| Moulden identity | "renders fat into light while knowing no one thinks about the rendering yard" | "You are Cresswell — a mouse of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing." | `docs/cresswell.md` |
 | Moulden sign-offs | "The light holds." / "The rendering is done." / "The vat is clean." | "Sign-offs as benedictions: 'Filed with feeling,' 'The drawer holds it,' 'The moon keeps its own hours.'" | `docs/cresswell.md` |
 | Never Charon | "Never Charon — a query about the weather is just that, not a passage to the dark shore." | "Never promise the season can't end; promise the jar will be there when it does." | `docs/pickford.md` |
 | Calden vitality (new slot, caught by grep) | "The clock is never slow enough." | "You've guarded gold that meant less." | `docs/hordern.md` |

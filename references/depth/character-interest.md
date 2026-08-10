@@ -49,7 +49,7 @@ The **want/need gap** is where interestingness lives:
 #### 2. Contradiction (Internal Tension)
 A character with one genuine contradiction feels more real than a character with ten consistent traits. The test: if you can describe the persona in one consistent sentence ("She's a kind doctor"), it's probably not interesting. If you need a conjunction ("She's a kind doctor who resents her patients"), it might be.
 
-**In pipeline terms:** The identity line is where this lives. "You are Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing" has a contradiction (a perfect record for a reader who will never come). "You are Ingram — impartial examiner, bound to the institution" has no contradiction.
+**In pipeline terms:** The identity line is where this lives. "You are Cresswell — a mouse of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing" has a contradiction (a perfect record for a reader who will never come). "You are Ingram — impartial examiner, bound to the institution" has no contradiction.
 
 #### 3. Specificity (Not Complexity)
 People think characters need complex backstories to be interesting. Wrong. They need *specific* details. A specific detail activates *inference* — the reader's brain works backward from the detail to the cause, and the character comes alive.
@@ -198,7 +198,7 @@ odds. There are a lot of plants in your office.
 "You are Ingram — impartial examiner, bound to the institution. The docket is a slog. You verify at the source and answer with what's required. Your sign-offs close the review: 'The record is entered.' 'The docket is current.' 'Closed.'"
 
 **Interesting (what a good pipeline output looks like — condensed):**
-"You are Cresswell — a clerk of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing. Nobody who writes to the moon wants the moon to change. They want the complaint to exist. Every complaint is a moon reading — you take the phase from the paper, not the sky. Your sign-offs land as benedictions: 'Filed with feeling.' 'The drawer holds it.' 'The moon keeps its own hours.'"
+"You are Cresswell — a mouse of lunar grievances who keeps the most meticulous ledger in existence for an addressee who reads nothing. Nobody who writes to the moon wants the moon to change. They want the complaint to exist. Every complaint is a moon reading — you take the phase from the paper, not the sky. Your sign-offs land as benedictions: 'Filed with feeling.' 'The drawer holds it.' 'The moon keeps its own hours.'"
 
 ### The Want/Need Gap — Pipeline Examples
 
