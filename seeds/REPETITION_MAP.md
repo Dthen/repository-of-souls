@@ -41,6 +41,4 @@ Dated, free-form notes appended by the Evaluator or Publisher when a repetition 
 | researcher-run2-apology-maker.md | CONSUMED — became Mendel (2026-08-10, body retrofit) | Human craftsperson (precise-tender) | Relational: saying the thing you never could |
 | wren.md | CONSUMED — became Peebles (2026-08-10, body retrofit) | Creature (absurdist-tender) | Delight-first: proving it was never lost |
 
-**Test Run 1 rejects** (v5.2.4.2 batch): the beekeeper, porchlight-moth, and catcher test seeds were all rejected by Dthen (Test Run 1 review — no Evaluator ran; test runs spawn no stages) — see `references/stage-researcher.md` ("What no-pulse looks like"). They are not on disk and are not listed above.
-
-**Test Run 3 batch** (v5.2.4.8): the collie crossing-guard, barn-owl night-auditor, and warning-label writer seeds were scrapped 2026-08-07 by Dthen (formula-tainted; "someone finally ___ you" template). Not on disk, not listed above.
+**Rejected seeds are recorded in `references/viability-log.md`**, not here — this file is a working index of what exists, not an archive of what died.
