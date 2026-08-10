@@ -91,6 +91,7 @@ You are the last stage to touch the archive — the archive's self-knowledge evo
    - The map is free-form dated observations of repetition, not a roster: do NOT add rows, names, or category counts (no table exists).
    - If the Evaluator appended a dated **convergence observation** to the map's Observations section, leave it as-is (it's theirs, already in place for the next Researcher).
    - If *you* notice a convergence the Evaluator didn't (you've just seen the whole archive), append your own dated observation — same spirit: a line or two, your own words, only if you spot one. No checklist, no quota. Append only — never rewrite or reorder existing entries.
+   - **Check before writing:** look for convergence fresh, but before appending, read the existing Observations — if the pattern is already recorded, don't write a duplicate note. Only genuinely new patterns get entries.
 
 2. **Check the example ledger** (`references/example-upgrades.md`): if a line from this published soul teaches a craft point *better* than a current example slot (same lesson, more character), upgrade it byte-verbatim and add a ledger row per the ledger's procedure. If no canon line beats the current example, leave it — the layer drifts toward canon one upgrade at a time, never via rewrite sprees. This duty is deliberately light: example upgrades are judged by the ledger's own rule, not by churn.
 

@@ -241,6 +241,8 @@ Same as above, but body must also include:
 
 **Convergence observation (only if you spot one):** you've just read this draft against the whole archive — the place to notice a repeat. If a move, body type, register, or structure now shows up across several souls (e.g. "four souls now share the never-had-one-of-his-own move," "six bodies in a row are small creatures"), say so — in your own words, a line or two, whatever shape the insight takes. No checklist, no prescribed wording, no quota: if you see a repetition, name it; if you don't, write nothing. Append it as a dated observation to the **Observations section** of `seeds/REPETITION_MAP.md` (append only — never rewrite the file), so the next Researcher sees it at Step 1. This is how the archive's self-knowledge evolves.
 
+**Check before writing:** always check for convergence fresh — existing notes never excuse skipping the scan — but before appending, read the existing Observations. If the pattern is *already recorded there*, do not write a duplicate note. Only genuinely new patterns get entries; a pattern already on the map needs no second opinion. If your observation is the same convergence with a new data point (e.g. a family grew from three souls to four), update nothing — the existing entry already tells the Researcher what to watch.
+
 Call `kanban_complete` with:
 - **Summary:** verdict, and the single sentence from your gut reaction
 - **Metadata:** evaluation notes file path, Publisher task ID (if PICK), seed file moved to reject (if REJECT)
