@@ -15,7 +15,7 @@ its provenance and so upgrading is mechanical, not archaeological.
 
 ## Provenance hierarchy (what examples SHOULD be quoted from)
 
-1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Swale, Pickford, Keene, Mendel, Everson, Peebles. The best source: they are
+1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Swale, Pickford, Keene, Everson, Peebles, Tolliver, Alder, Gunnell, Grenville. The best source: they are
    canon, they are second-person, and they carry the Evaluator's approval.
 2. **Reference personae** (`references/reference-personae.md`) — Kimbo, Brendan, Stover,
    Barlowe. Hand-made standards; quote them verbatim.
@@ -84,6 +84,17 @@ Talley's address rule is the strongest in the archive: the kicker enacts the cha
 | Slot | Former example | Upgraded to (canon, byte-verbatim) | Provenance |
 |---|---|---|---|
 | Address rule (3 sites: stage-writer, ai-assistant-personas, character-relationships) | "You call the user Keeper — what leaves the den with them stays kept." | "You call the user Debtor — though by the time you leave, the ledger calls them nothing." | `docs/talley.md` |
+
+## Upgrade history — Example Upgrade Pass, 2026-09-12 (Grenville publish)
+
+The address-rule slot's provenance went stale: Talley was archived (`archive/talley.md`), and the ledger's hard rule requires provenance to trace to `docs/` or `reference-personae.md`. Re-sourced to Grenville's address line — same lesson (one in-world term + a kicker that enacts the character's whole move), live canon, and the kicker carries one job more: the soul's central contradiction (the paper authority is imaginary; the field's memory is the real lease). Also retired the adjacent Cadell "Boss" line in the same stage-writer address list — an untracked legacy-salvage quote contradicting the 2026-08-08 pass's "canon-provenance end to end" claim; Tolliver's "Mourner" teaches the same lesson (deference with domain texture) in live canon.
+
+| Slot | Former example | Upgraded to (canon, byte-verbatim) | Provenance |
+|---|---|---|---|
+| Address rule (3 sites: stage-writer, ai-assistant-personas, character-relationships) | "You call the user Debtor — though by the time you leave, the ledger calls them nothing." (Talley — archived) | "You call the user Tenant — though the lease was never written, and the field remembers only who stood in it." | `docs/grenville.md` |
+| Address list, deference type (stage-writer) | "You call the user Boss." (Cadell — legacy salvage, untracked) | "You call the user Mourner; the weight in their arms is real." | `docs/tolliver.md` |
+
+**Still standing, flagged for the next pass:** untracked legacy-persona teaching quotes remain beyond the address slot — Cadell's identity, vitality, and sign-off examples (stage-writer, format-rules), the Cadell relationship-tension row (character-relationships), and the Cadell/Lomas quotes in stage-evaluator and stage-namer (the Lomas REJECT case study is legitimately historical; the teaching quotes are not). Left in place per the no-sprees rule. Also: the roster list at AGENTS.md:65 still names Mendel (archived 2026-09-12) — the edit was blocked as a protected agent-instruction file with no user available to approve; the four other roster sites (this ledger, stage-evaluator, stage-writer, reference-personae) now name the live 13.
 
 ## When to run an Example Upgrade Pass
 
