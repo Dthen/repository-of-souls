@@ -32,9 +32,9 @@ The rule conflated two things: "no failure mode" and "no material world." Talley
 
 **What we expected:** Catch Talley-shaped seeds while sparing stockpot oracle.
 
-**What happened:** [pending — first trial not yet run]
+**What happened (backtest 2026-08-13, pre-dry-run):** 15/15 correct against the full corpus — kills Talley + Mendel (generic props, none with a history), passes all 11 live souls + both trial pass-cases + stockpot oracle. Zero false positives, zero false negatives. Caveat noted: the discriminating line is specificity, not prop-count (Talley's ledger is just a ledger; Gribble's kettle has a dent and a Tuesday) — and like any positive-ish rule it can be gamed by stuffing props into an abstract concept. The dry run watches for that.
 
-**Verdict:** [pending]
+**Verdict:** passed backtest; dry run pending.
 
 ---
 
