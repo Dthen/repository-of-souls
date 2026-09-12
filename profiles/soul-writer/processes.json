@@ -1,0 +1,24 @@
+[
+  {
+    "session_id": "proc_0e9a76c5ba09",
+    "command": "~/.local/bin/lightpanda serve --host 127.0.0.1 --port 9222 2>&1",
+    "pid": 423136,
+    "pid_scope": "host",
+    "host_start_time": 197619982,
+    "systemd_unit": "",
+    "cwd": "/tmp",
+    "started_at": 1786744103.9828143,
+    "task_id": "default",
+    "session_key": "20260813_212206_2c6319a8",
+    "watcher_platform": "",
+    "watcher_chat_id": "",
+    "watcher_user_id": "",
+    "watcher_user_name": "",
+    "watcher_thread_id": "",
+    "watcher_message_id": "",
+    "watcher_interval": 0,
+    "parent_session_id": "",
+    "notify_on_complete": false,
+    "watch_patterns": []
+  }
+]

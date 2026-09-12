@@ -1,0 +1,33 @@
+model:
+  default: stealth/ox-alpha
+  provider: nous
+  base_url: ''
+  api_mode: chat_completions
+agent:
+  reasoning_overrides:
+    deepseek-v4-flash: max
+    deepseek/deepseek-v4-flash: max
+    stealth/ox-alpha: max
+    x-preview-f-free: max
+fallback_providers:
+- base_url: https://opencode.ai/zen/v1
+  model: x-preview-f-free
+  provider: opencode-zen
+- base_url: https://api.cline.bot/api/v1
+  model: stealth/ox-alpha
+  provider: cline
+- base_url: https://openrouter.ai/api/v1
+  model: stealth/ox-alpha
+  provider: openrouter
+- base_url: ''
+  model: meituan/longcat-2.0:free
+  provider: nous
+auxiliary:
+  vision:
+    provider: auto
+    model: ''
+    base_url: ''
+    api_key: ''
+onboarding:
+  seen:
+    tool_progress_prompt: true
