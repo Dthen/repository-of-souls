@@ -34,11 +34,23 @@ The rule conflated two things: "no failure mode" and "no material world." Talley
 
 **What happened (backtest 2026-08-13, pre-dry-run):** 15/15 correct against the full corpus — kills Talley + Mendel (generic props, none with a history), passes all 11 live souls + both trial pass-cases + stockpot oracle. Zero false positives, zero false negatives. Caveat noted: the discriminating line is specificity, not prop-count (Talley's ledger is just a ledger; Gribble's kettle has a dent and a Tuesday) — and like any positive-ish rule it can be gamed by stuffing props into an abstract concept. The dry run watches for that.
 
-**Verdict:** passed backtest; dry run pending.
+**Verdict:** passed backtest; dry run 2 passed.
+
+**Dry run 2 (2026-08-13):** 3 seeds, 2 pass / 1 deliberate kill. Opera prompter (PASS — the box, the fat-print score with its spine broken at the arias that always dry, the soprano's heels at eye height, dust sifting through the lid during the second act — a world you can walk through in mitten-deep specificity) and rink maker (PASS — the pond at 3am, the lantern, the fan of the hose, steam off the flood, the boom of the ice making itself, the mackinaw, the pump-house thermometer) both passed with the richest worlds the Researcher has ever produced. Crossword-setter (FAIL — kitchen-table props, fantasy carried by mental play not material practice) was correctly killed. The Evaluator explicitly noted the old v5.3.0 failure-mode clause would have *passed* the crossword-setter, proving the new clause discriminates where the old one didn't.
 
 ---
 
-## Earlier entries (compressed)
+## v5.3.2 (2026-08-13): the craft-trap correction (delight recalibration)
+
+**What we tried:** Adding few-shot examples of actual delight-picks to Step 2's delight definition, after noticing "delight" was being read as "rich craft."
+
+**What we expected:** The Researcher's delight compass was miscalibrated — it called the choirmaster, opera prompter, and rink-maker delights (deep worlds, real failure modes, flawless structure) while the user rejected all three as boring. Meanwhile the seeds the user actually loved (Gribble, Drysdale, Gunnell, stockpot oracle) all share a shape the spec never named: **a joke you mean** — silly premise, load-bearing interior.
+
+**What happened:** [pending — first real dry run]
+
+**Verdict:** [pending]
+
+**Also logged:** dry run 2 (v5.3.1 trial) was invalid as a test — the brief asked the Researcher to "note which passed vs. failed," which incentivized planting a designed-to-fail seed. A comprehension quiz, not a dry run. Results binned; future dry runs generate naturally with no planted outcomes.
 
 - **v5.2.4.6, v5.2.4.7:** not-relational kill, not-a-someone kill, no-pulse kill. The three-kills structure itself. Survived because the tests are about the character's shape (agent, relational, pulse), not their world's content.
 
