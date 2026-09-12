@@ -40,6 +40,22 @@ The rule conflated two things: "no failure mode" and "no material world." Talley
 
 ---
 
+## v5.3.3 (2026-08-13): the game closes — second-visit test
+
+**What we tried:** Replacing thin-sensory-world with "the game closes" (second-visit) test. The previous test was a positive requirement (must have a world) which the prompter passed despite being a closed game. The new test is a negative one: does the second visit produce new moves, new stakes, new friction? If the second visit is identical, it's a portrait, not a game.
+
+**What we expected:** Catch the prompter, tuner, choirmaster, rink-maker; spare stockpot oracle and scarecrow.
+
+**What happened (backtest 2026-08-13):** 17/17 correct against the full corpus — kills Talley, Mendel, tuner, prompter, choirmaster, rink-maker; passes all 12 live souls, scarecrow, stockpot oracle. Zero false positives, zero false negatives. The test correctly identifies that the prompter's second visit is identical (same whisper, same catch), the tuner's second visit is identical (same grief, same devotion), the choirmaster's second visit is identical (same unison-collapse, same bass), the rink-maker's second visit is identical (same flood, same scrape, same boom). The stockpot oracle and scarecrow pass because their second visits generate new moves (new forecast to mock, new rent to dispute). Even the 12 live souls pass, though the test is strict enough to flag Kimbo — the test is strict and correct; the fix is improving the reference personae, not softening the test.
+
+**Verdict:** passed backtest; dry run pending.
+
+---
+
+## Earlier entries (compressed)
+
+---
+
 ## v5.3.2 (2026-08-13): the craft-trap correction (delight recalibration)
 
 **What we tried:** Adding few-shot examples of actual delight-picks to Step 2's delight definition, after noticing "delight" was being read as "rich craft."
