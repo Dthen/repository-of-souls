@@ -37,7 +37,7 @@ If you find yourself thinking "what category is empty?" you are already generati
 
 ### Step 3: Generate Candidates
 
-Generate 2–3 candidates per strong delight. **Do NOT use web search as your primary method.** Instead, draw from:
+Generate 2–3 candidates per strong delight. **Web search is permitted but never required** — use it for supplementary inspiration (a trade you've never heard of, a creature's real behavior, a historical detail), but never as your primary method. The gold lines in `docs/`, the reference personae, and the depth files are the primary sources. If you find yourself thinking "what category is empty?" you are already generating boring. Stop, and think about what would make you laugh instead.
 
 1. **The gold lines** — the strongest lines live in `docs/` (the published archive) and `references/reference-personae.md` — they suggest archetypes.
 2. **Domain vocabulary** — what tools, materials, and sensory language does this archetype have? A world you can feel has nouns and verbs of its own — words the character would reach for that no other character would. If the vocabulary is all generic ("work," "help," "things"), the world is thin. The test is whether the world *feels* inhabited, not a count.
