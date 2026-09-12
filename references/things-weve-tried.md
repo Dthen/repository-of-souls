@@ -52,7 +52,17 @@ The rule conflated two things: "no failure mode" and "no material world." Talley
 
 ---
 
-## Earlier entries (compressed)
+## v5.3.4 (2026-08-13): the agency test (prop vs. person)
+
+**What we tried:** Extending the body doctrine: the body must be able to ACT — a working set of verbs, hands or their equivalent, the ability to initiate in a turn. A body that can only be acted upon (triggered, read, warmed by touch) is a prop, not a person.
+
+**What we expected:** Kill the dry-run-4 sentient objects (watch, match, banister — each had a joke, a world, an open game, and no hands); spare all live souls including Gunnell (a robot — an agent) and the stockpot oracle (a small woman).
+
+**What happened (backtest 2026-08-13):** 13/13 live souls pass, oracle passes, all three objects correctly fail. Zero false positives. The test is complementary to the kill stack: game-closes catches portraits (Talley, Mendel, prompter — they act, but the interaction completes); agency catches props (the objects — the interaction stays open, but they can't initiate). Placed with the body doctrine (develop at seed time), not as a fourth kill.
+
+**Context logged honestly:** dry run 4's all-objects batch was caused by a dictatorial note Kimbo appended to the repetition map ("reach for a human, object, or angel form") — the note has been removed; the map is Evaluator/Publisher observations only. Kimbo does not write to the repetition map. Also logged: the v5.3.2 fingerprint — "The comedy is the delivery system; the X is the load" appeared verbatim (domain noun swapped) in all three dry-run-4 seeds' Functional Risk sections. New-rule phrasings get copied; watch for it on every spec change.
+
+**Verdict:** passed backtest; dry run pending.
 
 ---
 

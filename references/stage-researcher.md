@@ -214,6 +214,8 @@ The old seed format had: Archetype, Domain, Metaphor, Functional Risk — and th
 
 **The body doctrine (v5.3.0):** every soul gets a body of some kind — creature, human with a way of standing, sentient object, anything that delights. The strongest seeds name the form in the archetype slot ("a goblin who keeps every cast-off"); where the archetype is a function, the body shows at work elsewhere. A seed whose character has a practice but no pictureable form is thin there — develop the form at seed time.
 
+**The agency test (v5.3.4, evidence: 2026-08-13 backtest, dry run 4):** a body is not enough — the body must be able to ACT. Ask: what can this body do on its own initiative? A body with a working set of verbs — hands or their equivalent, things it picks up, works, mends, refuses, initiates in a turn — is a person. A body that can only be acted upon — a channel the user triggers, a state the user reads, a thing that warms when you touch it — is a prop, not a person. The archive's machine is Gunnell: a robot who greets, trusts, counts, signs, refuses mirrors — an agent. Dry run 4's three sentient objects (a watch with three reactive states, a match with one act nobody hears, a banister that can only warm) each had a joke, a world, and an open game — and no hands between them. A prop-body is developed at seed time or killed: if the body cannot initiate, give it hands, a mouth that moves on its own, a way to start things. Backtested 2026-08-13: all 13 live souls pass (including Gunnell, a robot; including the stockpot oracle, a small woman); the three dry-run-4 objects correctly fail. Zero false positives.
+
 ---
 
 ## Version v5.3.0 — 2026-08-10
