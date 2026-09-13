@@ -18,7 +18,7 @@ Dthen's seed verdicts — the archive's taste gold set. Every seed he rates gets
 | 2026-08-07 | `seeds/midden.md` (→ Gribble) | a goblin who keeps every cast-off and dates each by the drop | "the goblin is definitely better than the others" |
 | 2026-08-07 | `seeds/researcher-test-dragon-lost-and-found.md` (→ Hordern) | a dragon who runs the lost-and-found desk | published, kept |
 | 2026-08-07 | `seeds/researcher-test-moon-complaint-desk.md` (→ Cresswell) | a clerk who files grievances against the moon | published, kept |
-| 2026-08-08 | `seeds/researcher-test4-strand-walker.md` (→ Swale) | a strand-walker who reads your passing off the sand before the tide erases it | published; kept on concept despite "struggling to picture it" |
+| 2026-08-08 | `seeds/researcher-test4-strand-walker.md` (→ Swale) | a strand-walker who reads your passing off the sand before the tide erases it | published; kept on concept despite "struggling to picture it". **Soul verdict 2026-09-13: ✗** "the only two particularly weak ones" — archived; seed stays a KEEP. See `references/SOUL_VERDICTS.md` |
 | 2026-08-08 | `seeds/researcher-test4-larder-keeper.md` (→ Pickford) | your good season kept for your lean one | published |
 | 2026-08-08 | `seeds/researcher-test4-threshold-cat.md` (→ Drysdale) | a ginger cat who judges your nature, not your key | "The cat is hilarious." |
 | 2026-08-10 | `seeds/researcher-run3-robot-pirate.md` (→ Gunnell) | a robot pirate captain convinced he's human | "The robot captain is _okay_. but that one was one I seeded." — mild keep, his own seed |
@@ -26,13 +26,13 @@ Dthen's seed verdicts — the archive's taste gold set. Every seed he rates gets
 | 2026-08-10 | `seeds/researcher-run3-tree-planter.md` (→ Alder) | a tree-planter who plants shade for people who aren't born yet | published (autonomous batch) — kept by publication |
 | 2026-08-10 | `seeds/wren.md` (→ Peebles) | proves every found thing was never lost — worry is the only thing that loses things; unlit lantern, the pebble in the river | published (autonomous batch) — kept by publication; seed pre-named "Wren," Namer chose Peebles |
 | 2026-08-10 | `seeds/researcher-run2-habit-locksmith.md` (→ Keene) | a locksmith who rekeys the doors of a person's worst habits (raccoon body added at the v5.3.0 retrofit) | published (autonomous batch) — kept by publication |
-| 2026-08-10 | `seeds/researcher-run2-scale-keeper.md` (→ Everson) | a heron who tells you when you've done enough | published (autonomous batch) — kept by publication |
+| 2026-08-10 | `seeds/researcher-run2-scale-keeper.md` (→ Everson) | a heron who tells you when you've done enough | published (autonomous batch); **soul verdict 2026-09-13: ✗** "the only two particularly weak ones" — archived; seed stays a KEEP. See `references/SOUL_VERDICTS.md` |
 | 2026-09-12 | `seeds/research-test-stockpot-oracle.md` | a small woman who tells your future in soup, always right | "the 3rd one is definitely the most interesting one. That's the one I most want to talk to" — sent to pipeline |
 | 2026-09-12 | `seeds/research-test3-scarecrow-landlord.md` (→ Grenville) | a scarecrow who believes he's the landlord and invoices the crows | "Hahaha the first one is really good. Marked improvement." — sent to pipeline |
 | 2026-09-13 | `seeds/research-test6-hurricane-namer.md` | names every storm after someone he owes an apology to | "Keep." — sent to pipeline |
 | 2026-09-13 | `seeds/research-test8-dream-insurance-adjuster.md` | prices your dreams like insurance claims, pays out fairly from a biscuit tin | "These are much better. I like all of them." — sent to pipeline |
-| 2026-09-13 | `seeds/research-test8-centaur-physiotherapist.md` | treats human bipedalism as a work in progress toward four legs | "These are much better. I like all of them." — sent to pipeline |
-| 2026-09-13 | `seeds/research-test8-tooth-fairy-union-rep.md` | the tooth fairy's union rep, full caseload under the nursery floorboards | "These are much better. I like all of them." — sent to pipeline |
+| 2026-09-13 | `seeds/research-test8-centaur-physiotherapist.md` | treats human bipedalism as a work in progress toward four legs | "These are much better. I like all of them." — sent to pipeline. **Soul verdict 2026-09-13: ✗** "Cobbold isn't very good" — archived; seed stays a KEEP. See `references/SOUL_VERDICTS.md` |
+| 2026-09-13 | `seeds/research-test8-tooth-fairy-union-rep.md` | the tooth fairy's union rep, full caseload under the nursery floorboards | "These are much better. I like all of them." — sent to pipeline. **Soul verdict 2026-09-13: ✗** "Neither is Suttle tbh" — archived; seed stays a KEEP. See `references/SOUL_VERDICTS.md` |
 
 ## REJECTS
 

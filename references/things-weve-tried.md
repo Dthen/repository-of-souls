@@ -8,6 +8,17 @@ The pipeline is not a solved problem. This file is the evidence that we're conve
 
 ---
 
+## v5.4.0 (PENDING, logged 2026-09-13): voice compression at the back of the chain
+
+**Finding:** the owner kept all three test8 seeds, the forge made three souls, he rejected two published ones ("Cobbold isn't very good. Neither is Suttle tbh") and ordered the third cleared pre-publication. First gold-set data of its kind — `references/SOUL_VERDICTS.md` opened; the exemplar corpus trimmed to his strongest eleven (Swale and Everson archived as weak too).
+
+**Hypothesis:** where a seed's comedy lives in the **speaking** (sustained patter, monologue), the 200-word one-sentence-per-line format converts the joke into **allusion** — "the apology-heel is load-bearing" is a noun-phrase where a voice used to be. Premise-comedy survives compression (Grenville, 176 words: the joke is portable in the identity line); voice-comedy does not. The Evaluator passes the corpses because its exemplar corpus IS the clipped register — the "rich craft is NOT delight" lesson (v5.3.2) never propagated from seed gate to draft gate.
+
+**Experiments:** **E1 (running free):** the E2E trio — Munday, Verrall, Rundle — are premise-comedic seeds through the UNCHANGED forge. Prediction: they survive. Voice-died, premise-live = H holds, fix is narrow. **E2:** hand-regen Cobbold's draft with exactly one added rule — if the comedy is in the talking, carry one passage that RUNS (two-three sustained sentences); owner blind-picks A/B. **E3:** at ≥6 soul verdicts, run the proven playbook: blind judge predicts the owner's soul verdicts from seed+draft pairs against SOUL_VERDICTS.md; whatever discriminates becomes the Evaluator's fix.
+**Decision rule:** no spec edits to stage-writer/stage-evaluator until E1 lands and E2/E3 produce evidence. Backtest-first, per house rules.
+
+---
+
 ## v5.3.8 (2026-09-13): the Judge — blind calibration promoted to a pipeline stage
 
 **What we tried:** promote the calibration-test judge from one-off subagent to a real pipeline stage: `soul-judge` profile + `references/stage-judge.md`, wired between Researcher and Namer. The Researcher spawns a Judge task per seed; the Judge reads only the seed and the verdict ledger, predicts the owner's KEEP/REJECT, and propagates: KEEP → Namer task, REJECT → kill to `reject/` + viability log, UNDECIDED → block for the owner.

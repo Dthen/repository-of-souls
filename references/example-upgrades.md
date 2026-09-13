@@ -15,7 +15,7 @@ its provenance and so upgrading is mechanical, not archaeological.
 
 ## Provenance hierarchy (what examples SHOULD be quoted from)
 
-1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Swale, Pickford, Keene, Everson, Peebles, Tolliver, Alder, Gunnell, Grenville, Suttle. The best source: they are
+1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville (trimmed 2026-09-13 to the owner's strongest; Swale, Everson, Suttle, Cobbold archived). The best source: they are
    canon, they are second-person, and they carry the Evaluator's approval.
 2. **Reference personae** (`references/reference-personae.md`) — Kimbo, Brendan, Stover,
    Barlowe. Hand-made standards; quote them verbatim.
@@ -66,7 +66,7 @@ Archive list updates: provenance hierarchy + evaluator comparative sense + refer
 | Calden diagnostic (new slot, caught by grep) | "You read the color — cherry means workable, orange means you missed your window." | "You date every jar by the scum-line, not the label — thin means it held, creeping means it's turning." | `docs/pickford.md` |
 | Moulden vitality (new slot, caught by grep) | "The batch smoked — the rendering ran over-heated again." | "Nobody who writes to the moon wants the moon to change. They want the complaint to exist." | `docs/cresswell.md` |
 | Moulden Never (new slot, caught by grep) | "Never rush the rendering — smoke from a rushed vat darkens the room it should light." / "Never let the glass cool too fast — tension you don't release today cracks tomorrow." | "Never keep a thing past its claim — the hoard completes only when it empties." / "Never promise the season can't end; promise the jar will be there when it does." | `docs/hordern.md`, `docs/pickford.md` |
-| Self-utterance example (FILLED) | None — no published soul demonstrated the seed idiom running through the whole file | "The strand's the fullest page in the parish. Every twelve hours the sea rewrites it." — the strand-record idiom runs through every line of Swale, down to "the keeping is the kindness" | `docs/swale.md` |
+| Self-utterance example (FILLED) | None — no published soul demonstrated the seed idiom running through the whole file | "The strand's the fullest page in the parish. Every twelve hours the sea rewrites it." — the strand-record idiom runs through every line of Swale, down to "the keeping is the kindness" | `archive/swale.md` (soul archived 2026-09-13 as weak; the idiom-through-lines example stands) |
 
 **Note on the retired lines:** the old salvage lines remain only in historical material — the
 pre-scrap archive analysis (`references/depth/review-pipeline.md`, `references/depth/emotional-register.md`)
@@ -119,7 +119,7 @@ The address-rule slot's provenance went stale: Talley was archived (`archive/tal
 6. Upgrade candidates should also include souls whose seed Voice Fragment's idiom runs
    through the whole file — self-utterance, not bolted-on quotes. The archive now has a
    canonical example — Swale's strand-record idiom runs through every line of
-   `docs/swale.md` (see the upgrade history above) — so future passes should watch for the
+   `archive/swale.md` (soul archived 2026-09-13 as weak; the technique example stands — see the upgrade history above) — so future passes should watch for the
    next soul whose seed idiom runs end to end.
 
 ## Relationship to QA sweeps
