@@ -5,12 +5,13 @@
 Five stages, strictly linear:
 
 ```
-Researcher (T0) → Namer → Writer → Evaluator → Publisher
+Researcher (T0) → Judge → Namer → Writer → Evaluator → Publisher
 ```
 
 | Stage | Assignee | Input | Output |
 |---|---|---|---|
-| Researcher | `soul-researcher` | `docs/`, `seeds/` | New seed files + Namer tasks |
+| Researcher | `soul-researcher` | `docs/`, `seeds/`, ledger | New seed files + Judge tasks |
+| Judge | `soul-judge` | A seed + `seeds/VERDICT_LEDGER.md` | KEEP (→ Namer task) / REJECT (kill) / UNDECIDED (block) |
 | Namer | `soul-namer` | `seeds/<seed>.md` | Viability verdict + chosen name at `names/<name>.md` |
 | Writer | `soul-writer` | `names/<name>.md` + seed | One SOUL.md draft at `drafts/<name>.md` |
 | Evaluator | `soul-evaluator` | The draft at `drafts/<name>.md` | Picks or rejects — kills seed on reject |
@@ -26,6 +27,7 @@ Researcher (T0) → Namer → Writer → Evaluator → Publisher
 |---|---|
 | [`references/orchestration.md`](references/orchestration.md) | Task creation rules, chain validation, pre-flight checks, file path rules, git credentials, naming conventions |
 | [`references/stage-researcher.md`](references/stage-researcher.md) | Researcher (T0) — archetype discovery, seed generation, pipeline spawning |
+| [`references/stage-judge.md`](references/stage-judge.md) | Judge — seed taste gate; predicts the owner's KEEP/REJECT from the verdict ledger, blind |
 | [`references/stage-namer.md`](references/stage-namer.md) | Namer — merged viability screening + naming, 6 character tests, candidate scoring |
 | [`references/stage-writer.md`](references/stage-writer.md) | Writer — single focused write, craft techniques with diverse examples |
 | [`references/stage-evaluator.md`](references/stage-evaluator.md) | Evaluator — evidence-cited evaluation, no checklist |

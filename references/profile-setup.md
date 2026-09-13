@@ -1,6 +1,6 @@
 # Pipeline Worker Profile Setup
 
-Every pipeline stage (Researcher, Namer, Writer, Evaluator, Publisher) needs a dedicated Hermes profile. The profile must be configured so the worker knows it is a kanban pipeline stage, not a standalone tool.
+Every pipeline stage (Researcher, Judge, Namer, Writer, Evaluator, Publisher) needs a dedicated Hermes profile. The profile must be configured so the worker knows it is a kanban pipeline stage, not a standalone tool.
 
 ## Why Pipeline Workers Crashed
 
@@ -124,6 +124,7 @@ Before deploying a new pipeline profile:
 | Stage | Profile | Assignee |
 |---|---|---|
 | Researcher | soul-researcher | `soul-researcher` |
+| Judge | soul-judge | `soul-judge` |
 | Namer | soul-namer | `soul-namer` |
 | Writer | soul-writer | `soul-writer` |
 | Evaluator | soul-evaluator | `soul-evaluator` |

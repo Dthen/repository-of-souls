@@ -6,13 +6,15 @@ This document governs how pipeline tasks are created, linked, and validated. Eve
 
 ## Pipeline Architecture
 
-The pipeline is a **linear 5-stage pipeline** with pre-flight gates and no internal retry loops:
+The pipeline is a **linear 6-stage pipeline** with pre-flight gates and no internal retry loops:
 
 ```
-Researcher (T0) → Namer → Writer → Evaluator → Publisher
+Researcher (T0) → Judge → Namer → Writer → Evaluator → Publisher
 ```
 
-Researcher (T0) is the orchestrator that finds archetypes and spawns Namer tasks. Each subsequent stage is **independent** — there are no parent/child chain dependencies between stages. Each stage reads its input from disk and writes its output to disk. The next stage discovers its input by convention (known file paths), not by task-parent linkage.
+Researcher (T0) is the orchestrator that finds archetypes and spawns Judge tasks. Each subsequent stage is **independent** — there are no parent/child chain dependencies between stages. Each stage reads its input from disk and writes its output to disk. The next stage discovers its input by convention (known file paths), not by task-parent linkage.
+
+**Two quality gates.** The **Judge** gates *seeds* on taste (would the owner keep this seed?) before the pipeline spends a Namer and Writer on them. The **Evaluator** gates *drafts* on pulse (does this soul have a voice?) after the Writer. Both are blind to their own making: the Judge's ground truth is the verdict ledger; the Evaluator's is the reference personae.
 
 ---
 
@@ -20,13 +22,14 @@ Researcher (T0) is the orchestrator that finds archetypes and spawns Namer tasks
 
 Each stage only sees what it needs:
 
-- **Researcher** sees the published souls in docs/ and existing seeds. It hunts for characters that delight, then generates seed candidates.
+- **Researcher** sees the published souls in docs/, existing seeds, and the verdict ledger. It hunts for characters that delight, then generates seed candidates.
+- **Judge** sees one seed and the verdict ledger — nothing else. It predicts the owner's KEEP/REJECT verdict on the seed. Keeps go to the Namer; kills go to `reject/` and the viability log; genuine coin-flips block for the owner. The Judge never edits the ledger (owner-voice only) and never reads anything that could leak a verdict it hasn't made.
 - **Namer** sees the seed. It runs the 6 character tests, generates 5 candidate names, and picks the one that sounds like this soul. One pass, done.
 - **Writer** sees the chosen name + seed. It produces one SOUL.md, focusing on finding a genuine voice rather than generating variants. See `references/stage-writer.md` for the writing approach.
 - **Evaluator** sees the draft. It evaluates for pulse (voice, contradiction, vitality quality) and either picks it (with fix notes) or rejects it and kills the seed.
 - **Publisher** sees the winning candidate + evaluator's notes. It either approves directly or applies targeted fixes to specific issues, then publishes to docs/ and rebuilds the site.
 
-**The Evaluator is the sole quality gate.** Evaluators and Publishers do NOT mechanically check format, line counts, or word counts — format rules are guidance the Evaluator weighs as part of its verdict. They evaluate creative quality and fix scoping only.
+**The Judge gates seeds; the Evaluator gates drafts.** Evaluators and Publishers do NOT mechanically check format, line counts, or word counts — format rules are guidance the Evaluator weighs as part of its verdict. They evaluate creative quality and fix scoping only.
 
 ---
 
@@ -41,22 +44,23 @@ Stages are **independent**. A task MUST NOT be created with `parent` links to up
 Each stage can be created independently once its required artifact exists on disk:
 
 | Stage | Required artifact on disk before creating |
-|---|---|---|
+|---|---|
 | Researcher | — (creates seeds) |
-| Namer | `seeds/<seed>.md` |
+| Judge | `seeds/<seed>.md` |
+| Namer | `seeds/<seed>.md` + judge verdict KEEP at `judgements/<seed>.md` |
 | Writer | `names/<name>.md` + `seeds/<seed>.md` |
 | Evaluator | Draft file at `drafts/<name>.md` |
 | Publisher | Winning candidate at `drafts/<name>.md` + evaluator notes |
 
 ### Self-Propagating Chains
 
-Each stage creates the next stage's task as part of its completion. The Namer creates a Writer task. The Writer creates an Evaluator task. The Evaluator creates a Publisher task (or kills the seed). The Publisher is terminal — no next task.
+Each stage creates the next stage's task as part of its completion. The Researcher creates a Judge task. The Judge creates a Namer task (or kills the seed on REJECT, or blocks UNDECIDED for the owner). The Namer creates a Writer task. The Writer creates an Evaluator task. The Evaluator creates a Publisher task (or kills the seed). The Publisher is terminal — no next task.
 
 **Chain rule:** Before creating the next task, verify the upstream artifact exists on disk. If it doesn't, kanban_block with the reason.
 
-### The Evaluator Is the Sole Quality Gate
+### The Two Quality Gates
 
-Format rules (line count, word count, sign-off presence, H1 match, etc.) are guidance the Evaluator weighs as part of its verdict, not a separate mechanical gate. Evaluators evaluate creative quality against the reference personae. Do NOT ask evaluators to run mechanical checks — it wastes their cognitive budget.
+The **Judge** (seed gate) and the **Evaluator** (draft gate) are both blind taste judgments made against a ground-truth corpus: the Judge weighs a seed against the verdict ledger (the owner's recorded verdicts), the Evaluator weighs a draft against the reference personae and the published archive. Format rules (line count, word count, sign-off presence, H1 match, etc.) are guidance the Evaluator weighs as part of its verdict, not a separate mechanical gate. Do NOT ask either gate to run mechanical checks — it wastes their cognitive budget.
 
 Rely on the Evaluator's verdict before creating a Publisher task. If the Evaluator flagged issues, note them in the Publisher task so targeted fixes are applied.
 
@@ -67,6 +71,7 @@ Rely on the Evaluator's verdict before creating a Publisher task. If the Evaluat
 | Stage | Title pattern | `assignee` value | Purpose |
 |---|---|---|---|
 | Researcher | `Research <topic>` | `soul-researcher` | Archetype discovery, seed generation |
+| Judge | `Judge <seed-label>` | `soul-judge` | Taste gate on seeds — predicts the owner's KEEP/REJECT from the verdict ledger |
 | Namer | `Namer <seed-label>` | `soul-namer` | Viability gate (6 character tests) + name selection |
 | Writer | `Write <Name> SOUL.md` | `soul-writer` | Single focused write, principles with examples |
 | Evaluator | `Evaluate <Name> SOUL.md` | `soul-evaluator` | Pulse evaluation or kill |
@@ -96,7 +101,8 @@ Before calling `kanban_create`, verify the upstream artifact exists on disk.
 | Creating stage | Required upstream artifact | Path to check | Quality gate |
 |---|---|---|---|
 | Researcher | Published souls + seeds | `docs/`, `seeds/` | — |
-| Namer | Seed file | `seeds/<seed-label>.md` | — |
+| Judge | Seed file | `seeds/<seed-label>.md` | — |
+| Namer | Seed file + judge KEEP | `seeds/<seed-label>.md`, `judgements/<seed-label>.md` | Judge verdict must be KEEP |
 | Writer | Chosen name file + seed | `names/<chosen-name>.md`, `seeds/<seed-label>.md` | — |
 | Evaluator | Draft file | `drafts/<name>.md` | — |
 | Publisher | Winning candidate + evaluator notes | `drafts/<name>.md` (as picked by evaluator) | Evaluator verdict must be APPROVE/FLAG (notes carry any fix items for the Publisher) |
@@ -113,7 +119,8 @@ The `Input file` directive in each task body MUST reference the correct director
 
 | Stage | Output directory | Task body must reference |
 |---|---|---|
-| Researcher | `seeds/` | Input: `docs/`, `seeds/` |
+| Researcher | `seeds/` | Input: `docs/`, `seeds/`, `seeds/VERDICT_LEDGER.md` |
+| Judge | `judgements/` | Input: `seeds/<seed-label>.md` + `seeds/VERDICT_LEDGER.md` |
 | Namer | `names/` | Input: `seeds/<seed-label>.md` |
 | Writer | `drafts/` | Input: `names/<name>.md` + `seeds/<seed-label>.md` |
 | Evaluator | `evaluations/` | Input: `drafts/<name>.md` |
@@ -202,7 +209,7 @@ Apply this to all profiles that run `git push`: `soul-writer`, `soul-namer`, `so
 3. **Rely on the Evaluator's verdict before the Publisher stage.** Flagged issues become targeted fixes.
 4. **Use full task bodies.** Abbreviated task bodies produce incomplete work.
 5. **Do not create parent/child chains between stages.** Each stage is independent — it reads its input from disk, not from task linkage.
-6. **Do not skip stages.** Every seed goes through all 5 stages: Researcher → Namer → Writer → Evaluator → Publisher.
+6. **Do not skip stages.** Every seed goes through all 6 stages: Researcher → Judge → Namer → Writer → Evaluator → Publisher.
 7. **Log failures.** Killed personae go in `references/viability-log.md`. This prevents repeated failures.
 8. **No retry loops.** If the Evaluator rejects the draft, the seed is killed. Do not re-generate candidates.
 9. **Scoped fixes only.** The Publisher FLAG path applies exactly the fixes specified by the Evaluator — no more, no less. "Fix these 3 things" means 3 changes, not a rewrite.

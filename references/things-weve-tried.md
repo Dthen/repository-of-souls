@@ -8,6 +8,20 @@ The pipeline is not a solved problem. This file is the evidence that we're conve
 
 ---
 
+## v5.3.8 (2026-09-13): the Judge — blind calibration promoted to a pipeline stage
+
+**What we tried:** promote the calibration-test judge from one-off subagent to a real pipeline stage: `soul-judge` profile + `references/stage-judge.md`, wired between Researcher and Namer. The Researcher spawns a Judge task per seed; the Judge reads only the seed and the verdict ledger, predicts the owner's KEEP/REJECT, and propagates: KEEP → Namer task, REJECT → kill to `reject/` + viability log, UNDECIDED → block for the owner.
+
+**Why:** the round-3 calibration scored 4/4 from the ledger file alone — including killing the object trap unprompted on the body axiom. The owner's stated position: Namer-onwards is solid, the seed gate is the bottleneck, and consistent seeds mean autopilot. The Judge automates the one manual step left in the chain.
+
+**Design commitments (evidence-backed):** blindness is structural, not behavioral — a dedicated profile gets its own context and memory, no lineage to the Researcher's reasoning; self-audited delight died every time it was tried, so the judge must be a different agent than the maker. The ledger is read-only for the Judge — owner-voice only; disagreement lives in `judgements/`, not in the gold set. Taste is re-derived fresh from the ledger every run (round 3 proved a growing file beats a frozen rule list; rounds 1–2 proved a briefing without the file's latest misses).
+
+**Verification (per profile-testing rule):** first live run judged against the owner on seeds he has NOT rated (dry run 7's knitting-gauge grader and tuesday-quiz host) plus the apple as a ledger-visible sanity check.
+
+**Risk on record:** the 4/4 was one batch on one model. Gate errors now cost a killed seed instead of a wasted Namer run — bounded, recoverable, logged in `judgements/` for audit.
+
+---
+
 ## v5.3.7 (2026-09-13): the phantom-fix incident — spec contradictions kill rules
 
 **What we tried (or believed we tried):** After dry run 4's all-objects swing, we believed we'd (a) removed the repetition-map note instructing the Researcher to "reach for a human, object, or angel form" and (b) rewritten the Researcher's delight-compass. Neither had landed — one patch was discarded by a user interrupt, one removal was narrated but never executed. The spec ran dry runs 5–7 with Kill 1's object ban live alongside two contradicting passages: the map note and the body doctrine's "sentient object, anything that delights."

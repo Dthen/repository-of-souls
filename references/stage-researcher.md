@@ -148,18 +148,18 @@ For each viable candidate, write a seed file to `seeds/<label>.md`:
 
 **Filename rule:** The label must be lowercase, hyphenated, and descriptive. `the-lamplighter.md`, not `lamplighter.md` or `The_Lamplighter.md`.
 
-### Step 6: Spawn Namer Tasks
+### Step 6: Spawn Judge Tasks
 
-For each seed file, create a Namer task on the `soul-factory` board:
+For each seed file, create a Judge task on the `soul-factory` board:
 
 ```
-Title: Namer <seed-label>
-Assignee: soul-namer
+Title: Judge <seed-label>
+Assignee: soul-judge
 Workspace: workspace_kind: "dir", workspace_path: "/home/kimbo/projects/soul-repository"
-Body: Include the seed file content, reference the Namer instructions (`references/stage-namer.md`), and the archetype name.
+Body: Input seed file path + reference the Judge instructions (`references/stage-judge.md`). One line, mechanics only — the Judge reads the ledger itself.
 ```
 
-**One Namer task per seed.** Do not batch multiple seeds into one task.
+**One Judge task per seed.** Do not batch multiple seeds into one task. Do not spawn Namer tasks directly — the Judge gates the seed in and propagates the chain (v5.3.8: the taste gate between scout and forge; your seeds may be killed on taste before anyone names them, and that is the job working, not failing).
 
 ### Step 7: No Map Update
 
