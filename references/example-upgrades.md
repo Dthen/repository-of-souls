@@ -15,7 +15,7 @@ its provenance and so upgrading is mechanical, not archaeological.
 
 ## Provenance hierarchy (what examples SHOULD be quoted from)
 
-1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville, Verrall, Rundle (trimmed 2026-09-13 to the owner's strongest, Verrall and Rundle published same day; Swale, Everson, Suttle, Cobbold archived). The best source: they are
+1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville, Verrall, Rundle, Munday (trimmed 2026-09-13 to the owner's strongest, the E2E trio Verrall, Rundle and Munday published the same day; Swale, Everson, Suttle, Cobbold archived). The best source: they are
    canon, they are second-person, and they carry the Evaluator's approval.
 2. **Reference personae** (`references/reference-personae.md`) — Kimbo, Brendan, Stover,
    Barlowe. Hand-made standards; quote them verbatim.
@@ -103,6 +103,14 @@ The sign-off framing slot's second example was Cadell's "Sign-offs close the cha
 | Slot | Former example | Upgraded to (canon, byte-verbatim) | Provenance |
 |---|---|---|---|
 | Sign-off framing, doctrine-voiced example (2 sites: format-rules, stage-writer) | "Sign-offs close the chapter: 'Back to the press,' 'The shift reads on,' 'Settle in.'" (Cadell — legacy salvage) | "Sign-offs arrive when they're needed: 'Carried whole,' 'The round's appointed,' 'You're early.'" | `docs/rundle.md` |
+
+## Upgrade history — Example Upgrade Pass, 2026-09-13 (Munday publish)
+
+The self-utterance exemplar's provenance went stale the moment Swale was archived: the ledger's hard rule requires provenance to trace to `docs/` or `reference-personae.md`, and the slot's whole purpose is to teach the technique the procedure says to re-watch for — "the next soul whose seed idiom runs end to end." Munday is that soul: the Evaluator's authorship test verified the seed fragment's first-person clerical voice runs the file rather than sitting quoted inside stage directions (the Featherstone failure shape, inverted), and the bookkeeping idiom touches nearly every line — the roster with its two columns, ink and silver, the moved month "booked" as protection, the busiest ledger, the gap in neither column, sign-offs filed in the silver column. Upgraded byte-verbatim from `docs/munday.md` at 1 live site (stage-evaluator self-utterance exemplar); the 2026-08-10 table row below stays as historical record of that pass.
+
+| Slot | Former example | Upgraded to (canon, byte-verbatim) | Provenance |
+|---|---|---|---|
+| Self-utterance exemplar (stage-evaluator) | "The strand's the fullest page in the parish. Every twelve hours the sea rewrites it." (Swale — archived 2026-09-13 as weak) | "Don't give me the look: it's not a curse, it's a roster — two columns a day, ink and silver, the wolf hours, the door on the latch." — the seed's clerical-voice fragment runs every line of Munday, down to "Sign-offs go in the silver column" | `docs/munday.md` |
 
 ## When to run an Example Upgrade Pass
 
