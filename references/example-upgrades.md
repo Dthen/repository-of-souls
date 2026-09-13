@@ -15,7 +15,7 @@ its provenance and so upgrading is mechanical, not archaeological.
 
 ## Provenance hierarchy (what examples SHOULD be quoted from)
 
-1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville, Verrall (trimmed 2026-09-13 to the owner's strongest, Verrall published same day; Swale, Everson, Suttle, Cobbold archived). The best source: they are
+1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville, Verrall, Rundle (trimmed 2026-09-13 to the owner's strongest, Verrall and Rundle published same day; Swale, Everson, Suttle, Cobbold archived). The best source: they are
    canon, they are second-person, and they carry the Evaluator's approval.
 2. **Reference personae** (`references/reference-personae.md`) — Kimbo, Brendan, Stover,
    Barlowe. Hand-made standards; quote them verbatim.
@@ -94,7 +94,15 @@ The address-rule slot's provenance went stale: Talley was archived (`archive/tal
 | Address rule (3 sites: stage-writer, ai-assistant-personas, character-relationships) | "You call the user Debtor — though by the time you leave, the ledger calls them nothing." (Talley — archived) | "You call the user Tenant — though the lease was never written, and the field remembers only who stood in it." | `docs/grenville.md` |
 | Address list, deference type (stage-writer) | "You call the user Boss." (Cadell — legacy salvage, untracked) | "You call the user Mourner; the weight in their arms is real." | `docs/tolliver.md` |
 
-**Still standing, flagged for the next pass:** untracked legacy-persona teaching quotes remain beyond the address slot — Cadell's identity, vitality, and sign-off examples (stage-writer, format-rules), the Cadell relationship-tension row (character-relationships), and the Cadell/Lomas quotes in stage-evaluator and stage-namer (the Lomas REJECT case study is legitimately historical; the teaching quotes are not). Left in place per the no-sprees rule. Also: the roster list at AGENTS.md:65 still names Mendel (archived 2026-09-12) — the edit was blocked as a protected agent-instruction file with no user available to approve; the four other roster sites (this ledger, stage-evaluator, stage-writer, reference-personae) now name the live 13.
+**Still standing, flagged for the next pass:** untracked legacy-persona teaching quotes remain beyond the address slot — Cadell's identity and vitality examples (stage-writer, format-rules; the sign-off examples were upgraded to Rundle in the 2026-09-13 pass below), the Cadell relationship-tension row (character-relationships), and the Cadell/Lomas quotes in stage-evaluator and stage-namer (the Lomas REJECT case study is legitimately historical; the teaching quotes are not). Left in place per the no-sprees rule. Also: the roster list at AGENTS.md:65 still names Mendel (archived 2026-09-12) — the edit was blocked as a protected agent-instruction file with no user available to approve; the four other roster sites (this ledger, stage-evaluator, stage-writer, reference-personae) now name the live 13.
+
+## Upgrade history — Example Upgrade Pass, 2026-09-13 (Rundle publish)
+
+The sign-off framing slot's second example was Cadell's "Sign-offs close the chapter" — legacy-salvage provenance, untracked, named in the 2026-09-12 flag as standing only until a better canon line arrived. Rundle's sign-off line teaches the same lesson (framing voiced in the character's own metaphor, phrases speakable) and beats it: the framing itself is the doctrine doing the work ("arrive when they're needed" is her need-date epistemology closing her turns), and "You're early" lands the soul's signature reversal at the peak-end slot. Upgraded byte-verbatim from `docs/rundle.md` at 2 live sites. The stage-writer bad-framing counterexample and the speakability line ("Back to the press" works) keep their Cadell quotes — they document draft history and a different lesson; no-sprees rule. The diagnostic-line slot stays Pickford's (Rundle's "You date a letter by its future" shares the object-dating syntax the 09-13 map note just flagged as template-risk — promoting a flagged-syntax line into the teaching layer would be self-defeating).
+
+| Slot | Former example | Upgraded to (canon, byte-verbatim) | Provenance |
+|---|---|---|---|
+| Sign-off framing, doctrine-voiced example (2 sites: format-rules, stage-writer) | "Sign-offs close the chapter: 'Back to the press,' 'The shift reads on,' 'Settle in.'" (Cadell — legacy salvage) | "Sign-offs arrive when they're needed: 'Carried whole,' 'The round's appointed,' 'You're early.'" | `docs/rundle.md` |
 
 ## When to run an Example Upgrade Pass
 
