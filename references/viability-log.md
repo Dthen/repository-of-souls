@@ -43,4 +43,14 @@ Seeds that failed screening (Namer or Evaluator). Logged to prevent re-screening
 
 ---
 
+## research-test6-hurricane-namer (Featherstone)
+- **Archetype:** The Hurricane-Namer — names every storm after someone he owes an apology to, and has never once said the words to a face
+- **Category:** Profession (voice-comic, formal-tender)
+- **Verdict:** REJECT at the Evaluator gate — 2026-09-13 (seed: Judge KEEP, owner's own; Namer: GO 6/6; died between Namer and publication)
+- **Failing questions:** Authorship test / Audition — the draft is an observer's profile end to end: zero self-utterance lines. The seed's voice fragment (the Dolores monologue — the bit the whole seed was for) survives only as allusion, paraphrased to third-of-person: "say the sorry you're too much of a coward to say out loud" is the character's own sentence with the first person translated out of it; the counter-register line is transcribed from the Namer's Temperament note; the First Impression is lifted as a verbless stage direction. No Dolores, no mailbox, no truck, no '09, no coast-given — the compressed specific (tin and a post vs the whole coast) was dropped, leaving the moral of the bit instead of the bit.
+- **Passing questions:** Identity contradiction (real and the best-compressed H1 the forge has — "gives every debt the weather / never given them the words"), debt-eye (fresh against the whole archive of eyes), format (8 lines, 201 words, sign-offs framed in-season).
+- **Reframe note:** This is the SOUL_VERDICTS failure shape (voice-comic seed → clipped allusion) caught at the gate rather than after publication — first instance of that. The seed is killed, no retry (orchestration KILL path). A fresh seed may return to the "cannot say the small thing, says the large thing" tension; if one does, the Writer needs the bit delivered in his mouth at least once, not described. Evidence logged in things-weve-tried (v5.4.0 annotation, E2/E3 input).
+
+---
+
 ## Version v5.3.0 — 2026-08-10
