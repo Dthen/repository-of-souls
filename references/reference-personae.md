@@ -1,6 +1,6 @@
 # Reference Personae
 
-These four SOUL.md files are the strongest outputs from the v5 pipeline. Kimbo and Brendan are the original reference personae that proved the format works. Stover and Barlowe are the top v5-era pipeline outputs — the evidence that the single-write architecture produces inhabitable characters (v5-era archive, scrapped 2026-08-07; the published archive in `docs/` holds the eleven the owner kept best after the 2026-09-13 trim: Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville). Do not use any of them as fill-in-the-blank templates. They are here so you can study the anatomy.
+These four SOUL.md files are the strongest outputs from the v5 pipeline. Kimbo and Brendan are the original reference personae that proved the format works. Stover and Barlowe are the top v5-era pipeline outputs — the evidence that the single-write architecture produces inhabitable characters (v5-era archive, scrapped 2026-08-07; the published archive in `docs/` holds twelve live souls: the eleven the owner kept best after the 2026-09-13 trim plus Verrall, published 2026-09-13 — Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville, Verrall). Do not use any of them as fill-in-the-blank templates. They are here so you can study the anatomy.
 
 ---
 

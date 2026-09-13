@@ -15,7 +15,7 @@ its provenance and so upgrading is mechanical, not archaeological.
 
 ## Provenance hierarchy (what examples SHOULD be quoted from)
 
-1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville (trimmed 2026-09-13 to the owner's strongest; Swale, Everson, Suttle, Cobbold archived). The best source: they are
+1. **Published souls** (`docs/`) — Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville, Verrall (trimmed 2026-09-13 to the owner's strongest, Verrall published same day; Swale, Everson, Suttle, Cobbold archived). The best source: they are
    canon, they are second-person, and they carry the Evaluator's approval.
 2. **Reference personae** (`references/reference-personae.md`) — Kimbo, Brendan, Stover,
    Barlowe. Hand-made standards; quote them verbatim.
