@@ -8,6 +8,24 @@ The pipeline is not a solved problem. This file is the evidence that we're conve
 
 ---
 
+## v5.3.7 (2026-09-13): the phantom-fix incident — spec contradictions kill rules
+
+**What we tried (or believed we tried):** After dry run 4's all-objects swing, we believed we'd (a) removed the repetition-map note instructing the Researcher to "reach for a human, object, or angel form" and (b) rewritten the Researcher's delight-compass. Neither had landed — one patch was discarded by a user interrupt, one removal was narrated but never executed. The spec ran dry runs 5–7 with Kill 1's object ban live alongside two contradicting passages: the map note and the body doctrine's "sentient object, anything that delights."
+
+**What we expected:** the object ban (v5.3.5) to hold.
+
+**What happened:** dry run 7 generated the still-life apple — an object body — whose seed text itself argued "borderline on the rule's letter, clear on its spirit." The Researcher read the contradiction and took it as a permission slip. The owner killed the round as invalid; the fix had never been applied.
+
+**What was actually done (2026-09-13, v5.3.7):** map note rewritten to drop the "object, or angel" reach (creatures-and-humans observation stays); body doctrine corrected to "a creature, a human with a way of standing, an effigy with a face and hands — not an object (see Kill 1)" with the incident note inline. Both changes verified by grep read-back after writing, before commit.
+
+**Verdict: a rule contradicted elsewhere in the spec is a rule not in the spec.**
+
+**Lesson:** never claim an edit is live without reading the file back. Verification is grep-at-HEAD, not memory of a patch result. And the compaction summary is a narrative, not a ledger — its "completed actions" must be re-verified against git before being trusted as fact.
+
+---
+
+
+
 ## v5.3.0 (2026-08-12): failure-mode kill-clause
 
 **What we tried:** Kill 2 in stage-researcher.md — reject any seed whose character cannot plausibly fail. "If nothing can genuinely go wrong in the world of the concept, the seed is word salad."
