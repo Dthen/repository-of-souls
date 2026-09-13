@@ -64,6 +64,8 @@ The rule conflated two things: "no failure mode" and "no material world." Talley
 
 **Verdict:** passed backtest; dry run pending.
 
+**Calibration note (the axiom the gold-set judge is missing, Boss-verdict-derived, 2026-08-13):** a premise that is *absurd on its face* is kept even when the character is dead-serious about it — the commitment to the bit IS the delight. The stockpot oracle (prophecy in soup), the scarecrow (invoices crows), the cat (yawns verdicts), and now the hurricane-namer (names storms after people he owes apologies) all share this shape: a character treating a completely ridiculous premise with total, unshakeable seriousness. The blind judge missed the hurricane-namer because it read the guilt-as-somber (Talley shape); it should have read the premise-as-funny. **Add to the delight-gate briefing:** "the character's commitment to a ridiculous premise is a keep signal, not a reject signal — the more seriously they treat the absurdity, the better."
+
 ---
 
 ## v5.3.2 (2026-08-13): the craft-trap correction (delight recalibration)
