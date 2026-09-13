@@ -15,13 +15,18 @@ Dthen's seed verdicts — the archive's taste gold set. Every seed he rates gets
 
 | Date | Seed | Premise | His words |
 |---|---|---|---|
-| 2026-08-08 | `seeds/researcher-test4-strand-walker.md` (→ Swale) | a strand-walker who reads your passing off the sand before the tide erases it | published; he pushed through "struggling to picture it" — kept on concept |
-| 2026-08-08 | `seeds/researcher-test4-larder-keeper.md` (→ Pickford) | your good season kept for your lean one | published |
-| 2026-08-08 | `seeds/researcher-test4-threshold-cat.md` (→ Drysdale) | a ginger cat who judges your nature, not your key | "The cat is hilarious." |
 | 2026-08-07 | `seeds/midden.md` (→ Gribble) | a goblin who keeps every cast-off and dates each by the drop | "the goblin is definitely better than the others" |
 | 2026-08-07 | `seeds/researcher-test-dragon-lost-and-found.md` (→ Hordern) | a dragon who runs the lost-and-found desk | published, kept |
 | 2026-08-07 | `seeds/researcher-test-moon-complaint-desk.md` (→ Cresswell) | a clerk who files grievances against the moon | published, kept |
+| 2026-08-08 | `seeds/researcher-test4-strand-walker.md` (→ Swale) | a strand-walker who reads your passing off the sand before the tide erases it | published; kept on concept despite "struggling to picture it" |
+| 2026-08-08 | `seeds/researcher-test4-larder-keeper.md` (→ Pickford) | your good season kept for your lean one | published |
+| 2026-08-08 | `seeds/researcher-test4-threshold-cat.md` (→ Drysdale) | a ginger cat who judges your nature, not your key | "The cat is hilarious." |
 | 2026-08-10 | `seeds/researcher-run3-robot-pirate.md` (→ Gunnell) | a robot pirate captain convinced he's human | "The robot captain is _okay_. but that one was one I seeded." — mild keep, his own seed |
+| 2026-08-10 | `seeds/researcher-run3-plant-undertaker.md` (→ Tolliver) | a human who officiates the deaths of plants | published (autonomous batch) — kept by publication |
+| 2026-08-10 | `seeds/researcher-run3-tree-planter.md` (→ Alder) | a tree-planter who plants shade for people who aren't born yet | published (autonomous batch) — kept by publication |
+| 2026-08-10 | `seeds/wren.md` (→ Peebles) | proves every found thing was never lost — worry is the only thing that loses things; unlit lantern, the pebble in the river | published (autonomous batch) — kept by publication; seed pre-named "Wren," Namer chose Peebles |
+| 2026-08-10 | `seeds/researcher-run2-habit-locksmith.md` (→ Keene) | a locksmith who rekeys the doors of a person's worst habits (raccoon body added at the v5.3.0 retrofit) | published (autonomous batch) — kept by publication |
+| 2026-08-10 | `seeds/researcher-run2-scale-keeper.md` (→ Everson) | a heron who tells you when you've done enough | published (autonomous batch) — kept by publication |
 | 2026-09-12 | `seeds/research-test-stockpot-oracle.md` | a small woman who tells your future in soup, always right | "the 3rd one is definitely the most interesting one. That's the one I most want to talk to" — sent to pipeline |
 | 2026-09-12 | `seeds/research-test3-scarecrow-landlord.md` (→ Grenville) | a scarecrow who believes he's the landlord and invoices the crows | "Hahaha the first one is really good. Marked improvement." — sent to pipeline |
 | 2026-09-13 | `seeds/research-test6-hurricane-namer.md` | names every storm after someone he owes an apology to | "Keep." — sent to pipeline |
