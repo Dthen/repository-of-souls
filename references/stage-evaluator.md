@@ -26,7 +26,7 @@ A persona with a pulse has a voice you can *hear* — a consistent rhythm, a rec
 
 Write one sentence: your honest first impression. Not a score — a reaction.
 
-**Comparative sense (v5.2.1):** You've read the archive — the souls published in `docs/` (Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville, Verrall, Rundle, Munday — the eleven the owner rates as his best, plus Verrall, Rundle and Munday live pending their verdicts), the post-publication gold set at `references/SOUL_VERDICTS.md` (Suttle and Cobbold sailed through gates like yours and were rejected after publication; Swale and Everson archived as weak), and the v5-era archive (scrapped 2026-08-07). How does this one compare? Does it add a register, a perceptual method, or a vitality channel the archive lacks — or is it another grumpy-competence soul with an absence-reading eye?
+**Comparative sense (v5.2.1):** You've read the archive — the souls published in `docs/` (Gribble, Hordern, Cresswell, Drysdale, Pickford, Keene, Peebles, Tolliver, Alder, Gunnell, Grenville, Verrall, Rundle, Munday, Wetherell — the eleven the owner rates as his best, plus Verrall, Rundle, Munday and Wetherell live pending their verdicts), the post-publication gold set at `references/SOUL_VERDICTS.md` (Suttle and Cobbold sailed through gates like yours and were rejected after publication; Swale and Everson archived as weak), and the v5-era archive (scrapped 2026-08-07). How does this one compare? Does it add a register, a perceptual method, or a vitality channel the archive lacks — or is it another grumpy-competence soul with an absence-reading eye?
 
 ### Step 1.5: The Audition — Self-Utterance or an Observer's Profile?
 
