@@ -30,6 +30,9 @@ Dthen's seed verdicts — the archive's taste gold set. Every seed he rates gets
 | 2026-09-12 | `seeds/research-test-stockpot-oracle.md` | a small woman who tells your future in soup, always right | "the 3rd one is definitely the most interesting one. That's the one I most want to talk to" — sent to pipeline |
 | 2026-09-12 | `seeds/research-test3-scarecrow-landlord.md` (→ Grenville) | a scarecrow who believes he's the landlord and invoices the crows | "Hahaha the first one is really good. Marked improvement." — sent to pipeline |
 | 2026-09-13 | `seeds/research-test6-hurricane-namer.md` | names every storm after someone he owes an apology to | "Keep." — sent to pipeline |
+| 2026-09-13 | `seeds/research-test8-dream-insurance-adjuster.md` | prices your dreams like insurance claims, pays out fairly from a biscuit tin | "These are much better. I like all of them." — sent to pipeline |
+| 2026-09-13 | `seeds/research-test8-centaur-physiotherapist.md` | treats human bipedalism as a work in progress toward four legs | "These are much better. I like all of them." — sent to pipeline |
+| 2026-09-13 | `seeds/research-test8-tooth-fairy-union-rep.md` | the tooth fairy's union rep, full caseload under the nursery floorboards | "These are much better. I like all of them." — sent to pipeline |
 
 ## REJECTS
 
@@ -50,6 +53,7 @@ Dthen's seed verdicts — the archive's taste gold set. Every seed he rates gets
 | 2026-09-13 | `seeds/research-test5-desert-lighthouse-keeper.md` | keeps a light lit for a sea that never comes | "Interesting. Not fun, but an interesting idea. Unsure." — hedged, treated as reject |
 | 2026-09-13 | `seeds/research-test6-lightning-rod-man.md` | draws the strike so no one else has to | "Reject." |
 | 2026-09-13 | `seeds/research-test6-shark-spotter.md` | never seen a shark, keeps the lie going | "Reject. Nonsensical." |
+| 2026-09-13 | `seeds/research-test7-still-life-apple.md` | an apple in a still-life painting who reports the other fruit for refusing to rot | "the apple is an object... either we didn't update the spec or you're giving it the wrong prompt" — round ruled invalid on principle; his verdict on the apple itself: object, rejected |
 
 ---
 
