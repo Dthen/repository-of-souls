@@ -14,16 +14,16 @@ Dthen's verdicts on **souls** (finished drafts), not seeds. Same discipline as t
 | 2026-09-13 | Underhill (dream-insurance adjuster) | ✗ REJECT — killed pre-publication, Publisher blocked | "Let's clear out Underhill and the two other duds." |
 | 2026-09-13 | Swale (strand-walker) | ✗ weak — archived | "It's just Swale and Everson really they're the only two particularly weak ones" |
 | 2026-09-13 | Everson (scale-keeper heron) | ✗ weak — archived | same quote |
-| 2026-09-13 | Featherstone (hurricane-namer) | pending verdict — chain stalled after Writer, restarted same day | (seed was a KEEP) |
-| 2026-09-13 | Wetherell (stockpot oracle) | pending verdict — never drafted, chain restarted same day | (seed: "the one I most want to talk to") |
-| 2026-09-13 | Munday, Verrall, Rundle (E2E trio) | in chain — verdicts due at publication | — |
+| 2026-09-13 | Munday, Verrall, Rundle (E2E trio) + Wetherell (restart) | ✓ KEEP — "hey those aren't too bad to be honest" | all four live in `docs/` |
+| 2026-09-13 | Featherstone (hurricane-namer) | killed at the gate by the Evaluator's new eyes (owner's seed-KEEP; soul never judged — draft lost the monologue) | seed in `reject/` |
 
 ## What the soul-verdicts teach (from his words, 2026-09-13)
 
 - **Seed-KEEP ≠ soul-KEEP.** He kept all three test8 seeds ("I like all of them") and rejected two of the three souls they became. The leak is in the forge, not the scout.
-- **The failure shape is compression, not content.** Voice-comic seeds — where the laugh lives in *how they talk at length* — came out as clipped allusion ("the apology-heel is load-bearing", a noun-phrase where a monologue used to be). Premise-comic souls (Grenville: "invoices the crows") survive compression because the joke is portable in one sentence.
-- **The Evaluator is charmed by the same compression** — its PICKs for all three duds praised exactly the lines the owner found dead. Its exemplar corpus is the clipped-aphorism archive; "rich craft is NOT delight" was never propagated from the Researcher's fix (v5.3.2) down to the draft gate.
+- **The failure shape is compression of LONG-FORM comedy.** The duds (Cobbold, Suttle, Underhill, Featherstone) all had seeds whose joke was a *sustained monologue* — the physio session, the intake patter, the Dolores confession — and the 200-word format turned the bit into allusion. The E1 batch disproves the broad "voice dies" reading: Munday's hair-telling patter and Wetherell's two-beat tellings survived fine, because their comic units fit in a line. Revised: the Writer loses **monologue-as-the-joke**, nothing else.
+- **The Evaluator is charmed by the same compression** — its PICKs for all three test8 duds praised exactly the lines the owner found dead; it caught Featherstone only after SOUL_VERDICTS.md existed. "Rich craft is NOT delight" propagates from recorded verdicts, not from rules.
 - **Batch templates bleed:** the Evaluator's own convergence note — "stopped-jokes counter-register beat now 3 souls deep (Suttle, Cobbold, Underhill)" — three souls from one batch sharing a temperament tic, waved through.
+- **E1 result (evening):** first clean batch — 4/4 new souls kept, "those aren't too bad to be honest." Forge's hit rate on current spec with current gold set: 4-keep, 0-dud. E2 (hand-regen A/B) demoted to optional — hold unless a future monologue-as-the-joke seed dies the Cobbold death.
 
 ---
 
